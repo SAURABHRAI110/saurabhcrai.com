@@ -1,3 +1,22 @@
+body,
+html {
+  /* padding: 0, 0, 0, 100px; */
+  margin: 0px 0px 0px 50px;
+  padding: 0%;
+  box-sizing: border-box;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+}
+
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "circular-bold";
   src: url(~assets/fonts/circularstd-bold.woff2) format("woff2"),
@@ -40,17 +59,88 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  background: #eee;
-  text-align: center;
-  padding-top: 30px;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+
+/* Colours Pallete*/
+
+:root {
+  --primary-color: #fc3a52;
+  --secondary-color: #1c1b20;
 }
 
-.content {
-  margin-top: 100px;
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --dark-blue: #1f2029;
+  --dark-light: #424455;
+  --red: #da2c4d;
+  --yellow: #f8ab37;
+  --grey: #ecedf3;
+}
+
+::-moz-selection {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-shadow: none;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: #fff;
+  text-shadow: none;
+}
+
+
+/* typography */
+
+h1 {
+  font-family: circular-bold;
+  font-size: 80px;
+  line-height: 80px;
+}
+
+p {
+  font-family: circular-book;
+  font-size: 27px;
+  line-height: 42px;
+}
+
+@media screen and (max-width: 1200px) {
+  p {
+    font-size: 23px;
+    line-height: 39px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  h1 {
+    font-size: 70px;
+    line-height: 77px;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+    line-height: 64px;
+
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    line-height: 46px;
+
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 32px;
+  }
 }

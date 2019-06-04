@@ -13,10 +13,12 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/pwa": "^2.6.0",
+    "aos": "^3.0.0-beta.6",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
-    "@nuxtjs/axios": "^5.3.6",
-    "@nuxtjs/pwa": "^2.6.0"
+    "vue-rellax": "^0.1.0"
   },
   "devDependencies": {
     "nodemon": "^1.18.9",

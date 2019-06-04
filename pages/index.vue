@@ -1,6 +1,16 @@
 <template>
   <div>
-    <h2>My Love</h2>
+    <h1>My Love</h1>
+    <div data-aos="slide-up">
+      <img src="~/assets/img/home-people-4.jpg" />
+    </div>
+    <div
+      v-rellax="{
+        speed: -2
+      }"
+    >
+      <img src="~/assets/img/home-people-5.jpg" />
+    </div>
   </div>
 </template>
 
@@ -8,8 +18,4 @@
 export default {}
 </script>
 
-<style>
-* {
-  box-sizing: border-box;
-}
-</style>
+<style scoped></style>

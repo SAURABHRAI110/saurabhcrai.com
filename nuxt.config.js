@@ -24,7 +24,7 @@ export default {
     link: [{
       rel: 'icon',
       type: 'image/x-icon',
-      href: '/favicon.ico'
+      href: '/favicon.ico?v=2'
     }]
   },
 
@@ -32,7 +32,8 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#fff'
+    color: '#fc3a52;',
+    throttle: 0
   },
 
   /*
@@ -43,7 +44,15 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: [{
+      src: '~/plugins/rellax',
+      ssr: false
+    },
+    {
+      src: "~/plugins/aos",
+      ssr: false
+    }
+  ],
 
   /*
    ** Nuxt.js modules
