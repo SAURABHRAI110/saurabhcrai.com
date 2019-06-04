@@ -144,3 +144,62 @@ p {
     line-height: 32px;
   }
 }
+
+
+.outlined {
+  -webkit-text-stroke: 0.6px black;
+  color: transparent;
+}
+
+
+/* Vertical Line */
+
+.vl {
+  border-left: 1px solid #d8d8d8;
+  height: 100vh;
+  position: fixed;
+  z-index: 0;
+  display: block;
+}
+
+.vl1 {
+  left: 20%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.vl2 {
+  left: 51.58%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.vl3 {
+  left: 83%;
+  margin-left: -3px;
+  top: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .vl {
+    display: none;
+  }
+}
+
+
+.contain {
+  /* margin-left: 20%; */
+  margin-right: 19.5%;
+  margin-left: calc(20% - 83px);
+}
+
+
+.nametag-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  font-family: circular-book;
+  font-size: 16px;
+  grid-gap: 10px;
+  white-space: nowrap;
+  padding-top: 30px;
+}
