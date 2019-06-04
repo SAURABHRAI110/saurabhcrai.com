@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "circular-bold";
+  src: url(~assets/fonts/circularstd-bold.woff2) format("woff2"),
+    url(~assets/fonts/circularstd-bold.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "circular-book";
+  src: url(~assets/fonts/circularstd-book.woff2) format("woff2"),
+    url(~assets/fonts/circularstd-book.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "circular-medium";
+  src: url(~assets/fonts/circularstd-medium.woff2) format("woff2"),
+    url(~assets/fonts/circularstd-medium.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "mistral";
+  src: url(~assets/fonts/mistral.woff2) format("woff2"),
+    url(~assets/fonts/mistral.woff) format("woff");
+  font-style: normal;
+}
+
+html {
+  font-family: circular-medium;
+  font-size: 16px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  text-align: center;
+  padding-top: 30px;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  margin-top: 100px;
+}
