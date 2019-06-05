@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p>I love you not</p>
+    <h1>The about page</h1>
   </div>
 </template>
 
