@@ -37,62 +37,79 @@
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
         <div class="bottom-fit">
-          <img src="~assets/img/1.jpg" />
+          <img src="~assets/img/home/1.jpg" />
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/2.jpg" />
+          <img src="~assets/img/home/2.jpg" />
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/3.jpg" />
+          <img src="~assets/img/home/3.jpg" />
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/4.jpg" />
+          <img src="~assets/img/home/4.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1600">
-          <img src="~assets/img/5.jpg" />
+          <img src="~assets/img/home/5.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1700">
-          <img src="~assets/img/6.jpg" />
+          <img src="~assets/img/home/6.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1800">
-          <img src="~assets/img/7.jpg" />
+          <img src="~assets/img/home/7.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1900">
-          <img src="~assets/img/8.jpg" />
+          <img src="~assets/img/home/8.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2000">
-          <img src="~assets/img/9.jpg" />
+          <img src="~assets/img/home/9.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2100">
-          <img src="~assets/img/10.jpg" />
+          <img src="~assets/img/home/10.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2200">
-          <img src="~assets/img/11.jpg" />
+          <img src="~assets/img/home/11.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2300">
-          <img src="~assets/img/12.jpg" />
+          <img src="~assets/img/home/12.jpg" />
         </div>
       </div>
     </section>
+
+    <!-- get to know me -->
+
     <div class="more-about-me">
-      <span class="center-h-v">
-        <nuxt-link to="about">
-          <div class="discover-button-container center-h-v">
-            <div class="discover"></div>
-            <h1 class="discover-text">Get to know me</h1>
-            <svg class="arrow">
-              <polygon data-v-54d0a06a points="2,2 8,5.5 2,10"></polygon>
-            </svg>
-            <img class="plus" src="~assets/svg/plus.svg" />
-          </div>
-        </nuxt-link>
-      </span>
+      <discovermore button-text="get to know me" />
+    </div>
+
+    <!-- Work Thumbnails -->
+
+    <div class="showcase-container-home">
+      <div class="showcase-container-grid">
+        <thumbnail
+          class="item"
+          thumbnail-name="Filming Eye"
+          thumbnail-description="Web, Identity"
+        />
+
+        <thumbnail
+          class="item"
+          thumbnail-name="Feeding Trends"
+          thumbnail-description="Branding, Identity"
+        />
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {}
+import Thumbnail from '~/components/thumbnail'
+import Discovermore from '~/components/discovermore'
+export default {
+  components: {
+    Thumbnail,
+    Discovermore
+  }
+}
 </script>
 
 <style scoped>
