@@ -86,12 +86,32 @@
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <thumbnail
+          v-rellax="{ speed: 4, center: 0.5 }"
           class="item"
           thumbnail-name="Filming Eye"
           thumbnail-description="Web, Identity"
         />
 
         <thumbnail
+          v-rellax="{ speed: -2, center: 0.5 }"
+          class="item"
+          thumbnail-name="Feeding Trends"
+          thumbnail-description="Branding, Identity"
+        />
+        <thumbnail
+          v-rellax="{ speed: 4, center: 0.5 }"
+          class="item"
+          thumbnail-name="Feeding Trends"
+          thumbnail-description="Branding, Identity"
+        />
+        <thumbnail
+          v-rellax="{ speed: -2, center: 0.5 }"
+          class="item"
+          thumbnail-name="Feeding Trends"
+          thumbnail-description="Branding, Identity"
+        />
+        <thumbnail
+          v-rellax="{ speed: 0 }"
           class="item"
           thumbnail-name="Feeding Trends"
           thumbnail-description="Branding, Identity"

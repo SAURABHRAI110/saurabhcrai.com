@@ -66,7 +66,7 @@ export default {
 
 .projects-content {
   position: absolute;
-  /* right: -4%; */
+  right: -4%;
   text-align: right;
   bottom: 12%;
   display: inline-block;

@@ -1,6 +1,373 @@
 <template>
   <div>
-    <h1>The about page</h1>
+    <div class="vl1 vl"></div>
+    <div class="vl2 vl"></div>
+    <div class="vl3 vl"></div>
+    <div class="contain about-hero-section">
+      <h1 class="about-title" data-aos="fade-up" data-aos-duration="2500">
+        <span>It takes a</span>
+        <span class="outlined">lot</span>
+        <br />to make an
+        <span class="outlined">Impression</span>
+        <br />I do it in
+        <span class="outlined">less</span>
+      </h1>
+      <p
+        class="about-para-div about-subtitle"
+        data-aos="fade-up"
+        data-aos-duration="2500"
+        data-aos-delay="1000"
+      >
+        Less is more. Seen my
+        <span style="color:#fc3a52;">Work.</span> It should be enough. Well
+        still not convinced, go along. Watch the
+        <span style="color:#fc3a52;">Showreel.</span>
+      </p>
+
+      <div
+        class="watch-showreel"
+        data-aos="fade-up"
+        data-aos-duration="2500"
+        data-aos-delay="1800"
+      >
+        <div class="hl hl-control2"></div>
+        <!-- <div class="about-vl"></div> -->
+
+        <p>Watch Showreel</p>
+        <svg
+          id="play"
+          version="1.1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          height="70px"
+          width="70px"
+          viewBox="0 0 100 100"
+          enable-background="new 0 0 100 100"
+          xml:space="preserve"
+        >
+          <path
+            class="stroke-solid"
+            fill="none"
+            stroke="#FC3A52"
+            d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+      C97.3,23.7,75.7,2.3,49.9,2.5"
+          ></path>
+          <path
+            class="stroke-dotted"
+            fill="none"
+            stroke="#FC3A52"
+            d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+      C97.3,23.7,75.7,2.3,49.9,2.5"
+          ></path>
+          <path
+            class="icon"
+            fill="#FC3A52"
+            d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"
+          ></path>
+        </svg>
+        <div class="showreel-tiny-image">
+          <img src="projects/ib-wira-dyatmika-115364-unsplash.jpg" alt />
+        </div>
+        <div class="hl hl-control3"></div>
+      </div>
+    </div>
+
+    <div class="about-section2 contain">
+      <div class="me-images">
+        <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
+          <img src="~/assets/img/about/about-me-1.png" />
+        </div>
+        <div v-rellax="{ speed: 1, center: 0.3 }" class="me-image2">
+          <img src="~/assets/img/about/about-me-2.png" />
+        </div>
+        <div v-rellax="{ speed: -2, center: 0.7 }" class="me-image4">
+          <img src="~/assets/img/about/about-me-4.png" />
+        </div>
+        <div v-rellax="{ speed: 3, center: 0.5 }" class="me-image3">
+          <img src="~/assets/img/about/about-me-3.png" />
+        </div>
+      </div>
+    </div>
+
+    <div class="about-section3">
+      <div class="about-me-text contain">
+        <div class="reveal-holder" data-aos="reveal-item">
+          <div class="reveal-block red right" data-aos="reveal-right"></div>
+          <h2 class="info-block-heading primary-color">Hello there!</h2>
+        </div>
+        <p class="para hero-para black70">
+          Yo! I'm Saurabh Rai and I am currently a User experience designer at
+          Feeding Trends and Elevito in Lucknow, India. I consider myself a
+          multi-disciplinary designer as I love making anything, but have
+          recently found a passion in creating thoughtful and enjoyable user
+          experiences through product design.
+        </p>
+        <p class="para hero-para black70">
+          I moved on to study Engineering at Babu Banarasi Das Universiy,
+          Lucknow, and began to grow myskills. Making flyers for college
+          community and friends. Doing logos and branding work for friends and
+          word of mouth clients. Going to college during the day and cranking on
+          design work at night. Engieering led me to development and my passion
+          for design led me to what I am today. I am basically a self taught.
+        </p>
+        <p class="para hero-para black70">
+          <!-- My first “real” gig was interning at a organisation in Lucknow called
+        Lucknow Literature Festival. It’s there I learned to grind…like REALLY
+        crank out work and do it with some quality. We worked with brands like
+        Nintendo, Pepsi, and StateFarm to name a few. I helped with a lot of
+        the print and marketing collateral, but also was able to work on
+        projects for physical experiential events. I taught myself SketchUp (a
+        3D rendering software) and would help my creative director make
+        physical event spaces so that our clients could visualize the
+          experience.-->
+        </p>
+        <p class="para hero-para black70">
+          <!-- After 4 years of that, I moved on to my second gig at a startup called
+        Fullscreen. I worked on branding, marketing collateral, presentation
+        decks for the head honcho, animated & cut videos for sizzles, and
+        eventually landed a product design role with the product team. We made
+        dashboard products for our video creators, and eventually went on to
+        creating a rad subscription video streaming platform. Think: Netflix
+        for millennials. The company is now at around 750 employees and
+          disrupting the digital media space.-->
+        </p>
+        <p class="para hero-para black70">
+          <!-- I finally got the urge to head up to Silicon Valley and get my feet
+        wet in the scene up here. I landed a spot at the professional
+        networking platform, LinkedIn. Where I worked on various enterprise
+        products for our paying members. In October of 2018 I made the move to
+        Lyft where I am working on the future of transportation with
+        incredibly smart and talented people. I am passionate about electric
+        and autonomous vehicles and am optimistic about a future where we
+          build our cities for people rather than for cars.-->
+        </p>
+        <p class="para hero-para black70">
+          I love what I do. The combination of business goals, mixed with human
+          necessity, mixed with solid design is what gets me going every day.
+          Don't hesitate to reach out if you'd like to chat about design, life,
+          or just have a good ol' fashioned conversation.
+        </p>
+
+        <!-- <h2 class="info-block-heading primary-color">
+          Letest Happening
+        </h2>
+        <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script
+        ><iframe
+          src="//lightwidget.com/widgets/2353f9383b105b25a784106860affd33.html"
+          scrolling="no"
+          allowtransparency="true"
+          class="lightwidget-widget"
+          style="width:100%;border:0;overflow:hidden;"
+        ></iframe>-->
+      </div>
+    </div>
+
+    <div class="a-capabilities-section contain">
+      <div class="a-block-left">
+        <div class="reveal-holder" data-aos="reveal-item">
+          <div class="reveal-block red right" data-aos="reveal-right"></div>
+          <p class="para primary-color">Capabilities</p>
+        </div>
+      </div>
+      <div class="a-block-right">
+        <div>
+          <p class="para c-text">User Experience Design</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic.png" />
+        </div>
+        <div>
+          <p class="para c-text">Interactive Experiences</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
+        </div>
+        <div>
+          <p class="para c-text">Brand Identity</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
+        </div>
+        <div>
+          <p class="para c-text">Digital Product Design</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
+        </div>
+        <div>
+          <p class="para c-text">Interactive Prototyping</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
+        </div>
+        <div>
+          <p class="para c-text">Front End Development</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
+        </div>
+        <div>
+          <p class="para c-text">User Experience</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-7.png" />
+        </div>
+        <div>
+          <p class="para c-text">Motion Graphics</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
+        </div>
+        <div>
+          <p class="para c-text">Photography</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
+        </div>
+        <div>
+          <p class="para c-text">Print Design</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
+        </div>
+        <div>
+          <p class="para c-text">Digital, Social Compain\gns</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
+        </div>
+        <div>
+          <p class="para c-text">Coffee Drinking</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
+        </div>
+        <div>
+          <p class="para c-text">2D & 3D Illustration</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
+        </div>
+        <div>
+          <p class="para c-text">& everything in between</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+        </div>
+      </div>
+
+      <div
+        class="c-outline-bg-text outlined rellax"
+        data-rellax-speed="-3.5"
+        data-rellax-percentage="0.2"
+      >
+        Capabilities
+      </div>
+    </div>
+    <div class="a-tools-section contain">
+      <div class="a-block-left">
+        <div class="reveal-holder" data-aos="reveal-item">
+          <div class="reveal-block red right" data-aos="reveal-right"></div>
+          <p class="para primary-color">Tools</p>
+        </div>
+      </div>
+      <div class="a-block-right">
+        <p class="para c-text">Adobe XD</p>
+        <p class="para c-text">After Effects</p>
+        <p class="para c-text">Premiere Pro</p>
+        <p class="para c-text">InVision Studio</p>
+        <p class="para c-text">Just In Mind</p>
+        <p class="para c-text">Photoshop</p>
+        <p class="para c-text">Axure RP</p>
+        <p class="para c-text">Illustrator</p>
+        <p class="para c-text">Cinema 4D</p>
+        <p class="para c-text">Indesign</p>
+      </div>
+      <span
+        class="c-outline-bg-text outlined rellax"
+        data-rellax-speed="-3.5"
+        data-rellax-percentage="0.2"
+        >Tools</span
+      >
+    </div>
+    <div class="a-projects-section contain">
+      <div class="a-block-left">
+        <div class="reveal-holder" data-aos="reveal-item">
+          <div class="reveal-block red right" data-aos="reveal-right"></div>
+          <p class="para primary-color">Few Projects</p>
+        </div>
+      </div>
+      <div class="a-block-right">
+        <div>
+          <p class="para c-text c-text-1">News App</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic.png" />
+        </div>
+        <div>
+          <p class="para c-text">Memantic</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
+        </div>
+        <div>
+          <p class="para c-text">Dreamz</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
+        </div>
+        <div>
+          <p class="para c-text">BharatRohan</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
+        </div>
+        <div>
+          <p class="para c-text">PrepOwl</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
+        </div>
+        <div>
+          <p class="para c-text">Online Doctor</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
+        </div>
+        <div>
+          <p class="para c-text">Feeding Trends</p>
+          <img class="c-pic" src="images/about/c-pic-7.png" />
+        </div>
+        <div>
+          <p class="para c-text">Photography</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
+        </div>
+        <div>
+          <p class="para c-text">The BBD Times</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
+        </div>
+        <div>
+          <p class="para c-text">Happy Miles</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
+        </div>
+        <div>
+          <p class="para c-text">Dear Zindagi</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
+        </div>
+        <div>
+          <p class="para c-text">Filming Eye</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
+        </div>
+        <div>
+          <p class="para c-text">Elevito</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+        </div>
+        <div>
+          <p class="para c-text">Awesome Inc</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-14.png" />
+        </div>
+        <div>
+          <p class="para c-text">Mr. Irritating</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-15.png" />
+        </div>
+        <div>
+          <p class="para c-text">Read Recite Repeat</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-16.png" />
+        </div>
+        <div>
+          <p class="para c-text">TBT App</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-17.png" />
+        </div>
+        <div>
+          <p class="para c-text">Hindigiri</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
+        </div>
+        <div>
+          <p class="para c-text">Projects Academia</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+        </div>
+        <div>
+          <p class="para c-text">Play with Arts</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+        </div>
+        <div>
+          <p class="para c-text">IALSE</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+        </div>
+        <div>
+          <p class="para c-text">and counting</p>
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+        </div>
+      </div>
+      <span
+        class="para c-outline-bg-text outlined rellax"
+        data-rellax-speed="-3.5"
+        data-rellax-percentage="0.2"
+        >Projects</span
+      >
+    </div>
   </div>
 </template>
 
@@ -8,4 +375,350 @@
 export default {}
 </script>
 
-<style></style>
+<style scoped>
+.about-hero-section {
+  /* width: 100%; */
+  min-height: 100vh;
+  position: relative;
+}
+.about-title-div {
+  margin-left: 20%;
+  margin-top: 9%;
+  margin-right: 16%;
+  position: relative;
+}
+
+.about-para-div {
+  margin-left: 0%;
+  margin-top: 4%;
+  margin-right: 13%;
+  margin-bottom: 4%;
+  position: relative;
+}
+
+.about-title {
+  position: relative;
+  line-height: 90px;
+  color: #171717;
+}
+
+.hl {
+  border-top: 1px solid #797979;
+  width: 100%;
+}
+
+.watch-showreel {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.showreel-div {
+  width: 100%;
+  position: absolute;
+}
+
+.hl-control2 {
+  width: 100%;
+  top: 0%;
+  position: absolute;
+  z-index: 2;
+}
+
+.hl-control3 {
+  width: 100%;
+  position: absolute;
+  bottom: 0%;
+}
+
+/* .about-vl {
+  border-left: 1px solid #797979;
+  height: 13vh;
+  position: absolute;
+  left: 50%;
+  margin-left: 2px;
+  z-index: 2;
+} */
+
+.watch-showreel > p {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -webkit-transform: translateY(-130%) translateX(-50%);
+  transform: translateY(-130%) translateX(-50%);
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.stroke-dotted {
+  opacity: 0;
+  stroke-dasharray: 4, 5;
+  stroke-width: 1px;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -webkit-animation: spin 4s infinite linear;
+  animation: spin 4s infinite linear;
+  transition: opacity 1s ease, stroke-width 1s ease;
+}
+
+.stroke-solid {
+  stroke-dashoffset: 0;
+  stroke-dasharray: 300;
+  stroke-width: 2px;
+  transition: stroke-dashoffset 1s ease, opacity 1s ease;
+}
+
+.icon {
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  transition: -webkit-transform 200ms ease-out;
+  transition: transform 200ms ease-out;
+  transition: transform 200ms ease-out, -webkit-transform 200ms ease-out;
+}
+
+#play:hover .stroke-dotted {
+  stroke-width: 3px;
+  opacity: 1;
+}
+
+#play:hover .stroke-solid {
+  opacity: 0;
+  stroke-dashoffset: 300;
+}
+
+#play:hover .icon {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.2);
+}
+
+#play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 12%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.showreel-tiny-image {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  background-color: var(--primary-color);
+  right: 0%;
+}
+
+.showreel-tiny-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Video Play
+.modal-dialog {
+  max-width: 80px;
+  margin: 30px auto;
+}
+
+.modal-body {
+  position: relative;
+  padding: 0px;
+}
+
+.close {
+  position: absolute;
+  right: -30px;
+  top: 0;
+  z-index: 999;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #fff;
+  opacity: 1;
+} */
+
+.about-section2 {
+  height: 80vh;
+  /* width: 100%;
+  position: relative;*/
+  padding-top: 40px;
+}
+
+.me-images {
+  width: 65%;
+  left: 19%;
+  background-color: white;
+  height: auto;
+  position: absolute;
+}
+
+.me-image1 {
+  width: 80%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.me-image2 {
+  width: 25%;
+  padding-top: 33%;
+  left: 51%;
+  position: absolute;
+}
+
+.me-image3 {
+  width: 22%;
+  position: absolute;
+  padding-top: 43%;
+  right: 0%;
+}
+
+.me-image4 {
+  width: 18%;
+  position: absolute;
+  padding-top: 23.5%;
+  left: 82%;
+}
+
+.me-images > div > img {
+  width: 100%;
+}
+
+.about-section3 {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.about-me-text {
+  position: relative;
+  /* margin-left: 20%; */
+  margin-top: 4%;
+  /* margin-right: 18%; */
+  margin-bottom: 4%;
+}
+
+.a-capabilities-section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+}
+
+.a-block-left {
+  width: 34.5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  z-index: 2;
+}
+
+.a-block-right {
+  margin-top: 4%;
+  margin-right: 17%;
+  margin-bottom: 3%;
+  width: 31.5%;
+  z-index: 2;
+  overflow: HIDDEN;
+}
+
+.c-text {
+  position: relative;
+  line-height: 20px;
+
+  transition: all 0.2s ease-in-out;
+}
+
+.c-text::before {
+  content: '';
+  height: 1.5px;
+  background-color: #242424;
+  width: 0px;
+  margin-left: -20px;
+  position: absolute;
+  margin-top: 10px;
+  transition: width 0.3s;
+}
+
+.c-text::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  height: 1.5px;
+  top: 50%;
+  width: 0px;
+  background-color: black;
+  transition: width 0.3s;
+  overflow: hidden;
+}
+
+/* .c-text::after {
+  right: -100%;
+  margin-right: 0;
+  -webkit-transition: right 0.2s ease-in-out;
+  transition: right 0.2s ease-in-out;
+} */
+.c-text:hover::before {
+  width: 20px;
+}
+
+.c-text:hover::after {
+  width: 80%;
+  overflow: hidden;
+}
+
+.c-text:hover {
+  padding-left: 20px;
+  cursor: pointer;
+}
+
+.c-pic {
+  position: absolute;
+  width: 20%;
+  top: 20%;
+  left: 20%;
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 400ms;
+}
+
+.c-text:hover + .c-pic {
+  opacity: 1;
+}
+
+.c-outline-bg-text {
+  width: 100%;
+  text-align: center;
+
+  font-size: 200px;
+  position: absolute;
+  opacity: 0.2;
+}
+
+.c-text2:hover + .c-outline-bg-text {
+  opacity: 1;
+}
+
+.a-tools-section {
+  width: 100%;
+  /* height: auto; */
+  display: flex;
+  position: relative;
+}
+
+.a-projects-section {
+  width: 100%;
+  /* height: auto; */
+  display: flex;
+  position: relative;
+}
+</style>
