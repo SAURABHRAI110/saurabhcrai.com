@@ -2,21 +2,7 @@
   <div class="nav-container">
     <logo />
     <ul>
-      <li>
-        <nuxt-link to="/">Home</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="showcase">Showcase</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="people">People</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="blog">Blog</nuxt-link>
-      </li>
-      <li>
-        <nuxt-link to="about">About</nuxt-link>
-      </li>
+      <menu />
     </ul>
   </div>
 </template>
