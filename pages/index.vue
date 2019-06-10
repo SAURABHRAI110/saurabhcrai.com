@@ -86,35 +86,13 @@
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <thumbnail
+          v-for="(card, index) in card"
+          :key="index"
           v-rellax="{ speed: 4, center: 0.5 }"
           class="item"
-          thumbnail-name="Filming Eye"
-          thumbnail-description="Web, Identity"
-        />
-
-        <thumbnail
-          v-rellax="{ speed: -2, center: 0.5 }"
-          class="item"
-          thumbnail-name="Feeding Trends"
-          thumbnail-description="Branding, Identity"
-        />
-        <thumbnail
-          v-rellax="{ speed: 4, center: 0.5 }"
-          class="item"
-          thumbnail-name="Feeding Trends"
-          thumbnail-description="Branding, Identity"
-        />
-        <thumbnail
-          v-rellax="{ speed: -2, center: 0.5 }"
-          class="item"
-          thumbnail-name="Feeding Trends"
-          thumbnail-description="Branding, Identity"
-        />
-        <thumbnail
-          v-rellax="{ speed: 0 }"
-          class="item"
-          thumbnail-name="Feeding Trends"
-          thumbnail-description="Branding, Identity"
+          :thumbnail-name="card.thumbnailName"
+          :thumbnail-description="card.thumbnailDescription"
+          :thumbnail="card.thumbnailImage"
         />
       </div>
     </div>
@@ -129,6 +107,22 @@ export default {
   components: {
     Thumbnail,
     Discovermore
+  },
+  data() {
+    return {
+      card: [
+        {
+          thumbnailName: 'Filming Eye',
+          thumbnailDescription: 'Web, Identity',
+          thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
+        },
+        {
+          thumbnailName: 'Filming Eye',
+          thumbnailDescription: 'Web, Identity',
+          thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
+        }
+      ]
+    }
   }
 }
 </script>

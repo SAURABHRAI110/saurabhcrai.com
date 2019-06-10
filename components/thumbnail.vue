@@ -5,7 +5,7 @@
         <div class="projects-card-wrapper">
           <div class="projects-card"></div>
           <div class="projects-image">
-            <img :src="require('~/assets/img/thumbnail/showcase1.jpg')" />
+            <img :src="thumbnail" />
           </div>
         </div>
         <div class="projects-content">
@@ -21,7 +21,8 @@
 export default {
   props: {
     thumbnailName: String,
-    thumbnailDescription: String
+    thumbnailDescription: String,
+    thumbnail: String
   }
 }
 </script>
