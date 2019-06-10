@@ -102,7 +102,6 @@
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
-import Menu from '~/components/menu'
 export default {
   components: {
     Thumbnail,
@@ -114,12 +113,22 @@ export default {
         {
           thumbnailName: 'Filming Eye',
           thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
+          thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
         },
         {
-          thumbnailName: 'Filming Eye',
+          thumbnailName: 'Art',
           thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
+          thumbnailImage: require('~/assets/img/thumbnail/showcase7.jpg')
+        },
+        {
+          thumbnailName: 'Art',
+          thumbnailDescription: 'Web, Identity',
+          thumbnailImage: require('~/assets/img/thumbnail/showcase8.jpg')
+        },
+        {
+          thumbnailName: 'Art',
+          thumbnailDescription: 'Web, Identity',
+          thumbnailImage: require('~/assets/img/thumbnail/showcase8.jpg')
         }
       ]
     }

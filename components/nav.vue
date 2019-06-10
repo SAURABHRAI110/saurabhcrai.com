@@ -1,19 +1,15 @@
 <template>
   <div class="nav-container">
     <logo />
-    <ul>
-      <menu />
-    </ul>
+    <ul></ul>
   </div>
 </template>
 
 <script>
 import Logo from '~/components/logo'
-import Menu from '~/components/menu'
 export default {
   components: {
-    Logo,
-    Menu
+    Logo
   }
 }
 </script>
