@@ -44,7 +44,7 @@
 export default {}
 </script>
 
-<style scoped>
+<style>
 main {
   height: 100%;
   position: relative;

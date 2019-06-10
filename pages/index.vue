@@ -124,6 +124,7 @@
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
+import Menu from '~/components/menu'
 export default {
   components: {
     Thumbnail,

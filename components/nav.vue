@@ -9,9 +9,11 @@
 
 <script>
 import Logo from '~/components/logo'
+import Menu from '~/components/menu'
 export default {
   components: {
-    Logo
+    Logo,
+    Menu
   }
 }
 </script>
