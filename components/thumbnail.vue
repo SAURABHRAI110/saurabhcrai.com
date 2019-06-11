@@ -1,16 +1,18 @@
 <template>
   <div>
     <nuxt-link to>
-      <div class="projects-wrapper item1">
-        <div class="projects-card-wrapper">
-          <div class="projects-card"></div>
-          <div class="projects-image">
-            <img :src="thumbnail" />
+      <div class="projects-wrapper-top">
+        <div class="projects-wrapper item1">
+          <div class="projects-card-wrapper">
+            <div class="projects-card"></div>
+            <div class="projects-image">
+              <img :src="thumbnail" />
+            </div>
           </div>
-        </div>
-        <div class="projects-content">
-          <h3 class="type-sub2">{{ thumbnailName }}</h3>
-          <p class="type-sub3">{{ thumbnailDescription }}</p>
+          <div class="projects-content">
+            <h3 class="type-sub2">{{ thumbnailName }}</h3>
+            <p class="type-sub3">{{ thumbnailDescription }}</p>
+          </div>
         </div>
       </div>
     </nuxt-link>
@@ -35,7 +37,7 @@ export default {
   width: 100%;
   height: 100%;
   perspective: 1000px;
-  margin-bottom: 38px;
+
   background-color: white;
 }
 
@@ -47,7 +49,7 @@ export default {
 
 .projects-card-wrapper {
   position: relative;
-  cursor: pointer;
+  cursor: url ('~/assets/ncursor.svg');
   border-radius: 0.1rem;
   overflow: hidden;
 }
@@ -76,6 +78,7 @@ export default {
   white-space: nowrap;
   opacity: 1;
   transition: all 0.45s cucubic-bezier(0.475, 0.425, 0, 0.995);
+  color: rgb(31, 31, 31);
 }
 
 .type-sub2 {
@@ -94,12 +97,12 @@ export default {
 }
 
 /* animate */
-.projects-card-wrapper:hover {
+.projects-wrapper-top:hover .projects-card-wrapper {
   transition-delay: 100ms;
   transform: scale(0.95) rotateY(-9deg);
 }
 
-.projects-card-wrapper:hover .projects-image {
+.projects-wrapper-top:hover .projects-card-wrapper .projects-image {
   transition-delay: 200ms;
   transform: scale(1);
 }

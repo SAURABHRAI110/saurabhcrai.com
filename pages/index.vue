@@ -80,15 +80,39 @@
     <div class="more-about-me">
       <discovermore button-text="get to know me" />
     </div>
+    <!-- Showcase video and parallax -->
+    <div class="h-showreel">
+      <parallax :speed-factor="0.3">
+        <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg" />
+      </parallax>
+    </div>
+    <!-- Work Heading -->
+    <div class="h-work_heading contain">
+      <h1>
+        A Small
+        <br />Selection of my
+        <br />
+        <span class="outlined">Work</span>
+        I Enjoy.
+      </h1>
+      <p>
+        Some of my selceted work or I say case study so that you
+        <br />can understand my process and how I work.
+      </p>
+    </div>
+
+    <!-- <div class="contain h-work_heading">
+      <h2>Featured Work</h2>
+    </div>-->
 
     <!-- Work Thumbnails -->
+    <!-- v-rellax="{ speed: 4, center: 0.5 }" -->
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <thumbnail
           v-for="(card, index) in card"
           :key="index"
-          v-rellax="{ speed: 4, center: 0.5 }"
           class="item"
           :thumbnail-name="card.thumbnailName"
           :thumbnail-description="card.thumbnailDescription"
@@ -102,10 +126,12 @@
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
+import Parallax from 'vue-parallaxy'
 export default {
   components: {
     Thumbnail,
-    Discovermore
+    Discovermore,
+    Parallax
   },
   data() {
     return {
@@ -197,5 +223,10 @@ export default {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.h-work_heading {
+  padding: 40px 0px 40px 0px;
+  white-space: nowrap;
 }
 </style>

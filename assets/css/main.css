@@ -231,6 +231,11 @@ view more work*/
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   width: 100%;
   grid-column-gap: 70px;
+  grid-row-gap: 70px;
+}
+
+.showcase-container-grid:nth-child(2n) {
+  margin-bottom: 38px;
 }
 
 .showcase-container-grid2 {
