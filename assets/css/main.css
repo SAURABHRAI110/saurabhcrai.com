@@ -199,6 +199,13 @@ p {
   margin-left: calc(20% - 83px);
 }
 
+.center-h-v {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 /*  home More Button like 
 get to know me,
