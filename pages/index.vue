@@ -82,9 +82,9 @@
     </div>
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
-      <parallax :speed-factor="0.3">
+      <div class="showreel-bg">
         <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg" />
-      </parallax>
+      </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
         <h1
@@ -179,13 +179,10 @@
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
 
-import Parallax from 'vue-parallaxy'
-
 export default {
   components: {
     Thumbnail,
-    Discovermore,
-    Parallax
+    Discovermore
   },
   data() {
     return {
@@ -296,13 +293,25 @@ export default {
 
 /* showreel */
 
+.h-showreel_container {
+  width: 100%;
+  height: 90vh;
+}
+
+.h-showreel_container > img {
+  width: 100%;
+  object-fit: cover;
+}
+
 .h-showreel {
   position: relative;
+  width: 100%;
+  height: 90vh;
 }
 
 .showreel-overlay {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: black;
   opacity: 0.5;
   position: absolute;
