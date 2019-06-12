@@ -53,6 +53,16 @@ export default {
   border-radius: 50%;
   margin-left: 0%;
   transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation: shadow-pulse 1.5s infinite;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(143, 143, 143, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 0 35px rgba(197, 197, 197, 0);
+  }
 }
 
 .plus {

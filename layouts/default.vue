@@ -2,16 +2,24 @@
   <div>
     <Nav />
     <nuxt />
-    <Footer />
+    <div class="margin-neg">
+      <Footer />
+    </div>
   </div>
 </template>
 <script>
 import Nav from '~/components/nav'
+import Footer from '~/components/footer'
 export default {
   components: {
-    Nav
+    Nav,
+    Footer
   }
 }
 </script>
 
-<style></style>
+<style>
+.margin-neg {
+  margin-left: -100px;
+}
+</style>

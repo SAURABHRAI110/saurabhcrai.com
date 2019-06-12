@@ -166,13 +166,21 @@
         />
       </div>
     </div>
+
+    <!-- view more work -->
+
+    <div class="more-about-me">
+      <discovermore button-text="view more work" />
+    </div>
   </div>
 </template>
 
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
+
 import Parallax from 'vue-parallaxy'
+
 export default {
   components: {
     Thumbnail,
@@ -200,7 +208,17 @@ export default {
         {
           thumbnailName: 'Art',
           thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase8.jpg')
+          thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
+        },
+        {
+          thumbnailName: 'Art',
+          thumbnailDescription: 'Web, Identity',
+          thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
+        },
+        {
+          thumbnailName: 'Art',
+          thumbnailDescription: 'Web, Identity',
+          thumbnailImage: require('~/assets/img/thumbnail/showcase10.jpg')
         }
       ]
     }

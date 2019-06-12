@@ -11,6 +11,15 @@ html {
 }
 
 
+@media screen and (max-width: 999px) {
+
+  body,
+  html {
+    margin: 0px 0px 0px 0px;
+  }
+}
+
+
 *,
 :before,
 :after {
@@ -75,6 +84,14 @@ html {
   --red: #da2c4d;
   --yellow: #f8ab37;
   --grey: #ecedf3;
+}
+
+.black {
+  color: #0a0a0a;
+}
+
+.sayhi-container {
+  font-family: circular-book;
 }
 
 ::-moz-selection {
@@ -166,6 +183,7 @@ p {
   position: fixed;
   z-index: 0;
   display: block;
+  z-index: -1000;
 }
 
 .vl1 {
@@ -221,9 +239,15 @@ view more work*/
 /* work grid */
 .showcase-container-home {
   display: flex;
-  width: 72%;
-  margin-left: calc(15.4% - 50px);
+  width: 77%;
+  margin-left: calc(13% - 50px);
   /* margin-bottom: -150px; */
+}
+
+
+.showreel-heading,
+.showreel-sub-heading {
+  font-family: mistral;
 }
 
 /* .showcase-container {
@@ -238,7 +262,7 @@ view more work*/
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   width: 100%;
   grid-column-gap: 70px;
-  grid-row-gap: 70px;
+  grid-row-gap: 150px;
 }
 
 .showcase-container-grid:nth-child(2n) {
