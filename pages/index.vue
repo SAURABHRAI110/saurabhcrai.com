@@ -6,7 +6,7 @@
 
     <div class="nametag-container contain">
       <div class="h-name" data-aos="fade-up" data-aos-duration="1000">
-        Saurabh Rai
+        <a href="#" style="text-decoration: none">Saurabh Rai</a>
       </div>
       <div class="h-j-title" data-aos="fade-up" data-aos-duration="1400">
         UI/UX Designer | Photographer | Artist

@@ -68,6 +68,10 @@ html {
   box-sizing: border-box;
 }
 
+a:active {
+  color: var(--primary-color)
+}
+
 
 /* Colours Pallete*/
 
