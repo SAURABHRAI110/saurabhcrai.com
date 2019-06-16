@@ -94,6 +94,10 @@ a:active {
   color: #0a0a0a;
 }
 
+.li:active {
+  color: var(--primary-color);
+}
+
 .sayhi-container {
   font-family: circular-book;
 }

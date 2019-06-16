@@ -7,6 +7,11 @@ export default {
    ** Headers of the page
    */
   head: {
+
+    script: [{
+      src: 'gsap/TimelineMax.js'
+    }],
+
     title: pkg.name,
     meta: [{
         charset: 'utf-8'
@@ -40,6 +45,8 @@ export default {
    ** Global CSS
    */
   css: ['@assets/css/main.css'],
+
+
 
   /*
    ** Plugins to load before mounting the App
