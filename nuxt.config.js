@@ -9,8 +9,12 @@ export default {
   head: {
 
     script: [{
-      src: 'gsap/TimelineMax.js'
-    }],
+        src: 'gsap/TimelineMax.js'
+      },
+      {
+        src: ' https://unpkg.com/applause-button/dist/applause-button.js'
+      }
+    ],
 
     title: pkg.name,
     meta: [{
@@ -27,10 +31,15 @@ export default {
       }
     ],
     link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico?v=2'
-    }]
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico?v=2'
+      },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/applause-button/dist/applause-button.css'
+      }
+    ]
   },
 
   /*

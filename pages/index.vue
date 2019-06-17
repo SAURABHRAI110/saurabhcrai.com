@@ -219,6 +219,9 @@
     <div class="more-about-me">
       <discovermore button-text="view more work"/>
     </div>
+    <div class="applause-button_container">
+      <applause-button style="width: 58px; height: 58px;" color="red" multiclap="true"/>
+    </div>
   </div>
 </template>
 
@@ -464,5 +467,15 @@ export default {
   left: 12%;
   -webkit-transform: translateY(-50%) translateX(-50%);
   transform: translateY(-50%) translateX(-50%);
+}
+
+/* applause-button_container */
+
+.applause-button_container {
+  width: 100%;
+  height: 30vh;
+  top: 50%;
+  left: 50%;
+  position: relative;
 }
 </style>

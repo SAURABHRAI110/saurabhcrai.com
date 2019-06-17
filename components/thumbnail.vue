@@ -73,8 +73,15 @@ export default {
   overflow: hidden;
   white-space: nowrap;
   opacity: 1;
-  transition: all 0.45s cucubic-bezier(0.475, 0.425, 0, 0.995);
+  transition: all 0.45s cubic-bezier(0.475, 0.425, 0, 0.995);
   color: rgb(31, 31, 31);
+}
+
+.projects-wrapper-top {
+  transition: all 1s;
+}
+.projects-wrapper-top:hover .projects-content {
+  right: -2%;
 }
 
 .projects-content:active {
