@@ -1,21 +1,17 @@
 <template>
-  <div>
-    <nuxt-link to>
-      <div class="projects-wrapper-top">
-        <div class="projects-wrapper item1">
-          <div class="projects-card-wrapper">
-            <div class="projects-card"></div>
-            <div class="projects-image">
-              <img :src="thumbnail" />
-            </div>
-          </div>
-          <div class="projects-content">
-            <h3 class="type-sub2">{{ thumbnailName }}</h3>
-            <p class="type-sub3">{{ thumbnailDescription }}</p>
-          </div>
+  <div class="projects-wrapper-top">
+    <div class="projects-wrapper item1">
+      <div class="projects-card-wrapper">
+        <div class="projects-card"></div>
+        <div class="projects-image">
+          <img :src="thumbnail">
         </div>
       </div>
-    </nuxt-link>
+      <div class="projects-content">
+        <h3 class="type-sub2">{{ thumbnailName }}</h3>
+        <p class="type-sub3">{{ thumbnailDescription }}</p>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -79,6 +75,10 @@ export default {
   opacity: 1;
   transition: all 0.45s cucubic-bezier(0.475, 0.425, 0, 0.995);
   color: rgb(31, 31, 31);
+}
+
+.projects-content:active {
+  color: aquamarine;
 }
 
 .type-sub2 {

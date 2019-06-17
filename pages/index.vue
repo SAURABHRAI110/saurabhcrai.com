@@ -8,27 +8,28 @@
       <div class="h-name" data-aos="fade-up" data-aos-duration="1000">
         <a href="#" style="text-decoration: none">Saurabh Rai</a>
       </div>
-      <div class="h-j-title" data-aos="fade-up" data-aos-duration="1400">
-        UI/UX Designer | Photographer | Artist
-      </div>
+      <div
+        class="h-j-title"
+        data-aos="fade-up"
+        data-aos-duration="1400"
+      >UI/UX Designer | Photographer | Artist</div>
     </div>
 
-    <div
-      class="contain h-hero-title"
-      data-aos="fade-up"
-      data-aos-duration="2500"
-    >
+    <div class="contain h-hero-title" data-aos="fade-up" data-aos-duration="2500">
       <h1>
         <span>Experience</span>
-        <br />
-        <span class="outlined">Designer</span> At <br />Feeding Trends
+        <br>
+        <span class="outlined">Designer</span> At
+        <br>Feeding Trends
       </h1>
     </div>
     <div class="contain">
       <p data-aos="fade-up" data-aos-duration="2500" data-aos-delay="1000">
         This website is my personal space where I'm trying to express my
         creativity through
-        <span style="color:#fc3a52;">design, code and writing.</span>
+        <span
+          style="color:#fc3a52;"
+        >design, code and writing.</span>
       </p>
     </div>
 
@@ -37,40 +38,40 @@
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
         <div class="bottom-fit">
-          <img src="~assets/img/home/1.jpg" />
+          <img src="~assets/img/home/1.jpg">
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/home/2.jpg" />
+          <img src="~assets/img/home/2.jpg">
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/home/3.jpg" />
+          <img src="~assets/img/home/3.jpg">
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/home/4.jpg" />
+          <img src="~assets/img/home/4.jpg">
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1600">
-          <img src="~assets/img/home/5.jpg" />
+          <img src="~assets/img/home/5.jpg">
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1700">
-          <img src="~assets/img/home/6.jpg" />
+          <img src="~assets/img/home/6.jpg">
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1800">
-          <img src="~assets/img/home/7.jpg" />
+          <img src="~assets/img/home/7.jpg">
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1900">
-          <img src="~assets/img/home/8.jpg" />
+          <img src="~assets/img/home/8.jpg">
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2000">
-          <img src="~assets/img/home/9.jpg" />
+          <img src="~assets/img/home/9.jpg">
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2100">
-          <img src="~assets/img/home/10.jpg" />
+          <img src="~assets/img/home/10.jpg">
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2200">
-          <img src="~assets/img/home/11.jpg" />
+          <img src="~assets/img/home/11.jpg">
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="2300">
-          <img src="~assets/img/home/12.jpg" />
+          <img src="~assets/img/home/12.jpg">
         </div>
       </div>
     </section>
@@ -78,22 +79,16 @@
     <!-- get to know me -->
 
     <div class="more-about-me">
-      <discovermore button-text="get to know me" />
+      <discovermore button-text="get to know me"/>
     </div>
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg" />
+        <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg">
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
-        <h1
-          class="showreel-heading"
-          data-aos="fade-up"
-          data-aos-duration="1000"
-        >
-          GET INSPIRED
-        </h1>
+        <h1 class="showreel-heading" data-aos="fade-up" data-aos-duration="1000">GET INSPIRED</h1>
         <p class="showreel-sub-heading">Watch Showreel</p>
         <div class="showreel-button">
           <svg
@@ -136,14 +131,14 @@
     <div class="h-work_heading contain">
       <h1>
         A Small
-        <br />Selection of my
-        <br />
+        <br>Selection of my
+        <br>
         <span class="outlined">Work</span>
         I Enjoy.
       </h1>
       <p>
         Some of my selceted work or I say case study so that you
-        <br />can understand my process and how I work.
+        <br>can understand my process and how I work.
       </p>
     </div>
 
@@ -152,25 +147,77 @@
     </div>-->
 
     <!-- Work Thumbnails -->
-    <!-- v-rellax="{ speed: 4, center: 0.5 }" -->
+    <!-- v-rellax="{ speed: 4, center: 0.5  }" -->
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <thumbnail
-          v-for="(card, index) in card"
-          :key="index"
-          class="item"
-          :thumbnail-name="card.thumbnailName"
-          :thumbnail-description="card.thumbnailDescription"
-          :thumbnail="card.thumbnailImage"
-        />
+        <nuxt-link to="/projects/filmingeye">
+          <thumbnail
+            thumbnailName="Filming Eye"
+            thumbnailDescription="Web, Identity"
+            thumbnail="/showcase1.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="0"
+          />
+        </nuxt-link>
+        <nuxt-link to="/projects/filmingeye">
+          <thumbnail
+            thumbnailName="Filming Eye"
+            thumbnailDescription="Web, Identity"
+            thumbnail="/showcase11.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="800"
+          />
+        </nuxt-link>
+        <nuxt-link to="/projects/filmingeye">
+          <thumbnail
+            thumbnailName="Filming Eye"
+            thumbnailDescription="Web, Identity"
+            thumbnail="/showcase1.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="0"
+          />
+        </nuxt-link>
+        <nuxt-link to="/projects/filmingeye">
+          <thumbnail
+            thumbnailName="Filming Eye"
+            thumbnailDescription="Web, Identity"
+            thumbnail="/showcase11.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="800"
+          />
+        </nuxt-link>
+        <nuxt-link to="/projects/filmingeye">
+          <thumbnail
+            thumbnailName="Filming Eye"
+            thumbnailDescription="Web, Identity"
+            thumbnail="/showcase1.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="0"
+          />
+        </nuxt-link>
+        <nuxt-link to="/projects/filmingeye">
+          <thumbnail
+            thumbnailName="Filming Eye"
+            thumbnailDescription="Web, Identity"
+            thumbnail="/showcase11.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="800"
+          />
+        </nuxt-link>
       </div>
     </div>
 
     <!-- view more work -->
 
     <div class="more-about-me">
-      <discovermore button-text="view more work" />
+      <discovermore button-text="view more work"/>
     </div>
   </div>
 </template>
@@ -183,43 +230,43 @@ export default {
   components: {
     Thumbnail,
     Discovermore
-  },
-  data() {
-    return {
-      card: [
-        {
-          thumbnailName: 'Filming Eye',
-          thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
-        },
-        {
-          thumbnailName: 'Art',
-          thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase7.jpg')
-        },
-        {
-          thumbnailName: 'Art',
-          thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase8.jpg')
-        },
-        {
-          thumbnailName: 'Art',
-          thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
-        },
-        {
-          thumbnailName: 'Art',
-          thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
-        },
-        {
-          thumbnailName: 'Art',
-          thumbnailDescription: 'Web, Identity',
-          thumbnailImage: require('~/assets/img/thumbnail/showcase10.jpg')
-        }
-      ]
-    }
   }
+  // data() {
+  //   return {
+  //     card: [
+  //       {
+  //         thumbnailName: 'Filming Eye',
+  //         thumbnailDescription: 'Web, Identity',
+  //         thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
+  //       },
+  //       {
+  //         thumbnailName: 'Art',
+  //         thumbnailDescription: 'Web, Identity',
+  //         thumbnailImage: require('~/assets/img/thumbnail/showcase7.jpg')
+  //       },
+  //       {
+  //         thumbnailName: 'Art',
+  //         thumbnailDescription: 'Web, Identity',
+  //         thumbnailImage: require('~/assets/img/thumbnail/showcase8.jpg')
+  //       },
+  //       {
+  //         thumbnailName: 'Art',
+  //         thumbnailDescription: 'Web, Identity',
+  //         thumbnailImage: require('~/assets/img/thumbnail/showcase9.jpg')
+  //       },
+  //       {
+  //         thumbnailName: 'Art',
+  //         thumbnailDescription: 'Web, Identity',
+  //         thumbnailImage: require('~/assets/img/thumbnail/showcase1.jpg')
+  //       },
+  //       {
+  //         thumbnailName: 'Art',
+  //         thumbnailDescription: 'Web, Identity',
+  //         thumbnailImage: require('~/assets/img/thumbnail/showcase10.jpg')
+  //       }
+  //     ]
+  //   }
+  // }
 }
 </script>
 

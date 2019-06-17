@@ -1,21 +1,20 @@
 <template>
   <div>
-    <Menu />
-    <nuxt />
+    <!-- <Menu /> -->
+    <nuxt/>
 
     <div class="footer">
-      <Footer />
+      <Footer/>
     </div>
   </div>
 </template>
 <script>
 // import Nav from '~/components/nav'
-import Menu from '~/components/menu'
+// import Menu from '~/components/menu'
 import Footer from '~/components/footer'
 export default {
   components: {
-    Footer,
-    Menu
+    Footer
   }
 }
 </script>
