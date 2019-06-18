@@ -31,9 +31,10 @@ export default {
       }
     ],
     link: [{
+        iconSrc: 'static/icon.png',
         rel: 'icon',
         type: 'image/x-icon',
-        href: '/favicon.ico?v=2'
+        href: 'favicon.ico',
       },
       {
         rel: 'stylesheet',
