@@ -48,6 +48,7 @@ export default {
   cursor: url ('~/assets/ncursor.svg');
   border-radius: 0.1rem;
   overflow: hidden;
+  cursor: url('/cnblack.svg'), auto;
 }
 
 .projects-image {

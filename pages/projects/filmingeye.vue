@@ -1,10 +1,17 @@
 <template>
-  <h1>love</h1>
+  <div>
+    <h1>love</h1>
+    <projectfooter/>
+  </div>
 </template>
 
 <script>
+import Projectfooter from '~/components/projectfooter'
 export default {
-  layout: 'projects'
+  layout: 'projects',
+  components: {
+    Projectfooter
+  }
 }
 </script>
 

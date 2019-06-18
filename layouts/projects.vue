@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Menu/>
+    <!-- <Menu/> -->
     <nuxt/>
 
     <div class="footer">
@@ -10,12 +10,11 @@
 </template>
 <script>
 // import Nav from '~/components/nav'
-import Menu from '~/components/menu'
+// import Menu from '~/components/menu'
 import Footer from '~/components/footer'
 export default {
   components: {
-    Footer,
-    Menu
+    Footer
   }
 }
 </script>

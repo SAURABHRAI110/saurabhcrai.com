@@ -13,6 +13,9 @@ export default {
       },
       {
         src: ' https://unpkg.com/applause-button/dist/applause-button.js'
+      },
+      {
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
       }
     ],
 
