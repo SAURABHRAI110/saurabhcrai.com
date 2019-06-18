@@ -38,39 +38,64 @@
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
         <div class="bottom-fit">
-          <img src="~assets/img/home/1.jpg">
+          <img
+            src="~assets/img/home/1.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1300"
+            data-aos-delay="100"
+            data-aos-anchor-placement="top-bottom"
+          >
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/home/2.jpg">
+          <img
+            src="~assets/img/home/2.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1300"
+            data-aos-delay="200"
+            data-aos-anchor-placement="top-bottom"
+          >
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/home/3.jpg">
+          <img
+            src="~assets/img/home/3.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1300"
+            data-aos-delay="300"
+            data-aos-anchor-placement="top-bottom"
+            data-aos-offset="-200"
+          >
         </div>
         <div class="bottom-fit">
-          <img src="~assets/img/home/4.jpg">
+          <img
+            src="~assets/img/home/4.jpg"
+            data-aos="fade-up"
+            data-aos-duration="1300"
+            data-aos-delay="400"
+            data-aos-anchor-placement="top-bottom"
+          >
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1600">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300">
           <img src="~assets/img/home/5.jpg">
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1700">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
           <img src="~assets/img/home/6.jpg">
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1800">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
           <img src="~assets/img/home/7.jpg">
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1900">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
           <img src="~assets/img/home/8.jpg">
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="2000">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="1300">
           <img src="~assets/img/home/9.jpg">
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="2100">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
           <img src="~assets/img/home/10.jpg">
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="2200">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
           <img src="~assets/img/home/11.jpg">
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="2300">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
           <img src="~assets/img/home/12.jpg">
         </div>
       </div>
@@ -470,12 +495,11 @@ export default {
 }
 
 /* applause-button_container */
+/* https://www.cssscript.com/medium-claps-applause-button/ */
 
 .applause-button_container {
   width: 100%;
   height: 30vh;
-  top: 50%;
-  left: 50%;
   position: relative;
 }
 </style>
