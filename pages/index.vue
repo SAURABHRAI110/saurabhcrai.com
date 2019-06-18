@@ -104,7 +104,9 @@
     <!-- get to know me -->
 
     <div class="more-about-me">
-      <discovermore button-text="get to know me"/>
+      <nuxt-link to="/about">
+        <discovermore button-text="get to know me"/>
+      </nuxt-link>
     </div>
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
@@ -242,10 +244,51 @@
     <!-- view more work -->
 
     <div class="more-about-me">
-      <discovermore button-text="view more work"/>
+      <nuxt-link to="/showcase">
+        <discovermore button-text="view more work"/>
+      </nuxt-link>
     </div>
-    <div class="applause-button_container">
+    <!-- <div class="applause-button_container">
       <applause-button style="width: 58px; height: 58px;" color="red" multiclap="true"/>
+    </div>-->
+
+    <!-- blog Heading -->
+
+    <div class="h-blog_heading contain">
+      <h1 class="no-white-space">
+        Hack Things,
+        <br>
+        <span class="outlined">Solve</span>
+        Problems.
+        <br>Be Curious.
+      </h1>
+      <p>I see myself as a kid who is both a hacker and designer. One of my main skills is to ablility to quickly learn new things if needed. I never stop learning and I always see a place for improvements. It drives everything I do.</p>
+    </div>
+
+    <!-- Blog Article -->
+
+    <blogarticle
+      articleCategory="Coding Stuff"
+      articleDate="Jan 12, 2019"
+      articleHeading="The Good, the bad, my 4 years of College Life. The things of lifetime"
+      articlePara="The lessons and lesson learned- a journey for little things or let me rephrase it A journey of that me to this me for the better."
+      articleLink="https://medium.com/p/400360751916/edit"
+      articleThumbnail="/blog1.jpg"
+    />
+    <blogarticle
+      articleCategory="Coding Stuff"
+      articleDate="Jan 12, 2019"
+      articleHeading="The Good, the bad, my 4 years of College Life. The things of lifetime"
+      articlePara="The lessons and lesson learned- a journey for little things or let me rephrase it A journey of that me to this me for the better."
+      articleLink="https://medium.com/p/400360751916/edit"
+      articleThumbnail="/blog1.jpg"
+    />
+
+    <!-- view more article -->
+    <div class="more-about-me">
+      <nuxt-link to="/blog">
+        <discovermore button-text="view all article"/>
+      </nuxt-link>
     </div>
   </div>
 </template>
@@ -253,11 +296,13 @@
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
+import Blogarticle from '~/components/blogarticle'
 
 export default {
   components: {
     Thumbnail,
-    Discovermore
+    Discovermore,
+    Blogarticle
   }
   // data() {
   //   return {
@@ -501,5 +546,10 @@ export default {
   width: 100%;
   height: 30vh;
   position: relative;
+}
+
+/* blog */
+.h-blog_heading {
+  padding: 40px 0px 40px 0px;
 }
 </style>

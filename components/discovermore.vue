@@ -1,15 +1,13 @@
 <template>
   <span class="center-h-v">
-    <nuxt-link to="about">
-      <div class="discover-button-container center-h-v">
-        <div class="discover"></div>
-        <h1 class="discover-text">{{ buttonText }}</h1>
-        <svg class="arrow">
-          <polygon data-v-54d0a06a points="2,2 8,5.5 2,10"></polygon>
-        </svg>
-        <img class="plus" src="~assets/svg/plus.svg" />
-      </div>
-    </nuxt-link>
+    <div class="discover-button-container center-h-v">
+      <div class="discover"></div>
+      <h1 class="discover-text">{{ buttonText }}</h1>
+      <svg class="arrow">
+        <polygon data-v-54d0a06a points="2,2 8,5.5 2,10"></polygon>
+      </svg>
+      <img class="plus" src="~assets/svg/plus.svg">
+    </div>
   </span>
 </template>
 
