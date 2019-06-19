@@ -3,7 +3,7 @@
     <div class="project-previous">
       <div class="overlay"></div>
       <span class="p-text">
-        <h2>Previous Project</h2>
+        <h3>Previous Project</h3>
       </span>
       <span class="np_details">
         <p class="np_heading">Feeding Trends</p>
@@ -14,7 +14,7 @@
     <div class="project-next">
       <div class="overlay"></div>
       <span class="p-text">
-        <h2>Next Project</h2>
+        <h3>Next Project</h3>
       </span>
 
       <span class="np_details">
@@ -81,7 +81,7 @@ export default {}
   position: relative;
 }
 
-h2 {
+h3 {
   color: white;
 }
 

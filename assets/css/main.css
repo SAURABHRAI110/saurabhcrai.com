@@ -58,7 +58,7 @@ html {
 }
 
 html {
-  font-family: circular-medium;
+  font-family: circular-book;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -116,6 +116,17 @@ a:active {
   text-shadow: none;
 }
 
+.opacity50 {
+  opacity: .5;
+}
+
+.opacity70 {
+  opacity: .7;
+}
+
+.opacity80 {
+  opacity: .8;
+}
 
 /* typography */
 
@@ -126,10 +137,29 @@ h1 {
 }
 
 h2 {
+  font-size: 60px;
+  font-family: circular-book;
+}
+
+h3 {
   font-family: circular-book;
   font-size: 40px;
 }
 
+.ps {
+  font-family: circular-book;
+  font-size: 16px;
+}
+
+.pm {
+  font-family: circular-book;
+  font-size: 20px;
+}
+
+.pl {
+  font-family: circular-book;
+  font-size: 24px;
+}
 
 p {
   font-family: circular-book;
@@ -146,12 +176,21 @@ p {
     font-size: 23px;
     line-height: 39px;
   }
+
+  h2 {
+    font-size: 53px;
+  }
 }
 
 @media screen and (max-width: 999px) {
   h1 {
     font-size: 70px;
     line-height: 77px;
+
+  }
+
+  h2 {
+    font-size: 48px;
 
   }
 }
@@ -161,6 +200,10 @@ p {
     font-size: 60px;
     line-height: 64px;
 
+  }
+
+  h2 {
+    font-size: 40px
   }
 
   p {
@@ -174,6 +217,10 @@ p {
     font-size: 40px;
     line-height: 46px;
 
+  }
+
+  h2 {
+    font-size: 38px;
   }
 
   p {
@@ -509,4 +556,13 @@ view more work*/
 .np_sub-heading {
   font-size: 16px;
   margin-top: 0px;
+}
+
+
+/* applause correction */
+
+.applause-button .count-container .count {
+
+  width: 1px !important;
+
 }

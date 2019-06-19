@@ -45,7 +45,7 @@ export default {
 
 .projects-card-wrapper {
   position: relative;
-  cursor: url ('~/assets/ncursor.svg');
+
   border-radius: 0.1rem;
   overflow: hidden;
   cursor: url('/cnblack.svg'), auto;

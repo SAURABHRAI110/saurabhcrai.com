@@ -1,6 +1,6 @@
 <template>
   <div class="appreciate-container">
-    <h1 class="thanks-effect">Thanks for scrolling</h1>
+    <h2 class="thanks-effect">Thanks for scrolling</h2>
     <p>Don't forget to appreciate.</p>
     <div class="applause">
       <applause-button style="width: 75px; height: 75px;" color="#fc3a52" multiclap="true"/>
