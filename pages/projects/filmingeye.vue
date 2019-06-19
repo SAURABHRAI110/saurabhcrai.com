@@ -1,19 +1,27 @@
 <template>
   <div>
     <h1>love</h1>
-    <projectfooter/>
+    <Appreciate/>
+    <div class="project-footer">
+      <projectfooter/>
+    </div>
   </div>
 </template>
 
 <script>
 import Projectfooter from '~/components/projectfooter'
+import Appreciate from '~/components/appreciate'
 export default {
   layout: 'projects',
   components: {
-    Projectfooter
+    Projectfooter,
+    Appreciate
   }
 }
 </script>
 
 <style>
+.project-footer {
+  bottom: 0%;
+}
 </style>

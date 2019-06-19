@@ -2,15 +2,24 @@
   <div class="projects-footer-container">
     <div class="project-previous">
       <div class="overlay"></div>
-      <span class="p-text center-h-v">
+      <span class="p-text">
         <h2>Previous Project</h2>
+      </span>
+      <span class="np_details">
+        <p class="np_heading">Feeding Trends</p>
+        <p class="np_sub-heading">Branding, Web Design</p>
       </span>
       <img src="/showcase1.jpg" alt>
     </div>
     <div class="project-next">
       <div class="overlay"></div>
-      <span class="p-text center-h-v">
+      <span class="p-text">
         <h2>Next Project</h2>
+      </span>
+
+      <span class="np_details">
+        <p class="np_heading">Feeding Trends</p>
+        <p class="np_sub-heading">Branding, Web Design</p>
       </span>
       <img src="/showcase8.jpg" alt>
     </div>
@@ -43,7 +52,7 @@ export default {}
   width: 100%;
   height: 40px;
   z-index: 2;
-  background-color: #fff;
+  background-color: #f6ecdd;
   display: block;
   will-change: transform;
   -webkit-transition: -webkit-transform 0.65s;
@@ -76,20 +85,11 @@ h2 {
   color: white;
 }
 
-.p-text {
-  position: absolute;
-  top: 20%;
-  transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
-}
-
-.p-text:hover {
-  letter-spacing: 3px;
-}
-
 img {
   width: 100%;
   object-fit: cover;
   height: auto;
+  height: 80vh;
 }
 
 .overlay {

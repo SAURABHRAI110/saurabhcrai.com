@@ -116,8 +116,21 @@
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
         <h1 class="showreel-heading" data-aos="fade-up" data-aos-duration="1000">GET INSPIRED</h1>
-        <p class="showreel-sub-heading">Watch Showreel</p>
-        <div class="showreel-button">
+        <p
+          class="showreel-sub-heading"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="300"
+          data-aos-anchor-placement="top-bottom"
+        >Watch Showreel</p>
+        <div
+          class="showreel-button"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+          data-aos-delay="500"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="-200"
+        >
           <svg
             id="play"
             version="1.1"

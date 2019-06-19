@@ -471,3 +471,42 @@ view more work*/
 .article-heading {
   font-family: circular-bold;
 }
+
+
+/* projects footer */
+
+.p-text {
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  top: 15%;
+  text-align: center;
+  transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.project-previous:hover .p-text {
+  letter-spacing: 3px;
+}
+
+.project-next:hover .p-text {
+  letter-spacing: 3px;
+}
+
+.np_details {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+
+  text-align: center;
+  color: white;
+}
+
+.np_heading {
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.np_sub-heading {
+  font-size: 16px;
+  margin-top: 0px;
+}
