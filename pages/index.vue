@@ -199,6 +199,7 @@
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="0"
+            data-aos-once="true"
           />
         </nuxt-link>
         <nuxt-link to="/projects/filmingeye">
@@ -209,6 +210,7 @@
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="800"
+            data-aos-once="true"
           />
         </nuxt-link>
         <nuxt-link to="/projects/filmingeye">
@@ -219,6 +221,7 @@
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="0"
+            data-aos-once="true"
           />
         </nuxt-link>
         <nuxt-link to="/projects/filmingeye">
@@ -229,6 +232,7 @@
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="800"
+            data-aos-once="true"
           />
         </nuxt-link>
         <nuxt-link to="/projects/filmingeye">
@@ -239,6 +243,7 @@
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="0"
+            data-aos-once="true"
           />
         </nuxt-link>
         <nuxt-link to="/projects/filmingeye">
@@ -249,6 +254,7 @@
             data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="800"
+            data-aos-once="true"
           />
         </nuxt-link>
       </div>

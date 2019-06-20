@@ -4,6 +4,9 @@
       <h1>PEOPLE</h1>
       <p>who makes it all worth</p>
     </div>
+    <div class="c-d">
+      <img src="~assets/svg/c-development.svg" alt>
+    </div>
     <div class="h-p-overlay"></div>
     <div class="h-p-wrapper">
       <div class="h-people-grid">
@@ -151,6 +154,14 @@ export default {}
   opacity: 0.7;
   position: absolute;
   z-index: 2;
+}
+
+.c-d {
+  position: absolute;
+  z-index: 4;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .h-p-text {
