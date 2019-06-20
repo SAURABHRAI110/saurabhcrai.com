@@ -642,3 +642,11 @@ view more work*/
   background-color: white;
   position: relative;
 }
+
+
+/* showcase  */
+.w-hero_container {
+  height: 100vh;
+  width: 100%;
+  background-color: #1f2029;
+}

@@ -2,6 +2,7 @@
   <div>
     <!-- Work Thumbnails -->
     <!-- v-rellax="{ speed: 4, center: 0.5  }" -->
+    <div class="w-hero_container"></div>
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
