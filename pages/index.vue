@@ -261,6 +261,11 @@
         <discovermore button-text="view more work"/>
       </nuxt-link>
     </div>
+
+    <!-- people parallax slide section -->
+
+    <homepeople/>
+
     <!-- <div class="applause-button_container">
       <applause-button style="width: 58px; height: 58px;" color="red" multiclap="true"/>
     </div>-->
@@ -313,12 +318,14 @@
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
+import Homepeople from '~/components/homepeople'
 import Blogarticle from '~/components/blogarticle'
 
 export default {
   components: {
     Thumbnail,
     Discovermore,
+    Homepeople,
     Blogarticle
   }
 

@@ -48,19 +48,6 @@
 </template>
 
 <style>
-.logo {
-  display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  /* transform: rotateX(180deg); */
-  position: relative;
-  overflow: hidden;
-  /* height: 90px;
-  width: 120px; */
-  left: 15%;
-  padding-top: 30px;
-  transform: translate(-50%);
-}
-
 /* .Triangle {
   position: absolute;
   top: 0;

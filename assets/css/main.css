@@ -15,7 +15,7 @@ html {
 
   body,
   html {
-    margin: 0px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
   }
 }
 
@@ -235,6 +235,38 @@ p {
   color: transparent;
 }
 
+.outlined_white {
+  -webkit-text-stroke: 0.6px rgb(255, 255, 255);
+  color: transparent;
+}
+
+
+/* website logo  from componenent logo*/
+
+.logo {
+  display: inline-block;
+  animation: turn 2s linear forwards 1s;
+  /* transform: rotateX(180deg); */
+  position: relative;
+  overflow: hidden;
+  /* height: 90px;
+  width: 120px; */
+  left: 15%;
+  padding-top: 30px;
+  transform: translate(-50%);
+}
+
+@media screen and (max-width: 999px) {
+
+  .logo {
+    left: 8%;
+    padding-top: 0px;
+  }
+
+  svg {
+    width: 60px;
+  }
+}
 
 /* Vertical Line */
 
@@ -276,6 +308,22 @@ p {
   /* margin-left: 20%; */
   margin-right: 18.4%;
   margin-left: calc(20% - 83px);
+}
+
+@media screen and (max-width:800px) {
+  .contain {
+    /* margin-left: 20%; */
+    margin-right: 18.4%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contain {
+    /* margin-left: 20%; */
+    margin-right: 18.4%;
+    margin-left: 7%;
+  }
 }
 
 .center-h-v {
@@ -565,4 +613,32 @@ view more work*/
 
   width: 1px !important;
 
+}
+
+
+/* blog css to be put in blog page later  */
+
+.blog-hero_container {
+  width: 100%;
+  height: 100vh;
+  background-color: #424455;
+  color: white;
+  position: fixed;
+}
+
+
+.blog-hero_heading {
+  padding: 100px 0px 40px 0px;
+}
+
+.empty-space {
+  width: 100%;
+  height: 100vh;
+
+}
+
+.b-article-section {
+  width: 100%;
+  background-color: white;
+  position: relative;
 }
