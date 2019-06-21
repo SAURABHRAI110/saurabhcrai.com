@@ -128,6 +128,26 @@ a:active {
   opacity: .8;
 }
 
+.black90 {
+  color: #3a3a3a;
+}
+
+.black80 {
+  color: #474747;
+}
+
+.black70 {
+  color: #555555;
+}
+
+.black60 {
+  color: #656565;
+}
+
+.black50 {
+  color: #919191;
+}
+
 /* typography */
 
 h1 {
@@ -658,4 +678,126 @@ view more work*/
   width: 100%;
   height: 100vh;
   background-color: black;
+  position: relative;
 }
+
+.p-hero_image>img {
+  position: absolute;
+}
+
+.p-hero_image>img:nth-child(2) {
+  width: 70%;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%)
+}
+
+@media screen and (max-width: 999px) {
+  .p-hero_image {
+
+    height: 80vh;
+
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .p-hero_image>img:nth-child(2) {
+
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .p-hero_image {
+
+    height: 60vh;
+
+  }
+}
+
+.p-para {
+  font-size: 40px;
+  /* margin-bottom: 0px;
+  margin-top: 60px; */
+}
+
+.p-image-100 {
+  width: 100%;
+}
+
+.p-fe_photogrid {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.p-fe_photogrid img {
+  width: 100%;
+  object-fit: fill;
+}
+
+@media screen and (max-width:1000px) {
+  .p-fe_photogrid {
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .p-fe_photogrid {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+.p-fe_branding-grid {
+  display: grid;
+  grid-gap: 30px;
+
+  grid-auto-flow: dense;
+}
+
+.p-fe_branding-grid>div>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.big {
+  grid-column: span 2;
+}
+
+@media screen and (max-width:800px) {
+  .big {
+    grid-column: span 1;
+  }
+
+  .p-fe_branding-grid {
+    grid-gap: 10px;
+
+  }
+
+}
+
+.p-fe_final-design {
+  background-color: #f1f1f1;
+  width: 100%;
+  margin-top: -6px;
+}
+
+/* 
+.abcd {
+  display: flex;
+  width: 63%;
+  align-items: center;
+  align-content: center;
+  left: 20%;
+  position: relative;
+  margin-left: -10px;
+  z-index: 1;
+} */
