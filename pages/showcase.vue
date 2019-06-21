@@ -16,10 +16,10 @@
             data-aos-delay="0"
           />
         </nuxt-link>
-        <nuxt-link to="/projects/filmingeye">
+        <nuxt-link to="/projects/dear-zindagi">
           <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
+            thumbnailName="Dear Zindagi"
+            thumbnailDescription="Brochure, Identity"
             thumbnail="/showcase11.jpg"
             data-aos="fade-up"
             data-aos-duration="1500"
