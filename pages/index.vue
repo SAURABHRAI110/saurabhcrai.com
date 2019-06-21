@@ -202,59 +202,56 @@
             data-aos-once="true"
           />
         </nuxt-link>
-        <nuxt-link to="/projects/filmingeye">
+        <nuxt-link to="/projects/dear-zindagi">
           <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
-            thumbnail="/showcase7.jpg"
-            data-aos="zoom-out-up"
+            thumbnailName="Dear Zindagi"
+            thumbnailDescription="Brochure, Identity"
+            thumbnail="/showcase2.jpg"
+            data-aos="fade-up"
             data-aos-duration="1500"
             data-aos-delay="800"
-            data-aos-once="true"
           />
         </nuxt-link>
-        <nuxt-link to="/projects/filmingeye">
+        <nuxt-link to="/projects/mr-irritating">
           <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
-            thumbnail="/showcase8.jpg"
+            thumbnailName="Mr. Irritating"
+            thumbnailDescription="Print, Social Media"
+            thumbnail="/showcase3.jpg"
             data-aos="zoom-out-up"
             data-aos-duration="1500"
             data-aos-delay="0"
             data-aos-once="true"
           />
         </nuxt-link>
-        <nuxt-link to="/projects/filmingeye">
+        <nuxt-link to="/projects/r3">
           <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
-            thumbnail="/showcase9.jpg"
+            thumbnailName="R3"
+            thumbnailDescription="Social Media, logo"
+            thumbnail="/showcase4.jpg"
             data-aos="zoom-out-up"
             data-aos-duration="1500"
             data-aos-delay="800"
             data-aos-once="true"
           />
         </nuxt-link>
-        <nuxt-link to="/projects/filmingeye">
+        <nuxt-link to="/projects/awesome-inc">
           <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
-            thumbnail="/showcase10.jpg"
+            thumbnailName="Awesome Inc."
+            thumbnailDescription="Branding"
+            thumbnail="/showcase5.jpg"
             data-aos="zoom-out-up"
             data-aos-duration="1500"
             data-aos-delay="0"
-            data-aos-once="true"
           />
         </nuxt-link>
-        <nuxt-link to="/projects/filmingeye">
+        <nuxt-link to="/projects/elevito">
           <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
-            thumbnail="/showcase11.jpg"
+            thumbnailName="Elevito"
+            thumbnailDescription="Web, Branding, Print"
+            thumbnail="/showcase6.jpg"
             data-aos="zoom-out-up"
             data-aos-duration="1500"
             data-aos-delay="800"
-            data-aos-once="true"
           />
         </nuxt-link>
       </div>

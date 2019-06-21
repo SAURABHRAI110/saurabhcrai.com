@@ -1,9 +1,9 @@
-<template>
-  <h1>elevito</h1>
-</template>
+<template></template>
 
 <script>
-export default {}
+export default {
+  layout: 'projects'
+}
 </script>
 
 <style>
