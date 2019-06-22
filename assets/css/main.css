@@ -406,6 +406,21 @@ view more work*/
 }
 
 
+.p-thumbnail-ad:nth-child(2n) {
+  padding-top: 60px;
+}
+
+@media screen and (max-width: 999px) {
+
+  .p-thumbnail-ad:nth-child(2n) {
+    padding-top: 0px;
+  }
+}
+
+/* .p-thumbnail:nth-child(2n) {
+  padding-top: 40px;
+} */
+
 /* 
 
 
@@ -665,10 +680,52 @@ view more work*/
 
 
 /* showcase  */
+
+
 .w-hero_container {
-  height: 100vh;
+  /* height: 90vh; */
   width: 100%;
-  background-color: #1f2029;
+  position: relative;
+  /* overflow-x: hidden;
+  overflow-y: hidden; */
+}
+
+.p-h-container {
+  padding-top: 250px;
+  padding-bottom: 9%;
+}
+
+/* 
+.bg-circle {
+  position: absolute;
+  right: 0%;
+  top: 0%;
+  z-index: -1;
+} */
+
+.w-hero_container>img:nth-child(1) {
+  width: 70%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  z-index: -1;
+  opacity: .3;
+}
+
+.w-hero_container>img:nth-child(2) {
+  width: 52%;
+  right: 3%;
+  top: 1%;
+  position: absolute;
+  z-index: -1;
+  opacity: .6;
+}
+
+.p-h-subheading {
+  margin-left: -30px !important;
+  margin-bottom: -40px;
+  color: var(--primary-color);
+  letter-spacing: 3px;
 }
 
 
