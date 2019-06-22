@@ -17,7 +17,7 @@
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <div class="p-thumbnail-ad">
+        <div class="p-thumnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
               thumbnailName="Filming Eye"
@@ -31,7 +31,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumbnail-ad">
+        <div class="p-thumnail-ad">
           <nuxt-link to="/projects/dear-zindagi">
             <thumbnail
               thumbnailName="Dear Zindagi"
@@ -45,7 +45,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumbnail-ad">
+        <div class="p-thumnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
               thumbnailName="Mr. Irritating"
@@ -58,7 +58,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumbnail-ad">
+        <div class="p-thumnail-ad">
           <nuxt-link to="/projects/r3">
             <thumbnail
               thumbnailName="R3"
@@ -71,7 +71,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumbnail-ad">
+        <div class="p-thumnail-ad">
           <nuxt-link to="/projects/awesome-inc">
             <thumbnail
               thumbnailName="Awesome Inc."
@@ -84,7 +84,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumbnail-ad">
+        <div class="p-thumnail-ad">
           <nuxt-link to="/projects/elevito">
             <thumbnail
               thumbnailName="Elevito"
