@@ -8,7 +8,7 @@
       <p class="article-para black90">{{ articlePara}}</p>
       <div class="article-read-more">
         <span class="link-effect hover-link">
-          <a :href="articleLink" target="_blank">
+          <a :href="articleLink" target="_blank" rel="noopener">
             <span data-hover="Read more on Medium ↗">Read more on Medium ↗</span>
           </a>
         </span>

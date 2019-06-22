@@ -32,6 +32,7 @@ html {
     url(~assets/fonts/circularstd-bold.woff) format("woff");
   font-weight: 400;
   font-style: normal;
+  font-display: auto;
 }
 
 @font-face {
@@ -40,6 +41,7 @@ html {
     url(~assets/fonts/circularstd-book.woff) format("woff");
   font-weight: 500;
   font-style: normal;
+  font-display: auto;
 }
 
 @font-face {
@@ -48,6 +50,7 @@ html {
     url(~assets/fonts/circularstd-medium.woff) format("woff");
   font-weight: 700;
   font-style: normal;
+  font-display: auto;
 }
 
 @font-face {
@@ -55,6 +58,7 @@ html {
   src: url(~assets/fonts/mistral.woff2) format("woff2"),
     url(~assets/fonts/mistral.woff) format("woff");
   font-style: normal;
+  font-display: auto;
 }
 
 html {
@@ -152,8 +156,8 @@ a:active {
 
 h1 {
   font-family: circular-bold;
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 72px;
+  line-height: 72px;
 }
 
 h2 {
@@ -678,6 +682,90 @@ view more work*/
   position: relative;
 }
 
+/* about me page */
+
+/* hero */
+
+.a-hero_container {
+  width: 100%;
+  position: relative;
+
+}
+
+.a-h-container {
+  padding-top: 250px;
+  padding-bottom: 9%;
+  width: 50%;
+}
+
+@media screen and (max-width: 1400px) {
+  .p-h-container {
+    padding-top: 250px;
+    padding-bottom: 9%;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .p-h-container {
+    padding-top: 250px;
+    padding-bottom: 9%;
+    width: 70%;
+  }
+}
+
+
+.a-hero_container>img:nth-child(1) {
+  width: 70%;
+  right: 0%;
+  top: 0%;
+  position: absolute;
+  z-index: -1;
+  opacity: .3;
+}
+
+.a-hero_container>img:nth-child(2) {
+  width: 38%;
+  right: 9%;
+  top: 10%;
+  position: absolute;
+  z-index: -1;
+  opacity: .6;
+}
+
+.a-subheading_2 {
+  margin-left: 5px !important;
+  margin-bottom: 0px;
+  letter-spacing: 10px;
+  margin-top: -37px;
+}
+
+.a-h-subheading {
+  margin-left: -30px !important;
+  margin-bottom: -40px;
+  color: var(--primary-color);
+  letter-spacing: 3px;
+}
+
+@media screen and (max-width:800px) {
+  .a-h-subheading {
+    margin-left: 0px !important;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+  }
+
+  .a-subheading_2 {
+    margin-left: 5px !important;
+    margin-bottom: 0px;
+    letter-spacing: 3px;
+    margin-top: 0px;
+  }
+
+  .a-h-container {
+    padding-top: 100px;
+  }
+}
+
 
 /* showcase  */
 
@@ -858,3 +946,14 @@ view more work*/
   margin-left: -10px;
   z-index: 1;
 } */
+
+/* the bdd times 
+
+color: #0088ff !important;
+
+*/
+
+.tbt-gradient {
+  background: rgb(106, 223, 255);
+  background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 80, 148, 1) 100%);
+}

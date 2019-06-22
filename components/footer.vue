@@ -38,6 +38,7 @@
                 class="button"
                 href="https://www.facebook.com/saurabhchandrarai"
                 target="_blank"
+                rel="noopener"
                 title="Facebook (new tab)"
               >
                 <div class="social-three">
@@ -55,6 +56,7 @@
                 class="button"
                 href="https://www.instagram.com/saurabh.c.rai/"
                 target="_blank"
+                rel="noopener"
                 title="Instagram (new tab)"
               >
                 <div class="social-three">
@@ -72,6 +74,7 @@
                 class="button"
                 href="https://www.linkedin.com/in/saurabhchandrarai/"
                 target="_blank"
+                rel="noopener"
                 title="Linkdin (new tab)"
               >
                 <div class="social-three">
@@ -89,6 +92,7 @@
                 class="button"
                 href="https://medium.com/@saurabhcrai"
                 target="_blank"
+                rel="noopener"
                 title="Medium (new tab)"
               >
                 <div class="social-three">
@@ -106,6 +110,7 @@
                 class="button"
                 href="https://www.behance.net/saurabhcrai"
                 target="_blank"
+                rel="noopener"
                 title="Behance (new tab)"
               >
                 <div class="social-three">
@@ -123,6 +128,7 @@
                 class="button"
                 href="https://github.com/SAURABHRAI110"
                 target="_blank"
+                rel="noopener"
                 title="Github(new tab)"
               >
                 <div class="social-three">
