@@ -8,7 +8,7 @@
 
     <div class="a-hero_container">
       <img src="~assets/svg/circle.svg" alt="circle">
-      <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }">>
+      <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }">
       <div class="contain a-h-container">
         <p class="pm a-h-subheading">who i am</p>
         <h1>
@@ -17,7 +17,9 @@
           UX
           <span class="outlined">Designer</span>
         </h1>
-        <p class="pm a-subheading_2">and I can code too</p>
+        <p
+          class="pm a-subheading_2"
+        >and I am always learning. Like past few months I have been learnig how to code. Now I can bring design into a pixel perfect reality.</p>
       </div>
     </div>
 

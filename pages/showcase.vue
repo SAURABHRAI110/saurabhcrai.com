@@ -14,7 +14,10 @@
         </h1>
       </div>
     </div>
+    <!-- timeline 2019 -->
+    <projecttimeline timeline="2019"/>
 
+    <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <div class="p-thumnail-ad">
@@ -45,6 +48,94 @@
             />
           </nuxt-link>
         </div>
+
+        <div class="p-thumnail-ad">
+          <nuxt-link to="/projects/filmingeye">
+            <thumbnail
+              thumbnailName="Mr. Irritating"
+              thumbnailDescription="Print, Social Media"
+              thumbnail="/showcase3.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumnail-ad">
+          <nuxt-link to="/projects/r3">
+            <thumbnail
+              thumbnailName="R3"
+              thumbnailDescription="Social Media, logo"
+              thumbnail="/showcase4.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumnail-ad">
+          <nuxt-link to="/projects/awesome-inc">
+            <thumbnail
+              thumbnailName="Awesome Inc."
+              thumbnailDescription="Branding"
+              thumbnail="/showcase5.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumnail-ad">
+          <nuxt-link to="/projects/elevito">
+            <thumbnail
+              thumbnailName="Elevito"
+              thumbnailDescription="Web, Branding, Print"
+              thumbnail="/showcase6.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
+    <projecttimeline timeline="2019"/>
+    <!-- project grid -->
+    <div class="showcase-container-home">
+      <div class="showcase-container-grid">
+        <div class="p-thumnail-ad">
+          <nuxt-link to="/projects/filmingeye">
+            <thumbnail
+              thumbnailName="Filming Eye"
+              thumbnailDescription="Web, Identity"
+              thumbnail="/showcase1.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="0"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumnail-ad">
+          <nuxt-link to="/projects/dear-zindagi">
+            <thumbnail
+              thumbnailName="Dear Zindagi"
+              thumbnailDescription="Brochure, Identity"
+              thumbnail="/showcase2.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
         <div class="p-thumnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
@@ -104,9 +195,11 @@
 
 <script>
 import Thumbnail from '~/components/thumbnail'
+import Projecttimeline from '~/components/projects/projecttimeline'
 export default {
   components: {
-    Thumbnail
+    Thumbnail,
+    Projecttimeline
   }
 }
 </script>
