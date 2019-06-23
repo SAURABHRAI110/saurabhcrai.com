@@ -8,9 +8,12 @@
       pHeadingcolor="color:#DF9F17;"
       pSubheading="Brochure for A.R.T."
     />
-    <div class="p-dz-hero_image">
-      <img src="~assets/projects/dearzindagi/dzhero2.jpg" alt>
-      <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+    <div class="p-dz-hero_image" data-aos-delay="600">
+      <div class="reveal-holder" data-aos="reveal-item">
+        <div class="reveal-block red right" data-aos="reveal-right"></div>
+        <img src="~assets/projects/dearzindagi/dzhero.jpg" alt>
+        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+      </div>
     </div>
     <Preface
       timeframe=" April 2018- May 2018

@@ -1,83 +1,85 @@
 <template>
-  <div class="p-info-4 contain">
-    <div class="p-info">
-      <div style="flex-grow: 1; align-self: center">
-        <div>
-          <h5
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="0"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          >Timeframe</h5>
-          <p
-            class="ps opacity80"
-            v-html="timeframe"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="100"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          ></p>
+  <div class="p-info-4">
+    <div class="p-info-4 contain">
+      <div class="p-info">
+        <div style="flex-grow: 1; align-self: center">
+          <div>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="0"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >Timeframe</h5>
+            <p
+              class="ps opacity80"
+              v-html="timeframe"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="100"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            ></p>
+          </div>
+          <div>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="200"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >Tools</h5>
+            <p
+              class="ps opacity80"
+              v-html="tools"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="300"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            ></p>
+          </div>
         </div>
-        <div>
-          <h5
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="200"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          >Tools</h5>
-          <p
-            class="ps opacity80"
-            v-html="tools"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="300"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          ></p>
-        </div>
-      </div>
-      <div style="flex-grow: 1; align-self: center">
-        <div>
-          <h5
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="400"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          >Role</h5>
-          <p
-            class="ps opacity80"
-            v-html="role"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="500"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          ></p>
-        </div>
-        <div>
-          <h5
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="600"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          >Team</h5>
-          <p
-            class="ps opacity80"
-            v-html="team"
-            data-aos="fade-up"
-            data-aos-duration="500"
-            data-aos-delay="700"
-            data-aos-once="true"
-            data-aos-anchor-placement="top-bottom"
-          >
-            Four ebgineers, two medical
-            <br>residents, one designer
-          </p>
+        <div style="flex-grow: 1; align-self: center">
+          <div>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="400"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >Role</h5>
+            <p
+              class="ps opacity80"
+              v-html="role"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="500"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            ></p>
+          </div>
+          <div>
+            <h5
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="600"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >Team</h5>
+            <p
+              class="ps opacity80"
+              v-html="team"
+              data-aos="fade-up"
+              data-aos-duration="500"
+              data-aos-delay="700"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            >
+              Four ebgineers, two medical
+              <br>residents, one designer
+            </p>
+          </div>
         </div>
       </div>
     </div>

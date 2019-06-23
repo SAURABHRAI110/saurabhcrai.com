@@ -447,9 +447,8 @@ view more work*/
 
 .reveal-holder .reveal-block {
   position: absolute;
-  top: 15%;
   width: 100%;
-  height: 70%;
+  height: 100%;
   background: white;
 }
 
@@ -974,13 +973,15 @@ color: #0088ff !important;
 }
 
 
-.p-dz-hero_image>img {
-  /* width: 100%;
-  height: 100%; */
-  /* object-fit: cover; */
-  position: absolute;
+.p-dz-hero_image img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  /* position: absolute;
   width: 28%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%) */
 }

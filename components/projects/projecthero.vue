@@ -4,19 +4,19 @@
       <span
         class="p-min1"
         data-aos="fade-right"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
         data-aos-delay="0"
       >{{pDate}}</span>
       <span
         class="p-min2"
         data-aos="fade-right"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
         data-aos-delay="100"
       >{{pWebsite}}</span>
       <span
         class="p-min3"
         data-aos="fade-right"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
         data-aos-delay="200"
       >{{pCategory}}</span>
     </div>
@@ -25,14 +25,14 @@
       <h2
         class="p-heading"
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
         data-aos-delay="300"
         :style="pHeadingcolor"
       >{{pHeading}}</h2>
       <h3
         class="p-sub-heading opacity70"
         data-aos="fade-up"
-        data-aos-duration="1500"
+        data-aos-duration="1000"
         data-aos-delay="400"
       >{{pSubheading}}</h3>
     </div>
