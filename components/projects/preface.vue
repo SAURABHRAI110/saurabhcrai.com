@@ -1,24 +1,80 @@
 <template>
-  <div class="p-info-4 contain" data-aos="fade-up" data-aos-duration="1500">
+  <div class="p-info-4 contain">
     <div class="p-info">
       <div style="flex-grow: 1; align-self: center">
         <div>
-          <h5>Timeframe</h5>
-          <p class="ps opacity80" v-html="timeframe"></p>
+          <h5
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="0"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          >Timeframe</h5>
+          <p
+            class="ps opacity80"
+            v-html="timeframe"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="100"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          ></p>
         </div>
         <div>
-          <h5>Tools</h5>
-          <p class="ps opacity80" v-html="tools"></p>
+          <h5
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="200"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          >Tools</h5>
+          <p
+            class="ps opacity80"
+            v-html="tools"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="300"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          ></p>
         </div>
       </div>
       <div style="flex-grow: 1; align-self: center">
         <div>
-          <h5>Role</h5>
-          <p class="ps opacity80" v-html="role"></p>
+          <h5
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="400"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          >Role</h5>
+          <p
+            class="ps opacity80"
+            v-html="role"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="500"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          ></p>
         </div>
         <div>
-          <h5>Team</h5>
-          <p class="ps opacity80" v-html="team">
+          <h5
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="600"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          >Team</h5>
+          <p
+            class="ps opacity80"
+            v-html="team"
+            data-aos="fade-up"
+            data-aos-duration="500"
+            data-aos-delay="700"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-bottom"
+          >
             Four ebgineers, two medical
             <br>residents, one designer
           </p>
@@ -43,7 +99,7 @@ export default {
 .p-info-4 {
   position: relative;
   background-color: white;
-  padding: 20px 0px 20px 0px;
+  padding: 100px 0px 100px 0px;
 }
 
 .p-info {

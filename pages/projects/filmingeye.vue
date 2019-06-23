@@ -8,7 +8,7 @@
       pHeadingcolor="color:#da2c4d;"
       pSubheading="Filming Eye Web Experience"
     />
-    <div class="p-hero_image">
+    <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
       <img src="~assets/projects/fe/fe1.png" alt>
     </div>

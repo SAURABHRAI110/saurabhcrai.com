@@ -1,14 +1,40 @@
 <template>
   <div class="p-hero_top contain">
     <div class="p-min-info ps">
-      <span class="p-min1">{{pDate}}</span>
-      <span class="p-min2">{{pWebsite}}</span>
-      <span class="p-min3">{{pCategory}}</span>
+      <span
+        class="p-min1"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="0"
+      >{{pDate}}</span>
+      <span
+        class="p-min2"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="100"
+      >{{pWebsite}}</span>
+      <span
+        class="p-min3"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-delay="200"
+      >{{pCategory}}</span>
     </div>
 
     <div class="p-min2-info">
-      <h2 class="p-heading" :style="pHeadingcolor">{{pHeading}}</h2>
-      <h3 class="p-sub-heading opacity70">{{pSubheading}}</h3>
+      <h2
+        class="p-heading"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="300"
+        :style="pHeadingcolor"
+      >{{pHeading}}</h2>
+      <h3
+        class="p-sub-heading opacity70"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+        data-aos-delay="400"
+      >{{pSubheading}}</h3>
     </div>
   </div>
 </template>

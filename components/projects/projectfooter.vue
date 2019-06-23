@@ -1,28 +1,32 @@
 <template>
   <div class="projects-footer-container">
-    <div class="project-previous">
-      <div class="overlay"></div>
-      <span class="p-text">
-        <h3>Previous Project</h3>
-      </span>
-      <span class="np_details">
-        <p class="np_heading">Feeding Trends</p>
-        <p class="np_sub-heading">Branding, Web Design</p>
-      </span>
-      <img src="/showcase1.jpg" alt>
-    </div>
-    <div class="project-next">
-      <div class="overlay"></div>
-      <span class="p-text">
-        <h3>Next Project</h3>
-      </span>
+    <nuxt-link to="/projects/elevito">
+      <div class="project-previous">
+        <div class="overlay"></div>
+        <span class="p-text">
+          <h3>Previous Project</h3>
+        </span>
+        <span class="np_details">
+          <p class="np_heading">Feeding Trends</p>
+          <p class="np_sub-heading">Branding, Web Design</p>
+        </span>
+        <img src="/showcase1.jpg" alt>
+      </div>
+    </nuxt-link>
+    <nuxt-link to>
+      <div class="project-next">
+        <div class="overlay"></div>
+        <span class="p-text">
+          <h3>Next Project</h3>
+        </span>
 
-      <span class="np_details">
-        <p class="np_heading">Feeding Trends</p>
-        <p class="np_sub-heading">Branding, Web Design</p>
-      </span>
-      <img src="/showcase8.jpg" alt>
-    </div>
+        <span class="np_details">
+          <p class="np_heading">Feeding Trends</p>
+          <p class="np_sub-heading">Branding, Web Design</p>
+        </span>
+        <img src="/showcase8.jpg" alt>
+      </div>
+    </nuxt-link>
   </div>
 </template>
 

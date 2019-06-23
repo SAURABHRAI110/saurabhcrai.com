@@ -822,18 +822,18 @@ view more work*/
 
 /* Project Filming Eye */
 
-.p-hero_image {
+.p-fe-hero_image {
   width: 100%;
   height: 100vh;
   background-color: black;
   position: relative;
 }
 
-.p-hero_image>img {
+.p-fe-hero_image>img {
   position: absolute;
 }
 
-.p-hero_image>img:nth-child(2) {
+.p-fe-hero_image>img:nth-child(2) {
   width: 70%;
   left: 50%;
   bottom: 0%;
@@ -841,7 +841,7 @@ view more work*/
 }
 
 @media screen and (max-width: 999px) {
-  .p-hero_image {
+  .p-fe-hero_image {
 
     height: 80vh;
 
@@ -849,14 +849,14 @@ view more work*/
 }
 
 @media screen and (max-width: 800px) {
-  .p-hero_image>img:nth-child(2) {
+  .p-fe-hero_image>img:nth-child(2) {
 
     width: 100%;
   }
 }
 
 @media screen and (max-width: 400px) {
-  .p-hero_image {
+  .p-fe-hero_image {
 
     height: 60vh;
 
@@ -959,4 +959,28 @@ color: #0088ff !important;
 .tbt-gradient {
   background: rgb(106, 223, 255);
   background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 80, 148, 1) 100%);
+}
+
+
+/* Dear Zindagi */
+
+/* akcent colour #E7A822 #DF9F17 */
+
+.p-dz-hero_image {
+  width: 100%;
+  height: 100vh;
+  background-color: #DF9F17;
+  position: relative;
+}
+
+
+.p-dz-hero_image>img {
+  /* width: 100%;
+  height: 100%; */
+  /* object-fit: cover; */
+  position: absolute;
+  width: 28%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
 }
