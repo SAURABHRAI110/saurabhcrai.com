@@ -1,5 +1,13 @@
 <template>
   <div>
+    <div class="ppnp-container">
+      <nuxt-link to="/projects/mr-irritating">
+        <next/>
+      </nuxt-link>
+      <nuxt-link to="/projects/filmingeye">
+        <previous/>
+      </nuxt-link>
+    </div>
     <projecthero
       pDate="Oct 2018 "
       pWebsite="ART"
@@ -8,9 +16,9 @@
       pHeadingcolor="color:#DF9F17;"
       pSubheading="Brochure for A.R.T."
     />
-    <div class="p-dz-hero_image" data-aos-delay="600">
-      <div class="reveal-holder" data-aos="reveal-item">
-        <div class="reveal-block theme_dz" data-aos="reveal-right"></div>
+    <div class="p-dz-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_dz" data-aos="reveal-right"></div>
         <img src="~assets/projects/dearzindagi/dzhero.jpg" alt align>
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
@@ -169,6 +177,8 @@ import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
+import Next from '~/components/projects/next'
+import Previous from '~/components/projects/previous'
 export default {
   layout: 'projects',
   components: {
@@ -176,7 +186,9 @@ export default {
     Preface,
     Appreciate,
     Pcase,
-    Projecthero
+    Projecthero,
+    Next,
+    Previous
   }
 }
 </script>

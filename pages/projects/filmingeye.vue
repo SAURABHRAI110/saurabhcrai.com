@@ -1,9 +1,17 @@
 <template>
   <div>
+    <div class="ppnp-container">
+      <nuxt-link to="/projects/dear-zindagi">
+        <next/>
+      </nuxt-link>
+      <nuxt-link to>
+        <previous/>
+      </nuxt-link>
+    </div>
     <projecthero
-      pDate="Dec 2018 "
-      pWebsite="filmingeye.com"
-      pCategory="Product Design"
+      pDate="April 2018 "
+      pWebsite="Mr. Irritating"
+      pCategory="Print Design"
       pHeading="Improve visual  perception"
       pHeadingcolor="color:#da2c4d;"
       pSubheading="Filming Eye Web Experience"
@@ -176,6 +184,8 @@ import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
+import Next from '~/components/projects/next'
+import Previous from '~/components/projects/previous'
 export default {
   layout: 'projects',
   components: {
@@ -183,7 +193,9 @@ export default {
     Preface,
     Appreciate,
     Pcase,
-    Projecthero
+    Projecthero,
+    Next,
+    Previous
   }
 }
 </script>

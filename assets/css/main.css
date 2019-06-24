@@ -646,12 +646,24 @@ view more work*/
 }
 
 
+
+
 /* applause correction */
 
 .applause-button .count-container .count {
 
   width: 1px !important;
 
+}
+
+
+/* next and previous projects container */
+
+.ppnp-container {
+  position: absolute;
+  right: 46px;
+  top: 168px;
+  width: 80px;
 }
 
 
@@ -784,13 +796,7 @@ view more work*/
   padding-bottom: 9%;
 }
 
-/* 
-.bg-circle {
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  z-index: -1;
-} */
+
 
 .w-hero_container>img:nth-child(1) {
   width: 70%;
@@ -843,55 +849,8 @@ view more work*/
   width: 100%;
   height: 100vh;
   object-position: 25% 100%;
-  /* animation: ltr 5s alternate infinite; */
-  /* left: 0%;
-  transform: translate(-50%);
-  position: absolute; */
 }
 
-/* @keyframes ltr {
-  0% {
-    object-position: 0% 0%;
-  }
-
-  25% {
-    object-position: 20% 0%;
-  }
-
-  100% {
-    object-position: 100% 100%;
-  }
-} */
-
-/* .p-fe-hero_image img:nth-child(2) {
-  width: 70%;
-  left: 50%;
-  bottom: 0%;
-  transform: translate(-50%)
-} */
-
-/* @media screen and (max-width: 999px) {
-  .p-fe-hero_image {
-
-    height: 80vh;
-
-  }
-}
-
-@media screen and (max-width: 800px) {
-  .p-fe-hero_image img:nth-child(2) {
-
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .p-fe-hero_image {
-
-    height: 60vh;
-
-  }
-} */
 
 .p-para {
   font-size: 40px;
@@ -1003,20 +962,22 @@ color: #0088ff !important;
 .p-dz-hero_image {
   width: 100%;
   height: 100vh;
-  background-color: #DF9F17;
+  /* background-color: #DF9F17; */
   position: relative;
 }
 
 
 .p-dz-hero_image img {
-  /* display: block; */
   object-fit: cover;
   width: 100%;
   height: 100vh;
+}
 
-  /* position: absolute;
-  width: 28%;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) */
+
+/* Mr. Irritating */
+/* Brand Colouur */
+/* alcent colour #EE605C */
+
+.reveal-block.theme_mi::before {
+  background: #EE605C;
 }
