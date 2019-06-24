@@ -101,7 +101,7 @@ export default {
 .p-info-4 {
   position: relative;
   background-color: white;
-  padding: 100px 0px 100px 0px;
+  padding: 70px 0px 70px 0px;
 }
 
 .p-info {

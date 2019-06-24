@@ -474,6 +474,7 @@ view more work*/
   background: var(--primary-color);
 }
 
+
 .reveal-block.gradient-two::before {
   background: linear-gradient(to left, #1b9edf, #af74c3);
 }
@@ -820,26 +821,56 @@ view more work*/
 
 
 /* Project Filming Eye */
+/* accent colour rgb(218, 44, 77);*/
+
+.reveal-block.theme_fe::before {
+  background: rgb(218, 44, 77);
+}
+
 
 .p-fe-hero_image {
   width: 100%;
   height: 100vh;
-  background-color: black;
+  /* background-color: black; */
   position: relative;
+
+
 }
 
-.p-fe-hero_image>img {
-  position: absolute;
+
+.p-fe-hero_image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  object-position: 25% 100%;
+  /* animation: ltr 5s alternate infinite; */
+  /* left: 0%;
+  transform: translate(-50%);
+  position: absolute; */
 }
 
-.p-fe-hero_image>img:nth-child(2) {
+/* @keyframes ltr {
+  0% {
+    object-position: 0% 0%;
+  }
+
+  25% {
+    object-position: 20% 0%;
+  }
+
+  100% {
+    object-position: 100% 100%;
+  }
+} */
+
+/* .p-fe-hero_image img:nth-child(2) {
   width: 70%;
   left: 50%;
   bottom: 0%;
   transform: translate(-50%)
-}
+} */
 
-@media screen and (max-width: 999px) {
+/* @media screen and (max-width: 999px) {
   .p-fe-hero_image {
 
     height: 80vh;
@@ -848,7 +879,7 @@ view more work*/
 }
 
 @media screen and (max-width: 800px) {
-  .p-fe-hero_image>img:nth-child(2) {
+  .p-fe-hero_image img:nth-child(2) {
 
     width: 100%;
   }
@@ -860,7 +891,7 @@ view more work*/
     height: 60vh;
 
   }
-}
+} */
 
 .p-para {
   font-size: 40px;
@@ -965,6 +996,10 @@ color: #0088ff !important;
 
 /* akcent colour #E7A822 #DF9F17 */
 
+.reveal-block.theme_dz::before {
+  background: #DF9F17;
+}
+
 .p-dz-hero_image {
   width: 100%;
   height: 100vh;
@@ -974,10 +1009,10 @@ color: #0088ff !important;
 
 
 .p-dz-hero_image img {
-  display: block;
+  /* display: block; */
   object-fit: cover;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 
   /* position: absolute;
   width: 28%;

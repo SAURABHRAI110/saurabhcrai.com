@@ -4,6 +4,7 @@
       <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
       <h2 class="p-para black50">{{heading}}</h2>
     </div>
+    <!-- reveal-block red right" data-aos="reveal-right" data-aos-once="true" -->
     <p
       class="black90"
       data-aos="fade-up"
@@ -19,7 +20,8 @@
 export default {
   props: {
     heading: String,
-    para: String
+    para: String,
+    theme: String
   }
 }
 </script>

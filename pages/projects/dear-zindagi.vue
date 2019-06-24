@@ -10,8 +10,8 @@
     />
     <div class="p-dz-hero_image" data-aos-delay="600">
       <div class="reveal-holder" data-aos="reveal-item">
-        <div class="reveal-block red right" data-aos="reveal-right"></div>
-        <img src="~assets/projects/dearzindagi/dzhero.jpg" alt>
+        <div class="reveal-block theme_dz" data-aos="reveal-right"></div>
+        <img src="~assets/projects/dearzindagi/dzhero.jpg" alt align>
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
@@ -34,6 +34,7 @@
         work and nominations of their videos in different film competitions. The team comprised of talented who
         with their camera and skills was able to produce breathtaking works. People knew me already. So they
         kind of wanted me to work on their website."
+      theme="theme_dz right"
     />
 
     <!-- Problem -->
@@ -44,9 +45,14 @@
         existing
         was cool for the moment but that can not be used to used on web.
         <br>3. No copywrite, no information architecture."
+      theme="theme_dz right"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
+    <div class="reveal-holder" data-aos="reveal-item">
+      <div class="reveal-block theme_dz" data-aos="reveal-right"></div>
+      <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
+      <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+    </div>
 
     <!-- Reasearch -->
     <pcase
@@ -54,10 +60,11 @@
       para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
         used images that filming eye have clicked through their camera and some free stock photos that have
         meaning and value to infinity, beyond, and that fit to our red and dark black theme."
+      theme="theme_dz right"
     />
 
     <!-- photo grid -->
-    <pcase heading="Photography/Imagery"/>
+    <pcase heading="Photography/Imagery" theme="theme_dz right"/>
     <div class="contain">
       <div class="p-fe_photogrid">
         <img src="~assets/projects/fe/gallery1.jpg" alt>
@@ -83,6 +90,7 @@
              by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
              of asking qualitative questions such as their workflow to even the intimate details of their
              personal life."
+      theme="theme_dz right"
     />
 
     <div class="contain">
@@ -112,6 +120,7 @@
             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
             of asking qualitative questions such as their workflow to even the intimate details of their
             personal life."
+      theme="theme_dz right"
     />
 
     <!-- First Iteration -->
@@ -124,6 +133,7 @@
               when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
               thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
               changed almost everything expect the dark theme and colour and content architecture."
+      theme="theme_dz right"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">

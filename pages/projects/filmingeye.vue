@@ -8,10 +8,23 @@
       pHeadingcolor="color:#da2c4d;"
       pSubheading="Filming Eye Web Experience"
     />
-    <div class="p-fe-hero_image">
+    <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
       <img src="~assets/projects/fe/fe1.png" alt>
+    </div>-->
+
+    <!-- hero image -->
+    <div class="p-fe-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_fe" data-aos="reveal-right"></div>
+
+        <img src="~assets/projects/fe/fehero3.jpg" alt>
+        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
+
+        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+      </div>
     </div>
+
     <Preface
       timeframe=" April 2018- May 2018
             <br>2 Month"
@@ -31,6 +44,7 @@
         work and nominations of their videos in different film competitions. The team comprised of talented who
         with their camera and skills was able to produce breathtaking works. People knew me already. So they
         kind of wanted me to work on their website."
+      theme="theme_fe"
     />
 
     <!-- Problem -->
@@ -41,6 +55,7 @@
         existing
         was cool for the moment but that can not be used to used on web.
         <br>3. No copywrite, no information architecture."
+      theme="theme_fe"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
@@ -51,6 +66,7 @@
       para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
         used images that filming eye have clicked through their camera and some free stock photos that have
         meaning and value to infinity, beyond, and that fit to our red and dark black theme."
+      theme="theme_fe"
     />
 
     <!-- photo grid -->
@@ -80,6 +96,7 @@
              by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
              of asking qualitative questions such as their workflow to even the intimate details of their
              personal life."
+      theme="theme_fe"
     />
 
     <div class="contain">
@@ -109,6 +126,7 @@
             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
             of asking qualitative questions such as their workflow to even the intimate details of their
             personal life."
+      theme="theme_fe"
     />
 
     <!-- First Iteration -->
@@ -121,6 +139,7 @@
               when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
               thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
               changed almost everything expect the dark theme and colour and content architecture."
+      theme="theme_fe"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
@@ -138,6 +157,7 @@
                   I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of thing needed
                   to retouch. The works seems sloppy. So all the things needed retouch. In a way I changed almost
                   everything expect the dark theme and colour and content architecture."
+        theme="theme_fe"
       />
     </div>
     <!-- appreciate button -->
