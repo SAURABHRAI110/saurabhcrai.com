@@ -1,26 +1,48 @@
 <template>
+  <!-- The BBD Times -->
   <div>
+    <div class="ppnp-container">
+      <nuxt-link to="/projects/bharatrohan">
+        <next/>
+      </nuxt-link>
+      <nuxt-link to="/projects/feeding-trends">
+        <previous/>
+      </nuxt-link>
+    </div>
     <projecthero
-      pDate="Dec 2018 "
-      pWebsite="filmingeye.com"
-      pCategory="Product Design"
-      pHeading="Improve visual  perception"
-      pHeadingcolor="color:#da2c4d;"
-      pSubheading="Filming Eye Web Experience"
+      pDate="2015-217 "
+      pWebsite="TheBBDTimes"
+      pCategory="Branding"
+      pHeading="Connect . Express . Grow"
+      pHeadingcolor="color:#0088ff;"
+      pSubheading="Connecting 25k students Across 4 colleges"
     />
-    <div class="p-hero_image">
+    <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
       <img src="~assets/projects/fe/fe1.png" alt>
+    </div>-->
+
+    <!-- hero image -->
+    <div class="p-fe-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_tbt" data-aos="reveal-right"></div>
+
+        <img src="~assets/projects/tbt/tbt-hero.jpeg" alt>
+        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
+
+        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+      </div>
     </div>
+
     <Preface
-      timeframe=" April 2018- May 2018
-            <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
-            <br>Marketing"
+      timeframe=" August 2015-April 2018 <br>
+                  3 Years"
+      tools="   Photoshop, Illustrtor, After Effects <br>
+                Corel Draw, Adobe XD"
+      role="  Graphic Designer, Social Media <br>
+              Manager, Photographer"
+      team="  Team of 26 talented people
+              Content Writers, <br> Web and App Developers, Marketer and Designer"
     />
     <!-- Preface -->
     <pcase
@@ -31,6 +53,7 @@
         work and nominations of their videos in different film competitions. The team comprised of talented who
         with their camera and skills was able to produce breathtaking works. People knew me already. So they
         kind of wanted me to work on their website."
+      theme="theme_tbt"
     />
 
     <!-- Problem -->
@@ -41,6 +64,7 @@
         existing
         was cool for the moment but that can not be used to used on web.
         <br>3. No copywrite, no information architecture."
+      theme="theme_tbt"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
@@ -51,6 +75,7 @@
       para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
         used images that filming eye have clicked through their camera and some free stock photos that have
         meaning and value to infinity, beyond, and that fit to our red and dark black theme."
+      theme="theme_tbt"
     />
 
     <!-- photo grid -->
@@ -80,6 +105,7 @@
              by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
              of asking qualitative questions such as their workflow to even the intimate details of their
              personal life."
+      theme="theme_tbt"
     />
 
     <div class="contain">
@@ -109,6 +135,7 @@
             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
             of asking qualitative questions such as their workflow to even the intimate details of their
             personal life."
+      theme="theme_tbt"
     />
 
     <!-- First Iteration -->
@@ -121,6 +148,7 @@
               when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
               thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
               changed almost everything expect the dark theme and colour and content architecture."
+      theme="theme_tbt"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
@@ -138,6 +166,7 @@
                   I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of thing needed
                   to retouch. The works seems sloppy. So all the things needed retouch. In a way I changed almost
                   everything expect the dark theme and colour and content architecture."
+        theme="theme_tbt"
       />
     </div>
     <!-- appreciate button -->
@@ -156,6 +185,8 @@ import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
 import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
+import Next from '~/components/projects/next'
+import Previous from '~/components/projects/previous'
 export default {
   layout: 'projects',
   components: {
@@ -163,7 +194,9 @@ export default {
     Preface,
     Appreciate,
     Pcase,
-    Projecthero
+    Projecthero,
+    Next,
+    Previous
   }
 }
 </script>

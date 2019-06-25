@@ -2,7 +2,7 @@
   <!-- Elevito work -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/dear-zindagi">
+      <nuxt-link to="/projects/feeding-trends">
         <next/>
       </nuxt-link>
       <nuxt-link to="/projects/awesome-inc">

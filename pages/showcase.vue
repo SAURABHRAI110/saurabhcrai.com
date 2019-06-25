@@ -108,9 +108,9 @@
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/feedingtrends">
+          <nuxt-link to="/projects/feeding-trends">
             <thumbnail
-              thumbnailName="Filming Eye"
+              thumbnailName="Feeding Trends"
               thumbnailDescription="Web, Branding, Print"
               thumbnail="/showcase7a.jpg"
               data-aos="zoom-out-up"
@@ -122,11 +122,11 @@
           </nuxt-link>
         </div>
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/thebbdtimes">
             <thumbnail
-              thumbnailName="Dear Zindagi"
-              thumbnailDescription="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              thumbnailName="The BBD Times"
+              thumbnailDescription="Branding"
+              thumbnail="/tbt-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="800"

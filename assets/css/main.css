@@ -664,6 +664,7 @@ view more work*/
   right: 46px;
   top: 168px;
   width: 80px;
+  z-index: 1000;
 }
 
 
@@ -1021,7 +1022,22 @@ color: #0088ff !important;
 }
 
 
-a:active,
-.projects-content:active {
-  color: #f83e5b;
+/* feeding Trends
+  akcent colour  blue #1D98B6
+
+*/
+
+.reveal-block.theme_ft::before {
+  background: #1D98B6;
+}
+
+
+/* The BBD Times *
+Akcent colours
+
+background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 80, 148, 1) 100%);
+*/
+
+.reveal-block.theme_tbt::before {
+  background: #0088ff;
 }

@@ -2,20 +2,20 @@
   <!-- Feeding Trends -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/dear-zindagi">
+      <nuxt-link to="/projects/thebbdtimes">
         <next/>
       </nuxt-link>
-      <nuxt-link to="/projects/awesome-inc">
+      <nuxt-link to="/projects/feeding-trends">
         <previous/>
       </nuxt-link>
     </div>
     <projecthero
-      pDate="October 2017 "
-      pWebsite="elevito.com"
+      pDate="December 2017 "
+      pWebsite="feedingtrends.com"
       pCategory="Product Design"
-      pHeading="Elevito: My own endeaver "
-      pHeadingcolor="color:#FD3E5B;"
-      pSubheading="Designing for a design company."
+      pHeading="Content that matters "
+      pHeadingcolor="color:#1D98B6;"
+      pSubheading="Stories That make you think and rethink.."
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -25,9 +25,9 @@
     <!-- hero image -->
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
+        <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/elevito/elevito-hero.jpg" alt>
+        <img src="~assets/projects/ft/ft3.jpg" alt>
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -53,7 +53,7 @@
         work and nominations of their videos in different film competitions. The team comprised of talented who
         with their camera and skills was able to produce breathtaking works. People knew me already. So they
         kind of wanted me to work on their website."
-      theme="theme_elevito"
+      theme="theme_ft"
     />
 
     <!-- Problem -->
@@ -64,7 +64,7 @@
         existing
         was cool for the moment but that can not be used to used on web.
         <br>3. No copywrite, no information architecture."
-      theme="theme_elevito"
+      theme="theme_ft"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
@@ -75,7 +75,7 @@
       para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
         used images that filming eye have clicked through their camera and some free stock photos that have
         meaning and value to infinity, beyond, and that fit to our red and dark black theme."
-      theme="theme_elevito"
+      theme="theme_ft"
     />
 
     <!-- photo grid -->
@@ -105,7 +105,7 @@
              by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
              of asking qualitative questions such as their workflow to even the intimate details of their
              personal life."
-      theme="theme_elevito"
+      theme="theme_ft"
     />
 
     <div class="contain">
@@ -135,7 +135,7 @@
             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
             of asking qualitative questions such as their workflow to even the intimate details of their
             personal life."
-      theme="theme_elevito"
+      theme="theme_ft"
     />
 
     <!-- First Iteration -->
@@ -148,7 +148,7 @@
               when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
               thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
               changed almost everything expect the dark theme and colour and content architecture."
-      theme="theme_elevito"
+      theme="theme_ft"
     />
 
     <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
@@ -166,7 +166,7 @@
                   I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of thing needed
                   to retouch. The works seems sloppy. So all the things needed retouch. In a way I changed almost
                   everything expect the dark theme and colour and content architecture."
-        theme="theme_elevito"
+        theme="theme_ft"
       />
     </div>
     <!-- appreciate button -->
