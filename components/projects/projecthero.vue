@@ -71,6 +71,7 @@ export default {
   font-size: 26px;
   margin-top: 10px;
   position: relative;
+  color: rgb(29, 29, 29);
   z-index: 3;
 }
 

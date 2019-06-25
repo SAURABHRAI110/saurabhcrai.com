@@ -68,7 +68,7 @@ export default {
   position: absolute;
   right: -4%;
   text-align: right;
-  bottom: 12%;
+  bottom: 9%;
   display: inline-block;
   z-index: 10;
   overflow: hidden;

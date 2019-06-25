@@ -228,7 +228,7 @@
           <thumbnail
             thumbnailName="R3"
             thumbnailDescription="Social Media, logo"
-            thumbnail="/showcase4.jpg"
+            thumbnail="/showcase4a.jpg"
             data-aos="zoom-out-up"
             data-aos-duration="1500"
             data-aos-delay="800"
@@ -238,8 +238,8 @@
         <nuxt-link to="/projects/awesome-inc">
           <thumbnail
             thumbnailName="Awesome Inc."
-            thumbnailDescription="Branding"
-            thumbnail="/showcase5.jpg"
+            thumbnailDescription="Identity, Print"
+            thumbnail="/showcase5a.jpg"
             data-aos="zoom-out-up"
             data-aos-duration="1500"
             data-aos-delay="0"

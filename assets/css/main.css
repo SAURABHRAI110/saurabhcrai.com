@@ -373,7 +373,7 @@ view more work*/
 .showcase-container-home {
   display: flex;
   width: 70%;
-  margin-left: calc(15% - 50px);
+  margin-left: calc(16.44% - 50px);
   /* margin-bottom: -150px; */
 }
 
@@ -980,4 +980,21 @@ color: #0088ff !important;
 
 .reveal-block.theme_mi::before {
   background: #EE605C;
+}
+
+
+/* R3  */
+/* akcent colour #E04472 */
+.reveal-block.theme_r3::before {
+  background: linear-gradient(#e9805c 0%, #d83b73 100%);
+
+}
+
+/* Awesome Inc */
+/* akcent colour */
+/* gradient */
+
+.reveal-block.theme_ai::before {
+  background: #A05EE5;
+
 }

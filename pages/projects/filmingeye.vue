@@ -9,9 +9,9 @@
       </nuxt-link>
     </div>
     <projecthero
-      pDate="April 2018 "
-      pWebsite="Mr. Irritating"
-      pCategory="Print Design"
+      pDate="Dec 2018 "
+      pWebsite="filmingeye.com"
+      pCategory="Product Design"
       pHeading="Improve visual  perception"
       pHeadingcolor="color:#da2c4d;"
       pSubheading="Filming Eye Web Experience"

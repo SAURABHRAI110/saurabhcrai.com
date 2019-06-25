@@ -9,12 +9,12 @@
       </nuxt-link>
     </div>
     <projecthero
-      pDate="Dec 2018 "
-      pWebsite="filmingeye.com"
-      pCategory="Product Design"
-      pHeading="Improve visual  perception"
+      pDate="June 2018 "
+      pWebsite="Mr. Irritating"
+      pCategory="Print Design"
+      pHeading="Every past keeps a story"
       pHeadingcolor="color:#EE605C;"
-      pSubheading="Filming Eye Web Experience"
+      pSubheading="Designing a romantic novel cover "
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>

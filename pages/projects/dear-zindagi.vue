@@ -1,4 +1,5 @@
 <template>
+  <!-- Dear zindagi work -->
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/mr-irritating">
@@ -14,7 +15,7 @@
       pCategory="Print Design"
       pHeading="Aware and Responsible Teens"
       pHeadingcolor="color:#DF9F17;"
-      pSubheading="Brochure for A.R.T."
+      pSubheading="Brochure design for A.R.T."
     />
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
