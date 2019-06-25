@@ -191,72 +191,86 @@
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <nuxt-link to="/projects/filmingeye">
-          <thumbnail
-            thumbnailName="Filming Eye"
-            thumbnailDescription="Web, Identity"
-            thumbnail="/showcase1.jpg"
-            data-aos="zoom-out-up"
-            data-aos-duration="1500"
-            data-aos-delay="0"
-            data-aos-once="true"
-          />
-        </nuxt-link>
-        <nuxt-link to="/projects/dear-zindagi">
-          <thumbnail
-            thumbnailName="Dear Zindagi"
-            thumbnailDescription="Brochure, Identity"
-            thumbnail="/showcase2.jpg"
-            data-aos="fade-up"
-            data-aos-duration="1500"
-            data-aos-delay="800"
-            data-aos-once="true"
-          />
-        </nuxt-link>
-        <nuxt-link to="/projects/mr-irritating">
-          <thumbnail
-            thumbnailName="Mr. Irritating"
-            thumbnailDescription="Print, Social Media"
-            thumbnail="/showcase3.jpg"
-            data-aos="zoom-out-up"
-            data-aos-duration="1500"
-            data-aos-delay="0"
-            data-aos-once="true"
-          />
-        </nuxt-link>
-        <nuxt-link to="/projects/r3">
-          <thumbnail
-            thumbnailName="R3"
-            thumbnailDescription="Social Media, logo"
-            thumbnail="/showcase4a.jpg"
-            data-aos="zoom-out-up"
-            data-aos-duration="1500"
-            data-aos-delay="800"
-            data-aos-once="true"
-          />
-        </nuxt-link>
-        <nuxt-link to="/projects/awesome-inc">
-          <thumbnail
-            thumbnailName="Awesome Inc."
-            thumbnailDescription="Identity, Print"
-            thumbnail="/showcase5a.jpg"
-            data-aos="zoom-out-up"
-            data-aos-duration="1500"
-            data-aos-delay="0"
-            data-aos-once="true"
-          />
-        </nuxt-link>
-        <nuxt-link to="/projects/elevito">
-          <thumbnail
-            thumbnailName="Elevito"
-            thumbnailDescription="Web, Branding, Print"
-            thumbnail="/showcase6.jpg"
-            data-aos="zoom-out-up"
-            data-aos-duration="1500"
-            data-aos-delay="800"
-            data-aos-once="true"
-          />
-        </nuxt-link>
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/filmingeye">
+            <thumbnail
+              thumbnailName="Filming Eye"
+              thumbnailDescription="Web, Identity"
+              thumbnail="/showcase1.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="0"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/dear-zindagi">
+            <thumbnail
+              thumbnailName="Dear Zindagi"
+              thumbnailDescription="Brochure, Identity"
+              thumbnail="/showcase2.jpg"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/mr-irritating">
+            <thumbnail
+              thumbnailName="Mr. Irritating"
+              thumbnailDescription="Print, Social Media"
+              thumbnail="/showcase3.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/r3">
+            <thumbnail
+              thumbnailName="R3"
+              thumbnailDescription="Social Media, logo"
+              thumbnail="/showcase4a.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/awesome-inc">
+            <thumbnail
+              thumbnailName="Awesome Inc."
+              thumbnailDescription="Identity, Print"
+              thumbnail="/showcase5a.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/elevito">
+            <thumbnail
+              thumbnailName="Elevito"
+              thumbnailDescription="Web, Branding, Print"
+              thumbnail="/showcase6d.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
       </div>
     </div>
 

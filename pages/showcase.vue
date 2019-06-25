@@ -4,7 +4,7 @@
     <!-- v-rellax="{ speed: 4, center: 0.5  }" -->
     <div class="w-hero_container">
       <img src="~assets/svg/circle.svg" alt="circle">
-      <img src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }">>
+      <img src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }">>
       <div class="contain p-h-container">
         <p class="pm p-h-subheading">case studies</p>
         <h1>
@@ -20,7 +20,7 @@
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
               thumbnailName="Filming Eye"
@@ -34,7 +34,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/dear-zindagi">
             <thumbnail
               thumbnailName="Dear Zindagi"
@@ -49,7 +49,7 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
               thumbnailName="Mr. Irritating"
@@ -62,12 +62,12 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/r3">
             <thumbnail
               thumbnailName="R3"
               thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4.jpg"
+              thumbnail="/showcase4a.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="800"
@@ -75,12 +75,12 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/awesome-inc">
             <thumbnail
               thumbnailName="Awesome Inc."
               thumbnailDescription="Branding"
-              thumbnail="/showcase5.jpg"
+              thumbnail="/showcase5a.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="0"
@@ -88,12 +88,12 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/elevito">
             <thumbnail
               thumbnailName="Elevito"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6.jpg"
+              thumbnail="/showcase6d.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="800"
@@ -107,12 +107,12 @@
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <div class="p-thumnail-ad">
-          <nuxt-link to="/projects/filmingeye">
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/feedingtrends">
             <thumbnail
               thumbnailName="Filming Eye"
-              thumbnailDescription="Web, Identity"
-              thumbnail="/showcase1.jpg"
+              thumbnailDescription="Web, Branding, Print"
+              thumbnail="/showcase7a.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="0"
@@ -121,7 +121,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/dear-zindagi">
             <thumbnail
               thumbnailName="Dear Zindagi"
@@ -136,7 +136,7 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
               thumbnailName="Mr. Irritating"
@@ -149,7 +149,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/r3">
             <thumbnail
               thumbnailName="R3"
@@ -162,7 +162,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/awesome-inc">
             <thumbnail
               thumbnailName="Awesome Inc."
@@ -175,7 +175,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="p-thumnail-ad">
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/elevito">
             <thumbnail
               thumbnailName="Elevito"

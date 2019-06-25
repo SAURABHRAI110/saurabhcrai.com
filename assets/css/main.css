@@ -411,7 +411,7 @@ view more work*/
 
 
 .p-thumbnail-ad:nth-child(2n) {
-  padding-top: 60px;
+  padding-top: 70px;
 }
 
 @media screen and (max-width: 999px) {
@@ -809,8 +809,8 @@ view more work*/
 
 .w-hero_container>img:nth-child(2) {
   width: 52%;
-  right: 3%;
-  top: 1%;
+  right: 5%;
+  top: 9%;
   position: absolute;
   z-index: -1;
   opacity: .6;
@@ -997,4 +997,31 @@ color: #0088ff !important;
 .reveal-block.theme_ai::before {
   background: #A05EE5;
 
+}
+
+
+/* Elevito 
+  Akcent color primary 
+
+   primary  #FD3E5B
+   secondary #F78C37
+   black 1 #141315
+
+   blue graident
+   background: linear-gradient(#00adee 0%, #1b75bb 0%, #469e9c 0%, #419a9b 22.16%, #338f99 47.69%, #1c7d97 74.76%, #006894 100%);
+
+   elevito gradient
+   background: linear-gradient(#f83e5b 0%, #f48937 100%, #000 100%);
+
+*/
+
+.reveal-block.theme_elevito::before {
+  background: linear-gradient(#f83e5b 0%, #f48937 100%, #000 100%);
+
+}
+
+
+a:active,
+.projects-content:active {
+  color: #f83e5b;
 }
