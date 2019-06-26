@@ -1,22 +1,20 @@
 <template>
   <footer class="footer-wrapper">
-    <img class="footer-hand" src="~assets/footer/footer-hand.png" />
+    <img class="footer-hand" src="~assets/footer/footer-hand.png">
     <div class="footer-type1">
       <div class="footer-left"></div>
       <div class="footer-right">
         <div class="text-slide-in">
           <span class="link-effect2 hover-link2">
             <a href="#" target="_blank">
-              <span data-hover=" & take over the world! "
-                >Yey! let's grab a coffee</span
-              >
+              <span data-hover=" & take over the world! ">Yey! let's grab a coffee</span>
             </a>
           </span>
         </div>
         <div style="position:relative;     top: 14%;">
           <span class="footer-m-heading">
             Yey! let's grab a coffee
-            <br />& take over the world!
+            <br>& take over the world!
           </span>
         </div>
 
@@ -24,9 +22,10 @@
           <span class="sayhi2 para black61">or just say hi!</span>
           <span class="link-effect2 hover-link2">
             <a href="mailto:hello@saurabhcrai.com">
-              <span class="sayhi3 black" data-hover="hello@saurabhcrai.com ↗"
-                >hello@saurabhcrai.com ↗</span
-              >
+              <span
+                class="sayhi3 black"
+                data-hover="hello@saurabhcrai.com ↗"
+              >hello@saurabhcrai.com ↗</span>
             </a>
           </span>
         </div>
@@ -42,10 +41,7 @@
                 title="Facebook (new tab)"
               >
                 <div class="social-three">
-                  <img
-                    class="social-four"
-                    src="~assets/footer/facebook-lightgrey.png"
-                  />
+                  <img class="social-four" src="~assets/footer/facebook-lightgrey.png">
                 </div>
               </a>
             </div>
@@ -60,10 +56,7 @@
                 title="Instagram (new tab)"
               >
                 <div class="social-three">
-                  <img
-                    class="social-four"
-                    src="~assets/footer/instagram-lightgrey.png"
-                  />
+                  <img class="social-four" src="~assets/footer/instagram-lightgrey.png">
                 </div>
               </a>
             </div>
@@ -78,10 +71,7 @@
                 title="Linkdin (new tab)"
               >
                 <div class="social-three">
-                  <img
-                    class="social-four"
-                    src="~assets/footer/linkdin-lightgrey.png"
-                  />
+                  <img class="social-four" src="~assets/footer/linkdin-lightgrey.png">
                 </div>
               </a>
             </div>
@@ -96,10 +86,7 @@
                 title="Medium (new tab)"
               >
                 <div class="social-three">
-                  <img
-                    class="social-four"
-                    src="~assets/footer/medium-lightgrey.png"
-                  />
+                  <img class="social-four" src="~assets/footer/medium-lightgrey.png">
                 </div>
               </a>
             </div>
@@ -114,10 +101,7 @@
                 title="Behance (new tab)"
               >
                 <div class="social-three">
-                  <img
-                    class="social-four"
-                    src="~assets/footer/behance-lightgrey.png"
-                  />
+                  <img class="social-four" src="~assets/footer/behance-lightgrey.png">
                 </div>
               </a>
             </div>
@@ -132,10 +116,7 @@
                 title="Github(new tab)"
               >
                 <div class="social-three">
-                  <img
-                    class="social-four"
-                    src="~assets/footer/github-social.png"
-                  />
+                  <img class="social-four" src="~assets/footer/github-social.png">
                 </div>
               </a>
             </div>
@@ -144,9 +125,7 @@
       </div>
       <div class="footer-bottom-left"></div>
       <div class="footer-bottom-right">
-        <p class="footer-dev-text">
-          ©2019 Saurabh Rai Coded with love and coffee
-        </p>
+        <p class="footer-dev-text">©2019 Saurabh Rai Coded with love and coffee</p>
       </div>
     </div>
   </footer>
@@ -351,6 +330,17 @@ export default {}
 
 /* footer media queries */
 
+@media screen and (max-width: 1200px) {
+  .text-slide-in {
+    font-size: 40px;
+  }
+
+  .sayhi-container {
+    /* top: 31%; */
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 999px) {
   .footer-hand {
     left: 12%;
@@ -358,6 +348,15 @@ export default {}
 
   .footer-type1 {
     grid-template-columns: 50fr 50fr;
+  }
+
+  .text-slide-in {
+    font-size: 37px;
+  }
+
+  .sayhi-container {
+    /* top: 31%; */
+    font-size: 17px;
   }
 }
 
@@ -382,7 +381,7 @@ export default {}
   .footer-m-heading {
     font-size: 30px;
     color: var(--primary-color);
-    padding-top: 1%;
+    padding-top: 3%;
     position: relative;
     text-align: center;
     top: 25%;
@@ -395,23 +394,28 @@ export default {}
   }
 
   .sayhi-container {
-    top: 31%;
+    top: 37%;
     font-size: 18px;
   }
 
   .sayhi3 {
     padding-top: 6px;
   }
+  .sayhi2 {
+    padding-top: 6px;
+    padding: 35px;
+  }
 
   .social-icon_container {
-    top: 48%;
+    top: 51%;
   }
 
   .footer-hand {
     height: 34%;
     bottom: 7.4%;
     z-index: 1;
-    left: 38%;
+    left: 50%;
+    transform: translate(-50%);
   }
 
   .footer-dev-text {
@@ -431,12 +435,18 @@ export default {}
   }
 
   .sayhi-container {
-    top: 30%;
+    top: 35%;
     font-size: 18px;
   }
 
-  .social-icon_container {
-    top: 48%;
+  .social-one {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .footer-m-heading {
+    font-size: 26px;
   }
 }
 </style>

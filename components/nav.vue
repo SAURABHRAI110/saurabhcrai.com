@@ -1,7 +1,6 @@
 <template>
   <div class="nav-container">
     <logo/>
-    <ul></ul>
   </div>
 </template>
 
@@ -31,11 +30,5 @@ export default {
     width: 100%;
     height: 65px;
   }
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 10px;
-  padding-top: 200px;
 }
 </style>

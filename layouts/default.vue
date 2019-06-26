@@ -21,12 +21,18 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .footer,
 .menu {
   margin-left: -100px;
 }
 
+@media screen and (max-width: 999px) {
+  .footer,
+  .menu {
+    margin-left: 0px;
+  }
+}
 .page-enter-active {
   transition: all 0.25s ease-out;
 }

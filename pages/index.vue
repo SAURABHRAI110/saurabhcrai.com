@@ -115,55 +115,63 @@
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
-        <h1 class="showreel-heading" data-aos="fade-up" data-aos-duration="1000">GET INSPIRED</h1>
+        <h1
+          class="showreel-heading"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="-200"
+        >GET INSPIRED</h1>
         <p
           class="showreel-sub-heading"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="300"
           data-aos-anchor-placement="top-bottom"
+          data-aos-offset="-200"
         >Watch Showreel</p>
         <div
-          class="showreel-button"
           data-aos="fade-up"
           data-aos-duration="1300"
           data-aos-delay="500"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
         >
-          <svg
-            id="play"
-            version="1.1"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            x="0px"
-            y="0px"
-            height="70px"
-            width="70px"
-            viewBox="0 0 100 100"
-            enable-background="new 0 0 100 100"
-            xml:space="preserve"
-          >
-            <path
-              class="stroke-solid"
-              fill="none"
-              stroke="#fff"
-              d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
-        C97.3,23.7,75.7,2.3,49.9,2.5"
-            ></path>
-            <path
-              class="stroke-dotted"
-              fill="none"
-              stroke="#fff"
-              d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
-        C97.3,23.7,75.7,2.3,49.9,2.5"
-            ></path>
-            <path
-              class="icon"
-              fill="#fff"
-              d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"
-            ></path>
-          </svg>
+          <span class="showreel-button">
+            <svg
+              id="play"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              height="70px"
+              width="70px"
+              viewBox="0 0 100 100"
+              enable-background="new 0 0 100 100"
+              xml:space="preserve"
+            >
+              <path
+                class="stroke-solid"
+                fill="none"
+                stroke="#fff"
+                d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+          C97.3,23.7,75.7,2.3,49.9,2.5"
+              ></path>
+              <path
+                class="stroke-dotted"
+                fill="none"
+                stroke="#fff"
+                d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
+          C97.3,23.7,75.7,2.3,49.9,2.5"
+              ></path>
+              <path
+                class="icon"
+                fill="#fff"
+                d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"
+              ></path>
+            </svg>
+          </span>
         </div>
       </div>
     </div>
@@ -453,7 +461,7 @@ export default {
 
 .h-work_heading {
   padding: 40px 0px 40px 0px;
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 /* showreel */
@@ -485,8 +493,7 @@ export default {
 
 .showreel-button {
   position: relative;
-  left: 37%;
-  padding-top: 100px;
+  left: 42%;
 }
 
 .showreel-heading {
@@ -518,6 +525,33 @@ export default {
   height: 100%;
   object-fit: cover;
   position: absolute;
+}
+
+@media screen and (max-width: 999px) {
+  .showreel-heading {
+    font-size: 70px;
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .showreel-heading {
+    font-size: 60px;
+    line-height: 60px;
+  }
+
+  .showreel-button {
+    left: 39%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .showreel-heading {
+    font-size: 52px;
+    line-height: 52px;
+  }
+
+  .showreel-button {
+    left: 35%;
+  }
 }
 
 @-webkit-keyframes spin {
@@ -577,11 +611,11 @@ export default {
 
 #play {
   cursor: pointer;
-  position: absolute;
+  /* position: absolute;
   top: 50%;
   left: 12%;
   -webkit-transform: translateY(-50%) translateX(-50%);
-  transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-50%) translateX(-50%); */
 }
 
 /* applause-button_container */
