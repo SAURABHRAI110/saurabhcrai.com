@@ -26,4 +26,17 @@ export default {
 .menu {
   margin-left: -100px;
 }
+
+.page-enter-active {
+  transition: all 0.25s ease-out;
+}
+
+.page-leave-active {
+  transition: all 0.5s ease-in;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
 </style>

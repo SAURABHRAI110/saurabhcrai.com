@@ -137,11 +137,11 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/filmingeye">
+          <nuxt-link to="/projects/bharatrohan">
             <thumbnail
-              thumbnailName="Mr. Irritating"
-              thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.jpg"
+              thumbnailName="BharatRohan"
+              thumbnailDescription="Admin, App, Web"
+              thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="0"
