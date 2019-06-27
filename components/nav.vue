@@ -1,5 +1,8 @@
 <template>
   <div class="nav-container">
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+    <p id="demo"></p>
     <logo/>
   </div>
 </template>
@@ -9,6 +12,11 @@ import Logo from '~/components/logo'
 export default {
   components: {
     Logo
+  },
+  head() {
+    return {
+      script: [{ src: '/main.js' }]
+    }
   }
 }
 </script>

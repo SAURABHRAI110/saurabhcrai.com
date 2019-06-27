@@ -1,24 +1,104 @@
 <template>
-  <div class="wrapper">
-    <div class="menu-btn">
-      <button type="button"></button>
-    </div>
+  <nav class="c-nav js-nav">
+    <a class="c-nav_wordmark" href="index.html">
+      <img class="nav-logo" src="assets/logo.svg">
+    </a>
+    <!-- <a href="index.html" class="c-nav_logo_mobile">
 
-    <div class="menu">
-      <div class="row">
-        <div class="col-lg overlay">
-          <div class="nav">
-            <ul>
-              <luxt-link class="li" to="/work">Work</luxt-link>
-              <luxt-link class="li" to="/about">About</luxt-link>
-              <luxt-link class="li" to="/contact">Contact</luxt-link>
-              <luxt-link class="li" to="/people">People</luxt-link>
-            </ul>
+      <img class="nav-logo" src="assets/logo.svg">
+
+    </a>-->
+    <div data-module="NavButton">
+      <button class="c-nav_burger js-navButton-toggle" type="button">
+        <span class="c-nav_burger_lines"></span>
+      </button>
+    </div>
+    <p class="c-nav_text -big">Unknown Battleground and me.</p>
+    <!-- <p class="c-nav_text -small">
+      <a class="o-link -underline" href="blog.html#mycodelearning">
+        <img class="c-nav-codelove" src="menu-assets/codewithlove.svg">
+
+    </p>-->
+    <div class="c-nav_main">
+      <div class="c-nav_main_infos">
+        <div>
+          <p class="c-nav_main_infos_text -big">Unknown Battleground and me.</p>
+          <div class="o-layout">
+            <div class="o-layout_item u-1/2">
+              <p class="c-nav_main_infos_text -small">
+                <a class="o-link -underline" href="en/brands.html">Coded with</a>
+                love and coffee.
+              </p>
+            </div>
+            <div class="o-layout_item u-1/2">
+              <p class="c-nav_main_infos_text -small">
+                <a class="o-link" href="en/brands">Coded with</a>
+                love and cofee.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="c-nav_main_layout o-layout">
+        <div class="c-nav_main_item o-layout_item u-1/3@from-medium u-1/2@to-medium -big">
+          <a class="c-nav_main_link" href="showcase.html">
+            <span class="c-nav_main_wrap">
+              <span class="c-nav_main_background">
+                <span
+                  class="o-background -overlay -dark"
+                  style="background-image: url(menu-assets/me1.jpg) "
+                ></span>
+              </span>
+              <span class="c-nav_main_content">
+                <span class="c-nav_main_text">All I ever wanter was to edit my friend photo.</span>
+                <span class="c-nav_main_heading -large">Showcase</span>
+              </span>
+            </span>
+          </a>
+        </div>
+        <div class="c-nav_main_item o-layout_item u-1/3@from-medium u-1/2@to-medium -big">
+          <a class="c-nav_main_link" href="en/culture.html">
+            <span class="c-nav_main_wrap">
+              <span class="c-nav_main_background">
+                <span
+                  class="o-background -overlay -dark"
+                  style="background-image: url(menu-assets/me5-red.jpg);"
+                ></span>
+              </span>
+              <span class="c-nav_main_content">
+                <span class="c-nav_main_text">Bunch of them who bring the best in me.</span>
+                <span class="c-nav_main_heading -large">People</span>
+              </span>
+            </span>
+          </a>
+        </div>
+
+        <div class="c-nav_main_item o-layout_item u-1/3@from-medium">
+          <div class="o-layout c-nav_main_item_secondary">
+            <a class="o-layout_item c-nav_main_link -half -dark" href="blog.html">
+              <span class="c-nav_main_wrap">
+                <span class="c-nav_main_content">
+                  <span class="c-nav_main_text">
+                    Oo! I write the things I learn. People and
+                    Design.
+                  </span>
+                  <span class="c-nav_main_heading -small">Blog</span>
+                </span>
+              </span>
+            </a>
+            <a class="o-layout_item c-nav_main_link -half -dark" href="about.html">
+              <span class="c-nav_main_wrap">
+                <span class="c-nav_main_content">
+                  <span class="c-nav_main_text">Me and more me.</span>
+                  <span class="c-nav_main_heading -small">About</span>
+                </span>
+              </span>
+            </a>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  </nav>
 </template>
 
 <script>

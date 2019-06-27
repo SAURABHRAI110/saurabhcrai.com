@@ -191,9 +191,9 @@ p {
   /* line-height: 42px; */
 }
 
-.no-white-space {
+/* .no-white-space {
   white-space: pre-wrap;
-}
+} */
 
 @media screen and (max-width: 1200px) {
   p {
@@ -1066,3 +1066,6 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
 .reveal-block.theme_br::before {
   background: #11A78E;
 }
+
+
+
