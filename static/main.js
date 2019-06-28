@@ -1,5 +1,2 @@
-$(document).ready(function () {
-  $("p").click(function () {
-    alert("The paragraph was clicked.");
-  });
-});
+var mySwati = document.getElementById("intro");
+document.getElementById("demo").innerHTML = "I " + mySwati.innerHTML;

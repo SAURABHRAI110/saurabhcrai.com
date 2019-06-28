@@ -1,8 +1,7 @@
 <template>
   <div class="nav-container">
-    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
-
     <p id="demo"></p>
+    <p id="intro">Love Swati</p>
     <logo/>
   </div>
 </template>
@@ -12,12 +11,12 @@ import Logo from '~/components/logo'
 export default {
   components: {
     Logo
-  },
-  head() {
-    return {
-      script: [{ src: '/main.js' }]
-    }
   }
+  // head() {
+  //   return {
+  //     script: [{ src: '/main.js', defer:  true  }]
+  //   }
+  // }
 }
 </script>
 
