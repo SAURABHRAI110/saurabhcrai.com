@@ -1,5 +1,5 @@
 <template>
-  <div class="projects-wrapper-top">
+  <div class="projects-wrapper-top hover-target">
     <div class="projects-wrapper item1">
       <div class="projects-card-wrapper">
         <div class="projects-card"></div>
@@ -48,7 +48,7 @@ export default {
 
   border-radius: 0.1rem;
   overflow: hidden;
-  cursor: url('/cnblack.svg'), auto;
+  /* cursor: url('/cnblack.svg'), auto; */
 }
 
 .projects-image {

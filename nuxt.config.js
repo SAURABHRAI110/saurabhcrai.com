@@ -1,4 +1,7 @@
 import pkg from './package'
+import {
+  async
+} from 'q';
 
 export default {
   mode: 'universal',
@@ -12,14 +15,17 @@ export default {
         src: ' https://unpkg.com/applause-button/dist/applause-button.js'
       },
       {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'
+        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
+        body: true,
+        async: true
 
 
       },
       {
         src: '/main.js',
         defer: true,
-        body: true
+        body: true,
+        async: true
       }
 
     ],

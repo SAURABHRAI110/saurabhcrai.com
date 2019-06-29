@@ -1,7 +1,6 @@
 <template>
   <div>
-    <!-- <Menu/> -->
-    <Nav/>
+    <Menu/>
     <nuxt/>
 
     <!-- <div class="footer">
@@ -10,12 +9,11 @@
   </div>
 </template>
 <script>
-import Nav from '~/components/nav'
-// import Menu from '~/components/menu'
+import Menu from '~/components/menu'
 // import Footer from '~/components/footer'
 export default {
   components: {
-    Nav
+    Menu
   }
 }
 </script>
@@ -31,5 +29,18 @@ export default {
   .menu {
     margin-left: 0px;
   }
+}
+
+.page-enter-active {
+  transition: all 0.25s ease-out;
+}
+
+.page-leave-active {
+  transition: all 0.5s ease-in;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
 }
 </style>

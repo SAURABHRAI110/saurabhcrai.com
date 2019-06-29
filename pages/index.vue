@@ -105,7 +105,7 @@
 
     <div class="more-about-me">
       <nuxt-link to="/about">
-        <discovermore button-text="get to know me"/>
+        <discovermore class="hover-target" button-text="get to know me"/>
       </nuxt-link>
     </div>
     <!-- Showcase video and parallax -->
