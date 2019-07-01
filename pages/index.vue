@@ -18,9 +18,9 @@
     <div class="contain h-hero-title" data-aos="fade-up" data-aos-duration="2500">
       <h1>
         <span>Experience</span>
-        <br>
+        <br />
         <span class="outlined">Designer</span> At
-        <br>Feeding Trends
+        <br />Feeding Trends
       </h1>
     </div>
     <div class="contain">
@@ -41,10 +41,11 @@
           <img
             src="~assets/img/home/1.jpg"
             data-aos="fade-up"
+            id="zoom-default"
             data-aos-duration="1300"
             data-aos-delay="100"
             data-aos-anchor-placement="top-bottom"
-          >
+          />
         </div>
         <div class="bottom-fit">
           <img
@@ -53,7 +54,7 @@
             data-aos-duration="1300"
             data-aos-delay="200"
             data-aos-anchor-placement="top-bottom"
-          >
+          />
         </div>
         <div class="bottom-fit">
           <img
@@ -63,7 +64,7 @@
             data-aos-delay="300"
             data-aos-anchor-placement="top-bottom"
             data-aos-offset="-200"
-          >
+          />
         </div>
         <div class="bottom-fit">
           <img
@@ -72,31 +73,31 @@
             data-aos-duration="1300"
             data-aos-delay="400"
             data-aos-anchor-placement="top-bottom"
-          >
+          />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300">
-          <img src="~assets/img/home/5.jpg">
+          <img src="~assets/img/home/5.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
-          <img src="~assets/img/home/6.jpg">
+          <img src="~assets/img/home/6.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
-          <img src="~assets/img/home/7.jpg">
+          <img src="~assets/img/home/7.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
-          <img src="~assets/img/home/8.jpg">
+          <img src="~assets/img/home/8.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300">
-          <img src="~assets/img/home/9.jpg">
+          <img src="~assets/img/home/9.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
-          <img src="~assets/img/home/10.jpg">
+          <img src="~assets/img/home/10.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
-          <img src="~assets/img/home/11.jpg">
+          <img src="~assets/img/home/11.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
-          <img src="~assets/img/home/12.jpg">
+          <img src="~assets/img/home/12.jpg" />
         </div>
       </div>
     </section>
@@ -105,13 +106,13 @@
 
     <div class="more-about-me">
       <nuxt-link to="/about">
-        <discovermore class="hover-target" button-text="get to know me"/>
+        <discovermore class="hover-target" button-text="get to know me" />
       </nuxt-link>
     </div>
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg">
+        <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg" />
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
@@ -157,19 +158,19 @@
                 stroke="#fff"
                 d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
           C97.3,23.7,75.7,2.3,49.9,2.5"
-              ></path>
+              />
               <path
                 class="stroke-dotted"
                 fill="none"
                 stroke="#fff"
                 d="M49.9,2.5C23.6,2.8,2.1,24.4,2.5,50.4C2.9,76.5,24.7,98,50.3,97.5c26.4-0.6,47.4-21.8,47.2-47.7
           C97.3,23.7,75.7,2.3,49.9,2.5"
-              ></path>
+              />
               <path
                 class="icon"
                 fill="#fff"
                 d="M38,69c-1,0.5-1.8,0-1.8-1.1V32.1c0-1.1,0.8-1.6,1.8-1.1l34,18c1,0.5,1,1.4,0,1.9L38,69z"
-              ></path>
+              />
             </svg>
           </span>
         </div>
@@ -179,14 +180,14 @@
     <div class="h-work_heading contain">
       <h1>
         A Small
-        <br>Selection of my
-        <br>
+        <br />Selection of my
+        <br />
         <span class="outlined">Work</span>
         I Enjoy.
       </h1>
       <p>
         Some of my selceted work or I say case study so that you
-        <br>can understand my process and how I work.
+        <br />can understand my process and how I work.
       </p>
     </div>
 
@@ -286,13 +287,13 @@
 
     <div class="more-about-me">
       <nuxt-link to="/showcase">
-        <discovermore button-text="view more work"/>
+        <discovermore button-text="view more work" />
       </nuxt-link>
     </div>
 
     <!-- people parallax slide section -->
 
-    <homepeople/>
+    <homepeople />
 
     <!-- <div class="applause-button_container">
       <applause-button style="width: 58px; height: 58px;" color="red" multiclap="true"/>
@@ -303,10 +304,10 @@
     <div class="h-blog_heading contain">
       <h1 class="no-white-space">
         Hack Things,
-        <br>
+        <br />
         <span class="outlined">Solve</span>
         Problems.
-        <br>Be Curious.
+        <br />Be Curious.
       </h1>
       <p>I see myself as a kid who is both a hacker and designer. One of my main skills is to ablility to quickly learn new things if needed. I never stop learning and I always see a place for improvements. It drives everything I do.</p>
     </div>
@@ -333,13 +334,13 @@
     <!-- view more article -->
     <div class="more-about-me">
       <nuxt-link to="/blog">
-        <discovermore button-text="view all article"/>
+        <discovermore button-text="view all article" />
       </nuxt-link>
     </div>
 
     <!-- wave -->
 
-    <wave/>
+    <wave />
   </div>
 </template>
 
@@ -429,7 +430,6 @@ export default {
   grid-auto-flow: dense;
   height: auto;
   width: 100%;
-  z-index: 1;
 }
 
 .h-sec2-grid > .bottom-fit {

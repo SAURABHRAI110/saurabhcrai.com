@@ -85,7 +85,7 @@
     <!-- DZ A4 mockup full size image -->
 
     <div class="p-image-100-container">
-      <img id="zoom-margin" src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
+      <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
       <p class="ps">Brochure front Cover | A4</p>
     </div>
     <div class="p-image-100-container">
