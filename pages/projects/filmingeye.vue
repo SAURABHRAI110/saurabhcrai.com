@@ -177,11 +177,11 @@
     <div class="project-footer">
       <div class="projects-footer-container">
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to>
             <pfooterp
-              projectName="OOO LAAA"
-              projectCategories="Branding, Love"
-              thumbnail="/showcase2.jpg"
+              projectName="This is Begining"
+              projectCategories="No previous projects"
+              thumbnail="/no.jpg"
             />
           </nuxt-link>
         </div>
@@ -189,9 +189,9 @@
         <div class="p-f-n-container">
           <nuxt-link to="/projects/dear-zindagi">
             <pfootern
-              projectName="No project"
-              projectCategories="Branding, Love"
-              thumbnail="/showcase1.jpg"
+              projectName="Dear Zindagi"
+              projectCategories="Brochure, Identity"
+              thumbnail="/showcase2.jpg"
             />
           </nuxt-link>
         </div>

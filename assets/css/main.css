@@ -755,7 +755,7 @@ view more work*/
   grid-area: a;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: px) {
   .projects-footer-container::before {
     content: none;
   }
@@ -1012,6 +1012,18 @@ view more work*/
   margin-top: 60px; */
 }
 
+@media screen and (max-width: 999px) {
+  .p-para {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .p-para {
+    font-size: 30px;
+  }
+}
+
 .p-image-100-container {
   width: 100%;
   position: relative;
@@ -1045,6 +1057,8 @@ view more work*/
   .p-image-100-container {
     height: 90vh;
   }
+
+
 }
 
 .p-fe_photogrid {
