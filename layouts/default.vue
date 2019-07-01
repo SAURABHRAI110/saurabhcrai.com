@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Menu/>
+    <Menu />
     <!-- <Nav/> -->
-    <nuxt/>
+    <nuxt />
 
     <div class="footer">
-      <Footer/>
+      <Footer />
     </div>
   </div>
 </template>

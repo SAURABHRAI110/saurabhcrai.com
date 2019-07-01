@@ -3,10 +3,10 @@
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/mr-irritating">
-        <next/>
+        <next />
       </nuxt-link>
       <nuxt-link to="/projects/filmingeye">
-        <previous/>
+        <previous />
       </nuxt-link>
     </div>
     <projecthero
@@ -20,8 +20,8 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_dz" data-aos="reveal-right"></div>
-        <img src="~assets/projects/dearzindagi/dzhero.jpg" alt align>
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+        <img src="~assets/projects/dearzindagi/dzhero.jpg" alt align />
+        <!-- <img src="~assets/projects/dearzindagi/fe1.png" alt> -->
       </div>
     </div>
     <Preface
@@ -59,8 +59,7 @@
 
     <div class="reveal-holder" data-aos="reveal-item">
       <div class="reveal-block theme_dz" data-aos="reveal-right"></div>
-      <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
-      <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+      <img class="p-image-100" src="~assets/projects/dearzindagi/dz-research.png" />
     </div>
 
     <!-- Reasearch -->
@@ -72,29 +71,10 @@
       theme="theme_dz right"
     />
 
-    <!-- photo grid -->
-    <pcase heading="Photography/Imagery" theme="theme_dz right"/>
-    <div class="contain">
-      <div class="p-fe_photogrid">
-        <img src="~assets/projects/fe/gallery1.jpg" alt>
-        <img src="~assets/projects/fe/gallery-2.jpg" alt>
-        <img src="~assets/projects/fe/gallery-3.jpg" alt>
-        <img src="~assets/projects/fe/gallery-4.jpg" alt>
-        <img src="~assets/projects/fe/gallery-5.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
-        <img src="~assets/projects/fe/gallery-7.jpg" alt>
-        <img src="~assets/projects/fe/gallery-8.jpg" alt>
-        <img src="~assets/projects/fe/gallery-9.jpg" alt>
-        <img src="~assets/projects/fe/gallery-10.jpg" alt>
-        <img src="~assets/projects/fe/gallery11.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
-      </div>
-    </div>
-
-    <!-- Branding -->
+    <!-- Final Design -->
 
     <pcase
-      heading="Branding"
+      heading="Final Design"
       para=" My first approach to understanding medical residents is through emphasizing with their experiences
              by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
              of asking qualitative questions such as their workflow to even the intimate details of their
@@ -102,35 +82,86 @@
       theme="theme_dz right"
     />
 
-    <div class="contain">
-      <div class="p-fe_branding-grid">
-        <div>
-          <img src="~assets/projects/fe/branding1.jpg">
-        </div>
-        <div>
-          <img src="~assets/projects/fe/branding2.jpg">
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding3.jpg">
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding5.png">
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding6.png">
-        </div>
-      </div>
+    <!-- DZ A4 mockup full size image -->
+
+    <div class="p-image-100-container">
+      <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
+      <p class="ps">Brochure front Cover | A4</p>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="~assets/projects/dearzindagi/dz-a4page2n3-mobile.jpg"
+        />
+        <img src="~assets/projects/dearzindagi/dz-a4page2n3.jpg" />
+        <p class="ps">Page Cover</p>
+      </picture>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="~assets/projects/dearzindagi/dz-a4page4n5-mobile.jpg"
+        />
+        <img src="~assets/projects/dearzindagi/dz-a4page4n5.jpg" />
+        <p class="ps">Page Cover</p>
+      </picture>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="~assets/projects/dearzindagi/dz-a4page6n7-mobile.jpg"
+        />
+        <img src="~assets/projects/dearzindagi/dz-a4page6n7.jpg" />
+        <p class="ps">Page Cover</p>
+      </picture>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="~assets/projects/dearzindagi/dz-a4page8n9-mobile.jpg"
+        />
+        <img src="~assets/projects/dearzindagi/dz-a4page8n9.jpg" />
+        <p class="ps">Page Cover</p>
+      </picture>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="~assets/projects/dearzindagi/dz-a4page10n11-mobile.jpg"
+        />
+        <img src="~assets/projects/dearzindagi/dz-a4page10n11.jpg" />
+        <p class="ps">Page Cover</p>
+      </picture>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <source
+          media="(max-width: 600px)"
+          srcset="~assets/projects/dearzindagi/dz-a4-allpage-mobile.jpg"
+        />
+        <img src="~assets/projects/dearzindagi/dz-a4-allpage.jpg" />
+        <p class="ps">Page Cover</p>
+      </picture>
     </div>
 
-    <!-- Web Design -->
+    <!-- Identy Design -->
     <pcase
-      heading="Web Design"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-            by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-            of asking qualitative questions such as their workflow to even the intimate details of their
-            personal life."
+      heading="Identity Design"
+      para=" During the process of researching brochure I have to design a logo for them
+              that just align with them and their motivation to bring to needing children and therefore
+              protect and safegaurd the psychlogy of childrens"
       theme="theme_dz right"
     />
+
+    <div class="p-image-100-container">
+      <img src="~assets/projects/dearzindagi/dz-visitingcard.jpg" />
+      <p class="ps">Brochure last page and back cover | A4</p>
+    </div>
 
     <!-- First Iteration -->
     <pcase
@@ -145,29 +176,15 @@
       theme="theme_dz right"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
-
     <!-- Final Design -->
-    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg">
+    <!-- <img class="p-image-100" src="~assets/projects/dearzindagi/fe-mockup.jpg" /> -->
 
-    <div class="p-fe_final-design">
-      <pcase
-        heading=" Final Design"
-        para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a great
-                  layout and which made almost most of the things we needed in and that we don't needed.
-                  <br><br>
-                  Before being given into development there was this huge gap of like 6 months. After this long time when
-                  I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of thing needed
-                  to retouch. The works seems sloppy. So all the things needed retouch. In a way I changed almost
-                  everything expect the dark theme and colour and content architecture."
-      />
-    </div>
     <!-- appreciate button -->
 
-    <Appreciate/>
+    <Appreciate />
 
     <div class="project-footer">
-      <projectfooter/>
+      <projectfooter />
     </div>
   </div>
 </template>
