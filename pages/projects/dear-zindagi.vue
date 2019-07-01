@@ -85,7 +85,7 @@
     <!-- DZ A4 mockup full size image -->
 
     <div class="p-image-100-container">
-      <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
+      <img id="zoom-margin" src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
       <p class="ps">Brochure front Cover | A4</p>
     </div>
     <div class="p-image-100-container">
@@ -212,6 +212,7 @@
 </template>
 
 <script>
+import mediumZoom from 'medium-zoom'
 import Projecthero from '~/components/projects/projecthero'
 import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'

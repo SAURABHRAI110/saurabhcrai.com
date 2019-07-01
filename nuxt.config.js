@@ -91,6 +91,10 @@ export default {
     {
       src: "~/plugins/aos",
       ssr: false
+    },
+    {
+      src: "~/plugins/medium-zoom",
+      ssr: false
     }
 
 
