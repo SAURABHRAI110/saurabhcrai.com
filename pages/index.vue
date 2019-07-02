@@ -6,7 +6,9 @@
 
     <div class="nametag-container contain">
       <div class="h-name" data-aos="fade-up" data-aos-duration="1000">
-        <a href="#" style="text-decoration: none">Saurabh Rai</a>
+        <nuxt-link to="/about" style="text-decoration: none;">
+          <span>Saurabh Rai</span>
+        </nuxt-link>
       </div>
       <div
         class="h-j-title"

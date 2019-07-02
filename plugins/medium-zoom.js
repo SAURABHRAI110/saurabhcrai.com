@@ -12,12 +12,7 @@ const zoomScrollOffset = mediumZoom('#zoom-scrollOffset', {
   background: 'rgba(25, 18, 25, .9)',
 })
 
-const zoom = mediumZoom('[data-zoom-src]')
 
-zoom.getZoomedImage() // => null
-zoom.open().then(() => {
-  zoom.getZoomedImage() // => HTMLElement
-})
 
 
 // Trigger the zoom when the button is clicked
