@@ -37,67 +37,66 @@
 
     <section class="h-sec2-container">
       <div class="h-sec2-grid">
-        <div class="bottom-fit">
-          <img
-            src="~assets/img/home/1.jpg"
-            data-aos="fade-up"
-            id="zoom-default"
-            data-aos-duration="1300"
-            data-aos-delay="100"
-            data-aos-anchor-placement="top-bottom"
-          />
+        <div
+          class="bottom-fit"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+          data-aos-delay="100"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <img id="zoom-default" src="~assets/img/home/1.jpg" />
         </div>
-        <div class="bottom-fit">
-          <img
-            src="~assets/img/home/2.jpg"
-            data-aos="fade-up"
-            data-aos-duration="1300"
-            data-aos-delay="200"
-            data-aos-anchor-placement="top-bottom"
-          />
+        <div
+          class="bottom-fit"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <img id="zoom-default" src="~assets/img/home/2.jpg" />
         </div>
-        <div class="bottom-fit">
-          <img
-            src="~assets/img/home/3.jpg"
-            data-aos="fade-up"
-            data-aos-duration="1300"
-            data-aos-delay="300"
-            data-aos-anchor-placement="top-bottom"
-            data-aos-offset="-200"
-          />
+        <div
+          class="bottom-fit"
+          data-aos="fade-up"
+          data-aos-duratio="1300"
+          data-aos-delay="300"
+          data-aos-anchor-placement="top-bottom"
+          data-aos-offset="-200"
+        >
+          <img id="zoom-default" src="~assets/img/home/3.jpg" />
         </div>
-        <div class="bottom-fit">
-          <img
-            src="~assets/img/home/4.jpg"
-            data-aos="fade-up"
-            data-aos-duration="1300"
-            data-aos-delay="400"
-            data-aos-anchor-placement="top-bottom"
-          />
+        <div
+          class="bottom-fit"
+          data-aos="fade-up"
+          data-aos-duration="1300"
+          data-aos-delay="400"
+          data-aos-anchor-placement="top-bottom"
+        >
+          <img id="zoom-default" src="~assets/img/home/4.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300">
-          <img src="~assets/img/home/5.jpg" />
+          <img id="zoom-default" src="~assets/img/home/5.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
-          <img src="~assets/img/home/6.jpg" />
+          <img id="zoom-default" src="~assets/img/home/6.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
-          <img src="~assets/img/home/7.jpg" />
+          <img id="zoom-default" src="~assets/img/home/7.jpg" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
-          <img src="~assets/img/home/8.jpg" />
+          <img id="zoom-default" src="~assets/img/home/8.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300">
-          <img src="~assets/img/home/9.jpg" />
+          <img id="zoom-default" src="~assets/img/home/9.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
-          <img src="~assets/img/home/10.jpg" />
+          <img id="zoom-default" src="~assets/img/home/10.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="200">
-          <img src="~assets/img/home/11.jpg" />
+          <img id="zoom-default" src="~assets/img/home/11.jpg" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="1300" data-aos-delay="300">
-          <img src="~assets/img/home/12.jpg" />
+          <img id="zoom-default" src="~assets/img/home/12.jpg" />
         </div>
       </div>
     </section>
@@ -420,6 +419,7 @@ export default {
   align-content: center;
   margin-left: calc(16% - 45px);
   position: relative;
+  margin-top: 100px;
 }
 
 .h-sec2-grid {
@@ -457,6 +457,78 @@ export default {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1200px) {
+  .h-hero-title {
+    margin-top: 15%;
+  }
+
+  .h-sec2-container {
+    width: 70%;
+  }
+
+  .h-sec2-grid {
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .h-sec2-container {
+    width: 77%;
+  }
+
+  .h-sec2-grid {
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+@media screen and (max-width: 800px) {
+  .h-sec2-container {
+    width: 83%;
+    margin-left: 10%;
+  }
+
+  .h-sec2-grid {
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+@media screen and (max-width: 600px) {
+  .h-sec2-container {
+    width: 83%;
+  }
+
+  .h-sec2-grid {
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}
+@media screen and (max-width: 500px) {
+  .h-hero-title {
+    margin-top: 100px;
+  }
+
+  .h-sec2-container {
+    width: 88%;
+    margin-left: 7%;
+  }
+
+  .h-sec2-grid {
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  }
+}
+@media screen and (max-width: 350px) {
+  .h-sec2-container {
+    width: 86%;
+  }
+
+  .h-sec2-grid {
+    grid-gap: 12px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
 }
 
 .h-work_heading {
