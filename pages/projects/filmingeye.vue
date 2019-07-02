@@ -170,7 +170,7 @@
     </div>
     <!-- appreciate button -->
 
-    <Appreciate />
+    <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />
 
     <!-- Project Footer Navigatrion -->
 

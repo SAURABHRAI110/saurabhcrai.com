@@ -1,17 +1,24 @@
 <template>
   <div class="appreciate-container">
-    <h2 class="thanks-effect">Thanks for scrolling</h2>
-    <p>Don't forget to appreciate.</p>
+    <h2 class="heading">{{heading}}</h2>
+
+    <p>{{subHeading}}</p>
+
     <div class="applause">
-      <applause-button style="width: 75px; height: 75px;" color="#fc3a52" multiclap="true"/>
+      <applause-button style="width: 70px; height: 70px;" color="#fc3a52" multiclap="true" />
     </div>
 
-    <img src="~assets/footer/appreciate-gesture.png" alt>
+    <img src="~assets/footer/appreciate-gesture.png" alt />
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    heading: String,
+    subHeading: String
+  }
+}
 </script>
 
 <style scoped>
@@ -19,43 +26,61 @@ export default {}
   width: 100%;
   height: 80vh;
   background-color: #f6ecdd;
-  z-index: 3;
-  margin-bottom: -30px;
-  display: flex;
+  position: relative;
+  /* display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: column; */
 }
 
-.appreciate-container > p {
+.heading {
+  text-align: center;
+  padding-top: 82px;
+  margin: 0px;
+  padding-bottom: 1px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.appreciate-container p {
   font-size: 20px;
-  margin-top: -50px;
   color: black;
   opacity: 0.5;
+  text-align: center;
+  width: 100%;
+  margin: 0px;
 }
-/* 
-.thanks-effect {
-  -webkit-text-stroke: 1px black;
-  color: transparent;
-  transition: color 0.95s cubic-bezier(0.475, 0.425, 0, 0.995);
-}
-
-.appreciate-container:hover .thanks-effect {
-  color: black;
-} */
-
-/* span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 
 .appreciate-container > img {
-  width: 150px;
-  margin-top: 20px;
+  width: 161px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 8%;
 }
 
 .applause {
   margin-top: 20px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 500px) {
+  .appreciate-container > img {
+    width: 220px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -8%;
+  }
+
+  .appreciate-container > h2 {
+    font-size: 29px;
+  }
+  .appreciate-container > p {
+    font-size: 16px;
+  }
 }
 </style>

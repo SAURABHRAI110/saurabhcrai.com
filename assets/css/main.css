@@ -670,16 +670,18 @@ view more work*/
 
 .np_details {
   position: absolute;
-  top: 40%;
+  top: 46%;
   width: 100%;
 
   text-align: center;
-  color: white;
+  color: #da2c4d;
+
 }
 
 .np_heading {
-  font-size: 24px;
-  margin-bottom: 0px;
+  font-size: 29px;
+  margin-bottom: 10px;
+  font-family: circular-medium;
 }
 
 .np_sub-heading {
@@ -794,17 +796,14 @@ view more work*/
 
 @media screen and (max-width: 500px) {
   .projects-footer-container {
-    width: 100%;
-    padding-top: 0;
-    padding-bottom: 0;
-    position: relative;
+
+
     height: 80vh;
     display: grid;
-    grid-template-areas: 'a a'
-      'b b';
+    grid-template-areas: 'b b'
+      'a a';
     background-color: aqua;
-    transition: height 0.95s cubic-bezier(0.475, 0.425, 0, 0.995);
-    position: relative;
+
   }
 
   .projects-footer-container::before {
