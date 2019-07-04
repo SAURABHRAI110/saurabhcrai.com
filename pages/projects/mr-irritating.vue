@@ -66,7 +66,7 @@ Margins, line leading, choice of fonts get more critical since the aim of the de
       theme="theme_mi"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
+    <img class="p-image-100" src="~assets/projects/mr-irritating/sketches.jpg" />
 
     <!-- Problem -->
     <pcase
@@ -537,9 +537,15 @@ Mr. Irritating shall not irritate you!"
           </a>
           <img src="~assets/projects/mr-irritating/book-amazon.png" alt=" mr. irritating on amazon" />
         </div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div>
+          <p class="ps">Follow on Insagram</p>
+        </div>
+        <div>
+          <p class="ps">Like on Facebook</p>
+        </div>
+        <div>
+          <p class="ps">Mail to author</p>
+        </div>
       </section>
     </div>
 
@@ -547,7 +553,7 @@ Mr. Irritating shall not irritate you!"
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />
+    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
 
     <!-- Project Footer Navigatrion -->
 
