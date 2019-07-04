@@ -181,7 +181,7 @@
 
     <!-- appreciate button -->
 
-    <Appreciate />
+    <Appreciate heading="Loved  Dear Zindagi" subHeading="Don't forgot to appreciate" />
 
     <!-- Project Footer Navigatrion -->
 

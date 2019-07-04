@@ -37,7 +37,7 @@ export default {
   text-align: center;
   padding-top: 82px;
   margin: 0px;
-  padding-bottom: 1px;
+  padding-bottom: 18px;
   text-decoration: none;
   width: 100%;
 }
@@ -69,7 +69,7 @@ export default {
 
 @media screen and (max-width: 500px) {
   .appreciate-container > img {
-    width: 220px;
+    width: 261px;
     position: absolute;
     left: 50%;
     transform: translate(-50%);
@@ -77,7 +77,7 @@ export default {
   }
 
   .appreciate-container > h2 {
-    font-size: 29px;
+    font-size: 33px;
   }
   .appreciate-container > p {
     font-size: 16px;

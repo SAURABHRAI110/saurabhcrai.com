@@ -4,9 +4,8 @@
       <nuxt-link to="/projects/dear-zindagi">
         <next />
       </nuxt-link>
-      <nuxt-link to>
-        <previous />
-      </nuxt-link>
+
+      <previous @click="alert = !alert" />
     </div>
     <projecthero
       pDate="Dec 2018 "
@@ -220,6 +219,11 @@ export default {
     Previous,
     Pfooterp,
     Pfootern
+  },
+  data() {
+    return {
+      alert: true
+    }
   }
 }
 </script>

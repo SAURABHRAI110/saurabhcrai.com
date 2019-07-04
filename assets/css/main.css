@@ -96,6 +96,10 @@ a:active {
   --grey: #ecedf3;
 }
 
+.red {
+  color: #da2c4d;
+}
+
 .black {
   color: #0a0a0a;
 }
@@ -277,32 +281,7 @@ p {
 }
 
 
-/* website logo  from componenent logo*/
 
-.logo {
-  display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  /* transform: rotateX(180deg); */
-  position: relative;
-  overflow: hidden;
-  /* height: 90px;
-  width: 120px; */
-  left: 15%;
-  padding-top: 30px;
-  transform: translate(-50%);
-}
-
-@media screen and (max-width: 999px) {
-
-  .logo {
-    left: 8%;
-    padding-top: 0px;
-  }
-
-  svg {
-    width: 60px;
-  }
-}
 
 /* Vertical Line */
 
@@ -357,7 +336,7 @@ p {
 @media screen and (max-width: 500px) {
   .contain {
     /* margin-left: 20%; */
-    margin-right: 18.4%;
+    margin-right: 9%;
     margin-left: 7%;
   }
 }
@@ -367,6 +346,14 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+
+/* social  section 10 */
+
+.social-section {
+  width: 100%;
+  height: 50vh;
 }
 
 
@@ -1209,6 +1196,372 @@ color: #0088ff !important;
 .reveal-block.theme_mi::before {
   background: #EE605C;
 }
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(255, 218, 218);
+  margin-bottom: 5px;
+}
+
+
+.section1 img:nth-child(1) {
+  width: 300px;
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20%;
+}
+
+.section1 img:nth-child(2) {
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+}
+
+.section1 img:nth-child(3) {
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+}
+
+
+.section2 {
+  width: 100%;
+  height: 90vh;
+  position: relative;
+  background-color: #EE605C;
+  margin-bottom: 5px;
+}
+
+
+.section2 img:nth-child(1) {
+  position: absolute;
+  width: 60%;
+  left: 45%;
+  transform: translate(-50%);
+  top: 20%;
+}
+
+.section3 {
+  width: 100%;
+  position: relative;
+}
+
+
+.section3-img {
+  width: 100%;
+}
+
+
+.kavya-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #EE605C;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+}
+
+
+
+.b-caption {
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: 0%;
+}
+
+.kavya-section svg:nth-child(1) {
+  position: absolute;
+  left: 8%;
+  height: 50%;
+  top: 25%;
+
+}
+
+.kavya-section svg:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  height: 110%;
+  transform: rotateY(180deg);
+}
+
+
+.kavya-section .text-container {
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+}
+
+.kavya-section .text-container::before {
+  content: '';
+  border-left: solid 2px rgb(255, 255, 255);
+  left: -6%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.text-container h1 {
+  font-size: 35px;
+}
+
+/* Annant section */
+
+.anant-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #FBF1E9;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+
+.anant-section svg:nth-child(1) {
+  position: absolute;
+  left: 8%;
+  height: 50%;
+  top: 25%;
+  transform: rotateY(180deg);
+
+}
+
+.anant-section svg:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  height: 90%;
+
+}
+
+.anant-section .text-container {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: black;
+}
+
+.anant-section .text-container::before {
+  content: '';
+  border-left: solid 2px rgb(0, 0, 0);
+  left: -6%;
+  height: 100%;
+  position: absolute;
+
+}
+
+.aashi-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #8F8F8F;
+  overflow: hidden;
+  margin-bottom: 5px;
+
+}
+
+.aashi-section svg:nth-child(1) {
+  position: absolute;
+  left: 13%;
+  height: 50%;
+  top: 25%;
+  transform: rotateY(180deg);
+
+}
+
+.aashi-section svg:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  height: 110%;
+
+}
+
+
+.aashi-section .text-container {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+}
+
+.aashi-section .text-container::before {
+  content: '';
+  border-left: solid 2px rgb(255, 255, 255);
+  left: -6%;
+  height: 100%;
+  position: absolute;
+
+}
+
+
+/* section7 */
+
+.section7 {
+  width: 100%;
+  height: 100vh;
+  background-color: #EE605C;
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+
+}
+
+.section7-cover {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-column-gap: 15px;
+  top: 50%;
+  height: 100%;
+  align-content: center;
+}
+
+.cover>img {
+  height: 450px;
+  box-shadow: #000;
+  box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cover1 {
+  justify-self: end;
+}
+
+
+
+
+@media screen and (max-width: 999px) {
+
+
+  .cover>img {
+    height: 380px;
+  }
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+  .cover>img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width:500px) {
+
+
+  .cover1 {
+    justify-self: center;
+  }
+
+  .cover2 {
+    justify-self: center;
+  }
+
+}
+
+.section8 {
+  background-color: #8F8F8F;
+}
+
+.mi-photogrid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.mi-photogrid>img {
+  width: 100%;
+}
+
+@media screen and (max-width:800px) {
+  .mi-photogrid {
+
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+
+  }
+}
+
+@media screen and (max-width:500px) {
+  .mi-photogrid {
+
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+
+  }
+}
+
+
+.social-section {
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'a c'
+    'a d';
+  grid-gap: 10px;
+  position: relative;
+  margin-top: 100px;
+
+
+}
+
+.social-section div {
+  border: 1px solid black;
+}
+
+.social-section div:nth-child(1) {
+  grid-area: a;
+
+}
+
+.social-section div:nth-child(1) img {
+  width: 15%;
+  position: absolute;
+  left: 13%;
+  top: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.social-section div:nth-child(1) p {
+  position: absolute;
+  left: 35%;
+  top: 47%;
+  transform: translate(-50%, -50%)
+}
+
+.social-section div:nth-child(2) {
+  grid-area: b;
+}
+
+.social-section div:nth-child(3) {
+  grid-area: c;
+}
+
+.social-section div:nth-child(4) {
+  grid-area: d;
+}
+
+
+
+
+
+
 
 
 /* R3  */
