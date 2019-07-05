@@ -549,6 +549,8 @@ Mr. Irritating shall not irritate you!"
       </section>
     </div>
 
+    <img class="p-image-100" src="~assets/projects/mr-irritating/MrIrritating13.jpg" />
+
     <!-- Branding -->
 
     <!-- appreciate button -->
