@@ -42,7 +42,7 @@
         <div
           class="bottom-fit"
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-delay="100"
           data-aos-anchor-placement="top-bottom"
         >
@@ -51,7 +51,7 @@
         <div
           class="bottom-fit"
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-delay="200"
           data-aos-anchor-placement="top-bottom"
         >
@@ -60,7 +60,7 @@
         <div
           class="bottom-fit"
           data-aos="fade-up"
-          data-aos-duratio="400"
+          data-aos-duratio="600"
           data-aos-delay="300"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
@@ -70,34 +70,34 @@
         <div
           class="bottom-fit"
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-delay="400"
           data-aos-anchor-placement="top-bottom"
         >
           <img id="zoom-default" src="~assets/img/home/4.jpg" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="400">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600">
           <img id="zoom-default" src="~assets/img/home/5.jpg" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
           <img id="zoom-default" src="~assets/img/home/6.jpg" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
           <img id="zoom-default" src="~assets/img/home/7.jpg" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="400" data-aos-delay="300">
+        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
           <img id="zoom-default" src="~assets/img/home/8.jpg" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="400">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="600">
           <img id="zoom-default" src="~assets/img/home/9.jpg" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
           <img id="zoom-default" src="~assets/img/home/10.jpg" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="400" data-aos-delay="200">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
           <img id="zoom-default" src="~assets/img/home/11.jpg" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="400" data-aos-delay="300">
+        <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
           <img id="zoom-default" src="~assets/img/home/12.jpg" />
         </div>
       </div>
@@ -120,21 +120,21 @@
         <h1
           class="showreel-heading"
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
         >GET INSPIRED</h1>
         <p
           class="showreel-sub-heading"
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-delay="300"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
         >Watch Showreel</p>
         <div
           data-aos="fade-up"
-          data-aos-duration="400"
+          data-aos-duration="600"
           data-aos-delay="500"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"

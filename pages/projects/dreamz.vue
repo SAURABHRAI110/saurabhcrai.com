@@ -8,8 +8,8 @@
       <previous @click="alert = !alert" />
     </div>
     <projecthero
-      pDate="Dec 2018 "
-      pWebsite="filmingeye.com"
+      pDate="Nov 2018 "
+      pWebsite="Dreamz"
       pCategory="Product Design"
       pHeading="Improve visual  perception"
       pHeadingcolor="color:#da2c4d;"

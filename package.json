@@ -22,6 +22,7 @@
     "medium-zoom": "^1.0.4",
     "nuxt": "^2.4.0",
     "smooth-scrollbar": "^8.4.0",
+    "vue-carousel": "^0.18.0",
     "vue-parallaxy": "^1.1.1",
     "vue-rellax": "^0.1.0"
   },

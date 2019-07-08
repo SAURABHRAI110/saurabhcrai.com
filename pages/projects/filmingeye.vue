@@ -57,7 +57,7 @@
     <!-- Problem -->
     <pcase
       heading="Problem"
-      para="  1. The first thing that I came around was they don't have an existing branding.
+      para="  1. The first thing that I camrun e around was they don't have an existing branding.
         <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
         existing
         was cool for the moment but that can not be used to used on web.
@@ -75,6 +75,26 @@
         meaning and value to infinity, beyond, and that fit to our red and dark black theme."
       theme="theme_fe"
     />
+
+    <!-- Research Slider -->
+
+    <carousel
+      :per-page="1"
+      :navigate-to="someLocalProperty"
+      :mouse-drag="true"
+      paginationColor="#aaa"
+      paginationActiveColor="red"
+    >
+      <slide>
+        <img src="~assets/projects/fe/slider2.jpg" alt="slider1" />
+      </slide>
+      <slide>
+        <img src="~assets/projects/fe/slider1.jpg" alt="slider1" />
+      </slide>
+      <slide>
+        <img src="~assets/projects/fe/slider3.jpg" alt="slider1" />
+      </slide>
+    </carousel>
 
     <!-- photo grid -->
     <pcase heading="Photography/Imagery" />
@@ -208,6 +228,7 @@ import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
+import { Carousel, Slide } from 'vue-carousel'
 export default {
   layout: 'projects',
   components: {
@@ -218,7 +239,9 @@ export default {
     Next,
     Previous,
     Pfooterp,
-    Pfootern
+    Pfootern,
+    Carousel,
+    Slide
   },
   data() {
     return {
