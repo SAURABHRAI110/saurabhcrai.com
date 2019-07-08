@@ -1646,3 +1646,13 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
 
 
 /* slide image */
+
+.slide-img {
+  width: 100%;
+}
+
+.slider-container {
+  height: auto;
+  width: 100%;
+  position: relative;
+}

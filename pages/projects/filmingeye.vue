@@ -78,23 +78,29 @@
 
     <!-- Research Slider -->
 
-    <carousel
-      :per-page="1"
-      :navigate-to="someLocalProperty"
-      :mouse-drag="true"
-      paginationColor="#aaa"
-      paginationActiveColor="red"
-    >
-      <slide>
-        <img src="~assets/projects/fe/slider2.jpg" alt="slider1" />
-      </slide>
-      <slide>
-        <img src="~assets/projects/fe/slider1.jpg" alt="slider1" />
-      </slide>
-      <slide>
-        <img src="~assets/projects/fe/slider3.jpg" alt="slider1" />
-      </slide>
-    </carousel>
+    <div class="contain">
+      <div class="slider-container">
+        <carousel
+          :per-page="1"
+          :navigate-to="someLocalProperty"
+          :mouse-drag="true"
+          paginationColor="#aaa"
+          paginationActiveColor="red"
+          adjustableHeight="true"
+          navigationEnabled="true"
+        >
+          <slide>
+            <img class="slide-img" src="~assets/projects/fe/slider2.jpg" alt="slider1" />
+          </slide>
+          <slide>
+            <img class="slide-img" src="~assets/projects/fe/slider1.jpg" alt="slider1" />
+          </slide>
+          <slide>
+            <img class="slide-img" src="~assets/projects/fe/slider3.jpg" alt="slider1" />
+          </slide>
+        </carousel>
+      </div>
+    </div>
 
     <!-- photo grid -->
     <pcase heading="Photography/Imagery" />
