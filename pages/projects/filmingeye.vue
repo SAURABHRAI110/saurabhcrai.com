@@ -1,5 +1,6 @@
 <template>
   <div>
+    <vue-scroll-progress-bar @complete="handleComplete" height="2rem" />
     <div class="ppnp-container">
       <nuxt-link to="/projects/dear-zindagi">
         <next />
@@ -235,6 +236,7 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import { Carousel, Slide } from 'vue-carousel'
+import VueScrollProgressBar from '@guillaumebriday/vue-scroll-progress-bar'
 export default {
   layout: 'projects',
   components: {
@@ -247,7 +249,8 @@ export default {
     Pfooterp,
     Pfootern,
     Carousel,
-    Slide
+    Slide,
+    VueScrollProgressBar
   },
   data() {
     return {
