@@ -95,6 +95,10 @@ export default {
     {
       src: "~/plugins/medium-zoom",
       ssr: false
+    },
+    {
+      src: '~plugins/vue-carousel',
+      ssr: false
     }
 
 

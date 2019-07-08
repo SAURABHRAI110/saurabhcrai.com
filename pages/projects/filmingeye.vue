@@ -1,12 +1,11 @@
 <template>
   <div>
-    <vue-scroll-progress-bar @complete="handleComplete" height="2rem" />
     <div class="ppnp-container">
       <nuxt-link to="/projects/dear-zindagi">
         <next />
       </nuxt-link>
 
-      <previous @click="alert = !alert" />
+      <previous />
     </div>
     <projecthero
       pDate="Dec 2018 "
@@ -83,12 +82,10 @@
       <div class="slider-container">
         <carousel
           :per-page="1"
-          :navigate-to="someLocalProperty"
           :mouse-drag="true"
           paginationColor="#aaa"
-          paginationActiveColor="red"
-          adjustableHeight="true"
-          navigationEnabled="true"
+          paginationActiveColor="#da2c4d"
+          :adjustable-height="true"
         >
           <slide>
             <img class="slide-img" src="~assets/projects/fe/slider2.jpg" alt="slider1" />
@@ -235,8 +232,7 @@ import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
-import { Carousel, Slide } from 'vue-carousel'
-import VueScrollProgressBar from '@guillaumebriday/vue-scroll-progress-bar'
+
 export default {
   layout: 'projects',
   components: {
@@ -247,15 +243,7 @@ export default {
     Next,
     Previous,
     Pfooterp,
-    Pfootern,
-    Carousel,
-    Slide,
-    VueScrollProgressBar
-  },
-  data() {
-    return {
-      alert: true
-    }
+    Pfootern
   }
 }
 </script>

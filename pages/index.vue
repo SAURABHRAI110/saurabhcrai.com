@@ -338,10 +338,6 @@
         <discovermore button-text="view all article" />
       </nuxt-link>
     </div>
-
-    <!-- wave -->
-
-    <wave />
   </div>
 </template>
 
