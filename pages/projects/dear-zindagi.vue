@@ -187,6 +187,7 @@
 
     <div class="project-footer">
       <div class="projects-footer-container">
+        <allprojectsnav />
         <div class="p-f-p-container">
           <nuxt-link to="/projects/filmingeye">
             <pfooterp
@@ -222,6 +223,7 @@ import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 export default {
   layout: 'projects',
   components: {
@@ -233,7 +235,8 @@ export default {
     Next,
     Previous,
     Pfooterp,
-    Pfootern
+    Pfootern,
+    Allprojectsnav
   }
 }
 </script>
