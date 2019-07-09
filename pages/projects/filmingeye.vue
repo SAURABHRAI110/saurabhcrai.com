@@ -199,23 +199,7 @@
 
     <div class="project-footer">
       <div class="projects-footer-container">
-        <nuxt-link to="/showcase">
-          <div class="p-all-nav">
-            <p class="ps">All projects</p>
-            <div class="p-nav-icon">
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-        </nuxt-link>
-
+        <allprojectsnav />
         <div class="p-f-p-container">
           <nuxt-link to>
             <pfooterp
@@ -249,6 +233,7 @@ import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 
 export default {
   layout: 'projects',
@@ -260,7 +245,8 @@ export default {
     Next,
     Previous,
     Pfooterp,
-    Pfootern
+    Pfootern,
+    Allprojectsnav
   }
 }
 </script>
