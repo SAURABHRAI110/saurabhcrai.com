@@ -1,5 +1,7 @@
 <template>
   <div>
+    <!-- <VueScrollProgress></VueScrollProgress> -->
+
     <Menu />
     <nuxt />
 
@@ -11,6 +13,7 @@
 <script>
 import Menu from '~/components/menu'
 import mediumZoom from 'medium-zoom'
+
 // import Footer from '~/components/footer'
 export default {
   components: {

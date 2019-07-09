@@ -1656,3 +1656,18 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
   width: 100%;
   position: relative;
 }
+
+
+/* VueScrollProgress  */
+#progress-container-el {
+  /* background */
+  background-color: transparent !important;
+  top: 0px !important;
+
+}
+
+#progress-el {
+  /* progress bar */
+  background-color: #fc3a52 !important;
+  height: 2px !important;
+}
