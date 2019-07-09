@@ -199,6 +199,23 @@
 
     <div class="project-footer">
       <div class="projects-footer-container">
+        <nuxt-link to="/showcase">
+          <div class="p-all-nav">
+            <p class="ps">All projects</p>
+            <div class="p-nav-icon">
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </nuxt-link>
+
         <div class="p-f-p-container">
           <nuxt-link to>
             <pfooterp
