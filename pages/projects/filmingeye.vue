@@ -1,6 +1,5 @@
 <template>
   <div>
-    <VueScrollProgress></VueScrollProgress>
     <div class="ppnp-container">
       <nuxt-link to="/projects/dear-zindagi">
         <next />
@@ -233,7 +232,6 @@ import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
-import VueScrollProgress from 'vue-scroll-progress'
 
 export default {
   layout: 'projects',
@@ -245,8 +243,7 @@ export default {
     Next,
     Previous,
     Pfooterp,
-    Pfootern,
-    VueScrollProgress
+    Pfootern
   }
 }
 </script>
