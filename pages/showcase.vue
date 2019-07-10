@@ -3,19 +3,27 @@
     <!-- Work Thumbnails -->
     <!-- v-rellax="{ speed: 4, center: 0.5  }" -->
     <div class="w-hero_container">
-      <img src="~assets/svg/circle.svg" alt="circle">
-      <img src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }">>
+      <img
+        src="~assets/svg/circle.svg"
+        alt="circle"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-delay="400"
+      />
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <img class="hero-svg" src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
+      </div>
       <div class="contain p-h-container">
-        <p class="pm p-h-subheading">case studies</p>
-        <h1>
+        <p class="pm p-h-subheading" data-aos="fade-up" data-aos-duration="1000">case studies</p>
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
           Some of My
-          <br>Finest
+          <br />Finest
           <span class="outlined">Work</span>
         </h1>
       </div>
     </div>
     <!-- timeline 2019 -->
-    <projecttimeline timeline="2019"/>
+    <projecttimeline timeline="2019" />
 
     <!-- project grid -->
     <div class="showcase-container-home">
@@ -103,7 +111,7 @@
         </div>
       </div>
     </div>
-    <projecttimeline timeline="2019"/>
+    <projecttimeline timeline="2019" />
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">

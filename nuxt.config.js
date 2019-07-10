@@ -102,7 +102,8 @@ export default {
     },
     {
       src: '~plugins/vue-scroll-progress',
-      ssr: false
+      ssr: false,
+
     }
 
 

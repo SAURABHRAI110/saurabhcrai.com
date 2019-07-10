@@ -968,7 +968,7 @@ view more work*/
 
 
 
-.w-hero_container>img:nth-child(1) {
+.w-hero_container>img {
   width: 70%;
   right: 0%;
   top: 0%;
@@ -977,7 +977,7 @@ view more work*/
   opacity: .3;
 }
 
-.w-hero_container>img:nth-child(2) {
+.w-hero_container .hero-svg {
   width: 52%;
   right: 5%;
   top: 9%;
