@@ -13,6 +13,7 @@
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img class="hero-svg" src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
+
       <div class="contain p-h-container">
         <p class="pm p-h-subheading" data-aos="fade-up" data-aos-duration="1000">case studies</p>
         <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">

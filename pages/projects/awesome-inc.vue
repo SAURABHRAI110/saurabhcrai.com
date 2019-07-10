@@ -3,46 +3,48 @@
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/elevito">
-        <next/>
+        <next />
       </nuxt-link>
       <nuxt-link to="/projects/r3">
-        <previous/>
+        <previous />
       </nuxt-link>
     </div>
     <projecthero
-      pDate="Oct 2018 "
-      pWebsite="Read Recite Repeat"
-      pCategory="Print Design"
-      pHeading="Sharing thoughts."
+      pDate="March 2018 "
+      pWebsite="Awesome Inc"
+      pCategory="Branding"
+      pHeading="Making awesome things more awesome."
       pHeadingcolor="color:#A05EE5;"
-      pSubheading="to thousands of people Campaign Design."
+      pSubheading=" Branding work for a digital design company."
     />
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
-        <img src="~assets/projects/awesome-inc/ai-hero.jpg" alt="R3" align>
+        <img src="~assets/projects/awesome-inc/ai-hero.jpg" alt="R3" align />
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
     <Preface
       timeframe=" April 2018- May 2018
             <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
-            <br>Marketing"
+      tools="  Adobe Photoshop, Adobe Illustrator
+            <br>Pen, paper"
+      role="  Branding Works
+            <br>from start to end"
+      team=" Only me
+            <br>It was lonely time"
     />
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Filming eye is a film production studio based in Lucknow. They do photography, short films, music
-        videos, advertisements shoots. Basically things that can be captured with camera and of course there
-        existing team skills. Filming eye have got some headlines in news in the past about their commendable
-        work and nominations of their videos in different film competitions. The team comprised of talented who
-        with their camera and skills was able to produce breathtaking works. People knew me already. So they
-        kind of wanted me to work on their website."
+      para="Awesome Inc is a Digital Design Company who have just established their
+      first office in lucknow like us and was ready to launch their website. On they way
+      they realised they needed a good look and feel. It happened to that I was their man
+      to do the task about beutifying them.
+      <br><br>
+      
+      Full Disclosure: Awesome Inc doesnt exist. It all exist in my mind. At the time of working on
+      elevito I needed some works showcase related to branding. So became my own client and started working on the idea."
       theme="theme_ai"
     />
 
@@ -59,7 +61,7 @@
 
     <div class="reveal-holder" data-aos="fade-up">
       <div class="reveal-block theme_ai right" data-aos="reveal-right"></div>
-      <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
+      <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
       <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
     </div>
 
@@ -67,10 +69,33 @@
 
     <!-- appreciate button -->
 
-    <Appreciate/>
+    <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />
+
+    <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
-      <projectfooter/>
+      <div class="projects-footer-container">
+        <allprojectsnav />
+        <div class="p-f-p-container">
+          <nuxt-link to="/projects/r3">
+            <pfooterp
+              projectName="R3"
+              projectCategories="Social Media, Logo"
+              thumbnail="/showcase4.jpg"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/projects/elevito">
+            <pfootern
+              projectName="Elevito"
+              projectCategories="Web, Branding, Print"
+              thumbnail="/showcase6.jpg"
+            />
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -83,6 +108,9 @@ import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
 import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 export default {
   layout: 'projects',
   components: {
@@ -92,7 +120,10 @@ export default {
     Pcase,
     Projecthero,
     Next,
-    Previous
+    Previous,
+    Pfooterp,
+    Pfootern,
+    Allprojectsnav
   }
 }
 </script>
