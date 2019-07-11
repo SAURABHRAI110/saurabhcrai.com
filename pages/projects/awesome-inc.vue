@@ -25,8 +25,8 @@
       </div>
     </div>
     <Preface
-      timeframe=" April 2018- May 2018
-            <br>2 Month"
+      timeframe=" Mid March 2018- April 2018
+            <br>1 Month"
       tools="  Adobe Photoshop, Adobe Illustrator
             <br>Pen, paper"
       role="  Branding Works
@@ -42,20 +42,24 @@
       they realised they needed a good look and feel. It happened to that I was their man
       to do the task about beutifying them.
       <br><br>
-      
-      Full Disclosure: Awesome Inc doesnt exist. It all exist in my mind. At the time of working on
-      elevito I needed some works showcase related to branding. So became my own client and started working on the idea."
+
+      With unrestricted design requirements, I was able to let my imagination run wild.
+      The branding is sleek and modern, while remaining unique from all competitors in the same space.
+
+      <br> <br>
+
+      I spent a lot of time with Awesome Inc Logo, Colours, accompanying service brochures,
+      carefully developing them from scratch. This resulted in a consistent brand touchpints and dbrought
+      their high-quality approach to every step of the client's experience."
       theme="theme_ai"
     />
 
     <!-- Problem -->
     <pcase
       heading="Problem"
-      para="  1. The first thing that I came around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      para="  1. Choosing The right colour
+        <br>2. Designing logo is not my genre.
+        <br>3. No existing design, Everything were to be started from scratch."
       theme="theme_ai"
     />
 

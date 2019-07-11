@@ -949,6 +949,26 @@ view more work*/
   }
 }
 
+/* about page 
+be crazy */
+
+.be-crazy {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffcf47;
+}
+
+.be-crazy h1 {
+  font-size: 120px;
+  margin: 0;
+  text-align: center;
+}
+
+.be-crazy p {
+  text-align: center;
+  padding-top: 20px;
+}
 
 /* showcase  */
 
@@ -1655,19 +1675,4 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
   height: auto;
   width: 100%;
   position: relative;
-}
-
-
-/* VueScrollProgress  */
-#progress-container-el {
-  /* background */
-  background-color: transparent !important;
-  top: 0px !important;
-
-}
-
-#progress-el {
-  /* progress bar */
-  background-color: #fc3a52 !important;
-  height: 2px !important;
 }

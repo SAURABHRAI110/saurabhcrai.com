@@ -7,8 +7,8 @@
     <!-- about hero -->
 
     <div class="a-hero_container">
-      <img src="~assets/svg/circle.svg" alt="circle">
-      <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }">
+      <img src="~assets/svg/circle.svg" alt="circle" />
+      <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }" />
       <div class="contain a-h-container">
         <p class="pm a-h-subheading">who i am</p>
         <h1>
@@ -26,16 +26,16 @@
     <div class="about-section2 contain">
       <div class="me-images">
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
-          <img src="~/assets/img/about/about-me-1.png">
+          <img src="~/assets/img/about/about-me-1.png" />
         </div>
         <div v-rellax="{ speed: 1, center: 0.3 }" class="me-image2">
-          <img src="~/assets/img/about/about-me-2.png">
+          <img src="~/assets/img/about/about-me-2.png" />
         </div>
         <div v-rellax="{ speed: -2, center: 0.7 }" class="me-image4">
-          <img src="~/assets/img/about/about-me-4.png">
+          <img src="~/assets/img/about/about-me-4.png" />
         </div>
         <div v-rellax="{ speed: 3, center: 0.5 }" class="me-image3">
-          <img src="~/assets/img/about/about-me-3.png">
+          <img src="~/assets/img/about/about-me-3.png" />
         </div>
       </div>
     </div>
@@ -124,59 +124,59 @@
       <div class="a-block-right">
         <div>
           <p class="para c-text">User Experience Design</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic.png" />
         </div>
         <div>
           <p class="para c-text">Interactive Experiences</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-2.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
         </div>
         <div>
           <p class="para c-text">Brand Identity</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-3.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
         </div>
         <div>
           <p class="para c-text">Digital Product Design</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-4.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
         </div>
         <div>
           <p class="para c-text">Interactive Prototyping</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-5.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
         </div>
         <div>
           <p class="para c-text">Front End Development</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-6.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
         </div>
         <div>
           <p class="para c-text">User Experience</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-7.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-7.png" />
         </div>
         <div>
           <p class="para c-text">Motion Graphics</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-8.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
         </div>
         <div>
           <p class="para c-text">Photography</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-9.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
         </div>
         <div>
           <p class="para c-text">Print Design</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-9.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
         </div>
         <div>
           <p class="para c-text">Digital, Social Compain\gns</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-10.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
         </div>
         <div>
           <p class="para c-text">Coffee Drinking</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-11.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
         </div>
         <div>
           <p class="para c-text">2D & 3D Illustration</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-12.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
         </div>
         <div>
           <p class="para c-text">& everything in between</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
         </div>
       </div>
 
@@ -221,91 +221,91 @@
       <div class="a-block-right">
         <div>
           <p class="para c-text c-text-1">News App</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic.png" />
         </div>
         <div>
           <p class="para c-text">Memantic</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-2.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
         </div>
         <div>
           <p class="para c-text">Dreamz</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-3.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
         </div>
         <div>
           <p class="para c-text">BharatRohan</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-4.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
         </div>
         <div>
           <p class="para c-text">PrepOwl</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-5.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
         </div>
         <div>
           <p class="para c-text">Online Doctor</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-6.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
         </div>
         <div>
           <p class="para c-text">Feeding Trends</p>
-          <img class="c-pic" src="images/about/c-pic-7.png">
+          <img class="c-pic" src="images/about/c-pic-7.png" />
         </div>
         <div>
           <p class="para c-text">Photography</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-8.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
         </div>
         <div>
           <p class="para c-text">The BBD Times</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-9.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
         </div>
         <div>
           <p class="para c-text">Happy Miles</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-10.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
         </div>
         <div>
           <p class="para c-text">Dear Zindagi</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-11.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
         </div>
         <div>
           <p class="para c-text">Filming Eye</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-12.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
         </div>
         <div>
           <p class="para c-text">Elevito</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
         </div>
         <div>
           <p class="para c-text">Awesome Inc</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-14.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-14.png" />
         </div>
         <div>
           <p class="para c-text">Mr. Irritating</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-15.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-15.png" />
         </div>
         <div>
           <p class="para c-text">Read Recite Repeat</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-16.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-16.png" />
         </div>
         <div>
           <p class="para c-text">TBT App</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-17.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-17.png" />
         </div>
         <div>
           <p class="para c-text">Hindigiri</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-12.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
         </div>
         <div>
           <p class="para c-text">Projects Academia</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
         </div>
         <div>
           <p class="para c-text">Play with Arts</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
         </div>
         <div>
           <p class="para c-text">IALSE</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
         </div>
         <div>
           <p class="para c-text">and counting</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png">
+          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
         </div>
       </div>
       <span
@@ -313,6 +313,34 @@
         data-rellax-speed="-3.5"
         data-rellax-percentage="0.2"
       >Projects</span>
+    </div>
+
+    <!-- Be Crazy -->
+
+    <div class="be-crazy">
+      <span class="center-h-v">
+        `
+        <h1>Be Crazy</h1>
+        <p>
+          Be crazy, be stupid, be silly, be weird. Be whatever,
+          <br />because life is too short to be anything but happy.
+        </p>
+      </span>
+    </div>
+
+    <!-- My core standards -->
+    <div class="contain">
+      <h1>A look into my why</h1>
+      <p>Make it Better</p>
+      <p>Quality Over Quantity</p>
+      <p>Keep it Real</p>
+      <p>Work to Live</p>
+      <p>People Over Profits</p>
+      <p>Ask More Questions</p>
+      <p>Keep it Simple</p>
+      <p>Never Stop Learning</p>
+
+      <p>I design with purpose. I am obsessive with how and why a design works not on how it looks.</p>
     </div>
   </div>
 </template>

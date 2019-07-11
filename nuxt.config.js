@@ -19,6 +19,11 @@ export default {
         body: true,
         async: true
 
+      },
+      {
+        src: 'https://rawcdn.githack.com/mburakerman/prognroll/0feda211643153bce2c69de32ea1b39cdc64ffbe/src/prognroll.js',
+        body: true,
+        async: true
 
       },
       {
@@ -99,12 +104,8 @@ export default {
     {
       src: '~plugins/vue-carousel',
       ssr: false
-    },
-    {
-      src: '~plugins/vue-scroll-progress',
-      ssr: false,
-
     }
+
 
 
   ],
