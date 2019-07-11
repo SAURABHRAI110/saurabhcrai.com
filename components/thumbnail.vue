@@ -48,7 +48,7 @@ export default {
 
   border-radius: 0.1rem;
   overflow: hidden;
-  /* cursor: url('/cnblack.svg'), auto; */
+  cursor: url('/cnblack.svg'), auto;
 }
 
 .projects-image {
