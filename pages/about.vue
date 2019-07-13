@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="panel" data-color="white">
     <!-- <div class="vl1 vl"></div>
     <div class="vl2 vl"></div>
     <div class="vl3 vl"></div>-->
@@ -317,7 +317,7 @@
 
     <!-- Be Crazy -->
 
-    <div class="be-crazy">
+    <div class="be-crazy panel" data-color="violet">
       <span class="center-h-v">
         `
         <h1>Be Crazy</h1>

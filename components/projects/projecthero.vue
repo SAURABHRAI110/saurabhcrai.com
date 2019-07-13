@@ -69,7 +69,7 @@ export default {
 
 .p-sub-heading {
   font-size: 26px;
-  margin-top: 10px;
+  margin-top: 10px 0px 30px 0px;
   position: relative;
   color: rgb(29, 29, 29);
   z-index: 3;

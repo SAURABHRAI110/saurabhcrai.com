@@ -1,8 +1,8 @@
 <template>
   <div>
-    <div class="vl1 vl"></div>
+    <!-- <div class="vl1 vl"></div>
     <div class="vl2 vl"></div>
-    <div class="vl3 vl"></div>
+    <div class="vl3 vl"></div>-->
 
     <div class="nametag-container contain">
       <div class="h-name" data-aos="fade-up" data-aos-duration="1000">
