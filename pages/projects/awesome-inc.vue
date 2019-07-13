@@ -20,7 +20,7 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
-        <img src="~assets/projects/awesome-inc/ai-hero.jpg" alt="R3" align />
+        <img src="~assets/projects/awesome-inc/ai-hero2.jpg" alt="R3" align />
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
@@ -39,8 +39,8 @@
       heading="Preface"
       para="Awesome Inc is a Digital Design Company who have just established their
       first office in lucknow like us and was ready to launch their website. On they way
-      they realised they needed a good look and feel. It happened to that I was their man
-      to do the task about beutifying them.
+      they realized they needed a good look and feel. It happened to that I was their man
+      to do the task about beatifying them.
       <br><br>
 
       With unrestricted design requirements, I was able to let my imagination run wild.
@@ -49,7 +49,7 @@
       <br> <br>
 
       I spent a lot of time with Awesome Inc Logo, Colours, accompanying service brochures,
-      carefully developing them from scratch. This resulted in a consistent brand touchpints and dbrought
+      carefully developing them from scratch. This resulted in a consistent brand touch-points and brought
       their high-quality approach to every step of the client's experience."
       theme="theme_ai"
     />
@@ -68,21 +68,24 @@
       para="  When It comes to choosing the right colour. I am very natural. After some 
             some research and discovery  I decided to go with gradient and and just any gradient but
             with very vibrant colour. Inspiration to this gradient came from a post from envato. There
-            is saying trust your instincts and when it comes to design we got to make so many liitle decision
+            is saying trust your instincts and when it comes to design we got to make so many little decision
             that we got to trust our instincts all the time. After confirming the colors and minor retouching and getting
             the approval I started a working on the visuals."
       theme="theme_ai"
     />
 
-    <img class="p-image-100" src="~assets/projects/awesome-inc/branding.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/branding3.jpg" />
+    <!-- <img class="p-image-100" src="~assets/projects/awesome-inc/ai-hero2.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-8.jpg" />-->
     <img class="p-image-100" src="~assets/projects/awesome-inc/AwesomeInc5.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/ai-hero.jpg" />
     <img class="p-image-100" src="~assets/projects/awesome-inc/AwesomeInc7.jpg" />
 
+    <!-- 
     <div class="reveal-holder" data-aos="fade-up">
       <div class="reveal-block theme_ai right" data-aos="reveal-right"></div>
       <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
-      <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
-    </div>
+    </div>-->
 
     <!-- Branding -->
 
@@ -90,7 +93,7 @@
 
     <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />
 
-    <!-- Project Footer Navigatrion -->
+    <!-- Project Footer Navigation -->
 
     <div class="project-footer">
       <div class="projects-footer-container">
