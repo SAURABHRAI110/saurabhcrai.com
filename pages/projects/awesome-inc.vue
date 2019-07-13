@@ -54,14 +54,29 @@
       theme="theme_ai"
     />
 
-    <!-- Problem -->
+    <!-- Challenge -->
     <pcase
-      heading="Problem"
+      heading="Challenge"
       para="  1. Choosing The right colour
         <br>2. Designing logo is not my genre.
         <br>3. No existing design, Everything were to be started from scratch."
       theme="theme_ai"
     />
+    <!-- Challenge -->
+    <pcase
+      heading="Choosing the right color"
+      para="  When It comes to choosing the right colour. I am very natural. After some 
+            some research and discovery  I decided to go with gradient and and just any gradient but
+            with very vibrant colour. Inspiration to this gradient came from a post from envato. There
+            is saying trust your instincts and when it comes to design we got to make so many liitle decision
+            that we got to trust our instincts all the time. After confirming the colors and minor retouching and getting
+            the approval I started a working on the visuals."
+      theme="theme_ai"
+    />
+
+    <img class="p-image-100" src="~assets/projects/awesome-inc/branding.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/AwesomeInc5.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/AwesomeInc7.jpg" />
 
     <div class="reveal-holder" data-aos="fade-up">
       <div class="reveal-block theme_ai right" data-aos="reveal-right"></div>
