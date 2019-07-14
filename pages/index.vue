@@ -260,7 +260,7 @@
             <thumbnail
               thumbnailName="Awesome Inc."
               thumbnailDescription="Identity, Print"
-              thumbnail="/showcase5a.jpg"
+              thumbnail="/showcase5b.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"

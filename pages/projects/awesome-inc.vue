@@ -74,12 +74,12 @@
       theme="theme_ai"
     />
 
-    <img class="p-image-100" src="~assets/projects/awesome-inc/branding3.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/branding4.jpg" />
     <!-- <img class="p-image-100" src="~assets/projects/awesome-inc/ai-hero2.jpg" />
     <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-8.jpg" />-->
-    <img class="p-image-100" src="~assets/projects/awesome-inc/AwesomeInc5.jpg" />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/ai-hero.jpg" />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/AwesomeInc7.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-vc.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-identity.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/t-shirt.jpg" />
 
     <!-- 
     <div class="reveal-holder" data-aos="fade-up">
@@ -91,7 +91,10 @@
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />
+    <Appreciate
+      heading="Lets do something awesome together."
+      subHeading="Don't forget to appreciate."
+    />
 
     <!-- Project Footer Navigation -->
 
