@@ -1274,7 +1274,6 @@ color: #0088ff !important;
 
 
 .section1 img:nth-child(1) {
-  width: 300px;
   position: absolute;
   width: 40%;
   left: 50%;
@@ -1296,9 +1295,11 @@ color: #0088ff !important;
 }
 
 
+
+
 .section2 {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   position: relative;
   background-color: #EE605C;
   margin-bottom: 5px;
@@ -1323,6 +1324,40 @@ color: #0088ff !important;
   width: 100%;
 }
 
+
+@media screen and (max-width:999px) {
+  .section1 img:nth-child(1) {
+
+    width: 50%;
+
+  }
+}
+
+@media screen and (max-width:800px) {
+  .section1 img:nth-child(1) {
+
+    width: 300px;
+
+  }
+
+  .section2 img:nth-child(1) {
+    width: 78%;
+    left: 50%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .section1 img:nth-child(2) {
+
+    right: 50px;
+
+  }
+
+  .section2 img:nth-child(1) {
+    width: 86%;
+  }
+}
 
 .kavya-section {
   width: 100%;
@@ -1349,6 +1384,7 @@ color: #0088ff !important;
   left: 8%;
   height: 50%;
   top: 25%;
+  z-index: 1;
 
 }
 
@@ -1400,6 +1436,8 @@ color: #0088ff !important;
   height: 50%;
   top: 25%;
   transform: rotateY(180deg);
+  z-index: 1;
+
 
 }
 
@@ -1444,6 +1482,7 @@ color: #0088ff !important;
   height: 50%;
   top: 25%;
   transform: rotateY(180deg);
+  z-index: 1;
 
 }
 
@@ -1452,6 +1491,7 @@ color: #0088ff !important;
   right: 10%;
   top: 20%;
   height: 110%;
+  opacity: .5;
 
 }
 
@@ -1471,6 +1511,184 @@ color: #0088ff !important;
   height: 100%;
   position: absolute;
 
+}
+
+
+@media screen and (max-width:1200px) {
+  .kavya-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+
+  }
+}
+
+@media screen and (max-width:999px) {
+  .kavya-section svg:nth-child(1) {
+    left: 5%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .kavya-section .text-container {
+    width: 58%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 3%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .anant-section .text-container {
+    width: 57%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .aashi-section .text-container {
+    width: 56%;
+  }
+
+  .kavya-section svg:nth-child(2) {
+    right: 0%;
+  }
+
+  .anant-section svg:nth-child(2) {
+    right: 0%;
+  }
+
+  .aashi-section svg:nth-child(2) {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width:700px) {
+
+  .kavya-section svg:nth-child(1) {
+    left: 3%;
+    height: 29%;
+    top: 40%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 3%;
+    height: 29%;
+    top: 40%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 3%;
+    height: 29%;
+    top: 40%;
+  }
+
+  .pm {
+    font-size: 17px;
+  }
+
+  .anant-section .text-container {
+    width: 57%;
+    top: 34%;
+    left: 33%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .kavya-section .text-container::before {
+    border-top: solid 2px rgb(255, 255, 255);
+    width: 104%;
+    height: 0px;
+
+  }
+
+  .anant-section .text-container::before {
+    border-top: solid 2px rgb(0, 0, 0);
+    width: 100%;
+    height: 0px;
+  }
+
+  .aashi-section .text-container::before {
+    border-top: solid 2px rgb(255, 255, 255);
+    width: 104%;
+    height: 0px;
+  }
+
+  .text-container h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .kavya-section .text-container {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+    color: white;
+  }
+
+  .anant-section .text-container {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+    color: rgb(0, 0, 0);
+  }
+
+  .aashi-section .text-container {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+    color: white;
+  }
+
+  .kavya-section svg:nth-child(1) {
+    left: 33%;
+    height: 30%;
+    top: 14%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 33%;
+    height: 30%;
+    top: 14%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 42%;
+    height: 30%;
+    top: 14%;
+  }
+
+  .kavya-section svg:nth-child(2) {
+    right: 10%;
+    top: 8%;
+    height: 80%;
+  }
+
+  .anant-section svg:nth-child(2) {
+    right: -7%;
+    top: 28%;
+    height: 69%;
+  }
+
+  .aashi-section svg:nth-child(2) {
+    right: 10%;
+  }
 }
 
 
@@ -1509,7 +1727,6 @@ color: #0088ff !important;
 
 
 @media screen and (max-width: 999px) {
-
 
   .cover>img {
     height: 380px;
