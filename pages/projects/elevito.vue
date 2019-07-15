@@ -3,10 +3,10 @@
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/feeding-trends">
-        <next/>
+        <next />
       </nuxt-link>
       <nuxt-link to="/projects/awesome-inc">
-        <previous/>
+        <previous />
       </nuxt-link>
     </div>
     <projecthero
@@ -27,47 +27,91 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/elevito/elevito-hero.jpg" alt>
+        <img src="~assets/projects/elevito/elevito-hero.jpg" alt />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
-
     <Preface
-      timeframe=" April 2018- May 2018
-            <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
-            <br>Marketing"
+      timeframe=" October 2018- March 2019
+    <br />5 Month"
+      tools=" Adobe Creative Suite
+    <br />Sketch, Flinto, Zeplin sdwdswdw wdwd"
+      role=" UI/UX
+    <br />Research, Content Strategy"
+      team=" Shekhar, Govind, Fahad, Saurabh
+    <br />Yash, Zainab and me"
     />
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Filming eye is a film production studio based in Lucknow. They do photography, short films, music
-        videos, advertisements shoots. Basically things that can be captured with camera and of course there
-        existing team skills. Filming eye have got some headlines in news in the past about their commendable
-        work and nominations of their videos in different film competitions. The team comprised of talented who
-        with their camera and skills was able to produce breathtaking works. People knew me already. So they
-        kind of wanted me to work on their website."
+      para=" Elevito- Coming up with this name was challenging in itself. Elevito was supposed to be a Designing company based in India.
+            We have been working from days when I got into my 7th semester of Engineering. Elevito- A team dedicated to producing only the best quality conteant
+            any brand would deserves.
+
+
+    "
       theme="theme_elevito"
     />
 
-    <!-- Problem -->
+    <!-- Backstory -->
+
     <pcase
-      heading="Problem"
-      para="  1. The first thing that I came around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      heading="From Lucknow with love ❤"
+      para=" I started thinking of Elevito back at end of September 2017 while I was still In Lucknow, pursuing
+    Computer Science Eingineering with some of my crazy friends who were so good in web development. Me and friend wanted
+    to do something of our own, one night I got a chance to do it under the hat of one of my Senior. It was really mind bending
+    for me and very challenging.
+    <br />
+    <br />
+So here I was, crawling Pintrest, going through design agenicies website, looking thirstly for some
+    inspiration that could move me. After few days of this or that, I found a specific visuial split in half and
+    that's basically where the whole concept came from."
       theme="theme_elevito"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
+    <!--       When we work on something that we have to decide on our own about every aspects of a product. It gets more challenging than ever.
+      Then we are in constant dilemma of this or that. Iteration seems to never stop. Its get frustrating.
+      Though we are not restricted by anything, its also fun and our mind happen to work round the clock to make decisions.
+
+        <br> <br>Making something stand out and gives a feel of creativity and wowness. 
+        was cool for the moment but that can not be used to used on web.
+    <br>3. No copywrite, no information architecture."-->
+
+    <div class="p-quote contain red">
+      <blockquote>
+        It was an opportunity for us to challenge our creativity,
+        without fixing any constraint or barrier.
+      </blockquote>
+    </div>
+
+    <p class="contain black90">
+      The purpose of the website was to showcase our works we have done so far particlurly me and my fellow designers and through
+      that, to get clients and to convince them that we are the people they are looking far.
+    </p>
+
+    <!-- Full height Text Go Beyond-->
+
+    <div class="p-text-100 bg_one">
+      <span class="center-h-v">
+        <h3 class="white">Go Beyond</h3>
+        <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
+      </span>
+    </div>
+
+    <div class="p-text-100 bg_two">
+      <span class="center-h-v">
+        <h3 class="white">Think Deeper</h3>
+        <img src="~assets/projects/elevito/heart.svg" alt="heart icon" />
+      </span>
+    </div>
+    <div class="p-text-100 bg_three">
+      <span class="center-h-v">
+        <h3 class="white">Reimagine</h3>
+        <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
+      </span>
+    </div>
 
     <!-- Reasearch -->
     <pcase
@@ -78,103 +122,12 @@
       theme="theme_elevito"
     />
 
-    <!-- photo grid -->
-    <pcase heading="Photography/Imagery"/>
-    <div class="contain">
-      <div class="p-fe_photogrid">
-        <img src="~assets/projects/fe/gallery1.jpg" alt>
-        <img src="~assets/projects/fe/gallery-2.jpg" alt>
-        <img src="~assets/projects/fe/gallery-3.jpg" alt>
-        <img src="~assets/projects/fe/gallery-4.jpg" alt>
-        <img src="~assets/projects/fe/gallery-5.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
-        <img src="~assets/projects/fe/gallery-7.jpg" alt>
-        <img src="~assets/projects/fe/gallery-8.jpg" alt>
-        <img src="~assets/projects/fe/gallery-9.jpg" alt>
-        <img src="~assets/projects/fe/gallery-10.jpg" alt>
-        <img src="~assets/projects/fe/gallery11.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
-      </div>
-    </div>
-
-    <!-- Branding -->
-
-    <pcase
-      heading="Branding"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-             of asking qualitative questions such as their workflow to even the intimate details of their
-             personal life."
-      theme="theme_elevito"
-    />
-
-    <div class="contain">
-      <div class="p-fe_branding-grid">
-        <div>
-          <img src="~assets/projects/fe/branding1.jpg">
-        </div>
-        <div>
-          <img src="~assets/projects/fe/branding2.jpg">
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding3.jpg">
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding5.png">
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding6.png">
-        </div>
-      </div>
-    </div>
-
-    <!-- Web Design -->
-    <pcase
-      heading="Web Design"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-            by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-            of asking qualitative questions such as their workflow to even the intimate details of their
-            personal life."
-      theme="theme_elevito"
-    />
-
-    <!-- First Iteration -->
-    <pcase
-      heading="First Iteration"
-      para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a
-              great layout and which made almost most of the things we needed in and that we don't needed.
-              <br><br>
-              Before being given into development there was this huge gap of like 6 months. After this long time
-              when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
-              thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
-              changed almost everything expect the dark theme and colour and content architecture."
-      theme="theme_elevito"
-    />
-
-    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
-
-    <!-- Final Design -->
-    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg">
-
-    <div class="p-fe_final-design">
-      <pcase
-        heading=" Final Design"
-        para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a great
-                  layout and which made almost most of the things we needed in and that we don't needed.
-                  <br><br>
-                  Before being given into development there was this huge gap of like 6 months. After this long time when
-                  I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of thing needed
-                  to retouch. The works seems sloppy. So all the things needed retouch. In a way I changed almost
-                  everything expect the dark theme and colour and content architecture."
-        theme="theme_elevito"
-      />
-    </div>
     <!-- appreciate button -->
 
-    <Appreciate/>
+    <Appreciate />
 
     <div class="project-footer">
-      <projectfooter/>
+      <projectfooter />
     </div>
   </div>
 </template>

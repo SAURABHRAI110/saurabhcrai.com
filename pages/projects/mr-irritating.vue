@@ -48,7 +48,7 @@
       heading="Preface"
       para=" I am very fartunate enough to work on this amazing project. This got very close to me. I got to work
       with some wonderful people whom I learned a lot on the way of designing a beautiful cover that is being loved
-      by thousands and apprecited by  my teammates, Mr. Irritating Team and those who come around this novel.
+      by thousands and appreciated by  my teammates, Mr. Irritating Team and those who come around this novel.
       The novel narrates the story of three characters Kavya, Anant and Aashi and ofcourse their friendship, carrer and love triangle between them."
       theme="theme_mi"
     />

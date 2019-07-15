@@ -283,6 +283,10 @@ p {
   color: transparent;
 }
 
+.white {
+  color: white;
+}
+
 
 
 
@@ -1886,6 +1890,56 @@ color: #0088ff !important;
   background: linear-gradient(#f83e5b 0%, #f48937 100%, #000 100%);
 
 }
+
+
+.p-text-100 {
+  width: 100%;
+  height: 100vh;
+
+  position: relative;
+}
+
+.p-text-100 h2 {
+  text-align: center;
+}
+
+.p-text-100 img {
+  display: flex;
+  margin: -18px auto;
+}
+
+.bg_one {
+  background: linear-gradient(#00adee 0%, #1b75bb 0%, #469e9c 0%, #419a9b 22.16%, #338f99 47.69%, #1c7d97 74.76%, #006894 100%);
+}
+
+.bg_two {
+  background: linear-gradient(#00adee 0%, #1b75bb 0%, #469e9c 0%, #419a9b 22.16%, #338f99 47.69%, #1c7d97 74.76%, #006894 100%);
+}
+
+.bg_three {
+  background: linear-gradient(#f83e5b 0%, #f48937 100%, #000 100%);
+
+}
+
+.p-quote blockquote {
+  position: relative;
+  width: 700px;
+  max-width: 100%;
+  margin: 50px 0;
+  font-size: 36px;
+  color: var(--primary-color);
+  line-height: 150%;
+}
+
+.p-quote blockquote::before {
+  content: "“";
+  position: absolute;
+  top: 15px;
+  left: -60px;
+  font-size: 70px;
+  font-style: normal;
+}
+
 
 
 /* feeding Trends
