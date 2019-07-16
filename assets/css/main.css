@@ -196,6 +196,10 @@ p {
   /* line-height: 42px; */
 }
 
+.just-para {
+  padding-bottom: 50px;
+}
+
 /* .no-white-space {
   white-space: pre-wrap;
 } */
@@ -1131,7 +1135,7 @@ body {
   width: 100%;
 }
 
-.p-image-100-container>p {
+.p-image-100-container p {
   text-align: center;
   color: white;
   position: absolute;
@@ -1929,6 +1933,7 @@ color: #0088ff !important;
   font-size: 36px;
   color: var(--primary-color);
   line-height: 150%;
+  font-family: circular-medium;
 }
 
 .p-quote blockquote::before {
@@ -1940,6 +1945,19 @@ color: #0088ff !important;
   font-style: normal;
 }
 
+.elevito-research-sec {
+  padding: 40px 0px 0px 0px;
+}
+
+.elevito-text-bg1 {
+  background-color: #469e9c;
+  color: white;
+}
+
+.elevito-text-bg2 {
+  background: linear-gradient(#f83e5b 0%, #f48937 100%, #000 100%);
+  color: white;
+}
 
 
 /* feeding Trends

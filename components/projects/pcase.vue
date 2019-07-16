@@ -35,4 +35,8 @@ export default {
 p {
   padding-bottom: 50px;
 }
+
+h2 {
+  margin: 10px auto;
+}
 </style>

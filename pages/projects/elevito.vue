@@ -81,17 +81,64 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
 
     <div class="p-quote contain red">
       <blockquote>
-        It was an opportunity for us to challenge our creativity,
+        It was an opportunity for me to challenge our creativity,
         without fixing any constraint or barrier.
       </blockquote>
     </div>
 
-    <p class="contain black90">
+    <p class="contain just-para black90">
       The purpose of the website was to showcase our works we have done so far particlurly me and my fellow designers and through
-      that, to get clients and to convince them that we are the people they are looking far.
+      that, to clients and to convince them that we are the people they are looking far.
     </p>
 
-    <!-- Full height Text Go Beyond-->
+    <img
+      class="p-image-100"
+      src="~assets/projects/elevito/elevito-mockup-web1.jpg"
+      alt="Elevito web mockup"
+    />
+    <!-- Ideation and Reasearch -->
+
+    <pcase
+      class="elevito-research-sec"
+      heading="Ideation and Research"
+      para=" After wireframing the site and running it past some UX friends and juniors
+      for feedback and tweaks, we kicked around some ideas for a theme. Coming up with layout
+      and working on it.I iterated and tweaked until we had something that was fun and as fluid
+      as possible."
+      theme="theme_elevito"
+    />
+    <div class="p-image-100-container">
+      <picture>
+        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation.jpg" />
+        <img src="~assets/projects/elevito/elevito-ideation.jpg" alt="elevito ideation" />
+        <p class="ps">I know my writing is all messed up.</p>
+      </picture>
+    </div>
+    <!-- <img
+      class="p-image-100"
+      src="~assets/projects/elevito/elevito-ideation.jpg"
+      alt="Elevito web mockup"
+    />-->
+
+    <div class="p-quote contain red">
+      <blockquote>
+        Ideas don't come out fully formed. They only become clear as you work on them.
+        You just have to get started.
+      </blockquote>
+    </div>
+
+    <!-- Art direction Design-->
+
+    <pcase
+      heading="Art Direction + Design"
+      para="After layout and content strategy, It was  time to set a theme and colour palette
+      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
+      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
+      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
+      use red as theme colour
+      "
+      theme="theme_elevito"
+    />
 
     <div class="p-text-100 bg_one">
       <span class="center-h-v">
@@ -112,15 +159,6 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
         <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
       </span>
     </div>
-
-    <!-- Reasearch -->
-    <pcase
-      heading="Research"
-      para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
-        used images that filming eye have clicked through their camera and some free stock photos that have
-        meaning and value to infinity, beyond, and that fit to our red and dark black theme."
-      theme="theme_elevito"
-    />
 
     <!-- appreciate button -->
 

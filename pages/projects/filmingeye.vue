@@ -46,14 +46,17 @@
     <pcase
       heading="Preface"
       para=" Filming eye is a film production studio based in Lucknow. They do photography, short films, music
-        videos, advertisements shoots. Basically things that can be captured with camera and of course there
-        existing team skills. Filming eye have got some headlines in news in the past about their commendable
-        work and nominations of their videos in different film competitions. The team comprised of talented who
-        with their camera and skills was able to produce breathtaking works. People knew me already. So they
-        kind of wanted me to work on their website."
+    videos, advertisements shoots. Basically things that can be captured with camera and of course there
+    existing team skills. Filming eye have got some headlines in news in the past about their commendable
+    work and nominations of their videos in different film competitions. The team comprised of talented who
+    with their camera and skills was able to produce breathtaking works. People knew me already. So they
+    kind of wanted me to work on their website.
+    <br />
+    <br />
+Basically the brief was clear: design a simple, clean and elegant showcase website. But also an especially recognisable
+and branded ‘Easy Tiger’ website with key values like boldness and modernity."
       theme="theme_fe"
     />
-
     <!-- Problem -->
     <pcase
       heading="Problem"
