@@ -119,9 +119,11 @@ a:active {
 }
 
 ::selection {
-  background-color: var(--primary-color);
-  color: #fff;
+  /* background-color: var(--primary-color);
+  color: #fff; */
   text-shadow: none;
+  background: rgba(214, 55, 46, 0.05);
+  color: var(--primary-color);
 }
 
 .opacity50 {

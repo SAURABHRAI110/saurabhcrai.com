@@ -182,10 +182,22 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
     <div class="p-image-100-container">
       <picture>
         <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
-        <img src="~assets/projects/elevito/elevito-wireframe-cyan.jpg" alt="elevito wireframe" />
-        <p class="ps black90">Later on it happened I changed the theme.</p>
+        <img src="~assets/projects/elevito/elevito-wireframe-final.jpg" alt="elevito wireframe" />
+        <p class="ps black90">Final Layout-Changed hero image and thumbnail later on.</p>
       </picture>
     </div>
+
+    <!-- Fonts, Colors & Patterns -->
+    <pcase
+      heading="Fonts, Colors & Patterns"
+      para="After layout and content strategy, It was  time to set a theme and colour palette
+      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
+      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
+      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
+      use red as theme colour
+      "
+      theme="theme_elevito"
+    />
 
     <!-- Go beyond -->
     <!-- <div class="p-text-100 bg_one">
