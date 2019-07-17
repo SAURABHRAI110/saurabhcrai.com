@@ -13,7 +13,7 @@
       pDate="October 2017 "
       pWebsite="elevito.com"
       pCategory="Product Design"
-      pHeading="Elevito: My own endeaver "
+      pHeading="Elevito: My own endeaver"
       pHeadingcolor="color:#FD3E5B;"
       pSubheading="Designing for a design company."
     />
@@ -107,13 +107,41 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
       as possible."
       theme="theme_elevito"
     />
-    <div class="p-image-100-container">
+    <!-- <div class="p-image-100-container">
       <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation.jpg" />
-        <img src="~assets/projects/elevito/elevito-ideation.jpg" alt="elevito ideation" />
+        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
+        <img src="~assets/projects/elevito/elevito-ideation-1.jpg" alt="elevito ideation" />
         <p class="ps">I know my writing is all messed up.</p>
       </picture>
+    </div>-->
+
+    <div class="contain">
+      <div class="slider-container">
+        <carousel
+          :per-page="1"
+          :mouse-drag="true"
+          paginationColor="#aaa"
+          paginationActiveColor="#da2c4d"
+          :adjustable-height="true"
+        >
+          <slide>
+            <img
+              class="slide-img"
+              src="~assets/projects/elevito/elevito-ideation-1.jpg"
+              alt="slider1"
+            />
+          </slide>
+          <slide>
+            <img
+              class="slide-img"
+              src="~assets/projects/elevito/elevito-ideation-2.jpg"
+              alt="slider2"
+            />
+          </slide>
+        </carousel>
+      </div>
     </div>
+
     <!-- <img
       class="p-image-100"
       src="~assets/projects/elevito/elevito-ideation.jpg"
@@ -139,33 +167,91 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
       "
       theme="theme_elevito"
     />
+    <!-- theme one  -->
+    <div class="p-image-100-container">
+      <picture>
+        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
+        <img src="~assets/projects/elevito/elevito-wireframe-cyan.jpg" alt="elevito wireframe" />
+        <p class="ps black90">Later on it happened I changed the theme.</p>
+      </picture>
+    </div>
 
-    <div class="p-text-100 bg_one">
+    <!-- theme two -->
+    <div class="p-image-100-container">
+      <picture>
+        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
+        <img src="~assets/projects/elevito/elevito-wireframe-cyan.jpg" alt="elevito wireframe" />
+        <p class="ps black90">Later on it happened I changed the theme.</p>
+      </picture>
+    </div>
+
+    <!-- Go beyond -->
+    <!-- <div class="p-text-100 bg_one">
       <span class="center-h-v">
         <h3 class="white">Go Beyond</h3>
         <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
       </span>
+    </div>-->
+
+    <div class="p-image-100-container">
+      <picture>
+        <img src="~assets/projects/elevito/elevito-web-mobile-1.jpg" alt="elevito ideation" />
+        <p class="ps">I know my writing is all messed up.</p>
+      </picture>
+    </div>
+    <div class="p-image-100-container">
+      <picture>
+        <img src="~assets/projects/elevito/elevito-web-mobile-2.jpg" alt="elevito ideation" />
+        <p class="ps">I know my writing is all messed up.</p>
+      </picture>
     </div>
 
-    <div class="p-text-100 bg_two">
+    <!-- think deeper -->
+    <!-- <div class="p-text-100 bg_two">
       <span class="center-h-v">
         <h3 class="white">Think Deeper</h3>
         <img src="~assets/projects/elevito/heart.svg" alt="heart icon" />
       </span>
-    </div>
-    <div class="p-text-100 bg_three">
+    </div>-->
+
+    <!-- reimagine -->
+    <!-- <div class="p-text-100 bg_three">
       <span class="center-h-v">
         <h3 class="white">Reimagine</h3>
         <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
       </span>
-    </div>
+    </div>-->
 
     <!-- appreciate button -->
 
-    <Appreciate />
+    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
+
+    <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
-      <projectfooter />
+      <div class="projects-footer-container">
+        <allprojectsnav />
+
+        <div class="p-f-p-container">
+          <nuxt-link to="/projects/dear-zindagi">
+            <pfooterp
+              projectName="Dear Zindagi"
+              projectCategories="Brochure, Identity"
+              thumbnail="/showcase2.jpg"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/projects/r3">
+            <pfootern
+              projectName="R3"
+              projectCategories="Social Media, logo"
+              thumbnail="/showcase4.jpg"
+            />
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -178,6 +264,9 @@ import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
 import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 export default {
   layout: 'projects',
   components: {
@@ -187,7 +276,10 @@ export default {
     Pcase,
     Projecthero,
     Next,
-    Previous
+    Previous,
+    Pfooterp,
+    Pfootern,
+    Allprojectsnav
   }
 }
 </script>
