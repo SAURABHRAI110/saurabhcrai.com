@@ -91,13 +91,13 @@ a:active {
   --black: #000000;
   --dark-blue: #1f2029;
   --dark-light: #424455;
-  --red: #da2c4d;
+  --red: #fc3a52;
   --yellow: #f8ab37;
   --grey: #ecedf3;
 }
 
 .red {
-  color: #da2c4d;
+  color: #fc3a52;
 }
 
 .black {
@@ -2010,4 +2010,14 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
   height: auto;
   width: 100%;
   position: relative;
+}
+
+
+/* live link  */
+
+.live-link_container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+
 }

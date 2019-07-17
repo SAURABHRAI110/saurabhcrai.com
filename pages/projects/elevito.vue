@@ -22,6 +22,8 @@
       <img src="~assets/projects/fe/fe1.png" alt>
     </div>-->
 
+    <ScrollDown />
+
     <!-- hero image -->
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
@@ -222,6 +224,13 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
       </span>
     </div>-->
 
+    <div class="live-link_container">
+      <LiveLink
+        link="https://stackoverflow.com/questions/4515124/see-hover-state-in-chrome-developer-tools"
+        text="Launch Site"
+      />
+    </div>
+
     <!-- appreciate button -->
 
     <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
@@ -267,6 +276,8 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
+import ScrollDown from '~/components/projects/scroll-down'
+import LiveLink from '~/components/projects/live-link'
 export default {
   layout: 'projects',
   components: {
@@ -279,7 +290,9 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav
+    Allprojectsnav,
+    ScrollDown,
+    LiveLink
   }
 }
 </script>
