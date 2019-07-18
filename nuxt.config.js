@@ -110,10 +110,6 @@ export default {
     {
       src: '~plugins/vue-carousel',
       ssr: false
-    },
-    {
-      src: '~plugins/vue-smooth-scroll',
-      ssr: false
     }
 
 
