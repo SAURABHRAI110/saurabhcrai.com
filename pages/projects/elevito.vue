@@ -118,32 +118,23 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
       </picture>
       </div>-->
 
-      <div class="contain">
-        <div class="slider-container">
-          <carousel
-            :per-page="1"
-            :mouse-drag="true"
-            paginationColor="#aaa"
-            paginationActiveColor="#da2c4d"
-            :adjustable-height="true"
-          >
-            <slide>
-              <img
-                class="slide-img"
-                src="~assets/projects/elevito/elevito-ideation-1.jpg"
-                alt="slider1"
-              />
-            </slide>
-            <slide>
-              <img
-                class="slide-img"
-                src="~assets/projects/elevito/elevito-ideation-2.jpg"
-                alt="slider2"
-              />
-            </slide>
-          </carousel>
+      <agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/elevito/elevito-ideation-1.jpg"
+            alt="slider1"
+          />
         </div>
-      </div>
+
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/elevito/elevito-ideation-2.jpg"
+            alt="slider2"
+          />
+        </div>
+      </agile>
 
       <!-- <img
       class="p-image-100"

@@ -1,3 +1,5 @@
+// Easescroll
+
 $("html").easeScroll({
   frameRate: 60,
   animationTime: 1200,
@@ -10,6 +12,7 @@ $("html").easeScroll({
   keyboardSupport: !0,
   arrowScroll: 50
 });
+
 
 
 // changing bg

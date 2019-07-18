@@ -108,7 +108,7 @@ export default {
       ssr: false
     },
     {
-      src: '~plugins/vue-carousel',
+      src: "~/plugins/vue-agile",
       ssr: false
     }
 
