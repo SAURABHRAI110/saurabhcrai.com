@@ -1990,8 +1990,6 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
 
   background: linear-gradient(#fff 0%, #8fa66d 0%, #5ba44c 100%);
 
-
-
    */
 
 .reveal-block.theme_br::before {
@@ -2021,5 +2019,15 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
   width: 100%;
   height: 50vh;
   position: relative;
+}
 
+
+/* lernings */
+
+.learnings {
+  width: 100%;
+  position: relative;
+  height: 70vh;
+  background-color: #222;
+  color: white;
 }

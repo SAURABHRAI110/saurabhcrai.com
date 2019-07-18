@@ -27,6 +27,12 @@ export default {
 
       },
       {
+        src: '/easescroll.js',
+        body: true,
+        async: true
+
+      },
+      {
         src: '/main.js',
         defer: true,
         body: true,
@@ -104,7 +110,12 @@ export default {
     {
       src: '~plugins/vue-carousel',
       ssr: false
+    },
+    {
+      src: '~plugins/vue-smooth-scroll',
+      ssr: false
     }
+
 
 
 
