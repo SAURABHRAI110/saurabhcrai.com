@@ -7,15 +7,20 @@
     <!-- about hero -->
 
     <div class="a-hero_container">
-      <div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
         <img src="~assets/svg/circle.svg" alt="circle" />
       </div>
-      <div>
-        <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }" />
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
+        <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
       <div class="contain a-h-container">
-        <p class="pm a-h-subheading">who i am</p>
-        <h1>
+        <p
+          class="pm a-h-subheading"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="200"
+        >who i am</p>
+        <h1 data-aos="fade-up" data-aos-duration="900" data-aos-delay="400">
           Nimble,
           <span class="outlined">Passionate</span>
           UX
@@ -23,6 +28,9 @@
         </h1>
         <p
           class="pm a-subheading_2"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="600"
         >and I am always learning. Like past few months I have been learnig how to code. Now I can bring design into a pixel perfect reality.</p>
       </div>
     </div>

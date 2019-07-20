@@ -4,15 +4,16 @@
     <div class="vl2 vl"></div>
     <div class="vl3 vl"></div>-->
     <div class="a-hero_container">
-      <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
         <img src="~assets/svg/circle.svg" alt="circle" />
       </div>
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
         <img class="hero-svg" src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
     </div>
+
     <div class="nametag-container contain">
-      <div class="h-name" data-aos="fade-up" data-aos-duration="1000">
+      <div class="h-name" data-aos="fade-up" data-aos-duration="900">
         <nuxt-link to="/about" style="text-decoration: none;">
           <span>Saurabh Rai</span>
         </nuxt-link>
@@ -20,11 +21,17 @@
       <div
         class="h-j-title"
         data-aos="fade-up"
-        data-aos-duration="1400"
+        data-aos-duration="900"
+        data-aos-delay="200"
       >UI/UX Designer | Photographer | Artist</div>
     </div>
 
-    <div class="contain h-hero-title" data-aos="fade-up" data-aos-duration="2500">
+    <div
+      class="contain h-hero-title"
+      data-aos="fade-up"
+      data-aos-duration="900"
+      data-aos-delay="400"
+    >
       <h1>
         <span>Experience</span>
         <br />
@@ -33,7 +40,7 @@
       </h1>
     </div>
     <div class="contain">
-      <p data-aos="fade-up" data-aos-duration="2500" data-aos-delay="1000">
+      <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
         This website is my personal space where I'm trying to express my
         creativity through
         <span
@@ -50,7 +57,7 @@
           class="bottom-fit"
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
+          data-aos-delay="1000"
           data-aos-anchor-placement="top-bottom"
         >
           <img id="zoom-default" src="~assets/img/home/1.jpg" />
@@ -59,7 +66,7 @@
           class="bottom-fit"
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
+          data-aos-delay="1200"
           data-aos-anchor-placement="top-bottom"
         >
           <img id="zoom-default" src="~assets/img/home/2.jpg" />
@@ -68,7 +75,7 @@
           class="bottom-fit"
           data-aos="fade-up"
           data-aos-duratio="600"
-          data-aos-delay="300"
+          data-aos-delay="1300"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
         >
@@ -78,7 +85,7 @@
           class="bottom-fit"
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="400"
+          data-aos-delay="1400"
           data-aos-anchor-placement="top-bottom"
         >
           <img id="zoom-default" src="~assets/img/home/4.jpg" />
