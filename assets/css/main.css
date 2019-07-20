@@ -362,7 +362,13 @@ p {
 }
 
 
+
+
 /* social  section 10 */
+
+
+
+
 
 .social-section {
   width: 100%;
@@ -910,22 +916,22 @@ view more work*/
 }
 
 
-.a-hero_container>img:nth-child(1) {
+.a-hero_container div:nth-child(1) img {
   width: 70%;
   right: 0%;
   top: 0%;
   position: absolute;
   z-index: -1;
-  opacity: .3;
+  opacity: .4;
 }
 
-.a-hero_container>img:nth-child(2) {
+.a-hero_container div:nth-child(2) img {
   width: 38%;
   right: 9%;
   top: 10%;
   position: absolute;
   z-index: -1;
-  /* opacity: .6; */
+  opacity: .7;
 }
 
 .a-subheading_2 {

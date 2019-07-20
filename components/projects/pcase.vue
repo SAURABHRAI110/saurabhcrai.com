@@ -14,7 +14,7 @@
       class="black90"
       data-aos="fade-up"
       data-aos-duration="1000"
-      data-aos-delay="300"
+      data-aos-delay="100"
       data-aos-once="true"
       v-html="para"
     ></p>

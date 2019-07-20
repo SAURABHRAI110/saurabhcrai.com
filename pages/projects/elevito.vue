@@ -94,11 +94,11 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
         that, to clients and to convince them that we are the people they are looking far.
       </p>
 
-      <img
+      <!-- <img
         class="p-image-100"
         src="~assets/projects/elevito/elevito-mockup-web1.jpg"
         alt="Elevito web mockup"
-      />
+      /> -->
       <!-- Ideation and Reasearch -->
 
       <pcase

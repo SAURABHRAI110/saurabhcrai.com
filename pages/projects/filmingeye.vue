@@ -104,7 +104,12 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     </div>
 
     <!-- photo grid -->
-    <pcase heading="Photography/Imagery" />
+    <pcase
+      heading="Photography/Imagery"
+      para="I worked closely with Filming Eye Team to create and short out photos from photoshoots. Photos that showcases the meticulous
+    detail and design of their work across all photography style to showcase the photos
+    in a way that truly reflects their talents and make wow effect on website visitor."
+    />
     <div class="contain">
       <div class="p-fe_photogrid">
         <img src="~assets/projects/fe/gallery1.jpg" alt />

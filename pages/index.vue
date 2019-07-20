@@ -3,7 +3,14 @@
     <!-- <div class="vl1 vl"></div>
     <div class="vl2 vl"></div>
     <div class="vl3 vl"></div>-->
-
+    <div class="a-hero_container">
+      <div data-aos="fade-left" data-aos-duration="1000" data-aos-delay="400">
+        <img src="~assets/svg/circle.svg" alt="circle" />
+      </div>
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <img class="hero-svg" src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
+      </div>
+    </div>
     <div class="nametag-container contain">
       <div class="h-name" data-aos="fade-up" data-aos-duration="1000">
         <nuxt-link to="/about" style="text-decoration: none;">

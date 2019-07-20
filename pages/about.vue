@@ -7,8 +7,12 @@
     <!-- about hero -->
 
     <div class="a-hero_container">
-      <img src="~assets/svg/circle.svg" alt="circle" />
-      <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }" />
+      <div>
+        <img src="~assets/svg/circle.svg" alt="circle" />
+      </div>
+      <div>
+        <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -6, center: 0.5 }" />
+      </div>
       <div class="contain a-h-container">
         <p class="pm a-h-subheading">who i am</p>
         <h1>
