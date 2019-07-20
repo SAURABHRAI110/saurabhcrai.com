@@ -1001,6 +1001,16 @@ body {
 }
 
 /* colours */
+
+/* on paage about */
+.color-capability {
+  background-color: rgb(255, 248, 217);
+}
+
+.color-white {
+  background-color: rgb(255, 255, 255);
+}
+
 .color-violet {
   background-color: rgb(245, 248, 59);
 }

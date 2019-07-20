@@ -11,7 +11,7 @@
         <img src="~assets/svg/circle.svg" alt="circle" />
       </div>
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
-        <img src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
+        <img src="~assets/svg/a.svg" alt="A" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
       <div class="contain a-h-container">
         <p
@@ -126,79 +126,80 @@
       </div>
     </div>
 
-    <div class="a-capabilities-section contain">
-      <div class="a-block-left">
-        <div class="reveal-holder" data-aos="reveal-item">
-          <div class="reveal-block red right" data-aos="reveal-right"></div>
-          <p class="para primary-color">Capabilities</p>
-        </div>
-      </div>
-      <div class="a-block-right">
-        <div>
-          <p class="para c-text">User Experience Design</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic.png" />
-        </div>
-        <div>
-          <p class="para c-text">Interactive Experiences</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
-        </div>
-        <div>
-          <p class="para c-text">Brand Identity</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
-        </div>
-        <div>
-          <p class="para c-text">Digital Product Design</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
-        </div>
-        <div>
-          <p class="para c-text">Interactive Prototyping</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
-        </div>
-        <div>
-          <p class="para c-text">Front End Development</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
-        </div>
-        <div>
-          <p class="para c-text">User Experience</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-7.png" />
-        </div>
-        <div>
-          <p class="para c-text">Motion Graphics</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
-        </div>
-        <div>
-          <p class="para c-text">Photography</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
-        </div>
-        <div>
-          <p class="para c-text">Print Design</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
-        </div>
-        <div>
-          <p class="para c-text">Digital, Social Compain\gns</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
-        </div>
-        <div>
-          <p class="para c-text">Coffee Drinking</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
-        </div>
-        <div>
-          <p class="para c-text">2D & 3D Illustration</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
-        </div>
-        <div>
-          <p class="para c-text">& everything in between</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
-        </div>
-      </div>
+    <div class="a-c-section contain panel" data-color="capability">
+      <span class="a-c-bg-text outlined" v-rellax="{ speed: -1.2, center: 0.4 }">Capabilities</span>
 
-      <div
-        class="c-outline-bg-text outlined rellax"
-        data-rellax-speed="-3.5"
-        data-rellax-percentage="0.2"
-      >Capabilities</div>
+      <div class="a-c-grid">
+        <div>
+          <div class="reveal-holder" data-aos="reveal-item">
+            <div class="reveal-block red right" data-aos="reveal-right"></div>
+            <p class="c-text primary-color">Capabilities</p>
+          </div>
+        </div>
+        <div>
+          <span>
+            <p class="para c-text">User Experience Design</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic.png" />
+          </span>
+          <span>
+            <p class="para c-text">Interactive Experiences</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
+          </span>
+          <span>
+            <p class="para c-text">Brand Identity</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
+          </span>
+          <span>
+            <p class="para c-text">Digital Product Design</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
+          </span>
+          <span>
+            <p class="para c-text">Interactive Prototyping</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
+          </span>
+          <span>
+            <p class="para c-text">Front End Development</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
+          </span>
+          <span>
+            <p class="para c-text">User Experience</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-7.png" />
+          </span>
+        </div>
+        <div>
+          <div>
+            <p class="para c-text">Motion Graphics</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
+          </div>
+          <div>
+            <p class="para c-text">Photography</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
+          </div>
+          <div>
+            <p class="para c-text">Print Design</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
+          </div>
+          <div>
+            <p class="para c-text">Digital, Social Compains</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
+          </div>
+          <div>
+            <p class="para c-text">Coffee Drinking</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
+          </div>
+          <div>
+            <p class="para c-text">2D & 3D Illustration</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
+          </div>
+          <div>
+            <p class="para c-text">& everything in between</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="a-tools-section contain">
+
+    <div class="a-t-section contain">
       <div class="a-block-left">
         <div class="reveal-holder" data-aos="reveal-item">
           <div class="reveal-block red right" data-aos="reveal-right"></div>
@@ -594,37 +595,42 @@ export default {}
   margin-bottom: 4%;
 }
 
-.a-capabilities-section {
-  width: 100%;
+.a-c-section {
   height: auto;
-  display: flex;
+  min-height: 100vh;
   position: relative;
 }
 
-.a-block-left {
-  width: 34.5%;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  z-index: 2;
+.a-c-bg-text {
+  text-align: center;
+  font-size: 150px;
+  position: absolute;
+  opacity: 0.2;
+  padding-top: 100px;
 }
 
-.a-block-right {
-  margin-top: 4%;
-  margin-right: 17%;
-  margin-bottom: 3%;
-  width: 31.5%;
-  z-index: 2;
-  overflow: HIDDEN;
+.a-c-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 100px;
 }
 
 .c-text {
   position: relative;
-  line-height: 20px;
-
+  line-height: 30px;
+  font-size: 20px;
   transition: all 0.2s ease-in-out;
 }
 
-.c-text::before {
+/* tools section */
+
+.a-t-section {
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* .c-text::before {
   content: '';
   height: 1.5px;
   background-color: #242424;
@@ -645,7 +651,7 @@ export default {}
   background-color: black;
   transition: width 0.3s;
   overflow: hidden;
-}
+} */
 
 /* .c-text::after {
   right: -100%;
@@ -653,7 +659,7 @@ export default {}
   -webkit-transition: right 0.2s ease-in-out;
   transition: right 0.2s ease-in-out;
 } */
-.c-text:hover::before {
+/* .c-text:hover::before {
   width: 20px;
 }
 
@@ -665,7 +671,7 @@ export default {}
 .c-text:hover {
   padding-left: 20px;
   cursor: pointer;
-}
+} */
 
 .c-pic {
   position: absolute;
@@ -681,24 +687,8 @@ export default {}
   opacity: 1;
 }
 
-.c-outline-bg-text {
-  width: 100%;
-  text-align: center;
-
-  font-size: 200px;
-  position: absolute;
-  opacity: 0.2;
-}
-
 .c-text2:hover + .c-outline-bg-text {
   opacity: 1;
-}
-
-.a-tools-section {
-  width: 100%;
-  /* height: auto; */
-  display: flex;
-  position: relative;
 }
 
 .a-projects-section {
