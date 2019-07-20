@@ -199,141 +199,158 @@
       </div>
     </div>
 
-    <div class="a-t-section contain">
-      <div class="a-block-left">
-        <div class="reveal-holder" data-aos="reveal-item">
-          <div class="reveal-block red right" data-aos="reveal-right"></div>
-          <p class="para primary-color">Tools</p>
+    <div class="a-t-section contain panel" data-color="tools">
+      <span class="a-c-bg-text outlined">Tools</span>
+      <div class="a-t-grid">
+        <div>
+          <div class="reveal-holder" data-aos="reveal-item">
+            <div class="reveal-block red right" data-aos="reveal-right"></div>
+            <p class="c-text primary-color">Tools</p>
+          </div>
+        </div>
+
+        <div>
+          <p class="para c-text">Adobe XD</p>
+          <p class="para c-text">After Effects</p>
+          <p class="para c-text">Premiere Pro</p>
+          <p class="para c-text">InVision Studio</p>
+          <p class="para c-text">Just In Mind</p>
+          <p class="para c-text">Photoshop</p>
+          <p class="para c-text">Axure RP</p>
+        </div>
+        <div>
+          <p class="para c-text">Adobe XD</p>
+          <p class="para c-text">After Effects</p>
+          <p class="para c-text">Premiere Pro</p>
+          <p class="para c-text">InVision Studio</p>
+          <p class="para c-text">Just In Mind</p>
+          <p class="para c-text">Illustrator</p>
+          <p class="para c-text">Cinema 4D</p>
         </div>
       </div>
-      <div class="a-block-right">
-        <p class="para c-text">Adobe XD</p>
-        <p class="para c-text">After Effects</p>
-        <p class="para c-text">Premiere Pro</p>
-        <p class="para c-text">InVision Studio</p>
-        <p class="para c-text">Just In Mind</p>
-        <p class="para c-text">Photoshop</p>
-        <p class="para c-text">Axure RP</p>
-        <p class="para c-text">Illustrator</p>
-        <p class="para c-text">Cinema 4D</p>
-        <p class="para c-text">Indesign</p>
-      </div>
-      <span
-        class="c-outline-bg-text outlined rellax"
-        data-rellax-speed="-3.5"
-        data-rellax-percentage="0.2"
-      >Tools</span>
     </div>
-    <div class="a-projects-section contain">
-      <div class="a-block-left">
-        <div class="reveal-holder" data-aos="reveal-item">
-          <div class="reveal-block red right" data-aos="reveal-right"></div>
-          <p class="para primary-color">Few Projects</p>
+    <div class="a-p-section contain">
+      <span class="a-c-bg-text outlined">Projects</span>
+      <div class="a-p-grid">
+        <div>
+          <div class="reveal-holder" data-aos="reveal-item">
+            <div class="reveal-block red right" data-aos="reveal-right"></div>
+            <p class="c-text primary-color">Projects</p>
+          </div>
+        </div>
+
+        <div>
+          <div>
+            <p class="para c-text c-text-1">News App</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic.png" />
+          </div>
+          <div>
+            <p class="para c-text">Memantic</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
+          </div>
+          <div>
+            <p class="para c-text">Dreamz</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
+          </div>
+          <div>
+            <p class="para c-text">BharatRohan</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
+          </div>
+          <div>
+            <p class="para c-text">PrepOwl</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
+          </div>
+          <div>
+            <p class="para c-text">Online Doctor</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
+          </div>
+          <div>
+            <p class="para c-text">Feeding Trends</p>
+            <img class="c-pic" src="images/about/c-pic-7.png" />
+          </div>
+          <div>
+            <p class="para c-text">Photography</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
+          </div>
+          <div>
+            <p class="para c-text">The BBD Times</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
+          </div>
+          <div>
+            <p class="para c-text">Happy Miles</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
+          </div>
+          <div>
+            <p class="para c-text">Dear Zindagi</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
+          </div>
+        </div>
+        <div>
+          <div>
+            <p class="para c-text">Filming Eye</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
+          </div>
+          <div>
+            <p class="para c-text">Elevito</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+          </div>
+          <div>
+            <p class="para c-text">Awesome Inc</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-14.png" />
+          </div>
+          <div>
+            <p class="para c-text">Mr. Irritating</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-15.png" />
+          </div>
+          <div>
+            <p class="para c-text">Read Recite Repeat</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-16.png" />
+          </div>
+          <div>
+            <p class="para c-text">TBT App</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-17.png" />
+          </div>
+          <div>
+            <p class="para c-text">Hindigiri</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
+          </div>
+          <div>
+            <p class="para c-text">Projects Academia</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+          </div>
+          <div>
+            <p class="para c-text">Play with Arts</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+          </div>
+          <div>
+            <p class="para c-text">IALSE</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+          </div>
+          <div>
+            <p class="para c-text">and counting</p>
+            <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
+          </div>
         </div>
       </div>
-      <div class="a-block-right">
-        <div>
-          <p class="para c-text c-text-1">News App</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic.png" />
-        </div>
-        <div>
-          <p class="para c-text">Memantic</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-2.png" />
-        </div>
-        <div>
-          <p class="para c-text">Dreamz</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-3.png" />
-        </div>
-        <div>
-          <p class="para c-text">BharatRohan</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-4.png" />
-        </div>
-        <div>
-          <p class="para c-text">PrepOwl</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-5.png" />
-        </div>
-        <div>
-          <p class="para c-text">Online Doctor</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-6.png" />
-        </div>
-        <div>
-          <p class="para c-text">Feeding Trends</p>
-          <img class="c-pic" src="images/about/c-pic-7.png" />
-        </div>
-        <div>
-          <p class="para c-text">Photography</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-8.png" />
-        </div>
-        <div>
-          <p class="para c-text">The BBD Times</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-9.png" />
-        </div>
-        <div>
-          <p class="para c-text">Happy Miles</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-10.png" />
-        </div>
-        <div>
-          <p class="para c-text">Dear Zindagi</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-11.png" />
-        </div>
-        <div>
-          <p class="para c-text">Filming Eye</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
-        </div>
-        <div>
-          <p class="para c-text">Elevito</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
-        </div>
-        <div>
-          <p class="para c-text">Awesome Inc</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-14.png" />
-        </div>
-        <div>
-          <p class="para c-text">Mr. Irritating</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-15.png" />
-        </div>
-        <div>
-          <p class="para c-text">Read Recite Repeat</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-16.png" />
-        </div>
-        <div>
-          <p class="para c-text">TBT App</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-17.png" />
-        </div>
-        <div>
-          <p class="para c-text">Hindigiri</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-12.png" />
-        </div>
-        <div>
-          <p class="para c-text">Projects Academia</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
-        </div>
-        <div>
-          <p class="para c-text">Play with Arts</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
-        </div>
-        <div>
-          <p class="para c-text">IALSE</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
-        </div>
-        <div>
-          <p class="para c-text">and counting</p>
-          <img class="c-pic" src="~/assets/img/about/c-pic-13.png" />
-        </div>
-      </div>
-      <span
-        class="para c-outline-bg-text outlined rellax"
-        data-rellax-speed="-3.5"
-        data-rellax-percentage="0.2"
-      >Projects</span>
     </div>
 
     <!-- Be Crazy -->
 
-    <div class="be-crazy panel" data-color="violet">
-      <span class="center-h-v">
-        `
-        <h1>Be Crazy</h1>
+    <div class="be-crazy">
+      <div class="me-crazy">
+        <img class="me-crazy-1" src="~assets/img/about/me-face1.png" alt="  Crazzy Myself" />
+        <img class="me-crazy-2" src="~assets/img/about/me-face-2.png" alt="  Crazzy Myself" />
+      </div>
+      <div class="be-crazy-grid">
+        <div></div>
+        <div></div>
+      </div>
+
+      <span class="be-crazy-text">
+        <h1>
+          Be
+          <br />Crazy
+        </h1>
         <p>
           Be crazy, be stupid, be silly, be weird. Be whatever,
           <br />because life is too short to be anything but happy.
@@ -611,14 +628,15 @@ export default {}
 
 .a-c-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 0.9fr 1fr 1fr;
   padding-top: 100px;
 }
 
 .c-text {
   position: relative;
   line-height: 30px;
-  font-size: 20px;
+  font-size: 26px;
+  color: var(--primary-color);
   transition: all 0.2s ease-in-out;
 }
 
@@ -628,6 +646,24 @@ export default {}
   height: auto;
   min-height: 100vh;
   position: relative;
+}
+
+.a-t-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr 1fr;
+  padding-top: 100px;
+}
+
+.a-p-section {
+  height: auto;
+  min-height: 100vh;
+  position: relative;
+}
+
+.a-p-grid {
+  display: grid;
+  grid-template-columns: 0.9fr 1fr 1fr;
+  padding-top: 100px;
 }
 
 /* .c-text::before {
@@ -689,12 +725,5 @@ export default {}
 
 .c-text2:hover + .c-outline-bg-text {
   opacity: 1;
-}
-
-.a-projects-section {
-  width: 100%;
-  /* height: auto; */
-  display: flex;
-  position: relative;
 }
 </style>

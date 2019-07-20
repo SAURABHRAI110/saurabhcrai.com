@@ -3,10 +3,10 @@
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/bharatrohan">
-        <next/>
+        <next />
       </nuxt-link>
       <nuxt-link to="/projects/feeding-trends">
-        <previous/>
+        <previous />
       </nuxt-link>
     </div>
     <projecthero
@@ -27,7 +27,7 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_tbt" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/tbt/tbt-hero.jpeg" alt>
+        <img src="~assets/projects/tbt/tbt-hero.jpeg" alt />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -47,7 +47,8 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" BBD Times is my proudest work so far and It will be forever. It is one that got me where i am today."
+      para=" BBD Times is my proudest work so far and It will be forever. It is one that got me where I am today. BBD Times story will make an awesome case study where I learn everything
+      that"
       theme="theme_tbt"
     />
 
@@ -62,7 +63,7 @@
       theme="theme_tbt"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
+    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
 
     <!-- Reasearch -->
     <pcase
@@ -74,21 +75,21 @@
     />
 
     <!-- photo grid -->
-    <pcase heading="Photography/Imagery"/>
+    <pcase heading="Photography/Imagery" />
     <div class="contain">
       <div class="p-fe_photogrid">
-        <img src="~assets/projects/fe/gallery1.jpg" alt>
-        <img src="~assets/projects/fe/gallery-2.jpg" alt>
-        <img src="~assets/projects/fe/gallery-3.jpg" alt>
-        <img src="~assets/projects/fe/gallery-4.jpg" alt>
-        <img src="~assets/projects/fe/gallery-5.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
-        <img src="~assets/projects/fe/gallery-7.jpg" alt>
-        <img src="~assets/projects/fe/gallery-8.jpg" alt>
-        <img src="~assets/projects/fe/gallery-9.jpg" alt>
-        <img src="~assets/projects/fe/gallery-10.jpg" alt>
-        <img src="~assets/projects/fe/gallery11.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
+        <img src="~assets/projects/fe/gallery1.jpg" alt />
+        <img src="~assets/projects/fe/gallery-2.jpg" alt />
+        <img src="~assets/projects/fe/gallery-3.jpg" alt />
+        <img src="~assets/projects/fe/gallery-4.jpg" alt />
+        <img src="~assets/projects/fe/gallery-5.jpg" alt />
+        <img src="~assets/projects/fe/gallery-6.jpg" alt />
+        <img src="~assets/projects/fe/gallery-7.jpg" alt />
+        <img src="~assets/projects/fe/gallery-8.jpg" alt />
+        <img src="~assets/projects/fe/gallery-9.jpg" alt />
+        <img src="~assets/projects/fe/gallery-10.jpg" alt />
+        <img src="~assets/projects/fe/gallery11.jpg" alt />
+        <img src="~assets/projects/fe/gallery-6.jpg" alt />
       </div>
     </div>
 
@@ -106,19 +107,19 @@
     <div class="contain">
       <div class="p-fe_branding-grid">
         <div>
-          <img src="~assets/projects/fe/branding1.jpg">
+          <img src="~assets/projects/fe/branding1.jpg" />
         </div>
         <div>
-          <img src="~assets/projects/fe/branding2.jpg">
+          <img src="~assets/projects/fe/branding2.jpg" />
         </div>
         <div class="big">
-          <img src="~assets/projects/fe/branding3.jpg">
+          <img src="~assets/projects/fe/branding3.jpg" />
         </div>
         <div class="big">
-          <img src="~assets/projects/fe/branding5.png">
+          <img src="~assets/projects/fe/branding5.png" />
         </div>
         <div class="big">
-          <img src="~assets/projects/fe/branding6.png">
+          <img src="~assets/projects/fe/branding6.png" />
         </div>
       </div>
     </div>
@@ -146,10 +147,10 @@
       theme="theme_tbt"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
+    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg" />
 
     <!-- Final Design -->
-    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg">
+    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg" />
 
     <div class="p-fe_final-design">
       <pcase
@@ -166,10 +167,10 @@
     </div>
     <!-- appreciate button -->
 
-    <Appreciate/>
+    <Appreciate />
 
     <div class="project-footer">
-      <projectfooter/>
+      <projectfooter />
     </div>
   </div>
 </template>

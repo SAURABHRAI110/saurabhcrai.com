@@ -978,6 +978,55 @@ be crazy */
 
 }
 
+.be-crazy-grid {
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  position: absolute;
+}
+
+.be-crazy-grid>div:nth-child(1) {
+  background-color: #ddc151;
+}
+
+
+.be-crazy-text {
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+
+}
+
+.me-crazy>img {
+  position: absolute;
+  bottom: 0%;
+  height: 45%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 2;
+
+}
+
+
+
+.me-crazy img:last-child {
+  display: none;
+}
+
+.me-crazy:hover img:last-child {
+  display: block;
+}
+
+.me-crazy:hover img:first-child {
+  display: none;
+}
+
+
+
+
+
 .be-crazy h1 {
   font-size: 120px;
   margin: 0;
@@ -986,7 +1035,8 @@ be crazy */
 
 .be-crazy p {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 16px;
+
 }
 
 body {
@@ -1005,6 +1055,10 @@ body {
 /* on paage about */
 .color-capability {
   background-color: rgb(255, 248, 217);
+}
+
+.color-tools {
+  background-color: rgb(255, 233, 194);
 }
 
 .color-white {
