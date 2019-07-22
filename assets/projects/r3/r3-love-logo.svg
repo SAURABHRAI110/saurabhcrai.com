@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="423.768" height="185.018" viewBox="0 0 423.768 185.018">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9805c"/>
+      <stop offset="1" stop-color="#d83b73"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_51" data-name="Group 51" transform="translate(-1225.648 -5753.205)">
+    <g id="Group_38" data-name="Group 38" transform="translate(477.086 1465.693)">
+      <path id="Path_40" data-name="Path 40" d="M103.9,0h55.006L126.82-47.148c18.335-9.386,28.813-25.975,28.813-48.021,0-35.361-27.067-57.625-69.631-57.625H12.442V0H63.956V-38.417h13.97Zm-.218-95.169c0,11.132-6.767,17.9-20.955,17.9H63.956v-35.8H82.727C96.916-113.068,103.682-106.3,103.682-95.169Z" transform="translate(1013.423 4440.307)" fill="#e9805c"/>
+      <g id="Group_37" data-name="Group 37">
+        <text id="Read" transform="translate(1023.633 4468.529)" fill="#fff" font-size="15.12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Read</tspan></text>
+        <text id="Recite" transform="translate(1069.471 4468.529)" fill="#fff" font-size="15.12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Recite</tspan></text>
+        <text id="Repeat" transform="translate(1118.128 4468.529)" fill="#fff" font-size="15.12" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">Repeat</tspan></text>
+        <circle id="Ellipse_7" data-name="Ellipse 7" cx="0.757" cy="0.757" r="0.757" transform="translate(1063.978 4462.71)" fill="#fff"/>
+        <circle id="Ellipse_8" data-name="Ellipse 8" cx="0.757" cy="0.757" r="0.757" transform="translate(1115.219 4462.71)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_40" data-name="Group 40" transform="translate(477.086 1465.693)">
+      <g id="Group_39" data-name="Group 39">
+        <path id="Path_24" data-name="Path 24" d="M990.779,4347.135c-1.859-12.2-14.512-21.058-26.652-18.6a23.671,23.671,0,0,0-14.615,9.211c-.44-.512-.762-.878-1.084-1.259a22.972,22.972,0,0,0-38.764,5.609c-2.768,6.385-1.977,12.741-.044,19.1,2.5,8.245,7.147,15.259,12.785,21.644,7.1,8.04,15.23,14.791,25.1,19.272a4.177,4.177,0,0,0,3.881-.014c16.05-7.791,28.161-19.594,35.952-35.645C990.252,4360.432,991.834,4354,990.779,4347.135Z" fill="url(#linear-gradient)"/>
+        <path id="Path_25" data-name="Path 25" d="M949.515,4337.754a23.655,23.655,0,0,1,14.615-9.221c12.14-2.452,24.792,6.4,26.654,18.608,1.047,6.862-.535,13.29-3.453,19.309-7.781,16.048-19.9,27.855-35.948,35.645a4.2,4.2,0,0,1-3.883.011c-9.867-4.474-17.989-11.227-25.094-19.265-5.64-6.381-10.28-13.4-12.782-21.646-1.93-6.357-2.731-12.7.037-19.1a22.979,22.979,0,0,1,38.768-5.605C948.746,4336.869,949.073,4337.24,949.515,4337.754Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <path id="Path_41" data-name="Path 41" d="M46.1-32.125,40.347-14.976,34.768-32.125H23.492L17.736-15.152,12.216-32.125H-.352L10.806,0H23.727l5.051-14.859L33.652,0H46.573L57.731-32.125Zm20.849-2.584c4.875,0,7.987-2.936,7.987-6.989,0-3.817-3.113-6.519-7.987-6.519s-7.987,2.936-7.987,6.754S62.077-34.709,66.952-34.709ZM60.316,0H73.588V-32.125H60.316ZM99.958-10.336a5.414,5.414,0,0,1-3,.881c-1.586,0-2.76-1.116-2.76-3.113v-8.1h6.578v-9.69H94.2v-8.986H80.93v8.986h-4.4v9.69h4.4v8.222C80.93-3.583,86.1.587,94.966.587a17.145,17.145,0,0,0,8.163-1.7Zm28.836-22.376a13.6,13.6,0,0,0-9.044,3.171V-43.578H106.477V0H119.75V-15.094c0-4.757,2.29-6.46,4.992-6.46,2.408,0,3.935,1.527,3.935,5.521V0H141.95V-18.324C141.95-28.425,136.194-32.713,128.795-32.713Z" transform="translate(1226 5851.298)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

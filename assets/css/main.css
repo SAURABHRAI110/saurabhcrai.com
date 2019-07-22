@@ -987,7 +987,7 @@ be crazy */
 }
 
 .be-crazy-grid>div:nth-child(1) {
-  background-color: #ddc151;
+  background-color: var(--primary-color);
 }
 
 
@@ -2159,7 +2159,6 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
   padding: 0;
   transition-duration: 0.3s;
   width: 10px;
-
 }
 
 .agile__dot--current button,

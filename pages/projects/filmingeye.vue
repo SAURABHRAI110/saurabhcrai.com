@@ -199,6 +199,30 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         theme="theme_fe"
       />
     </div>
+
+    <!-- Technology -->
+
+    <pcase
+      heading=" Technology"
+      para=" There was this one evening, When shekhar send me test link for the website.
+        When I visited the website i could'nt believe myself. I just felt so proud and amzing. The parallax effect, smooth transition
+        Smooth mouse wheel scroll. and Fade effect. It was just amazing. To see your design into reality is so satisfying. 
+        
+        I was actively  collaborated in the development process, didn't code any line of code.
+        Though I was able to know how and what language and plugins were used to create such a awesome single page website.
+        <br><br>
+        The technologies we used to make this little magic happen-
+        1.CSS3
+        2. HTML 5
+        3. jQuery
+        4. Larawel
+        5. AOS.js
+        6. Parallax.js
+        7. 
+        "
+      theme="theme_fe"
+    />
+
     <!-- appreciate button -->
 
     <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />

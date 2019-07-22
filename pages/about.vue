@@ -1,5 +1,5 @@
 <template>
-  <div class="panel" data-color="white">
+  <div class="panel" data-color="white" id="js-scroll">
     <!-- <div class="vl1 vl"></div>
     <div class="vl2 vl"></div>
     <div class="vl3 vl"></div>-->
@@ -33,6 +33,11 @@
           data-aos-delay="600"
         >and I am always learning. Like past few months I have been learnig how to code. Now I can bring design into a pixel perfect reality.</p>
       </div>
+    </div>
+
+    <div class="contain">
+      <h1 data-scroll data-scroll-speed="1">Hello</h1>
+      <p data-scroll data-scroll-speed="2">Text</p>
     </div>
 
     <div class="about-section2 contain">
