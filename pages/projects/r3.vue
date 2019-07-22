@@ -152,10 +152,36 @@
 
     <!-- appreciate button -->
 
-    <Appreciate />
+    <Appreciate heading="Loved  Dear Zindagi" subHeading="DAMN
+YOU REALLY
+LIKE TO
+SCROLL" />
+
+    <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
-      <projectfooter />
+      <div class="projects-footer-container">
+        <allprojectsnav />
+        <div class="p-f-p-container">
+          <nuxt-link to="/projects/filmingeye">
+            <pfooterp
+              projectName="Filming Eye"
+              projectCategories="Web, Identity"
+              thumbnail="/showcase1.jpg"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/projects/mr-irritating">
+            <pfootern
+              projectName="Mr. Irritating"
+              projectCategories="Print, Social Media"
+              thumbnail="/showcase3.jpg"
+            />
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -168,6 +194,9 @@ import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
 import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 export default {
   layout: 'projects',
   components: {
@@ -177,7 +206,10 @@ export default {
     Pcase,
     Projecthero,
     Next,
-    Previous
+    Previous,
+    Pfooterp,
+    Pfootern,
+    Allprojectsnav
   }
 }
 </script>
