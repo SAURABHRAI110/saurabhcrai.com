@@ -18,8 +18,8 @@
       pSubheading="to thousands of people Campaign Design."
     />
     <div class="p-dz-hero_image">
-      <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_r3" data-aos="reveal-right"></div>f
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right theme_r3" data-aos="reveal-right" data-aos-once="true"></div>
         <img src="~assets/projects/r3/r36.jpg" alt="R3" align />
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
@@ -43,20 +43,27 @@
       In three beautiful linguistics - English, Hindi & Urdu, with Love R3."
       theme="theme_r3"
     />
+    <div class="p-quote contain red">
+      <blockquote>
+        Human mind percieves about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
+        expressions that will connect with everyone, rhythms that will resonate with every heart.
+      </blockquote>
+    </div>
 
+    <p class="contain just-para black90">
+      The purpose of doing all this was to have a presence on Instagram and facebook. A thought provoking page or account presented in a beautiful
+      way. A consistent design and voice tone.
+    </p>
     <!-- Problem -->
     <pcase
       heading="Logo"
-      para="  1. The first thing that I came around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      para=" Just an R having a gradient background. Cool! Well to make it more consistent and so that people remmeber it
+    we tried diiferent gradient in post background. Gradient was becoming popular and now a days its very popular."
       theme="theme_r3"
     />
 
-    <div class="reveal-holder" data-aos="fade-up">
-      <div class="reveal-block theme_r3 right" data-aos="reveal-right"></div>
+    <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+      <div class="reveal-block theme_r3 right" data-aos="reveal-right" data-aos-once="true"></div>
       <img class="p-image-100" src="~assets/projects/r3/r3-logo-with-bg.svg" alt="R3 logo" />
       <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
     </div>
@@ -75,20 +82,13 @@
     </div>
     <!-- design system image -->
     <div class="p-image-100-duo">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-design-system.jpg" />
-      </picture>
-    </div>
-
-    <!--  -->
-
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/R34.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/r3/r3-design-system.jpg" />
+        </picture>
+      </div>
     </div>
 
     <!-- Social media Instgram and facebook -->
@@ -96,66 +96,122 @@
     <pcase
       heading="Social Media: Insta and FB"
       para=" Setting up everything We have done so far applying everything
-      on fb and insta dp and facebook cover"
+      on fb and insta dp and facebook cover.  I designed all the instial design system. While Fahad did all the post design later on
+      following the design sytem daily on regular without missing a day. He manage the account and design and shares them
+      on Instagram. This made me think. As a designer your design are limited unless and untill it reaches to people who need
+      them through continuity in branding and marketing."
       theme="theme_r3"
     />
 
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-logo-bg.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
+    <div class="p-quote contain red">
+      <blockquote>
+        Human mind percieves about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
+        expressions that will connect with everyone, rhythms that will resonate with every heart.
+      </blockquote>
+    </div>
+    <!-- r3 fb cover-->
+
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+            <img src="~assets/projects/r3/R34.jpg" />
+            <p class="ps">R3: facebook cover</p>
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+            <img src="~assets/projects/r3/R36.jpg" />
+            <p class="ps">R3: facebook cover</p>
+          </picture>
+        </div>
+      </div>
     </div>
 
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-insta-mobile-single.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
-    </div>
-
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-insta-mobile-multi.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
-    </div>
-
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-insta-mockup.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+            <img src="~assets/projects/r3/r3-logo-bg.jpg" />
+            <p class="ps">R3: facebook cover</p>
+          </picture>
+        </div>
+      </div>
     </div>
 
     <div class="p-image-100-duo">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-insta-post.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/r3/r3-insta-mobile-single.jpg" />
+          <p class="ps">R3: facebook cover</p>
+        </picture>
+      </div>
     </div>
 
     <div class="p-image-100-duo">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-        <img src="~assets/projects/r3/r3-sharing-thoughts.jpg" />
-        <p class="ps">R3: facebook cover</p>
-      </picture>
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/r3/r3-insta-mobile-multi.jpg" />
+          <p class="ps">R3: facebook cover</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/r3/r3-insta-mockup.jpg" />
+          <p class="ps">R3: facebook cover</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/r3/r3-insta-post.jpg" />
+          <p class="ps">R3: facebook cover</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/r3/r3-sharing-thoughts.jpg" />
+          <p class="ps">R3: facebook cover</p>
+        </picture>
+      </div>
     </div>
 
     <!-- Branding -->
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Loved  Dear Zindagi" subHeading="DAMN
-YOU REALLY
-LIKE TO
-SCROLL" />
+    <Appreciate
+      heading="Share Your thoughts "
+      subHeading="Damn you really like to scroll. Click Me."
+    />
 
     <!-- Project Footer Navigatrion -->
 
