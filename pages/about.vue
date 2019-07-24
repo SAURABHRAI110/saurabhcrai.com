@@ -246,7 +246,7 @@
 
         <div>
           <div>
-            <p class="para c-text c-text-1">News App</p>
+            <p class="para c-text c-text-1">News App Baby</p>
             <img class="c-pic" src="~/assets/img/about/c-pic.png" />
           </div>
           <div>
