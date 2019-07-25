@@ -980,6 +980,7 @@ be crazy */
   position: relative;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 
 }
 
@@ -989,11 +990,12 @@ be crazy */
   grid-template-columns: 1fr 1fr;
   display: grid;
   position: absolute;
+  background-color: #ffffff;
 }
 
-.be-crazy-grid>div:nth-child(1) {
+/* .be-crazy-grid>div:nth-child(1) {
   background-color: var(--primary-color);
-}
+} */
 
 
 .be-crazy-text {
@@ -1001,6 +1003,7 @@ be crazy */
   left: 50%;
   top: 35%;
   transform: translate(-50%, -50%);
+  z-index: 2;
 
 }
 
@@ -1029,7 +1032,16 @@ be crazy */
 }
 
 
+.me-crazy-pattern {
+  position: absolute;
+  bottom: 0%;
+  height: 100%;
 
+
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 1;
+}
 
 
 .be-crazy h1 {
@@ -1042,6 +1054,18 @@ be crazy */
   text-align: center;
   padding-top: 16px;
 
+}
+
+
+.a-process {
+  height: 100vh;
+  background-color: #373737;
+  color: white;
+}
+
+
+.a-process {
+  padding: 100px;
 }
 
 body {
@@ -1067,7 +1091,11 @@ body {
 }
 
 .color-projects {
-  background-color: rgb(253, 237, 167);
+  background-color: rgb(255, 255, 255);
+}
+
+.color-crazy {
+  background-color: rgb(43, 168, 226);
 }
 
 .color-white {

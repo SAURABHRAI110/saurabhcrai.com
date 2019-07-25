@@ -348,6 +348,7 @@
         <img class="me-crazy-1" src="~assets/img/about/me-face1.png" alt="  Crazzy Myself" />
         <img class="me-crazy-2" src="~assets/img/about/me-face-2.png" alt="  Crazzy Myself" />
       </div>
+      <img class="me-crazy-pattern" src="~assets/svg/crazy-bg.svg" alt="  Crazzy Myself" />
       <div class="be-crazy-grid">
         <div></div>
         <div></div>
@@ -366,18 +367,19 @@
     </div>
 
     <!-- My core standards -->
-    <div class="contain">
-      <h1>A look into my why</h1>
-      <p>Make it Better</p>
-      <p>Quality Over Quantity</p>
-      <p>Keep it Real</p>
-      <p>Work to Live</p>
-      <p>People Over Profits</p>
-      <p>Ask More Questions</p>
-      <p>Keep it Simple</p>
-      <p>Never Stop Learning</p>
+    <div class="a-process">
+      <div class="contain">
+        <p>Make it Better</p>
+        <p>Quality Over Quantity</p>
+        <p>Keep it Real</p>
+        <p>Work to Live</p>
+        <p>People Over Profits</p>
+        <p>Ask More Questions</p>
+        <p>Keep it Simple</p>
+        <p>Never Stop Learning</p>
 
-      <p>I design with purpose. I am obsessive with how and why a design works not on how it looks.</p>
+        <p>I design with purpose. I am obsessive with how and why a design works not on how it looks.</p>
+      </div>
     </div>
   </div>
 </template>
