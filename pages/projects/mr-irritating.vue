@@ -66,6 +66,18 @@ Margins, line leading, choice of fonts get more critical since the aim of the de
       theme="theme_mi"
     />
 
+    <div class="p-quote contain red">
+      <blockquote>
+        Love it or hate it, the fact is
+        people do judge a book by its cover.
+      </blockquote>
+    </div>
+
+    <p class="contain just-para black90">
+      It was important for me to design a cover that narrates the story in just
+      a blink of an eye and
+    </p>
+
     <img class="p-image-100" src="~assets/projects/mr-irritating/sketches.jpg" />
 
     <!-- Problem -->

@@ -971,6 +971,11 @@ view more work*/
 /* about page 
 be crazy */
 
+.a-c-bg-text {
+
+  font-family: circular-bold;
+}
+
 .be-crazy {
   position: relative;
   width: 100%;
@@ -1058,7 +1063,11 @@ body {
 }
 
 .color-tools {
-  background-color: rgb(255, 233, 194);
+  background-color: rgb(169, 235, 252);
+}
+
+.color-projects {
+  background-color: rgb(253, 237, 167);
 }
 
 .color-white {

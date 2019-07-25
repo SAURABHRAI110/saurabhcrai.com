@@ -35,11 +35,6 @@
       </div>
     </div>
 
-    <div class="contain">
-      <h1 data-scroll data-scroll-speed="1">Hello</h1>
-      <p data-scroll data-scroll-speed="2">Text</p>
-    </div>
-
     <div class="about-section2 contain">
       <div class="me-images">
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
@@ -59,8 +54,8 @@
 
     <div class="about-section3">
       <div class="about-me-text contain">
-        <div class="reveal-holder" data-aos="reveal-item">
-          <div class="reveal-block red right" data-aos="reveal-right"></div>
+        <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
+          <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
           <h2 class="info-block-heading primary-color">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
@@ -132,12 +127,19 @@
     </div>
 
     <div class="a-c-section contain panel" data-color="capability">
-      <span class="a-c-bg-text outlined" v-rellax="{ speed: -1.2, center: 0.4 }">Capabilities</span>
+      <span class="a-c-bg-text outlined" v-rellax="{ speed: -3, center: 0.4 }">Capabilities</span>
+      <div>
+        <!-- <img
+          class="a-c-section_bg_pic"
+          src="~assets/footer/footer-hand.png"
+          alt="me-hand-expression"
+        />-->
+      </div>
 
       <div class="a-c-grid">
         <div>
-          <div class="reveal-holder" data-aos="reveal-item">
-            <div class="reveal-block red right" data-aos="reveal-right"></div>
+          <div class="reveal-holder" data-aos="reveal-item " data-aos-once="true">
+            <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
             <p class="c-text primary-color">Capabilities</p>
           </div>
         </div>
@@ -205,11 +207,11 @@
     </div>
 
     <div class="a-t-section contain panel" data-color="tools">
-      <span class="a-c-bg-text outlined">Tools</span>
+      <span class="a-c-bg-text outlined" v-rellax="{ speed: -3, center: 0.4 }">Tools</span>
       <div class="a-t-grid">
         <div>
-          <div class="reveal-holder" data-aos="reveal-item">
-            <div class="reveal-block red right" data-aos="reveal-right"></div>
+          <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
+            <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
             <p class="c-text primary-color">Tools</p>
           </div>
         </div>
@@ -234,8 +236,8 @@
         </div>
       </div>
     </div>
-    <div class="a-p-section contain">
-      <span class="a-c-bg-text outlined">Projects</span>
+    <div class="a-p-section contain panel" data-color="projects">
+      <span class="a-c-bg-text outlined" v-rellax="{ speed: -3, center: 0.4 }">Projects</span>
       <div class="a-p-grid">
         <div>
           <div class="reveal-holder" data-aos="reveal-item">
@@ -619,7 +621,7 @@ export default {}
 
 .a-c-section {
   height: auto;
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
 }
 
@@ -627,8 +629,23 @@ export default {}
   text-align: center;
   font-size: 150px;
   position: absolute;
-  opacity: 0.2;
-  padding-top: 100px;
+  opacity: 0.4;
+  width: 100%;
+  top: 30%;
+  transform: translate(-50%);
+
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.a-c-section_bg_pic {
+  position: absolute;
+  opacity: 0.5;
+  top: 30%;
+  transform: translate(-50%);
+  height: 50vh;
+  left: 20%;
+  z-index: -2;
 }
 
 .a-c-grid {
@@ -649,7 +666,7 @@ export default {}
 
 .a-t-section {
   height: auto;
-  min-height: 100vh;
+  min-height: 90vh;
   position: relative;
 }
 
