@@ -1,7 +1,7 @@
 {
   "name": "saurabhcrai.com",
   "version": "1.0.0",
-  "description": "My UX portfolio website.",
+  "description": "User Experience Designer. ",
   "author": "Saurabh Chandra Rai",
   "private": true,
   "scripts": {
@@ -13,7 +13,6 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "@bazzite/nuxt-optimized-images": "^0.2.1",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/google-analytics": "^2.2.0",
     "@nuxtjs/pwa": "^2.6.0",
@@ -28,6 +27,7 @@
     "vue-rellax": "^0.1.0"
   },
   "devDependencies": {
+    "@bazzite/nuxt-optimized-images": "^0.2.1",
     "@nuxtjs/eslint-config": "^0.0.1",
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.1.0",
@@ -41,6 +41,8 @@
     "eslint-plugin-promise": ">=4.0.1",
     "eslint-plugin-standard": ">=4.0.0",
     "eslint-plugin-vue": "^5.2.2",
+    "imagemin-mozjpeg": "^8.0.0",
+    "imagemin-pngquant": "^8.0.0",
     "nodemon": "^1.18.9",
     "prettier": "^1.16.4",
     "vue-particles": "^1.0.9",

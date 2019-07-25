@@ -131,7 +131,23 @@ export default {
     '@bazzite/nuxt-optimized-images'
   ],
   optimizedImages: {
-    optimizeImages: true
+    inlineImageLimit: -1,
+    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
+    optimizeImages: true,
+    optimizeImagesInDev: true,
+    defaultImageLoader: 'img-loader',
+    mozjpeg: {
+      quality: 80
+    },
+    optipng: false,
+    pngquant: {
+      speed: 7,
+      quality: [0.65, 0.8]
+    },
+    webp: {
+      preset: 'default',
+      quality: 85
+    }
   },
   /*
    ** Axios module configuration
@@ -139,6 +155,10 @@ export default {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
+
+
+
+
 
 
   /*

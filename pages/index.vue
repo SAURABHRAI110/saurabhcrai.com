@@ -60,7 +60,7 @@
           data-aos-delay="1000"
           data-aos-anchor-placement="top-bottom"
         >
-          <img id="zoom-default" src="~assets/img/home/1.jpg" />
+          <img id="zoom-default" src="~assets/img/home/1.jpg?webp" type="image/webp" />
         </div>
         <div
           class="bottom-fit"
@@ -69,7 +69,7 @@
           data-aos-delay="1200"
           data-aos-anchor-placement="top-bottom"
         >
-          <img id="zoom-default" src="~assets/img/home/2.jpg" />
+          <img id="zoom-default" src="~assets/img/home/2.jpg?webp" type="image/webp" />
         </div>
         <div
           class="bottom-fit"
@@ -79,7 +79,7 @@
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
         >
-          <img id="zoom-default" src="~assets/img/home/3.jpg" />
+          <img id="zoom-default" src="~assets/img/home/3.jpg?webp" type="image/webp" />
         </div>
         <div
           class="bottom-fit"
@@ -88,31 +88,31 @@
           data-aos-delay="1400"
           data-aos-anchor-placement="top-bottom"
         >
-          <img id="zoom-default" src="~assets/img/home/4.jpg" />
+          <img id="zoom-default" src="~assets/img/home/4.jpg?webp" type="image/webp" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="600">
-          <img id="zoom-default" src="~assets/img/home/5.jpg" />
+          <img id="zoom-default" src="~assets/img/home/5.jpg?webp" type="image/webp" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-          <img id="zoom-default" src="~assets/img/home/6.jpg" />
+          <img id="zoom-default" src="~assets/img/home/6.jpg?webp" type="image/webp" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-          <img id="zoom-default" src="~assets/img/home/7.jpg" />
+          <img id="zoom-default" src="~assets/img/home/7.jpg?webp" type="image/webp" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
-          <img id="zoom-default" src="~assets/img/home/8.jpg" />
+          <img id="zoom-default" src="~assets/img/home/8.jpg?webp" type="image/webp" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="600">
-          <img id="zoom-default" src="~assets/img/home/9.jpg" />
+          <img id="zoom-default" src="~assets/img/home/9.jpg?webp" type="image/webp" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
-          <img id="zoom-default" src="~assets/img/home/10.jpg" />
+          <img id="zoom-default" src="~assets/img/home/10.jpg?webp" type="image/webp" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
-          <img id="zoom-default" src="~assets/img/home/11.jpg" />
+          <img id="zoom-default" src="~assets/img/home/11.jpg?webp" type="image/webp" />
         </div>
         <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
-          <img id="zoom-default" src="~assets/img/home/12.jpg" />
+          <img id="zoom-default" src="~assets/img/home/12.jpg?webp" type="image/webp" />
         </div>
       </div>
     </section>
@@ -127,7 +127,7 @@
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img src="~/assets/img/showreel-bg.jpg" alt="very cool bg" />
+        <img src="~/assets/img/showreel-bg.jpg?webp" type="image/webp" alt="very cool bg" />
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
@@ -220,7 +220,7 @@
             <thumbnail
               thumbnailName="Filming Eye"
               thumbnailDescription="Web, Identity"
-              thumbnail="/showcase1.jpg"
+              thumbnail="/showcase1.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -234,7 +234,7 @@
             <thumbnail
               thumbnailName="Dear Zindagi"
               thumbnailDescription="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              thumbnail="/showcase2.webp"
               data-aos="fade-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -248,7 +248,7 @@
             <thumbnail
               thumbnailName="Mr. Irritating"
               thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.jpg"
+              thumbnail="/showcase3.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -261,7 +261,7 @@
             <thumbnail
               thumbnailName="R3"
               thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4a.jpg"
+              thumbnail="/showcase4a.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -274,7 +274,7 @@
             <thumbnail
               thumbnailName="Awesome Inc."
               thumbnailDescription="Identity, Print"
-              thumbnail="/showcase5b.jpg"
+              thumbnail="/showcase5b.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -287,7 +287,7 @@
             <thumbnail
               thumbnailName="Elevito"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6d.jpg"
+              thumbnail="/showcase6d.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
