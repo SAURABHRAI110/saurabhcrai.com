@@ -301,7 +301,7 @@
     <!-- view more work -->
 
     <div class="more-about-me">
-      <nuxt-link to="/showcase">
+      <nuxt-link to="/projects">
         <discovermore button-text="view more work" />
       </nuxt-link>
     </div>

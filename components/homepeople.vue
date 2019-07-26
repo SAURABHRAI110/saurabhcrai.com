@@ -5,79 +5,79 @@
       <p>who makes it all worth</p>
     </div>
     <div class="c-d">
-      <img src="~assets/svg/c-development.svg" alt>
+      <img src="~assets/svg/c-development.svg" alt />
     </div>
     <div class="h-p-overlay"></div>
     <div class="h-p-wrapper">
       <div class="h-people-grid">
         <div class="h-p-column h-p-column1" v-rellax="{ speed: 9, center: 0.6 }">
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people.jpg">
+            <img src="~assets/img/people/home-people.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-1.jpg">
+            <img src="~assets/img/people/home-people-1.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-2.jpg">
+            <img src="~assets/img/people/home-people-2.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-3.jpg">
+            <img src="~assets/img/people/home-people-3.jpg" />
           </div>
         </div>
         <div class="h-p-column h-p-column2" v-rellax="{ speed: -9, center: 0.9 }">
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-4.jpg">
+            <img src="~assets/img/people/home-people-4.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-5.jpg">
+            <img src="~assets/img/people/home-people-5.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-6.jpg">
+            <img src="~assets/img/people/home-people-6.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-7.jpg">
+            <img src="~assets/img/people/home-people-7.jpg" />
           </div>
         </div>
         <div class="h-p-column h-p-column3" v-rellax="{ speed: 8, center: 0.6 }">
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-8.jpg">
+            <img src="~assets/img/people/home-people-8.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-9.jpg">
+            <img src="~assets/img/people/home-people-9.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-10.jpg">
+            <img src="~assets/img/people/home-people-10.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-11.jpg">
+            <img src="~assets/img/people/home-people-11.jpg" />
           </div>
         </div>
         <div class="h-p-column h-p-column4" v-rellax="{ speed: -8, center: 0.4 }">
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-12.jpg">
+            <img src="~assets/img/people/home-people-12.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-13.jpg">
+            <img src="~assets/img/people/home-people-13.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-14.jpg">
+            <img src="~assets/img/people/home-people-14.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-2.jpg">
+            <img src="~assets/img/people/home-people-2.jpg" />
           </div>
         </div>
         <div class="h-p-column h-p-column5 rellax" v-rellax="{ speed: 9, center: 0.6 }">
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-8.jpg">
+            <img src="~assets/img/people/home-people-8.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-5.jpg">
+            <img src="~assets/img/people/home-people-5.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-11.jpg">
+            <img src="~assets/img/people/home-people-11.jpg" />
           </div>
           <div class="h-p-c-images">
-            <img src="~assets/img/people/home-people-2.jpg">
+            <img src="~assets/img/people/home-people-2.jpg" />
           </div>
         </div>
       </div>
@@ -142,7 +142,7 @@ export default {}
   background-color: rgb(131, 99, 99);
 }
 
-.h-p-c-images > img {
+.h-p-c-images img {
   object-fit: fill;
   width: 100%;
 }

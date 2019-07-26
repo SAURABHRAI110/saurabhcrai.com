@@ -1148,11 +1148,12 @@ body {
 .p-h-container {
   padding-top: 250px;
   padding-bottom: 9%;
+  width: 60%;
 }
 
 
 
-.w-hero_container>img {
+.w-hero_container img {
   width: 70%;
   right: 0%;
   top: 0%;
@@ -1174,7 +1175,7 @@ body {
   margin-left: -30px !important;
   margin-bottom: -40px;
   color: var(--primary-color);
-  letter-spacing: 3px;
+
   text-transform: uppercase;
 
 }
@@ -2128,6 +2129,17 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
 
 .reveal-block.theme_br::before {
   background: #11A78E;
+}
+
+
+/* FT Events
+Akcent Colour
+#00ACFF
+
+*/
+
+.reveal-block.theme_ft-event::before {
+  background: #00ACFF;
 }
 
 .p-image-100-text {}

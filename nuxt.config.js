@@ -134,7 +134,7 @@ export default {
     inlineImageLimit: -1,
     handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     defaultImageLoader: 'img-loader',
     mozjpeg: {
       quality: 80

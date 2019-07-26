@@ -129,7 +129,7 @@
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <picture>
             <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-            <img src="~assets/projects/r3/R36.jpg" />
+            <img src="~assets/projects/r3/r36.jpg" />
             <p class="ps">R3: facebook cover</p>
           </picture>
         </div>

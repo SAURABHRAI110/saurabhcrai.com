@@ -3,13 +3,10 @@
     <!-- Work Thumbnails -->
     <!-- v-rellax="{ speed: 4, center: 0.5  }" -->
     <div class="w-hero_container">
-      <img
-        src="~assets/svg/circle.svg"
-        alt="circle"
-        data-aos="fade-left"
-        data-aos-duration="1000"
-        data-aos-delay="400"
-      />
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <img src="~assets/svg/circle.svg" alt="circle" />
+      </div>
+
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img class="hero-svg" src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
@@ -17,14 +14,20 @@
       <div class="contain p-h-container">
         <p class="pm p-h-subheading" data-aos="fade-up" data-aos-duration="1000">case studies</p>
         <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          Some of My
+          Some of my
           <br />Finest
           <span class="outlined">Work</span>
         </h1>
+        <p
+          class="pm a-subheading_2"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="600"
+        >and I am always learning. Like past few months I have been learnig how to code. Now I can bring design into a pixel perfect reality.</p>
       </div>
     </div>
     <!-- timeline 2019 -->
-    <projecttimeline timeline="2019" />
+    <!-- <projecttimeline timeline="2019" /> -->
 
     <!-- project grid -->
     <div class="showcase-container-home">
@@ -34,9 +37,9 @@
             <thumbnail
               thumbnailName="Filming Eye"
               thumbnailDescription="Web, Identity"
-              thumbnail="/showcase1.jpg"
+              thumbnail="/showcase1.webp"
               data-aos="zoom-out-up"
-              data-aos-duration="1500"
+              data-aos-duration="400"
               data-aos-delay="0"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
@@ -48,24 +51,23 @@
             <thumbnail
               thumbnailName="Dear Zindagi"
               thumbnailDescription="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="800"
+              thumbnail="/showcase2.webp"
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
           </nuxt-link>
         </div>
-
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/filmingeye">
+          <nuxt-link to="/projects/mr-irritating">
             <thumbnail
               thumbnailName="Mr. Irritating"
               thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.jpg"
+              thumbnail="/showcase3.webp"
               data-aos="zoom-out-up"
-              data-aos-duration="1500"
+              data-aos-duration="400"
               data-aos-delay="0"
               data-aos-once="true"
             />
@@ -76,10 +78,10 @@
             <thumbnail
               thumbnailName="R3"
               thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4a.jpg"
+              thumbnail="/showcase4a.webp"
               data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="800"
+              data-aos-duration="400"
+              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -88,10 +90,10 @@
           <nuxt-link to="/projects/awesome-inc">
             <thumbnail
               thumbnailName="Awesome Inc."
-              thumbnailDescription="Branding"
-              thumbnail="/showcase5a.jpg"
+              thumbnailDescription="Identity, Print"
+              thumbnail="/showcase5b.webp"
               data-aos="zoom-out-up"
-              data-aos-duration="1500"
+              data-aos-duration="400"
               data-aos-delay="0"
               data-aos-once="true"
             />
@@ -102,17 +104,17 @@
             <thumbnail
               thumbnailName="Elevito"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6d.jpg"
+              thumbnail="/showcase6d.webp"
               data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="800"
+              data-aos-duration="400"
+              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
         </div>
       </div>
     </div>
-    <projecttimeline timeline="2019" />
+    <!-- <projecttimeline timeline="2019" /> -->
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
@@ -121,7 +123,7 @@
             <thumbnail
               thumbnailName="Feeding Trends"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase7a.jpg"
+              thumbnail="/showcase7a.webp"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="0"
@@ -159,11 +161,11 @@
           </nuxt-link>
         </div>
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/ft-events">
             <thumbnail
-              thumbnailName="R3"
-              thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4.jpg"
+              thumbnailName="FT Events"
+              thumbnailDescription="Web, Admin"
+              thumbnail="/ft-event-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="800"

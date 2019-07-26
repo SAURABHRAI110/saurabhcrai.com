@@ -4,7 +4,7 @@
       <div class="projects-card-wrapper">
         <div class="projects-card"></div>
         <div class="projects-image">
-          <img :src="thumbnail">
+          <img :src="thumbnail" />
         </div>
       </div>
       <div class="projects-content">
