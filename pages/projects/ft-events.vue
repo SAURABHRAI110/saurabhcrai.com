@@ -102,7 +102,7 @@
       <!-- Ideation and Reasearch -->
 
       <pcase
-        class="elevito-research-sec"
+        class="ft-event-research-sec"
         heading="Ideation and Research"
         para=" After wireframing the site and running it past some UX friends and juniors
       for feedback and tweaks, we kicked around some ideas for a theme. Coming up with layout
@@ -122,16 +122,16 @@
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/elevito/elevito-ideation-1.jpg"
-            alt="slider1"
+            src="~assets/projects/ft-event/ft-events-ideation-1.jpg"
+            alt="feeding trends ideation"
           />
         </div>
 
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/elevito/elevito-ideation-2.jpg"
-            alt="slider2"
+            src="~assets/projects/ft-event/ft-events-ideation-2.jpg"
+            alt="feeding trends ideation"
           />
         </div>
       </agile>
