@@ -3,10 +3,10 @@
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/thebbdtimes">
-        <next/>
+        <next />
       </nuxt-link>
       <nuxt-link to="/projects/feeding-trends">
-        <previous/>
+        <previous />
       </nuxt-link>
     </div>
     <projecthero
@@ -27,7 +27,7 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/ft/ft3.jpg" alt>
+        <img src="~assets/projects/ft/ft3.jpg" alt />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -67,7 +67,7 @@
       theme="theme_ft"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg">
+    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
 
     <!-- Reasearch -->
     <pcase
@@ -79,21 +79,21 @@
     />
 
     <!-- photo grid -->
-    <pcase heading="Photography/Imagery"/>
+    <pcase heading="Photography/Imagery" />
     <div class="contain">
       <div class="p-fe_photogrid">
-        <img src="~assets/projects/fe/gallery1.jpg" alt>
-        <img src="~assets/projects/fe/gallery-2.jpg" alt>
-        <img src="~assets/projects/fe/gallery-3.jpg" alt>
-        <img src="~assets/projects/fe/gallery-4.jpg" alt>
-        <img src="~assets/projects/fe/gallery-5.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
-        <img src="~assets/projects/fe/gallery-7.jpg" alt>
-        <img src="~assets/projects/fe/gallery-8.jpg" alt>
-        <img src="~assets/projects/fe/gallery-9.jpg" alt>
-        <img src="~assets/projects/fe/gallery-10.jpg" alt>
-        <img src="~assets/projects/fe/gallery11.jpg" alt>
-        <img src="~assets/projects/fe/gallery-6.jpg" alt>
+        <img src="~assets/projects/fe/gallery1.jpg" alt />
+        <img src="~assets/projects/fe/gallery-2.jpg" alt />
+        <img src="~assets/projects/fe/gallery-3.jpg" alt />
+        <img src="~assets/projects/fe/gallery-4.jpg" alt />
+        <img src="~assets/projects/fe/gallery-5.jpg" alt />
+        <img src="~assets/projects/fe/gallery-6.jpg" alt />
+        <img src="~assets/projects/fe/gallery-7.jpg" alt />
+        <img src="~assets/projects/fe/gallery-8.jpg" alt />
+        <img src="~assets/projects/fe/gallery-9.jpg" alt />
+        <img src="~assets/projects/fe/gallery-10.jpg" alt />
+        <img src="~assets/projects/fe/gallery11.jpg" alt />
+        <img src="~assets/projects/fe/gallery-6.jpg" alt />
       </div>
     </div>
 
@@ -111,19 +111,19 @@
     <div class="contain">
       <div class="p-fe_branding-grid">
         <div>
-          <img src="~assets/projects/fe/branding1.jpg">
+          <img src="~assets/projects/fe/branding1.jpg" />
         </div>
         <div>
-          <img src="~assets/projects/fe/branding2.jpg">
+          <img src="~assets/projects/fe/branding2.jpg" />
         </div>
         <div class="big">
-          <img src="~assets/projects/fe/branding3.jpg">
+          <img src="~assets/projects/fe/branding3.jpg" />
         </div>
         <div class="big">
-          <img src="~assets/projects/fe/branding5.png">
+          <img src="~assets/projects/fe/branding5.png" />
         </div>
         <div class="big">
-          <img src="~assets/projects/fe/branding6.png">
+          <img src="~assets/projects/fe/branding6.png" />
         </div>
       </div>
     </div>
@@ -151,10 +151,10 @@
       theme="theme_ft"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg">
+    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg" />
 
     <!-- Final Design -->
-    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg">
+    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg" />
 
     <div class="p-fe_final-design">
       <pcase
@@ -169,12 +169,39 @@
         theme="theme_ft"
       />
     </div>
+
     <!-- appreciate button -->
 
-    <Appreciate/>
+    <Appreciate
+      heading="Share Your thoughts "
+      subHeading="Damn you really like to scroll. Click Me."
+    />
+
+    <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
-      <projectfooter/>
+      <div class="projects-footer-container">
+        <allprojectsnav />
+        <div class="p-f-p-container">
+          <nuxt-link to="/projects/mr-irritating">
+            <pfooterp
+              projectName="Mr. Irritating"
+              projectCategories="Print, Social Media"
+              thumbnail="/showcase3.webp"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/projects/awesome-inc">
+            <pfootern
+              projectName="Awesome Inc"
+              projectCategories="Identity, Print"
+              thumbnail="/showcase5b.webp"
+            />
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -187,6 +214,9 @@ import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
 import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
 export default {
   layout: 'projects',
   components: {
@@ -196,7 +226,10 @@ export default {
     Pcase,
     Projecthero,
     Next,
-    Previous
+    Previous,
+    Pfooterp,
+    Pfootern,
+    Allprojectsnav
   }
 }
 </script>

@@ -11,12 +11,12 @@
         </nuxt-link>
       </div>
       <projecthero
-        pDate="October 2017 "
-        pWebsite="elevito.com"
+        pDate="March 2019 "
+        pWebsite="feedingtrends.com"
         pCategory="Product Design"
-        pHeading="Elevito: My own endeaver"
+        pHeading="A portal for Event lover"
         pHeadingcolor="color:#00ACFF;"
-        pSubheading="Designing for a design company."
+        pSubheading="enriching the portal with best user experience."
       />
       <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -37,40 +37,47 @@
         </div>
       </div>
       <Preface
-        timeframe=" October 2018- March 2019
-    <br />5 Month"
-        tools=" Adobe Creative Suite
-    <br />Sketch, Flinto, Zeplin sdwdswdw wdwd"
+        timeframe=" Feb 2019- March 2019
+    <br />1 month"
+        tools=" Adobe XD, Adobe Illustrator
+    <br /> Dropbox Paper, Flinto, markers"
         role=" UI/UX
     <br />Research, Content Strategy"
-        team=" Shekhar, Govind, Fahad, Saurabh
-    <br />Yash, Zainab and me"
+        team=" Me-UX, Shekhar-Dev
+    <br />Yash/Zainab-Managing"
       />
       <!-- Preface -->
       <pcase
         heading="Preface"
-        para=" Elevito- Coming up with this name was challenging in itself. Elevito was supposed to be a Designing company based in India.
-            We have been working from days when I got into my 7th semester of Engineering. Elevito- A team dedicated to producing only the best quality conteant
-            any brand would deserves.
+        para=" Using FT Events to the Beat website, users can register for the events, Book tickets, Create Event and manage the event or ticket
+        from its dash board. In addition to finding information on past and future events, event results, image gallery, charity event organizers,
+        participating musicians, register for the Feeding Trends exclusive advetisement, and more.
 
-
-    "
+        <br>
+        <br>
+        
+        Feeding Trends- Events is in Development stage right now, I delivered the design already,
+      This casestudy is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
+      So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
+      "
         theme="theme_ft-event"
       />
+
+      <div class="p-quote contain red">
+        <blockquote>
+          The idea was to make Feeding Trends to the Beat website as a one-stop-destination
+          for all-inclusive information and updates on everything associated with the event.
+        </blockquote>
+      </div>
 
       <!-- Backstory -->
 
       <pcase
-        heading="From Lucknow with love ❤"
-        para=" I started thinking of Elevito back at end of September 2017 while I was still In Lucknow, pursuing
-    Computer Science Eingineering with some of my crazy friends who were so good in web development. Me and friend wanted
-    to do something of our own, one night I got a chance to do it under the hat of one of my Senior. It was really mind bending
-    for me and very challenging.
-    <br />
-    <br />
-So here I was, crawling Pintrest, going through design agenicies website, looking thirstly for some
-    inspiration that could move me. After few days of this or that, I found a specific visuial split in half and
-    that's basically where the whole concept came from."
+        heading="Challenge 🥴 "
+        para="Well, the most challenging part was the make the event portal feel like the part of feeding Trends,
+        and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidlines.
+        It was really challenging. The existing website and the event portal have different purpose and target user. 
+        "
         theme="theme_ft-event"
       />
 
@@ -81,13 +88,6 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
         <br> <br>Making something stand out and gives a feel of creativity and wowness. 
         was cool for the moment but that can not be used to used on web.
       <br>3. No copywrite, no information architecture."-->
-
-      <div class="p-quote contain red">
-        <blockquote>
-          It was an opportunity for me to challenge our creativity,
-          without fixing any constraint or barrier.
-        </blockquote>
-      </div>
 
       <p class="contain just-para black90">
         The purpose of the website was to showcase our works we have done so far particlurly me and my fellow designers and through

@@ -107,7 +107,7 @@
             <pfooterp
               projectName="R3"
               projectCategories="Social Media, Logo"
-              thumbnail="/showcase4.jpg"
+              thumbnail="/showcase4.webp"
             />
           </nuxt-link>
         </div>
@@ -117,7 +117,7 @@
             <pfootern
               projectName="Elevito"
               projectCategories="Web, Branding, Print"
-              thumbnail="/showcase6.jpg"
+              thumbnail="/showcase6.webp"
             />
           </nuxt-link>
         </div>

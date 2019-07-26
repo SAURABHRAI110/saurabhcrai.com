@@ -193,7 +193,7 @@
             <pfooterp
               projectName="Filming Eye"
               projectCategories="Web, Identity"
-              thumbnail="/showcase1.jpg"
+              thumbnail="/showcase1.webp"
             />
           </nuxt-link>
         </div>
@@ -203,7 +203,7 @@
             <pfootern
               projectName="Mr. Irritating"
               projectCategories="Print, Social Media"
-              thumbnail="/showcase3.jpg"
+              thumbnail="/showcase3.webp"
             />
           </nuxt-link>
         </div>

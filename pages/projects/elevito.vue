@@ -98,7 +98,7 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
         class="p-image-100"
         src="~assets/projects/elevito/elevito-mockup-web1.jpg"
         alt="Elevito web mockup"
-      /> -->
+      />-->
       <!-- Ideation and Reasearch -->
 
       <pcase
@@ -268,21 +268,21 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
           <allprojectsnav />
 
           <div class="p-f-p-container">
-            <nuxt-link to="/projects/dear-zindagi">
+            <nuxt-link to="/projects/awesome-inc">
               <pfooterp
-                projectName="Dear Zindagi"
-                projectCategories="Brochure, Identity"
-                thumbnail="/showcase2.jpg"
+                projectName="Awesome Inc"
+                projectCategories="Identity, Print"
+                thumbnail="/showcase5b.webp"
               />
             </nuxt-link>
           </div>
 
           <div class="p-f-n-container">
-            <nuxt-link to="/projects/r3">
+            <nuxt-link to="/projects/feeding-trends">
               <pfootern
-                projectName="R3"
-                projectCategories="Social Media, logo"
-                thumbnail="/showcase4.jpg"
+                projectName="Feeding Trends"
+                projectCategories="Web, Branding, Print"
+                thumbnail="/showcase7a.webp"
               />
             </nuxt-link>
           </div>

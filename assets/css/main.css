@@ -787,10 +787,13 @@ view more work*/
 
 .p-f-n-container {
   grid-area: b;
+
+
 }
 
 .p-f-p-container {
   grid-area: a;
+
 }
 
 @media screen and (max-width: px) {

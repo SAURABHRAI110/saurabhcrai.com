@@ -1,24 +1,15 @@
 <template>
   <div class="p-hero_top contain">
     <div class="p-min-info ps">
-      <span
-        class="p-min1"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="0"
-      >{{pDate}}</span>
-      <span
-        class="p-min2"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="100"
-      >{{pWebsite}}</span>
-      <span
-        class="p-min3"
-        data-aos="fade-right"
-        data-aos-duration="1000"
-        data-aos-delay="200"
-      >{{pCategory}}</span>
+      <span data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
+        <span class="p-min1">{{pDate}}</span>
+      </span>
+      <span data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100">
+        <span class="p-min2">{{pWebsite}}</span>
+      </span>
+      <span data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+        <span class="p-min3">{{pCategory}}</span>
+      </span>
     </div>
 
     <div class="p-min2-info">

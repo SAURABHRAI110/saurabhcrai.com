@@ -247,7 +247,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
             <pfootern
               projectName="Dear Zindagi"
               projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              thumbnail="/showcase2.webp"
             />
           </nuxt-link>
         </div>

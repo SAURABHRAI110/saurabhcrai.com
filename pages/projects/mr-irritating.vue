@@ -580,7 +580,7 @@ Mr. Irritating shall not irritate you!"
             <pfooterp
               projectName="Dear Zindagi"
               projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              thumbnail="/showcase2.webp"
             />
           </nuxt-link>
         </div>
@@ -590,7 +590,7 @@ Mr. Irritating shall not irritate you!"
             <pfootern
               projectName="R3"
               projectCategories="Social Media, logo"
-              thumbnail="/showcase4.jpg"
+              thumbnail="/showcase4.webp"
             />
           </nuxt-link>
         </div>
