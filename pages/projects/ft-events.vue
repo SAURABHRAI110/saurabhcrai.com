@@ -90,8 +90,8 @@
       <br>3. No copywrite, no information architecture."-->
 
       <p class="contain just-para black90">
-        The purpose of the website was to showcase our works we have done so far particlurly me and my fellow designers and through
-        that, to clients and to convince them that we are the people they are looking far.
+        Also, there is many competitor in the same niche, and i was not easy to have something that is similar yet
+        simple and intuitive and make user come to website and let them discover events and book tickets.
       </p>
 
       <!-- <img
@@ -99,15 +99,18 @@
         src="~assets/projects/elevito/elevito-mockup-web1.jpg"
         alt="Elevito web mockup"
       />-->
-      <!-- Ideation and Reasearch -->
+      <!-- Ideation and Research -->
 
       <pcase
         class="ft-event-research-sec"
         heading="Ideation and Research"
-        para=" After wireframing the site and running it past some UX friends and juniors
-      for feedback and tweaks, we kicked around some ideas for a theme. Coming up with layout
-      and working on it.I iterated and tweaked until we had something that was fun and as fluid
-      as possible."
+        para="After some deep research and coming with a strategy of monetizing the same and the discussing all the
+        possible scenario how a user will interact with the website. We came up with website architecture and site map.
+        
+        <br><br>
+        We decided to follow google material guidelines and so that development and design can go long way.
+        
+        "
         theme="theme_ft-event"
       />
       <!-- <div class="p-image-100-container">
@@ -144,10 +147,15 @@
 
       <div class="p-quote contain red">
         <blockquote>
-          Ideas don't come out fully formed. They only become clear as you work on them.
-          You just have to get started.
+          Is it the right page? Does the page have the content which I am looking for?
+          Do they have anything better, if this is not what I’m looking for? What is expected of me now?
         </blockquote>
       </div>
+
+      <p class="contain just-para black90">
+        I asked these questions again and again, discussed it, researched existing solutions, came up with different possibilities. Started
+        designing UI in XD which I was sure of and as I got further, things got easier and easier.
+      </p>
 
       <!-- Art direction Design-->
 
@@ -188,11 +196,13 @@
       <!-- Fonts, Colors & Patterns -->
       <pcase
         heading="Fonts, Colors & Patterns"
-        para="After layout and content strategy, It was  time to set a theme and colour palette
-      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
-      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
-      use red as theme colour
+        para="Responsive website design
+To enable infallible rendering of website content across multiple mobile devices,
+we designed the website in responsive HTML. Coupled with HTML5, the design proved
+to be future proof to a
+large extent while maintaining consistent UX, irrespective of the device being used.
+
+a lot of moving parts and variables largely around the creative elements, design and photography. 
       "
         theme="theme_ft-event"
       />
