@@ -671,7 +671,7 @@ export default {}
   width: 100%;
   top: 30%;
   transform: translate(-50%);
-
+  overflow: hidden;
   text-align: center;
   white-space: pre-wrap;
 }
