@@ -232,6 +232,10 @@
         </div>
       </div>
     </section>
+\
+    <!-- projects section -->
+
+    <section class="a-p_section"></section>
   </div>
 
   <!-- <div class="a-c-section panel" data-color="capability">
