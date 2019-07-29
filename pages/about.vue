@@ -86,6 +86,7 @@
       </div>
     </div>
 
+    <!-- capability -->
     <section class="a-c-section">
       <div class="contain">
         <div class="a-c_heading">
@@ -131,18 +132,18 @@
               <span>Github</span>
               <span>Codepen</span>
               <span>Saas</span>
-              <span>Staring Code Screen</span>
+              <span>Staring at others code</span>
             </div>
           </div>
         </div>
         <div class="a-c_photography">
-          <p class="a-c_subheading red">+Photography ↗</p>
+          <p class="a-c_subheading red">+Photography</p>
         </div>
         <div class="a-c_photography">
-          <p class="a-c_subheading red">+Drawing and Arts ↗</p>
+          <p class="a-c_subheading red">+Drawing and Arts</p>
         </div>
         <div class="a-c_photography">
-          <p class="a-c_subheading red">+Blogging ↗</p>
+          <p class="a-c_subheading red">+Blogging</p>
         </div>
         <div class="a-c_photography">
           <p class="a-c_subheading red">+Ariving on time</p>
@@ -150,13 +151,95 @@
       </div>
     </section>
 
-    <!-- <div class="a-c-section panel" data-color="capability">
+    <!-- tools -->
+
+    <section class="a-t-section">
+      <div class="contain">
+        <div class="a-c_heading">
+          <h1>Tools</h1>
+        </div>
+
+        <div class="a-c_bg_text outlined" v-rellax="{ speed: -1, center: 0.5 }">
+          <span>Tools</span>
+        </div>
+
+        <div class="pm black70">
+          <div class="a-t_layout">
+            <span>
+              <img src="~assets/img/about/a-tools-1.svg" alt="adobe xd svg icon" /> Adobe XD
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-8.svg" alt="Sketch svg icon" />Sketch
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-9.png" alt="Framer X svg icon" />Framer X
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-2.svg" alt="Invision svg icon" />Invision Studio
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-10.svg" alt="Adobe Illustrator svg icon" />Adobe Illustrator
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-11.svg" alt="Adobe Photoshop svg icon" />Adobe Photoshop
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-3.svg" alt="Adobe After Effects svg icon" />Adobe After Effects
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-12.svg" alt="Adobe Premiere Pro svg icon" />Adobe Premiere Pro
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-13.svg" alt="Adobe Indesign svg icon" />Adobe Indesign
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-4.svg" alt="Adobe Lightroom svg icon" />Adobe Lightroom
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-15.png" alt="Figma svg icon" />Cinema 4D
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-5.svg" alt="Zeplin svg icon" />Zeplin
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-16.png" alt="UXPin svg icon" />UXPin
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />Figma
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-17.png" alt="Balsamiq svg icon" />Balsamiq
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-6.svg" alt="Visual Studio Code svg icon" />Visual Studio Code
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-18.svg" alt="Atom svg icon" />Atom
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-19.svg" alt="GitHub svg icon" />GitHub
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-7.svg" alt="Slack svg icon" />Slack
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-21.svg" alt="Pen & Paper svg icon" />Pen & Paper
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-20.svg" alt="New Stuff svg icon" />+New Stuff
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- <div class="a-c-section panel" data-color="capability">
       <span class="a-c-bg-text outlined" v-rellax="{ speed: -3, center: 0.4 }">Capabilities</span>
       <div class="contain">
         <div></div>
       </div>
-    </div>-->
-  </div>
+  </div>-->
 
   <!-- Be Crazy -->
   <!-- 
