@@ -1,5 +1,5 @@
 <template>
-  <div class="panel" data-color="white" id="js-scroll">
+  <div>
     <!-- <div class="vl1 vl"></div>
     <div class="vl2 vl"></div>
     <div class="vl3 vl"></div>-->
@@ -10,9 +10,11 @@
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
         <img src="~assets/svg/circle.svg" alt="circle" />
       </div>
+
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
         <img src="~assets/svg/a.svg" alt="A" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
+
       <div class="contain a-h-container">
         <p
           class="pm a-h-subheading"
@@ -35,7 +37,7 @@
       </div>
     </div>
 
-    <div class="about-section2 contain">
+    <div class="about-section2">
       <div class="me-images">
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
           <img src="~/assets/img/about/about-me-1.png" />
@@ -56,7 +58,7 @@
       <div class="about-me-text contain">
         <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
           <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
-          <h2 class="info-block-heading primary-color">Hello there!</h2>
+          <h2 class="a-hello primary-color">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
           Yo! I'm Saurabh Rai and I am currently a User experience designer at
@@ -83,12 +85,77 @@
         </p>
       </div>
     </div>
-    <div class="a-c-section panel" data-color="capability">
+
+    <section class="a-c-section">
+      <div class="contain">
+        <div class="a-c_heading">
+          <h1>Capabilities</h1>
+        </div>
+
+        <div class="a-c_bg_text outlined" v-rellax="{ speed: -1, center: 0.5 }">
+          <span>Capabilities</span>
+        </div>
+
+        <div class="a-c-design">
+          <p class="a-c_subheading red">+Design</p>
+
+          <div class="pm black70">
+            <div class="a-c_layout">
+              <span>Concepting</span>
+              <span>Wireframing</span>
+              <span>Interactive Experiences</span>
+              <span>User Experience Design</span>
+              <span>User Interface Design</span>
+              <span>Interactive Prototyping</span>
+              <span>2D & 3D Illustration</span>
+              <span>Motion Graphics</span>
+              <span>Brand Identity</span>
+              <span>Print Design</span>
+              <span>Digital, Social Campaigns</span>
+              <span>& whatever needed to for the job</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="a-c-code">
+          <p class="a-c_subheading red">+Code</p>
+
+          <div class="pm black70">
+            <div class="a-c_layout">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Vue Framework</span>
+              <span>Nuxt Framework</span>
+              <span>Green shock animation platform (GSAP)</span>
+              <span>Bootstrap</span>
+              <span>Github</span>
+              <span>Codepen</span>
+              <span>Saas</span>
+              <span>Staring Code Screen</span>
+            </div>
+          </div>
+        </div>
+        <div class="a-c_photography">
+          <p class="a-c_subheading red">+Photography ↗</p>
+        </div>
+        <div class="a-c_photography">
+          <p class="a-c_subheading red">+Drawing and Arts ↗</p>
+        </div>
+        <div class="a-c_photography">
+          <p class="a-c_subheading red">+Blogging ↗</p>
+        </div>
+        <div class="a-c_photography">
+          <p class="a-c_subheading red">+Ariving on time</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="a-c-section panel" data-color="capability">
       <span class="a-c-bg-text outlined" v-rellax="{ speed: -3, center: 0.4 }">Capabilities</span>
       <div class="contain">
         <div></div>
       </div>
-    </div>
+    </div>-->
   </div>
 
   <!-- Be Crazy -->
