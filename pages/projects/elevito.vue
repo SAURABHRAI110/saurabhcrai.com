@@ -39,12 +39,12 @@
       <Preface
         timeframe=" October 2018- March 2019
     <br />5 Month"
-        tools=" Adobe Creative Suite
-    <br />Sketch, Flinto, Zeplin sdwdswdw wdwd"
-        role=" UI/UX
-    <br />Research, Content Strategy"
-        team=" Shekhar, Govind, Fahad, Saurabh
-    <br />Yash, Zainab and me"
+        tools=" Adobe Creative Suite, Zeplin,
+            <br> Pen-Paper and lots of Ice-Tea"
+        role=" Art direction,Research,
+    <br /> Content Strategy, UX, Order Pizza"
+        team="  Shekhar, Govind, Fahad, Abhishek
+            <br>Saurabh, Yash, Zainab and Me"
       />
       <!-- Preface -->
       <pcase

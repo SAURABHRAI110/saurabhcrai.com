@@ -361,6 +361,13 @@ p {
   transform: translate(-50%, -50%);
 }
 
+.no-margin_top {
+  margin-top: 0px;
+}
+
+.no-margin {
+  margin: 0px;
+}
 
 
 
@@ -974,6 +981,54 @@ view more work*/
 /* about page 
 be crazy */
 
+
+/* about mu photos hero */
+
+.about-section2 {
+  height: 80vh;
+  padding-top: 40px;
+}
+
+.me-images {
+  width: 65%;
+  left: 19%;
+  background-color: white;
+  height: auto;
+  position: absolute;
+}
+
+.me-image1 {
+  width: 80%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.me-image2 {
+  width: 25%;
+  padding-top: 33%;
+  left: 51%;
+  position: absolute;
+}
+
+.me-image3 {
+  width: 22%;
+  position: absolute;
+  padding-top: 43%;
+  right: 0%;
+}
+
+.me-image4 {
+  width: 18%;
+  position: absolute;
+  padding-top: 23.5%;
+  left: 82%;
+}
+
+.me-images>div>img {
+  width: 100%;
+}
+
 .a-c-bg-text {
 
   font-family: circular-bold;
@@ -1509,11 +1564,11 @@ body {
 .p-fe_branding-grid {
   display: grid;
   grid-gap: 30px;
-
   grid-auto-flow: dense;
+  padding-top: 35px;
 }
 
-.p-fe_branding-grid>div>img {
+.p-fe_branding-grid img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -1538,7 +1593,7 @@ body {
 .p-fe_final-design {
   background-color: #f1f1f1;
   width: 100%;
-  margin-top: -6px;
+  margin-top: -56px;
 }
 
 /* 

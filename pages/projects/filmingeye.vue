@@ -35,12 +35,12 @@
     <Preface
       timeframe=" April 2018- May 2018
             <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
-            <br>Marketing"
+      tools="  Adobe XD, Illustrator, Photoshop, Zeplin,
+            <br> Pen-Paper and lots of Ice-Tea  "
+      role="  Art direction,
+            <br>Visual Design, UX"
+      team="  Dev: Shekhar, Boss: Yash,  Content <br>
+      Writer: Zainab, designer- of course me"
     />
     <!-- Preface -->
     <pcase
@@ -53,53 +53,125 @@
     kind of wanted me to work on their website.
     <br />
     <br />
-Basically the brief was clear: design a simple, clean and elegant showcase website. But also an especially recognisable
+Basically the brief was clear: design a simple, clean and elegant showcase website. But also an especially recognizable
 and branded ‘Easy Tiger’ website with key values like boldness and modernity."
       theme="theme_fe"
     />
-    <!-- Problem -->
+
+    <div class="p-quote contain red">
+      <blockquote>
+        Brief: design a simple, clean and elegant single page website.
+        But also an especially recognizable and branded ‘Filming Eye’
+        website with key values like boldness and modernity.
+      </blockquote>
+    </div>
+    <!-- Challenges -->
     <pcase
-      heading="Problem"
-      para="  1. The first thing that I camrun e around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      heading="Challenges"
+      para="  1. The first thing that I came around was that there was no existing branding.
+        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big, not cool. No way
+        it was possible to use that on web.
+        <br>3. No copywriter, no information architecture.
+        <br> Designing grid for project section
+        <br><br>
+
+  previously, Filming Eye had had very little digital presence,
+        so everything had to be created from scratch. Nice for me but it meant a
+        large amount of strategic and graphic work. I had a very small amount of
+        brand assets and communication materials around the products.     
+      
+        
+        "
       theme="theme_fe"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
+    <!-- Ideation and Reasearch -->
 
-    <!-- Reasearch -->
     <pcase
-      heading="Research"
-      para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
-        used images that filming eye have clicked through their camera and some free stock photos that have
-        meaning and value to infinity, beyond, and that fit to our red and dark black theme."
-      theme="theme_fe"
+      class="elevito-research-sec"
+      heading="Ideation and Research"
+      para=" 
+      
+      A lot of things got cleared what we wanted and what we don't. After sticking to things
+      we liked and deleting things what we do not need on the website. "
+      theme="theme_elevito"
     />
-
-    <!-- Research Slider -->
 
     <div class="contain">
-      <div class="slider-container">
-        <carousel
-          :per-page="1"
-          :mouse-drag="true"
-          paginationColor="#aaa"
-          paginationActiveColor="#da2c4d"
-          :adjustable-height="true"
-        >
-          <slide>
-            <img class="slide-img" src="~assets/projects/fe/slider2.jpg" alt="slider1" />
-          </slide>
-          <slide>
-            <img class="slide-img" src="~assets/projects/fe/slider1.jpg" alt="slider1" />
-          </slide>
-          <slide>
-            <img class="slide-img" src="~assets/projects/fe/slider3.jpg" alt="slider1" />
-          </slide>
-        </carousel>
+      <agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/elevito/elevito-ideation-1.jpg"
+            alt="slider1"
+          />
+        </div>
+
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/elevito/elevito-ideation-2.jpg"
+            alt="slider2"
+          />
+        </div>
+      </agile>
+    </div>
+
+    <!-- Branding -->
+
+    <pcase
+      heading="Branding"
+      para=" From the very beginning of the design process, it was our goal to work on dark mode website. It contains 
+      a lot of red."
+      theme="theme_fe"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <img src="~assets/projects/fe/fe4.jpg" alt="filming eye logo " />
+          <p class="ps white">Logo ideation</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="contain">
+      <div class="p-fe_branding-grid">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div>
+            <img src="~assets/projects/fe/branding1.jpg" alt="filming eye logo, light background" />
+          </div>
+        </div>
+
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div>
+            <img src="~assets/projects/fe/branding2.jpg" alt="filming eye logo, light background " />
+          </div>
+        </div>
+
+        <div class="reveal-holder big" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div>
+            <img cl src="~assets/projects/fe/branding3.jpg" alt="filming eye logo, dark background" />
+          </div>
+        </div>
+
+        <div class="reveal-holder big" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div>
+            <img src="~assets/projects/fe/branding5.png" alt="filming eye typography" />
+          </div>
+        </div>
+        <div class="reveal-holder big" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div>
+            <img src="~assets/projects/fe/branding6.png" alt="filming eye branding" />
+          </div>
+        </div>
       </div>
     </div>
 
@@ -127,51 +199,14 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
       </div>
     </div>
 
-    <!-- Branding -->
-
-    <pcase
-      heading="Branding"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-             of asking qualitative questions such as their workflow to even the intimate details of their
-             personal life."
-      theme="theme_fe"
-    />
-
-    <div class="contain">
-      <div class="p-fe_branding-grid">
-        <div>
-          <img src="~assets/projects/fe/branding1.jpg" />
-        </div>
-        <div>
-          <img src="~assets/projects/fe/branding2.jpg" />
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding3.jpg" />
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding5.png" />
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding6.png" />
-        </div>
-      </div>
-    </div>
-
     <!-- Web Design -->
-    <pcase
-      heading="Web Design"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-            by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-            of asking qualitative questions such as their workflow to even the intimate details of their
-            personal life."
-      theme="theme_fe"
-    />
+    <pcase heading="Web Design" para=" Putting all these things into website" theme="theme_fe" />
 
     <!-- First Iteration -->
     <pcase
+      class="no-margin_top"
       heading="First Iteration"
-      para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a
+      para=" The first iteration was designed by my junior designer. He worked really hard and came up with a
               great layout and which made almost most of the things we needed in and that we don't needed.
               <br><br>
               Before being given into development there was this huge gap of like 6 months. After this long time
@@ -186,9 +221,9 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     <!-- Final Design -->
     <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg" />
 
-    <div class="p-fe_final-design">
+    <div class="p-fe_final-design no-margin">
       <pcase
-        heading=" Final Design"
+        heading=" Here we go! Final final design."
         para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a great
                   layout and which made almost most of the things we needed in and that we don't needed.
                   <br><br>
@@ -199,6 +234,13 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         theme="theme_fe"
       />
     </div>
+
+    <p class="contain just-para black90">
+      We started this project with the ambition to create a different experience,
+      something meaningful and timeless. To achieve this, it was important to focus
+      on a strong concept around nature and all it has to offer.
+      The idea of the
+    </p>
 
     <!-- Technology -->
 
