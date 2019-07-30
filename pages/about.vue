@@ -412,7 +412,25 @@
 
     <!-- showreel -->
 
-    <section class="a-s-section"></section>
+    <section class="a-s-section">
+      <div class="showreel-heading">
+        <div class="contain">
+          <h2>
+            Enough reading.
+            <br />Just watch my
+            <span class="red">showreel.</span>
+          </h2>
+          <div class="a-s_bg_text outlined" v-rellax="{ speed: -1, center: 0.5 }">
+            <span>Showreel</span>
+          </div>
+        </div>
+        <div class="a-s-bg-container">
+          <img src="~assets/img/about/showreel-bg.jpg" alt="showreel" />
+        </div>
+      </div>
+    </section>
+
+    <!-- crazy me -->
   </div>
 </template>
 
