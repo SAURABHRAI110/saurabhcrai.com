@@ -1436,6 +1436,7 @@ view more work*/
   width: 100%;
   position: relative;
   min-height: 100vh;
+  overflow: hidden;
 }
 
 .a-p_layout_column {
@@ -1526,6 +1527,7 @@ view more work*/
   position: relative;
   min-height: auto;
   width: 100%;
+  overflow: hidden;
 }
 
 .a-s-section .showreel-heading {
@@ -1647,6 +1649,77 @@ view more work*/
 
 .me-crazy:hover img:first-child {
   display: none;
+}
+
+@media screen and (max-width:1400px) {
+
+  .me-crazy img {
+    bottom: 120px;
+    height: 65%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  .me-crazy img {
+    bottom: 100px;
+    height: 60%;
+  }
+}
+
+@media screen and (max-width:900px) {
+
+  .me-crazy img {
+    bottom: 80px;
+    height: 65%;
+  }
+
+  .a-crazy-layout {
+
+    height: 60vh;
+  }
+
+}
+
+@media screen and (max-width:700px) {
+
+  .me-crazy img {
+    bottom: 60px;
+    height: 75%;
+  }
+
+  .a-crazy-layout {
+
+    height: 40vh;
+  }
+
+}
+
+@media screen and (max-width:600px) {
+
+  .me-crazy img {
+    bottom: 55px;
+    height: 75%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+
+  .me-crazy img {
+    bottom: 42px;
+    height: 75%;
+  }
+
+}
+
+@media screen and (max-width:400px) {
+
+  .me-crazy img {
+    bottom: 35px;
+    height: 75%;
+  }
+
 }
 
 
