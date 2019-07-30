@@ -53,6 +53,7 @@
         </div>
       </div>
     </div>
+    <a href></a>
 
     <div class="about-section3">
       <div class="about-me-text a-hello_container contain">
@@ -62,7 +63,14 @@
         </div>
         <p class="para hero-para black70">
           Yo! I'm Saurabh Rai and I am currently a User experience designer at
-          Feeding Trends and Elevito in Lucknow, India. I consider myself a
+          <a
+            href="https://feedingtrends.com/"
+            target="_blank"
+            rel="noopener"
+            title="feedingtrends.com"
+          >
+            <span class="underline-magical">Feeding Trends</span>
+          </a> and Elevito in Lucknow, India. I consider myself a
           multi-disciplinary designer as I love making anything, but have
           recently found a passion in creating thoughtful and enjoyable user
           experiences through product design.
@@ -431,6 +439,41 @@
     </section>
 
     <!-- crazy me -->
+
+    <section class="a-crazy-section">
+      <div class="contain">
+        <div class="a-c_heading">
+          <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
+            <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
+            <h1 class="margin_reveal">Be Crazy</h1>
+          </div>
+        </div>
+
+        <div class="a-t_bg_text outlined" v-rellax="{ speed: -3, center: 0.5 }">
+          <span>Be Crazy</span>
+        </div>
+      </div>
+      <div class="p-quote contain red">
+        <blockquote>
+          Be crazy, be stupid, be silly, be weird. Be whatever,
+          because life is too short to be anything but happy.
+        </blockquote>
+      </div>
+
+      <div class="a-crazy-layout">
+        <div class="a-crazy-bg">
+          <img src="~assets/img/about/crazy-bg-red.svg" alt="backgrounds red" />
+          <img src="~assets/img/about/crazy-bg-light-grey.svg" alt="backgrounds red" />
+        </div>
+        <div class="me-crazy">
+          <img class="me-crazy-1" src="~assets/img/about/me-face1.png" alt="  Crazzy Myself" />
+          <img class="me-crazy-2" src="~assets/img/about/me-face-2.png" alt="  Crazzy Myself" />
+        </div>
+      </div>
+    </section>
+    <!-- process section -->
+
+    <section class="a-process-section"></section>
   </div>
 </template>
 

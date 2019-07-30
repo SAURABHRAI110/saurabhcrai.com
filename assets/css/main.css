@@ -72,9 +72,31 @@ html {
   box-sizing: border-box;
 }
 
+
 a:active {
-  color: var(--primary-color)
+  color: var(--primary-color);
+
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.underline-magical {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.underline-magical:hover {
+  background-size: 100% 88%;
+}
+
+
+
 
 
 
@@ -1424,51 +1446,47 @@ view more work*/
 }
 
 
+/* about crazy section */
 
 
-
-.be-crazy {
+.a-crazy-section {
   position: relative;
   width: 100%;
-  height: 100vh;
   overflow: hidden;
 
 }
 
-.be-crazy-grid {
+.a-crazy-layout {
+  position: relative;
   width: 100%;
-  height: 100%;
-  grid-template-columns: 1fr 1fr;
-  display: grid;
-  position: absolute;
-  background-color: #ffffff;
+  height: 80vh;
 }
 
-/* .be-crazy-grid>div:nth-child(1) {
-  background-color: var(--primary-color);
-} */
 
-
-.be-crazy-text {
-  position: absolute;
-  left: 50%;
-  top: 35%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-
-}
-
-.me-crazy>img {
+.a-crazy-bg img:nth-child(1) {
   position: absolute;
   bottom: 0%;
-  height: 45%;
+  width: 100%;
+  z-index: 3;
+}
+
+.a-crazy-bg img:nth-child(2) {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  z-index: 2;
+}
+
+.me-crazy img {
+  position: absolute;
+  bottom: 160px;
+  height: 65%;
   left: 50%;
   transform: translate(-50%);
   z-index: 2;
-
 }
 
-
+.me-crazy {}
 
 .me-crazy img:last-child {
   display: none;
@@ -1483,34 +1501,13 @@ view more work*/
 }
 
 
-.me-crazy-pattern {
-  position: absolute;
-  bottom: 0%;
-  height: 100%;
 
 
-  left: 50%;
-  transform: translate(-50%);
-  z-index: 1;
-}
 
 
-.be-crazy h1 {
-  font-size: 120px;
-  margin: 0;
-  text-align: center;
-}
-
-.be-crazy p {
-  text-align: center;
-  padding-top: 16px;
-
-}
-
-
-.a-process {
+.a-process-section {
   height: 100vh;
-  background-color: #373737;
+  background-color: #F0F0F0;
   color: white;
 }
 
