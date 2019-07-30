@@ -159,7 +159,7 @@
           <h1>Tools</h1>
         </div>
 
-        <div class="a-c_bg_text outlined" v-rellax="{ speed: -1, center: 0.5 }">
+        <div class="a-t_bg_text outlined" v-rellax="{ speed: -1, center: 0.5 }">
           <span>Tools</span>
         </div>
 
@@ -231,11 +231,10 @@
           </div>
         </div>
       </div>
-    </section>
-\
+    </section>\
     <!-- projects section -->
 
-    <section class="a-p_section"></section>
+    <section class="a-p-section"></section>
   </div>
 
   <!-- <div class="a-c-section panel" data-color="capability">

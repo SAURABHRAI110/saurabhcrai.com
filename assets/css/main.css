@@ -1241,6 +1241,13 @@ view more work*/
   min-height: 100vh;
 }
 
+.a-t_bg_text {
+  font-size: 200px;
+  position: absolute;
+  top: 92px;
+  opacity: .3;
+}
+
 .a-t_layout {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -1269,14 +1276,19 @@ view more work*/
 
 .a-t_layout img {
   position: absolute;
-
   width: 30px;
-
   margin-left: -56px;
   margin-top: -4px;
 }
 
 
+/* about project layout */
+
+.a-p-section {
+  width: 100%;
+  position: relative;
+  min-height: 100vh;
+}
 
 
 
