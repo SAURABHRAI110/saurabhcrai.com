@@ -14,7 +14,7 @@
         </span>
       </div>
       <div class="article-pic">
-        <img class="article-pic-adjust" :src="articleThumbnail">
+        <img class="article-pic-adjust" :src="articleThumbnail" />
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style >
 .article-container {
   width: 80%;
   margin-left: calc(11% - 50px);
