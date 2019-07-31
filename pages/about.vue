@@ -438,7 +438,7 @@
           </div>
         </div>
         <div class="a-s-bg-container">
-          <img src="~assets/img/about/showreel-bg.jpg" alt="showreel" />
+          <img src="~assets/img/about/showreel-bg.jpg?webp" alt="showreel" />
         </div>
       </div>
     </section>
@@ -471,8 +471,16 @@
           <img src="~assets/img/about/crazy-bg-light-grey.svg" alt="backgrounds red" />
         </div>
         <div class="me-crazy">
-          <img class="me-crazy-1" src="~assets/img/about/me-face1.png" alt="  Crazzy Myself" />
-          <img class="me-crazy-2" src="~assets/img/about/me-face-2.png" alt="  Crazzy Myself" />
+          <img
+            class="me-crazy-1"
+            src="~assets/img/about/me-face1.png?webp"
+            alt="  Crazzy Myself, blank and white"
+          />
+          <img
+            class="me-crazy-2"
+            src="~assets/img/about/me-face-2.png?webp"
+            alt="  Crazzy Myself, black and white"
+          />
         </div>
       </div>
     </section>

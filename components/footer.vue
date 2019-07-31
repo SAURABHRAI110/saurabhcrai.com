@@ -1,6 +1,6 @@
 <template>
   <footer class="footer-wrapper">
-    <img class="footer-hand" src="~assets/footer/footer-hand.png">
+    <img class="footer-hand" src="~assets/footer/footer-hand.png?webp" alt="hand gesture" />
     <div class="footer-type1">
       <div class="footer-left"></div>
       <div class="footer-right">
@@ -14,7 +14,7 @@
         <div style="position:relative;     top: 14%;">
           <span class="footer-m-heading">
             Yey! let's grab a coffee
-            <br>& take over the world!
+            <br />& take over the world!
           </span>
         </div>
 
@@ -41,7 +41,7 @@
                 title="Facebook (new tab)"
               >
                 <div class="social-three">
-                  <img class="social-four" src="~assets/footer/facebook-lightgrey.png">
+                  <img class="social-four" src="~assets/footer/facebook-lightgrey.png" />
                 </div>
               </a>
             </div>
@@ -56,7 +56,7 @@
                 title="Instagram (new tab)"
               >
                 <div class="social-three">
-                  <img class="social-four" src="~assets/footer/instagram-lightgrey.png">
+                  <img class="social-four" src="~assets/footer/instagram-lightgrey.png" />
                 </div>
               </a>
             </div>
@@ -71,7 +71,7 @@
                 title="Linkdin (new tab)"
               >
                 <div class="social-three">
-                  <img class="social-four" src="~assets/footer/linkdin-lightgrey.png">
+                  <img class="social-four" src="~assets/footer/linkdin-lightgrey.png" />
                 </div>
               </a>
             </div>
@@ -86,7 +86,7 @@
                 title="Medium (new tab)"
               >
                 <div class="social-three">
-                  <img class="social-four" src="~assets/footer/medium-lightgrey.png">
+                  <img class="social-four" src="~assets/footer/medium-lightgrey.png" />
                 </div>
               </a>
             </div>
@@ -101,7 +101,7 @@
                 title="Behance (new tab)"
               >
                 <div class="social-three">
-                  <img class="social-four" src="~assets/footer/behance-lightgrey.png">
+                  <img class="social-four" src="~assets/footer/behance-lightgrey.png" />
                 </div>
               </a>
             </div>
@@ -116,7 +116,7 @@
                 title="Github(new tab)"
               >
                 <div class="social-three">
-                  <img class="social-four" src="~assets/footer/github-social.png">
+                  <img class="social-four" src="~assets/footer/github-social.png" />
                 </div>
               </a>
             </div>

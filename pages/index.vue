@@ -45,7 +45,17 @@
         creativity through
         <span
           style="color:#fc3a52;"
-        >design, code and writing.</span>
+        >
+          design,
+          <a
+            href="https://github.com/SAURABHRAI110"
+            target="_blank"
+            rel="noopener"
+            title="Github(new tab)"
+          >
+            <span class="underline-magical">code</span>
+          </a> and writing.
+        </span>
       </p>
     </div>
 
