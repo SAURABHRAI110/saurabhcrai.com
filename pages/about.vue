@@ -113,11 +113,11 @@
 
           <div class="pm black70">
             <div class="a-c_layout">
-              <span>Concepting</span>
-              <span>Wireframing</span>
-              <span>Interactive Experiences</span>
+              <span>Creative/ Art Direction</span>
               <span>User Experience Design</span>
-              <span>User Interface Design</span>
+              <span>Interface & Interaction Design</span>
+              <span>Interactive Experiences</span>
+              <span>Digital Product Design</span>
               <span>Interactive Prototyping</span>
               <span>2D & 3D Illustration</span>
               <span>Motion Graphics</span>

@@ -106,7 +106,7 @@ a {
 :root {
   --primary-color: #fc3a52;
   --secondary-color: #1c1b20;
-  --secondary-color: #1c1b20;
+  --tertiary-color: #f6ecdd;
 }
 
 :root {
@@ -1199,7 +1199,7 @@ view more work*/
 }
 
 .a-c_bg_text {
-  font-size: 150px;
+  font-size: 180px;
   position: absolute;
   top: 92px;
   opacity: .4;
@@ -1291,7 +1291,7 @@ view more work*/
   }
 
   .a-c_bg_text {
-    font-size: 120px;
+    font-size: 130px;
     position: absolute;
     top: 92px;
 
@@ -1617,7 +1617,7 @@ view more work*/
 .a-crazy-bg img:nth-child(1) {
   position: absolute;
   bottom: 0%;
-  width: 100%;
+  width: 102%;
   z-index: 3;
 }
 
@@ -1724,14 +1724,15 @@ view more work*/
 
 
 
-
-
-
 .a-process-section {
   height: 100vh;
   background-color: #F0F0F0;
   color: white;
+  margin-top: -6px;
+  z-index: 3;
+  position: relative;
 }
+
 
 
 .a-process {
