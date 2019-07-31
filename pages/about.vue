@@ -40,16 +40,19 @@
     <div class="about-section2">
       <div class="me-images">
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
-          <img src="~/assets/img/about/about-me-1.png" />
+          <img
+            src="~/assets/img/about/about-me-1.jpg?webp"
+            alt="saurabh rai, saurabhcrai.com, photo indian boy"
+          />
         </div>
         <div v-rellax="{ speed: 1, center: 0.3 }" class="me-image2">
-          <img src="~/assets/img/about/about-me-2.png" />
+          <img src="~/assets/img/about/about-me-2.jpg?webp" alt="saurabh rai, indian boy" />
         </div>
         <div v-rellax="{ speed: -2, center: 0.7 }" class="me-image4">
-          <img src="~/assets/img/about/about-me-4.png" />
+          <img src="~/assets/img/about/about-me-4.jpg?webp" alt="saurabh rai, indian boy" />
         </div>
         <div v-rellax="{ speed: 3, center: 0.5 }" class="me-image3">
-          <img src="~/assets/img/about/about-me-3.png" />
+          <img src="~/assets/img/about/about-me-3.jpg?webp" alt="saurabh rai, indian boy" />
         </div>
       </div>
     </div>
