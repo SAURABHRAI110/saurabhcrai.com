@@ -123,8 +123,10 @@
               <span>Motion Graphics</span>
               <span>Brand Identity</span>
               <span>Print Design</span>
+              <span>Coffee Drinking</span>
               <span>Digital, Social Campaigns</span>
-              <span>& whatever needed to for the job</span>
+              <span>Graphic Design</span>
+              <span>Creative Writing</span>
             </div>
           </div>
         </div>
