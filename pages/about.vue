@@ -491,7 +491,27 @@
 </template>
 
 <script>
-export default {}
+export default {
+  head() {
+    return {
+      title: 'About Me',
+      titleTemplate: '%s - Saurabh Rai',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Saurabh Rai is  ux designer at feeding trends.'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'UX Designer, saurabhcrai.com, about me, saurabh rai about me, UX designer portfolio'
+        }
+      ]
+    }
+  }
+}
 </script>
 
 <style scoped>

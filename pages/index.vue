@@ -137,7 +137,7 @@
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img src="~/assets/img/showreel-bg.jpg?webp" type="image/webp" alt="very cool bg" />
+        <img src="~/assets/img/showreel-bg.jpg?sqip" type="image/webp" alt="very cool bg" />
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
