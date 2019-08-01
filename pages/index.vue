@@ -137,7 +137,11 @@
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img src="~/assets/img/showreel-bg.jpg?sqip" type="image/webp" alt="very cool bg" />
+        <img
+          src="~/assets/img/showreel-bg.jpg"
+          srcset="~/assets/img/showreel-bg.jpg?sqip"
+          alt="elevito wireframe"
+        />
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
@@ -614,7 +618,7 @@ export default {
   text-align: center;
 }
 
-.showreel-bg > img {
+.showreel-bg img {
   width: 100%;
   height: 100%;
   object-fit: cover;
