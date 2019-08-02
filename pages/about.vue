@@ -500,7 +500,7 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Saurabh Rai is  ux designer at feeding trends.'
+          content: ' UX designer at feeding trends.'
         },
         {
           hid: 'keywords',
