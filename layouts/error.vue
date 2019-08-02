@@ -7,10 +7,13 @@
           Oops!
           <br />Page not found
         </h1>
+
         <h1 v-else>
           Oops!
           <br />An error occurred
         </h1>
+        <p v-if="error.statusCode === 404">You must have done something you should not have done</p>
+        <p v-else>Man are you high</p>
       </div>
 
       <div class="to-home">
@@ -35,7 +38,7 @@ export default {
 .error-container {
   width: 100%;
   position: relative;
-  height: 85vh;
+  height: 100vh;
   overflow: hidden;
 }
 

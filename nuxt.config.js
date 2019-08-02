@@ -128,7 +128,8 @@ export default {
     ['@nuxtjs/google-analytics', {
       id: 'UA-138976237-1'
     }],
-    '@bazzite/nuxt-optimized-images'
+    '@bazzite/nuxt-optimized-images',
+    '@nuxtjs/sitemap'
   ],
   optimizedImages: {
     inlineImageLimit: -1,
