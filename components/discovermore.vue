@@ -1,14 +1,12 @@
 <template>
-  <span class="center-h-v">
-    <div class="discover-button-container center-h-v">
-      <div class="discover"></div>
-      <h1 class="discover-text">{{ buttonText }}</h1>
-      <svg class="arrow">
-        <polygon data-v-54d0a06a points="2,2 8,5.5 2,10"></polygon>
-      </svg>
-      <img class="plus" src="~assets/svg/plus.svg">
-    </div>
-  </span>
+  <div class="discover-button-container">
+    <div class="discover"></div>
+    <h1 class="discover-text">{{ buttonText }}</h1>
+    <svg class="arrow">
+      <polygon data-v-54d0a06a points="2,2 8,5.5 2,10" />
+    </svg>
+    <img class="plus" src="~assets/svg/plus.svg" />
+  </div>
 </template>
 
 <script>
@@ -20,24 +18,10 @@ export default {
 </script>
 
 <style scoped>
-.center-h-v {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.discover-article-wrapper {
-  position: absolute;
-  top: 38%;
-  left: 61%;
-  transform: translate(-50%, -50%);
-}
-
 .discover-button-container {
   width: 200px;
   height: 80px;
-  position: absolute;
+  position: relative;
   cursor: pointer;
 }
 

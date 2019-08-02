@@ -46,7 +46,9 @@
         <span
           style="color:#fc3a52;"
         >
-          design,
+          <nuxt-link to="/projects">
+            <spna class="underline-magical">design</spna>
+          </nuxt-link>,
           <a
             href="https://github.com/SAURABHRAI110"
             target="_blank"
@@ -54,7 +56,10 @@
             title="Github(new tab)"
           >
             <span class="underline-magical">code</span>
-          </a> and writing.
+          </a> and
+          <nuxt-link to="/blog">
+            <span class="underline-magical">writing.</span>
+          </nuxt-link>
         </span>
       </p>
     </div>
@@ -130,9 +135,11 @@
     <!-- get to know me -->
 
     <div class="more-about-me">
-      <nuxt-link to="/about">
-        <discovermore class="hover-target" button-text="get to know me" />
-      </nuxt-link>
+      <div class="center-h-v">
+        <nuxt-link to="/about">
+          <discovermore class="hover-target" button-text="get to know me" />
+        </nuxt-link>
+      </div>
     </div>
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
@@ -315,9 +322,11 @@
     <!-- view more work -->
 
     <div class="more-about-me">
-      <nuxt-link to="/projects">
-        <discovermore button-text="view more work" />
-      </nuxt-link>
+      <div class="center-h-v">
+        <nuxt-link to="/projects">
+          <discovermore button-text="view more work" />
+        </nuxt-link>
+      </div>
     </div>
 
     <!-- people parallax slide section -->
@@ -362,9 +371,11 @@
 
     <!-- view more article -->
     <div class="more-about-me">
-      <nuxt-link to="/blog">
-        <discovermore button-text="view all article" />
-      </nuxt-link>
+      <div class="center-h-v">
+        <nuxt-link to="/blog">
+          <discovermore button-text="view all article" />
+        </nuxt-link>
+      </div>
     </div>
   </div>
 </template>

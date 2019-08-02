@@ -1,19 +1,64 @@
 <template>
-  <div class="container contain">
-    <h1 v-if="error.statusCode === 404">Page not found</h1>
-    <h1 v-else>An error occurred</h1>
-    <nuxt-link to="/">Home page</nuxt-link>
+  <div class="error-container">
+    <div class="contain">
+      <img class="o" src="~assets/svg/o.svg" alt="o letter svg" />
+      <div class="content">
+        <h1 v-if="error.statusCode === 404">
+          Oops!
+          <br />Page not found
+        </h1>
+        <h1 v-else>
+          Oops!
+          <br />An error occurred
+        </h1>
+      </div>
+
+      <div class="to-home">
+        <nuxt-link to="/">
+          <discovermore class="hover-target" button-text="go to home page" />
+        </nuxt-link>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
+import Discovermore from '~/components/discovermore'
 export default {
   props: ['error'],
-  layout: 'projects' // you can set a custom layout for the error page
+  layout: 'projects',
+  components: { Discovermore } // you can set a custom layout for the error page
 }
 </script>
 
 <style scoped>
+.error-container {
+  width: 100%;
+  position: relative;
+  height: 85vh;
+  overflow: hidden;
+}
+
+.contain {
+  position: relative;
+}
+.to-home {
+  position: relative;
+  padding-top: 100px;
+  left: 1%;
+}
+
+.error-container .o {
+  position: absolute;
+  right: 2%;
+  top: 30px;
+  height: 80vh;
+  z-index: -1;
+}
+
+.content {
+  padding-top: 150px;
+}
 .page-enter-active {
   transition: all 0.25s ease-out;
 }
