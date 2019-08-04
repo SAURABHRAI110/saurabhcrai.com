@@ -32,6 +32,7 @@ export default {
         async: true
 
       },
+
       {
         src: '/main.js',
         defer: true,
@@ -110,10 +111,12 @@ export default {
     {
       src: "~/plugins/vue-agile",
       ssr: false
+    },
+    {
+      src: '~/plugins/scrollmagic',
+      ssr: false
+
     }
-
-
-
 
   ],
 
@@ -134,13 +137,13 @@ export default {
   optimizedImages: {
     inlineImageLimit: -1,
     handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
-    optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImages: false,
+    optimizeImagesInDev: false,
     defaultImageLoader: 'img-loader',
     mozjpeg: {
       quality: 80
     },
-    optipng: false,
+    optipng: true,
     pngquant: {
       speed: 7,
       quality: [0.65, 0.8]
@@ -167,6 +170,8 @@ export default {
    ** Build configuration
    */
   build: {
+    vendor: ['scrollmagic'],
+
     /*
      ** You can extend webpack config here
      */

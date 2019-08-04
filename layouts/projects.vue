@@ -3,7 +3,7 @@
     <!-- <VueScrollProgress></VueScrollProgress> -->
 
     <Menu />
-    <nuxt />
+    <nuxt/>
 
     <!-- <div class="footer">
       <Footer/>

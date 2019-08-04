@@ -2940,3 +2940,12 @@ Akcent Colour
   width: 100%;
   padding-bottom: 40px;
 }
+
+
+/* scrollmagic */
+
+.square {
+  height: 200px;
+  width: 200px;
+  background-color: red
+}
