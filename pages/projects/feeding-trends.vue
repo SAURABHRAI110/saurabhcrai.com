@@ -24,7 +24,7 @@
         <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
 
         <img
-          src="~assets/projects/ft/ft-hero-mockup-2.jpg"
+          src="~assets/projects/ft/ft-hero-mockup-3.jpg"
           alt="floating mockup, web mockup, pad, mobile, mockup"
         />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
