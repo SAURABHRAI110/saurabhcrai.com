@@ -123,7 +123,7 @@
             <thumbnail
               thumbnailName="Feeding Trends"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase7a.webp"
+              thumbnail="/ft-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="0"

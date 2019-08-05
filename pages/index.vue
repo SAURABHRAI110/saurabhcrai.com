@@ -43,9 +43,7 @@
       <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
         This website is my personal space where I'm trying to express my
         creativity through
-        <span
-          style="color:#fc3a52;"
-        >
+        <span>
           <nuxt-link to="/projects">
             <spna class="underline-magical">design</spna>
           </nuxt-link>,

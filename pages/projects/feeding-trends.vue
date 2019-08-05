@@ -13,9 +13,9 @@
       pDate="December 2017 "
       pWebsite="feedingtrends.com"
       pCategory="Product Design"
-      pHeading="Content that matters "
+      pHeading="Stories that make you think and rethink."
       pHeadingcolor="color:#1D98B6;"
-      pSubheading="Stories that make you think and rethink."
+      pSubheading="My company official Content website design"
     />
 
     <!-- hero image -->
@@ -43,26 +43,123 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Filming eye is a film production studio based in Lucknow. They do photography, short films, music
-        videos, advertisements shoots. Basically things that can be captured with camera and of course there
-        existing team skills. Filming eye have got some headlines in news in the past about their commendable
-        work and nominations of their videos in different film competitions. The team comprised of talented who
-        with their camera and skills was able to produce breathtaking works. People knew me already. So they
-        kind of wanted me to work on their website."
+      para=" Feeding Trends is an online media company organising literary styles for interactive journalism. They publish
+    global trends, which are important, relevant and interesting. Their prime focus lies in the curation of highly engrossing content.
+    Working diligently to convince people into spending time with content, through effective imagination, creation and presentation.
+    And in a way wishing for is to uplift the notion that ‘media is dead’. Wanting to do wonders with their content, with people talking about them, anywhere and everywhere
+    - night outs, road trips, birthdays parties, conferences, and even family functions! All through
+    <a  href='https://feedingtrends.com/'
+            target='_blank'
+            rel='noopener'
+            title='feedingtrends.com'><span class='underline-magical'>feedingtrends.com</span></a>
+"
       theme="theme_ft"
     />
-
     <!-- Problem -->
     <pcase
-      heading="Problem"
-      para="  1. The first thing that I came around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      heading="From humble Beginnings"
+      para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
+    my seniors, co-founded feeding trends. I was in 6th semester, enjoying some home time during summer vacation, got a call from
+    Yash sir and I was asked to do a logo design for FeedingTrends. I remember it was a long call. Well moving forward, logo designing
+    is tough, I took my time and did textual logo, used a  Sans font, outlined it, played around arrow, to make it feel like 
+    trendy stuff and yeah Finished. We moved forward and setup  implemented logo on Facebook, Instagram and on stuff.
+    FT got recognized and people started sharing our stuff and yeah it was great start.
+    <br><br>
+    Later on after 2 month I joined FeedingTrends. While still managing my time around
+    college and working at feeding Trends Office. Bunking Classes just to work on outgoing projects at FT Office or from my flat.
+  
+        
+     "
       theme="theme_ft"
     />
 
+    <div class="p-quote contain red">
+      <blockquote>
+        Bunking clsses to work on outgoing projects while still managing college assignments and all. It was Beginnings
+        of something great.
+      </blockquote>
+    </div>
+    <!-- <div class="p-quote contain red">
+      <blockquote>
+        Research is the most important thing a designer need to make before jumping to actually
+        designing. I spend almost 70 80 percent of time just doing that.
+      </blockquote>
+    </div>-->
+    <!-- team pic -->
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img src="~assets/projects/ft/ft-team-1.jpg" />
+          <p class="ps">Feeding Trends Team: 2017</p>
+        </picture>
+      </div>
+    </div>
+
+    <pcase
+      heading="Back to design: Project Brief"
+      para=" The Feeding Trends Website was already up and running, when people around the team felt a need
+      of Redesigning everything from scartch. The website previously was just content.
+      
+      <br><br>
+      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
+    
+  
+        
+     "
+      theme="theme_ft"
+    />
+
+    <!-- Desighn -->
+    <pcase
+      heading="Design"
+      para="Open> XD> Design. The first thing I designed was the content page. It was the first thing any user will visit
+      whenever he/she follow a journey of coming to website thorough  whatsapp, facebook link shared to them.
+      So, It got my first priority. After going through some websites, Behance and sharing things with team, I designed
+      layout focused to enrich user reading experience, experimenting with font size, colour, contrast till getting it 
+      just right to move forward. The below is the design I did for the content Page.
+      
+      <br><br>
+      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
+            
+     "
+      theme="theme_ft"
+    />
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft/ft-hero-mockup.jpg"
+            alt="mockup, tab, mobile, floating mockup"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <!-- Problems -->
+    <pcase
+      heading="Problems to be solved"
+      para=" 1. Navigation <br>
+      2. Distiction Between Categories. <br>
+      3. 
+    
+          
+     "
+      theme="theme_ft"
+    />
+
+    <!-- Problems -->
+    <pcase
+      heading="Lets see some pretty pictures: Final Stuff"
+      para=" People love pretty picture, the final thing that is out there in real world.
+      
+    
+          
+     "
+      theme="theme_ft"
+    />
     <!-- appreciate button -->
 
     <Appreciate
