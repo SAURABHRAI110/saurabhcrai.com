@@ -142,11 +142,7 @@
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img
-          src="~/assets/img/showreel-bg.jpg"
-          srcset="~/assets/img/showreel-bg.jpg?sqip"
-          alt="elevito wireframe"
-        />
+        <img src="~/assets/img/showreel-bg.jpg" alt="elevito wireframe" />
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
