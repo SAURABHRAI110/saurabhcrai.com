@@ -15,7 +15,7 @@ export default {
 <style scoped>
 .nav-container {
   width: 100px;
-  height: 100vh;
+  height: 99vh;
   left: 0%;
   position: fixed;
   top: 0%;
