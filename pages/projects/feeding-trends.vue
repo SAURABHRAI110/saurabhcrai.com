@@ -15,15 +15,18 @@
       pCategory="Product Design"
       pHeading="Stories that make you think and rethink."
       pHeadingcolor="color:#1D98B6;"
-      pSubheading="My company official Content website design"
+      pSubheading="A platform for budding writers and readers "
     />
 
     <!-- hero image -->
-    <div class="p-fe-hero_image">
+    <div class="p-ft-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/ft/ft3.jpg" alt />
+        <img
+          src="~assets/projects/ft/ft-hero-mockup-2.jpg"
+          alt="floating mockup, web mockup, pad, mobile, mockup"
+        />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -136,8 +139,7 @@
           />
         </picture>
       </div>
-    </div>
-
+    </div>5
     <!-- Problems -->
     <pcase
       heading="Problems to be solved"

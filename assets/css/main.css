@@ -2790,6 +2790,23 @@ color: #0088ff !important;
   background: #1D98B6;
 }
 
+.p-ft-hero_image {
+  width: 100%;
+  height: 100vh;
+  /* background-color: black; */
+  position: relative;
+
+
+}
+
+
+.p-ft-hero_image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  object-position: 50% 50%;
+}
+
 
 /* The BBD Times *
 Akcent colours
