@@ -45,7 +45,7 @@
         creativity through
         <span>
           <nuxt-link to="/projects">
-            <spna class="underline-magical">design</spna>
+            <span class="underline-magical">design</span>
           </nuxt-link>,
           <a
             href="https://github.com/SAURABHRAI110"

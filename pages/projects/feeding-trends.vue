@@ -142,26 +142,49 @@
     </div>5
     <!-- Problems -->
     <pcase
-      heading="Problems to be solved"
-      para=" 1. Navigation <br>
-      2. Distiction Between Categories. <br>
-      3. 
-    
-          
+      heading="Problems To be solved and Considerations"
+      para=" 
+      1. Clear structure and navigation flows; <br>
+      2. Compelling and clear visual design; <br>
+      3. Great copy and tone of voice; <br>
+      4. Thoughtful transitions and animations; <br>
+      5. The website's performance and speed; <br>
+      6. The user's mobile phone performance and speed; <br>
+      7. Content readability; <br>
+      8. Mobile first; <br>
+      9. Article suggestion, ro read more; <br>
+      9. Proper design colors and aesthetics. <br>
      "
       theme="theme_ft"
     />
+
+    <div class="p-quote contain red">
+      <blockquote>
+        Good design requires good communication, especially from machine to person,
+        indicating what actions are possible, what is happening, and what is about to happen.
+      </blockquote>
+    </div>
 
     <!-- Problems -->
     <pcase
       heading="Lets see some pretty pictures: Final Stuff"
       para=" People love pretty picture, the final thing that is out there in real world.
-      
-    
-          
+               
      "
       theme="theme_ft"
     />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft/ft-design-system.jpg"
+            alt="mockup, tab, mobile, floating mockup"
+          />
+        </picture>
+      </div>
+    </div>5
     <!-- appreciate button -->
 
     <Appreciate

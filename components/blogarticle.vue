@@ -49,7 +49,6 @@ export default {
 
 .hl {
   border-top: 1px solid #797979;
-
   width: 100%;
 }
 
