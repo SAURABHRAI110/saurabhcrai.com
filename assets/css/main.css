@@ -1229,7 +1229,7 @@ view more work*/
 }
 
 .a-c_layout span {
-  padding: 10px 0px 10px 50px;
+  padding: 15px 0px 15px 50px;
   position: relative;
 }
 
@@ -1730,24 +1730,16 @@ view more work*/
 }
 
 
+/* Journey so far */
 
-.a-process-section {
-  height: 100vh;
+.journey-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
   background-color: #F0F0F0;
-  color: white;
   margin-top: -6px;
   z-index: 3;
-  position: relative;
 }
-
-
-
-.a-process {
-  padding: 100px;
-}
-
-
-
 
 
 

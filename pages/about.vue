@@ -486,7 +486,20 @@
     </section>
     <!-- process section -->
 
-    <section class="a-process-section"></section>
+    <section class="journey-container">
+      <div class="contain">
+        <div class="a-c_heading">
+          <div class="reveal-holder" data-aos="reveal-item" data-aos-once="true">
+            <div class="reveal-block red right" data-aos="reveal-right" data-aos-once="true"></div>
+            <h1 class="margin_reveal">journey</h1>
+          </div>
+        </div>
+
+        <div class="a-t_bg_text outlined" v-rellax="{ speed: -1, center: 0.5 }">
+          <span>journey</span>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
