@@ -94,7 +94,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <img src="~assets/projects/ft/ft-team-1.jpg" />
+          <img
+            src="~assets/projects/ft/ft-team-blue-3.jpg"
+            alt="creative team pic, team pic, team, designers, developers"
+          />
           <p class="ps">Feeding Trends Team: 2017</p>
         </picture>
       </div>
@@ -113,33 +116,6 @@
      "
       theme="theme_ft"
     />
-
-    <!-- Desighn -->
-    <pcase
-      heading="Design"
-      para="Open> XD> Design. The first thing I designed was the content page. It was the first thing any user will visit
-      whenever he/she follow a journey of coming to website thorough  whatsapp, facebook link shared to them.
-      So, It got my first priority. After going through some websites, Behance and sharing things with team, I designed
-      layout focused to enrich user reading experience, experimenting with font size, colour, contrast till getting it 
-      just right to move forward. The below is the design I did for the content Page.
-      
-      <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
-            
-     "
-      theme="theme_ft"
-    />
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft/ft-hero-mockup.jpg"
-            alt="mockup, tab, mobile, floating mockup"
-          />
-        </picture>
-      </div>
-    </div>5
     <!-- Problems -->
     <pcase
       heading="Problems To be solved and Considerations"
@@ -157,7 +133,25 @@
      "
       theme="theme_ft"
     />
+    <!-- Desighn -->
+    <pcase
+      heading="Research and Ideation"
+      para=" Many meeding were held to discuss the same with all the team, designers and developers, 
+      we decided to go with Making a mvp. Ideated mind maps and wireframes.
+      
+        
+     "
+      theme="theme_ft"
+    />
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img src="~assets/projects/ft/ft-mindmap.jpg" alt="mockup, tab, mobile, floating mockup" />
+        </picture>
+      </div>
+    </div>5
     <div class="p-quote contain red">
       <blockquote>
         Good design requires good communication, especially from machine to person,
@@ -165,6 +159,46 @@
       </blockquote>
     </div>
 
+    <!-- Desighn -->
+    <pcase
+      heading="Design"
+      para="Open> XD> Design. The first thing I designed was the content page. It was the first thing any user will visit
+      whenever he/she follow a journey of coming to website thorough  whatsapp, facebook link shared to them.
+      So, It got my first priority. After going through some websites, Behance and sharing things with team, I designed
+      layout focused to enrich user reading experience, experimenting with font size, colour, contrast till getting it 
+      just right to move forward. The below is the design I did for the content Page.
+      
+      <br><br>
+      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
+            
+     "
+      theme="theme_ft"
+    />
+
+    <!-- Desighn -->
+    <pcase
+      heading="Layout Options"
+      para=" I experimented with diffrent layouts to put everything together, got feedbck from team and designed
+      som high fedality mockup and test it through Adobe XD prototyping, Made protype, tested it and finally
+      we got to the points where me and team agreed to stick to one layout and moved farword to design further pages and adding
+      required details.
+            
+     "
+      theme="theme_ft"
+    />
+
+    <div class="ft-responsive-gif">
+      <div class="contain">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+          <img
+            src="~assets/projects/ft/ft-responsive-p.gif"
+            alt="responsive layout, responsive web, prototype"
+          />
+        </div>
+      </div>
+    </div>
     <!-- Problems -->
     <pcase
       heading="Lets see some pretty pictures: Final Stuff"
@@ -184,7 +218,7 @@
           />
         </picture>
       </div>
-    </div>5
+    </div>
     <!-- appreciate button -->
 
     <Appreciate

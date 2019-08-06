@@ -2798,6 +2798,14 @@ color: #0088ff !important;
   object-position: 50% 50%;
 }
 
+.ft-responsive-gif {
+  width: 100%;
+  position: relative;
+}
+
+.ft-responsive-gif img {
+  width: 100%;
+}
 
 /* The BBD Times *
 Akcent colours
