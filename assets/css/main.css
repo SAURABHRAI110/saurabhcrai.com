@@ -3038,6 +3038,15 @@ Akcent Colour
   transform: translate(-50%);
 }
 
+.p-zig-zag-line img {
+  position: absolute;
+  top: 50%;
+  width: 200px;
+  z-index: 2;
+  left: 50%;
+  transform: translate(-50%);
+}
+
 .zigzag {
 
   position: relative;

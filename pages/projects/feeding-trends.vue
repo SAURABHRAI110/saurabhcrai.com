@@ -257,6 +257,7 @@
               <span>✔ Branding</span>
               <span>✔ Identy Design</span>
               <span>✔ Defending UX Decisions</span>
+              <span>✔ Pop and un-pop things</span>
             </div>
           </div>
         </div>
@@ -293,7 +294,8 @@
 
     <div class="p-zig-zag-line">
       <div>
-        <div class="zigzag"></div>
+        <!-- <div class="zigzag"></div> -->
+        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
       </div>
     </div>
 
