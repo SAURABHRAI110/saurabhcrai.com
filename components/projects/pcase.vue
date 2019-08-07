@@ -43,4 +43,25 @@ h2 {
 .contain {
   margin-top: 50px;
 }
+
+.p-para:before {
+  content: '';
+  border-bottom: 4px solid #919191;
+  position: absolute;
+  bottom: 5px;
+  width: 50px;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 999px) {
+  .p-para:before {
+    border-bottom: 4px solid #919191;
+    width: 30px;
+    z-index: -1;
+    opacity: 0.3;
+  }
+}
 </style>
+
+
