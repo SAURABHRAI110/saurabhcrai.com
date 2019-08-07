@@ -233,8 +233,6 @@
       </div>
     </div>
 
-    <!-- appreciate button -->
-
     <!-- key Focus Area -->
 
     <div class="keyfocus">
@@ -294,11 +292,10 @@
 
     <div class="p-zig-zag-line">
       <div>
-        <!-- <div class="zigzag"></div> -->
         <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
       </div>
     </div>
-
+    <!-- appreciate button -->
     <Appreciate
       heading="Share Your thoughts "
       subHeading="Damn you really like to scroll. Click Me."
