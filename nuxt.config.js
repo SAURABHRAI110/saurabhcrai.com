@@ -170,12 +170,14 @@ export default {
    ** Build configuration
    */
   build: {
-    vendor: ['scrollmagic'],
+
 
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {
+    alias: { //Seção Alias
+      ScrollMagicGSAP: "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap"
+
       // Run ESLint on save
       // if (ctx.isDev && ctx.isClient) {
       //   config.module.rules.push({

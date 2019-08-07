@@ -25,6 +25,7 @@
     "medium-zoom": "^1.0.4",
     "nuxt": "^2.4.0",
     "scrollmagic": "^2.0.7",
+    "scrollmagic-plugin-gsap": "^1.0.3",
     "vue-agile": "^1.0.11",
     "vue-parallaxy": "^1.1.1",
     "vue-rellax": "^0.1.0"
@@ -47,6 +48,7 @@
     "image-trace-loader": "^0.1.0",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^8.0.0",
+    "jquery": "^3.4.1",
     "nodemon": "^1.18.9",
     "prettier": "^1.16.4",
     "sqip-loader": "^0.2.0",
