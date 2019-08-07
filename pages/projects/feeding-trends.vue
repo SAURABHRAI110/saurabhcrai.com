@@ -174,7 +174,19 @@
      "
       theme="theme_ft"
     />
+    <div class="ft-responsive-gif">
+      <div class="contain">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
+          <img
+            id="zoom-default"
+            src="~assets/projects/ft/ft-responsive-p.gif"
+            alt="responsive layout, responsive web, prototype"
+          />
+        </div>
+      </div>
+    </div>
     <!-- Desighn -->
     <pcase
       heading="Layout Options"
@@ -187,16 +199,16 @@
       theme="theme_ft"
     />
 
-    <div class="ft-responsive-gif">
-      <div class="contain">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
           <img
-            src="~assets/projects/ft/ft-responsive-p.gif"
-            alt="responsive layout, responsive web, prototype"
+            id="zoom-default"
+            src="~assets/projects/ft/ft-responsive-mockup.jpg"
+            alt="web mockup, feeding trends web mockup, responsive web"
           />
-        </div>
+        </picture>
       </div>
     </div>
     <!-- Problems -->
@@ -213,12 +225,14 @@
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <img
+            id="zoom-default"
             src="~assets/projects/ft/ft-design-system.jpg"
             alt="mockup, tab, mobile, floating mockup"
           />
         </picture>
       </div>
     </div>
+
     <!-- appreciate button -->
 
     <Appreciate
