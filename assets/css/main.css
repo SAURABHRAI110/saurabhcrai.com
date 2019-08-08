@@ -3164,3 +3164,102 @@ Akcent Colour
 .b-p-hero_image p {
   text-align: center;
 }
+
+.author-container {
+  width: 100%;
+  position: relative;
+}
+
+.author-avatar {
+  margin: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.author-name {
+  position: absolute;
+  top: 0%;
+}
+
+.entry-meta-author-box {
+  text-align: left;
+  padding: 6.5px 30px 6.5px 5px;
+  margin: 0 25px 0 0;
+  border-right: 1px solid #707070;
+}
+
+.entry-meta-author-box {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.entry-meta-date {
+  display: block;
+  margin: 25px 0 0 0;
+  padding: 0;
+  font-size: 12px;
+  color: #aaaaaa;
+  font-weight: 400;
+}
+
+
+
+.entry-meta {
+  margin: 35px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.entry-meta-avatar {
+  margin: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.entry-meta-avatar {
+  margin: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+}
+
+.entry-meta-avatar img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  border-style: none;
+
+}
+
+a {
+  transition-duration: 250ms;
+  transition-property: background-color, color, border, opacity, text-indent;
+  text-decoration: none;
+  color: #25c6fe;
+  border-bottom: 2px solid transparent;
+}
+
+.entry-content-title {
+  display: block;
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0 8% 0 8%;
+  text-align: center;
+}

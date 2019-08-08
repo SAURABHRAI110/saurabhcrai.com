@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="blog-hero_container" v-rellax="{ speed:2, center: 0.4 }">
+    <!-- <div class="blog-hero_container" v-rellax="{ speed:2, center: 0.4 }">
       <div class="blog-hero_heading contain">
         <h1 class="no-white-space">
           Hack Things,
@@ -14,8 +14,6 @@
     </div>
 
     <div class="empty-space"></div>
-    <!-- Blog Article -->
-
     <div class="b-article-section">
       <blogarticle
         articleCategory="Coding Stuff"
@@ -81,7 +79,7 @@
         articleLink="https://medium.com/p/400360751916/edit"
         articleThumbnail="/blog1.jpg"
       />
-    </div>
+    </div>-->
   </div>
 </template>
 
