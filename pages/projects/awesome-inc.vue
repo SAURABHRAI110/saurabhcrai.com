@@ -155,6 +155,8 @@
       </div>
     </div>
 
+    <!-- Appreciate section -->
+
     <Appreciate
       heading="Lets do something awesome together."
       subHeading="Don't forget to appreciate."
