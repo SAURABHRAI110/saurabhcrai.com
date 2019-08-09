@@ -46,6 +46,12 @@
         team=" Me-UX, Shekhar-Dev
     <br />Yash/Zainab-Managing"
       />
+
+      <!-- Refrence
+      http://stephencalvillodesign.com/project/linkedin-elevate
+      http://stephencalvillodesign.com/project/fullscreen
+      
+      -->
       <!-- Preface -->
       <pcase
         heading="Preface"
@@ -170,12 +176,61 @@
       <!-- Art direction Design-->
 
       <pcase
-        heading="Art Direction + Design"
-        para="After layout and content strategy, It was  time to set a theme and colour palette
-      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
-      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
-      use red as theme colour
+        heading="THREE USER TYPES"
+        para="FT Events consisted of 3 user types or roles. , Curator, and then Admin.
+        Each role has different objectives and even slightly different experiences.
+      "
+        theme="theme_ft-event"
+      />
+      <pcase
+        heading="User who Books Ticket"
+        para="We came up with a simple habit loop: <br>
+Discover, Share with friends, Book ticket for them, Go to event, Repeat.
+
+
+      "
+        theme="theme_ft-event"
+      />
+      <pcase
+        heading="The Creater Experience"
+        para="The event creator is the Entertainment Provider in a sence. They Choose what type of
+        event are they organising, what are their possible audience,  and push the event to audience.
+        They can see the performance of thier event, Sales record etc.
+      "
+        theme="theme_ft-event"
+      />
+      <pcase
+        heading="The Admin Experience"
+        para="Admins at the company are then able to dig into demographic insights
+        on the types of professionals that are engaging with their content the most and
+        how they could leverage their employees to reach a particular audience.
+
+        <br><br>
+        The first tab of the Analytics page for admins let them see how their curators
+        are performing. Is there enough broadcasted content for their employees to share? Which topics
+        are broadcasted to the most, and what's getting the most engagements?
+      "
+        theme="theme_ft-event"
+      />
+
+      <pcase
+        heading="CONSTANTLY LEARNING"
+        para="
+CONSTANTLY LEARNING
+Being such a small team, we were able to work incredibly agile.
+We were always getting feedback from our customers and making changes
+to better suit their needs (and our business goals of course). I did multiple sessions
+of interviews for both conceptual ideas and usability testing. 
+      "
+        theme="theme_ft-event"
+      />
+
+      <pcase
+        heading="DESIGN SPRINTS"
+        para="
+After my first month or so of joining the team, I decided to coordinate a Google Design Sprint to get the team alligned on how we could get our members to share content daily. I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days. 
+<br><br>
+Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
       "
         theme="theme_ft-event"
       />
