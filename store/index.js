@@ -1,3 +1,5 @@
+import moment from 'moment'
+
 export const state = () => ({
   bloglist: []
 });
@@ -32,6 +34,7 @@ export const actions = {
       let attributes = fm(post.default).attributes;
       attributes.slug = post.slug;
       attributes.ctime_unformatted = attributes.ctime;
+      attributes.ctime = moment(attributes.ctime).format('YYYY-MM-DD');
       return attributes;
     }).sort((a, b) => {
       return b.ctime_unformatted - a.ctime_unformatted;

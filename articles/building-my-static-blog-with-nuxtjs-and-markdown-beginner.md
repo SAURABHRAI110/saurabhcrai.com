@@ -61,6 +61,13 @@ module.exports = {
   [...]
 }
 ```
+1. the main. 
+2. efefe. dcwece.
+3. vdrvrv
+
+>>the best thing
+
+<img src="~~assets/blog/1.jpg">
 
 After setting the correct path of the `bulma.sass` file in my `main.scss` all the styles fixed themselves. Yay! Success! (After hours of trial and error)
 

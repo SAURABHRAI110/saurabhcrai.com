@@ -11,7 +11,7 @@
               <nuxt-link :to="`/blog/${post.slug}`">
                 <figure class="image">
                   <img
-                    :src="require(`~/assets/images/articles/${post.cover_image}?size=640`)"
+                    :src="require(`~/assets/images/articles/${post.cover_image}`)"
                     :alt="post.cover_image_cp"
                     loading="lazy"
                   />
@@ -64,6 +64,7 @@ export default {
 .preview-image {
   width: 12vw;
 }
+
 .nirebu-title {
   padding: 0.25em 0 0.25em;
 }

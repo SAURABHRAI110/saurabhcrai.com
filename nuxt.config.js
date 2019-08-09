@@ -143,6 +143,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxtjs/moment',
 
     ['@nuxtjs/google-analytics', {
       id: 'UA-138976237-1'
@@ -197,7 +198,10 @@ export default {
         test: /\.md$/,
         use: ['raw-loader']
       });
-
+      config.node = {
+        fs: "empty",
+        glob: "empty"
+      };
 
 
       /*

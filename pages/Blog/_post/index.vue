@@ -6,14 +6,15 @@
           <header>
             <h1>{{ attributes.title }}</h1>
             <blockquote>{{ attributes.description }}</blockquote>
-            <!-- <p class="time-wrapper">
+            <p class="time-wrapper">
               Published on
               <time>{{require('moment')(attributes.ctime).format('Do MMM YYYY')}}</time>
-            </p>-->
+            </p>
             <figure v-if="attributes.cover_image" class="image">
               <img
                 :src="require(`~/assets/images/articles/${attributes.cover_image}`)"
                 :alt="attributes.cover_image_cp"
+                loading="lazy"
               />
             </figure>
           </header>
@@ -35,6 +36,7 @@ const md = require('markdown-it')({
   html: true,
   typographer: true
 }).use(require('markdown-it-highlightjs'), { auto: true })
+
 export default {
   async asyncData({ params }) {
     const fileContent = await import(`~/articles/${params.post}.md`)
@@ -59,5 +61,25 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
+.blog {
+  padding: 1em;
+}
+
+.blog header {
+  margin-bottom: 1em;
+}
+
+.blog .subtitle {
+  font-size: 1rem;
+}
+
+.blog-content >>> h1 {
+  font-size: 1.5rem;
+}
+
+blockquote {
+  margin-bottom: 1em;
+}
 </style>
+
