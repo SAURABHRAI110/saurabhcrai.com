@@ -51,7 +51,7 @@
       <p class="ps black50">{{attributes.cover_image_description}}</p>
     </div>
 
-    <div class="contain_blog">
+    <div class="contain_blog dynamic-markdown">
       <article>
         <div v-html="content"></div>
       </article>
