@@ -11,31 +11,33 @@
           <p>{{ attributes.description }}</p>
         </div>
 
-        <div class="author-container">
-          <div>
-            <nuxt-link to="/about">
-              <div class="author-avatar">
-                <img src="~assets/blog/blog-avatar.jpg" alt="blog avatar" />
-              </div>
-            </nuxt-link>
+        <div class="author-section">
+          <div class="author-container">
+            <div>
+              <nuxt-link to="/about">
+                <div class="author-avatar">
+                  <img src="~assets/blog/blog-avatar-2.jpg" alt="blog avatar" />
+                </div>
+              </nuxt-link>
+            </div>
+            <div class="name-and-link">
+              <span>
+                <nuxt-link to="/about">Saurabh Rai</nuxt-link>
+              </span>
+              <span>
+                <a
+                  class="entry-meta-instagram"
+                  href="https://www.instagram.com/saurabh.archives"
+                >@saurabh.archives</a>
+              </span>
+            </div>
           </div>
-          <div class="name-and-link">
-            <span>
-              <nuxt-link to="/about">Saurabh Rai</nuxt-link>
-            </span>
-            <span>
-              <a
-                class="entry-meta-instagram"
-                href="https://www.instagram.com/saurabh.archives"
-              >@saurabh.archives</a>
-            </span>
-          </div>
-          <div class="published-time">
-            <p class="time-wrapper">
-              Published on
-              <time>{{require('moment')(attributes.ctime).format('Do MMM YYYY')}}</time>
-            </p>
-          </div>
+        </div>
+        <div class="published-time">
+          <span>Published on</span>
+          <span>
+            <time>{{require('moment')(attributes.ctime).format('Do MMM YYYY')}}</time>
+          </span>
         </div>
       </div>
     </div>

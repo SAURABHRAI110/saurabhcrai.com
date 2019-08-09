@@ -20,8 +20,7 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right theme_r3" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/r3/r36.jpg" alt="R3" align />
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+        <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" />
       </div>
     </div>
     <Preface
@@ -129,7 +128,7 @@
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <picture>
             <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-            <img src="~assets/projects/r3/r36.jpg" />
+            <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" />
             <p class="ps">R3: facebook cover</p>
           </picture>
         </div>

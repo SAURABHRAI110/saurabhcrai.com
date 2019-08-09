@@ -3096,7 +3096,7 @@ Akcent Colour
   width: 100%;
   text-align: left;
   color: #707070;
-  font-size: 13px;
+  font-size: 16px;
   padding: 0px 0px 20px 0px;
   position: relative;
 
@@ -3117,7 +3117,7 @@ Akcent Colour
   position: relative;
   text-align: left;
   width: 100%;
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .blog-post-hero p {
@@ -3179,28 +3179,52 @@ Akcent Colour
   text-align: center;
 }
 
+.author-section {
+  position: relative;
+  width: 100%;
+  padding: 20px 0px 13px 0px;
+
+}
+
 .author-container {
   width: 100%;
   position: relative;
-  display: grid;
-  grid-template-columns: 1fr 4fr 5fr;
+  display: flex;
+  flex-direction: row;
+
 }
 
 .name-and-link {
   display: flex;
   flex-direction: column;
-  padding: 10px 20px 4px 20px;
+  padding: 11px 0px 0px 12px;
 }
 
-.name-link span:nth-child(1) {
+.name-and-link span:nth-child(1) {
   font-size: 16px;
-  opacity: .9;
+
 }
 
-.name-link span:nth-child(2) {
-  font-size: 14px;
-  opacity: .6;
+.name-and-link span:nth-child(2) {
+  font-size: 13px;
+  color: #707070;
 
+}
+
+.published-time {
+  padding: 0px 0px 35px 0px;
+
+}
+
+.published-time span:nth-child(1) {
+  font-size: 13px;
+  color: #707070;
+}
+
+.published-time span:nth-child(2) {
+  font-size: 16px;
+  opacity: .8;
+  color: var(--primary-color)
 }
 
 .author-avatar {
