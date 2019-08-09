@@ -292,6 +292,7 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
         <blockquote>
           Good design requires good communication, especially from machine to person,
           indicating what actions are possible, what is happening, and what is about to happen.
+          Iterate and Iterate and do 100 times untill you get it right. This was the project of iteration. No other way
         </blockquote>
       </div>
 

@@ -301,13 +301,8 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            During My work on filmingeye, It hppens many time when I asked for certain things, assets, photographs, on which my further
+            design depends. I really really got feedback very late at time of meltdown. When these things happen, Patience is key. Stay Patient and trust the process.
           </p>
         </div>
       </div>
@@ -315,8 +310,8 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Don’t be afraid to show your vulnerability. Be transparent with your team.
+        Trust your Developer.
       </blockquote>
     </div>
 

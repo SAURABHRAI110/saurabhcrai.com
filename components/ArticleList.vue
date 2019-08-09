@@ -11,7 +11,7 @@
               <nuxt-link :to="`/blog/${post.slug}`">
                 <figure class="image">
                   <img
-                    :src="require(`~/assets/images/articles/${post.cover_image}`)"
+                    :src="require(`~/assets/blog/${post.thumbnail_image}`)"
                     :alt="post.cover_image_cp"
                     loading="lazy"
                   />

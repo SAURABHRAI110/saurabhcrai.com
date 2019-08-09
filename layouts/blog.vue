@@ -15,4 +15,16 @@ export default {
 </script>
 
 <style>
+.page-enter-active {
+  transition: all 0.25s ease-out;
+}
+
+.page-leave-active {
+  transition: all 0.5s ease-in;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
 </style>

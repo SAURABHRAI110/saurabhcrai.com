@@ -4,6 +4,9 @@ published: true
 description: A summary of my ongoing journey to get a statically generated blog up and running with the help of NuxtJS and Markdown
 tags: javascript,vue,showdev,beginners
 ctime: 2019-05-12
+cover_image: 1.jpg
+cover_image_description: Something Related to image2
+thumbnail_image: showcase11.jpg
 ---
 
 > This post originally appeared on [Dev.to](https://dev.to/nirebu/building-a-static-blog-with-nuxtjs-and-markdown-as-a-beginner-pkf) when this site had yet to support functional blogging

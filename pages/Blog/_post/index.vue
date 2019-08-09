@@ -1,30 +1,57 @@
 <template>
-  <section :key="$route.params.post" class="section">
-    <div class="container">
-      <div class="is-centered columns">
-        <div class="column is-9 is-desktop content">
-          <header>
-            <h1>{{ attributes.title }}</h1>
-            <blockquote>{{ attributes.description }}</blockquote>
+  <section :key="$route.params.post">
+    <div class="blog-post-hero">
+      <div class="contain_blog">
+        <div class="b-p-heading">
+          <div class="back-to-blog">
+            <nuxt-link to="/blog">← Back to Blog</nuxt-link>
+          </div>
+
+          <h1>{{ attributes.title }}</h1>
+          <p>{{ attributes.description }}</p>
+        </div>
+
+        <div class="author-container">
+          <div>
+            <nuxt-link to="/about">
+              <div class="author-avatar">
+                <img src="~assets/blog/blog-avatar.jpg" alt="blog avatar" />
+              </div>
+            </nuxt-link>
+          </div>
+          <div class="entry-meta-author-box">
+            <a class="entry-meta-author" href="https://later.com/blog/author/jill/">Saurabh Rai</a>
+            <nuxt-link to="/about"></nuxt-link>
+            <a
+              class="entry-meta-instagram"
+              href="https://www.instagram.com/saurabh.archives"
+            >@saurabh.archives</a>
+          </div>
+          <div class="entry-meta">
             <p class="time-wrapper">
               Published on
               <time>{{require('moment')(attributes.ctime).format('Do MMM YYYY')}}</time>
             </p>
-            <figure v-if="attributes.cover_image" class="image">
-              <img
-                :src="require(`~/assets/images/articles/${attributes.cover_image}`)"
-                :alt="attributes.cover_image_cp"
-                loading="lazy"
-              />
-            </figure>
-          </header>
-          <article>
-            <div v-html="content"></div>
-          </article>
-          <div class="level">
-            <nuxt-link to="/blog/" class="level-left">&larr; Back to blog</nuxt-link>
           </div>
         </div>
+      </div>
+    </div>
+
+    <!-- hero image -->
+    <div v-if="attributes.cover_image" class="b-p-hero_image">
+      <img
+        :src="require(`~/assets/blog/${attributes.cover_image}`)"
+        :alt="attributes.cover_image_cp"
+      />
+      <p class="ps black50">{{attributes.cover_image_description}}</p>
+    </div>
+
+    <div class="contain_blog">
+      <article>
+        <div v-html="content"></div>
+      </article>
+      <div class="level">
+        <nuxt-link to="/blog/" class="level-left">&larr; Back to blog</nuxt-link>
       </div>
     </div>
   </section>
@@ -38,6 +65,8 @@ const md = require('markdown-it')({
 }).use(require('markdown-it-highlightjs'), { auto: true })
 
 export default {
+  layout: 'blog',
+
   async asyncData({ params }) {
     const fileContent = await import(`~/articles/${params.post}.md`)
     let res = fm(fileContent.default)
@@ -62,22 +91,6 @@ export default {
 </script>
 
 <style scoped>
-.blog {
-  padding: 1em;
-}
-
-.blog header {
-  margin-bottom: 1em;
-}
-
-.blog .subtitle {
-  font-size: 1rem;
-}
-
-.blog-content >>> h1 {
-  font-size: 1.5rem;
-}
-
 blockquote {
   margin-bottom: 1em;
 }
