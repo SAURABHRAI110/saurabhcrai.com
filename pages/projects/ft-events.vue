@@ -49,8 +49,18 @@
       <!-- Preface -->
       <pcase
         heading="Preface"
-        para=" Using FT Events to the Beat website, users can register for the events, Book tickets, Create Event and manage the event or ticket
-        from its dash board. In addition to finding information on past and future events, event results, image gallery, charity event organizers,
+        para=" 
+        I was on the team for almost two years as the sole/lead designer. During that time I
+        worked with company co-founders, developers, content-writers, designers to completely overhaul the
+        design to create new  design system, create new features to fit our
+        customers needs, and most importantly,
+        design new features to create a better experience for every project I worked on. FT Event was one of the company Internal Project.
+<br><br>
+        FT Event is about event website where user can book tickets and create event. 
+        Using FT Events to the Beat website, users can register for the events, Book tickets,
+        Create Event and manage the event or ticket
+        from its dash board. In addition to finding information on past and future events,
+        event results, image gallery, charity event organizers,
         participating musicians, register for the Feeding Trends exclusive advetisement, and more.
 
         <br>
@@ -170,7 +180,7 @@
         theme="theme_ft-event"
       />
       <!-- theme one  -->
-      <div class="p-image-100-container">
+      <!-- <div class="p-image-100-container">
         <picture>
           <source
             media="(max-width: 600px)"
@@ -179,54 +189,7 @@
           <img src="~assets/projects/elevito/elevito-wireframe-cyan.jpg" alt="elevito wireframe" />
           <p class="ps black90">Later on it happened I changed the theme.</p>
         </picture>
-      </div>
-
-      <!-- theme two -->
-      <div class="p-image-100-container">
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/elevito/elevito-ideation-1.jpg"
-          />
-          <img src="~assets/projects/elevito/elevito-wireframe-final.jpg" alt="elevito wireframe" />
-          <p class="ps black90">Final Layout-Changed hero image and thumbnail later on.</p>
-        </picture>
-      </div>
-
-      <!-- Fonts, Colors & Patterns -->
-      <pcase
-        heading="Fonts, Colors & Patterns"
-        para="Responsive website design
-To enable infallible rendering of website content across multiple mobile devices,
-we designed the website in responsive HTML. Coupled with HTML5, the design proved
-to be future proof to a
-large extent while maintaining consistent UX, irrespective of the device being used.
-
-a lot of moving parts and variables largely around the creative elements, design and photography. 
-      "
-        theme="theme_ft-event"
-      />
-
-      <!-- Go beyond -->
-      <!-- <div class="p-text-100 bg_one">
-      <span class="center-h-v">
-        <h3 class="white">Go Beyond</h3>
-        <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
-      </span>
       </div>-->
-
-      <div class="p-image-100-container">
-        <picture>
-          <img src="~assets/projects/elevito/elevito-web-mobile-1.jpg" alt="elevito ideation" />
-          <p class="ps">I know my writing is all messed up.</p>
-        </picture>
-      </div>
-      <div class="p-image-100-container">
-        <picture>
-          <img src="~assets/projects/elevito/elevito-web-mobile-2.jpg" alt="elevito ideation" />
-          <p class="ps">I know my writing is all messed up.</p>
-        </picture>
-      </div>
 
       <!-- think deeper -->
       <!-- <div class="p-text-100 bg_two">
@@ -244,26 +207,10 @@ a lot of moving parts and variables largely around the creative elements, design
       </span>
       </div>-->
 
-      <div class="live-link_container">
+      <div class="live-link_container" style="background-color:var(--secondary-color);">
         <LiveLink
           link="https://stackoverflow.com/questions/4515124/see-hover-state-in-chrome-developer-tools"
           text="Launch Site"
-        />
-      </div>
-
-      <!-- conclusion -->
-
-      <div class="learnings">
-        <pcase
-          class="white"
-          heading="Larninngs"
-          para="After layout and content strategy, It was  time to set a theme and colour palette
-      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
-      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
-      use red as theme colour
-      "
-          theme="theme_ft-event"
         />
       </div>
 
@@ -279,13 +226,13 @@ a lot of moving parts and variables largely around the creative elements, design
                 <span>✔ Research</span>
                 <span>✔ Ideation</span>
                 <span>✔ Taking Design Meetings</span>
-                <span>✔ Collaborating with developer</span>
+                <span>✔ Collaborating with Content writers</span>
                 <span>✔ Making Post for social Media</span>
-                <span>✔ Lots of IceTea</span>
-                <span>✔ Exporting Assets</span>
-                <span>✔ Wireframe</span>
-                <span>✔ Testing with users</span>
-                <span>✔ Creating A design System</span>
+                <span>✔ Drank Lots of Coffee</span>
+                <span>✔ Taken Stress</span>
+                <span>✔ Made Wireframe</span>
+                <span>✔ Discussed potential User Journey</span>
+                <span>✔ Worked in nights</span>
                 <span>✔ Branding</span>
                 <span>✔ Identy Design</span>
                 <span>✔ Defending UX Decisions</span>

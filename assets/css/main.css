@@ -105,8 +105,8 @@ a {
 
 :root {
   --primary-color: #fc3a52;
-  --secondary-color: #1c1b20;
-  --tertiary-color: #f6ecdd;
+  --tertiary-color: #1c1b20;
+  --secondary-color: #f6ecdd;
 }
 
 :root {
@@ -3146,8 +3146,6 @@ Akcent Colour
 
   }
 }
-
-
 
 .b-p-hero_image {
   width: 100%;
