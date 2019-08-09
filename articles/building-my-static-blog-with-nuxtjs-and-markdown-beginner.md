@@ -7,9 +7,12 @@ ctime: 2019-05-12
 cover_image: 1.jpg
 cover_image_description: Something Related to image2
 thumbnail_image: showcase11.jpg
+
 ---
 
+
 > This post originally appeared on [Dev.to](https://dev.to/nirebu/building-a-static-blog-with-nuxtjs-and-markdown-as-a-beginner-pkf) when this site had yet to support functional blogging
+
 
 Hi there, this is my first post here... or anywhere since I've never blogged before! I'm [Nicolò Rebughini](https://nirebu.com/), a sysadmin trying to get a hold of modern web development pratices. I've specialised in CS at high school, but had been a video post production tech for many years, and came back to the IT world a little more than a year ago wearing the sysadmin hat. Right now I'm updating myself and learning to use tools like [Ansible](https://ansible.com/) and [Docker](https://docker.com/) to standardise and streamline the stack of my workplace.
 

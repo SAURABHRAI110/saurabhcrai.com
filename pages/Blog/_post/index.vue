@@ -19,15 +19,18 @@
               </div>
             </nuxt-link>
           </div>
-          <div class="entry-meta-author-box">
-            <a class="entry-meta-author" href="https://later.com/blog/author/jill/">Saurabh Rai</a>
-            <nuxt-link to="/about"></nuxt-link>
-            <a
-              class="entry-meta-instagram"
-              href="https://www.instagram.com/saurabh.archives"
-            >@saurabh.archives</a>
+          <div class="name-and-link">
+            <span>
+              <nuxt-link to="/about">Saurabh Rai</nuxt-link>
+            </span>
+            <span>
+              <a
+                class="entry-meta-instagram"
+                href="https://www.instagram.com/saurabh.archives"
+              >@saurabh.archives</a>
+            </span>
           </div>
-          <div class="entry-meta">
+          <div class="published-time">
             <p class="time-wrapper">
               Published on
               <time>{{require('moment')(attributes.ctime).format('Do MMM YYYY')}}</time>

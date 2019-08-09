@@ -3133,17 +3133,33 @@ Akcent Colour
   }
 }
 
+@media screen and (max-width:999px) {
+  .b-p-heading {
+    padding-top: 40px;
+  }
+
+  .b-p-heading h1 {
+    font-size: 45px;
+
+  }
+
+}
+
 @media screen and (max-width:800px) {
   .b-p-heading h1 {
-    font-size: 40px;
+    font-size: 38px;
 
   }
 }
 
 @media screen and (max-width:600px) {
   .b-p-heading h1 {
-    font-size: 35px;
+    font-size: 28px;
 
+  }
+
+  .b-p-heading {
+    padding-top: 40px;
   }
 }
 
@@ -3167,7 +3183,24 @@ Akcent Colour
   width: 100%;
   position: relative;
   display: grid;
-  grid-auto-columns: auto;
+  grid-template-columns: 1fr 4fr 5fr;
+}
+
+.name-and-link {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 4px 20px;
+}
+
+.name-link span:nth-child(1) {
+  font-size: 16px;
+  opacity: .9;
+}
+
+.name-link span:nth-child(2) {
+  font-size: 14px;
+  opacity: .6;
+
 }
 
 .author-avatar {
