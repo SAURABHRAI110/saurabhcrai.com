@@ -3,6 +3,22 @@ import {
   async
 } from 'q';
 
+
+const glob = require('glob');
+// we acquire an array containing the filenames
+// in the articles directory
+let files = glob.sync('**/*.md', {
+  cwd: 'articles'
+});
+
+// We define a function to trim the '.md' from the filename
+// and return the correct path.
+// This function will be used later
+function getSlugs(post, _) {
+  let slug = post.substr(0, post.lastIndexOf('.'));
+  return `/blog/${slug}`;
+}
+
 export default {
   mode: 'universal',
 
@@ -160,6 +176,11 @@ export default {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
+  generate: {
+    routes: function () {
+      return files.map(getSlugs)
+    }
+  },
 
 
 
@@ -171,12 +192,19 @@ export default {
    */
   build: {
 
+    extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        use: ['raw-loader']
+      });
 
-    /*
-     ** You can extend webpack config here
-     */
-    alias: { //Seção Alias
-      ScrollMagicGSAP: "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap"
+
+
+      /*
+       ** You can extend webpack config here
+       */
+      // alias: { //Seção Alias
+      //   ScrollMagicGSAP: "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap"
 
       // Run ESLint on save
       // if (ctx.isDev && ctx.isClient) {
