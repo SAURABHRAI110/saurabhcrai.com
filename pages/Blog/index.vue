@@ -31,7 +31,7 @@
         </p>
       </div>
     </div>
-    <div class="article-grid-container">
+    <div class="article-grid-container contain">
       <div class="article-grid">
         <ArticleList :isPaginated="true" :postsPerPage="10" />
       </div>
