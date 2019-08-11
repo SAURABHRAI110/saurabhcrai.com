@@ -158,7 +158,7 @@ export default {
       {
         rel: 'stylesheet',
         href: 'https://unpkg.com/applause-button/dist/applause-button.css'
-      }
+      },
     ]
   },
 
@@ -175,6 +175,10 @@ export default {
    */
   css: [
     '@assets/css/main.css',
+    {
+      src: '~/node_modules/highlight.js/styles/foundation.css',
+      lang: 'css'
+    }
 
   ],
 
@@ -254,7 +258,12 @@ export default {
     }
   },
 
-
+  markdownit: {
+    injected: true,
+    use: [
+      'markdown-it-highlightjs'
+    ]
+  },
 
 
 
