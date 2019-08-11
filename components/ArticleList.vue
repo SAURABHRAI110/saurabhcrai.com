@@ -20,7 +20,7 @@
                 <div class="projects-content">
                   <div class="published-time">
                     <span>Published on</span>
-                    <span>{{ post.ctime }}</span>
+                    <span>{{require('moment')(post.ctime).format('Do MMM YYYY')}}</span>
                   </div>
                   <h3 class="article-title">{{ post.title }}</h3>
                   <p class="article-description">{{ post.description }}</p>

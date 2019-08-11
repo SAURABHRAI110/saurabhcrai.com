@@ -3,7 +3,7 @@ title: Building a static blog with NuxtJs and Markdown as a beginner
 published: true
 description: A summary of my ongoing journey to get a statically generated blog up and running with the help of NuxtJS and Markdown
 tags: javascript,vue,showdev,beginners
-ctime: 2019-05-12
+ctime: 2019-08-10
 cover_image: 1.jpg
 cover_image_description: Something Related to image2
 thumbnail_image: thumbnail-the-bbd-times-story.jpg
