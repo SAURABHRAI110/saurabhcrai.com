@@ -31,23 +31,8 @@
         </p>
       </div>
     </div>
-    <div class="article-grid-container contain">
-      <div class="projects-wrapper-top hover-target">
-        <div class="projects-wrapper item1">
-          <div class="projects-card-wrapper">
-            <div class="projects-card"></div>
-            <div class="projects-image">
-              <img :src="thumbnail" />
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div class="article-grid">
-        <!-- article componenet reference -->
-        <!-- <ArticleList :isPaginated="true" :postsPerPage="10" /> -->
-      </div>
-    </div>
+    <ArticleList :isPaginated="true" :postsPerPage="10" />
   </div>
 </template>
 
@@ -65,19 +50,26 @@ export default {
   width: 12vw;
 }
 
+.article-grid-container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
 .projects-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 100%;
-  perspective: 1000px;
+  perspective: 2000px;
 
   background-color: white;
 }
 
 .projects-image > img {
-  width: 100%;
+  width: 600px;
   height: 100%;
   object-fit: cover;
 }

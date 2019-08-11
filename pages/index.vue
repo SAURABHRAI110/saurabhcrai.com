@@ -346,22 +346,7 @@
 
     <!-- Blog Article -->
 
-    <blogarticle
-      articleCategory="Coding Stuff"
-      articleDate="Jan 12, 2019"
-      articleHeading="The Good, the bad, my 4 years of College Life. The things of lifetime"
-      articlePara="The lessons and lesson learned- a journey for little things or let me rephrase it A journey of that me to this me for the better."
-      articleLink="https://medium.com/p/400360751916/edit"
-      articleThumbnail="/blog1.jpg"
-    />
-    <blogarticle
-      articleCategory="Coding Stuff"
-      articleDate="Jan 12, 2019"
-      articleHeading="The Good, the bad, my 4 years of College Life. The things of lifetime"
-      articlePara="The lessons and lesson learned- a journey for little things or let me rephrase it A journey of that me to this me for the better."
-      articleLink="https://medium.com/p/400360751916/edit"
-      articleThumbnail="/blog1.jpg"
-    />
+    <ArticleList :isPaginated="true" :postsPerPage="2" />
 
     <!-- view more article -->
     <div class="more-about-me">
@@ -378,14 +363,15 @@
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
-import Blogarticle from '~/components/blogarticle'
+
+import ArticleList from '~/components/ArticleList'
 
 export default {
   components: {
     Thumbnail,
     Discovermore,
     Homepeople,
-    Blogarticle
+    ArticleList
   }
 
   // data() {
