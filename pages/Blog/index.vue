@@ -39,6 +39,7 @@
 <script>
 import ArticleList from '~/components/ArticleList'
 export default {
+  layout: 'blog',
   components: {
     ArticleList
   }

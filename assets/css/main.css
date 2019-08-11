@@ -3334,11 +3334,10 @@ Akcent Colour
 
 .blog-container {
   position: relative;
-  width: 100%;
+  width: 80%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 2.4rem;
   padding-right: 2.4rem;
 }
 
@@ -3365,12 +3364,14 @@ Akcent Colour
 
 .article-title {
   padding-top: 1rem;
-  font-size: 2.5rem;
-  transition: color .3s
+  font-size: 30px;
+  transition: color .3s;
+  min-height: 50px;
 }
 
 .article-description {
   margin: 0;
+  font-size: 20px;
   color: #767676;
 }
 
@@ -3395,4 +3396,17 @@ Akcent Colour
 .article-info_heading {
   font-size: 35px;
   line-height: 35px;
+}
+
+@media screen and (max-width:999px) {
+  .all-article-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width:600px) {
+  .blog-container {
+    margin-left: 7%;
+  }
 }
