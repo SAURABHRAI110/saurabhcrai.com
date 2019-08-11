@@ -72,6 +72,85 @@ export default {
 </script>
 
 <style scoped>
+/* blog all article */
+
+.blog-container {
+  position: relative;
+  width: 80%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 2.4rem;
+}
+
+.all-article-grid {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+  display: grid;
+}
+
+.single-article {
+  background-color: transparent;
+}
+
+.image-placeholder {
+  overflow: hidden;
+  line-height: 0;
+}
+
+.image-placeholder img {
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+}
+
+.article-title {
+  padding-top: 1rem;
+  font-size: 30px;
+  color: #1f1f1f;
+  transition: color 0.3s;
+  min-height: 50px;
+}
+
+.article-description {
+  margin: 0;
+  font-size: 20px;
+  color: #767676;
+}
+
+.article-thumbnail {
+  max-width: 40%;
+}
+
+.article-thumbnail img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.article-info > div {
+  margin: 30px 40px 30px 100px;
+  position: relative;
+}
+
+.article-info_heading {
+  font-size: 35px;
+  line-height: 35px;
+}
+
+@media screen and (max-width: 999px) {
+  .all-article-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .blog-container {
+    margin-left: 7%;
+  }
+}
+
 .projects-wrapper {
   display: flex;
   justify-content: center;
@@ -159,5 +238,9 @@ export default {
 .projects-wrapper-top:hover .projects-card-wrapper .projects-image {
   transition-delay: 200ms;
   transform: scale(1);
+}
+
+.single-article:hover .article-title {
+  color: var(--primary-color);
 }
 </style>
