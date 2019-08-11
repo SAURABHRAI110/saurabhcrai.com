@@ -16,7 +16,12 @@
                     class="article-thumbnail"
                   />
                 </div>
+
                 <div class="projects-content">
+                  <div class="published-time">
+                    <span>Published on</span>
+                    <span>{{ post.ctime }}</span>
+                  </div>
                   <h3 class="article-title">{{ post.title }}</h3>
                   <p class="article-description">{{ post.description }}</p>
                 </div>
@@ -106,8 +111,13 @@ export default {
   transition: all 0.3s ease;
 }
 
+.published-time {
+  padding: 31px 0px 0px 0px;
+}
+
 .article-title {
-  padding-top: 1rem;
+  padding: 0px 0px 0px 0px;
+  margin: 11px 0px 14px 0px;
   font-size: 30px;
   color: #1f1f1f;
   transition: color 0.3s;
@@ -159,6 +169,18 @@ export default {
   .blog-container {
     margin-left: 7%;
   }
+  .article-title {
+    font-size: 22px;
+  }
+
+  .article-description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .blog-container {
+    padding-right: 0rem;
+  }
 }
 
 .projects-wrapper {
@@ -202,13 +224,15 @@ export default {
 .projects-content {
   /* position: absolute; */
   text-align: left;
-  padding: 0px 0px 0px 10px;
+  padding: 5px 9px 22px 10px;
   display: inline-block;
   z-index: 10;
   overflow: hidden;
   opacity: 1;
   transition: all 0.45s cubic-bezier(0.475, 0.425, 0, 0.995);
   color: rgb(31, 31, 31);
+  /* background-color: #f7f7f7; */
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .projects-wrapper-top {
