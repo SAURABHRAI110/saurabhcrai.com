@@ -7,7 +7,7 @@
             <div class="projects-wrapper item1">
               <div class="projects-card-wrapper">
                 <div class="projects-card"></div>
-                <div class="image-placeholder" v-if="post.cover_image">
+                <div class="image-placeholder projects-image" v-if="post.cover_image">
                   <img
                     :src="require(`~/assets/blog/${post.thumbnail_image}`)"
                     :alt="post.cover_image_cp"
@@ -16,10 +16,10 @@
                     class="article-thumbnail"
                   />
                 </div>
-              </div>
-              <div class="projects-content">
-                <h3 class="type-sub2">{{ thumbnailName }}</h3>
-                <p class="type-sub3">{{ thumbnailDescription }}</p>
+                <div class="projects-content">
+                  <h3 class="article-title">{{ post.title }}</h3>
+                  <p class="article-description">{{ post.description }}</p>
+                </div>
               </div>
             </div>
           </div>
@@ -32,8 +32,7 @@
               class="article-thumbnail"
             />
           </div>-->
-          <h3 class="article-title">{{ post.title }}</h3>
-          <p class="article-description">{{ post.description }}</p>
+
           <!-- <p class="article-date">Published on {{ post.ctime }}</p>
         <div class="article-read-more">
           <span class="link-effect hover-link">
@@ -85,8 +84,11 @@ export default {
 
 .all-article-grid {
   grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
+  grid-gap: 60px;
   display: grid;
+}
+.all-article-grid > div:nth-child(2n) {
+  padding-top: 50px;
 }
 
 .single-article {
@@ -143,6 +145,14 @@ export default {
     display: flex;
     flex-direction: column;
   }
+
+  .all-article-grid > div:nth-child(2n) {
+    padding-top: 0px;
+  }
+
+  .single-article {
+    padding-bottom: 80px;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -173,7 +183,7 @@ export default {
 
   border-radius: 0.1rem;
   overflow: hidden;
-  cursor: url('/cnblack.svg'), auto;
+  /* cursor: url('/cnblack.svg'), auto; */
 }
 
 .projects-image {
@@ -190,14 +200,12 @@ export default {
 }
 
 .projects-content {
-  position: absolute;
-  right: -4%;
-  text-align: right;
-  bottom: 9%;
+  /* position: absolute; */
+  text-align: left;
+  padding: 0px 0px 0px 10px;
   display: inline-block;
   z-index: 10;
   overflow: hidden;
-  white-space: nowrap;
   opacity: 1;
   transition: all 0.45s cubic-bezier(0.475, 0.425, 0, 0.995);
   color: rgb(31, 31, 31);
