@@ -39,13 +39,15 @@ export default {
       {
         src: 'https://rawcdn.githack.com/mburakerman/prognroll/0feda211643153bce2c69de32ea1b39cdc64ffbe/src/prognroll.js',
         body: true,
-        async: true
+        async: true,
+        ssr: false
 
       },
       {
         src: '/easescroll.js',
         body: true,
-        async: true
+        async: true,
+        ssr: false
 
       },
 

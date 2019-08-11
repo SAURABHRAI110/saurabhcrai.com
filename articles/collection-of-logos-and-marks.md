@@ -3,7 +3,7 @@ title: BRANDING, LOGO DESIGN, ILLUSTRATION, & HAND LETTERING
 published: true
 description: A collection of logos and marks that I've designed over the last few years. Each one of these started off in a sketchbook, on a napkin, or on a post-it note, and miraculously made its way to my
 tags: javascript,vue,showdev,beginners
-ctime: 2019-09-12
+ctime: 2019-02-12
 ---
 
 ##BRANDING, LOGO DESIGN, ILLUSTRATION, & HAND LETTERING

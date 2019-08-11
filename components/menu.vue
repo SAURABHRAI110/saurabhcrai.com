@@ -1,6 +1,5 @@
 <template>
   <div class="nav-container">
-    <Logo />
     <nuxt-link to="/">
       <div class="logo">
         <svg
