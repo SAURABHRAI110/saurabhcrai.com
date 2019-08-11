@@ -907,16 +907,11 @@ view more work*/
 
 
 /* blog css to be put in blog page later  */
+
+
 .blog-page {
   position: relative;
 }
-
-.b-hero-container {
-  width: 100%;
-  height: 95vh;
-  position: fixed;
-}
-
 
 .b-hero-container {
   width: 100%;
@@ -925,8 +920,7 @@ view more work*/
 }
 
 .b-heading-container {
-  padding-top: 150px;
-  padding-bottom: 9%;
+  padding: 150px 0px 9% 0px;
   width: 50%;
 }
 
@@ -936,17 +930,20 @@ view more work*/
 
 @media screen and (max-width: 1400px) {
   .b-heading-container {
-    padding-bottom: 9%;
     width: 60%;
   }
 }
 
 @media screen and (max-width: 1200px) {
   .b-heading-container {
-    padding-top: 250px;
-    padding-bottom: 9%;
     width: 70%;
 
+  }
+}
+
+@media screen and (max-width:999px) {
+  .b-heading-container {
+    padding: 91px 0px 102px 0px;
   }
 }
 
@@ -972,7 +969,6 @@ view more work*/
 .a-subheading_2 {
   margin-left: 5px !important;
   margin-bottom: 0px;
-
   margin-top: -37px;
 }
 
@@ -1005,7 +1001,7 @@ view more work*/
 
 /* Blog article section */
 
-.article-grid-container {}
+
 
 .blog-hero_heading {
   padding: 100px 0px 40px 0px;
@@ -1077,6 +1073,8 @@ view more work*/
   letter-spacing: 3px;
   text-transform: uppercase;
 }
+
+
 
 @media screen and (max-width:800px) {
   .a-h-subheading {

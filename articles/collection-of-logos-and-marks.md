@@ -6,7 +6,7 @@ tags: javascript,vue,showdev,beginners
 ctime: 2019-05-12
 cover_image: 1.jpg
 cover_image_description: Something Related to image2
-thumbnail_image: thumbnail-the-bbd-times-story.jpg
+thumbnail_image: my college-days.jpg
 
 ---
 
