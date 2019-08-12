@@ -268,7 +268,7 @@
               <img src="~assets/img/about/a-tools-21.svg" alt="Pen & Paper svg icon" />Pen & Paper
             </span>
             <span>
-              <img src="~assets/img/about/a-tools-20.svg" alt="New Stuff svg icon" />+New Stuff
+              <img src="~assets/img/about/a-tools-20.svg" alt="New Stuff svg icon" />+Trying New Stuff
             </span>
           </div>
         </div>
