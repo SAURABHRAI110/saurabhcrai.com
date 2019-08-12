@@ -89,10 +89,24 @@
         <nuxt-link to="/blog/" class="level-left">&larr; Back to blog</nuxt-link>
       </div>
     </div>
+
+    <!-- Blog Post Footer -->
+    <p>
+      Caught a mistake or want to contribute to the blog?
+      <span class="red">
+        <a
+          :href="`https://github.com/SAURABHRAI110/saurabhcrai.com/tree/master/articles/${post.slug}`"
+          target="_blank"
+          rel="noopener"
+        >Edit this page on GitHub!</a>
+      </span>
+    </p>
   </section>
 </template>
 
 <script>
+import Contribute from '~/components/blog/Contribute.vue'
+
 const fm = require('front-matter')
 const md = require('markdown-it')({
   html: true,

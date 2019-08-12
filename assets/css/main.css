@@ -3347,7 +3347,6 @@ hr.section-divider {
 hr.section-divider:before {
   --x-height-multiplier: 0.342;
   --baseline-multiplier: 0.22;
-
   font-weight: 400;
   font-style: italic;
   font-size: 30px;
@@ -3377,4 +3376,21 @@ hr.section-divider:before {
     margin-top: 44px;
     margin-bottom: 34px;
   }
+}
+
+
+/* blog post footer */
+
+.blog-post-footer {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.log-post-footer .git-edit {
+  align-content: center;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  position: relative;
+
 }
