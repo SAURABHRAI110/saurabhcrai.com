@@ -91,6 +91,13 @@
         </p>
 
         <p class="para hero-para black70">
+          As a software engineer, I enjoy bridging the gap between
+          engineering and design — combining my technical knowledge
+          with my keen eye for design to create a beautiful product.
+          My goal is to always build applications that are scalable and efficient
+          under the hood while providing engaging, pixel-perfect user experiences.
+        </p>
+        <p class="para hero-para black70">
           I love what I do. The combination of business goals, mixed with
           human necessity, mixed with solid design nad challenges that put me on edge is what gets me going every
           day. This might sound cliche, I wake up each day to do something new and learn form them.
@@ -100,7 +107,8 @@
 
         <p class="para hero-para black70">
           I am Crazzy about Ice-tea. You can make me do anything over Ice-Tea. My friends
-          do this all the time.
+          do this all the time. When I'm not in front of a computer screen, I'm probably amidst nature,
+          trying to get some decent shot on my Nikon D5200 or just chilling out with friends or with myself.
         </p>
       </div>
     </div>
