@@ -3144,6 +3144,10 @@ Akcent Colour
 
 /* blog article layout */
 
+.reveal-block.theme_blog_post::before {
+  background: #3ae8ff;
+}
+
 .contain_blog {
   /* margin-left: 20%; */
   margin-right: 18.4%;
@@ -3325,4 +3329,52 @@ Akcent Colour
 .author-name {
   position: absolute;
   top: 0%;
+}
+
+
+hr.section-divider {
+  display: block;
+  border: 0;
+  text-align: center;
+  overflow: visible;
+}
+
+hr.section-divider {
+  margin-top: 54px;
+  margin-bottom: 34px;
+}
+
+hr.section-divider:before {
+  --x-height-multiplier: 0.342;
+  --baseline-multiplier: 0.22;
+
+  font-weight: 400;
+  font-style: italic;
+  font-size: 30px;
+  letter-spacing: .6em;
+}
+
+hr.section-divider:before {
+  content: '...';
+  display: inline-block;
+  margin-left: .6em;
+  color: rgba(0, 0, 0, .68);
+  position: relative;
+  top: -30px;
+  opacity: .8;
+}
+
+
+@media screen and (max-width:999px) {
+  hr.section-divider {
+    margin-top: 60px;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width:800px) {
+  hr.section-divider {
+    margin-top: 44px;
+    margin-bottom: 34px;
+  }
 }

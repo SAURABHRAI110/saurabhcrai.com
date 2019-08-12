@@ -156,14 +156,14 @@
           <div class="pm black70">
             <div class="a-c_layout">
               <span>HTML</span>
-              <span>CSS</span>
+              <span>CSS/Saas</span>
               <span>Vue.js</span>
               <span>NuxtJs Framework</span>
               <span>Green shock animation platform (GSAP)</span>
               <span>Bootstrap</span>
               <span>Github</span>
               <span>Codepen</span>
-              <span>Saas</span>
+              <span>Chrome DevTools</span>
               <span>Staring at others code</span>
             </div>
           </div>
