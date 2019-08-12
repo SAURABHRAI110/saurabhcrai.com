@@ -157,8 +157,8 @@
             <div class="a-c_layout">
               <span>HTML</span>
               <span>CSS</span>
-              <span>Vue Framework</span>
-              <span>Nuxt Framework</span>
+              <span>Vue.js</span>
+              <span>NuxtJs Framework</span>
               <span>Green shock animation platform (GSAP)</span>
               <span>Bootstrap</span>
               <span>Github</span>
