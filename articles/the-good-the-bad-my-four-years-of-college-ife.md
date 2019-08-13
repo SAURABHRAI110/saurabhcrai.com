@@ -18,7 +18,9 @@ Once you enter a college, you are almost 18(an adult). There will be many 'small
 
 What you're about to read is a big part of my college days experience, lessons and it's not something I take lightly. I put a lot of thought into what I'd want 20-something-year-olds to learn from me and the things I gave up. It took a lot of efforts to connect all the dots. I pour my heart and soul in this story, opening the door for everyone to see what I see, to feel what I feel.
 
-At this time you might be working in some cool office, some will be preparing for the next CAT, GATE, some will be going for civil services, govt. jobs, Some will be enjoying life as it is,  some will still be figuring out what they wanna do with their life, well this is a lifetime question, answer for it will change as time goes by. Whatever, now and then memories of those days hits you and you start to feel all that back again. Here is some of the thing I got to know that make me who I am today and in hope when you read all this, you feel somewhat connected. 
+At this time you might be working in some cool office, some will be preparing for the next CAT, GATE, some will be going for civil services, govt. jobs, Some will be enjoying life as it is,  some will still be figuring out what they wanna do with their life, well this is a lifetime question, answer for it will change as time goes by. Whatever, now and then memories of those days hits you and you start to feel all that back again. Here is some of the thing I got to know that make me who I am today and in hope when you read all this, you feel somewhat connected.
+
+> This line is part of the same quote. I cannot even imagine where I would be today were it not for that handful of
 
 
 ### Make friends, a lot them
