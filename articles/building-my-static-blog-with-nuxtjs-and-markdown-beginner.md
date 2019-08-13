@@ -4,27 +4,24 @@ published: true
 description: A summary of my ongoing journey to get a statically generated blog up and running with the help of NuxtJS and Markdown
 tags: javascript,vue,showdev,beginners
 ctime: 2019-08-10
-cover_image: 1.jpg
-cover_image_description: Something Related to image2
-thumbnail_image: thumbnail-the-bbd-times-story.jpg
+cover_image: building-my-blog.jpg
+cover_image_description: Code ONN
+thumbnail_image: building-my-blog.jpg
 
 ---
 
 
-> This post originally appeared on [Dev.to](https://dev.to/nirebu/building-a-static-blog-with-nuxtjs-and-markdown-as-a-beginner-pkf) when this site had yet to support functional blogging
 
 
-Hi there, this is my first post here... or anywhere since I've never blogged before! I'm [Nicolò Rebughini](https://nirebu.com/), a sysadmin trying to get a hold of modern web development pratices. I've specialised in CS at high school, but had been a video post production tech for many years, and came back to the IT world a little more than a year ago wearing the sysadmin hat. Right now I'm updating myself and learning to use tools like [Ansible](https://ansible.com/) and [Docker](https://docker.com/) to standardise and streamline the stack of my workplace.
+Hi there, this is my first post here... or anywhere since I've never blogged before!  This is a journey of mine to implement a functionl blog using markdown with all nuxt features. 
 
-## Beginning of the journey
+### Beginning of the journey
 
-I left the development and operations worlds when Bootstrap's first version wasn't even released (Wikipedia says it happened in 2011), after exploring the now infinite options and experimenting for too much time I've finally made it: my [JAM Stack](https://jamstack.org/) blog is shaping up. You can also explore its source code on [my Github repo](https://github.com/nirebu/nirebu-2019/).
 
-As a totally green web developer, I started this website with the tools I already knew, so I cobbled together a single `index.html` webpage and tried some new toys that have come a long way since I last went in and written something from scratch. [Explore the source](https://github.com/nirebu/nirebu-personal-website/) for the 2018 version on Github.
+As a totally green web developer, I started this website with the tools I already knew, so I cobbled together a single `index.html` webpage and tried some new toys that have come a long way since I last went in and written something from scratch. 
 
-After being marveled by huge timesavers like hot reloading, the latest innovations in CSS frameworks (welcome [Bulma](https://bulma.io/)) and deploying it all for free on Firebase, I went on looking for means I could augment it through.
 
-## Enter NuxtJS
+### Enter NuxtJS
 
 Being brand new to all these new fancy Javascript frameworks I spent an absurd amount of time just by trying them out and experimenting with them, not counting the time spent just to get the hang of some obscure JS concepts.
 
@@ -32,7 +29,7 @@ Then... it finally clicked when I found about [NuxtJS](https://nuxtjs.org/).
 
 This will be a summary of the things I had to do in order to make this website and blog work the way I wanted: static website, markdown blog posts and freely hosted (this time on [Netlify](https://netlify.com/))
 
-## Creating a NuxtJS website
+### Creating a NuxtJS website
 
 Initializing a new NuxtJS website is as easy as running a single command
 
@@ -45,7 +42,7 @@ I set the `Nuxt mode` to `Universal` to reap the rewards of server side rendered
 
 I wanted to replace my old website with this new (only under the hood) version, so I had to bring over the old source code, slapping the content of `index.html` in the `<template>` tag in `pages/index.vue`
 
-## Loading Bulma
+### Loading Bulma
 
 How the heck do I load Bulma here? Probably my solution isn't the cleanest or most elegant, but here it is:
 
@@ -77,7 +74,7 @@ module.exports = {
 
 After setting the correct path of the `bulma.sass` file in my `main.scss` all the styles fixed themselves. Yay! Success! (After hours of trial and error)
 
-## Refactoring website header and footer in components
+### Refactoring website header and footer in components
 
 To take advantage of the intrinsic modularisation of Nuxt, I split the navbar and the footer in separate components, so I could use them in the default layout for the pages.
 
@@ -105,7 +102,7 @@ export default {
 </script>
 ```
 
-## Adding Markdown support
+### Adding Markdown support
 
 This has been a major pain point since I tried it the first time. The following is the way that I managed to set it up. If someone wants to show me the 'real' way, please make a PR to correct this article or my source, I'd be happy to learn about it.
 
@@ -132,7 +129,7 @@ module.exports = {
 }
 ```
 
-## Separating Markdown content and metadata
+### Separating Markdown content and metadata
 
 In the `pages/blog/_post/index.vue` file is where the magic happens (at least for me). Given the fact that `markdownit` doesn't support reading the markdown metadata, where the article info is stored, we need to decouple the process of getting the content and the attributes (as are called by front-matter):
 
@@ -189,7 +186,7 @@ With this data filled up, we can populate some elements:
 
 Right now, if you navigate to the path `blog/some-markdown-file` you should see the content and attributes displayed.
 
-## Generating the routes for the blog posts
+### Generating the routes for the blog posts
 
 We are one step closer to having a statically generated blog powered by markdown but, before deploying, we have to make one extra step.
 
@@ -232,7 +229,7 @@ module.exports = {
 };
 ```
 
-## Wrapping up
+### Wrapping up
 
 If I didn't forget anything, you should have at least a resemblance of a Markdown blog post viewer and you should be able to succesfully build all the pages and deploying your blog to your favourite static site hosting service.
 
