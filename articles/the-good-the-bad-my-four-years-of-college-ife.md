@@ -8,6 +8,7 @@ cover_image: college-days-cover.jpeg
 cover_image_alt:  Colllege group, Team Pic, People together happy.
 cover_image_description: People ❤ | My College Community Team (The BBD Times)
 thumbnail_image: thumbnail-the-bbd-times-story.jpg
+github_doclink: the-good-the-bad-my-four-years-of-college-ife.md
 
 ---
 
@@ -41,4 +42,4 @@ What I wanna convey is find your love and love with all your heart, be there for
 ### Have people who care for you.
 You already be knowing this, the people you surround yourself are the people responsible for your most of the growth, development, happiness, sadness, every emotion you feel. If you have people who care for you, consider yourself blessed. When coming to this, I consider myself very lucky. During those 4 years, I came to know many people, some from the heart, who were the people who always looked over me, guided me, scolded me, accepted me as I am and helped me, pushed me to come out of my comfort zone and to look beyond. If you are reading this, know this I am very thankful to you. A ton of thanks to TBT family and my classmates and to whoever's we felt a connection.
 
-?[]
+>These woods are lovely dark and deep, and i have promises to keep and miles to go before i sleep.

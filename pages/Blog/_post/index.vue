@@ -5,8 +5,10 @@
     <div class="blog-post-hero">
       <div class="contain_blog">
         <div class="b-p-heading">
-          <div class="back-to-blog" data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
-            <nuxt-link to="/blog">← Back to Blog</nuxt-link>
+          <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
+            <div class="back-to-blog">
+              <nuxt-link to="/blog">← Back to Blog</nuxt-link>
+            </div>
           </div>
 
           <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
@@ -87,18 +89,26 @@
       <article>
         <div v-html="content"></div>
       </article>
-      <div class="level">
-        <nuxt-link to="/blog/" class="level-left">&larr; Back to blog</nuxt-link>
+    </div>
+    <div class="p-zig-zag-line">
+      <div>
+        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
       </div>
     </div>
-
+    <div class="contain_blog">
+      <div class="b-p-hl"></div>
+      <div class="back-to-blog_2">
+        <nuxt-link to="/blog">← Back to Blog</nuxt-link>
+      </div>
+      <div class="b-p-hl"></div>
+    </div>
     <!-- Blog Post Footer -->
     <div class="contain_blog github-edit">
       <p class="ps">
         Caught a mistake or want to contribute to the blog?
         <span class="red">
           <a
-            :href="`https://github.com/SAURABHRAI110/saurabhcrai.com/tree/master/articles/${attributes.github_doclink}`"
+            :href="`https://github.com/SAURABHRAI110/saurabhcrai.com/blob/master/articles/${attributes.github_doclink}`"
             target="_blank"
             rel="noopener"
           >Edit this page on GitHub!</a>

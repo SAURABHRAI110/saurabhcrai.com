@@ -27,7 +27,10 @@
           on my website blog. I write about
           <span
             class="underline-magical"
-          >People, Psychology, UX and Development.</span>
+          >People</span>,
+          <span class="underline-magical">Psychology</span>,
+          <span class="underline-magical">UX</span> and
+          <span class="underline-magical">Development.</span>
         </p>
       </div>
     </div>

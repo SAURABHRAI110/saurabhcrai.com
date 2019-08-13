@@ -3183,6 +3183,13 @@ Akcent Colour
   font-size: 16px;
   padding: 0px 0px 20px 0px;
   position: relative;
+  transition: all 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
+
+}
+
+.back-to-blog:hover {
+  color: var(--primary-color);
+  padding-left: 10px;
 
 }
 
@@ -3381,16 +3388,11 @@ hr.section-divider:before {
 
 /* blog post footer */
 
-.blog-post-footer {
-  width: 100%;
-  height: auto;
-  position: relative;
-}
+
 
 .github-edit {
   align-content: center;
   padding: 0px 0px 0px 0px;
-  width: 100%;
   position: relative;
 
 }
@@ -3462,6 +3464,31 @@ hr.section-divider:before {
 .blog_post_style div>p {
   color: rgba(0, 0, 0, 0.84);
   line-height: 1.4em;
+}
+
+.b-p-hl {
+  border-top: 1px solid #797979;
+  width: 100%;
+  opacity: .3;
+  margin: 24px 0px 25px 0px;
+}
+
+
+.back-to-blog_2 {
+  width: 100%;
+  text-align: left;
+  color: #707070;
+  font-size: 16px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  transition: all 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.back-to-blog_2:hover {
+
+
+  color: var(--primary-color);
+  padding-left: 10px;
 
 
 }
