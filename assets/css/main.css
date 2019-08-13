@@ -3394,3 +3394,11 @@ hr.section-divider:before {
   position: relative;
 
 }
+
+.blog_post_style p:first-child::first-letter {
+
+  padding: 0 -0.1rem;
+  margin: 0px 0rem 0 0;
+  font-size: 46.7px;
+  color: var(--primary-color);
+}

@@ -1,5 +1,7 @@
 <template>
   <section :key="$route.params.post">
+    <div id="fb-root"></div>
+
     <div class="blog-post-hero">
       <div class="contain_blog">
         <div class="b-p-heading">
@@ -81,7 +83,7 @@
       </div>
     </div>
 
-    <div class="contain_blog dynamic-markdown">
+    <div class="contain_blog blog_post_style dynamic-markdown">
       <article>
         <div v-html="content"></div>
       </article>
@@ -91,16 +93,27 @@
     </div>
 
     <!-- Blog Post Footer -->
-    <p>
-      Caught a mistake or want to contribute to the blog?
-      <span class="red">
-        <a
-          :href="`https://github.com/SAURABHRAI110/saurabhcrai.com/tree/master/articles/${post.slug}`"
-          target="_blank"
-          rel="noopener"
-        >Edit this page on GitHub!</a>
-      </span>
-    </p>
+    <div class="contain_blog github-edit">
+      <p class="ps">
+        Caught a mistake or want to contribute to the blog?
+        <span class="red">
+          <a
+            :href="`https://github.com/SAURABHRAI110/saurabhcrai.com/tree/master/articles/${attributes.github_doclink}`"
+            target="_blank"
+            rel="noopener"
+          >Edit this page on GitHub!</a>
+        </span>
+      </p>
+    </div>
+
+    <div class="blog-post_comment contain_blog">
+      <div
+        class="fb-comments"
+        data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+        data-width
+        data-numposts="5"
+      ></div>
+    </div>
   </section>
 </template>
 
@@ -144,9 +157,8 @@ blockquote {
   margin-bottom: 1em;
 }
 
-h3 {
-  padding: 0px 0px 0px 0px;
-  font-size: 10px;
+#footer {
+  display: none;
 }
 </style>
 
