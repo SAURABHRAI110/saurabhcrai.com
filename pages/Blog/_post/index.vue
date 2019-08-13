@@ -105,15 +105,6 @@
         </span>
       </p>
     </div>
-
-    <div class="blog-post_comment contain_blog">
-      <div
-        class="fb-comments"
-        data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
-        data-width
-        data-numposts="5"
-      ></div>
-    </div>
   </section>
 </template>
 

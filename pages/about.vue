@@ -161,7 +161,7 @@
               <span>NuxtJs Framework</span>
               <span>Green shock animation platform (GSAP)</span>
               <span>Bootstrap</span>
-              <span>Github</span>
+              <span>Git & Github</span>
               <span>Codepen</span>
               <span>Chrome DevTools</span>
               <span>Staring at others code</span>

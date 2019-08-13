@@ -3387,13 +3387,15 @@ hr.section-divider:before {
   position: relative;
 }
 
-.log-post-footer .git-edit {
+.github-edit {
   align-content: center;
   padding: 0px 0px 0px 0px;
   width: 100%;
   position: relative;
 
 }
+
+
 
 /* markdown styling blog-post styling */
 
@@ -3435,13 +3437,8 @@ hr.section-divider:before {
 }
 
 .blog_post_style blockquote p {
-
-
-
-
-  font-size: 36px;
-
-  line-height: 150%;
+  font-size: 31px;
+  line-height: 142%;
   font-family: circular-medium;
 }
 
@@ -3450,8 +3447,14 @@ hr.section-divider:before {
 .blog_post_style blockquote::before {
   content: "“";
   position: absolute;
-  top: 15px;
+  top: 12px;
+
   left: -60px;
   font-size: 70px;
   font-style: normal;
+}
+
+.blog_post_style h3 {
+  color: #919191;
+  margin: 50px 0px 0px 0px;
 }
