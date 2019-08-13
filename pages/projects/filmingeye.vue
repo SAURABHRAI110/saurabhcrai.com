@@ -315,14 +315,9 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
       </blockquote>
     </div>
 
-    <!-- End Line  -->
-
-    <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
-
     <!-- appreciate button -->
 
     <Appreciate heading="Thanks for scrolling" subHeading="Don't forget to appreciate." />

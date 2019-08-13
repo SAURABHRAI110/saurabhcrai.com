@@ -219,7 +219,8 @@ h3 {
 p {
   font-family: circular-book;
   font-size: 27px;
-  /* line-height: 42px; */
+  line-height: 1.4em;
+
 }
 
 .just-para {
@@ -3182,6 +3183,7 @@ Akcent Colour
   color: #707070;
   font-size: 16px;
   padding: 0px 0px 20px 0px;
+  display: table-cell;
   position: relative;
   transition: all 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
 
@@ -3190,7 +3192,6 @@ Akcent Colour
 .back-to-blog:hover {
   color: var(--primary-color);
   padding-left: 10px;
-
 }
 
 .blog-post-hero h1 {
@@ -3482,6 +3483,7 @@ hr.section-divider:before {
   padding: 0px 0px 0px 0px;
   position: relative;
   transition: all 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
+  display: table-cell;
 }
 
 .back-to-blog_2:hover {

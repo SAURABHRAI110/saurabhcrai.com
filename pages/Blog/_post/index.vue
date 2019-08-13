@@ -90,16 +90,26 @@
         <div v-html="content"></div>
       </article>
     </div>
-    <div class="p-zig-zag-line">
+    <!-- <div class="p-zig-zag-line">
       <div>
         <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
       </div>
+    </div>-->
+    <div class="section-divider">
+      <hr class="section-divider" />
+    </div>
+
+    <div class="post-applause-container">
+      <span class="applause center-h-v">
+        <applause-button style="width: 70px; height: 70px;" color="#fc3a52" multiclap="true" />
+      </span>
     </div>
     <div class="contain_blog">
       <div class="b-p-hl"></div>
       <div class="back-to-blog_2">
         <nuxt-link to="/blog">← Back to Blog</nuxt-link>
       </div>
+
       <div class="b-p-hl"></div>
     </div>
     <!-- Blog Post Footer -->
@@ -160,6 +170,12 @@ blockquote {
 
 #footer {
   display: none;
+}
+
+.post-applause-container {
+  width: 100;
+  position: relative;
+  height: 100px;
 }
 </style>
 
