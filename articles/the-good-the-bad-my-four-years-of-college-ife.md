@@ -6,8 +6,8 @@ tags: javascript,vue,showdev,beginners
 ctime: 2019-08-12
 cover_image: college-days-cover.jpeg
 cover_image_alt:  Colllege group, Team Pic, People together happy.
-cover_image_description: People ❤ | My College Community Team (The BBD Times)
-thumbnail_image: thumbnail-the-bbd-times-story.jpg
+cover_image_description: People ❤ 
+thumbnail_image: myself.jpg
 github_doclink: the-good-the-bad-my-four-years-of-college-ife.md
 
 ---

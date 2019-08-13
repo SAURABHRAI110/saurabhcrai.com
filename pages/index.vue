@@ -341,12 +341,12 @@
         Problems.
         <br />Be Curious.
       </h1>
-      <p>I see myself as a kid who is both a hacker and designer. One of my main skills is to ablility to quickly learn new things if needed. I never stop learning and I always see a place for improvements. It drives everything I do.</p>
+      <p>Few of my latest blogs</p>
     </div>
 
     <!-- Blog Article -->
 
-    <ArticleList :isPaginated="true" :postsPerPage="2" />
+    <ArticleList :isPaginated="false" :postsPerPage="2" />
 
     <!-- view more article -->
     <div class="more-about-me">
