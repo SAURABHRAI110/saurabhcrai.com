@@ -65,7 +65,8 @@
           <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
-          Hi! My friedns call say to me, "You'r so talented, mera ye kam kar do". Being finny. I'm Saurabh Rai, Call me Just Saurabh.
+          Hi! my friedns say to me, "you're so talented, mera ye kam kar do". Trying to be funny. I'm Saurabh Rai,
+          Call me Just Saurabh.
           and I am currently a User experience designer at
           <a
             href="https://feedingtrends.com/"
@@ -74,19 +75,20 @@
             title="feedingtrends.com"
           >
             <span class="underline-magical">Feeding Trends</span>
-          </a> and Elevito (founded)in Lucknow, India. I consider myself a
+          </a>in Lucknow, India. I consider myself a
           multi-disciplinary designer as I love making anything, but have
           recently found a passion in creating thoughtful and enjoyable user
-          experiences through product design, and code them to if time allows.
-          I have a beutiful team of front-end developers, back-end-developers and some ninja people whom I work with and learn from them.
+          experiences through product design, and code them too if time allows.
+          I have a beautiful team of front-end developers,
+          back-end-developers and some ninja people whom I work with and learn from them.
         </p>
         <p class="para hero-para black70">
           Coming to College, I moved on to study Engineering at Babu Banarasi Das Universiy,
-          Lucknow, and began to grow myskills. Making flyers for college
+          Lucknow, and began to grow my skills. Making flyers for college
           community and friends. Doing logos and branding work for friends and
           word of mouth clients. Going to college during the day and cranking
-          on design work at night. Engieering led me to development and my
-          passion for design led me to what I am today. I Self taught myself all these years
+          on design work at night. Engineering led me to my passion for design.
+          I Self taught myself all these years
           to do things that my mind can comprehend.
         </p>
 

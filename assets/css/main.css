@@ -3459,7 +3459,7 @@ hr.section-divider:before {
 
 .blog_post_style h3 {
   color: rgba(0, 0, 0, 0.84);
-  margin: 50px 0px 0px 0px;
+  margin: 75px 0px 0px 0px;
 }
 
 .blog_post_style div>p {
@@ -3491,6 +3491,31 @@ hr.section-divider:before {
 
   color: var(--primary-color);
   padding-left: 10px;
+
+
+}
+
+@media screen and (max-width: 800px) {
+
+
+  .blog_post_style blockquote p {
+    font-size: 27px;
+    line-height: 138%;
+  }
+
+  .blog_post_style blockquote::before {
+    left: -50px;
+  }
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+  .blog_post_style blockquote::before {
+    left: -42px;
+  }
 
 
 }
