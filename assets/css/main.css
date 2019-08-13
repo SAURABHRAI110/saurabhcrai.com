@@ -3455,6 +3455,13 @@ hr.section-divider:before {
 }
 
 .blog_post_style h3 {
-  color: #919191;
+  color: rgba(0, 0, 0, 0.84);
   margin: 50px 0px 0px 0px;
+}
+
+.blog_post_style div>p {
+  color: rgba(0, 0, 0, 0.84);
+  line-height: 1.4em;
+
+
 }
