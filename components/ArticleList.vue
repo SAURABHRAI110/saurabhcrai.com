@@ -82,8 +82,7 @@ export default {
   position: relative;
   width: 80%;
   height: auto;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto;
   padding-right: 2.4rem;
 }
 
@@ -163,11 +162,17 @@ export default {
   .single-article {
     padding-bottom: 80px;
   }
+
+  .blog-container {
+    width: 80%;
+
+    padding-right: 0rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
   .blog-container {
-    margin-left: 7%;
+    width: 86%;
   }
   .article-title {
     font-size: 22px;
@@ -175,11 +180,6 @@ export default {
 
   .article-description {
     font-size: 16px;
-  }
-}
-@media screen and (max-width: 800px) {
-  .blog-container {
-    padding-right: 0rem;
   }
 }
 
