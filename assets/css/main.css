@@ -374,8 +374,10 @@ p {
 @media screen and (max-width: 500px) {
   .contain {
     /* margin-left: 20%; */
-    margin-right: 9%;
+    /* margin-right: 9%; */
+    margin-right: 4%;
     margin-left: 7%;
+
   }
 }
 

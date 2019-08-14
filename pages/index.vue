@@ -23,7 +23,7 @@
         data-aos="fade-up"
         data-aos-duration="900"
         data-aos-delay="200"
-      >UI/UX Designer | Photographer | Artist</div>
+      >UX Designer & Front-End Developer</div>
     </div>
 
     <div
@@ -427,6 +427,7 @@ export default {
   grid-gap: 10px;
   white-space: nowrap;
   padding-top: 30px;
+  overflow: hidden;
 }
 
 .h-sec2-container {

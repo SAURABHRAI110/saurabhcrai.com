@@ -125,7 +125,9 @@
       </div>
       <div class="footer-bottom-left"></div>
       <div class="footer-bottom-right">
-        <p class="footer-dev-text">©2019 Saurabh Rai Coded with love and coffee</p>
+        <p
+          class="footer-dev-text"
+        >©2019 — Web app designed and coded by Saurabh Rai using Vue.js + Nuxt.</p>
       </div>
     </div>
   </footer>
@@ -185,8 +187,8 @@ export default {}
 }
 
 .footer-dev-text {
-  color: black;
-  font-size: 14px;
+  color: rgb(46, 46, 46);
+  font-size: 12px;
   text-align: center;
   top: 20%;
   position: relative;
@@ -194,7 +196,6 @@ export default {}
 
 .footer-dev-text:hover {
   color: var(--primary-color);
-  cursor: pointer;
 }
 
 .text-slide-in {
