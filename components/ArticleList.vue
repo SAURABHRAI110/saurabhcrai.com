@@ -172,7 +172,7 @@ export default {
 
 @media screen and (max-width: 600px) {
   .blog-container {
-    width: 86%;
+    width: 91%;
   }
   .article-title {
     font-size: 22px;

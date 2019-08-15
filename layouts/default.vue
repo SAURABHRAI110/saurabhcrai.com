@@ -1,5 +1,6 @@
 <template>
   <div>
+    <preloader />
     <Menu />
     <!-- <Nav/> -->
     <nuxt />
@@ -12,6 +13,7 @@
 <script>
 import Footer from '~/components/footer'
 import Menu from '~/components/menu'
+
 export default {
   components: {
     Footer,

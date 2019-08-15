@@ -23,7 +23,7 @@
         data-aos="fade-up"
         data-aos-duration="900"
         data-aos-delay="200"
-      >UX Designer & Front-End Developer</div>
+      >UX Designer & Owner of this Website for 1 years</div>
     </div>
 
     <div
