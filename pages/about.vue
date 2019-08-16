@@ -65,9 +65,7 @@
           <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
-          Hi! my friedns say to me, "you're so talented, mera ye kam kar do". Trying to be funny. I'm Saurabh Rai,
-          Call me Just Saurabh.
-          and I am currently a User experience designer at
+          Hi! I'm Saurabh Rai, and I am currently a User experience designer at
           <a
             href="https://feedingtrends.com/"
             target="_blank"
