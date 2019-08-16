@@ -60,11 +60,12 @@ export default {
 }
 
 .applause {
-  margin-top: 20px;
+  padding: 40px;
   position: absolute;
   top: 47%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 
 @media screen and (max-width: 500px) {

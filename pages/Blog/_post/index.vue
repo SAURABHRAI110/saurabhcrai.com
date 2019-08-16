@@ -100,7 +100,7 @@
     </div>
 
     <div class="post-applause-container">
-      <span class="applause center-h-v">
+      <span class="applause">
         <applause-button style="width: 70px; height: 70px;" color="#fc3a52" multiclap="true" />
       </span>
     </div>
@@ -210,6 +210,15 @@ blockquote {
 .disqus-container {
   padding: 0px 24px 43px 30px;
   opacity: 1;
+}
+
+.applause {
+  padding: 40px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
 }
 </style>
 
