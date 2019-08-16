@@ -13,7 +13,6 @@ github_doclink: the-good-the-bad-my-four-years-of-college-ife.md
 ---
 
 I am gonna open my heart. OK. So let's begin.
-
 The age 19, 20 and 21 ain't easy, you lose friends, you make mistakes, you fall, you fail, you realize things, you hit reality, you lose yourself, but in the end you find yourself and you become stronger and those are still the best years of your life too.
 Once you enter a college, you are almost 18(an adult). There will be many 'small' instances that will have a 'big' impact on your life. You will meet a lot of people, out of them some will become your best friend for life, some you will hate no matter what, some will become close like really close. Even there will be people whom you never want to see and just wanna punch them in the face. I got three names for it. Let's not go in that way.
 
