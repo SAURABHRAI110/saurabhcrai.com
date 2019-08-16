@@ -37,11 +37,11 @@ The most beautiful people you'll ever meet aren't always the ones who catch your
 Love is not always kind either. Sometimes love is harsh. Sometimes it's a brutally honest truth. Sometimes it's tough love. Sometimes you do things for someone and they just, " Don't care" but you do it because you love them. I'm not saying this is healthy, but this is what love is. No more on this, I always lose focus on this topic.
 What I wanna convey is find your love and love with all your heart, be there for them even when you don't feel like it. Just that. Love makes you a caring person. You must be a caring person man. It transforms you in a way you never have expected.
 
-###Have people who care for you.
+### Have people who care for you.
 
 You already be knowing this, the people you surround yourself are the people responsible for most of your growth, development, happiness, sadness. If you have people who care for you, consider yourself blessed. When coming to this, I consider myself very lucky. During those 4 years, I came to know many people, some from the heart, who were the people who always looked over me, guided me, scolded me, accepted me as I am and helped me, pushed me to come out of my comfort zone and to look beyond. If you are reading this, know this I am very thankful to you. A ton of thanks to TBT family and my classmates and to whoever's I felt a connection.
 
-###Have people whom you care
+### Have people whom you care
 
 I never knew that in these 4 years there will be people in my life that will mean so much to me. People for whom I will be willing to cross an ocean. People for whom I will be pushing my limits. People for whom I will be crying and have so many feelings. People for whom I can do what I can without expectations.
 
