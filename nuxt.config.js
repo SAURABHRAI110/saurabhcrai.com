@@ -60,6 +60,14 @@ export default {
         ssr: false
 
       },
+      {
+        src: "//code.tidio.co/mbwzt8zqtij9tn970lu3gntjtzha6rou.js",
+        body: true,
+        async: true,
+        ssr: false
+
+
+      },
 
       {
         src: '/main.js',

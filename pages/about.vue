@@ -291,7 +291,7 @@
 
         <div class="pm black70">
           <div class="a-p_layout_column">
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/filmingeye">
               <div class="a-p_layout_row black70">
                 <span>2019</span>
                 <span>Filming Eye</span>
@@ -300,137 +300,119 @@
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/ft-events">
               <div class="a-p_layout_row black70">
                 <span>2019</span>
-                <span>Filming Eye</span>
+                <span>FT Event</span>
+                <span>Web, Admin</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/dreamz">
+              <div class="a-p_layout_row black70">
+                <span>2019</span>
+                <span>Dreamz</span>
+                <span>App, Prototyping</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/elevito">
+              <div class="a-p_layout_row black70">
+                <span>2018</span>
+                <span>Elevito</span>
                 <span>Web, Branding</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/feeding-trends">
               <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
+                <span>2018</span>
+                <span>Feeding Trends</span>
+                <span>Web, Branding, Print</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/awesome-inc">
+              <div class="a-p_layout_row black70">
+                <span>2018</span>
+                <span>Awesome Incorporation</span>
+                <span>Identity, Print</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/bharatrohan">
+              <div class="a-p_layout_row black70">
+                <span>2018</span>
+                <span>BharatRohan</span>
+                <span>Admin, App, Web</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/dear-zindagi">
+              <div class="a-p_layout_row black70">
+                <span>2018</span>
+                <span>Dear Zindagi</span>
+                <span>Print, Logo</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/prepowl">
+              <div class="a-p_layout_row black70">
+                <span>2018</span>
+                <span>Prepowl</span>
                 <span>Web, Branding</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/r3">
               <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
+                <span>2018</span>
+                <span>Read Recite Repeat</span>
+                <span>Social Media, Logo</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/mr-irritating">
               <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
+                <span>2017</span>
+                <span>Mr. Irritating</span>
+                <span>Print Design</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/thebbdtimes">
               <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
+                <span>2015</span>
+                <span>The BBD Times</span>
+                <span>Branding, Marketing, Print</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/tbt-app">
               <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
+                <span>2015</span>
+                <span>TBT App</span>
+                <span>App Design</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
 
-            <nuxt-link to="/projects">
+            <nuxt-link to="/projects/thebegining">
               <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
-                <span>↗</span>
-              </div>
-            </nuxt-link>
-
-            <nuxt-link to="/projects">
-              <div class="a-p_layout_row black70">
-                <span>2019</span>
-                <span>Filming Eye</span>
-                <span>Web, Branding</span>
+                <span>2014</span>
+                <span>The Begining</span>
+                <span>Everything Messy</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
