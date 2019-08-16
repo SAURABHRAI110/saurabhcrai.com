@@ -1,6 +1,6 @@
 // Easescroll
 
-
+import $ from 'jquery'
 
 $("html").easeScroll({
   frameRate: 60,
