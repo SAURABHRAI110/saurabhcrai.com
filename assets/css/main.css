@@ -1846,6 +1846,120 @@ view more work*/
 }
 
 
+/* get connected */
+
+.connect-container {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-color: #F0F0F0;
+  margin-top: -6px;
+  z-index: 3;
+}
+
+
+.a-social-links {
+  width: auto;
+  position: relative;
+  font-size: 27px;
+  line-height: 2em;
+}
+
+
+
+.a-social-links .a {
+  position: relative;
+}
+
+
+
+.a-social-links span {
+  padding: 18px 0px 18px 100px;
+  position: relative;
+}
+
+/* .a-t_layout span:nth-child(2n) {
+  padding-left: 100px;
+} */
+
+/* .a-t_layout span::before {
+  content: '';
+  border-top: 1px solid #797979;
+  width: 100%;
+  opacity: .5;
+  left: 0px;
+  position: absolute;
+  bottom: 0px;
+} */
+
+.a-social-links img {
+  position: absolute;
+  width: 42px;
+  margin-left: -55px;
+  margin-top: 5px;
+}
+
+
+/* social icons */
+
+.social-icon_container {
+  position: relative;
+
+}
+
+.a-social-one {
+  position: relative;
+  font-size: 16px;
+  /* float: right; */
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.a-social-two {
+  pointer-events: all;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+.a-social-three {
+  background-color: #ffffff00;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  /* border: 0.5px solid #c2c2c2; */
+
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transition: 0.2s cubic-bezier(0.4, 0, 0, 1);
+}
+
+.a-social-four {
+  position: absolute;
+  pointer-events: none;
+  transform: matrix(1, 0, 0, 1, -48, 0);
+  height: 100%;
+  transition: 0.3s cubic-bezier(0.4, 0, 0, 1);
+}
+
+.a-social-one:hover .a-social-four {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.a-social-one:hover .a-social-three {
+  transform: scale(1.08, 1.08);
+}
+
+.a-social-three>img {
+  border-style: none;
+}
+
 
 body {
   transition: background-color .3s ease;
