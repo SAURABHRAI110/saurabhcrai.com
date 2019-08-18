@@ -574,20 +574,20 @@ Mr. Irritating shall not irritate you!"
 
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
-              <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
-              <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
-              <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
+              <span>✔ Discovery</span>
+              <span>✔ Sketch</span>
+              <span>✔ Testing different Options</span>
+              <span>✔ Read Similar Novels</span>
+              <span>✔ Designed Cover</span>
+              <span>✔ Explored Marketing Ideas</span>
+              <span>✔ Made Posters, Banners</span>
+              <span>✔ Created Engazing Post for Fb and Insta</span>
+              <span>✔ learned Hindi Typography</span>
+              <span>✔ Illustrations</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+              <span>✔ Paartcipated In Book Launch</span>
+              <span>✔ Photography</span>
+              <span>✔ Do and Undo a lot</span>
             </div>
           </div>
         </div>
@@ -601,13 +601,9 @@ Mr. Irritating shall not irritate you!"
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            Despite all request and discussion the Publisher did one thing a still hate, He Made
+            the final Prints cover background Pure Red by Increasinng Contrast Overall The design.
+            In a way changing all visual. When Business goals and design goals meet. Things Happen and sometime for worst.
           </p>
         </div>
       </div>
@@ -615,17 +611,15 @@ Mr. Irritating shall not irritate you!"
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Sometimes we have to be okk with the changes that is being approved at the end despite you know its not
+        the best for your users.
       </blockquote>
     </div>
 
     <!-- End Line  -->
 
-    <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
 
     <!-- appreciate button -->

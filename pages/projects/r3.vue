@@ -15,7 +15,7 @@
       pCategory="Social Media"
       pHeading="Sharing thoughts."
       pHeadingcolor="color:#EE605C;"
-      pSubheading="to thousands of people Campaign Design."
+      pSubheading="to thousands of people  through Campaign Design."
     />
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -51,13 +51,13 @@
 
     <p class="contain just-para black90">
       The purpose of doing all this was to have a presence on Instagram and facebook. A thought provoking page or account presented in a beautiful
-      way. A consistent design and voice tone.
+      way with a consistent design and voice tone.
     </p>
     <!-- Problem -->
     <pcase
       heading="Logo"
-      para=" Just an R having a gradient background. Cool! Well to make it more consistent and so that people remmeber it
-    we tried diiferent gradient in post background. Gradient was becoming popular and now a days its very popular."
+      para=" Just an R having a gradient background. Cool! Well to make it more consistent and so that people remember it
+    we tried different gradient in post background. Gradient was becoming popular and now a days its very popular."
       theme="theme_r3"
     />
 
@@ -71,11 +71,9 @@
     <div class="r3-design-system">
       <pcase
         heading="Design System"
-        para="  1. The first thing that I came around was they don't have an existing branding.
-          <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-          existing
-          was cool for the moment but that can not be used to used on web.
-          <br>3. No copywrite, no information architecture."
+        para=" I created a design system for all the social media post. From what type of images should be used,
+        to gradient opacity and size and related stuff. It has helps us in content creation with maintaining the brand
+        consistency and now we are at 10+ on Instagram."
         theme="theme_r3"
       />
     </div>
@@ -95,16 +93,16 @@
     <pcase
       heading="Social Media: Insta and FB"
       para=" Setting up everything We have done so far applying everything
-      on fb and insta dp and facebook cover.  I designed all the instial design system. While Fahad did all the post design later on
-      following the design sytem daily on regular without missing a day. He manage the account and design and shares them
-      on Instagram. This made me think. As a designer your design are limited unless and untill it reaches to people who need
+      on fb and insta dp and facebook cover.  I designed all the initial design system. While Fahad did all the post design later on
+      following the design system daily on regular without missing a day. He manage the account and design and shares them
+      on Instagram. This made me think. As a designer your design are limited unless and until it reaches to people who need
       them through continuity in branding and marketing."
       theme="theme_r3"
     />
 
     <div class="p-quote contain red">
       <blockquote>
-        Human mind percieves about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
+        Human mind perceives about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
         expressions that will connect with everyone, rhythms that will resonate with every heart.
       </blockquote>
     </div>
@@ -215,17 +213,17 @@
               <span>✔ Research</span>
               <span>✔ Ideation</span>
               <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
+              <span>✔ Testing Different post size</span>
+              <span>✔ Taking feedback</span>
               <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
+              <span>✔ Created Design System</span>
+              <span>✔ Logo Design</span>
               <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
+              <span>✔ Created Initial Post</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+
+              <span>✔ Collaborated with content writers</span>
+              <span>✔ Delete Useles Stuffs</span>
             </div>
           </div>
         </div>
@@ -239,13 +237,9 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            Readability over everything.
+            A lot of things goes in and out even for a simple design. Just creating a logo. Sometimes it just happen in min or so sometimes it requires
+            lot of work through discovery. This one project was one of kind where readability matters most.
           </p>
         </div>
       </div>
@@ -253,17 +247,15 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        The number one factor in engagement is relevance,
+        because relevance drives out resistance.
       </blockquote>
     </div>
 
     <!-- End Line  -->
 
-    <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
 
     <!-- appreciate button -->
