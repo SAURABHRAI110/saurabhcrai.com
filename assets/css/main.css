@@ -1957,11 +1957,12 @@ view more work*/
   width: 100%;
   bottom: 0px;
   min-height: 70vh;
-
+  background-color: #F0F0F0;
+  margin-top: -27px;
 }
 
 
-.a-footer img {
+.a-footer img:nth-child(1) {
   width: 100%;
   position: absolute;
   bottom: 0px;
@@ -1982,6 +1983,13 @@ view more work*/
   transform: translate(-50%, -50%);
 }
 
+.a-footer-hand {
+  width: 130px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+}
 
 
 

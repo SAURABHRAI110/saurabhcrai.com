@@ -662,6 +662,7 @@
       <div class="a-footer_bg_text outlined">
         <span>See ya!</span>
       </div>
+      <img class="a-footer-hand" src="~assets/footer/footer-hand.png?webp" alt="hand gesture" />
     </section>
   </div>
 </template>
