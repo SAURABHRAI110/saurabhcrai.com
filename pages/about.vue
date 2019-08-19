@@ -516,21 +516,31 @@
 
         <div class="a-social-links pl">
           <span>
-            <a href="facebook.com">
+            <a
+              href="https://www.facebook.com/saurabhchandrarai"
+              target="_blank"
+              title="Facebook (new tab)"
+              rel="noopener"
+            >
               <img src="~assets/svg/facebook.svg" alt="facebook icon" />
               facebook
             </a>
           </span>
 
           <span>
-            <a href="facebook.com">
+            <a
+              href="https://www.instagram.com/saurabh.archives/"
+              target="_blank"
+              rel="noopener"
+              title="Instagram (new tab)"
+            >
               <img src="~assets/svg/instagram.svg" alt="facebook icon" />
               instagram
             </a>
           </span>
 
           <span>
-            <a href="facebook.com">
+            <a href="#" target="_blank" rel="noopener" title="Download my latest resume">
               <img src="~assets/svg/resume.svg" alt="resume icon" />
               download resume
             </a>
@@ -538,25 +548,119 @@
           </span>
 
           <span>
-            <a href="facebook.com">
-              <img src="~assets/svg/mail.svg" alt="resume icon" />
+            <a href="mailto:hello@saurabhcrai.com">
+              <img src="~assets/svg/mail.svg" alt="mail icon svg" />
               hello@saurabhcrai.com
+            </a>
+          </span>
+          <br />
+          <span>
+            <a
+              href="https://medium.com/@saurabhcrai"
+              target="_blank"
+              rel="noopener"
+              title="Medium (new tab)"
+            >
+              <img src="~assets/svg/medium.svg" alt="medium icon svg" />
+              Medium
             </a>
           </span>
 
           <span>
-            <a href="facebook.com">
-              <img src="~assets/svg/medium.svg" alt="resume icon" />
-              hello@saurabhcrai.com
+            <a
+              href="https://www.linkedin.com/in/saurabhchandrarai/"
+              target="_blank"
+              rel="noopener"
+              title="Linkdin (new tab)"
+            >
+              <img src="~assets/svg/linkedin.svg" alt="linkedin icon" />
+              Linkedin
             </a>
           </span>
+          <br />
           <span>
-            <a href="facebook.com">
-              <img src="~assets/svg/linkedin.svg" alt="resume icon" />
-              hello@saurabhcrai.com
+            <a
+              href="https://github.com/SAURABHRAI110"
+              target="_blank"
+              rel="noopener"
+              title="Github (new tab)"
+            >
+              <img src="~assets/svg/github.svg" alt="github icon" />
+              Github
+            </a>
+          </span>
+
+          <span>
+            <a
+              href="https://www.behance.net/saurabhcrai"
+              target="_blank"
+              rel="noopener"
+              title="Behance (new tab)"
+            >
+              <img src="~assets/svg/behance.svg" alt="behance icon" />
+              Behance
+            </a>
+          </span>
+
+          <span class="a-500px">
+            <a
+              href="https://www.linkedin.com/in/saurabhchandrarai/"
+              target="_blank"
+              rel="noopener"
+              title="500px (new tab)"
+            >
+              <img src="~assets/svg/500px.svg" alt="500px icon" />
             </a>
           </span>
         </div>
+
+        <div class="a-support-help">
+          <p>
+            People who supported and helped me along the way to
+            finetune and move farword fast in making this website
+            <br />
+            <span class="a-s-a-container">
+              <div class="supporter-avatar">
+                <img
+                  src="~assets/img/about/supporter-avatar-1.jpg"
+                  alt="people who helped me"
+                  title="Shekhar Gupta"
+                />
+              </div>
+
+              <div class="supporter-avatar">
+                <img
+                  src="~assets/img/about/supporter-avatar-1.jpg"
+                  alt="people who helped me"
+                  title="Shekhar Gupta"
+                />
+              </div>
+
+              <div class="supporter-avatar">
+                <img
+                  src="~assets/img/about/supporter-avatar-1.jpg"
+                  alt="people who helped me"
+                  title="Shekhar Gupta"
+                />
+              </div>
+
+              <div class="supporter-avatar">
+                <img
+                  src="~assets/img/about/supporter-avatar-1.jpg"
+                  alt="people who helped me"
+                  title="Shekhar Gupta"
+                />
+              </div>+many more
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="a-footer">
+      <img src="~assets/img/about/a-footer-bg.svg" alt="bg svg" />
+      <div class="a-footer_bg_text outlined">
+        <span>See ya!</span>
       </div>
     </section>
   </div>
@@ -564,6 +668,7 @@
 
 <script>
 export default {
+  layout: 'projects',
   head() {
     return {
       title: 'About Me',
@@ -578,7 +683,7 @@ export default {
           hid: 'keywords',
           name: 'keywords',
           content:
-            'UX Designer, saurabhcrai.com, about me, saurabh rai about me, UX designer portfolio'
+            'UX Designer, saurabhcrai.com, about me, saurabh rai, saurabhrai, about me, UX designer portfolio, user experience designer'
         }
       ]
     }
