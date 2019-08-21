@@ -514,104 +514,106 @@
           <span>Connect</span>
         </div>
 
-        <div class="a-social-links pl">
-          <span>
-            <a
-              href="https://www.facebook.com/saurabhchandrarai"
-              target="_blank"
-              title="Facebook (new tab)"
-              rel="noopener"
-            >
-              <img src="~assets/svg/facebook.svg" alt="facebook icon" />
-              facebook
-            </a>
-          </span>
+        <div class="a-social-links">
+          <p>
+            <span>
+              <a
+                href="https://www.facebook.com/saurabhchandrarai"
+                target="_blank"
+                title="Facebook (new tab)"
+                rel="noopener"
+              >
+                <img src="~assets/svg/facebook.svg" alt="facebook icon" />
+                facebook
+              </a>
+            </span>
 
-          <span>
-            <a
-              href="https://www.instagram.com/saurabh.archives/"
-              target="_blank"
-              rel="noopener"
-              title="Instagram (new tab)"
-            >
-              <img src="~assets/svg/instagram.svg" alt="facebook icon" />
-              instagram
-            </a>
-          </span>
+            <span>
+              <a
+                href="https://www.instagram.com/saurabh.archives/"
+                target="_blank"
+                rel="noopener"
+                title="Instagram (new tab)"
+              >
+                <img src="~assets/svg/instagram.svg" alt="facebook icon" />
+                instagram
+              </a>
+            </span>
 
-          <span>
-            <a href="#" target="_blank" rel="noopener" title="Download my latest resume">
-              <img src="~assets/svg/resume.svg" alt="resume icon" />
-              download resume
-            </a>
+            <span>
+              <a href="#" target="_blank" rel="noopener" title="Download my latest resume">
+                <img src="~assets/svg/resume.svg" alt="resume icon" />
+                download resume
+              </a>
+              <br />
+            </span>
+
+            <span>
+              <a href="mailto:hello@saurabhcrai.com">
+                <img src="~assets/svg/mail.svg" alt="mail icon svg" />
+                hello@saurabhcrai.com
+              </a>
+            </span>
             <br />
-          </span>
+            <span>
+              <a
+                href="https://medium.com/@saurabhcrai"
+                target="_blank"
+                rel="noopener"
+                title="Medium (new tab)"
+              >
+                <img src="~assets/svg/medium.svg" alt="medium icon svg" />
+                Medium
+              </a>
+            </span>
 
-          <span>
-            <a href="mailto:hello@saurabhcrai.com">
-              <img src="~assets/svg/mail.svg" alt="mail icon svg" />
-              hello@saurabhcrai.com
-            </a>
-          </span>
-          <br />
-          <span>
-            <a
-              href="https://medium.com/@saurabhcrai"
-              target="_blank"
-              rel="noopener"
-              title="Medium (new tab)"
-            >
-              <img src="~assets/svg/medium.svg" alt="medium icon svg" />
-              Medium
-            </a>
-          </span>
+            <span>
+              <a
+                href="https://www.linkedin.com/in/saurabhchandrarai/"
+                target="_blank"
+                rel="noopener"
+                title="Linkdin (new tab)"
+              >
+                <img src="~assets/svg/linkedin.svg" alt="linkedin icon" />
+                Linkedin
+              </a>
+            </span>
+            <br />
+            <span>
+              <a
+                href="https://github.com/SAURABHRAI110"
+                target="_blank"
+                rel="noopener"
+                title="Github (new tab)"
+              >
+                <img src="~assets/svg/github.svg" alt="github icon" />
+                Github
+              </a>
+            </span>
 
-          <span>
-            <a
-              href="https://www.linkedin.com/in/saurabhchandrarai/"
-              target="_blank"
-              rel="noopener"
-              title="Linkdin (new tab)"
-            >
-              <img src="~assets/svg/linkedin.svg" alt="linkedin icon" />
-              Linkedin
-            </a>
-          </span>
-          <br />
-          <span>
-            <a
-              href="https://github.com/SAURABHRAI110"
-              target="_blank"
-              rel="noopener"
-              title="Github (new tab)"
-            >
-              <img src="~assets/svg/github.svg" alt="github icon" />
-              Github
-            </a>
-          </span>
+            <span>
+              <a
+                href="https://www.behance.net/saurabhcrai"
+                target="_blank"
+                rel="noopener"
+                title="Behance (new tab)"
+              >
+                <img src="~assets/svg/behance.svg" alt="behance icon" />
+                Behance
+              </a>
+            </span>
 
-          <span>
-            <a
-              href="https://www.behance.net/saurabhcrai"
-              target="_blank"
-              rel="noopener"
-              title="Behance (new tab)"
-            >
-              <img src="~assets/svg/behance.svg" alt="behance icon" />
-              Behance
-            </a>
-          </span>
-
-          <span class="a-500px">
-            <a
-              href="https://www.linkedin.com/in/saurabhchandrarai/"
-              target="_blank"
-              rel="noopener"
-              title="500px (new tab)"
-            >
-              <img src="~assets/svg/500px.svg" alt="500px icon" />
-            </a>
-          </span>
+            <!-- <span class="a-500px">
+              <a
+                href="https://www.linkedin.com/in/saurabhchandrarai/"
+                target="_blank"
+                rel="noopener"
+                title="500px (new tab)"
+              >
+                <img src="~assets/svg/500px.svg" alt="500px icon" />
+              </a>
+            </span>-->
+          </p>
         </div>
 
         <div class="a-support-help">
@@ -655,31 +657,33 @@
           </p>
         </div>
 
-        <div class="a-web-details pl">
-          <span>This website</span>
-          <br />
-          <span>
-            is powered by:
-            <img
-              src="~assets/img/about/nodejs.svg"
-              alt="node js icon svg"
-              title="nodejs.org"
-            />
-          </span>
-          <br />
-          <span>
-            is hosted on:
-            <img
-              src="~assets/img/about/netlify.svg"
-              alt="netlify icon svg"
-              title="netlify"
-            />
-          </span>
-          <br />
-          <span>
-            <img src="~assets/svg/github.svg" alt="netlify icon svg" />
-            has a public repository on Github
-          </span>
+        <div class="a-web-details">
+          <p>
+            <span>This website</span>
+            <br />
+            <span>
+              is powered by:
+              <img
+                src="~assets/img/about/nodejs.svg"
+                alt="node js icon svg"
+                title="nodejs.org"
+              />
+            </span>
+            <br />
+            <span>
+              is hosted on:
+              <img
+                src="~assets/img/about/netlify.svg"
+                alt="netlify icon svg"
+                title="netlify"
+              />
+            </span>
+            <br />
+            <span>
+              <img src="~assets/svg/github.svg" alt="netlify icon svg" />
+              has a public repository on Github
+            </span>
+          </p>
         </div>
       </div>
     </section>
