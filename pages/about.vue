@@ -654,8 +654,41 @@
             </span>
           </p>
         </div>
+
+        <div class="a-web-details pl">
+          <span>This website</span>
+          <br />
+          <span>
+            is powered by:
+            <img
+              src="~assets/img/about/nodejs.svg"
+              alt="node js icon svg"
+              title="nodejs.org"
+            />
+          </span>
+          <br />
+          <span>
+            is hosted on:
+            <img
+              src="~assets/img/about/netlify.svg"
+              alt="netlify icon svg"
+              title="netlify"
+            />
+          </span>
+          <br />
+          <span>
+            <img src="~assets/svg/github.svg" alt="netlify icon svg" />
+            has a public repository on Github
+          </span>
+        </div>
       </div>
     </section>
+
+    <div class="a-section-divider">
+      <div class="section-divider a-end-dots">
+        <hr class="section-divider" />
+      </div>
+    </div>
 
     <section class="a-footer">
       <img src="~assets/img/about/a-footer-bg.svg" alt="bg svg" />
