@@ -524,7 +524,7 @@
                 rel="noopener"
               >
                 <img src="~assets/svg/facebook.svg" alt="facebook icon" />
-                facebook
+                <span class="underline-magical">facebook</span>
               </a>
             </span>
 
@@ -536,22 +536,15 @@
                 title="Instagram (new tab)"
               >
                 <img src="~assets/svg/instagram.svg" alt="facebook icon" />
-                instagram
+                <span class="underline-magical">instagram</span>
               </a>
             </span>
-
-            <span>
-              <a href="#" target="_blank" rel="noopener" title="Download my latest resume">
-                <img src="~assets/svg/resume.svg" alt="resume icon" />
-                download resume
-              </a>
-              <br />
-            </span>
+            <br />
 
             <span>
               <a href="mailto:hello@saurabhcrai.com">
                 <img src="~assets/svg/mail.svg" alt="mail icon svg" />
-                hello@saurabhcrai.com
+                <span class="underline-magical">hello@saurabhcrai.com</span>
               </a>
             </span>
             <br />
@@ -563,7 +556,7 @@
                 title="Medium (new tab)"
               >
                 <img src="~assets/svg/medium.svg" alt="medium icon svg" />
-                Medium
+                <span class="underline-magical">Medium</span>
               </a>
             </span>
 
@@ -575,7 +568,7 @@
                 title="Linkdin (new tab)"
               >
                 <img src="~assets/svg/linkedin.svg" alt="linkedin icon" />
-                Linkedin
+                <span class="underline-magical">Linkedin</span>
               </a>
             </span>
             <br />
@@ -587,7 +580,7 @@
                 title="Github (new tab)"
               >
                 <img src="~assets/svg/github.svg" alt="github icon" />
-                Github
+                <span class="underline-magical">Github</span>
               </a>
             </span>
 
@@ -599,8 +592,16 @@
                 title="Behance (new tab)"
               >
                 <img src="~assets/svg/behance.svg" alt="behance icon" />
-                Behance
+                <span class="underline-magical">Behance</span>
               </a>
+            </span>
+            <br />
+            <span>
+              <a href="#" target="_blank" rel="noopener" title="Download my latest resume">
+                <img src="~assets/svg/resume.svg" alt="resume icon" />
+                <span class="underline-magical">download resume</span>
+              </a>
+              <br />
             </span>
 
             <!-- <span class="a-500px">
@@ -619,7 +620,7 @@
         <div class="a-support-help">
           <p>
             People who supported and helped me along the way to
-            finetune and move farword fast in making this website
+            fine-tune and move forward in making of this website
             <br />
             <span class="a-s-a-container">
               <div class="supporter-avatar">
@@ -680,8 +681,14 @@
             </span>
             <br />
             <span>
-              <img src="~assets/svg/github.svg" alt="netlify icon svg" />
-              has a public repository on Github
+              <a
+                href="https://github.com/SAURABHRAI110/saurabhcrai.com"
+                target="_blank"
+                rel="noopener"
+              >
+                <span class="underline-magical">has a public repository on Github</span>
+                <img src="~assets/svg/github.svg" alt="netlify icon svg" />
+              </a>
             </span>
           </p>
         </div>
