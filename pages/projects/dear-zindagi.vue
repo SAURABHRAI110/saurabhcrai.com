@@ -57,9 +57,12 @@
       theme="theme_dz right"
     />
 
-    <div class="reveal-holder" data-aos="reveal-item">
-      <div class="reveal-block theme_dz" data-aos="reveal-right"></div>
-      <img class="p-image-100" src="~assets/projects/dearzindagi/dz-research.png" />
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <img src="~assets/projects/dearzindagi/dz-research.png" />
+        <p class="ps">Brochure front Cover | A4</p>
+      </div>
     </div>
 
     <!-- Reasearch -->
@@ -84,69 +87,96 @@
 
     <!-- DZ A4 mockup full size image -->
 
-    <div class="p-image-100-container">
-      <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
-      <p class="ps">Brochure front Cover | A4</p>
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
+        <p class="ps">Brochure front Cover | A4</p>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <source
-          media="(max-width: 600px)"
-          srcset="~assets/projects/dearzindagi/dz-a4page2n3-mobile.jpg"
-        />
-        <img src="~assets/projects/dearzindagi/dz-a4page2n3.jpg" />
-        <p class="ps">Page Cover</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4page2n3-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4page2n3.jpg" />
+          <p class="ps">Page Cover</p>
+        </picture>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <source
-          media="(max-width: 600px)"
-          srcset="~assets/projects/dearzindagi/dz-a4page4n5-mobile.jpg"
-        />
-        <img src="~assets/projects/dearzindagi/dz-a4page4n5.jpg" />
-        <p class="ps">Page Cover</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4page4n5-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4page4n5.jpg" />
+          <p class="ps">Page Cover</p>
+        </picture>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <source
-          media="(max-width: 600px)"
-          srcset="~assets/projects/dearzindagi/dz-a4page6n7-mobile.jpg"
-        />
-        <img src="~assets/projects/dearzindagi/dz-a4page6n7.jpg" />
-        <p class="ps">Page Cover</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4page6n7-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4page6n7.jpg" />
+          <p class="ps">Page Cover</p>
+        </picture>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <source
-          media="(max-width: 600px)"
-          srcset="~assets/projects/dearzindagi/dz-a4page8n9-mobile.jpg"
-        />
-        <img src="~assets/projects/dearzindagi/dz-a4page8n9.jpg" />
-        <p class="ps">Page Cover</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4page8n9-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4page8n9.jpg" />
+          <p class="ps">Page Cover</p>
+        </picture>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <source
-          media="(max-width: 600px)"
-          srcset="~assets/projects/dearzindagi/dz-a4page10n11-mobile.jpg"
-        />
-        <img src="~assets/projects/dearzindagi/dz-a4page10n11.jpg" />
-        <p class="ps">Page Cover</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4page10n11-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4page10n11.jpg" />
+          <p class="ps">Page Cover</p>
+        </picture>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <source
-          media="(max-width: 600px)"
-          srcset="~assets/projects/dearzindagi/dz-a4-allpage-mobile.jpg"
-        />
-        <img src="~assets/projects/dearzindagi/dz-a4-allpage.jpg" />
-        <p class="ps">Page Cover</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4-allpage-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4-allpage.jpg" />
+          <p class="ps">Page Cover</p>
+        </picture>
+      </div>
     </div>
 
     <!-- Identy Design -->
@@ -158,15 +188,19 @@
       theme="theme_dz right"
     />
 
-    <div class="p-image-100-container">
-      <img src="~assets/projects/dearzindagi/dz-visitingcard.jpg" />
-      <p class="ps">Brochure last page and back cover | A4</p>
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <img src="~assets/projects/dearzindagi/dz-visitingcard.jpg" />
+        <p class="ps">Brochure last page and back cover | A4</p>
+      </div>
     </div>
 
     <!-- First Iteration -->
     <pcase
       heading="First Iteration"
       para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a
+              great layout and which made almost most of the things we needed in and that we don't needed.
               great layout and which made almost most of the things we needed in and that we don't needed.
               <br><br>
               Before being given into development there was this huge gap of like 6 months. After this long time
@@ -176,9 +210,64 @@
       theme="theme_dz right"
     />
 
-    <!-- Final Design -->
-    <!-- <img class="p-image-100" src="~assets/projects/dearzindagi/fe-mockup.jpg" /> -->
+    <!-- key Focus Area -->
 
+    <div class="keyfocus">
+      <div class="content">
+        <div class="contain content">
+          <h2 class="p-para black50">Stuff I did</h2>
+
+          <div class="pm black70">
+            <div class="kf-layout">
+              <span>✔ Research</span>
+              <span>✔ Ideation</span>
+              <span>✔ Taking Design Meetings</span>
+              <span>✔ Collaborating with developer</span>
+              <span>✔ Making Post for social Media</span>
+              <span>✔ Lots of IceTea</span>
+              <span>✔ Exporting Assets</span>
+              <span>✔ Wireframe</span>
+              <span>✔ Testing with users</span>
+              <span>✔ Creating A design System</span>
+              <span>✔ Branding</span>
+              <span>✔ Identy Design</span>
+              <span>✔ Defending UX Decisions</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- conclusion -->
+
+    <div class="Takeaway">
+      <div class="contain">
+        <h2 class="p-para black50">Learnings</h2>
+        <div class="pm black70">
+          <p>
+            After layout and content strategy, It was time to set a
+            theme and colour palette It was time to design a simple,
+            clean and elegant showcase website. The accent colour I
+            choose was Dark moderate cyan.. Later on while project was
+            in design phase I chamged the theme from Cyan to Gradient feel,
+            to make it more contrast and modern feel.
+            I decided to use red as theme colour
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-quote contain red">
+      <blockquote>dwdwd</blockquote>
+    </div>
+
+    <!-- End Line  -->
+
+    <div class="section-divider">
+      <hr class="section-divider" />
+    </div>
+
+    <!-- appreciate button -->
     <!-- appreciate button -->
 
     <Appreciate heading="Loved  Dear Zindagi" subHeading="Don't forgot to appreciate" />
