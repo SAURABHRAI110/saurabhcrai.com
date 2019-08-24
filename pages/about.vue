@@ -624,35 +624,65 @@
             <br />
             <span class="a-s-a-container">
               <div class="supporter-avatar">
-                <img
-                  src="~assets/img/about/supporter-avatar-1.jpg"
-                  alt="people who helped me"
-                  title="Shekhar Gupta"
-                />
+                <a
+                  href="https://www.linkedin.com/in/shekhargupta677/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="~assets/img/about/supporter-avatar-3.jpg"
+                    alt="people who helped me, shekhar gupta"
+                    title="Shekhar Gupta"
+                  />
+                </a>
               </div>
-
               <div class="supporter-avatar">
-                <img
-                  src="~assets/img/about/supporter-avatar-1.jpg"
-                  alt="people who helped me"
-                  title="Shekhar Gupta"
-                />
+                <a href="https://shantanubanerjee.com" target="_blank" rel="noopener">
+                  <img
+                    src="~assets/img/about/supporter-avatar-2.jpg"
+                    alt="people who helped me, shantanu banerjee"
+                    title="Shantanu Banerjee"
+                  />
+                </a>
               </div>
-
               <div class="supporter-avatar">
-                <img
-                  src="~assets/img/about/supporter-avatar-1.jpg"
-                  alt="people who helped me"
-                  title="Shekhar Gupta"
-                />
+                <a
+                  href="https://www.linkedin.com/in/govind-tomar-22863a13a/"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="~assets/img/about/supporter-avatar-4.jpg"
+                    alt="people who helped me, govind tomar"
+                    title="Govind Tomar"
+                  />
+                </a>
               </div>
-
               <div class="supporter-avatar">
-                <img
-                  src="~assets/img/about/supporter-avatar-1.jpg"
-                  alt="people who helped me"
-                  title="Shekhar Gupta"
-                />
+                <a
+                  href="https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="~assets/img/about/supporter-avatar-5.jpg"
+                    alt="people who helped me, gary simon"
+                    title="Gary Simon"
+                  />
+                </a>
+              </div>
+              <div class="supporter-avatar">
+                <a
+                  href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  <img
+                    src="~assets/img/about/supporter-avatar-6.jpg"
+                    alt="people who helped me, traversy media"
+                    title="Brad- Traversy Media"
+                  />
+                </a>
               </div>+many more
             </span>
           </p>
@@ -728,7 +758,7 @@ export default {
           hid: 'keywords',
           name: 'keywords',
           content:
-            'UX Designer, saurabhcrai.com, about me, saurabh rai, saurabhrai, about me, UX designer portfolio, user experience designer'
+            'UX Designer, saurabhcrai.com, about me, saurabh rai, saurabhrai, about me, UX designer portfolio, user experience designer, best designer portfolio'
         }
       ]
     }
