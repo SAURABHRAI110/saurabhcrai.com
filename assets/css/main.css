@@ -504,6 +504,25 @@ view more work*/
   .projects-wrapper-top:nth-child(2n) {
     margin-bottom: 0px;
   }
+
+  .showcase-container-home {
+    width: 92%;
+    margin-left: 2%;
+
+  }
+
+  .showcase-container-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    width: 100%;
+    grid-column-gap: 50px;
+    grid-row-gap: 120px;
+  }
+
+  .p-thumbnail-ad:nth-child(2n) {
+    padding-top: 0px;
+  }
+
 }
 
 
