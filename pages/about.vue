@@ -619,8 +619,8 @@
 
         <div class="a-support-help">
           <p>
-            People who supported and helped me along the way to
-            fine-tune and move forward in making of this website
+            People who supported, helped me and from whom I learned all these along the way to
+            fine-tune and get through all those errors in making of this website
             <br />
             <span class="a-s-a-container">
               <div class="supporter-avatar">
@@ -683,8 +683,9 @@
                     title="Brad- Traversy Media"
                   />
                 </a>
-              </div>+many more
+              </div>
             </span>
+            <br />+many more
           </p>
         </div>
 

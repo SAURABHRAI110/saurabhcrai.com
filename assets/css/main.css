@@ -1963,7 +1963,7 @@ view more work*/
 .a-s-a-container {
   display: flex;
   flex-direction: row;
-  padding: 16px 0px 5px 10px;
+  padding: 32px 0px 0px 10px;
 }
 
 .a-s-a-container div {
@@ -1972,8 +1972,8 @@ view more work*/
 }
 
 .supporter-avatar {
-  width: 40px;
-  height: 40px;
+  width: 47px;
+  height: 47px;
   border-radius: 50%;
   background-color: rgb(219, 219, 219);
   overflow: hidden;
@@ -2036,7 +2036,7 @@ view more work*/
 
 .a-web-details {
   position: relative;
-  padding: 86px 0px 0px 0px;
+  padding: 120px 0px 0px 0px;
   margin: 0px;
 }
 
