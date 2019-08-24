@@ -623,7 +623,7 @@
             fine-tune and get through all those errors in making of this website
             <br />
             <span class="a-s-a-container">
-              <div class="supporter-avatar">
+              <span class="supporter-avatar">
                 <a
                   href="https://www.linkedin.com/in/shekhargupta677/"
                   target="_blank"
@@ -635,8 +635,8 @@
                     title="Shekhar Gupta"
                   />
                 </a>
-              </div>
-              <div class="supporter-avatar">
+              </span>
+              <span class="supporter-avatar">
                 <a href="https://shantanubanerjee.com" target="_blank" rel="noopener">
                   <img
                     src="~assets/img/about/supporter-avatar-2.jpg"
@@ -644,8 +644,8 @@
                     title="Shantanu Banerjee"
                   />
                 </a>
-              </div>
-              <div class="supporter-avatar">
+              </span>
+              <span class="supporter-avatar">
                 <a
                   href="https://www.linkedin.com/in/govind-tomar-22863a13a/"
                   target="_blank"
@@ -657,8 +657,8 @@
                     title="Govind Tomar"
                   />
                 </a>
-              </div>
-              <div class="supporter-avatar">
+              </span>
+              <span class="supporter-avatar">
                 <a
                   href="https://www.youtube.com/channel/UCVyRiMvfUNMA1UPlDPzG5Ow"
                   target="_blank"
@@ -670,8 +670,8 @@
                     title="Gary Simon"
                   />
                 </a>
-              </div>
-              <div class="supporter-avatar">
+              </span>
+              <span class="supporter-avatar">
                 <a
                   href="https://www.youtube.com/channel/UC29ju8bIPH5as8OGnQzwJyA"
                   target="_blank"
@@ -683,7 +683,7 @@
                     title="Brad- Traversy Media"
                   />
                 </a>
-              </div>
+              </span>
             </span>
             <br />+many more
           </p>
