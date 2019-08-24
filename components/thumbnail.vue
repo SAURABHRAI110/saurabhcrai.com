@@ -114,4 +114,14 @@ export default {
   transition-delay: 200ms;
   transform: scale(1);
 }
+
+@media screen and (max-width: 800px) {
+  .type-sub2[data-v-5e3ebf7e] {
+    font-size: 27px;
+  }
+  .type-sub3[data-v-5e3ebf7e] {
+    font-size: 14px;
+    line-height: 32px;
+  }
+}
 </style>
