@@ -1,6 +1,6 @@
 <template>
   <div>
-    <preloader />
+    <!-- <preloader /> -->
     <Menu />
     <!-- <Nav/> -->
     <nuxt />

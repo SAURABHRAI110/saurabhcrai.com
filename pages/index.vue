@@ -221,12 +221,7 @@
       </p>
     </div>
 
-    <!-- <div class="contain h-work_heading">
-      <h2>Featured Work</h2>
-    </div>-->
-
     <!-- Work Thumbnails -->
-    <!-- v-rellax="{ speed: 4, center: 0.5  }" -->
 
     <div class="showcase-container-home">
       <div class="showcase-container-grid">

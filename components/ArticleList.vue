@@ -1,4 +1,4 @@
-<template>
+ <template>
   <div class="blog-container">
     <div class="all-article-grid">
       <div class="single-article" v-for="(post,key) in bloglist" :key="key">
