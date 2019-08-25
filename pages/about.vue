@@ -604,6 +604,18 @@
               <br />
             </span>
 
+            <span>
+              <a
+                href="https://open.spotify.com/user/8y43fu36ily4ztnpchb4516li/playlist/6oztnK25WQvEh4fKZ4QPsE?si=B6ptA4LAQTibXGNtYhiXXQ"
+                target="_blank"
+                rel="noopener"
+                title="saurabh rai playlist"
+              >
+                <img src="~assets/img/about/spotify.png" alt="resume icon" />
+                <span class="underline-magical">Music I listen when I code</span>
+              </a>
+            </span>
+
             <!-- <span class="a-500px">
               <a
                 href="https://www.linkedin.com/in/saurabhchandrarai/"
