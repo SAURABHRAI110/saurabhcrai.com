@@ -556,7 +556,7 @@
                 title="Medium (new tab)"
               >
                 <img src="~assets/svg/medium.svg" alt="medium icon svg" />
-                <span class="underline-magical">Medium</span>
+                <span class="underline-magical">medium</span>
               </a>
             </span>
 
@@ -568,7 +568,7 @@
                 title="Linkdin (new tab)"
               >
                 <img src="~assets/svg/linkedin.svg" alt="linkedin icon" />
-                <span class="underline-magical">Linkedin</span>
+                <span class="underline-magical">linkedin</span>
               </a>
             </span>
             <br />
@@ -580,7 +580,7 @@
                 title="Github (new tab)"
               >
                 <img src="~assets/svg/github.svg" alt="github icon" />
-                <span class="underline-magical">Github</span>
+                <span class="underline-magical">github</span>
               </a>
             </span>
 
@@ -592,7 +592,7 @@
                 title="Behance (new tab)"
               >
                 <img src="~assets/svg/behance.svg" alt="behance icon" />
-                <span class="underline-magical">Behance</span>
+                <span class="underline-magical">behance</span>
               </a>
             </span>
             <br />
@@ -612,7 +612,7 @@
                 title="saurabh rai playlist"
               >
                 <img src="~assets/img/about/spotify.png" alt="resume icon" />
-                <span class="underline-magical">Music I listen when I code</span>
+                <span class="underline-magical">music I listen when I code</span>
               </a>
             </span>
 
