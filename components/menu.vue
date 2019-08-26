@@ -57,10 +57,10 @@
     <div class="nav">
       <div class="nav__content">
         <ul class="nav__list">
-          <li class="nav__list-item">Home</li>
-          <li class="nav__list-item">About</li>
-          <li class="nav__list-item">Projects</li>
-          <li class="nav__list-item">Contact</li>
+          <nuxt-link to="/" class="nav__list-item">Home</nuxt-link>
+          <nuxt-link to="/projects" class="nav__list-item">Projects</nuxt-link>
+          <nuxt-link to="/blog" class="nav__list-item">Blog</nuxt-link>
+          <nuxt-link to="/about" class="nav__list-item">About</nuxt-link>
         </ul>
       </div>
     </div>
@@ -242,7 +242,7 @@ export default {
   width: 100vw;
   top: 0%;
   height: 100vh;
-  background: rgba(234, 234, 234, 0.2);
+  background: var(--primary-color);
   z-index: -1;
   transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
   transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
@@ -252,7 +252,7 @@ export default {
   transform: translateX(0%) translateY(-100%);
 }
 .nav:after {
-  background: white;
+  background: #d6d6d6;
   transition-delay: 0s;
 }
 .nav:before {

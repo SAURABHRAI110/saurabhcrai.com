@@ -27,10 +27,11 @@
 
 <script>
 import Discovermore from '~/components/discovermore'
+import Menu from '~/components/menu'
 export default {
   props: ['error'],
   layout: 'projects',
-  components: { Discovermore } // you can set a custom layout for the error page
+  components: { Discovermore, Menu } // you can set a custom layout for the error page
 }
 </script>
 
