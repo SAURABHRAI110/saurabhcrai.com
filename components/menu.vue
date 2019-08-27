@@ -57,10 +57,18 @@
     <div class="nav">
       <div class="nav__content">
         <ul class="nav__list">
-          <nuxt-link to="/" class="nav__list-item">Home</nuxt-link>
-          <nuxt-link to="/projects" class="nav__list-item">Projects</nuxt-link>
-          <nuxt-link to="/blog" class="nav__list-item">Blog</nuxt-link>
-          <nuxt-link to="/about" class="nav__list-item">About</nuxt-link>
+          <li class="nav__list-item">
+            <nuxt-link to="/">Home</nuxt-link>
+          </li>
+          <li class="nav__list-item">
+            <nuxt-link to="/projects">Projects</nuxt-link>
+          </li>
+          <li class="nav__list-item">
+            <nuxt-link to="blog">Blog</nuxt-link>
+          </li>
+          <li class="nav__list-item">
+            <nuxt-link to="about">About</nuxt-link>
+          </li>
         </ul>
       </div>
     </div>
@@ -234,6 +242,9 @@ export default {
 .nav {
   position: fixed;
   z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 .nav:before,
 .nav:after {
@@ -259,15 +270,21 @@ export default {
   transition-delay: 0.1s;
 }
 .nav__content {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translate(0%, -50%);
-  transform: translate(0%, -50%);
+  position: relative;
+  top: 75%;
+  left: 71%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
+  height: 100%;
   text-align: center;
-  font-size: calc(2vw + 10px);
+  font-size: 2.6em;
   font-weight: 200;
-  cursor: pointer;
+  z-index: 0;
+}
+
+.nav__list {
+  display: flex;
 }
 .nav__list-item {
   position: relative;
@@ -280,7 +297,7 @@ export default {
   transition: opacity 0.2s ease, transform 0.3s ease;
   transition: opacity 0.2s ease, transform 0.3s ease,
     -webkit-transform 0.3s ease;
-  margin-right: 25px;
+  margin-right: 5%;
 }
 .nav__list-item:before {
   content: '';
