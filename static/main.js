@@ -71,7 +71,7 @@ $(window).scroll(function () {
 //   const init = () => {
 //     body = document.querySelector('body');
 //     menu = document.querySelector('.menu-icon');
-//     items = document.querySelector('.nav__list-item');
+//     items = document.querySelectorAll('.nav__list-item');
 
 //     applyListeners();
 //   };

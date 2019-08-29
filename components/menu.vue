@@ -48,32 +48,33 @@
       </transition>
     </div>-->
 
-    <button>
-      <div class="menu-icon" @click="show = !show">
-        <span class="menu-icon__line menu-icon__line-left"></span>
-        <span class="menu-icon__line"></span>
-        <span class="menu-icon__line menu-icon__line-right"></span>
-      </div>
-    </button>
-
-    <div class="nav" v-if="show">
-      <div class="nav__content">
-        <ul class="nav__list">
-          <li class="nav__list-item">
-            <nuxt-link to="/">Home</nuxt-link>
-          </li>
-          <li class="nav__list-item">
-            <nuxt-link to="/projects">Projects</nuxt-link>
-          </li>
-          <li class="nav__list-item">
-            <nuxt-link to="blog">Blog</nuxt-link>
-          </li>
-          <li class="nav__list-item">
-            <nuxt-link to="about">About</nuxt-link>
-          </li>
-        </ul>
-      </div>
+    <div class="menu-icon" @click="show = !show">
+      <span class="menu-icon__line menu-icon__line-left"></span>
+      <span class="menu-icon__line"></span>
+      <span class="menu-icon__line menu-icon__line-right"></span>
     </div>
+    <transition name="slide-in">
+      <div v-if="show">
+        <div class="nav">
+          <div class="nav__content">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <nuxt-link to="/">Home</nuxt-link>
+              </li>
+              <li class="nav__list-item">
+                <nuxt-link to="/projects">Projects</nuxt-link>
+              </li>
+              <li class="nav__list-item">
+                <nuxt-link to="blog">Blog</nuxt-link>
+              </li>
+              <li class="nav__list-item">
+                <nuxt-link to="about">About</nuxt-link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </transition>
 
     <!-- <div class="site-content">
       <h1 class="site-content__headline">Another menu concept</h1>
@@ -165,35 +166,6 @@ export default {
   }
 }
 
-/* menu button */
-
-.menu-button {
-  position: relative;
-  z-index: 1001;
-}
-
-.test1 {
-  width: 100%;
-  height: 100vw;
-  position: fixed;
-  z-index: 1000;
-  top: 0%;
-  left: 0%;
-  background-color: var(--primary-color);
-}
-
-.slide-enter-active {
-  transition: all 0.3s ease;
-}
-.slide-leave-active {
-  transition: all 0.3s ease;
-}
-.slide-enter, .slide-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateX(10px);
-  opacity: 0;
-}
-
 /* menu */
 
 .site-content {
@@ -211,6 +183,98 @@ export default {
   font-size: calc(2vw + 10px);
 }
 
+.nav {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0%;
+}
+
+.nav:before {
+  content: '';
+  position: fixed;
+  width: 100vw;
+  top: 0%;
+  height: 100vh;
+  background: var(--primary-color);
+  z-index: -1;
+}
+
+.slide-in-enter .nav:before,
+.slide-in-leave-to .nav:before {
+  transform: translateX(-100%) translateY(0%);
+}
+
+/* .nav:after {
+  background: #c21818;
+  transition-delay: 0s;
+} */
+.nav:before {
+  transition-delay: 0.1s;
+}
+.slide-in-enter-to .nav-before,
+.slide-in-leave .nav-before {
+  transform: translateX(0%) translateY(0%);
+}
+
+.slide-in-enter-active .nav:before,
+.slide-in-leave-active .nav:before {
+  transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+/* .v-enter-active .nav:before,
+.v-leave-active .nav:before {
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+} */
+/* .v-enter-active .nav:after {
+  transition-delay: 0.1s;
+}
+.v-enter-active .nav:before {
+  transition-delay: 0s;
+} */
+
+.nav__content {
+  position: relative;
+  top: 75%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 2.6em;
+  font-weight: 200;
+}
+
+.nav__list {
+  display: flex;
+}
+.nav__list-item {
+  position: relative;
+  display: inline-block;
+  transition-delay: 0.8s;
+  opacity: 0;
+  -webkit-transform: translate(0%, 100%);
+  transform: translate(0%, 100%);
+  transition: opacity 0.2s ease, transform 0.3s ease;
+
+  margin-right: 5%;
+}
+.nav__list-item:before {
+  content: '';
+  position: absolute;
+  background: #000000;
+  width: 20px;
+  height: 1px;
+  top: 100%;
+  transform: translate(0%, 0%);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+.nav__list-item:hover:before {
+  width: 100%;
+}
+
 .menu-icon {
   height: 30px;
   width: 30px;
@@ -226,12 +290,9 @@ export default {
   height: 2px;
   width: 30px;
   display: block;
-  background-color: var(--primary-color);
+  background-color: yellow;
   margin-bottom: 4px;
-  transition: background-color 0.5s ease, -webkit-transform 0.2s ease;
   transition: transform 0.2s ease, background-color 0.5s ease;
-  transition: transform 0.2s ease, background-color 0.5s ease,
-    -webkit-transform 0.2s ease;
 }
 .menu-icon__line-left {
   width: 15px;
@@ -241,127 +302,35 @@ export default {
   float: right;
 }
 
-.nav {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-.nav:before,
-.nav:after {
-  content: '';
-  position: fixed;
-  width: 100vw;
-  top: 0%;
-  height: 100vh;
-  background: var(--primary-color);
-  z-index: -1;
-  transition: -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
-  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
-  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s,
-    -webkit-transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
-  -webkit-transform: translateX(-100%) translateY(0%);
-  transform: translateX(-100%) translateY(0%);
-}
-.nav:after {
-  background: #d6d6d6;
-  transition-delay: 0s;
-}
-.nav:before {
-  transition-delay: 0.1s;
-}
-.nav__content {
-  position: relative;
-  top: 75%;
-  left: 71%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 2.6em;
-  font-weight: 200;
-  z-index: 0;
-}
-
-.nav__list {
-  display: flex;
-}
-.nav__list-item {
-  position: relative;
-  display: inline-block;
-  transition-delay: 0.8s;
-  opacity: 0;
-  -webkit-transform: translate(0%, 100%);
-  transform: translate(0%, 100%);
-  transition: opacity 0.2s ease, -webkit-transform 0.3s ease;
-  transition: opacity 0.2s ease, transform 0.3s ease;
-  transition: opacity 0.2s ease, transform 0.3s ease,
-    -webkit-transform 0.3s ease;
-  margin-right: 5%;
-}
-.nav__list-item:before {
-  content: '';
-  position: absolute;
-  background: #000000;
-  width: 20px;
-  height: 1px;
-  top: 100%;
-  -webkit-transform: translate(0%, 0%);
-  transform: translate(0%, 0%);
-  transition: all 0.3s ease;
-  z-index: -1;
-}
-.nav__list-item:hover:before {
-  width: 100%;
-}
-
-body.nav-active .menu-icon__line {
+.menu-icon__line {
   background-color: #000;
-  -webkit-transform: translateX(0px) rotate(-45deg);
   transform: translateX(0px) rotate(-45deg);
 }
-body.nav-active .menu-icon__line-left {
-  -webkit-transform: translateX(1px) rotate(45deg);
+.menu-icon__line-left {
   transform: translateX(1px) rotate(45deg);
 }
-body.nav-active .menu-icon__line-right {
-  -webkit-transform: translateX(-2px) rotate(45deg);
+.menu-icon__line-right {
   transform: translateX(-2px) rotate(45deg);
 }
 
-body.nav-active .nav:before,
-body.nav-active .nav:after {
-  -webkit-transform: translateX(0%) translateY(0%);
-  transform: translateX(0%) translateY(0%);
-}
-body.nav-active .nav:after {
-  transition-delay: 0.1s;
-}
-body.nav-active .nav:before {
-  transition-delay: 0s;
-}
-body.nav-active .nav__list-item {
+.body.nav-active .nav__list-item {
   opacity: 1;
-  -webkit-transform: translateX(0%);
   transform: translateX(0%);
-  transition: opacity 0.3s ease, color 0.3s ease, -webkit-transform 0.3s ease;
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
-  transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease,
-    -webkit-transform 0.3s ease;
 }
-body.nav-active .nav__list-item:nth-child(0) {
+.body.nav-active .nav__list-item:nth-child(0) {
   transition-delay: 0.5s;
 }
-body.nav-active .nav__list-item:nth-child(1) {
+.body.nav-active .nav__list-item:nth-child(1) {
   transition-delay: 0.6s;
 }
-body.nav-active .nav__list-item:nth-child(2) {
+.body.nav-active .nav__list-item:nth-child(2) {
   transition-delay: 0.7s;
 }
-body.nav-active .nav__list-item:nth-child(3) {
+.body.nav-active .nav__list-item:nth-child(3) {
   transition-delay: 0.8s;
 }
-body.nav-active .nav__list-item:nth-child(4) {
+.body.nav-active .nav__list-item:nth-child(4) {
   transition-delay: 0.9s;
 }
 
