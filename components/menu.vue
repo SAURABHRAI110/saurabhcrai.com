@@ -216,10 +216,10 @@ svg {
   transform: translateX(1px) rotate(45deg);
 }
 .active .line2 {
-  transform: translateX(0px) rotate(-45deg);
+  transform: translate3d(-4px, 18px, 0px) rotate(-45deg);
 }
 .active .line3 {
-  transform: translateX(-2px) rotate(45deg);
+  transform: translate3d(10px, -7px, 0px) rotate(45deg);
 }
 /* .menu-icon__line {
   background-color: #000;
