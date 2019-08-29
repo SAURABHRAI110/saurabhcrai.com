@@ -49,9 +49,28 @@
     </div>-->
 
     <div class="menu-icon" @click="show = !show">
-      <span class="menu-icon__line menu-icon__line-left"></span>
-      <span class="menu-icon__line"></span>
-      <span class="menu-icon__line menu-icon__line-right"></span>
+      <!-- <button @click="changed = !changed">Change</button> -->
+
+      <svg
+        @click="changed = !changed"
+        :class="{ active: changed }"
+        xmlns="http://www.w3.org/2000/svg"
+        width="50"
+        height="50"
+      >
+        <transition-group name="layout" tag="g">
+          <rect class="items line1" ref="rect" key="rect" width="15" height="2" />
+          <rect class="items line2" ref="rect" key="rect" x="0" y="6" width="30" height="2" />
+          <rect class="items line3" ref="rect" key="rect" x="15" y="12" width="15" height="2" />
+        </transition-group>
+      </svg>
+      <!-- <transition-group name="menu-button" tag="g">
+        <g :class="{ active: changed }">
+          <span class="menu-icon__line menu-icon__line-left"></span>
+          <span class="menu-icon__line"></span>
+          <span class="menu-icon__line menu-icon__line-right"></span>
+        </g>
+      </transition-group>-->
     </div>
     <transition name="slide-in">
       <div v-if="show">
@@ -84,7 +103,8 @@
 export default {
   data() {
     return {
-      show: false
+      show: false,
+      changed: false
     }
   }
 }
@@ -155,33 +175,52 @@ export default {
 /* menu */
 /* menu icon */
 
+/* testing */
+svg {
+  fill: var(--primary-color);
+}
+
+/* .active .circ {
+  transform: translate3d(30px, 0, 0) scale(0.5);
+}
+.active .text {
+  transform: rotate(90deg) scaleX(0.08) translate3d(-300px, -35px, 0);
+} */
+
+.items {
+  transition: all 0.4s ease;
+}
+
+#text {
+  transform-origin: 50% 50%;
+}
+
+/* testing end */
+
 .menu-icon {
-  height: 30px;
-  width: 30px;
   position: fixed;
   z-index: 2;
-  left: 50px;
-  transition: translate();
-  transform: translate(-50%, -50%);
+  left: 32px;
   top: 50%;
   cursor: pointer;
 }
-.menu-icon__line {
-  height: 2px;
-  width: 30px;
-  display: block;
-  background-color: var(--primary-color);
-  margin-bottom: 4px;
-  transition: transform 0.2s ease, background-color 0.5s ease;
+
+.active {
+  fill: black;
 }
-.menu-icon__line-left {
-  width: 15px;
-}
-.menu-icon__line-right {
-  width: 15px;
-  float: right;
+.active .rect {
+  transform: translate3d(0, 30px, 0);
 }
 
+.active .line1 {
+  transform: translateX(1px) rotate(45deg);
+}
+.active .line2 {
+  transform: translateX(0px) rotate(-45deg);
+}
+.active .line3 {
+  transform: translateX(-2px) rotate(45deg);
+}
 /* .menu-icon__line {
   background-color: #000;
   transform: translateX(0px) rotate(-45deg);
