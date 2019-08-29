@@ -56,7 +56,7 @@
     <transition name="slide-in">
       <div v-if="show">
         <div class="nav">
-          <div class="nav__content">
+          <span class="nav__content">
             <span class="nav__list-item">
               <nuxt-link to="/">Home</nuxt-link>
             </span>
@@ -69,7 +69,7 @@
             <span class="nav__list-item">
               <nuxt-link to="about">About</nuxt-link>
             </span>
-          </div>
+          </span>
         </div>
       </div>
     </transition>
@@ -120,6 +120,7 @@ export default {
   left: 15%;
   padding-top: 30px;
   transform: translate(-50%);
+  z-index: 10;
 }
 
 @media screen and (max-width: 999px) {
@@ -169,7 +170,7 @@ export default {
   height: 2px;
   width: 30px;
   display: block;
-  background-color: yellow;
+  background-color: var(--primary-color);
   margin-bottom: 4px;
   transition: transform 0.2s ease, background-color 0.5s ease;
 }
@@ -181,7 +182,7 @@ export default {
   float: right;
 }
 
-.menu-icon__line {
+/* .menu-icon__line {
   background-color: #000;
   transform: translateX(0px) rotate(-45deg);
 }
@@ -190,7 +191,7 @@ export default {
 }
 .menu-icon__line-right {
   transform: translateX(-2px) rotate(45deg);
-}
+} */
 
 .nav {
   position: fixed;
@@ -242,7 +243,9 @@ export default {
 }
 
 .nav__list-item {
-  padding: 10px 24px;
+  margin: 10px 24px;
+  display: inline;
+  position: relative;
 }
 
 /* .nav__content {
@@ -274,9 +277,9 @@ export default {
 .nav__list-item:before {
   content: '';
   position: absolute;
-  background: #000000;
+  background: var(--primary-color);
   width: 20px;
-  height: 1px;
+  height: 3px;
   top: 100%;
   transform: translate(0%, 0%);
   transition: all 0.3s ease;
