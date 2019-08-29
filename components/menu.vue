@@ -244,7 +244,7 @@ export default {
 
 .nav__list-item {
   margin: 10px 24px;
-  display: inline;
+  display: inline-block;
   position: relative;
 }
 
