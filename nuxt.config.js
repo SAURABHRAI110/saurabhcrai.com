@@ -43,16 +43,7 @@ export default {
         ssr: false
 
       },
-      {
-        src: "https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0",
 
-        async: true,
-        defer: true,
-        crossorigin: "anonymous",
-        ssr: false
-
-
-      },
       {
         src: '/easescroll.js',
         body: true,
@@ -223,6 +214,11 @@ export default {
     },
     {
       src: '~/plugins/scrollmagic',
+      ssr: false
+
+    },
+    {
+      src: '~/plugins/commentbox',
       ssr: false
 
     }
