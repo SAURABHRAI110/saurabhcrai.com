@@ -358,7 +358,6 @@
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
-
 import ArticleList from '~/components/ArticleList'
 
 export default {
