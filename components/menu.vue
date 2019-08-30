@@ -59,18 +59,11 @@
         height="32"
       >
         <transition-group name="layout" tag="g">
-          <rect class="items line1" ref="rect" key="rect" width="15" height="2" />
-          <rect class="items line2" ref="rect" key="rect" x="0" y="6" width="30" height="2" />
-          <rect class="items line3" ref="rect" key="rect" x="15" y="12" width="15" height="2" />
+          <rect class="items line1" ref="rect" key="rect1" width="15" height="2" />
+          <rect class="items line2" ref="rect" key="rect2" x="0" y="6" width="30" height="2" />
+          <rect class="items line3" ref="rect" key="rect3" x="15" y="12" width="15" height="2" />
         </transition-group>
       </svg>
-      <!-- <transition-group name="menu-button" tag="g">
-        <g :class="{ active: changed }">
-          <span class="menu-icon__line menu-icon__line-left"></span>
-          <span class="menu-icon__line"></span>
-          <span class="menu-icon__line menu-icon__line-right"></span>
-        </g>
-      </transition-group>-->
     </div>
     <transition name="slide-in">
       <div v-if="show">
@@ -92,10 +85,6 @@
         </div>
       </div>
     </transition>
-
-    <!-- <div class="site-content">
-      <h1 class="site-content__headline">Another menu concept</h1>
-    </div>-->
   </div>
 </template>
 
@@ -110,28 +99,6 @@ export default {
 }
 </script>
 <style scoped>
-.nav-container {
-  width: 100px;
-  height: 100vh;
-  left: 0%;
-  position: fixed;
-  top: 0%;
-  z-index: 900;
-  background: white;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
-  transition: all 0.3s;
-}
-
-@media screen and (max-width: 999px) {
-  .nav-container {
-    width: 100%;
-    height: 65px;
-  }
-  .menu-applause {
-    display: none;
-  }
-}
-
 .logo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
