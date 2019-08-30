@@ -51,6 +51,9 @@ export default {
         ssr: false
 
       },
+
+
+
       // {
       //   src: "//code.tidio.co/mbwzt8zqtij9tn970lu3gntjtzha6rou.js",
       //   body: true,
@@ -219,7 +222,8 @@ export default {
     },
     {
       src: '~/plugins/commentbox',
-      ssr: false
+      ssr: false,
+      async: true
 
     }
 
