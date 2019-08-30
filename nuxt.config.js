@@ -222,8 +222,6 @@ export default {
     },
     {
       src: '~/plugins/commentbox',
-      ssr: false,
-      async: true
 
     }
 
