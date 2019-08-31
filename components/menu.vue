@@ -106,7 +106,6 @@ export default {
   left: 0%;
   position: fixed;
   top: 0%;
-  z-index: 10;
   z-index: 900;
   background: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -116,14 +115,14 @@ export default {
 @media screen and (max-width: 999px) {
   .nav-container {
     width: 100%;
-    height: 65px;
+    height: 9.5vh;
   }
 }
 
 .logo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
-  position: fixed;
+  position: absolute;
   overflow: hidden;
   left: 15%;
   padding-top: 30px;
