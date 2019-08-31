@@ -48,6 +48,8 @@
       </transition>
     </div>-->
 
+    <div class="menu-slide1" :class="{ active: changed }"></div>
+
     <div class="menu-icon" @click="show = !show">
       <!-- <button @click="changed = !changed">Change</button> -->
 
@@ -99,10 +101,29 @@ export default {
 }
 </script>
 <style scoped>
+.nav-container {
+  width: 100px;
+  height: 100vh;
+  left: 0%;
+  position: fixed;
+  top: 0%;
+  z-index: 900;
+  background: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 999px) {
+  .nav-container {
+    width: 100%;
+    height: 65px;
+  }
+}
+
 .logo {
   display: inline-block;
   animation: turn 2s linear forwards 1s;
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   left: 15%;
   padding-top: 30px;
@@ -166,7 +187,7 @@ svg {
 
 .menu-icon {
   position: fixed;
-  z-index: 2;
+  z-index: 10;
   left: 32px;
   top: 50%;
   cursor: pointer;
@@ -205,18 +226,36 @@ svg {
   top: 0%;
   height: 100vh;
   background: var(--secondary-color);
-  z-index: -1;
+  z-index: 1;
 }
 
-/* .nav:before {
-  content: '';
+.menu-slide1 {
   position: fixed;
   width: 100vw;
   top: 0%;
   height: 100vh;
   background: var(--primary-color);
   z-index: -1;
+  transform: translateX(-100vw);
+  transition-delay: 0s;
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+}
+/* .menu-slide2 {
+  position: fixed;
+  width: 100vw;
+  top: 0%;
+  height: 100vh;
+  background: var(--primary-color);
+  z-index: 12;
+  transform: translateX(-100vw);
+  transition-delay: 0.1s;
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
 } */
+
+.active.menu-slide1 {
+  transform: translateX(0vw);
+  transition-delay: 0s;
+}
 
 .slide-in-enter,
 .slide-in-leave-to {
@@ -235,9 +274,14 @@ svg {
   transform: translateX(0%) translateY(0%);
 }
 
-.slide-in-enter-active,
+.slide-in-enter-active {
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+  transition-delay: 0.1s;
+}
+
 .slide-in-leave-active {
-  transition: transform 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
+  transition-delay: 0s;
 }
 
 .nav__content {
