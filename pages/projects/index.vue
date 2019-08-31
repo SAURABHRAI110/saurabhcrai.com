@@ -208,6 +208,7 @@
 import Thumbnail from '~/components/thumbnail'
 import Projecttimeline from '~/components/projects/projecttimeline'
 export default {
+  layout: 'projects',
   components: {
     Thumbnail,
     Projecttimeline
