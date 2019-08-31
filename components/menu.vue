@@ -41,7 +41,7 @@
       </div>
     </nuxt-link>
 
-    <!-- <div class="menu-button-container">
+    <!-- <div class="menu-button-container">AAAAAA
       <button v-on:click="show = !show" class="menu-button">Toggle</button>
       <transition name="slide">
         <div v-if="show" class="test1">hello</div>
@@ -49,7 +49,6 @@
     </div>-->
 
     <div class="menu-slide1" :class="{ active: changed }"></div>
-
     <div class="menu-icon" @click="show = !show">
       <!-- <button @click="changed = !changed">Change</button> -->
 
@@ -107,6 +106,7 @@ export default {
   left: 0%;
   position: fixed;
   top: 0%;
+  z-index: 10;
   z-index: 900;
   background: white;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
@@ -191,6 +191,17 @@ svg {
   left: 32px;
   top: 50%;
   cursor: pointer;
+  z-index: 10;
+}
+
+@media screen and (max-width: 999px) {
+  .menu-icon {
+    height: 30px;
+    width: 30px;
+    left: auto;
+    right: 22px;
+    top: 25px;
+  }
 }
 
 .active {
@@ -226,7 +237,7 @@ svg {
   top: 0%;
   height: 100vh;
   background: var(--secondary-color);
-  z-index: 1;
+  z-index: 8;
 }
 
 .menu-slide1 {
@@ -280,8 +291,8 @@ svg {
 }
 
 .slide-in-leave-active {
-  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.8s;
-  transition-delay: 0s;
+  transition: transform cubic-bezier(0.77, 0, 0.175, 1) 0.6s;
+  transition-delay: 0 s;
 }
 
 .nav__content {
@@ -362,17 +373,4 @@ svg {
 .slide-in-enter-active .nav__list-item:nth-child(4) {
   transition-delay: 0.9s;
 } */
-
-@media screen and (max-width: 999px) {
-  .menu-icon {
-    height: 30px;
-    width: 30px;
-    position: fixed;
-    z-index: 2;
-    left: auto;
-    right: 22px;
-    top: 25px;
-    cursor: pointer;
-  }
-}
 </style>

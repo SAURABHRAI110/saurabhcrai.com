@@ -1,8 +1,7 @@
 <template>
   <div>
-    <div class="menu">
-      <Menu />
-    </div>
+    <Menu />
+
     <nuxt />
 
     <div class="footer">
@@ -23,12 +22,6 @@ export default {
 </script>
 
 <style scoped>
-.menu {
-  position: fixed;
-  top: 0px;
-  left: 0px;
-}
-
 .footer,
 .menu {
   margin-left: -100px;
