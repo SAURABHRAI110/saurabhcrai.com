@@ -23,7 +23,11 @@
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="600"
-        >and I am always learning. Like past few months I have been learnig how to code. Now I can bring design into a pixel perfect reality.</p>
+        >
+          Here are some of my work from past years. Some were awesome some just good.
+          But with time I learned more and more and got a hang of making good works.
+          Currently I also code my design.
+        </p>
       </div>
     </div>
     <!-- timeline 2019 -->
@@ -32,73 +36,6 @@
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/filmingeye">
-            <thumbnail
-              thumbnailName="Filming Eye"
-              thumbnailDescription="Web, Identity"
-              thumbnail="/showcase1.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="0"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-bottom"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dear-zindagi">
-            <thumbnail
-              thumbnailName="Dear Zindagi"
-              thumbnailDescription="Brochure, Identity"
-              thumbnail="/showcase2.webp"
-              data-aos="fade-up"
-              data-aos-duration="400"
-              data-aos-delay="200"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-bottom"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/mr-irritating">
-            <thumbnail
-              thumbnailName="Mr. Irritating"
-              thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="0"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/r3">
-            <thumbnail
-              thumbnailName="R3"
-              thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4a.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="200"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/awesome-inc">
-            <thumbnail
-              thumbnailName="Awesome Inc."
-              thumbnailDescription="Identity, Print"
-              thumbnail="/showcase5b.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="0"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/elevito">
             <thumbnail
@@ -112,12 +49,7 @@
             />
           </nuxt-link>
         </div>
-      </div>
-    </div>
-    <!-- <projecttimeline timeline="2019" /> -->
-    <!-- project grid -->
-    <div class="showcase-container-home">
-      <div class="showcase-container-grid">
+
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/feeding-trends">
             <thumbnail
@@ -127,20 +59,6 @@
               data-aos="zoom-out-up"
               data-aos-duration="1500"
               data-aos-delay="0"
-              data-aos-once="true"
-              data-aos-anchor-placement="top-bottom"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/thebbdtimes">
-            <thumbnail
-              thumbnailName="The BBD Times"
-              thumbnailDescription="Branding"
-              thumbnail="/tbt-thumbnail.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="800"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -160,6 +78,51 @@
             />
           </nuxt-link>
         </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/filmingeye">
+            <thumbnail
+              thumbnailName="Filming Eye"
+              thumbnailDescription="Web, Identity"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="0"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/dear-zindagi">
+            <thumbnail
+              thumbnailName="Dear Zindagi"
+              thumbnailDescription="Brochure, Identity"
+              thumbnail="/showcase2.webp"
+              data-aos="fade-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/mr-irritating">
+            <thumbnail
+              thumbnailName="Mr. Irritating"
+              thumbnailDescription="Print, Social Media"
+              thumbnail="/showcase3.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/ft-events">
             <thumbnail
@@ -173,33 +136,181 @@
             />
           </nuxt-link>
         </div>
+
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/thebbdtimes">
             <thumbnail
-              thumbnailName="Awesome Inc."
+              thumbnailName="The BBD Times"
               thumbnailDescription="Branding"
-              thumbnail="/showcase5.jpg"
+              thumbnail="/tbt-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="1500"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/dreamz">
+            <thumbnail
+              thumbnailName="Dreamz"
+              thumbnailDescription="App Design, HF Prototype"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
               data-aos-delay="0"
               data-aos-once="true"
             />
           </nuxt-link>
         </div>
+
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/awesome-inc">
             <thumbnail
-              thumbnailName="Elevito"
-              thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6.jpg"
+              thumbnailName="Awesome Inc."
+              thumbnailDescription="Identity, Print"
+              thumbnail="/showcase5b.webp"
               data-aos="zoom-out-up"
-              data-aos-duration="1500"
-              data-aos-delay="800"
+              data-aos-duration="400"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/r3">
+            <thumbnail
+              thumbnailName="R3"
+              thumbnailDescription="Social Media, logo"
+              thumbnail="/showcase4a.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/tbt-app">
+            <thumbnail
+              thumbnailName="TBT App"
+              thumbnailDescription="App, Branding"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/prepowl">
+            <thumbnail
+              thumbnailName="Prepowl"
+              thumbnailDescription="Web, Logo"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/news-app">
+            <thumbnail
+              thumbnailName="News App"
+              thumbnailDescription="App, Logo"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/bls">
+            <thumbnail
+              thumbnailName="Banaras Lit. Society"
+              thumbnailDescription="Branding"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/hindigiri">
+            <thumbnail
+              thumbnailName="Hindigiri"
+              thumbnailDescription="Branding, Marketing"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/hello-color">
+            <thumbnail
+              thumbnailName="Hello Color"
+              thumbnailDescription="Book Design"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/logos">
+            <thumbnail
+              thumbnailName="Logo Collection"
+              thumbnailDescription="logos so far"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/utkarsh">
+            <thumbnail
+              thumbnailName=" Utkarsh "
+              thumbnailDescription="Web, Branding, Social"
+              thumbnail="/showcase1.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
         </div>
       </div>
+    </div>
+    <!-- <projecttimeline timeline="2019" /> -->
+    <!-- project grid -->
+    <div class="showcase-container-home">
+      <div class="showcase-container-grid"></div>
     </div>
   </div>
 </template>

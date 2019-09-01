@@ -349,6 +349,10 @@ svg {
   width: 100%;
 }
 
+.menu-link-active .nav__list-item {
+  width: 100%;
+}
+
 /* .slide-in-enter-to .nav__list-item {
   opacity: 1;
   transform: translateX(0%);

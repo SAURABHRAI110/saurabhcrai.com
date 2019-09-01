@@ -45,6 +45,25 @@ export default {
   layout: 'blog',
   components: {
     ArticleList
+  },
+  head() {
+    return {
+      title: 'My Blog',
+      titleTemplate: '%s - Saurabh Rai',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: ' UX, Coding and Life'
+        },
+        {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'my blog, saurabh rai blog, saurabh c rai blog, Best coding blog, blogging website, best designers blog, ux blog, design and code'
+        }
+      ]
+    }
   }
 }
 </script>
