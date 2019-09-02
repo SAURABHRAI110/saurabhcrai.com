@@ -1,9 +1,9 @@
 body,
 html {
   /* padding: 0, 0, 0, 100px; */
-  margin: 0px 0px 0px 50px;
-  padding: 0%;
+  padding: 0px 0px 0px 50px;
   box-sizing: border-box;
+  margin: 0px;
   -moz-hyphens: none;
   -ms-hyphens: none;
   -webkit-hyphens: none;
@@ -15,7 +15,7 @@ html {
 
   body,
   html {
-    margin: 30px 0px 0px 0px;
+    padding: 30px 0px 0px 0px;
   }
 }
 
@@ -2414,7 +2414,7 @@ color: #0088ff !important;
 
 /* tbt-app */
 
-/* accent colour ##0F2E47 */
+/* accent colour #0F2E47 */
 .reveal-block.theme_tbt-app::before {
   background: #0F2E47;
 }
