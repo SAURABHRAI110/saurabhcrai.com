@@ -2405,6 +2405,22 @@ color: #0088ff !important;
 }
 
 
+/* dreamz */
+
+/* accent colour #4FCEC4 */
+.reveal-block.theme_dreamz::before {
+  background: #4FCEC4;
+}
+
+/* tbt-app */
+
+/* accent colour ##0F2E47 */
+.reveal-block.theme_tbt-app::before {
+  background: #0F2E47;
+}
+
+
+
 /* Dear Zindagi */
 
 /* akcent colour #E7A822 #DF9F17 */
@@ -3211,6 +3227,13 @@ background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1
   background: #11A78E;
 }
 
+
+/* hello colours */
+
+
+.reveal-block.theme_hc::before {
+  background: #e98635;
+}
 
 /* FT Events
 Akcent Colour

@@ -157,7 +157,7 @@
             <thumbnail
               thumbnailName="Dreamz"
               thumbnailDescription="App Design, HF Prototype"
-              thumbnail="/showcase1.webp"
+              thumbnail="/dreamz-thumbnail-cyan.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -241,7 +241,7 @@
             <thumbnail
               thumbnailName="Banaras Lit. Society"
               thumbnailDescription="Branding"
-              thumbnail="/showcase1.webp"
+              thumbnail="/bls-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -255,7 +255,7 @@
             <thumbnail
               thumbnailName="Hindigiri"
               thumbnailDescription="Branding, Marketing"
-              thumbnail="/showcase1.webp"
+              thumbnail="/hindigiri-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -269,7 +269,7 @@
             <thumbnail
               thumbnailName="Hello Color"
               thumbnailDescription="Book Design"
-              thumbnail="/showcase1.webp"
+              thumbnail="/hello-colors-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"

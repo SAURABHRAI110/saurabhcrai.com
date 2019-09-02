@@ -12,19 +12,19 @@
     <projecthero
       pDate="December 2017"
       pWebsite="Dreamz"
-      pCategory="Product Design"
+      pCategory="App Design"
       pHeading="Fullfilling  little dreams ."
-      pHeadingcolor="color:#1D98B6;"
+      pHeadingcolor="color:#4FCEC4;"
       pSubheading=" App that hepls you earn money and in a way fulfill your dreams "
     />
 
     <!-- hero image -->
     <div class="p-ft-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
+        <div class="reveal-block right theme_dreamz" data-aos="reveal-right"></div>
 
         <img
-          src="~assets/projects/ft/ft-hero-mockup-3.jpg"
+          src="~assets/projects/dreamz/dreamz-hero-cyan-2.jpg"
           alt="floating mockup, web mockup, pad, mobile, mockup"
         />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
@@ -62,7 +62,7 @@ http://stephencalvillodesign.com/project/prestoq
             rel='noopener'
             title='feedingtrends.com'><span class='underline-magical'>feedingtrends.com</span></a>
 "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
     <!-- Problem -->
     <pcase
@@ -79,7 +79,7 @@ http://stephencalvillodesign.com/project/prestoq
   
         
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
 
     <div class="p-quote contain red">
@@ -120,7 +120,7 @@ http://stephencalvillodesign.com/project/prestoq
   
         
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
     <!-- Problems -->
     <pcase
@@ -137,7 +137,7 @@ http://stephencalvillodesign.com/project/prestoq
       9. Article suggestion, ro read more; <br>
       9. Proper design colors and aesthetics. <br>
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
     <!-- Desighn -->
     <pcase
@@ -147,7 +147,7 @@ http://stephencalvillodesign.com/project/prestoq
       
         
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
 
     <div class="p-image-100-duo">
@@ -178,7 +178,7 @@ http://stephencalvillodesign.com/project/prestoq
       To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
             
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
     <div class="ft-responsive-gif">
       <div class="contain">
@@ -202,7 +202,7 @@ http://stephencalvillodesign.com/project/prestoq
       required details.
             
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
 
     <div class="p-image-100-duo">
@@ -223,7 +223,7 @@ http://stephencalvillodesign.com/project/prestoq
       para=" People love pretty picture, the final thing that is out there in real world.
                
      "
-      theme="theme_ft"
+      theme="theme_dreamz"
     />
 
     <div class="p-image-100-duo">

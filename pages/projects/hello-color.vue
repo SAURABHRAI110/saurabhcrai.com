@@ -11,12 +11,12 @@
         </nuxt-link>
       </div>
       <projecthero
-        pDate="March 2019"
-        pWebsite="TBT App"
-        pCategory="App Design"
-        pHeading="App for students"
-        pHeadingcolor="color:#0F2E47;"
-        pSubheading="connecting talent in college"
+        pDate="March 2019 "
+        pWebsite="Hello Colors"
+        pCategory="Book Design"
+        pHeading="Fun coloring experiennce"
+        pHeadingcolor="color:#e98635;"
+        pSubheading="designing colouring book for childrens"
       />
       <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -28,12 +28,9 @@
       <!-- hero image -->
       <div class="p-fe-hero_image">
         <div class="reveal-holder" data-aos="fade-up">
-          <div class="reveal-block right theme_tbt-app" data-aos="reveal-right"></div>
+          <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
 
-          <img
-            src="~assets/projects/tbt-app/tbt-app-hero.jpg"
-            alt="tht bbd times, babu banarasi das, college app"
-          />
+          <img src="~assets/projects/hc/hello-colours-hero.jpg" alt="colouring book design" />
           <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
           <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -79,7 +76,7 @@
       This casestudy is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
       So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
       "
-        theme="theme_tbt-app"
+        theme="theme_hc"
       />
 
       <div class="p-quote contain red">
