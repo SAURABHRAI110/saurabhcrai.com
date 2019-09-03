@@ -10,56 +10,56 @@
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1000">
         <img class="hero-svg" src="~assets/svg/s.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
-    </div>
 
-    <div class="nametag-container contain">
-      <div class="h-name" data-aos="fade-up" data-aos-duration="900">
-        <nuxt-link to="/about" style="text-decoration: none;">
-          <span class="underline-magical">Saurabh Rai</span>
-        </nuxt-link>
+      <div class="nametag-container contain">
+        <div class="h-name" data-aos="fade-up" data-aos-duration="900">
+          <nuxt-link to="/about" style="text-decoration: none;">
+            <span class="underline-magical">Saurabh Rai</span>
+          </nuxt-link>
+        </div>
+        <div
+          class="h-j-title"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="200"
+        >UX Designer & Owner of this Website for 1 years</div>
       </div>
+
       <div
-        class="h-j-title"
+        class="contain h-hero-title"
         data-aos="fade-up"
         data-aos-duration="900"
-        data-aos-delay="200"
-      >UX Designer & Owner of this Website for 1 years</div>
-    </div>
-
-    <div
-      class="contain h-hero-title"
-      data-aos="fade-up"
-      data-aos-duration="900"
-      data-aos-delay="400"
-    >
-      <h1>
-        <span>Experience</span>
-        <br />
-        <span class="outlined">Designer</span> At
-        <br />Feeding Trends
-      </h1>
-    </div>
-    <div class="contain">
-      <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
-        This website is my personal space where I'm trying to express my
-        creativity through
-        <span>
-          <nuxt-link to="/projects">
-            <span class="underline-magical">design</span>
-          </nuxt-link>,
-          <a
-            href="https://github.com/SAURABHRAI110"
-            target="_blank"
-            rel="noopener"
-            title="Github(new tab)"
-          >
-            <span class="underline-magical">code</span>
-          </a> and
-          <nuxt-link to="/blog">
-            <span class="underline-magical">writing.</span>
-          </nuxt-link>
-        </span>
-      </p>
+        data-aos-delay="400"
+      >
+        <h1>
+          <span>Experience</span>
+          <br />
+          <span class="outlined">Designer</span> At
+          <br />Feeding Trends
+        </h1>
+      </div>
+      <div class="contain">
+        <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
+          This website is my personal space where I'm trying to express my
+          creativity through
+          <span>
+            <nuxt-link to="/projects">
+              <span class="underline-magical">design</span>
+            </nuxt-link>,
+            <a
+              href="https://github.com/SAURABHRAI110"
+              target="_blank"
+              rel="noopener"
+              title="Github(new tab)"
+            >
+              <span class="underline-magical">code</span>
+            </a> and
+            <nuxt-link to="/blog">
+              <span class="underline-magical">writing.</span>
+            </nuxt-link>
+          </span>
+        </p>
+      </div>
     </div>
 
     <!-- home Grid pics section 2 -->
