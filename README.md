@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/imfunniee/imfunniee.github.io/master/fimbo/img/fimbo.png"/>
+<img src="https://raw.githubusercontent.com/SAURABHRAI110/saurabhcrai.com/master/assets/projects/sr/sr-website-hero.jpg/>
 
 See them in action [here](https://saurabhcrai.com)
 # saurabhcrai.com
