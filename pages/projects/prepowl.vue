@@ -14,17 +14,17 @@
       pWebsite="feedingtrends.com"
       pCategory="Product Design"
       pHeading="Stories that make you think and rethink."
-      pHeadingcolor="color:#1D98B6;"
+      pHeadingcolor="color:#8e55ff;"
       pSubheading="A platform for budding writers and readers "
     />
 
     <!-- hero image -->
     <div class="p-ft-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
+        <div class="reveal-block right theme_prepowl" data-aos="reveal-right"></div>
 
         <img
-          src="~assets/projects/ft/ft-hero-mockup-3.jpg"
+          src="~assets/projects/prepowl/prepowl-hero-blue.jpg"
           alt="floating mockup, web mockup, pad, mobile, mockup"
         />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
@@ -56,7 +56,7 @@
             rel='noopener'
             title='feedingtrends.com'><span class='underline-magical'>feedingtrends.com</span></a>
 "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
     <!-- Problem -->
     <pcase
@@ -73,7 +73,7 @@
   
         
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
 
     <div class="p-quote contain red">
@@ -114,7 +114,7 @@
   
         
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
     <!-- Problems -->
     <pcase
@@ -131,7 +131,7 @@
       9. Article suggestion, ro read more; <br>
       9. Proper design colors and aesthetics. <br>
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
     <!-- Desighn -->
     <pcase
@@ -141,7 +141,7 @@
       
         
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
 
     <div class="p-image-100-duo">
@@ -172,7 +172,7 @@
       To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
             
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
     <div class="ft-responsive-gif">
       <div class="contain">
@@ -196,7 +196,7 @@
       required details.
             
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
 
     <div class="p-image-100-duo">
@@ -217,7 +217,7 @@
       para=" People love pretty picture, the final thing that is out there in real world.
                
      "
-      theme="theme_ft"
+      theme="theme_prepowl"
     />
 
     <div class="p-image-100-duo">

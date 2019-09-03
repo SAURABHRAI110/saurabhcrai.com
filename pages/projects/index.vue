@@ -171,7 +171,7 @@
             <thumbnail
               thumbnailName="Awesome Inc."
               thumbnailDescription="Identity, Print"
-              thumbnail="/showcase5b.webp"
+              thumbnail="/awesome-inc-thumnail-3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -199,7 +199,7 @@
             <thumbnail
               thumbnailName="TBT App"
               thumbnailDescription="App, Branding"
-              thumbnail="/showcase1.webp"
+              thumbnail="/tbt-app-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -213,7 +213,7 @@
             <thumbnail
               thumbnailName="Prepowl"
               thumbnailDescription="Web, Logo"
-              thumbnail="/showcase1.webp"
+              thumbnail="/prepowl-thumbnail-blue.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -227,7 +227,7 @@
             <thumbnail
               thumbnailName="News App"
               thumbnailDescription="App, Logo"
-              thumbnail="/showcase1.webp"
+              thumbnail="/news-app-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"

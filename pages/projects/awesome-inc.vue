@@ -20,7 +20,11 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
-        <img src="~assets/projects/awesome-inc/ai-hero2.jpg" alt="R3" align />
+        <img
+          src="~assets/projects/awesome-inc/woman-tshirt-mockup-hero.jpg"
+          alt="woman tshirt, woman tshirt mockup"
+          align
+        />
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>

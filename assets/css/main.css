@@ -2420,6 +2420,23 @@ color: #0088ff !important;
 }
 
 
+/* prepowl  */
+/* accent 
+width: 1952.59px;
+height: 1370.05px;
+background: linear-gradient(#447cff 0%, #8e55ff 100%, #50b2ff 100%);
+width: 1920px;
+height: 1163px;
+background: linear-gradient(#447cff 0%, #8e55ff 100%);
+box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+primary #8e55ff
+
+ */
+
+.reveal-block.theme_prepowl::before {
+  background: #8e55ff;
+}
+
 
 /* Dear Zindagi */
 
