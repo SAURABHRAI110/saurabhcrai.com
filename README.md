@@ -1,6 +1,14 @@
+<img src="https://raw.githubusercontent.com/imfunniee/imfunniee.github.io/master/fimbo/img/fimbo.png"/>
+
+See them in action [here](https://saurabhcrai.com)
 # saurabhcrai.com
 
-> My UX portfolio website.
+> I always wanted to have a personal website. Never new how to code. So I challenged myself #100DayOfCode. This Website and repository is my journey to learn how to code and along the way make an awesome personal porfolio website for showcasing all my Design Works.
+
+>Feel free to Go through my code
+>Made with [vue.js](https://vuejs.org) framework and [nuxtjs](https://nuxtjs.org).
+
+>Have Fun. 😄
 
 ## Build Setup
 
