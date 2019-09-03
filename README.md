@@ -2,7 +2,7 @@
 ![My website Screenshot](https://raw.githubusercontent.com/SAURABHRAI110/saurabhcrai.com/master/assets/projects/sr/sr-website-hero.jpg)
 
 
-## See it in action [here](https://saurabhcrai.com)
+## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
 
 > Being a designer first, I always wanted to code my design. Before 2019, I didn't know how to code. So I challenged myself #100DayOfCode and learned it. This Website and repository is my journey to learn how to code and along the way make an awesome personal portfolio website for showcasing all my Design Works.
