@@ -325,9 +325,10 @@
 
     <div class="my-project-quote">
       <p class="contain p-quote">
-        This is no way the end, this is just a start.
-        <br />The greatest Project is the one you work on yourself.
+        "The greatest Project is the one you work on yourself".
+        <br />This is no way the end, this is just a start.
       </p>
+      <hr class="section-divider" />
     </div>
   </div>
 </template>

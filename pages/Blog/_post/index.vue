@@ -126,9 +126,18 @@
       </p>
     </div>
     <div class="b-p-hl"></div>
-    <div class="contain_blog">
-      <div class="commentbox"></div>
+
+    <div class="blog-comment-section">
+      <div class="contain">
+        <input v-model="message" />
+        <textarea type="text" v-model="msg"></textarea>
+        <button v-on="click">Post Comment</button>
+      </div>
     </div>
+
+    <!-- <div class="contain_blog">
+      <div class="commentbox"></div>
+    </div>-->
   </section>
 </template>
 

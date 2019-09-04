@@ -3757,6 +3757,15 @@ hr.section-divider:before {
   }
 }
 
+/* blog comment section */
+
+.blog-comment-section {
+  width: 100%;
+  height: auto;
+  padding: 0px 0px 0px 0px;
+  border: 1px solid #eee;
+}
+
 
 /* blog post footer */
 
