@@ -129,9 +129,24 @@
 
     <div class="blog-comment-section">
       <div class="contain">
-        <input v-model="message" />
-        <textarea type="text" v-model="msg"></textarea>
-        <button v-on="click">Post Comment</button>
+        <div class="comment-heading">
+          <p>Loved it. Leave a thoughtful Comment.</p>
+        </div>
+      </div>
+
+      <div class="comment-container">
+        <div class="contain">
+          <input v-model="message" placeholder=" Your name, be honest" />
+          <textarea
+            v-model="message"
+            placeholder=" Write your comment here and remember you will not be able to delete it.
+              In case contact Saurabh.
+           "
+          ></textarea>
+          <button v-on:click="postComment">Post Comment</button>
+          <input v-model.number="age" type="number" />
+        </div>
+        <p>Message is: {{ message }}</p>
       </div>
     </div>
 

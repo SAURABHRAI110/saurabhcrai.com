@@ -3763,9 +3763,27 @@ hr.section-divider:before {
   width: 100%;
   height: auto;
   padding: 0px 0px 0px 0px;
-  border: 1px solid #eee;
 }
 
+.blog-comment-section .comment-heading {
+  padding: 0px 0px 0px 0px;
+  background-color: white;
+}
+
+.blog-comment-section .comment-heading p {
+  color: var(--primary-color);
+}
+
+.comment-container {
+  background: #F8F8F8;
+  width: 100%;
+  padding: 30px 0px;
+}
+
+.comment-container>div {
+  background: white;
+  padding: 0px 0px 0px 0px;
+}
 
 /* blog post footer */
 
