@@ -127,7 +127,7 @@
     </div>
     <div class="b-p-hl"></div>
 
-    <div class="blog-comment-section">
+    <section class="blog-comment-section">
       <div class="contain">
         <div class="comment-heading">
           <p>Loved it. Leave a thoughtful Comment.</p>
@@ -136,19 +136,36 @@
 
       <div class="comment-container">
         <div class="contain">
-          <input v-model="message" placeholder=" Your name, be honest" />
+          <input
+            class="post-comment-name pl"
+            v-model="postCommentName"
+            placeholder=" Your sweet name"
+          />
           <textarea
-            v-model="message"
-            placeholder=" Write your comment here and remember you will not be able to delete it.
-              In case contact Saurabh.
+            class="post-comment-text"
+            v-model="postCommentText"
+            placeholder=" Write your comment here and remember you will not be able to delete it. In case contact Saurabh.
            "
           ></textarea>
-          <button v-on:click="postComment">Post Comment</button>
-          <input v-model.number="age" type="number" />
+
+          <button class="post-comment-button" v-on:click="postComment">Post Comment</button>
         </div>
-        <p>Message is: {{ message }}</p>
+        <!-- <p>Message is: {{ message }}</p> -->
+        <div class="number-of-comments contain">4 comments</div>
+
+        <div class="users-old-comments">
+          <div class="contain">
+            <div class="name">Shantanu Banerjee</div>
+            <div class="date">2 days ago</div>
+            <div class="text">
+              Wow, have to say its really and awesome article.
+              Goona share this among all my friends. Everything written here is realy great, got me hooked from the
+              first para till the end and made me to comment this.
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
 
     <!-- <div class="contain_blog">
       <div class="commentbox"></div>
