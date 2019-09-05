@@ -9,11 +9,18 @@
 
     <div class="comment-container">
       <div class="contain">
-        <input required class="post-comment-name pl" v-model="name" placeholder=" Your sweet name" />
+        <input
+          required
+          class="post-comment-name pl"
+          v-model="name"
+          id="name"
+          placeholder=" Your sweet name"
+        />
         <textarea
           required
           class="post-comment-text"
           v-model="comment"
+          id="comment"
           placeholder=" Write your comment here and remember you will not be able to delete it. In case contact Saurabh.
            "
         ></textarea>
@@ -23,17 +30,18 @@
       <!-- <p>Message is: {{ message }}</p> -->
       <div class="number-of-comments contain">4 comments</div>
 
-      <div class="users-old-comments">
-        <div class="contain">
-          <div class="name">Shantanu Banerjee</div>
-          <div class="date">2 days ago</div>
-          <div class="text">
-            Wow, have to say its really and awesome article.
-            Goona share this among all my friends. Everything written here is realy great, got me hooked from the
-            first para till the end and made me to comment this.
+      <user-comment @comment-submitted="addComment">
+        <div class="users-old-comments">
+          <div class="contain">
+            <p v-if="!comments.length">There are no comments yet.</p>
+            <div v-for="comment in comments" v-bind:key="comment.id">
+              <div class="name">{{ comment.name }}</div>
+              <div class="date">2 days ago</div>
+              <div class="text">{{ comment.comment }}</div>
+            </div>
           </div>
         </div>
-      </div>
+      </user-comment>
     </div>
   </form>
 </template>
@@ -43,7 +51,24 @@ export default {
   data() {
     return {
       name: null,
-      comment: null
+      comment: null,
+      comments: []
+    }
+  },
+
+  methods: {
+    onSubmit() {
+      let userComment = {
+        name: this.name,
+        comment: this.comment
+      }
+      this.$emit('comment-submitted', userComment)
+      this.name = null
+      this.comment = null
+    },
+
+    addComment(userComment) {
+      this.comments.push(userComment)
     }
   }
 }

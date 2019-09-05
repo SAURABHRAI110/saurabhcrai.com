@@ -160,10 +160,7 @@ export default {
     }
   },
   data() {
-    return {
-      name: null,
-      comment: null
-    }
+    return {}
   }
 }
 </script>
