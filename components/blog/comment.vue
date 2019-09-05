@@ -27,8 +27,6 @@
 
         <button class="post-comment-button" type="submit" value="Submit">Post Comment</button>
       </div>
-      <!-- <p>Message is: {{ message }}</p> -->
-      <div class="number-of-comments contain">4 comments</div>
     </div>
   </form>
 </template>
@@ -132,52 +130,6 @@ export default {
 }
 
 .number-of-comments:after {
-  content: '';
-  width: 100%;
-  height: 1px;
-  background-color: #707070;
-  width: 100%;
-  left: 0px;
-  opacity: 0.53;
-  position: absolute;
-  bottom: 0px;
-}
-
-.users-old-comments .name {
-  font-family: 'circular-book';
-  font-size: 20px;
-  text-align: left;
-  color: var(--primary-color);
-  padding: 25px 0px 0px 0px;
-}
-
-.users-old-comments {
-  width: 100%;
-  position: relative;
-}
-
-.users-old-comments .date {
-  font-family: 'circular-book';
-  font-size: 12px;
-  text-align: left;
-  color: #525252;
-  opacity: 0.6;
-  padding: 0px 0px 0px 0px;
-}
-
-.users-old-comments .text {
-  font-family: 'circular-book';
-  font-size: 20px;
-  text-align: left;
-  color: #606060;
-  padding: 15px 0px 30px 0px;
-}
-
-.users-old-comments .contain {
-  position: relative;
-}
-
-.users-old-comments .text:after {
   content: '';
   width: 100%;
   height: 1px;

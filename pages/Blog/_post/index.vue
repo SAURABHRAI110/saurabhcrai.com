@@ -121,13 +121,15 @@
     </div>
     <div class="b-p-hl"></div>
     <comment @comment-submitted="addComment" />
+    <!-- <p>Message is: {{ message }}</p> -->
+    <div class="number-of-comments contain">{{ comments.length }} comments</div>
     <div>
       <div class="users-old-comments">
         <div class="contain">
           <p v-if="!comments.length">There are no comments yet.</p>
           <div v-for="comment in comments" v-bind:key="comment.id">
             <div class="name">{{ comment.name }}</div>
-            <div class="date">2 days ago</div>
+            <div class="date">{{ formatDate(comment.date) }}</div>
             <div class="text">{{ comment.comment }}</div>
           </div>
         </div>
@@ -138,6 +140,7 @@
 
 <script>
 import Comment from '~/components/blog/comment.vue'
+import moment from 'moment'
 
 const fm = require('front-matter')
 const md = require('markdown-it')({
@@ -177,6 +180,11 @@ export default {
     }
   },
   methods: {
+    formatDate(date) {
+      return moment(date, 'YYYYMMDD').fromNow()
+      // .format('ddd DD MMMM')
+      // .fromNow()
+    },
     addComment(userComment) {
       this.comments.push(userComment)
     }
@@ -211,6 +219,52 @@ blockquote {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
+}
+
+.users-old-comments .name {
+  font-family: 'circular-book';
+  font-size: 20px;
+  text-align: left;
+  color: var(--primary-color);
+  padding: 25px 0px 0px 0px;
+}
+
+.users-old-comments {
+  width: 100%;
+  position: relative;
+}
+
+.users-old-comments .date {
+  font-family: 'circular-book';
+  font-size: 12px;
+  text-align: left;
+  color: #525252;
+  opacity: 0.6;
+  padding: 0px 0px 0px 0px;
+}
+
+.users-old-comments .text {
+  font-family: 'circular-book';
+  font-size: 20px;
+  text-align: left;
+  color: #606060;
+  padding: 15px 0px 30px 0px;
+}
+
+.users-old-comments .contain {
+  position: relative;
+}
+
+.users-old-comments .text:after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background-color: #707070;
+  width: 100%;
+  left: 0px;
+  opacity: 0.53;
+  position: absolute;
+  bottom: 0px;
 }
 </style>
 
