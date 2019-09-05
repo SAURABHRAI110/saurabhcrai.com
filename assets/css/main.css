@@ -3969,7 +3969,7 @@ hr.section-divider:before {
 
 .blog-comment-section .post-comment-button {
   max-width: 300px;
-  padding: 10px;
+  padding: 15px;
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -4056,4 +4056,28 @@ hr.section-divider:before {
   opacity: 0.53;
   position: absolute;
   bottom: 0px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .blog-comment-section .post-comment-name {
+    width: 60%;
+  }
+
+  .blog-comment-section {
+
+    padding: 13px 0px 0px 0px;
+  }
+
+
+
+
+}
+
+@media screen and (max-width: 600px) {
+
+  .blog-comment-section .post-comment-button {
+    max-width: 100%;
+
+  }
 }
