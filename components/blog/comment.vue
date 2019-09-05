@@ -29,19 +29,6 @@
       </div>
       <!-- <p>Message is: {{ message }}</p> -->
       <div class="number-of-comments contain">4 comments</div>
-
-      <user-comment @comment-submitted="addComment">
-        <div class="users-old-comments">
-          <div class="contain">
-            <p v-if="!comments.length">There are no comments yet.</p>
-            <div v-for="comment in comments" v-bind:key="comment.id">
-              <div class="name">{{ comment.name }}</div>
-              <div class="date">2 days ago</div>
-              <div class="text">{{ comment.comment }}</div>
-            </div>
-          </div>
-        </div>
-      </user-comment>
     </div>
   </form>
 </template>
@@ -51,8 +38,7 @@ export default {
   data() {
     return {
       name: null,
-      comment: null,
-      comments: []
+      comment: null
     }
   },
 
@@ -60,15 +46,13 @@ export default {
     onSubmit() {
       let userComment = {
         name: this.name,
-        comment: this.comment
+        comment: this.comment,
+        date: new Date()
       }
       this.$emit('comment-submitted', userComment)
       this.name = null
       this.comment = null
-    },
-
-    addComment(userComment) {
-      this.comments.push(userComment)
+      this.date = null
     }
   }
 }

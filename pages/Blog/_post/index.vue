@@ -120,7 +120,19 @@
       </p>
     </div>
     <div class="b-p-hl"></div>
-    <comment />
+    <comment @comment-submitted="addComment" />
+    <div>
+      <div class="users-old-comments">
+        <div class="contain">
+          <p v-if="!comments.length">There are no comments yet.</p>
+          <div v-for="comment in comments" v-bind:key="comment.id">
+            <div class="name">{{ comment.name }}</div>
+            <div class="date">2 days ago</div>
+            <div class="text">{{ comment.comment }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -160,7 +172,14 @@ export default {
     }
   },
   data() {
-    return {}
+    return {
+      comments: []
+    }
+  },
+  methods: {
+    addComment(userComment) {
+      this.comments.push(userComment)
+    }
   }
 }
 </script>
