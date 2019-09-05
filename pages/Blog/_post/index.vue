@@ -120,9 +120,15 @@
       </p>
     </div>
     <div class="b-p-hl"></div>
+    <!-- Blog comment form -->
+
     <comment @comment-submitted="addComment" />
-    <!-- <p>Message is: {{ message }}</p> -->
-    <div class="number-of-comments contain">{{ comments.length }} comments</div>
+
+    <!-- Blog previous comment -->
+    <div class="number-of-comments-container">
+      <div class="number-of-comments contain">{{ comments.length }} comments</div>
+    </div>
+
     <div>
       <div class="users-old-comments">
         <div class="contain">
@@ -219,52 +225,6 @@ blockquote {
   left: 50%;
   transform: translate(-50%, -50%);
   overflow: hidden;
-}
-
-.users-old-comments .name {
-  font-family: 'circular-book';
-  font-size: 20px;
-  text-align: left;
-  color: var(--primary-color);
-  padding: 25px 0px 0px 0px;
-}
-
-.users-old-comments {
-  width: 100%;
-  position: relative;
-}
-
-.users-old-comments .date {
-  font-family: 'circular-book';
-  font-size: 12px;
-  text-align: left;
-  color: #525252;
-  opacity: 0.6;
-  padding: 0px 0px 0px 0px;
-}
-
-.users-old-comments .text {
-  font-family: 'circular-book';
-  font-size: 20px;
-  text-align: left;
-  color: #606060;
-  padding: 15px 0px 30px 0px;
-}
-
-.users-old-comments .contain {
-  position: relative;
-}
-
-.users-old-comments .text:after {
-  content: '';
-  width: 100%;
-  height: 1px;
-  background-color: #707070;
-  width: 100%;
-  left: 0px;
-  opacity: 0.53;
-  position: absolute;
-  bottom: 0px;
 }
 </style>
 

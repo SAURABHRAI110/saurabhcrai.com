@@ -91,4 +91,4 @@ $(window).scroll(function () {
 //   init();
 // })();
 
-Vue.component('user-comment', user_comment);
+// Vue.component('user-comment', user_comment);
