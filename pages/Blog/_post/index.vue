@@ -1,7 +1,5 @@
 <template>
   <section :key="$route.params.post">
-    <div id="fb-root"></div>
-
     <div class="blog-post-hero">
       <div class="contain_blog">
         <div class="b-p-heading">
@@ -90,11 +88,7 @@
         <div v-html="content"></div>
       </article>
     </div>
-    <!-- <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
-    </div>-->
+
     <div class="section-divider">
       <hr class="section-divider" />
     </div>
@@ -126,55 +120,12 @@
       </p>
     </div>
     <div class="b-p-hl"></div>
-
-    <section class="blog-comment-section">
-      <div class="contain">
-        <div class="comment-heading">
-          <p>Loved it. Leave a thoughtful Comment.</p>
-        </div>
-      </div>
-
-      <div class="comment-container">
-        <div class="contain">
-          <input
-            class="post-comment-name pl"
-            v-model="postCommentName"
-            placeholder=" Your sweet name"
-          />
-          <textarea
-            class="post-comment-text"
-            v-model="postCommentText"
-            placeholder=" Write your comment here and remember you will not be able to delete it. In case contact Saurabh.
-           "
-          ></textarea>
-
-          <button class="post-comment-button" v-on:click="postComment">Post Comment</button>
-        </div>
-        <!-- <p>Message is: {{ message }}</p> -->
-        <div class="number-of-comments contain">4 comments</div>
-
-        <div class="users-old-comments">
-          <div class="contain">
-            <div class="name">Shantanu Banerjee</div>
-            <div class="date">2 days ago</div>
-            <div class="text">
-              Wow, have to say its really and awesome article.
-              Goona share this among all my friends. Everything written here is realy great, got me hooked from the
-              first para till the end and made me to comment this.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- <div class="contain_blog">
-      <div class="commentbox"></div>
-    </div>-->
+    <comment />
   </section>
 </template>
 
 <script>
-import Contribute from '~/components/blog/Contribute.vue'
+import Comment from '~/components/blog/comment.vue'
 
 const fm = require('front-matter')
 const md = require('markdown-it')({
@@ -193,6 +144,9 @@ export default {
       content: md.render(res.body)
     }
   },
+  components: {
+    Comment
+  },
   head() {
     return {
       title: this.attributes.title,
@@ -203,6 +157,12 @@ export default {
           content: this.attributes.description
         }
       ]
+    }
+  },
+  data() {
+    return {
+      name: null,
+      comment: null
     }
   }
 }
