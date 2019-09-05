@@ -132,7 +132,7 @@
     <div>
       <div class="users-old-comments">
         <div class="contain">
-          <p v-if="!comments.length">There are no comments yet.</p>
+          <p v-if="!comments.length">Be the first to comment.</p>
           <div v-for="comment in comments" v-bind:key="comment.id">
             <div class="name">{{ comment.name }}</div>
             <div class="date">{{ formatDate(comment.date) }}</div>
