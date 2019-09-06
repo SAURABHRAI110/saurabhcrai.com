@@ -188,7 +188,7 @@ export default {
   },
   methods: {
     formatDate(date) {
-      return moment(date, 'YYYYMMDD').fromNow()
+      return moment(date).fromNow()
       // .format('ddd DD MMMM')
       // .fromNow()
     },
