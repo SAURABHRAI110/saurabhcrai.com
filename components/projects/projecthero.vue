@@ -20,12 +20,12 @@
         data-aos-delay="300"
         :style="pHeadingcolor"
       >{{pHeading}}</h2>
-      <h3
+      <p
         class="p-sub-heading opacity70"
         data-aos="fade-up"
         data-aos-duration="1000"
         data-aos-delay="400"
-      >{{pSubheading}}</h3>
+      >{{pSubheading}}</p>
     </div>
   </div>
 </template>
@@ -62,8 +62,8 @@ export default {
   font-size: 26px;
   margin-top: 10px 0px 30px 0px;
   position: relative;
-  color: rgb(29, 29, 29);
-  z-index: 3;
+  color: #3a3a3a;
+  font-family: circular-medium;
 }
 
 .p-min2-info {
@@ -74,21 +74,27 @@ export default {
 }
 .p-min-info {
   position: relative;
-  padding: 0px 0px 0px 0px;
+  padding: 27px 0px 9px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  color: #8d8d8d;
 }
 
 .p-min1 {
   text-align: left;
+  display: block;
+  margin: 0px 0px 5px 0px;
 }
 
 .p-min2 {
   text-align: center;
+  display: block;
+  margin: 0px 0px 5px 0px;
 }
 
 .p-min3 {
   text-align: right;
+  display: block;
 }
 
 @media screen and (max-width: 1199px) {
@@ -103,7 +109,7 @@ export default {
   }
 
   .p-min2-info {
-    width: 80%;
+    width: 100%;
   }
 
   .p-sub-heading {
@@ -112,8 +118,48 @@ export default {
 }
 
 @media screen and (max-width: 800px) {
+  .p-heading {
+    margin-bottom: 0;
+    margin-top: 46px;
+    line-height: 40px;
+  }
+
+  .p-min-info {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px 9px 0px;
+  }
+
+  .p-min1 {
+    text-align: left;
+    display: block;
+  }
+
+  .p-min2 {
+    text-align: left;
+    display: block;
+  }
+
+  .p-min3 {
+    text-align: left;
+    display: block;
+  }
+
+  .p-sub-heading {
+    font-size: 18px;
+    margin-top: 17px;
+  }
   .p-min2-info {
-    width: 80%;
+    width: 100%;
+    margin-right: 8%;
+    padding: 0px 0px 0px 0px;
+    margin: -30px 0px 0px 0px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .p-min2-info {
+    width: 100%;
     margin-right: 8%;
   }
 
@@ -125,28 +171,6 @@ export default {
 
   .p-min-info {
     width: 100%;
-  }
-
-  .p-sub-heading {
-    font-size: 16px;
-    margin-top: 30px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .p-min2-info {
-    width: 80%;
-    margin-right: 8%;
-  }
-
-  .p-heading {
-    margin-bottom: 0;
-    margin-top: 46px;
-    line-height: 40px;
-  }
-
-  .p-min-info {
-    width: 80%;
   }
 
   .p-sub-heading {
