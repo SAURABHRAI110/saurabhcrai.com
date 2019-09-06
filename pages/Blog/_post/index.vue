@@ -147,6 +147,7 @@
 <script>
 import Comment from '~/components/blog/comment.vue'
 import moment from 'moment'
+import axios from 'axios'
 
 const fm = require('front-matter')
 const md = require('markdown-it')({
@@ -192,6 +193,19 @@ export default {
       // .fromNow()
     },
     addComment(userComment) {
+      // add comment to firebase
+      axios
+        .get(
+          `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/postComment?name=${
+            userComment.name
+          }&comment=${userComment.comment}&blogid=${this.$route.params.post}`
+        )
+        .then(() => {
+          console.log('comment added')
+        })
+        .catch(() => {
+          console.log('failed to add comment')
+        })
       this.comments.push(userComment)
     }
   }

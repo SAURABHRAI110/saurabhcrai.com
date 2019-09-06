@@ -1,6 +1,6 @@
 
  <template>
-  <form class="blog-comment-section" @submit.prevent="onSubmit">
+  <form class="blog-comment-section" @submit.prevent="onSubmit" id="comment-form">
     <div class="contain">
       <div class="comment-heading">
         <p>Loved it. Leave a thoughtful Comment.</p>
