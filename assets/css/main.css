@@ -1,7 +1,6 @@
-body,
-html {
+body {
   /* padding: 0, 0, 0, 100px; */
-  padding: 0px 0px 0px 50px;
+  padding: 0px 0px 0px 100px;
   box-sizing: border-box;
   margin: 0px;
   -moz-hyphens: none;
@@ -13,9 +12,8 @@ html {
 
 @media screen and (max-width: 999px) {
 
-  body,
-  html {
-    padding: 30px 0px 0px 0px;
+  body {
+    padding: 70px 0px 0px 0px;
   }
 }
 
@@ -109,6 +107,7 @@ a {
   --primary-color: #fc3a52;
   --tertiary-color: #1c1b20;
   --secondary-color: #f6ecdd;
+  --image-bg-color: #dbdbdb;
 }
 
 :root {
@@ -2272,6 +2271,69 @@ body {
   }
 }
 
+/* project showcase page all projects css */
+
+.p-hero_top {
+  padding: 0px 0px 30px 0px;
+}
+
+.p-hero_image {
+  width: 100%;
+  background-color: var(--image-bg-colour);
+  position: relative;
+}
+
+.p-hero_image img {
+  object-fit: cover;
+  width: 100%;
+  object-position: 50% 50%;
+}
+
+@media screen and (max-width:800px) {
+  .p-hero_image {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+  }
+
+
+  .p-hero_image img {
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    object-position: 50% 50%;
+  }
+
+  .p-info {
+    display: inline-block !important;
+  }
+
+  .p-info-4 {
+
+    padding: 30px 0px 30px 0px !important;
+  }
+}
+
+
+@media screen and (max-width:500px) {
+  .p-hero_image {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+  }
+
+
+  .p-hero_image img {
+    object-fit: cover;
+    width: 100%;
+    position: relative;
+    height: 70vh;
+    object-position: 50% 50%;
+  }
+
+}
+
 
 /* Project Filming Eye */
 /* accent colour rgb(218, 44, 77);*/
@@ -2483,6 +2545,13 @@ primary #8e55ff
 .reveal-block.theme_prepowl::before {
   background: #8e55ff;
 }
+
+
+
+
+
+
+
 
 
 /* Dear Zindagi */

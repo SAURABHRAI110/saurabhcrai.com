@@ -15,11 +15,11 @@
       pCategory="Product Design"
       pHeading="Stories that make you think and rethink."
       pHeadingcolor="color:#8e55ff;"
-      pSubheading="A platform for budding writers and readers "
+      pSubheading="A platform for budding writers and readers"
     />
 
     <!-- hero image -->
-    <div class="p-ft-hero_image">
+    <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_prepowl" data-aos="reveal-right"></div>
 

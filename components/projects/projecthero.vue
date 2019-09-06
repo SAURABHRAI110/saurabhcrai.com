@@ -66,45 +66,29 @@ export default {
   z-index: 3;
 }
 
-.p-min-info {
-  position: relative;
-  margin-right: 17%;
-  height: 10vh;
-}
-
 .p-min2-info {
   /* width: 63%; */
   position: relative;
   /* margin-right: 17%; */
   height: auto;
 }
+.p-min-info {
+  position: relative;
+  padding: 0px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .p-min1 {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  z-index: 3;
+  text-align: left;
 }
 
 .p-min2 {
   text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: white;
-  z-index: 3;
 }
 
 .p-min3 {
-  right: 0;
-  position: absolute;
   text-align: right;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: white;
-  z-index: 3;
 }
 
 @media screen and (max-width: 1199px) {
@@ -115,7 +99,7 @@ export default {
 
 @media screen and (max-width: 999px) {
   .p-min-info {
-    width: 80%;
+    width: 100%;
   }
 
   .p-min2-info {
@@ -140,7 +124,7 @@ export default {
   }
 
   .p-min-info {
-    width: 80%;
+    width: 100%;
   }
 
   .p-sub-heading {
