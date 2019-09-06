@@ -202,12 +202,27 @@ export default {
         )
         .then(() => {
           console.log('comment added')
+          this.getComments()
         })
         .catch(() => {
           console.log('failed to add comment')
         })
-      this.comments.push(userComment)
+      // this.comments.push(userComment)
+    },
+    getComments() {
+      axios
+        .get(
+          `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/getComments?blogid=${
+            this.$route.params.post
+          }`
+        )
+        .then(comments => {
+          this.comments = JSON.parse(comments.data.data)
+        })
     }
+  },
+  mounted() {
+    this.getComments()
   }
 }
 </script>
