@@ -135,7 +135,7 @@
           <p v-if="!comments.length">Be the first to comment.</p>
           <div v-for="comment in comments" v-bind:key="comment.id">
             <div class="name">{{ comment.name }}</div>
-            <div class="date">{{ formatDate(comment.date) }}</div>
+            <div class="date">{{ formatDate(comment.time) }}</div>
             <div class="text">{{ comment.comment }}</div>
           </div>
         </div>
