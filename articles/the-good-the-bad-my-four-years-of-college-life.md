@@ -7,7 +7,7 @@ ctime: 2019-08-12
 cover_image: college-days-cover.jpeg
 cover_image_alt:  Colllege group, Team Pic, People together happy.
 cover_image_description: People ❤ 
-thumbnail_image: myself.jpg
+thumbnail_image: my-college-days-thumbnail.jpg
 github_doclink: the-good-the-bad-my-four-years-of-college-life.md
 
 ---
