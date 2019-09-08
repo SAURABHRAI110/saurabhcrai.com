@@ -2611,7 +2611,16 @@ color: #0088ff !important;
 }
 
 .logofolio-2 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+
+  background: linear-gradient(45deg, #fff001 6.78%, #febd2e 15.11%, #fd5a86 32.07%, #fd1cbe 43.9%, #fd04d4 49.48%, #f20cd5 53.47%, #d522da 60.42%, #a747e2 69.49%, #6779ed 80.33%, #16b9fb 92.55%, #00cbff 95.73%);
+
+}
+
+.logofolio-2 .logofolio-bg div img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  opacity: .5;
 }
 
 /* logofolio 3 */
@@ -2676,8 +2685,22 @@ color: #0088ff !important;
 }
 
 .logofolio-7 .logofolio-bg img {
-  width: 250px;
+  width: 300px;
 }
+
+@media screen and (max-width:800px) {
+  .logofolio-7 .logofolio-bg img {
+    width: 240px;
+  }
+}
+
+.logofolio-7 .logofolio-bg div img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  opacity: .6;
+}
+
 
 /* logofolio 8 */
 
@@ -2712,6 +2735,10 @@ color: #0088ff !important;
 
   background: linear-gradient(#009f94 0%, #009fd0 100%);
 
+}
+
+.logofolio-10 .logofolio-bg img {
+  filter: invert(1);
 }
 
 /* logofolio 11 */

@@ -68,10 +68,6 @@ http://stephencalvillodesign.com/project/prestoq
       theme="theme_logofolio"
     />
 
-    <div class="p-quote contain red">
-      <blockquote>Hope you like them. And I have to say it logo design is not my strong suit. I just try harder.</blockquote>
-    </div>
-
     <div class="p-logofolio-container logofolio-1">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -91,10 +87,12 @@ http://stephencalvillodesign.com/project/prestoq
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <div class="logofolio-bg">
           <img
-            src="~assets/projects/logofolio/awesome-inc.png"
+            src="~assets/projects/logofolio/awesome-inc.svg"
             alt="creative team pic, team pic, team, designers, developers"
           />
-          <div></div>
+          <div>
+            <img src="~assets/projects/logofolio/awesome-inc-bg-3.jpg" alt />
+          </div>
           <p class="ps">Awesome Inc | Agency | 2018</p>
         </div>
       </div>
@@ -180,7 +178,9 @@ http://stephencalvillodesign.com/project/prestoq
             src="~assets/projects/logofolio/llf@3x.png"
             alt="creative team pic, team pic, team, designers, developers"
           />
-          <div></div>
+          <div>
+            <img src="~assets/projects/logofolio/llf-bg.jpg" alt />
+          </div>
           <p class="ps">LLF | Literature Society | 2016</p>
         </div>
       </div>
@@ -312,8 +312,8 @@ http://stephencalvillodesign.com/project/prestoq
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        There are three responses to a piece of design - yes, no and WOW! Wow is the one I am for.
+        Logo design is not my strong suite. Hope you like these. Thanks.
       </blockquote>
     </div>
 
