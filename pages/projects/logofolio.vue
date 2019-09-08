@@ -313,7 +313,7 @@ http://stephencalvillodesign.com/project/prestoq
     <div class="p-quote contain red">
       <blockquote>
         There are three responses to a piece of design - yes, no and WOW! Wow is the one I am for.
-        Logo design is not my strong suite. Hope you like these. Thanks.
+        Logo design is not my strong suite. I olny hope you like these. Say WOW, try it now. WOW!
       </blockquote>
     </div>
 
