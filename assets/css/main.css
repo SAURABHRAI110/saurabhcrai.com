@@ -2617,23 +2617,24 @@ color: #0088ff !important;
 /* logofolio 3 */
 
 .logofolio-3 p {
-  color: white;
+  color: black;
   opacity: .5;
 }
 
 .logofolio-3 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: var(--image-bg-color);
 }
 
 /* logofolio 4 */
 
 .logofolio-4 p {
-  color: white;
+  color: black;
   opacity: .5;
 }
 
 .logofolio-4 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: rgb(175, 222, 255);
+
 }
 
 /* logofolio 5 */
@@ -2644,7 +2645,8 @@ color: #0088ff !important;
 }
 
 .logofolio-5 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+
+  background: linear-gradient(#f83e5b 0%, #f48937 100%, #000 100%);
 }
 
 /* logofolio 6 */
@@ -2654,11 +2656,15 @@ color: #0088ff !important;
   opacity: .5;
 }
 
-.logofolio-6 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+.logofolio-6 .logofolio-bg div img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
 }
 
-/* logofolio 7 */
+.logofolio-6 .logofolio-bg img {
+  width: 250px;
+}
 
 .logofolio-7 p {
   color: white;
@@ -2666,18 +2672,22 @@ color: #0088ff !important;
 }
 
 .logofolio-7 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-image: radial-gradient(circle 900px at 10% 20%, rgba(250, 75, 139, 1) 0%, rgba(238, 102, 102, 1) 100.2%);
+}
+
+.logofolio-7 .logofolio-bg img {
+  width: 250px;
 }
 
 /* logofolio 8 */
 
 .logofolio-8 p {
-  color: white;
+  color: black;
   opacity: .5;
 }
 
 .logofolio-8 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: var(--image-bg-color);
 }
 
 /* logofolio 9 */
@@ -2688,7 +2698,7 @@ color: #0088ff !important;
 }
 
 .logofolio-9 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgb(255, 146, 146) 0%, rgba(255, 209, 110, 1) 100.2%);
 }
 
 /* logofolio 10 */
@@ -2699,40 +2709,48 @@ color: #0088ff !important;
 }
 
 .logofolio-10 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+
+  background: linear-gradient(#009f94 0%, #009fd0 100%);
+
 }
 
 /* logofolio 11 */
 
 .logofolio-11 p {
-  color: white;
+  color: black;
   opacity: .5;
 }
 
 .logofolio-11 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(87, 195, 155, 1) 0%, rgba(155, 218, 71, 0.66) 76.9%);
+
 }
 
 /* logofolio 12 */
 
 .logofolio-12 p {
-  color: white;
+  color: black;
   opacity: .5;
 }
 
 .logofolio-12 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: var(--image-bg-color);
 }
+
+.logofolio-12 .logofolio-bg img {
+  width: 140px;
+}
+
 
 /* logofolio 13 */
 
 .logofolio-13 p {
-  color: white;
+  color: black;
   opacity: .5;
 }
 
 .logofolio-13 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: var(--image-bg-color);
 }
 
 /* logofolio 14 */
@@ -2743,7 +2761,7 @@ color: #0088ff !important;
 }
 
 .logofolio-14 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: #009eff;
 }
 
 /* logofolio 15 */
@@ -2754,7 +2772,7 @@ color: #0088ff !important;
 }
 
 .logofolio-15 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
 }
 
 /* logofolio 16 */
@@ -2765,7 +2783,11 @@ color: #0088ff !important;
 }
 
 .logofolio-16 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background-color: #005463;
+}
+
+.logofolio-16 .logofolio-bg img {
+  width: 140px;
 }
 
 /* logofolio 17 */
@@ -2776,7 +2798,13 @@ color: #0088ff !important;
 }
 
 .logofolio-17 .logofolio-bg div {
-  background-image: radial-gradient(circle farthest-corner at 10% 20%, rgba(56, 207, 191, 1) 0%, rgb(29, 29, 29) 90.2%);
+  background: linear-gradient(#e9805c 0%, #d83b73 100%);
+
+
+}
+
+.logofolio-17 .logofolio-bg img {
+  width: 130px;
 }
 
 

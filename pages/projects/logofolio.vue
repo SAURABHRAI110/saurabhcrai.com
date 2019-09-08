@@ -150,22 +150,10 @@ http://stephencalvillodesign.com/project/prestoq
             src="~assets/projects/logofolio/filming-eye.svg"
             alt="creative team pic, team pic, team, designers, developers"
           />
-          <div></div>
+          <div>
+            <img src="~assets/projects/logofolio/filming-eye-bg.jpg" alt />
+          </div>
           <p class="ps">Filming Eye | Movie and Short Films | 2018</p>
-        </div>
-      </div>
-    </div>
-
-    <div class="p-logofolio-container logofolio-7">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <div class="logofolio-bg">
-          <img
-            src="~assets/projects/logofolio/llf@3x.png"
-            alt="creative team pic, team pic, team, designers, developers"
-          />
-          <div></div>
-          <p class="ps">LLF | Literature Society | 2016</p>
         </div>
       </div>
     </div>
@@ -180,6 +168,20 @@ http://stephencalvillodesign.com/project/prestoq
           />
           <div></div>
           <p class="ps">Mr. Irritating | Novel | 2017</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-logofolio-container logofolio-7">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div class="logofolio-bg">
+          <img
+            src="~assets/projects/logofolio/llf@3x.png"
+            alt="creative team pic, team pic, team, designers, developers"
+          />
+          <div></div>
+          <p class="ps">LLF | Literature Society | 2016</p>
         </div>
       </div>
     </div>
@@ -240,20 +242,6 @@ http://stephencalvillodesign.com/project/prestoq
       </div>
     </div>
 
-    <div class="p-logofolio-container logofolio-13">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <div class="logofolio-bg">
-          <img
-            src="~assets/projects/logofolio/suncheetah.svg"
-            alt="creative team pic, team pic, team, designers, developers"
-          />
-          <div></div>
-          <p class="ps">SunCheetah | for a friend | 2017</p>
-        </div>
-      </div>
-    </div>
-
     <div class="p-logofolio-container logofolio-14">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -264,6 +252,20 @@ http://stephencalvillodesign.com/project/prestoq
           />
           <div></div>
           <p class="ps">TBT | College Media Community | 2015</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-logofolio-container logofolio-13">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div class="logofolio-bg">
+          <img
+            src="~assets/projects/logofolio/suncheetah.svg"
+            alt="creative team pic, team pic, team, designers, developers"
+          />
+          <div></div>
+          <p class="ps">SunCheetah | for a friend | 2017</p>
         </div>
       </div>
     </div>
@@ -299,11 +301,11 @@ http://stephencalvillodesign.com/project/prestoq
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <div class="logofolio-bg">
           <img
-            src="~assets/projects/logofolio/dualeaf.svg"
+            src="~assets/projects/logofolio/r3-logo.svg"
             alt="creative team pic, team pic, team, designers, developers"
           />
           <div></div>
-          <p class="ps">Client Work | Aerospace | 2017</p>
+          <p class="ps">R3 | Literature | 2018</p>
         </div>
       </div>
     </div>
