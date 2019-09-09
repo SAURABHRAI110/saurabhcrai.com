@@ -56,8 +56,8 @@ http://stephencalvillodesign.com/project/prestoq
       client work, done these logos for a broader project like website or app or for branding. Some of them are for friends and
       some I designed just to learn the basics of logo and to try some new trending design stuff.
       <br><br>
-     The logos represent the Final design. They all have gone through a design process, research, ideation, sketching, basic layout to final prototype.
-     Many series of iterations and redesign. Some logos took only one days to come up and some took me months when there was creative freedoma and
+     These logos represent the Final design. They all have gone through a design process, research, ideation, sketching, basic layout to final prototype.
+     Many series of iterations and redesign. Some logos took only one days to come up and some took months when there was creative freedom and
      no time constrain. You can also check my logofolio on
 
     <a  href='https://www.behance.net/saurabhcrai'

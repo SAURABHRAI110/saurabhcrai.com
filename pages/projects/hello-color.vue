@@ -11,7 +11,7 @@
         </nuxt-link>
       </div>
       <projecthero
-        pDate="March 2019 "
+        pDate="July 2017 "
         pWebsite="Hello Colors"
         pCategory="Book Design"
         pHeading="Fun coloring experiennce"
@@ -37,14 +37,14 @@
         </div>
       </div>
       <Preface
-        timeframe=" Feb 2019- March 2019
-    <br />1 month"
-        tools=" Adobe XD, Adobe Illustrator
-    <br /> Dropbox Paper, Flinto, markers"
-        role=" UI/UX
-    <br />Research, Content Strategy"
-        team=" Me-UX, Shekhar-Dev
-    <br />Yash/Zainab-Managing"
+        timeframe=" July 2019- Oct 2019
+    <br />3 months"
+        tools=" Corel Draw, Adobe Illustrator
+    <br />  Adobe Photoshop, Pen/Pencil."
+        role=" Copy Paste, Design layout,
+    <br />Research, Rewrite Content, Design Whole book"
+        team=" Myself, Abhishek
+    <br />Fahad"
       />
 
       <!-- Refrence
@@ -56,28 +56,165 @@
       <pcase
         heading="Preface"
         para=" 
-        I was on the team for almost two years as the sole/lead designer. During that time I
-        worked with company co-founders, developers, content-writers, designers to completely overhaul the
-        design to create new  design system, create new features to fit our
-        customers needs, and most importantly,
-        design new features to create a better experience for every project I worked on. FT Event was one of the company Internal Project.
-<br><br>
-        FT Event is about event website where user can book tickets and create event. 
-        Using FT Events to the Beat website, users can register for the events, Book tickets,
-        Create Event and manage the event or ticket
-        from its dash board. In addition to finding information on past and future events,
-        event results, image gallery, charity event organizers,
-        participating musicians, register for the Feeding Trends exclusive advetisement, and more.
-
-        <br>
-        <br>
-        
-        Feeding Trends- Events is in Development stage right now, I delivered the design already,
-      This casestudy is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
-      So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
+       This project was kind of very unique. It was to design whole Art book for Students from class 1 to 6.
+       Total 12 books, Cover for them and Inside page like Index, Content and all those 60 page for colouring.
+       It was my i guess 3rd time deling with design in book. I was confident I wiil be able to deliver it, but the thing was it was
+       very daunting, so many pages and so many page just similar layout and all to be done in Illustrator.
+       
       "
         theme="theme_hc"
       />
+
+      <!-- from coreldraw to illutrator -->
+      <pcase
+        heading="Ctrl C + Ctrl V, from Corel Draw to Illustrator"
+        para="  The base file that I got from the client was all set in Corel Draw. They contain all the
+        basic shapes and very basic layout and some content that would have to get in each page. I dont like Core Draw
+        Pesonally and I got more command over Illutrtor. So I choose to do the hard stuff, copying and pasting.
+        I didn't have to draw vector images, well I could have not accepted this if not for that. Because 
+        designing a book (so many books) is not a one man job.
+
+       
+       
+        <br><br>
+
+        Anyway, here I was readjusting the artboard to mach the required size of book, and then vector
+        images from Corel draw to Illustrator.
+        I have to say It was very boring. After a week and two. It got worse, I could have done only
+        40 pages and there were more around 400 pages, so asked help from my junior designer Abhishek, and he agreed,'
+        to my expectations we both were able to do this in very less time.
+
+      "
+        theme="theme_hc"
+      />
+
+      <!-- slides -->
+      <div class="contain">
+        <agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/hc/hello-color-screenshot-1.jpg"
+              alt="slider1"
+            />
+          </div>
+
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/hc/hello-color-screenshot-2.jpg"
+              alt="slider2"
+            />
+          </div>
+        </agile>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile1.jpg" />
+            <img src="~assets/projects/hc/playwitharts1.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile3.jpg" />
+            <img src="~assets/projects/hc/playwitharts3.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile5.jpg" />
+            <img src="~assets/projects/hc/playwitharts5.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile6.jpg" />
+            <img src="~assets/projects/hc/playwitharts6.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile7.jpg" />
+            <img src="~assets/projects/hc/playwitharts7.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile8.jpg" />
+            <img src="~assets/projects/hc/playwitharts8.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <!-- from coreldraw to illutrator -->
+      <pcase
+        heading="Then this happened"
+        para="  I rememebr correctly, almost 2 years back, I was in the middle of the completing this project.
+        I for some days travelled to noida for a break, and during that I lost my Laaptop from my friends room. It was Disater, my lptop got stolen.
+        3 years of stuff vanished just like that. Fortunately I ahve a habit of backing up things to cloud, and after some
+        days I got myslef to together and began working from my Old age Desktop Pc having a very slow i5 processor. 
+        Projects got delayed to October and its all on me. Somehow  I made to the end. 
+
+       
+       
+        <br><br>
+
+        With all that in past, it was pretty tough experience. The project was boring, i hated working with Corel Draw,
+        My laptop got stolen, lost 3 years of stuff, lost myself and then redeemed myself as I always do. Now I write these
+        this project made me learn so much. About life, about people, about childrens, about client-designer relationship and many more.
+
+
+      "
+        theme="theme_hc"
+      />
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/hc/playwithartsmobile9.jpg" />
+            <img src="~assets/projects/hc/playwitharts9.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/hc/playwithartsmobile10.jpg"
+            />
+            <img src="~assets/projects/hc/playwitharts10.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <!-- Backstory -->
 
       <div class="p-quote contain red">
         <blockquote>
@@ -85,9 +222,6 @@
           for all-inclusive information and updates on everything associated with the event.
         </blockquote>
       </div>
-
-      <!-- Backstory -->
-
       <!-- key Focus Area -->
 
       <div class="keyfocus">
@@ -99,17 +233,17 @@
               <div class="kf-layout">
                 <span>✔ Research</span>
                 <span>✔ Ideation</span>
-                <span>✔ Taking Design Meetings</span>
-                <span>✔ Collaborating with Content writers</span>
-                <span>✔ Making Post for social Media</span>
-                <span>✔ Drank Lots of Coffee</span>
+                <span>✔ Talking with clients</span>
+                <span>✔ Endured Myself</span>
+                <span>✔ Cover Design</span>
+                <span>✔ Copy and Pste</span>
                 <span>✔ Taken Stress</span>
-                <span>✔ Made Wireframe</span>
-                <span>✔ Discussed potential User Journey</span>
-                <span>✔ Worked in nights</span>
-                <span>✔ Branding</span>
-                <span>✔ Identy Design</span>
-                <span>✔ Defending UX Decisions</span>
+                <span>✔ Redesign stuff</span>
+                <span>✔ Redesign Layout</span>
+                <span>✔ Made Colours childrens friendly</span>
+                <span>✔ Said Sorry</span>
+                <span>✔ Made pdf</span>
+                <span>✔ Made mockups</span>
                 <span>✔ Pop and un-pop things</span>
               </div>
             </div>
