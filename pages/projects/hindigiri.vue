@@ -24,7 +24,13 @@
           data-aos="reveal-right"
           data-aos-once="true"
         ></div>
-        <img src="~assets/projects/hindigiri/hindigiri-hero.jpg" alt="r3 facebook mockup" />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-hero.jpg"
+          />
+          <img src="~assets/projects/hindigiri/hindigiri-hero.jpg" />
+        </picture>
       </div>
     </div>
     <Preface
@@ -63,7 +69,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hindigiri/hindigiri-2.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-2.jpg"
+          />
           <img src="~assets/projects/hindigiri/hindigiri-2.jpg" />
         </picture>
       </div>
@@ -73,7 +82,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hindigiri/hindigiri-3.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-3.jpg"
+          />
           <img src="~assets/projects/hindigiri/hindigiri-3.jpg" />
         </picture>
       </div>
@@ -83,7 +95,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hindigiri/hindigiri-4.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-4.jpg"
+          />
           <img src="~assets/projects/hindigiri/hindigiri-4.jpg" />
         </picture>
       </div>
@@ -93,7 +108,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hindigiri/hindigiri-5.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-5.jpg"
+          />
           <img src="~assets/projects/hindigiri/hindigiri-5.jpg" />
         </picture>
       </div>
@@ -103,8 +121,23 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/hindigiri/hindigiri-6.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-6.jpg"
+          />
           <img src="~assets/projects/hindigiri/hindigiri-6.jpg" />
+        </picture>
+      </div>
+    </div>
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-business-card-mobile.jpg"
+          />
+          <img src="~assets/projects/hindigiri/hindigiri-business-card.jpg" />
         </picture>
       </div>
     </div>
