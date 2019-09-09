@@ -2523,6 +2523,11 @@ color: #0088ff !important;
   background: var(--primary-color);
 }
 
+/* hindigiri*/
+.reveal-block.theme_hindigiri::before {
+  background: #25A9E0;
+}
+
 /* Logofolio*/
 
 
