@@ -58,7 +58,7 @@
         para=" 
        This project was kind of very unique. It was to design whole Art book for Students from class 1 to 6.
        Total 12 books, Cover for them and Inside page like Index, Content and all those 60 page for colouring.
-       It was my i guess 3rd time deling with design in book. I was confident I wiil be able to deliver it, but the thing was it was
+       It was my 3rd time dealing with design in book. I was confident I will be able to deliver it, but the thing was it was
        very daunting, so many pages and so many page just similar layout and all to be done in Illustrator.
        
       "
@@ -69,22 +69,12 @@
       <pcase
         heading="Ctrl C + Ctrl V, from Corel Draw to Illustrator"
         para="  The base file that I got from the client was all set in Corel Draw. They contain all the
-        basic shapes and very basic layout and some content that would have to get in each page. I dont like Core Draw
-        Pesonally and I got more command over Illutrtor. So I choose to do the hard stuff, copying and pasting.
+        basic shapes and very basic layout and some content that would have to get in each page. I don't like Core Draw
+        Personally and I got more command over Illustrator. So I choose to do the hard stuff, copying and pasting.
         I didn't have to draw vector images, well I could have not accepted this if not for that. Because 
         designing a book (so many books) is not a one man job.
 
-       
-       
-        <br><br>
-
-        Anyway, here I was readjusting the artboard to mach the required size of book, and then vector
-        images from Corel draw to Illustrator.
-        I have to say It was very boring. After a week and two. It got worse, I could have done only
-        40 pages and there were more around 400 pages, so asked help from my junior designer Abhishek, and he agreed,'
-        to my expectations we both were able to do this in very less time.
-
-      "
+          "
         theme="theme_hc"
       />
 
@@ -108,6 +98,14 @@
           </div>
         </agile>
       </div>
+
+      <p class="contain just-para black90">
+        Anyway, here I was readjusting the artboard to mach the required size of book, and then vector
+        images from Corel draw to Illustrator.
+        I have to say It was very boring. After a week and two. It got worse, I could have done only
+        40 pages and there were more around 400 pages, so asked help from my junior designer Abhishek, and he agreed,'
+        to my expectations we both were able to do this in very less time.
+      </p>
 
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -172,10 +170,10 @@
       <!-- from coreldraw to illutrator -->
       <pcase
         heading="Then this happened"
-        para="  I rememebr correctly, almost 2 years back, I was in the middle of the completing this project.
-        I for some days travelled to noida for a break, and during that I lost my Laaptop from my friends room. It was Disater, my lptop got stolen.
-        3 years of stuff vanished just like that. Fortunately I ahve a habit of backing up things to cloud, and after some
-        days I got myslef to together and began working from my Old age Desktop Pc having a very slow i5 processor. 
+        para="  I remember correctly, almost 2 years back, I was in the middle of the completing this project.
+        I for some days travelled to  Gr. Noida for a break, and during that I lost my Laptop from my friends room. It was Disater, my lptop got stolen.
+        3 years of stuff vanished just like that. Fortunately I have a habit of backing up things to cloud, and after some
+        days I got myself to together and began working from my Old age Desktop Pc having a very slow i5 processor. 
         Projects got delayed to October and its all on me. Somehow  I made to the end. 
 
        
@@ -184,7 +182,7 @@
 
         With all that in past, it was pretty tough experience. The project was boring, i hated working with Corel Draw,
         My laptop got stolen, lost 3 years of stuff, lost myself and then redeemed myself as I always do. Now I write these
-        this project made me learn so much. About life, about people, about childrens, about client-designer relationship and many more.
+        this project made me learn so much. About life, about people, about children about client-designer relationship and many more.
 
 
       "
@@ -217,10 +215,7 @@
       <!-- Backstory -->
 
       <div class="p-quote contain red">
-        <blockquote>
-          The idea was to make Feeding Trends to the Beat website as a one-stop-destination
-          for all-inclusive information and updates on everything associated with the event.
-        </blockquote>
+        <blockquote>Every child is an artist. The problem is how to remain an artist once we grow up.</blockquote>
       </div>
       <!-- key Focus Area -->
 
@@ -240,7 +235,7 @@
                 <span>✔ Taken Stress</span>
                 <span>✔ Redesign stuff</span>
                 <span>✔ Redesign Layout</span>
-                <span>✔ Made Colours childrens friendly</span>
+                <span>✔ Made Colours children's friendly</span>
                 <span>✔ Said Sorry</span>
                 <span>✔ Made pdf</span>
                 <span>✔ Made mockups</span>
@@ -258,36 +253,26 @@
           <h2 class="p-para black50">Learnings</h2>
           <div class="pm black70">
             <p>
-              After layout and content strategy, It was time to set a
-              theme and colour palette It was time to design a simple,
-              clean and elegant showcase website. The accent colour I
-              choose was Dark moderate cyan.. Later on while project was
-              in design phase I chamged the theme from Cyan to Gradient feel,
-              to make it more contrast and modern feel.
-              I decided to use red as theme colour
+              Life is very unpredictable, you got to get backups of your work
+              each day. Anything can happen anytime. Also when working on a projects that requires you to do the same stuff
+              again and again its gets boring. Keeping it interesting and fun is an art each designer should learn the hard way.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="p-quote contain red">
-        <blockquote>
-          Good design requires good communication, especially from machine to person,
-          indicating what actions are possible, what is happening, and what is about to happen.
-        </blockquote>
-      </div>
-
       <!-- End Line  -->
 
-      <div class="p-zig-zag-line">
-        <div>
-          <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-        </div>
+      <div class="section-divider">
+        <hr class="section-divider" />
       </div>
 
       <!-- appreciate button -->
 
-      <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
+      <Appreciate
+        heading="Everyone is an Artist"
+        subHeading="Don't forget to appreciate the art in me. XOXO."
+      />
 
       <!-- Project Footer Navigatrion -->
 
