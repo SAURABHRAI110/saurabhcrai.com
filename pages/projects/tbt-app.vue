@@ -57,37 +57,71 @@
       -->
       <!-- Preface -->
       <pcase
-        heading="Preface"
-        para=" 
-        I was on the team for almost two years as the sole/lead designer. During that time I
-        worked with company co-founders, developers, content-writers, designers to completely overhaul the
-        design to create new  design system, create new features to fit our
-        customers needs, and most importantly,
-        design new features to create a better experience for every project I worked on. FT Event was one of the company Internal Project.
-<br><br>
-        FT Event is about event website where user can book tickets and create event. 
-        Using FT Events to the Beat website, users can register for the events, Book tickets,
-        Create Event and manage the event or ticket
-        from its dash board. In addition to finding information on past and future events,
-        event results, image gallery, charity event organizers,
-        participating musicians, register for the Feeding Trends exclusive advetisement, and more.
-
+        heading="The beginning of something amazing"
+        para=" This project was all about coming together and collaborating and making something what 25 thousand student of my college
+        needed and in the process enjoying each little wins. This project laid the foundation of whatever I am today. Kind of everything I did
+        let it be designing App screen, Designing app icon, working with xdpi- xxdpi- mdpi images, prototyping everything, working with developers,
+        working with a team of talented people, all I did was my first time. 
+        <br> 
         <br>
-        <br>
-        
-        Feeding Trends- Events is in Development stage right now, I delivered the design already,
-      This casestudy is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
-      So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
+        Pretty much it was people that were involved in creating a ecosystem that connects thousands of people. Creating a brands that people recognise and appreciate that can helps 
+        students to share their talents and get involved. Creating an app might seem just a work of few people, but
+        making it possible so that ot helps students is combined effort of a whole team. Well we ere 23 people having skills to make it possible.
+        and we did. 
+     
+                
       "
         theme="theme_tbt-app"
       />
 
       <div class="p-quote contain red">
-        <blockquote>
-          The idea was to make Feeding Trends to the Beat website as a one-stop-destination
-          for all-inclusive information and updates on everything associated with the event.
-        </blockquote>
+        <blockquote>Alone we can do so little, together we can do so much." --Helen Keller</blockquote>
       </div>
+
+      <!-- slides -->
+
+      <agile>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-1.jpg" alt="slider1" />
+        </div>
+
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-2.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-3.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-4.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-5.jpg" alt="slider2" />
+        </div>
+      </agile>
+
+      <pcase
+        heading="Coming to App"
+        para=" The Idea was to make an app for students where we can share all the happenings
+      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
+      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+     
+                
+      "
+        theme="theme_tbt-app"
+      />
+
+      <pcase
+        heading="Making The App Logo"
+        para=" The Idea was to make an app for students where we can share all the happenings
+      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
+      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+     
+                
+      "
+        theme="theme_tbt-app"
+      />
 
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -111,6 +145,18 @@
           </picture>
         </div>
       </div>
+
+      <pcase
+        heading="Final Screens"
+        para=" The Idea was to make an app for students where we can share all the happenings
+      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
+      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+     
+                
+      "
+        theme="theme_tbt-app"
+      />
 
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -151,6 +197,18 @@
         </div>
       </div>
 
+      <pcase
+        heading="Deploying On Play Store"
+        para=" The Idea was to make an app for students where we can share all the happenings
+      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
+      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+     
+                
+      "
+        theme="theme_tbt-app"
+      />
+
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -163,6 +221,18 @@
           </picture>
         </div>
       </div>
+
+      <pcase
+        heading="Publicity"
+        para=" The Idea was to make an app for students where we can share all the happenings
+      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
+      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+     
+                
+      "
+        theme="theme_tbt-app"
+      />
 
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -262,10 +332,8 @@
 
       <!-- End Line  -->
 
-      <div class="p-zig-zag-line">
-        <div>
-          <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-        </div>
+      <div class="section-divider">
+        <hr class="section-divider" />
       </div>
 
       <!-- appreciate button -->
