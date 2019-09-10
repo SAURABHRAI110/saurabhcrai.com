@@ -11,7 +11,7 @@
         </nuxt-link>
       </div>
       <projecthero
-        pDate="March 2019"
+        pDate="September 2015"
         pWebsite="TBT App"
         pCategory="App Design"
         pHeading="App for students"
@@ -40,10 +40,10 @@
         </div>
       </div>
       <Preface
-        timeframe=" Feb 2019- March 2019
-    <br />1 month"
-        tools=" Adobe XD, Adobe Illustrator
-    <br /> Dropbox Paper, Flinto, markers"
+        timeframe=" September 2015 - October 2015
+    <br /> 2 month, Week Dat only"
+        tools=" Adobe Illutrator
+    <br />Adobe Photoshop"
         role=" UI/UX
     <br />Research, Content Strategy"
         team=" Me-UX, Shekhar-Dev
@@ -87,6 +87,120 @@
           The idea was to make Feeding Trends to the Beat website as a one-stop-destination
           for all-inclusive information and updates on everything associated with the event.
         </blockquote>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/tbt-app/tbt-app-icons.jpg" />
+            <img src="~assets/projects/tbt-app/tbt-app-icons.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-logo-mobile.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-logo.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-screen-1.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-screen-1.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-screen-2.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-screen-2.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-screen-3.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-screen-3.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-playstore.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-playstore.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-mockup-mobile.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-mockup.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-poster-2.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-poster-2.jpg" />
+          </picture>
+        </div>
+      </div>
+
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/tbt-app/tbt-app-screen-mockup.jpg"
+            />
+            <img src="~assets/projects/tbt-app/tbt-app-screen-mockup.jpg" />
+          </picture>
+        </div>
       </div>
 
       <!-- Backstory -->
