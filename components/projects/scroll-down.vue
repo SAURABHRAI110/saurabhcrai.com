@@ -1,12 +1,16 @@
 <template>
-  <div class="scroll-line">
+  <div class="scroll-line" :style="bgcolor">
     <span></span>
     <span></span>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    bgcolor: String
+  }
+}
 </script>
 
 <style >
@@ -16,9 +20,6 @@ export default {}
   bottom: 5%;
   right: 5%;
   z-index: 10;
-}
-
-.scroll-line span {
   background-color: var(--primary-color);
 }
 
@@ -38,7 +39,7 @@ export default {}
   display: block;
   width: 2px;
   height: 90px;
-  background-color: var(--primary-color);
+  background-color: inherit;
 }
 
 .scroll-line span:nth-of-type(2) {
@@ -57,7 +58,7 @@ export default {}
   display: block;
   width: 2px;
   height: 90px;
-  background-color: var(--primary-color);
+  background-color: inherit;
 }
 
 @keyframes scrollLine {
