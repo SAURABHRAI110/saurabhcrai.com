@@ -74,27 +74,6 @@
       theme="theme_tbt"
     />
 
-    <!-- photo grid -->
-    <pcase heading="Photography/Imagery" />
-    <div class="contain">
-      <div class="p-fe_photogrid">
-        <img src="~assets/projects/fe/gallery1.jpg" alt />
-        <img src="~assets/projects/fe/gallery-2.jpg" alt />
-        <img src="~assets/projects/fe/gallery-3.jpg" alt />
-        <img src="~assets/projects/fe/gallery-4.jpg" alt />
-        <img src="~assets/projects/fe/gallery-5.jpg" alt />
-        <img src="~assets/projects/fe/gallery-6.jpg" alt />
-        <img src="~assets/projects/fe/gallery-7.jpg" alt />
-        <img src="~assets/projects/fe/gallery-8.jpg" alt />
-        <img src="~assets/projects/fe/gallery-9.jpg" alt />
-        <img src="~assets/projects/fe/gallery-10.jpg" alt />
-        <img src="~assets/projects/fe/gallery11.jpg" alt />
-        <img src="~assets/projects/fe/gallery-6.jpg" alt />
-      </div>
-    </div>
-
-    <!-- Branding -->
-
     <pcase
       heading="Branding"
       para=" My first approach to understanding medical residents is through emphasizing with their experiences
@@ -103,68 +82,6 @@
              personal life."
       theme="theme_tbt"
     />
-
-    <div class="contain">
-      <div class="p-fe_branding-grid">
-        <div>
-          <img src="~assets/projects/fe/branding1.jpg" />
-        </div>
-        <div>
-          <img src="~assets/projects/fe/branding2.jpg" />
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding3.jpg" />
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding5.png" />
-        </div>
-        <div class="big">
-          <img src="~assets/projects/fe/branding6.png" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Web Design -->
-    <pcase
-      heading="Web Design"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-            by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-            of asking qualitative questions such as their workflow to even the intimate details of their
-            personal life."
-      theme="theme_tbt"
-    />
-
-    <!-- First Iteration -->
-    <pcase
-      heading="First Iteration"
-      para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a
-              great layout and which made almost most of the things we needed in and that we don't needed.
-              <br><br>
-              Before being given into development there was this huge gap of like 6 months. After this long time
-              when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
-              thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
-              changed almost everything expect the dark theme and colour and content architecture."
-      theme="theme_tbt"
-    />
-
-    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg" />
-
-    <!-- Final Design -->
-    <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg" />
-
-    <div class="p-fe_final-design">
-      <pcase
-        heading=" Final Design"
-        para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a great
-                  layout and which made almost most of the things we needed in and that we don't needed.
-                  <br><br>
-                  Before being given into development there was this huge gap of like 6 months. After this long time when
-                  I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of thing needed
-                  to retouch. The works seems sloppy. So all the things needed retouch. In a way I changed almost
-                  everything expect the dark theme and colour and content architecture."
-        theme="theme_tbt"
-      />
-    </div>
 
     <!-- key Focus Area -->
 
@@ -223,18 +140,42 @@
 
     <!-- End Line  -->
 
-    <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
-
     <!-- appreciate button -->
 
-    <Appreciate />
+    <Appreciate
+      heading="Did we just become best friends"
+      subHeading="Friends appreciate. Keep clapping"
+    />
+
+    <!-- Project Footer Navigatrion -->
 
     <div class="project-footer">
-      <projectfooter />
+      <div class="projects-footer-container">
+        <allprojectsnav />
+
+        <div class="p-f-p-container">
+          <nuxt-link to="/projects/dear-zindagi">
+            <pfooterp
+              projectName="Dear Zindagi"
+              projectCategories="Brochure, Identity"
+              thumbnail="/showcase2.jpg"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/projects/r3">
+            <pfootern
+              projectName="R3"
+              projectCategories="Social Media, logo"
+              thumbnail="/showcase4.jpg"
+            />
+          </nuxt-link>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -247,6 +188,11 @@ import Pcase from '~/components/projects/pcase'
 import Appreciate from '~/components/projects/appreciate'
 import Next from '~/components/projects/next'
 import Previous from '~/components/projects/previous'
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
+import Allprojectsnav from '~/components/projects/allprojectsnav'
+import ScrollDown from '~/components/projects/scroll-down'
+import LiveLink from '~/components/projects/live-link'
 export default {
   layout: 'projects',
   components: {
@@ -256,7 +202,12 @@ export default {
     Pcase,
     Projecthero,
     Next,
-    Previous
+    Previous,
+    Pfooterp,
+    Pfootern,
+    Allprojectsnav,
+    ScrollDown,
+    LiveLink
   }
 }
 </script>

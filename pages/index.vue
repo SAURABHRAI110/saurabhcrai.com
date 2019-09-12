@@ -1,8 +1,5 @@
 <template>
   <div>
-    <!-- <div class="vl1 vl"></div>
-    <div class="vl2 vl"></div>
-    <div class="vl3 vl"></div>-->
     <div class="a-hero_container">
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
         <img src="~assets/svg/circle.svg" alt="circle" />
@@ -341,7 +338,7 @@
 
     <!-- Blog Article -->
 
-    <ArticleList :isPaginated="false" :postsPerPage="2" />
+    <ArticleList :isPaginated="false" :postsPerPage="4" />
 
     <!-- view more article -->
     <div class="more-about-me">

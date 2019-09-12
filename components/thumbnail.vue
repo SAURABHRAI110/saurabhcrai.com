@@ -7,7 +7,7 @@
           <img :src="thumbnail" />
         </div>
       </div>
-      <div class="projects-content">
+      <div class="projects-content" :style="{ 'color': (color)}">
         <h3 class="type-sub2">{{ thumbnailName }}</h3>
         <p class="type-sub3">{{ thumbnailDescription }}</p>
       </div>
@@ -20,7 +20,8 @@ export default {
   props: {
     thumbnailName: String,
     thumbnailDescription: String,
-    thumbnail: String
+    thumbnail: String,
+    color: String
   }
 }
 </script>
@@ -33,7 +34,6 @@ export default {
   width: 100%;
   height: 100%;
   perspective: 1000px;
-
   background-color: white;
 }
 
@@ -75,7 +75,6 @@ export default {
   white-space: nowrap;
   opacity: 1;
   transition: all 0.45s cubic-bezier(0.475, 0.425, 0, 0.995);
-  color: rgb(31, 31, 31);
 }
 
 .projects-wrapper-top {

@@ -77,11 +77,11 @@
           multi-disciplinary designer as I love making anything, but have
           recently found a passion in creating thoughtful and enjoyable user
           experiences through product design, and code them too if time allows.
-          I have a beautiful team of front-end developers,
+          I work with passionate team of front-end developers,
           back-end-developers and some ninja people whom I work with and learn from them.
         </p>
         <p class="para hero-para black70">
-          Coming to College, I moved on to study Engineering at Babu Banarasi Das Universiy,
+          Coming to college, I moved on to study Engineering at Babu Banarasi Das Universiy,
           Lucknow, and began to grow my skills. Making flyers for college
           community and friends. Doing logos and branding work for friends and
           word of mouth clients. Going to college during the day and cranking
@@ -168,9 +168,11 @@
             </div>
           </div>
         </div>
-        <div class="a-c_photography">
-          <p class="a-c_subheading red">+Photography</p>
-        </div>
+        <nuxt-link to="/photography">
+          <div class="a-c_photography">
+            <p class="a-c_subheading red">+Photography</p>
+          </div>
+        </nuxt-link>
         <div class="a-hl"></div>
 
         <div class="a-c_photography">
@@ -178,9 +180,12 @@
         </div>
         <div class="a-hl"></div>
 
-        <div class="a-c_photography">
-          <p class="a-c_subheading red">+Blogging</p>
-        </div>
+        <nuxt-link to="/blog">
+          <div class="a-c_photography">
+            <p class="a-c_subheading red">+Blogging</p>
+          </div>
+        </nuxt-link>
+
         <div class="a-hl"></div>
 
         <div class="a-c_photography">
@@ -265,15 +270,12 @@
               <img src="~assets/img/about/a-tools-7.svg" alt="Slack svg icon" />Slack
             </span>
             <span>
-              <img src="~assets/img/about/a-tools-21.svg" alt="Pen & Paper svg icon" />Pen & Paper
-            </span>
-            <span>
-              <img src="~assets/img/about/a-tools-20.svg" alt="New Stuff svg icon" />+Trying New Stuff
+              <img src="~assets/img/about/a-tools-21.png" alt="Pen & Paper png icon" />Pen & Paper
             </span>
           </div>
         </div>
       </div>
-    </section>\
+    </section>
     <!-- projects section -->
 
     <section class="a-p-section">
@@ -631,7 +633,7 @@
 
         <div class="a-support-help">
           <p>
-            People who supported, helped me and from whom I learned all these along the way to
+            People who supported me, helped me and from whom I learned all these along the way to
             fine-tune and get through all those errors in making of this website
             <br />
             <span class="a-s-a-container">

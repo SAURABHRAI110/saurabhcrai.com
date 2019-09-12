@@ -46,24 +46,39 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para="R3 is a platform for the writers/artists to express their thoughts.
-      Share them with the world - expressions that will connect with everyone,
-      rhythms that will resonate with every heart.
-      In three beautiful linguistics - English, Hindi & Urdu, with Love R3."
+      para="Hindigiri is organization that organises Events offline as well as online that aims
+      to bring to the people, the best of arts and culture around and to provide a platform to the dying
+      cultural and marginalised voices. Its main vision is to  reignite the holy flame of hindi and urdu
+      literature which was blown out somewhere with every passing time intervals. 
+      
+      To do so and to bring people it organises events throughput India and bring the best
+      of the talented individuals. Have online presence on Youtube, fb and a website having
+      blog in Hindi language. 
+      
+
+      
+      "
       theme="theme_hindigiri"
     />
     <div class="p-quote contain red">
       <blockquote>
-        Human mind percieves about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
-        expressions that will connect with everyone, rhythms that will resonate with every heart.
+        Its main vision is to reignite the holy flame of hindi and urdu
+        literature which was blown out somewhere with every passing time intervals.
       </blockquote>
     </div>
 
     <p class="contain just-para black90">
-      The purpose of doing all this was to have a presence on Instagram and facebook. A thought provoking page or account presented in a beautiful
-      way with a consistent design and voice tone.
+      Where I come in all these?
+      <br />
+      <br />I know some people and they know some more people thats how It meet the owner of the company who
+      not just have great vision to make it all possible but is also and amazing poet and motivation
+      person himself and in a way inspiring me too. For hindigiri I did initially logo design and from there
+      I created Identity system and some flexes and posters and some social media post as well which I dont do
+      anymore.
     </p>
-    <!-- Problem -->
+    <!-- logo design-->
+
+    <pcase heading="Logo Design" theme="theme_hindigiri" />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">

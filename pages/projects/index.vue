@@ -55,6 +55,7 @@
               thumbnailName="Feeding Trends"
               thumbnailDescription="Web, Branding, Print"
               thumbnail="/ft-thumbnail.jpg"
+              color="var(--primary-color)"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="1000"
@@ -237,7 +238,8 @@
             <thumbnail
               thumbnailName="Banaras Lit. Society"
               thumbnailDescription="Branding"
-              thumbnail="/bls-thumbnail-2.jpg"
+              thumbnail="/bls-thumbnail-3.jpg"
+              color="var(--primary-color)"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
