@@ -224,12 +224,9 @@ export default {
     src: '~/plugins/commentbox',
     ssr: false
 
-  },
-  {
-    src: '~/plugins/vue-masonry',
-    ssr: false
-
   }
+
+
 
   ],
 
