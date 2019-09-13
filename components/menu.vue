@@ -77,10 +77,13 @@
               <nuxt-link to="/projects">Projects</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="blog">Blog</nuxt-link>
+              <nuxt-link to="/blog">Blog</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="about">About</nuxt-link>
+              <nuxt-link to="/about">About</nuxt-link>
+            </span>
+            <span class="nav__list-item">
+              <nuxt-link to="/photography">Photography</nuxt-link>
             </span>
           </span>
         </div>

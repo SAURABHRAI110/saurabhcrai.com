@@ -75,13 +75,16 @@ export default {}
 .p-hero-container {
   width: 100%;
   position: relative;
+  height: 85vh;
 }
 
 .p-hero-container img {
   object-fit: cover;
   width: 100%;
+  height: 85vh;
   position: relative;
   background-color: rgb(209, 209, 209);
+  object-position: 50% 50%;
   z-index: -1;
 }
 
@@ -103,11 +106,9 @@ section {
   height: auto !important;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 600px) {
   .photo-grid {
-    column-count: 2;
-    column-gap: 0px;
-    line-height: 0;
+    column-count: 1;
   }
 }
 </style>
