@@ -1,11 +1,7 @@
 <template>
   <section>
     <div class="p-hero-container">
-      <img
-        src="~assets/photography/p-1.jpg"
-        alt="silhoutte, sunset, sunrise"
-        column-width="#p-c-width"
-      />
+      <img src="~assets/photography/p-1.jpg" alt="silhoutte, sunset, sunrise" />
     </div>
 
     <div class="gallery-container">
