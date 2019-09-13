@@ -78,13 +78,13 @@
       theme="theme_ai"
     />
 
-    <img class="p-image-100" src="~assets/projects/awesome-inc/branding4.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/branding4.jpg" alt />
     <!-- <img class="p-image-100" src="~assets/projects/awesome-inc/ai-hero2.jpg" />
     <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-8.jpg" />-->
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-vc.jpg" />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-identity.jpg" />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/t-shirt.jpg" />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-awesome.jpg" />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-vc.jpg" alt />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-identity.jpg" alt />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/t-shirt.jpg" alt />
+    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-awesome.jpg" alt />
 
     <!-- 
     <div class="reveal-holder" data-aos="fade-up">

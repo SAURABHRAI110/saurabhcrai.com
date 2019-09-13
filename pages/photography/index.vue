@@ -2,8 +2,7 @@
   <section>
     <div class="p-hero-container">
       <img src="~assets/photography/p-1.jpg" alt="silhoutte, sunset, sunrise" />
-    </div>
-
+    </div>3.13.0.
     <div class="gallery-container">
       <div class="photo-grid">
         <img class="item" src="~assets/photography/p-2.jpg" alt />
