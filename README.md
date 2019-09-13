@@ -5,6 +5,8 @@
 ## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
 
+[![Known Vulnerabilities](https://snyk.io//test/github/SAURABHRAI110/saurabhcrai.com/badge.svg?targetFile=package.json)](https://snyk.io//test/github/SAURABHRAI110/saurabhcrai.com?targetFile=package.json)
+
 > Being a designer first, I always wanted to code my design. Before 2019, I didn't know how to code. So I challenged myself #100DayOfCode and learned it. This Website and repository is my journey to learn how to code and along the way make an awesome personal portfolio website for showcasing all my Design Works.
 
 >Feel free to Go through my code
