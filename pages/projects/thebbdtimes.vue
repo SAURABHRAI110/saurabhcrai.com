@@ -17,6 +17,7 @@
       pHeadingcolor="color:#0088ff;"
       pSubheading="Connecting 25k students Across 4 colleges"
     />
+
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
       <img src="~assets/projects/fe/fe1.png" alt>

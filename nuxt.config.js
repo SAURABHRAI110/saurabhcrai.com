@@ -28,149 +28,149 @@ export default {
   head: {
 
     script: [{
-        src: ' https://unpkg.com/applause-button/dist/applause-button.js'
-      },
-      {
-        src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
-        body: true,
-        async: true
+      src: ' https://unpkg.com/applause-button/dist/applause-button.js'
+    },
+    {
+      src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js',
+      body: true,
+      async: true
 
-      },
-      {
-        src: 'https://rawcdn.githack.com/mburakerman/prognroll/0feda211643153bce2c69de32ea1b39cdc64ffbe/src/prognroll.js',
-        body: true,
-        async: true,
-        ssr: false
+    },
+    {
+      src: 'https://rawcdn.githack.com/mburakerman/prognroll/0feda211643153bce2c69de32ea1b39cdc64ffbe/src/prognroll.js',
+      body: true,
+      async: true,
+      ssr: false
 
-      },
+    },
 
-      {
-        src: '/easescroll.js',
-        body: true,
-        async: true,
-        ssr: false
+    {
+      src: '/easescroll.js',
+      body: true,
+      async: true,
+      ssr: false
 
-      },
-
-
-
-      // {
-      //   src: "//code.tidio.co/mbwzt8zqtij9tn970lu3gntjtzha6rou.js",
-      //   body: true,
-      //   async: true,
-      //   ssr: false
+    },
 
 
-      // },
 
-      {
-        src: '/main.js',
-        defer: true,
-        body: true,
-        async: true
-      }
+    // {
+    //   src: "//code.tidio.co/mbwzt8zqtij9tn970lu3gntjtzha6rou.js",
+    //   body: true,
+    //   async: true,
+    //   ssr: false
+
+
+    // },
+
+    {
+      src: '/main.js',
+      defer: true,
+      body: true,
+      async: true
+    }
 
     ],
 
     title: 'Saurabh Rai | UX Designer & Front End Developer',
     meta: [{
-        charset: 'utf-8'
-      },
-      {
-        name: 'viewport',
-        content: 'width=device-width, initial-scale=1'
-      },
+      charset: 'utf-8'
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1'
+    },
 
-      {
-        name: 'theme-color',
-        content: '#fc3a52'
-      },
+    {
+      name: 'theme-color',
+      content: '#fc3a52'
+    },
 
-      {
-        hid: 'description',
-        name: 'description',
-        content: pkg.description
-      }
+    {
+      hid: 'description',
+      name: 'description',
+      content: pkg.description
+    }
     ],
     link: [{
-        iconSrc: 'static/icon.png',
-        rel: 'icon',
-        type: 'image/x-icon',
-        href: 'favicon.ico',
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicons/favicon-16x16.png',
-        sizes: '16x16'
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicons/favicon-32x32.png',
-        sizes: '32x32'
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicons/android-chrome-96x96.png',
-        sizes: '96x96'
-      },
-      {
-        rel: 'icon',
-        type: 'image/png',
-        href: '/favicons/android-chrome-192x192.png',
-        sizes: '192x192'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-57x57.png',
-        sizes: '57x57'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-60x60.png',
-        sizes: '60x60'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-72x72.png',
-        sizes: '72x72'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-76x76.png',
-        sizes: '76x76'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-114x114.png',
-        sizes: '114x114'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-120x120.png',
-        sizes: '120x120'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-144x144.png',
-        sizes: '144x144'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-152x152.png',
-        sizes: '152x152'
-      },
-      {
-        rel: 'apple-touch-icon',
-        href: '/favicons/apple-touch-icon-180x180.png',
-        sizes: '180x180'
-      },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/applause-button/dist/applause-button.css'
-      },
+      iconSrc: 'static/icon.png',
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: 'favicon.ico',
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicons/favicon-16x16.png',
+      sizes: '16x16'
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicons/favicon-32x32.png',
+      sizes: '32x32'
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicons/android-chrome-96x96.png',
+      sizes: '96x96'
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicons/android-chrome-192x192.png',
+      sizes: '192x192'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-57x57.png',
+      sizes: '57x57'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-60x60.png',
+      sizes: '60x60'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-72x72.png',
+      sizes: '72x72'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-76x76.png',
+      sizes: '76x76'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-114x114.png',
+      sizes: '114x114'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-120x120.png',
+      sizes: '120x120'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-144x144.png',
+      sizes: '144x144'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-152x152.png',
+      sizes: '152x152'
+    },
+    {
+      rel: 'apple-touch-icon',
+      href: '/favicons/apple-touch-icon-180x180.png',
+      sizes: '180x180'
+    },
+    {
+      rel: 'stylesheet',
+      href: 'https://unpkg.com/applause-button/dist/applause-button.css'
+    },
     ]
   },
 
@@ -200,31 +200,36 @@ export default {
    ** Plugins to load before mounting the App
    */
   plugins: [{
-      src: '~/plugins/rellax',
-      ssr: false
-    },
-    {
-      src: "~/plugins/aos",
-      ssr: false
-    },
-    {
-      src: "~/plugins/medium-zoom",
-      ssr: false
-    },
-    {
-      src: "~/plugins/vue-agile",
-      ssr: false
-    },
-    {
-      src: '~/plugins/scrollmagic',
-      ssr: false
+    src: '~/plugins/rellax',
+    ssr: false
+  },
+  {
+    src: "~/plugins/aos",
+    ssr: false
+  },
+  {
+    src: "~/plugins/medium-zoom",
+    ssr: false
+  },
+  {
+    src: "~/plugins/vue-agile",
+    ssr: false
+  },
+  {
+    src: '~/plugins/scrollmagic',
+    ssr: false
 
-    },
-    {
-      src: '~/plugins/commentbox',
-      ssr: false
+  },
+  {
+    src: '~/plugins/commentbox',
+    ssr: false
 
-    }
+  },
+  {
+    src: '~/plugins/vue-masonry',
+    ssr: false
+
+  }
 
   ],
 

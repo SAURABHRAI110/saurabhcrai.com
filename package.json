@@ -32,6 +32,7 @@
     "scrollmagic-plugin-gsap": "^1.0.3",
     "vue-agile": "^1.0.11",
     "vue-loader": "^15.7.1",
+    "vue-masonry": "^0.11.8",
     "vue-parallaxy": "^1.1.1",
     "vue-rellax": "^0.1.0"
   },
