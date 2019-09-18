@@ -28,7 +28,7 @@
         <img class="item" src="~assets/photography/p-23.jpg" />
         <img class="item" src="~assets/photography/p-24.jpg" />
         <img class="item" src="~assets/photography/p-25.jpg" />
-        <img class="item" src="~assets/photography/p-26.jpg" />-->
+        <img class="item" src="~assets/photography/p-26.jpg" />
         <img class="item" src="~assets/photography/p-27.jpg" />
         <img class="item" src="~assets/photography/p-28.jpg" />
         <img class="item" src="~assets/photography/p-29.jpg" />
@@ -55,7 +55,7 @@
         <img class="item" src="~assets/photography/p-50.jpg" />
         <img class="item" src="~assets/photography/p-51.jpg" />
         <img class="item" src="~assets/photography/p-52.jpg" />
-        <img class="item" src="~assets/photography/p-53.jpg" />
+        <img class="item" src="~assets/photography/p-53.jpg" />-->
       </div>
     </div>
   </section>
