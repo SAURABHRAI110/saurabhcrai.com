@@ -5,58 +5,57 @@
     </div>
     <div class="gallery-container">
       <div class="photo-grid">
-        <img class="item" src="~assets/photography/p-2.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-3.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-4.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-5.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-6.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-7.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-8.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-9.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-10.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-11.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-12.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-13.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-14.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-15.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-16.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-17.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-18.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-19.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-20.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-21.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-22.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-23.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-24.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-25.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-26.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-27.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-28.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-29.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-30.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-31.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-32.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-33.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-34.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-35.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-36.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-37.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-38.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-39.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-40.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-41.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-42.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-43.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-44.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-45.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-46.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-47.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-48.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-49.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-50.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-51.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-52.jpg?webp" alt />
-        <img class="item" src="~assets/photography/p-53.jpg?webp" alt />
+        <img class="item" src="~assets/photography/p-2.jpg?webp" />
+        <img class="item" src="~assets/photography/p-3.jpg?webp" />
+        <img class="item" src="~assets/photography/p-4.jpg?webp" />
+        <img class="item" src="~assets/photography/p-5.jpg?webp" />
+        <img class="item" src="~assets/photography/p-6.jpg?webp" />
+        <img class="item" src="~assets/photography/p-7.jpg?webp" />
+        <img class="item" src="~assets/photography/p-8.jpg?webp" />
+        <img class="item" src="~assets/photography/p-9.jpg?webp" />
+        <img class="item" src="~assets/photography/p-10.jpg?webp" />
+        <img class="item" src="~assets/photography/p-11.jpg?webp" />
+        <img class="item" src="~assets/photography/p-12.jpg?webp" />
+        <img class="item" src="~assets/photography/p-13.jpg?webp" />
+        <img class="item" src="~assets/photography/p-14.jpg?webp" />
+        <img class="item" src="~assets/photography/p-15.jpg?webp" />
+        <img class="item" src="~assets/photography/p-16.jpg?webp" />
+        <img class="item" src="~assets/photography/p-17.jpg?webp" />
+        <img class="item" src="~assets/photography/p-18.jpg?webp" />
+        <img class="item" src="~assets/photography/p-19.jpg?webp" />
+        <img class="item" src="~assets/photography/p-20.jpg?webp" />
+        <img class="item" src="~assets/photography/p-22.jpg?webp" />
+        <img class="item" src="~assets/photography/p-23.jpg?webp" />
+        <img class="item" src="~assets/photography/p-24.jpg?webp" />
+        <img class="item" src="~assets/photography/p-25.jpg?webp" />
+        <img class="item" src="~assets/photography/p-26.jpg?webp" />
+        <img class="item" src="~assets/photography/p-27.jpg?webp" />
+        <img class="item" src="~assets/photography/p-28.jpg?webp" />
+        <img class="item" src="~assets/photography/p-29.jpg?webp" />
+        <img class="item" src="~assets/photography/p-30.jpg?webp" />
+        <img class="item" src="~assets/photography/p-31.jpg?webp" />
+        <img class="item" src="~assets/photography/p-32.jpg?webp" />
+        <img class="item" src="~assets/photography/p-33.jpg?webp" />
+        <img class="item" src="~assets/photography/p-34.jpg?webp" />
+        <img class="item" src="~assets/photography/p-35.jpg?webp" />
+        <img class="item" src="~assets/photography/p-36.jpg?webp" />
+        <img class="item" src="~assets/photography/p-37.jpg?webp" />
+        <img class="item" src="~assets/photography/p-38.jpg?webp" />
+        <img class="item" src="~assets/photography/p-39.jpg?webp" />
+        <img class="item" src="~assets/photography/p-40.jpg?webp" />
+        <img class="item" src="~assets/photography/p-41.jpg?webp" />
+        <img class="item" src="~assets/photography/p-42.jpg?webp" />
+        <img class="item" src="~assets/photography/p-43.jpg?webp" />
+        <img class="item" src="~assets/photography/p-44.jpg?webp" />
+        <img class="item" src="~assets/photography/p-45.jpg?webp" />
+        <img class="item" src="~assets/photography/p-46.jpg?webp" />
+        <img class="item" src="~assets/photography/p-47.jpg?webp" />
+        <img class="item" src="~assets/photography/p-48.jpg?webp" />
+        <img class="item" src="~assets/photography/p-49.jpg?webp" />
+        <img class="item" src="~assets/photography/p-50.jpg?webp" />
+        <img class="item" src="~assets/photography/p-51.jpg?webp" />
+        <img class="item" src="~assets/photography/p-52.jpg?webp" />
+        <img class="item" src="~assets/photography/p-53.jpg?webp" />
       </div>
     </div>
   </section>
