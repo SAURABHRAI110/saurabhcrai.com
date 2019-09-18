@@ -199,13 +199,13 @@
       <div class="contain">
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
-          <p>Sometimes you do your best for a Organisation but you that organization imp people</p>
+          <p>
+            Sometimes you do your best for an organization but that organization deem to fail.
+            and you cant do anything about it. Your work is now just past. Hindigiri after 2 years got shut down.
+            Its member left and moved on. Now whats left is some pages on social media and a website. It hurts.
+          </p>
         </div>
       </div>
-    </div>
-
-    <div class="p-quote contain red">
-      <blockquote></blockquote>
     </div>
 
     <!-- End Line  -->

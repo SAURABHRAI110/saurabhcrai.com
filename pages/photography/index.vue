@@ -17,18 +17,18 @@
         <img class="item" src="~assets/photography/p-11.jpg" />
         <img class="item" src="~assets/photography/p-12.jpg" />
         <img class="item" src="~assets/photography/p-13.jpg" />
-        <!-- <img class="item" src="~assets/photography/p-14.jpg" />
+        <img class="item" src="~assets/photography/p-14.jpg" />
         <img class="item" src="~assets/photography/p-15.jpg" />
         <img class="item" src="~assets/photography/p-16.jpg" />
         <img class="item" src="~assets/photography/p-17.jpg" />
         <img class="item" src="~assets/photography/p-18.jpg" />
         <img class="item" src="~assets/photography/p-19.jpg" />
-        <img class="item" src="~assets/photography/p-20.jpg" />-->
-        <img class="item" src="~assets/photography/p-22.jpg" />
+        <img class="item" src="~assets/photography/p-20.jpg" />
+        <!-- <img class="item" src="~assets/photography/p-22.jpg" />
         <img class="item" src="~assets/photography/p-23.jpg" />
         <img class="item" src="~assets/photography/p-24.jpg" />
         <img class="item" src="~assets/photography/p-25.jpg" />
-        <img class="item" src="~assets/photography/p-26.jpg" />
+        <img class="item" src="~assets/photography/p-26.jpg" />-->
         <img class="item" src="~assets/photography/p-27.jpg" />
         <img class="item" src="~assets/photography/p-28.jpg" />
         <img class="item" src="~assets/photography/p-29.jpg" />
