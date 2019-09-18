@@ -5,7 +5,7 @@
     </div>
     <div class="gallery-container">
       <div class="photo-grid">
-        <img class="item" src="~assets/photography/p-2.jpg?webp" />
+        <!-- <img class="item" src="~assets/photography/p-2.jpg?webp" />
         <img class="item" src="~assets/photography/p-3.jpg?webp" />
         <img class="item" src="~assets/photography/p-4.jpg?webp" />
         <img class="item" src="~assets/photography/p-5.jpg?webp" />
@@ -55,7 +55,7 @@
         <img class="item" src="~assets/photography/p-50.jpg?webp" />
         <img class="item" src="~assets/photography/p-51.jpg?webp" />
         <img class="item" src="~assets/photography/p-52.jpg?webp" />
-        <img class="item" src="~assets/photography/p-53.jpg?webp" />
+        <img class="item" src="~assets/photography/p-53.jpg?webp" />-->
       </div>
     </div>
   </section>
