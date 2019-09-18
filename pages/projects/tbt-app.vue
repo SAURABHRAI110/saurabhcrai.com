@@ -261,7 +261,16 @@
       </div>
     </div>
 
-    <!-- Backstory -->
+    <!-- The LAUNCH-->
+    <pcase
+      heading="The Launch"
+      para=" The App was launched in college in Oct 2015 and It was really a proud moment. We started getting
+      positive feedback personally as well as through mail and comments on play store. Students began using it
+       It got more than 2 thousand download in first week. 
+          
+      "
+      theme="theme_tbt-app"
+    />
 
     <!-- key Focus Area -->
 
@@ -269,21 +278,20 @@
       <div class="content">
         <div class="contain">
           <h2 class="p-para black50">Stuff I did</h2>
-
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
+              <span>✔ Icon + Logo</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with Content writers</span>
-              <span>✔ Making Post for social Media</span>
-              <span>✔ Drank Lots of Coffee</span>
-              <span>✔ Taken Stress</span>
+              <span>✔ Learned basic principles</span>
+              <span>✔ Collaborated with dev+ content writer</span>
+              <span>✔ Made Prototype</span>
+              <span>✔ Step In Party</span>
+              <span>✔ Sleepless Sat and Sunday</span>
               <span>✔ Made Wireframe</span>
               <span>✔ Discussed potential User Journey</span>
-              <span>✔ Worked in nights</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ Poster and Flexes</span>
+              <span>✔ Identity Design</span>
               <span>✔ Defending UX Decisions</span>
               <span>✔ Pop and un-pop things</span>
             </div>
@@ -298,24 +306,13 @@
       <div class="contain">
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
-          <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
-          </p>
+          <p></p>
         </div>
       </div>
     </div>
 
     <div class="p-quote contain red">
-      <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
-      </blockquote>
+      <blockquote>Sometimes to turn an idea into reality all you need is a good mentor, a good coder friend and a dedicated team backing you and lots of courage and finally time for party hard.</blockquote>
     </div>
 
     <!-- End Line  -->
@@ -326,7 +323,7 @@
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
+    <Appreciate heading="You Marvel fan or DC!" subHeading="If marvel show love 3000 times" />
 
     <!-- Project Footer Navigatrion -->
 

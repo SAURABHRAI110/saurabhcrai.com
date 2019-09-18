@@ -127,7 +127,7 @@
           <picture>
             <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
             <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" />
-            <p class="ps">R3: facebook cover</p>
+            <p class="ps">R3: fb page</p>
           </picture>
         </div>
       </div>
@@ -140,7 +140,6 @@
           <picture>
             <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
             <img src="~assets/projects/r3/r3-logo-bg.jpg" />
-            <p class="ps">R3: facebook cover</p>
           </picture>
         </div>
       </div>

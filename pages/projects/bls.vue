@@ -158,20 +158,20 @@
 
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
+              <span>✔ Rigorous Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with Content writers</span>
-              <span>✔ Making Post for social Media</span>
+              <span>✔ Logo Design</span>
+              <span>✔ Brand Identity</span>
+              <span>✔ Design System</span>
               <span>✔ Drank Lots of Coffee</span>
               <span>✔ Taken Stress</span>
-              <span>✔ Made Wireframe</span>
-              <span>✔ Discussed potential User Journey</span>
+              <span>✔ Travelled to Banaras</span>
+              <span>✔ Read book on banaras</span>
               <span>✔ Worked in nights</span>
-              <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+              <span>✔ Iterated</span>
+              <span>✔ Laughed on myself</span>
+              <span>✔ Marketing Templates</span>
+              <span>✔ Many thing still ongoing</span>
             </div>
           </div>
         </div>
@@ -185,23 +185,16 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            While working on BLS I have to make a logo that not only represent culture but whole city what is as old as time goes.
+            Designing for this was really challenging I have to go to very basic of design. Gone through countless articles of Logo design and some ideas here and there
+            came out victorious. Process is necessary for any type of works. Skipping it will just make it worse.
           </p>
         </div>
       </div>
     </div>
 
     <div class="p-quote contain red">
-      <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
-      </blockquote>
+      <blockquote>Sometime all anyone need is trust his/her instinct and follow it through the end. Trust the process.</blockquote>
     </div>
 
     <!-- End Line  -->
