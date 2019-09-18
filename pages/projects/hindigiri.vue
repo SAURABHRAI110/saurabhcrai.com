@@ -10,7 +10,7 @@
       </nuxt-link>
     </div>
     <projecthero
-      pDate="October 2017 "
+      pDate="October 2017"
       pWebsite="Hindigiri"
       pCategory="Literature Society"
       pHeading="Hindigiri: empowering poeple with hindi"
@@ -78,7 +78,15 @@
     </p>
     <!-- logo design-->
 
-    <pcase heading="Logo Design" theme="theme_hindigiri" />
+    <pcase
+      heading="Logo Design"
+      para="All started with logo design. I used shadow effect on a font and the colour used initially was not this blue nut the client was
+      obsessed with twitter blue colour and his obsession made it batter lastly and my job easy.
+      Later on I also designed flexes, posters, banners, Id card and visiting card and many more stuff
+      that needed to be required.
+      "
+      theme="theme_hindigiri"
+    />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -169,18 +177,16 @@
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Testing Different post size</span>
-              <span>✔ Taking feedback</span>
-              <span>✔ Lots of IceTea</span>
-              <span>✔ Created Design System</span>
-              <span>✔ Logo Design</span>
-              <span>✔ Testing with users</span>
-              <span>✔ Created Initial Post</span>
+              <span>✔ Logo</span>
+              <span>✔ Posters</span>
+              <span>✔ ID Card</span>
+              <span>✔ Certificate</span>
+              <span>✔ Design System</span>
+              <span>✔ Online Marketing</span>
+              <span>✔ Celebrated Launch Party</span>
+              <span>✔ Made Friends</span>
               <span>✔ Branding</span>
-
-              <span>✔ Collaborated with content writers</span>
-              <span>✔ Delete Useles Stuffs</span>
+              <span>✔ Video editing</span>
             </div>
           </div>
         </div>
@@ -193,20 +199,13 @@
       <div class="contain">
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
-          <p>
-            Readability over everything.
-            A lot of things goes in and out even for a simple design. Just creating a logo. Sometimes it just happen in min or so sometimes it requires
-            lot of work through discovery. This one project was one of kind where readability matters most.
-          </p>
+          <p>Sometimes you do your best for a Organisation but you that organization imp people</p>
         </div>
       </div>
     </div>
 
     <div class="p-quote contain red">
-      <blockquote>
-        The number one factor in engagement is relevance,
-        because relevance drives out resistance.
-      </blockquote>
+      <blockquote></blockquote>
     </div>
 
     <!-- End Line  -->
