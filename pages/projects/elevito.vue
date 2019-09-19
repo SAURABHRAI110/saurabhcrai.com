@@ -28,11 +28,13 @@
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
-
-        <img src="~assets/projects/elevito/elevito-hero.jpg" alt />
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/elevito/elevito-hero-mobile.jpg"
+          />
+          <img src="~assets/projects/elevito/elevito-hero.jpg" alt="cool background" />
+        </picture>
       </div>
     </div>
     <Preface
@@ -62,13 +64,13 @@
     <pcase
       heading="From Lucknow with love ❤"
       para=" I started thinking of Elevito back at end of September 2017 while I was still In Lucknow, pursuing
-    Computer Science Eingineering with some of my crazy friends who were so good in web development. Me and friend wanted
+    Computer Science Engineering with some of my crazy friends who were so good in web development. Me and friend wanted
     to do something of our own, one night I got a chance to do it under the hat of one of my Senior. It was really mind bending
     for me and very challenging.
     <br />
     <br />
-So here I was, crawling Pintrest, going through design agenicies website, looking thirstly for some
-    inspiration that could move me. After few days of this or that, I found a specific visuial split in half and
+So here I was, crawling Pintrest, going through design agencies website, looking thirstily for some
+    inspiration that could move me. After few days of this or that, I found a specific visual split in half and
     that's basically where the whole concept came from."
       theme="theme_elevito"
     />
@@ -89,7 +91,7 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
     </div>
 
     <p class="contain just-para black90">
-      The purpose of the website was to showcase our works we have done so far particlurly me and my fellow designers and through
+      The purpose of the website was to showcase our works we have done so far particularly me and my fellow designers and through
       that, to clients and to convince them that we are the people they are looking far.
     </p>
 
@@ -152,22 +154,36 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
       "
       theme="theme_elevito"
     />
-    <!-- theme one  -->
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
-        <img src="~assets/projects/elevito/elevito-wireframe-cyan.jpg" alt="elevito wireframe" />
-        <p class="ps black90">Later on it happened I changed the theme.</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/elevito/elevito-wireframe-cyan-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/elevito/elevito-wireframe-cyan.jpg"
+            alt="website wireframing, wireframing"
+          />
+          <p class="ps black90">Initial layout and Primary Colours.</p>
+        </picture>
+      </div>
     </div>
 
-    <!-- theme two -->
-    <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
-        <img src="~assets/projects/elevito/elevito-wireframe-final.jpg" alt="elevito wireframe" />
-        <p class="ps black90">Final Layout-Changed hero image and thumbnail later on.</p>
-      </picture>
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/elevito/elevito-wireframe-final-mobile.jpg"
+          />
+          <img src="~assets/projects/elevito/elevito-wireframe-final.jpg" alt="elevito wireframe" />
+          <p class="ps black90">Final Layout: Changed hero image and thumbnail later on.</p>
+        </picture>
+      </div>
     </div>
 
     <!-- Fonts, Colors & Patterns -->
@@ -189,18 +205,32 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
         <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
       </span>
     </div>-->
-
-    <div class="p-image-100-container">
-      <picture>
-        <img src="~assets/projects/elevito/elevito-web-mobile-1.jpg" alt="elevito ideation" />
-        <p class="ps">I know my writing is all messed up.</p>
-      </picture>
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/elevito/elevito-web-mobile-1-mobile.jpg"
+          />
+          <img src="~assets/projects/elevito/elevito-web-mobile-1.jpg" alt="elevito ideation" />
+          <p class="ps black90">Elevito: Mobile Hero Screen.</p>
+        </picture>
+      </div>
     </div>
-    <div class="p-image-100-container">
-      <picture>
-        <img src="~assets/projects/elevito/elevito-web-mobile-2.jpg" alt="elevito ideation" />
-        <p class="ps">I know my writing is all messed up.</p>
-      </picture>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/elevito/elevito-web-mobile-2-mobile.jpg"
+          />
+          <img src="~assets/projects/elevito/elevito-web-mobile-2.jpg" alt="elevito ideation" />
+          <p class="ps black90">Elevito: Mobile Hero Screen.</p>
+        </picture>
+      </div>
     </div>
 
     <!-- think deeper -->
