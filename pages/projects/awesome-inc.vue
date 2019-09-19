@@ -20,12 +20,18 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
-        <img
-          src="~assets/projects/awesome-inc/woman-tshirt-mockup-hero.jpg"
-          alt="woman tshirt, woman tshirt mockup"
-          align
-        />
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-hero-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/awesome-inc/awesome-inc-hero.jpg"
+            alt="woman tshirt, woman tshirt mockup"
+            align
+          />
+        </picture>
       </div>
     </div>
     <Preface
@@ -78,25 +84,86 @@
       theme="theme_ai"
     />
 
-    <img class="p-image-100" src="~assets/projects/awesome-inc/branding4.jpg" alt />
-    <!-- <img class="p-image-100" src="~assets/projects/awesome-inc/ai-hero2.jpg" />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-8.jpg" />-->
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-vc.jpg" alt />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-identity.jpg" alt />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/t-shirt.jpg" alt />
-    <img class="p-image-100" src="~assets/projects/awesome-inc/awesome-inc-awesome.jpg" alt />
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-branding-mobile.jpg"
+          />
+          <img src="~assets/projects/awesome-inc/awesome-inc-branding.jpg" alt="branding layout" />
+        </picture>
+      </div>
+    </div>
 
-    <!-- 
-    <div class="reveal-holder" data-aos="fade-up">
-      <div class="reveal-block theme_ai right" data-aos="reveal-right"></div>
-      <img class="p-image-100" src="~assets/projects/fe/fe4.jpg" />
-    </div>-->
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-logo-mobile.jpg"
+          />
+          <img src="~assets/projects/awesome-inc/awesome-inc-logo.jpg" alt="awesome logo" />
+        </picture>
+      </div>
+    </div>
 
-    <!-- Branding -->
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-vc-mobile.jpg"
+          />
+          <img src="~assets/projects/awesome-inc/awesome-inc-vc.jpg" alt="visiting card mockup" />
+        </picture>
+      </div>
+    </div>
 
-    <!-- appreciate button -->
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-identity-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/awesome-inc/awesome-inc-identity.jpg"
+            alt="business identity mockup"
+          />
+        </picture>
+      </div>
+    </div>
 
-    <!-- key Focus Area -->
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-tshirt-mobile.jpg"
+          />
+          <img src="~assets/projects/awesome-inc/awesome-inc-tshirt.jpg" alt="best tshirt design" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/awesome-inc/awesome-inc-tagline-mobile.jpg"
+          />
+          <img src="~assets/projects/awesome-inc/awesome-inc-tagline.jpg" alt="poster" />
+        </picture>
+      </div>
+    </div>
 
     <div class="keyfocus">
       <div class="content">
