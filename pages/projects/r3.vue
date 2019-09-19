@@ -20,7 +20,15 @@
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right theme_r3" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/r3/r3-hero-mobile.jpg"
+            alt="laptop mockup facebook"
+          />
+          <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="laptop facebook mockup" />
+        </picture>
+        <!-- <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" /> -->
       </div>
     </div>
     <Preface
@@ -63,8 +71,10 @@
 
     <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
       <div class="reveal-block theme_r3 right" data-aos="reveal-right" data-aos-once="true"></div>
-      <img class="p-image-100" src="~assets/projects/r3/r3-logo-with-bg.svg" alt="R3 logo" />
-      <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+      <picture>
+        <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-logo-mobile.svg" />
+        <img class="p-image-100" src="~assets/projects/r3/r3-logo-with-bg.svg" />
+      </picture>
     </div>
 
     <!-- Design System -->
@@ -82,7 +92,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/r3/r3-design-system-mobile.jpg"
+          />
           <img src="~assets/projects/r3/r3-design-system.jpg" />
         </picture>
       </div>
@@ -112,11 +125,9 @@
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-          <picture>
-            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-            <img src="~assets/projects/r3/R34.jpg" />
-            <p class="ps">R3: facebook cover</p>
-          </picture>
+
+          <img src="~assets/projects/r3/R34.jpg" />
+          <p class="ps">R3: facebook cover</p>
         </div>
       </div>
     </div>
@@ -124,11 +135,8 @@
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-          <picture>
-            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
-            <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" />
-            <p class="ps">R3: fb page</p>
-          </picture>
+          <img src="~assets/projects/r3/r3-fb-mockup.jpg" alt="r3 facebook mockup" />
+          <p class="ps">R3: fb page</p>
         </div>
       </div>
     </div>
@@ -138,7 +146,7 @@
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <picture>
-            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+            <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-logo-bg-mobile.jpg" />
             <img src="~assets/projects/r3/r3-logo-bg.jpg" />
           </picture>
         </div>
@@ -149,9 +157,12 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/r3/r3-insta-mobile-single-mobile.jpg"
+          />
           <img src="~assets/projects/r3/r3-insta-mobile-single.jpg" />
-          <p class="ps">R3: facebook cover</p>
+          <p class="ps white">R3 Insta Account</p>
         </picture>
       </div>
     </div>
@@ -160,9 +171,12 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/r3/r3-insta-mobile-multi-mobile.jpg"
+          />
           <img src="~assets/projects/r3/r3-insta-mobile-multi.jpg" />
-          <p class="ps">R3: facebook cover</p>
+          <p class="ps white">R3 Instagram Screens</p>
         </picture>
       </div>
     </div>
@@ -171,9 +185,12 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/r3/r3-insta-mockup-mobile.jpg"
+          />
           <img src="~assets/projects/r3/r3-insta-mockup.jpg" />
-          <p class="ps">R3: facebook cover</p>
+          <p class="ps white">Instagram Logo preview</p>
         </picture>
       </div>
     </div>
@@ -182,9 +199,9 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-insta-post-mobile.jpg" />
           <img src="~assets/projects/r3/r3-insta-post.jpg" />
-          <p class="ps">R3: facebook cover</p>
+          <p class="ps">Instagram Posts</p>
         </picture>
       </div>
     </div>
@@ -193,9 +210,11 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/r3/r3-design-system.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/r3/r3-sharing-thoughts-mobile.jpg"
+          />
           <img src="~assets/projects/r3/r3-sharing-thoughts.jpg" />
-          <p class="ps">R3: facebook cover</p>
         </picture>
       </div>
     </div>
