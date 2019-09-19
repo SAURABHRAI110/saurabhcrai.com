@@ -113,6 +113,14 @@
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/awesome-inc/awesome-inc-logo-light.jpg" alt="awesome logo" />
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -174,17 +182,17 @@
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
+              <span>✔ Creative Direction</span>
+              <span>✔ Design Meeting</span>
+              <span>✔ Iterated many times</span>
               <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
+              <span>✔ T-shirt</span>
+              <span>✔ Made Mockups</span>
               <span>✔ Testing with users</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
+              <span>✔ Identity Design</span>
+              <span>✔ Defending Decisions</span>
               <span>✔ Pop and un-pop things</span>
             </div>
           </div>
@@ -199,13 +207,8 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            When It comes to design for a brand that is itself into branding. You got to give your best. No excuses.
+            Thats what happened with Awesome Inc. I loved working with an energetic client and people that were involved.
           </p>
         </div>
       </div>
@@ -213,8 +216,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        This project turned out so much fun, i experimented with lots of layout. Now I see it love
+        what it turned out.
       </blockquote>
     </div>
 
