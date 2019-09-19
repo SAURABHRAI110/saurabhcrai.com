@@ -1,9 +1,11 @@
 <template>
-  <div class="live-link">
-    <a :href="link" target="_blank">
-      {{text}}
-      <span></span>
-    </a>
+  <div class="live-link_container">
+    <div class="live-link">
+      <a :href="link" target="_blank">
+        {{text}}
+        <span></span>
+      </a>
+    </div>
   </div>
 </template>
 
@@ -17,10 +19,20 @@ export default {
 </script>
 
 <style>
+/* live link  */
+
+.live-link_container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  background-color: var(--secondary-color);
+}
+
 .live-link {
   position: absolute;
-  top: 40%;
-  right: 15vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 2555;
   cursor: pointer;
 }

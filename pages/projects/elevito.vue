@@ -219,12 +219,7 @@ So here I was, crawling Pintrest, going through design agenicies website, lookin
       </span>
     </div>-->
 
-    <div class="live-link_container">
-      <LiveLink
-        link="https://stackoverflow.com/questions/4515124/see-hover-state-in-chrome-developer-tools"
-        text="Launch Site"
-      />
-    </div>
+    <liveLink link="http://elevito.com/" text="Launch Site" />
 
     <!-- key Focus Area -->
 
