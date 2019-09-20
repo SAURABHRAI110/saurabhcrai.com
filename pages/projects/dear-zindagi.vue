@@ -46,8 +46,24 @@
             <br>Md.Fahad and Me"
     />
     <!-- Preface -->
-    <pcase heading="Preface" para=" Dear Zindagi" theme="theme_dz right" />
+    <pcase
+      heading="Preface"
+      para=" ART (Aware and Responsible Teen) is an organisation which works in
+    the direction of making students emotionally sound. Their main work is to spread awareness amongst
+    the teen, in this era of fast development. The teenagers face lots of expectational pressure, study
+    and peer pressure, bullying, and hormonal changes. These indirectly affects their education.
+"
+      theme="theme_dz right"
+    />
 
+    <!-- Problem -->
+    <pcase
+      heading="Challenges"
+      para=" The ART brochure was to represent the ART organisation. It had to put forward their work,
+      aim, objective and goals, before the schools and colleges. It had to convince the schools/colleges
+      to work with ART organisation. It had to speak volumes with great sensitivity. Design had to become its language. "
+      theme="theme_dz right"
+    />
     <!-- Problem -->
     <pcase
       heading="Ideation and Discovery"
@@ -71,7 +87,7 @@
     <!-- Reasearch -->
     <pcase
       heading="Research"
-      para=" Initially I started with lots of Ideas in mind and what not to do I read some Brochure Design Process
+      para="With lots of Ideas in mind and what not to do I read some Brochure Design Process
       on the Internet, gone through them, taken Screenshot, saved Images that connected to the project for initial motivation.
       Google is place I always start with very basic search from What to whom to why and write important stuff in my diary.
       As things goes some things came out naturally as I gone through them.
@@ -94,8 +110,28 @@
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
-        <p class="ps">Brochure front Cover | A4</p>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/DearZindagi1-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/DearZindagi1.jpg" />
+          <p class="ps">Logo For ART</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a4page1-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
+          <p class="ps">Brochure Front Cover</p>
+        </picture>
       </div>
     </div>
 
@@ -108,7 +144,7 @@
             srcset="~assets/projects/dearzindagi/dz-a4page2n3-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page2n3.jpg" />
-          <p class="ps">Page Cover</p>
+          <p class="ps">Inside Pages 2 & 3</p>
         </picture>
       </div>
     </div>
@@ -122,7 +158,7 @@
             srcset="~assets/projects/dearzindagi/dz-a4page4n5-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page4n5.jpg" />
-          <p class="ps">Page Cover</p>
+          <p class="ps">Inside Pages 4 & 5</p>
         </picture>
       </div>
     </div>
@@ -136,7 +172,7 @@
             srcset="~assets/projects/dearzindagi/dz-a4page6n7-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page6n7.jpg" />
-          <p class="ps">Page Cover</p>
+          <p class="ps">Inside Pages 6 & 7</p>
         </picture>
       </div>
     </div>
@@ -150,7 +186,7 @@
             srcset="~assets/projects/dearzindagi/dz-a4page8n9-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page8n9.jpg" />
-          <p class="ps">Page Cover</p>
+          <p class="ps">Inside Page 8 & 9</p>
         </picture>
       </div>
     </div>
@@ -164,7 +200,7 @@
             srcset="~assets/projects/dearzindagi/dz-a4page10n11-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page10n11.jpg" />
-          <p class="ps">Page Cover</p>
+          <p class="ps">Inside Page 10 & 11</p>
         </picture>
       </div>
     </div>
@@ -178,7 +214,7 @@
             srcset="~assets/projects/dearzindagi/dz-a4-allpage-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4-allpage.jpg" />
-          <p class="ps">Page Cover</p>
+          <p class="ps">All Brochure Pages</p>
         </picture>
       </div>
     </div>
@@ -202,7 +238,7 @@
 
     <!-- First Iteration -->
     <pcase
-      heading="First Iteration"
+      heading="Outcome"
       para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a
               great layout and which made almost most of the things we needed in and that we don't needed.
               great layout and which made almost most of the things we needed in and that we don't needed.
@@ -226,16 +262,16 @@
               <span>✔ Research</span>
               <span>✔ Ideation</span>
               <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
+              <span>✔ Collaborating with Content Writer</span>
+              <span>✔ Deleting adding pages</span>
               <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
-              <span>✔ Testing with users</span>
+              <span>✔ Logo</span>
+              <span>✔ Mockups</span>
+              <span>✔ Lots of Pdf</span>
               <span>✔ Creating A design System</span>
-              <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
+              <span>✔ Imagery Selection</span>
+              <span>✔ Business Card</span>
+              <span>✔ Learned the process</span>
             </div>
           </div>
         </div>
@@ -249,20 +285,18 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            Dear Zindagi made me more aware of the psychological things that goes around with children's and in society and how important
+            it is to convey these messages through design. Attention to details is key to these stuff specially in print design.
           </p>
         </div>
       </div>
     </div>
 
     <div class="p-quote contain red">
-      <blockquote>dwdwd</blockquote>
+      <blockquote>
+        Detailing and fine tunning every page, every printed word and image of the final
+        product. It necessary that every element ties in with the brand story that need to be communicated. It's the tiny details that matters.
+      </blockquote>
     </div>
 
     <!-- End Line  -->
