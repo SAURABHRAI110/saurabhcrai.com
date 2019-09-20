@@ -1,5 +1,5 @@
 
-![My website Screenshot](https://raw.githubusercontent.com/SAURABHRAI110/saurabhcrai.com/master/assets/projects/sr/sr-website-hero.jpg)
+
 
 
 ## See it in action [click here](https://saurabhcrai.com)
@@ -17,6 +17,8 @@
 >Made with [vue.js](https://vuejs.org) framework and [nuxtjs](https://nuxtjs.org).
 
 >Have Fun. 😄
+
+![My website Screenshot](https://raw.githubusercontent.com/SAURABHRAI110/saurabhcrai.com/master/assets/projects/sr/sr-website-hero.jpg)
 
 ## Build Setup
 
