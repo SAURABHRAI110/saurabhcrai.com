@@ -15,45 +15,48 @@
       pCategory="Print Design"
       pHeading="Aware and Responsible Teens"
       pHeadingcolor="color:#DF9F17;"
-      pSubheading="Brochure design for A.R.T."
+      pSubheading="Brochure Designing for creating awareness"
     />
+
     <div class="p-dz-hero_image">
-      <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_dz" data-aos="reveal-right"></div>
-        <img src="~assets/projects/dearzindagi/dzhero.jpg" alt align />
-        <!-- <img src="~assets/projects/dearzindagi/fe1.png" alt> -->
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div
+          class="reveal-block right theme_hindigiri"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dzhero-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dzhero.jpg" alt="childrens smiling indian" />
+        </picture>
       </div>
     </div>
+
     <Preface
-      timeframe=" April 2018- May 2018
-            <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
-            <br>Marketing"
+      timeframe=" October 2018
+            <br 3 Week"
+      tools=" Adobe Creative Suite
+            <br>Pen and Pencil"
+      role=" Graphic Designer
+            <br>Creative Direction"
+      team=" Yash Srivastava
+            <br>Md.Fahad and Me"
     />
     <!-- Preface -->
-    <pcase
-      heading="Preface"
-      para=" Filming eye is a film production studio based in Lucknow. They do photography, short films, music
-        videos, advertisements shoots. Basically things that can be captured with camera and of course there
-        existing team skills. Filming eye have got some headlines in news in the past about their commendable
-        work and nominations of their videos in different film competitions. The team comprised of talented who
-        with their camera and skills was able to produce breathtaking works. People knew me already. So they
-        kind of wanted me to work on their website."
-      theme="theme_dz right"
-    />
+    <pcase heading="Preface" para=" Dear Zindagi" theme="theme_dz right" />
 
     <!-- Problem -->
     <pcase
-      heading="Problem"
-      para="  1. The first thing that I came around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      heading="Ideation and Discovery"
+      para=" To initiate design projects I started with a Discovery & Planning session to gather
+      information and ask questions to learn about the audience, expectations, uses and goals.
+      Gathered all their supplied text, images and logos and make sure I don’t have any questions
+      before starting. Done a brand audit, competitive analysis and reviewed the primary messaging the
+      brochure should communicate. Reviewed possible creative directions for imagery, colour and fonts
+      and made sure the direction  will be as on target as possible."
       theme="theme_dz right"
     />
 
@@ -68,20 +71,21 @@
     <!-- Reasearch -->
     <pcase
       heading="Research"
-      para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
-        used images that filming eye have clicked through their camera and some free stock photos that have
-        meaning and value to infinity, beyond, and that fit to our red and dark black theme."
+      para=" Initially I started with lots of Ideas in mind and what not to do I read some Brochure Design Process
+      on the Internet, gone through them, taken Screenshot, saved Images that connected to the project for initial motivation.
+      Google is place I always start with very basic search from What to whom to why and write important stuff in my diary.
+      As things goes some things came out naturally as I gone through them.
+
+      "
       theme="theme_dz right"
     />
 
     <!-- Final Design -->
 
     <pcase
-      heading="Final Design"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-             of asking qualitative questions such as their workflow to even the intimate details of their
-             personal life."
+      heading="Content First Strategy"
+      para="When it comes to print design I guess its very important to get all the Copy writing before starting the design Process.
+      Content first and then Design. I followed this approach, even to get started I remember I had to wait 3 days for it. Its always worth the time."
       theme="theme_dz right"
     />
 
