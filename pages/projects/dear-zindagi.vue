@@ -30,7 +30,7 @@
             media="(max-width: 600px)"
             srcset="~assets/projects/dearzindagi/dzhero-mobile.jpg"
           />
-          <img src="~assets/projects/dearzindagi/dzhero.jpg" alt="childrens smiling indian" />
+          <img src="~assets/projects/dearzindagi/dzhero.jpg" alt="indian children smiling" />
         </picture>
       </div>
     </div>
@@ -254,22 +254,22 @@
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/dearzindagi/dz-visitingcard.jpg" />
-        <p class="ps">Brochure last page and back cover | A4</p>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-visitingcard-mobile.jpg"
+          />
+          <img src="~assets/projects/dearzindagi/dz-visitingcard.jpg" alt="visiting card design" />
+          <p class="ps">All Brochure Pages</p>
+        </picture>
       </div>
     </div>
 
     <!-- First Iteration -->
     <pcase
       heading="Outcome"
-      para=" The first iteration was designed by my junior designer. Hw worked really hard and came up with a
-              great layout and which made almost most of the things we needed in and that we don't needed.
-              great layout and which made almost most of the things we needed in and that we don't needed.
-              <br><br>
-              Before being given into development there was this huge gap of like 6 months. After this long time
-              when I looked with back and and with my fellow designer Aakash. We didn't like it much. A lot of
-              thing needed to retouch. The works seems sloppy. So all the things needed retouch. In a way I
-              changed almost everything expect the dark theme and colour and content architecture."
+      para="The loved the Brochure and when it came out in Print form It was really Incredible. Hard work pays off. I loved
+      the brochure so much I asked for a copy and I have it in my book shelf."
       theme="theme_dz right"
     />
 
