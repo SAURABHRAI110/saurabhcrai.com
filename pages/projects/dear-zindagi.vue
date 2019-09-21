@@ -64,9 +64,9 @@
       to work with ART organisation. It had to speak volumes with great sensitivity. Design had to become its language. "
       theme="theme_dz right"
     />
-    <!-- Problem -->
+    <!-- Ideation and Discovery -->
     <pcase
-      heading="Ideation and Discovery"
+      heading="Research and Discovery"
       para=" To initiate design projects I started with a Discovery & Planning session to gather
       information and ask questions to learn about the audience, expectations, uses and goals.
       Gathered all their supplied text, images and logos and make sure I don’t have any questions
@@ -79,14 +79,14 @@
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/dearzindagi/dz-research.png" />
-        <p class="ps">Brochure front Cover | A4</p>
+        <img src="~assets/projects/dearzindagi/dz-screenshot.jpg" />
+        <p class="ps">Inspiration</p>
       </div>
     </div>
 
     <!-- Reasearch -->
     <pcase
-      heading="Research"
+      heading="Ideation and Sketch"
       para="With lots of Ideas in mind and what not to do I read some Brochure Design Process
       on the Internet, gone through them, taken Screenshot, saved Images that connected to the project for initial motivation.
       Google is place I always start with very basic search from What to whom to why and write important stuff in my diary.
@@ -96,6 +96,16 @@
       theme="theme_dz right"
     />
 
+    <agile>
+      <div class="slide">
+        <img class="slide-img" src="~assets/projects/dearzindagi/dz-sketch-1.jpg" alt="slider1" />
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="~assets/projects/dearzindagi/dz-sketch-2.jpg" alt="slider2" />
+      </div>
+    </agile>
+
     <!-- Final Design -->
 
     <pcase
@@ -104,7 +114,20 @@
       Content first and then Design. I followed this approach, even to get started I remember I had to wait 3 days for it. Its always worth the time."
       theme="theme_dz right"
     />
+    <pcase
+      heading="Final Design"
+      para="10 dys Fast farword. It was high time to step into Illustrator and begin. I choose Illustrator over Indesign as I knew
+      I have to make some custom Illustration and deal with shapes and graph and demographic stuff."
+      theme="theme_dz right"
+    />
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <img src="~assets/projects/dearzindagi/dz-research.png" />
+        <p class="ps">Brochure front Cover | A4</p>
+      </div>
+    </div>
     <!-- DZ A4 mockup full size image -->
 
     <div class="p-image-100-duo">
@@ -294,8 +317,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Detailing and fine tunning every page, every printed word and image of the final
-        product. It necessary that every element ties in with the brand story that need to be communicated. It's the tiny details that matters.
+        It necessary that every element ties in with the brand story that need to be communicated. Detailing and fine tunning every page, every printed word and image of the final
+        product. It's the tiny details that matters.
       </blockquote>
     </div>
 
