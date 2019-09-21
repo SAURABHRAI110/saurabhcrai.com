@@ -22,14 +22,21 @@
     </div>-->
 
     <!-- hero image -->
-    <div class="p-fe-hero_image">
-      <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_mi" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/mr-irritating/mi-hero.jpg" alt />
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+    <div class="p-dz-hero_image">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div
+          class="reveal-block right theme_hindigiri"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/hindigiri/hindigiri-mobile-hero.jpg"
+          />
+          <img src="~assets/projects/mr-irritating/mi-hero.jpg" alt="book mockup, novel mockup" />
+        </picture>
       </div>
     </div>
 
@@ -296,7 +303,7 @@ Mr. Irritating shall not irritate you!"
     <pcase
       heading="Later Time"
       para="Later on I also worked on marketing material, I designed flex and many posters
-     also designed their promotional post for facebook and istagram."
+     also designed their promotional post for Facebook and Instagram."
       theme="theme_mi"
     />
 
@@ -532,36 +539,52 @@ Mr. Irritating shall not irritate you!"
       </div>
     </div>
 
-    <div class="contain">
-      <section class="social-section">
-        <div>
-          <a
-            href="https://www.amazon.in/Mister-Iritating-Nelesh-Sharma/dp/9384657948"
-            target="_blank"
-            rel="noopener"
-            title="Amazon (New Link)"
-          >
-            <p class="ps">
-              Check out Mr. Irritating
-              <br />on
-              <span style="colour:red;">Amazon</span>
-            </p>
-          </a>
-          <img src="~assets/projects/mr-irritating/book-amazon.png" alt=" mr. irritating on amazon" />
-        </div>
-        <div>
-          <p class="ps">Follow on Insagram</p>
-        </div>
-        <div>
-          <p class="ps">Like on Facebook</p>
-        </div>
-        <div>
-          <p class="ps">Mail to author</p>
-        </div>
-      </section>
+    <div class="p-dz-hero_image">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div
+          class="reveal-block right theme_hindigiri"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/mr-irritating/mi-marketing-mobile.jpg"
+          />
+          <img
+            class="p-image-100"
+            src="~assets/projects/mr-irritating/mi-marketing.jpg"
+            alt="book photography, skyline photography"
+          />
+        </picture>
+      </div>
     </div>
 
-    <img class="p-image-100" src="~assets/projects/mr-irritating/MrIrritating13.jpg" />
+    <liveLink
+      link="https://www.amazon.in/Mister-Iritating-Nelesh-Sharma/dp/9384657948"
+      text="Buy From Amazon"
+    />
+
+    <div class="p-dz-hero_image">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div
+          class="reveal-block right theme_hindigiri"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/mr-irritating/mi-photoshoot-mobile.jpg"
+          />
+          <img
+            class="p-image-100"
+            src="~assets/projects/mr-irritating/mi-photoshoot.jpg"
+            alt="book photography, skyline photography"
+          />
+        </picture>
+      </div>
+    </div>
 
     <!-- Branding -->
 
@@ -667,6 +690,7 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
+import LiveLink from '~/components/projects/live-link'
 export default {
   layout: 'projects',
   components: {
@@ -679,13 +703,491 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav
+    Allprojectsnav,
+    LiveLink
   }
 }
 </script>
 
-<style>
+<style scoped>
 .project-footer {
   bottom: 0%;
+}
+
+.section1 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgb(255, 218, 218);
+  margin-bottom: 5px;
+}
+
+.section1 img:nth-child(1) {
+  position: absolute;
+  width: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20%;
+}
+
+.section1 img:nth-child(2) {
+  width: 300px;
+  position: absolute;
+  right: 100px;
+  bottom: 0px;
+}
+
+.section1 img:nth-child(3) {
+  width: 100%;
+  bottom: 0%;
+  position: absolute;
+}
+
+.section2 {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #ee605c;
+  margin-bottom: 5px;
+}
+
+.section2 img:nth-child(1) {
+  position: absolute;
+  width: 60%;
+  left: 45%;
+  transform: translate(-50%);
+  top: 20%;
+}
+
+.section3 {
+  width: 100%;
+  position: relative;
+}
+
+.section3-img {
+  width: 100%;
+}
+
+@media screen and (max-width: 999px) {
+  .section1 img:nth-child(1) {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .section1 img:nth-child(1) {
+    width: 300px;
+  }
+
+  .section2 img:nth-child(1) {
+    width: 78%;
+    left: 50%;
+    top: 30%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .section1 img:nth-child(2) {
+    right: 50px;
+  }
+
+  .section2 img:nth-child(1) {
+    width: 86%;
+  }
+}
+
+.kavya-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #ee605c;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.b-caption {
+  text-align: center;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  bottom: 0%;
+}
+
+.kavya-section svg:nth-child(1) {
+  position: absolute;
+  left: 8%;
+  height: 50%;
+  top: 25%;
+  z-index: 1;
+}
+
+.kavya-section svg:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  height: 110%;
+  transform: rotateY(180deg);
+}
+
+.kavya-section .text-container {
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+}
+
+.kavya-section .text-container::before {
+  content: '';
+  border-left: solid 2px rgb(255, 255, 255);
+  left: -6%;
+  height: 100%;
+  position: absolute;
+}
+
+.text-container h1 {
+  font-size: 35px;
+}
+
+/* Annant section */
+
+.anant-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #fbf1e9;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.anant-section svg:nth-child(1) {
+  position: absolute;
+  left: 8%;
+  height: 50%;
+  top: 25%;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.anant-section svg:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  height: 90%;
+}
+
+.anant-section .text-container {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: black;
+}
+
+.anant-section .text-container::before {
+  content: '';
+  border-left: solid 2px rgb(0, 0, 0);
+  left: -6%;
+  height: 100%;
+  position: absolute;
+}
+
+.aashi-section {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #8f8f8f;
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+
+.aashi-section svg:nth-child(1) {
+  position: absolute;
+  left: 13%;
+  height: 50%;
+  top: 25%;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.aashi-section svg:nth-child(2) {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  height: 110%;
+  opacity: 0.5;
+}
+
+.aashi-section .text-container {
+  width: 40%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  color: white;
+}
+
+.aashi-section .text-container::before {
+  content: '';
+  border-left: solid 2px rgb(255, 255, 255);
+  left: -6%;
+  height: 100%;
+  position: absolute;
+}
+
+@media screen and (max-width: 1200px) {
+  .kavya-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .kavya-section svg:nth-child(1) {
+    left: 5%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .kavya-section .text-container {
+    width: 58%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 3%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .anant-section .text-container {
+    width: 57%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 8%;
+    height: 38%;
+    top: 32%;
+  }
+
+  .aashi-section .text-container {
+    width: 56%;
+  }
+
+  .kavya-section svg:nth-child(2) {
+    right: 0%;
+  }
+
+  .anant-section svg:nth-child(2) {
+    right: 0%;
+  }
+
+  .aashi-section svg:nth-child(2) {
+    right: 0%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .kavya-section svg:nth-child(1) {
+    left: 3%;
+    height: 29%;
+    top: 40%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 3%;
+    height: 29%;
+    top: 40%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 3%;
+    height: 29%;
+    top: 40%;
+  }
+
+  .pm {
+    font-size: 17px;
+  }
+
+  .anant-section .text-container {
+    width: 57%;
+    top: 34%;
+    left: 33%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .kavya-section .text-container::before {
+    border-top: solid 2px rgb(255, 255, 255);
+    width: 104%;
+    height: 0px;
+  }
+
+  .anant-section .text-container::before {
+    border-top: solid 2px rgb(0, 0, 0);
+    width: 100%;
+    height: 0px;
+  }
+
+  .aashi-section .text-container::before {
+    border-top: solid 2px rgb(255, 255, 255);
+    width: 104%;
+    height: 0px;
+  }
+
+  .text-container h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .kavya-section .text-container {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+    color: white;
+  }
+
+  .anant-section .text-container {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+    color: rgb(0, 0, 0);
+  }
+
+  .aashi-section .text-container {
+    width: 80%;
+    top: 47%;
+    left: 12%;
+    color: white;
+  }
+
+  .kavya-section svg:nth-child(1) {
+    left: 33%;
+    height: 30%;
+    top: 14%;
+  }
+
+  .anant-section svg:nth-child(1) {
+    left: 33%;
+    height: 30%;
+    top: 14%;
+  }
+
+  .aashi-section svg:nth-child(1) {
+    left: 42%;
+    height: 30%;
+    top: 14%;
+  }
+
+  .kavya-section svg:nth-child(2) {
+    right: 10%;
+    top: 8%;
+    height: 80%;
+  }
+
+  .anant-section svg:nth-child(2) {
+    right: -7%;
+    top: 28%;
+    height: 69%;
+  }
+
+  .aashi-section svg:nth-child(2) {
+    right: 10%;
+  }
+}
+
+/* section7 */
+
+.section7 {
+  width: 100%;
+  height: 100vh;
+  background-color: #ee605c;
+  width: 100%;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.section7-cover {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-column-gap: 15px;
+  top: 50%;
+  height: 100%;
+  align-content: center;
+}
+
+.cover > img {
+  height: 450px;
+  box-shadow: #000;
+  box-shadow: 5px 3px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cover1 {
+  justify-self: end;
+}
+
+@media screen and (max-width: 999px) {
+  .cover > img {
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .cover > img {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cover1 {
+    justify-self: center;
+  }
+
+  .cover2 {
+    justify-self: center;
+  }
+}
+
+.section8 {
+  background-color: #8f8f8f;
+}
+
+.mi-photogrid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  height: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.mi-photogrid > img {
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .mi-photogrid {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mi-photogrid {
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  }
 }
 </style>

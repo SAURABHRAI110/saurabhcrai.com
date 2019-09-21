@@ -14,7 +14,7 @@
           class="post-comment-name pl"
           v-model="name"
           id="name"
-          placeholder=" Your sweet name"
+          placeholder="Your sweet name"
         />
         <textarea
           cols="4"
@@ -22,7 +22,7 @@
           class="post-comment-text"
           v-model="comment"
           id="comment"
-          placeholder=" Write your comment here and remember you will not be able to delete it. In case contact Saurabh.
+          placeholder="Write your comment here and remember you will not be able to delete it. In case contact Saurabh.
            "
         ></textarea>
 
