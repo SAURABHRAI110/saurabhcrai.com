@@ -25,15 +25,11 @@
 
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div
-          class="reveal-block right theme_hindigiri"
-          data-aos="reveal-right"
-          data-aos-once="true"
-        ></div>
+        <div class="reveal-block right theme_mi" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/hindigiri/hindigiri-mobile-hero.jpg"
+            srcset="~assets/projects/mr-irritating/mi-hero-mobile.jpg"
           />
           <img src="~assets/projects/mr-irritating/mi-hero.jpg" alt="book mockup, novel mockup" />
         </picture>
@@ -85,7 +81,18 @@ Margins, line leading, choice of fonts get more critical since the aim of the de
       a blink of an eye and
     </p>
 
-    <img class="p-image-100" src="~assets/projects/mr-irritating/sketches.jpg" />
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img
+          class="p-image-100"
+          src="~assets/projects/mr-irritating/mi-sketch-2.jpg"
+          alt="book cover design sketch, cover sketch"
+        />
+        <p class="ps black90">Mr. Irritating Intial sketches.</p>
+      </div>
+    </div>
 
     <!-- Problem -->
     <pcase
@@ -539,20 +546,15 @@ Mr. Irritating shall not irritate you!"
       </div>
     </div>
 
-    <div class="p-dz-hero_image">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div
-          class="reveal-block right theme_hindigiri"
-          data-aos="reveal-right"
-          data-aos-once="true"
-        ></div>
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/mr-irritating/mi-marketing-mobile.jpg"
           />
           <img
-            class="p-image-100"
             src="~assets/projects/mr-irritating/mi-marketing.jpg"
             alt="book photography, skyline photography"
           />
@@ -565,20 +567,15 @@ Mr. Irritating shall not irritate you!"
       text="Buy From Amazon"
     />
 
-    <div class="p-dz-hero_image">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div
-          class="reveal-block right theme_hindigiri"
-          data-aos="reveal-right"
-          data-aos-once="true"
-        ></div>
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/mr-irritating/mi-photoshoot-mobile.jpg"
           />
           <img
-            class="p-image-100"
             src="~assets/projects/mr-irritating/mi-photoshoot.jpg"
             alt="book photography, skyline photography"
           />
@@ -604,11 +601,11 @@ Mr. Irritating shall not irritate you!"
               <span>✔ Designed Cover</span>
               <span>✔ Explored Marketing Ideas</span>
               <span>✔ Made Posters, Banners</span>
-              <span>✔ Created Engazing Post for Fb and Insta</span>
+              <span>✔ Created Engaging Post for Fb and Insta</span>
               <span>✔ learned Hindi Typography</span>
               <span>✔ Illustrations</span>
               <span>✔ Branding</span>
-              <span>✔ Paartcipated In Book Launch</span>
+              <span>✔ Participated In Book Launch</span>
               <span>✔ Photography</span>
               <span>✔ Do and Undo a lot</span>
             </div>
@@ -625,7 +622,7 @@ Mr. Irritating shall not irritate you!"
         <div class="pm black70">
           <p>
             Despite all request and discussion the Publisher did one thing a still hate, He Made
-            the final Prints cover background Pure Red by Increasinng Contrast Overall The design.
+            the final Prints cover background Pure Red by Increasing Contrast Overall The design.
             In a way changing all visual. When Business goals and design goals meet. Things Happen and sometime for worst.
           </p>
         </div>
@@ -634,7 +631,7 @@ Mr. Irritating shall not irritate you!"
 
     <div class="p-quote contain red">
       <blockquote>
-        Sometimes we have to be okk with the changes that is being approved at the end despite you know its not
+        Sometimes we have to be okk with the changes that is being approved at the end, despite you know its not
         the best for your users.
       </blockquote>
     </div>
