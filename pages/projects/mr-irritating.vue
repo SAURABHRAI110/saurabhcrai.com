@@ -9,12 +9,12 @@
       </nuxt-link>
     </div>
     <projecthero
-      pDate="June 2018 "
+      pDate="March 2017 "
       pWebsite="Mr. Irritating"
       pCategory="Print Design"
       pHeading="Every past keeps a story."
       pHeadingcolor="color:#EE605C;"
-      pSubheading="Designing an eye-catching novel cover"
+      pSubheading="Designing a romantic (love triangle) novel cover."
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -42,30 +42,30 @@
       tools="   Pen, Pencil, Sketchbook
             <br>Adobe Illustrator"
       role="  Cover Designer, haha
-            <br>Social Media Managing"
-      team="  Nilesh Mishra, Zainab Siddique
-            <br>Vipin Sir and Me"
+            <br>Social Media Manager"
+      team="  Nilesh Mishra (Author), Zainab Siddiqui (English Version Author)
+            <br> Vipin Sir(Ninja Hindi Typist) and Me (Designer)"
     />
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" I am very fartunate enough to work on this amazing project. This got very close to me. I got to work
+      para=" I am very fortunate enough to work on this amazing project. This got very close to me. I got to work
       with some wonderful people whom I learned a lot on the way of designing a beautiful cover that is being loved
       by thousands and appreciated by  my teammates, Mr. Irritating Team and those who come around this novel.
-      The novel narrates the story of three characters Kavya, Anant and Aashi and ofcourse their friendship, carrer and love triangle between them."
+      The novel narrates the story of three characters Kavya, Anant and Aashi and of course their friendship, career and love triangle between them."
       theme="theme_mi"
     />
 
     <!-- Challange -->
     <pcase
-      heading="Challange"
+      heading="Challenge"
       para="   Love it or hate it, the fact is people do judge a book by its cover.
                <br><br>Designing novel cover is both fun and challenging. Because the interiors of most novels are unadorned continuous typography I think you have to take a lot of care to balance the elements of the page to get the best effect.
-Margins, line leading, choice of fonts get more critical since the aim of the designer is to enable the reader to be carried along by the author's story. <br><br>
+                  Margins, line leading, choice of fonts get more critical since the aim of the designer is to enable the reader to be carried along by the author's story. <br><br>
 
-        We were wanted something that directlt tell the brief about the romantic stoty. The novel should stand out and attracts passing by people when kept on shop. the colour, typography and character styling, their background story.
+          We came to conclusion that the cover should be something that directly tell the brief about the romantic story. The novel should stand out and attracts passing by people when kept on shop. the colour, typography and character styling, their background story.
       
-      "
+         "
       theme="theme_mi"
     />
 
@@ -78,7 +78,7 @@ Margins, line leading, choice of fonts get more critical since the aim of the de
 
     <p class="contain just-para black90">
       It was important for me to design a cover that narrates the story in just
-      a blink of an eye and
+      a blink of an eye and in doing so also connects the deeper part of young age (specially college students), the lovers.
     </p>
 
     <div class="p-image-100-duo">
@@ -144,7 +144,7 @@ Mr. Irritating shall not irritate you!"
 
     <section class="kavya-section">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 617.87 1007">
-        <title>Asset 2</title>
+        <title>Kavya</title>
         <g id="f0b6bfc4-0d58-4c62-a2e6-e2383cf31101" data-name="Layer 2">
           <g id="f63178b0-2db8-4a71-a760-e22ccd574ffd" data-name="Layer 1">
             <path
@@ -170,18 +170,18 @@ Mr. Irritating shall not irritate you!"
       <div class="text-container">
         <h1>Kavya</h1>
         <p class="pm">
-          The best friend of Mr.Irritating. She is modern,bold girl.A guitarist,
-          a basketball player and loves to wonder on her scooty.She hangs out with
-          boys,unlike other girls who chit chat,much to dislike of Anant .As the story
-          progresses,she become more than a friend for him ,with her unconditional
-          support.However, the feelings come to notice off to late.
+          The best friend of Mr.Irritating. She is modern, bold girl. A guitarist,
+          a basketball player and loves to wonder on her scooty. She hangs out with
+          boys, unlike other girls who chit chat, much to dislike of Anant. As the story
+          progresses, she become more than a friend for him, with her unconditional
+          support. However, the feelings come to notice off to late.
         </p>
       </div>
     </section>
 
     <section class="anant-section">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 510.3 757.59">
-        <title>Asset 3</title>
+        <title>Anant</title>
         <g id="a3404b8a-31c1-4d4a-9ae7-81aa6e49808a" data-name="Layer 2">
           <g id="a9de5907-083c-41a2-bf2c-54b6e47bac6d" data-name="Layer 1">
             <path
@@ -215,7 +215,7 @@ Mr. Irritating shall not irritate you!"
 
     <section class="aashi-section">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312.23 1094.41">
-        <title>Asset 4</title>
+        <title>Aashi</title>
         <g id="aca5306c-61c0-4275-b265-875636fad363" data-name="Layer 2">
           <g id="fed3404a-4b28-4b48-a206-fdcb031ebc3f" data-name="Layer 1">
             <g style="opacity:1">
@@ -261,7 +261,8 @@ Mr. Irritating shall not irritate you!"
       <div class="text-container">
         <h1>Aashi</h1>
         <p class="pm">
-          Aashi is deeply loved by mr.Irritating. She is a sweet and bubbly girl, with limited friends. She has a reserved nature and looks beautiful in indian Attires.
+          Aashi is deeply loved by Mr. Irritating. She is a sweet and bubbly girl, with limited friends.
+          She has a reserved nature and looks beautiful in indian attires.
           As Anant confesses his love, she accepts it,
           becoming his strength through the thick and thin of collage life. However, in the end
           misunderstandings develop and she leaves him without a word.
@@ -564,7 +565,7 @@ Mr. Irritating shall not irritate you!"
 
     <liveLink
       link="https://www.amazon.in/Mister-Iritating-Nelesh-Sharma/dp/9384657948"
-      text="Buy From Amazon"
+      text="Buy Mr. Irritating From Amazon"
     />
 
     <div class="p-image-100-duo">
@@ -601,13 +602,13 @@ Mr. Irritating shall not irritate you!"
               <span>✔ Designed Cover</span>
               <span>✔ Explored Marketing Ideas</span>
               <span>✔ Made Posters, Banners</span>
-              <span>✔ Created Engaging Post for Fb and Insta</span>
+              <span>✔ Designed post @fb @insta</span>
               <span>✔ learned Hindi Typography</span>
               <span>✔ Illustrations</span>
               <span>✔ Branding</span>
               <span>✔ Participated In Book Launch</span>
               <span>✔ Photography</span>
-              <span>✔ Do and Undo a lot</span>
+              <span>✔ Do and Undo stuffs</span>
             </div>
           </div>
         </div>
@@ -621,9 +622,9 @@ Mr. Irritating shall not irritate you!"
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            Despite all request and discussion the Publisher did one thing a still hate, He Made
-            the final Prints cover background Pure Red by Increasing Contrast Overall The design.
-            In a way changing all visual. When Business goals and design goals meet. Things Happen and sometime for worst.
+            Despite all request and discussion the publisher did one thing I still hate. He Made
+            the final prints cover background Pure Red by increasing contrast to Overall the cover.
+            In a way changing all visual. Anyway that worked out. For the better? Yes? Could have been even more better? Yes.
           </p>
         </div>
       </div>
@@ -631,7 +632,7 @@ Mr. Irritating shall not irritate you!"
 
     <div class="p-quote contain red">
       <blockquote>
-        Sometimes we have to be okk with the changes that is being approved at the end, despite you know its not
+        Sometimes we have to be okk with the changes that is being approved at the end, despite you know it's not
         the best for your users.
       </blockquote>
     </div>
@@ -644,7 +645,10 @@ Mr. Irritating shall not irritate you!"
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
+    <Appreciate
+      heading="I rarely irritate. Just fun."
+      subHeading="You can irritate me though, by clapping just one times."
+    />
 
     <!-- Project Footer Navigatrion -->
 
@@ -788,8 +792,17 @@ export default {
     right: 50px;
   }
 
+  .section1 {
+    height: 85vh;
+  }
+
+  .section2 {
+    height: 60vh;
+  }
+
   .section2 img:nth-child(1) {
     width: 86%;
+    left: 40%;
   }
 }
 
@@ -1170,6 +1183,7 @@ export default {
   height: auto;
   width: 100%;
   z-index: 1;
+  padding: 0px 0px 60px 0px;
 }
 
 .mi-photogrid > img {
