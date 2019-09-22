@@ -43,7 +43,7 @@
             <br>Adobe Illustrator"
       role="  Cover Designer, haha
             <br>Social Media Manager"
-      team="  Nilesh Mishra (Author), Zainab Siddiqui (English Version Author)
+      team="  Nilesh Sharma (Author), Zainab Siddiqui (English Version Author)
             <br> Vipin Sir(Ninja Hindi Typist) and Me (Designer)"
     />
     <!-- Preface -->
