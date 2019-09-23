@@ -38,8 +38,7 @@ export default {
     pCategory: String,
     pHeading: String,
     pHeadingcolor: String,
-    pSubheading: String,
-    articleThumbnail: String
+    pSubheading: String
   }
 }
 </script>

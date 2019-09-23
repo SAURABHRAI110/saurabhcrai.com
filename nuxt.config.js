@@ -1,31 +1,40 @@
-import pkg from './package'
-import {
-  async
-} from 'q';
 
+const builtAt = new Date().toISOString()
+const path = require('path')
+const { I18N } = require('./locales/i18n-nuxt-config')
+import blogsEn from './contents/en/blogsEn.js'
+import blogsEs from './contents/es/blogsEs.js'
 
-const glob = require('glob');
-// we acquire an array containing the filenames
-// in the articles directory
-let files = glob.sync('**/*.md', {
-  cwd: 'articles'
-});
-
-// We define a function to trim the '.md' from the filename
-// and return the correct path.
-// This function will be used later
-function getSlugs(post, _) {
-  let slug = post.substr(0, post.lastIndexOf('.'));
-  return `/blog/${slug}`;
-}
+const productionUrl = {
+  en: "/en",
+  es: "/es"
+};
+const baseUrl = 'https://saurabhcrai.com';
 
 export default {
   mode: 'universal',
+  env: {
+    baseUrl,
+    productionUrl
+  },
 
-  /*
-   ** Headers of the page
-   */
   head: {
+
+    title: 'Saurabh Rai | UX Designer & Front-end Developer',
+
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no' },
+      { name: 'msapplication-TileColor', content: '#ffffff' },
+      { name: 'msapplication-TileImage', content: '/favicons/mstile-144x144.png' },
+      { name: 'theme-color', content: '#fc3a52' },
+      { name: 'robots', content: 'index, follow' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:site', content: '@saurabhcrai110' },
+      { property: 'og:type', content: 'profile' },
+      { property: 'og:updated_time', content: builtAt },
+
+    ],
 
     script: [{
       src: ' https://unpkg.com/applause-button/dist/applause-button.js'
@@ -53,16 +62,6 @@ export default {
     },
 
 
-
-    // {
-    //   src: "//code.tidio.co/mbwzt8zqtij9tn970lu3gntjtzha6rou.js",
-    //   body: true,
-    //   async: true,
-    //   ssr: false
-
-
-    // },
-
     {
       src: '/main.js',
       defer: true,
@@ -72,26 +71,8 @@ export default {
 
     ],
 
-    title: 'Saurabh Rai | UX Designer & Front End Developer',
-    meta: [{
-      charset: 'utf-8'
-    },
-    {
-      name: 'viewport',
-      content: 'width=device-width, initial-scale=1'
-    },
 
-    {
-      name: 'theme-color',
-      content: '#fc3a52'
-    },
 
-    {
-      hid: 'description',
-      name: 'description',
-      content: pkg.description
-    }
-    ],
     link: [{
       iconSrc: 'static/icon.png',
       rel: 'icon',
@@ -110,63 +91,6 @@ export default {
       href: '/favicons/favicon-32x32.png',
       sizes: '32x32'
     },
-    // {
-    //   rel: 'icon',
-    //   type: 'image/png',
-    //   href: '/favicons/android-chrome-96x96.png',
-    //   sizes: '96x96'
-    // },
-    // {
-    //   rel: 'icon',
-    //   type: 'image/png',
-    //   href: '/favicons/android-chrome-192x192.png',
-    //   sizes: '192x192'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-57x57.png',
-    //   sizes: '57x57'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-60x60.png',
-    //   sizes: '60x60'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-72x72.png',
-    //   sizes: '72x72'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-76x76.png',
-    //   sizes: '76x76'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-114x114.png',
-    //   sizes: '114x114'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-120x120.png',
-    //   sizes: '120x120'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-144x144.png',
-    //   sizes: '144x144'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-152x152.png',
-    //   sizes: '152x152'
-    // },
-    // {
-    //   rel: 'apple-touch-icon',
-    //   href: '/favicons/apple-touch-icon-180x180.png',
-    //   sizes: '180x180'
-    // },
     {
       rel: 'stylesheet',
       href: 'https://unpkg.com/applause-button/dist/applause-button.css'
@@ -178,7 +102,7 @@ export default {
    ** Customize the progress-bar color
    */
   loading: {
-    color: '#fc3a52;',
+    color: '#fc3a52',
     throttle: 0
   },
 
@@ -195,10 +119,6 @@ export default {
   ],
 
 
-
-  /*
-   ** Plugins to load before mounting the App
-   */
   plugins: [{
     src: '~/plugins/rellax',
     ssr: false
@@ -215,16 +135,8 @@ export default {
     src: "~/plugins/vue-agile",
     ssr: false
   },
-  {
-    src: '~/plugins/scrollmagic',
-    ssr: false
 
-  },
-  {
-    src: '~/plugins/commentbox',
-    ssr: false
-
-  }
+    '~/plugins/lazyload',
 
   ],
 
@@ -241,7 +153,9 @@ export default {
       id: 'UA-138976237-1'
     }],
     '@bazzite/nuxt-optimized-images',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    ['nuxt-i18n', I18N],
+    'nuxt-webfontloader'
   ],
   optimizedImages: {
     inlineImageLimit: -1,
@@ -269,11 +183,6 @@ export default {
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
   },
-  generate: {
-    routes: function () {
-      return files.map(getSlugs)
-    }
-  },
 
   markdownit: {
     injected: true,
@@ -290,35 +199,37 @@ export default {
    */
   build: {
 
-    extend(config, ctx) {
+    extend(config) {
+      const rule = config.module.rules.find(r => r.test.toString() === '/\\.(png|jpe?g|gif|svg|webp)$/i')
+      config.module.rules.splice(config.module.rules.indexOf(rule), 1)
+
       config.module.rules.push({
         test: /\.md$/,
-        use: ['raw-loader']
+        loader: 'frontmatter-markdown-loader',
+        include: path.resolve(__dirname, 'contents'),
+        options: {
+          vue: {
+            root: "dynamicMarkdown"
+          }
+        }
+      }, {
+        test: /\.(jpe?g|png)$/i,
+        loader: 'responsive-loader',
+        options: {
+          placeholder: true,
+          quality: 60,
+          size: 1400,
+          adapter: require('responsive-loader/sharp')
+        }
+      }, {
+        test: /\.(gif|svg)$/,
+        loader: 'url-loader',
+        query: {
+          limit: 1000,
+          name: 'img/[name].[hash:7].[ext]'
+        }
       });
-      config.node = {
-        fs: "empty",
-        glob: "empty"
-      };
-
-
-      /*
-       ** You can extend webpack config here
-       */
-      // alias: { //Seção Alias
-      //   ScrollMagicGSAP: "scrollmagic/scrollmagic/uncompressed/plugins/animation.gsap"
-
-      // Run ESLint on save
-      // if (ctx.isDev && ctx.isClient) {
-      //   config.module.rules.push({
-      //     enforce: 'pre',
-      //     test: /\.(js|vue)$/,
-      //     loader: 'eslint-loader',
-      //     exclude: /(node_modules)/,
-      //     options: {
-      //       fix: true
-      //     }
-      //   })
-      // }
     }
+
   }
 }

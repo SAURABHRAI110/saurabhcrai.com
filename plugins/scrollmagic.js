@@ -1,1 +1,0 @@
-import ScrollMagic from 'scrollmagic'

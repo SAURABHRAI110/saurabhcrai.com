@@ -169,18 +169,38 @@ export default {
   components: {
     Comment
   },
+
   head() {
     return {
-      title: this.attributes.title,
+      title: this.$t('indexPageHead.title'),
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
       meta: [
+        { name: 'author', content: 'Marina Aisa' },
         {
-          hid: 'description',
           name: 'description',
-          content: this.attributes.description
-        }
+          property: 'og:description',
+          content: this.$t('indexPageHead.description'),
+          hid: 'description'
+        },
+        { property: 'og:title', content: this.$t('indexPageHead.title') },
+        { property: 'og:image', content: this.ogImage },
+        {
+          name: 'twitter:description',
+          content: this.$t('indexPageHead.description')
+        },
+        { name: 'twitter:image', content: this.ogImage }
       ]
     }
   },
+
+  computed: {
+    ogImage: function() {
+      return
+    }
+  },
+
   data() {
     return {
       comments: []
@@ -189,8 +209,6 @@ export default {
   methods: {
     formatDate(date) {
       return moment(date).fromNow()
-      // .format('ddd DD MMMM')
-      // .fromNow()
     },
     addComment(userComment) {
       // add comment to firebase
