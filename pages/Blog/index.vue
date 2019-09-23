@@ -35,36 +35,95 @@
       </div>
     </div>
 
-    <ArticleList :isPaginated="true" :postsPerPage="10" />
+    <!-- <ArticleList :isPaginated="true" :postsPerPage="10" /> -->
+
+    <div class="page-index">
+      <div class="container">
+        <BlogSection :blogs="blogs" />
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-import ArticleList from '~/components/ArticleList'
+import BlogSection from '~/components/Sections/BlogSection'
+
+import blogsEn from '~/contents/en/blogsEn.js'
+import blogsEs from '~/contents/es/blogsEs.js'
+
+// import ArticleList from '~/components/ArticleList'
 export default {
   layout: 'blog',
   components: {
-    ArticleList
+    // ArticleList
   },
+
+  async asyncData({ app }) {
+    const blogs = app.i18n.locale === 'en' ? blogsEn : blogsEs
+
+    async function asyncImport(blogName) {
+      const wholeMD = await import(
+        `~/contents/${app.i18n.locale}/blog/${blogName}.md`
+      )
+      return wholeMD.attributes
+    }
+
+    return Promise.all(blogs.map(blog => asyncImport(blog))).then(res => {
+      return {
+        blogs: res
+      }
+    })
+  },
+
   head() {
     return {
-      title: 'My Blog',
-      titleTemplate: '%s - Saurabh Rai',
+      title: this.$t('indexPageHead.title'),
+      htmlAttrs: {
+        lang: this.$i18n.locale
+      },
       meta: [
+        { name: 'author', content: 'Saurabh Rai' },
         {
-          hid: 'description',
           name: 'description',
-          content: ' UX, Coding and Life'
+          property: 'og:description',
+          content: this.$t('indexPageHead.description'),
+          hid: 'description'
         },
+        { property: 'og:title', content: this.$t('indexPageHead.title') },
+        { property: 'og:image', content: this.ogImage },
         {
-          hid: 'keywords',
-          name: 'keywords',
-          content:
-            'my blog, saurabh rai blog, saurabh c rai blog, Best coding blog, blogging website, best designers blog, ux blog, design and code'
-        }
+          name: 'twitter:description',
+          content: this.$t('indexPageHead.description')
+        },
+        { name: 'twitter:image', content: this.ogImage }
       ]
     }
+  },
+
+  computed: {
+    ogImage: function() {
+      return
+    }
   }
+  // head() {
+  //   return {
+  //     title: 'My Blog',
+  //     titleTemplate: '%s - Saurabh Rai',
+  //     meta: [
+  //       {
+  //         hid: 'description',
+  //         name: 'description',
+  //         content: ' UX, Coding and Life'
+  //       },
+  //       {
+  //         hid: 'keywords',
+  //         name: 'keywords',
+  //         content:
+  //           'my blog, saurabh rai blog, saurabh c rai blog, Best coding blog, blogging website, best designers blog, ux blog, design and code'
+  //       }
+  //     ]
+  //   }
+  // }
 }
 </script>
 

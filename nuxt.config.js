@@ -5,6 +5,7 @@ const { I18N } = require('./locales/i18n-nuxt-config')
 import blogsEn from './contents/en/blogsEn.js'
 import blogsEs from './contents/es/blogsEs.js'
 
+
 const productionUrl = {
   en: "/en",
   es: "/es"
@@ -140,6 +141,15 @@ export default {
 
   ],
 
+  styleResources: {
+    scss: [
+      '@/assets/css/utilities/_variables.scss',
+      '@/assets/css/utilities/_helpers.scss',
+      '@/assets/css/base/_grid.scss',
+      '@/assets/css/base/_buttons.scss'
+    ],
+  },
+
   /*
    ** Nuxt.js modules
    */
@@ -155,7 +165,9 @@ export default {
     '@bazzite/nuxt-optimized-images',
     '@nuxtjs/sitemap',
     ['nuxt-i18n', I18N],
-    'nuxt-webfontloader'
+    'nuxt-webfontloader',
+
+    '@nuxtjs/style-resources',
   ],
   optimizedImages: {
     inlineImageLimit: -1,
@@ -235,5 +247,12 @@ export default {
       );
     }
 
+  },
+  generate: {
+    routes: [
+      '/es', '404'
+    ]
+      .concat(blogsEn.map(w => `/blog/${w}`))
+      .concat(blogsEs.map(w => `es/blog/${w}`))
   }
 }

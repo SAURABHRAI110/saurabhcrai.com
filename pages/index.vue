@@ -338,7 +338,7 @@
 
     <!-- Blog Article -->
 
-    <ArticleList :isPaginated="false" :postsPerPage="4" />
+    <!-- <ArticleList :isPaginated="false" :postsPerPage="4" /> -->
 
     <!-- view more article -->
     <div class="more-about-me">
@@ -355,14 +355,14 @@
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
-import ArticleList from '~/components/ArticleList'
+// import ArticleList from '~/components/ArticleList'
 
 export default {
   components: {
     Thumbnail,
     Discovermore,
-    Homepeople,
-    ArticleList
+    Homepeople
+    // ArticleList
   }
 
   // data() {

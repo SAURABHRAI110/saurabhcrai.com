@@ -3,21 +3,18 @@
     <div class="blogs__top">
       <div>
         <h2>{{ $t('posts') }}</h2>
-        <span class="emoji-title emoji--writing"/>
+        <span class="emoji-title emoji--writing" />
       </div>
-      <LangSwitcher/>
+      <LangSwitcher />
     </div>
     <ul class="blogs">
-      <blog-card
-        v-for="blog in blogs"
-        :key="blog.name"
-        :blog="blog" />
+      <blog-card v-for="blog in blogs" :key="blog.name" :blog="blog" />
     </ul>
   </section>
 </template>
 <script>
-import BlogCard from "~/components/BlogCard.vue";
-import LangSwitcher from '~/components/LangSwitcher'
+import BlogCard from '~/components/BlogCard.vue'
+import LangSwitcher from '~/components/blog/LangSwitcher'
 
 export default {
   components: { BlogCard, LangSwitcher },
@@ -31,8 +28,8 @@ export default {
 <style lang="scss">
 .blogs {
   margin: 0;
-  
-  @media (min-width: $screen-sm){
+
+  @media (min-width: $screen-sm) {
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
     display: grid;

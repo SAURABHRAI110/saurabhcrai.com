@@ -1,5 +1,6 @@
  <template>
   <div class="blog-container">
+    <!-- 
     <div class="all-article-grid">
       <div class="single-article" v-for="(post,key) in bloglist" :key="key">
         <nuxt-link :to="`/blog/${post.slug}`">
@@ -28,7 +29,7 @@
               </div>
             </div>
           </div>
-          <!-- <div class="image-placeholder" v-if="post.cover_image">
+           <div class="image-placeholder" v-if="post.cover_image">
             <img
               :src="require(`~/assets/blog/${post.thumbnail_image}`)"
               :alt="post.cover_image_cp"
@@ -36,19 +37,19 @@
               height="509"
               class="article-thumbnail"
             />
-          </div>-->
+    </div>
 
-          <!-- <p class="article-date">Published on {{ post.ctime }}</p>
+    <p class="article-date">Published on {{ post.ctime }}</p>
         <div class="article-read-more">
           <span class="link-effect hover-link">
             <nuxt-link :to="`/blog/${post.slug}`">
               <span data-hover="Keep reading &rarr;">Keep reading &rarr;</span>
             </nuxt-link>
           </span>
-          </div>-->
+          </div>
         </nuxt-link>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 
