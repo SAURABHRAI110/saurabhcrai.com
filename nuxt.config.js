@@ -221,14 +221,18 @@ export default {
           size: 1400,
           adapter: require('responsive-loader/sharp')
         }
-      }, {
-        test: /\.(gif|svg)$/,
-        loader: 'url-loader',
-        query: {
-          limit: 1000,
-          name: 'img/[name].[hash:7].[ext]'
-        }
-      });
+      },
+
+        // {
+        //   test: /\.(gif|svg)$/,
+        //   loader: 'url-loader',
+        //   query: {
+        //     limit: 1000,
+        //     name: 'img/[name].[hash:7].[ext]'
+        //   }
+        // }
+
+      );
     }
 
   }
