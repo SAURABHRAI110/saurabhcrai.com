@@ -149,99 +149,99 @@ import Comment from '~/components/blog/comment.vue'
 import moment from 'moment'
 import axios from 'axios'
 
-const fm = require('front-matter')
-const md = require('markdown-it')({
-  html: true,
-  typographer: true
-}).use(require('markdown-it-highlightjs'), { auto: true })
+// const fm = require('front-matter')
+// const md = require('markdown-it')({
+//   html: true,
+//   typographer: true
+// }).use(require('markdown-it-highlightjs'), { auto: true })
 
 export default {
   layout: 'blog',
 
-  async asyncData({ params }) {
-    const fileContent = await import(`~/articles/${params.post}.md`)
-    let res = fm(fileContent.default)
-    return {
-      attributes: res.attributes,
-      content: md.render(res.body)
-    }
-  },
+  //   async asyncData({ params }) {
+  //     const fileContent = await import(`~/articles/${params.post}.md`)
+  //     let res = fm(fileContent.default)
+  //     return {
+  //       attributes: res.attributes,
+  //       content: md.render(res.body)
+  //     }
+  //   },
   components: {
     Comment
-  },
-
-  head() {
-    return {
-      title: this.$t('indexPageHead.title'),
-      htmlAttrs: {
-        lang: this.$i18n.locale
-      },
-      meta: [
-        { name: 'author', content: 'Marina Aisa' },
-        {
-          name: 'description',
-          property: 'og:description',
-          content: this.$t('indexPageHead.description'),
-          hid: 'description'
-        },
-        { property: 'og:title', content: this.$t('indexPageHead.title') },
-        { property: 'og:image', content: this.ogImage },
-        {
-          name: 'twitter:description',
-          content: this.$t('indexPageHead.description')
-        },
-        { name: 'twitter:image', content: this.ogImage }
-      ]
-    }
-  },
-
-  computed: {
-    ogImage: function() {
-      return
-    }
-  },
-
-  data() {
-    return {
-      comments: []
-    }
-  },
-  methods: {
-    formatDate(date) {
-      return moment(date).fromNow()
-    },
-    addComment(userComment) {
-      // add comment to firebase
-      axios
-        .get(
-          `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/postComment?name=${
-            userComment.name
-          }&comment=${userComment.comment}&blogid=${this.$route.params.post}`
-        )
-        .then(() => {
-          console.log('comment added')
-          this.getComments()
-        })
-        .catch(() => {
-          console.log('failed to add comment')
-        })
-      // this.comments.push(userComment)
-    },
-    getComments() {
-      axios
-        .get(
-          `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/getComments?blogid=${
-            this.$route.params.post
-          }`
-        )
-        .then(comments => {
-          this.comments = JSON.parse(comments.data.data)
-        })
-    }
-  },
-  mounted() {
-    this.getComments()
   }
+
+  //   head() {
+  //     return {
+  //       title: this.$t('indexPageHead.title'),
+  //       htmlAttrs: {
+  //         lang: this.$i18n.locale
+  //       },
+  //       meta: [
+  //         { name: 'author', content: 'Marina Aisa' },
+  //         {
+  //           name: 'description',
+  //           property: 'og:description',
+  //           content: this.$t('indexPageHead.description'),
+  //           hid: 'description'
+  //         },
+  //         { property: 'og:title', content: this.$t('indexPageHead.title') },
+  //         { property: 'og:image', content: this.ogImage },
+  //         {
+  //           name: 'twitter:description',
+  //           content: this.$t('indexPageHead.description')
+  //         },
+  //         { name: 'twitter:image', content: this.ogImage }
+  //       ]
+  //     }
+  //   },
+
+  //   computed: {
+  //     ogImage: function() {
+  //       return
+  //     }
+  //   },
+
+  //   data() {
+  //     return {
+  //       comments: []
+  //     }
+  //   },
+  //   methods: {
+  //     formatDate(date) {
+  //       return moment(date).fromNow()
+  //     },
+  //     addComment(userComment) {
+  //       // add comment to firebase
+  //       axios
+  //         .get(
+  //           `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/postComment?name=${
+  //             userComment.name
+  //           }&comment=${userComment.comment}&blogid=${this.$route.params.post}`
+  //         )
+  //         .then(() => {
+  //           console.log('comment added')
+  //           this.getComments()
+  //         })
+  //         .catch(() => {
+  //           console.log('failed to add comment')
+  //         })
+  //       // this.comments.push(userComment)
+  //     },
+  //     getComments() {
+  //       axios
+  //         .get(
+  //           `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/getComments?blogid=${
+  //             this.$route.params.post
+  //           }`
+  //         )
+  //         .then(comments => {
+  //           this.comments = JSON.parse(comments.data.data)
+  //         })
+  //     }
+  //   },
+  //   mounted() {
+  //     this.getComments()
+  //   }
 }
 </script>
 

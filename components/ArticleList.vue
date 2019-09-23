@@ -54,20 +54,20 @@
 
 <script>
 export default {
-  computed: {
-    bloglist() {
-      if (!this.isPaginated) {
-        return this.$store.state.bloglist.slice(0, this.postsPerPage)
-      } else {
-        return this.$store.state.bloglist
-      }
-    },
-    totalPages() {
-      return this.isPaginated
-        ? Math.ceil(this.$store.state.bloglist.length / this.postsPerPage)
-        : 1
-    }
-  },
+  // computed: {
+  //   bloglist() {
+  //     if (!this.isPaginated) {
+  //       return this.$store.state.bloglist.slice(0, this.postsPerPage)
+  //     } else {
+  //       return this.$store.state.bloglist
+  //     }
+  //   },
+  //   totalPages() {
+  //     return this.isPaginated
+  //       ? Math.ceil(this.$store.state.bloglist.length / this.postsPerPage)
+  //       : 1
+  //   }
+  // },
   props: {
     isPaginated: Boolean,
     postsPerPage: Number
