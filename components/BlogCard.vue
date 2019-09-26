@@ -13,7 +13,7 @@
     </nuxt-link>
   </li>
 </template>
-
+   
 <script lang="js">
   export default {
     props: {

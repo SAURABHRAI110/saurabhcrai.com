@@ -81,18 +81,26 @@
       a blink of an eye and in doing so also connects the deeper part of young age (specially college students), the lovers.
     </p>
 
-    <div class="p-image-100-duo">
+    
+
+
+      <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
-        <img
-          class="p-image-100"
-          src="~assets/projects/mr-irritating/mi-sketch-2.jpg"
-          alt="book cover design sketch, cover sketch"
-        />
-        <p class="ps black90">Mr. Irritating Intial sketches.</p>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/mr-irritating/mi-sketch-2-mobile.jpg"
+          />
+          <img src="~assets/projects/mr-irritating/mi-sketch-2.jpg"
+          alt="book cover design sketch, cover sketch" />
+        </picture>
+         <p class="ps black90"> Initial ketches.</p>
       </div>
     </div>
+
+
+   
 
     <!-- Problem -->
     <pcase

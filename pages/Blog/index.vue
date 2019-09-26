@@ -47,7 +47,6 @@
 
 <script>
 import BlogSection from '~/components/Sections/BlogSection'
-
 import blogsEn from '~/contents/en/blogsEn.js'
 import blogsEs from '~/contents/es/blogsEs.js'
 
@@ -55,7 +54,7 @@ import blogsEs from '~/contents/es/blogsEs.js'
 export default {
   layout: 'blog',
   components: {
-    // ArticleList
+    BlogSection
   },
 
   async asyncData({ app }) {
