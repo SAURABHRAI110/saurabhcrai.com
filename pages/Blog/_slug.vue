@@ -1,48 +1,84 @@
 <template>
   <div class="blogSelected">
-    <div class="intro">
-      <div class="elevate-cover">
-        <div class="elevate-cover__textOffset">
-          <div class="elevate-cover__left">
-            <nuxt-link :to="localePath('index')">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 6 4"
-                aria-hidden="true"
-                style="width: 16px; transform: rotate(180deg);"
-              >
-                <polygon
-                  fill="currentColor"
-                  points="0 2.33 4.72 2.33 3.53 3.53 4 4 6 2 4 0 3.53 0.47 4.72 1.67 0 1.67 0 2.33"
-                />
-              </svg>
-              {{ $t('comeBack') }}
-            </nuxt-link>
+    <div class="blog-post-hero">
+      <div class="contain_blog">
+        <div class="b-p-heading">
+          <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="0">
+            <div class="back-to-blog">
+              <nuxt-link to="/blog">← Back to Blog</nuxt-link>
+            </div>
           </div>
-          <div class="elevate-cover__left">
-            <span class="blogSelected-year">{{ year }}</span>
-            —
-            <nuxt-link
-              v-if="trans"
-              v-for="(locale, i) in showLocales"
-              :key="i"
-              :to="`${locale.code == 'en' ? '' : '/' + locale.code}/blog/${trans}`"
-            >{{ $t('changeLanguagePost') }}</nuxt-link>
-            <span v-else>{{ $t('soonLanguagePost') }}</span>
-            <h1 class="elevate-cover__title">{{ title }}</h1>
-            <p class="elevate-cover__description">{{ description }}</p>
+
+          <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+            <h1>{{ title }}</h1>
+          </div>
+          <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="400">{{ description }}</p>
+        </div>
+
+        <div class="author-section">
+          <div class="author-container">
+            <div>
+              <nuxt-link to="/about">
+                <div
+                  class="author-avatar"
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="300"
+                >
+                  <img
+                    src="~assets/blog/blog-avatar-2.jpg"
+                    alt="blog avatar, profile pic, dp, author"
+                    title="Know more"
+                  />
+                </div>
+              </nuxt-link>
+            </div>
+            <div
+              class="name-and-link"
+              data-aos="fade-up"
+              data-aos-duration="600"
+              data-aos-delay="400"
+            >
+              <span>
+                <nuxt-link to="/about">Saurabh Rai</nuxt-link>
+              </span>
+              <span>
+                <a
+                  class="entry-meta-instagram"
+                  href="https://www.instagram.com/saurabh.archives"
+                  target="_blank"
+                  rel="noopener"
+                  title="Personal Insta Account"
+                >@saurabh.archives</a>
+              </span>
+            </div>
           </div>
         </div>
-        <ImageResponsive
-          :imageURL="'blog/' + id + '/_main.jpg'"
-          v-if="!noMainImage"
-          width="100%"
-          class="elevate-cover__img"
-          :alt="'Blog picture'"
-        />
-        <component v-else class="elevate-cover__img" :is="extraComponentLoader" />
+        <div class="published-time" data-aos="fade-up" data-aos-duration="600" data-aos-delay="500">
+          <span>Published on</span>
+          <span>{{ year }}</span>
+        </div>
       </div>
     </div>
+
+    <!-- hero image -->
+
+    <div class="b-p-hero_image">
+      <div class="reveal-holder" data-aos="fade-up">
+        <div class="reveal-block right theme_blog_post" data-aos="reveal-right"></div>
+        <ImageResponsive
+          :imageURL="'blog/' + id + '/_main.jpg'"
+          width="100%"
+          class="blog-hero-image"
+          :alt="'Blog picture'"
+        />
+      </div>
+      <p class="ps black50">{{heroimagedes}}</p>
+      <div class="section-divider">
+        <hr class="section-divider" />
+      </div>
+    </div>
+
     <div class="container small">
       <no-ssr>
         <DynamicMarkdown
@@ -74,6 +110,7 @@
         id: attr.id,
         owner: attr.owner,
         colors: attr.colors,
+        heroimagedes:attr.heroimagedes,
         role: attr.role,
         cardAlt: attr.cardAlt,
         noMainImage: attr.noMainImage,
@@ -175,56 +212,7 @@
     display: flex;
   }
 }
-.elevate-cover {
-  display: flex;
-  flex-direction: column;
-  min-height: 459px;
 
-  @media (min-width: $screen-md) {
-    flex-direction: row;
-  }
-
-  &__img,
-  &__textOffset {
-    width: 100%;
-  }
-
-  &__left {
-    max-width: 500px;
-    width: 100%;
-    padding: 2.4rem;
-    margin-bottom: auto;
-
-    @media (min-width: $screen-md) {
-      margin-left: auto;
-      padding: 2.4rem 4rem 2.4rem 2.4rem;
-    }
-  }
-
-  &__textOffset {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  &__title {
-    font-size: 3rem;
-    font-family: 'Tiempos Headline', Arial, sans-serif;
-    color: $secondary;
-
-    @media (min-width: $screen-sm) {
-      font-size: 4rem;
-    }
-  }
-
-  &__description {
-    margin: 0;
-    opacity: 0;
-    animation: fadeinmove 0.5s ease;
-    animation-delay: 0.5s;
-    animation-fill-mode: forwards;
-  }
-}
 .dynamicMarkdown {
   padding: 3.2rem 0;
   font-size: 16px;

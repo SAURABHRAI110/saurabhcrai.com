@@ -3,6 +3,7 @@ name: 'vuex-what-is-when-use-it'
 title: How Vuex works and how I used it wrong
 year: 23 January 2019
 color: '#edece7'
+heroimagedes: Saurabh Rai
 isTextColorDark: true
 trans: 'vuex-que-es-cuando-utilizarlo'
 id: 'vuex-what-when'

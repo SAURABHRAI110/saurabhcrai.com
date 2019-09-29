@@ -1029,12 +1029,21 @@ view more work*/
 }
 
 
+
+
 /* Blog article section */
 
 
 
 .blog-hero_heading {
   padding: 100px 0px 40px 0px;
+}
+
+.blog-hero-image{
+  width: 100%;
+}
+.blog-hero-image img{
+  width: 100%;
 }
 
 
