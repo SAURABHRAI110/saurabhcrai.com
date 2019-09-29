@@ -3456,7 +3456,7 @@ Akcent Colour
 
 .b-p-hero_image img {
   object-fit: cover;
-  width: 100vw;
+  width: 100%;
   object-position: 50% 50%;
 
 }

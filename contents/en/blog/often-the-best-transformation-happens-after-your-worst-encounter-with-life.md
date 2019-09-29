@@ -1,5 +1,5 @@
 ---
-name: 'the-good-the-bad-my-four-years-of-college-life'
+name: 'often-the-best-transformation-happens-after-your-worst-encounter-with-life'
 
 title: Often the best transformation happens after your worst encounter with life. 
 description:

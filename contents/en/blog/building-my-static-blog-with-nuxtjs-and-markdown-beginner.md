@@ -1,7 +1,7 @@
 ---
 name: 'building-my-static-blog-with-nuxtjs-and-markdown-beginner'
 
-title: Building my static blog with nuxtjs and markdown as a beginner. 
+title:  Building a static blog with NuxtJs and Markdown as a beginner 
 description:
   A summary of my ongoing journey to get a statically generated blog up and running with the help of NuxtJS and Markdown.
 year: 10 August 2019
