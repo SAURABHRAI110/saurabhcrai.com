@@ -1040,10 +1040,16 @@ view more work*/
 }
 
 .blog-hero-image{
-  width: 100%;
+  width: calc(100vw - 100px);
 }
 .blog-hero-image img{
   width: 100%;
+}
+
+@media screen and (max-width:999px){
+  .blog-hero-image{
+    width: calc(100vw - 0px);
+  }
 }
 
 
@@ -3444,13 +3450,13 @@ Akcent Colour
 }
 
 .b-p-hero_image {
-  width: 100%;
+  width: calc(100vw - 100px);
   position: relative;
 }
 
 .b-p-hero_image img {
   object-fit: cover;
-  width: 100%;
+  width: 100vw;
   object-position: 50% 50%;
 
 }
@@ -3574,6 +3580,31 @@ hr.section-divider:before {
   }
 }
 
+
+/* blog applause */
+blockquote {
+  margin-bottom: 1em;
+}
+
+#footer {
+  display: none;
+}
+
+.post-applause-container {
+  width: 100;
+  position: relative;
+  height: 100px;
+}
+
+
+.applause {
+  padding: 40px;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
 
 
 
