@@ -141,6 +141,7 @@ export default {
   },
 
     '~/plugins/lazyload',
+    '~/plugins/globalComponents'
 
   ],
 

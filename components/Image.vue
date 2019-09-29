@@ -41,10 +41,10 @@ export default {
     }
   },
   computed: {
-    imageRequired() {
+    imageRequired () {
       return require(`../assets/images/${this.imageURL}`)
     },
-    isRounded() {
+    isRounded () {
       return this.rounded ? 'image-placeholder--rounded' : ''
     }
   }
@@ -52,6 +52,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+
 .image-placeholder {
   overflow: hidden;
   line-height: 0;
@@ -62,7 +63,7 @@ export default {
 }
 
 img {
-  transition: all ease 0.3s;
+  transition: all ease .3s;
   opacity: 0;
 
   &[lazy='loading'] {
@@ -73,4 +74,5 @@ img {
     opacity: 1;
   }
 }
+
 </style>
