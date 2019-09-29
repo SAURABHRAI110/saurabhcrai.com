@@ -243,7 +243,7 @@ import axios from 'axios'
           .get(
             `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/postComment?name=${
               userComment.name
-            }&comment=${userComment.comment}&blogid=${this.$route.params.post}`
+            }&comment=${userComment.comment}&blogid=${this.$route.params.slug}`
           )
           .then(() => {
             console.log('comment added')
@@ -258,7 +258,7 @@ import axios from 'axios'
         axios
           .get(
             `https://us-central1-saurabhcrai-4484e.cloudfunctions.net/getComments?blogid=${
-              this.$route.params.post
+              this.$route.params.slug
             }`
           )
           .then(comments => {
@@ -275,7 +275,7 @@ import axios from 'axios'
         return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`;
       },
       pageTitle () {
-        return this.title + ' – Marina Aisa';
+        return this.title + ' – Saurabh Rai';
       },
       showLocales () {
         return this.$i18n.locales.filter(locale => locale.code !== this.$i18n.locale)

@@ -24,13 +24,12 @@
           data-aos-delay="600"
         >
           When I am not designing or coding, I read. I read a lot and write them on medium and some of them make it here
-          on my website blog. I write about
+          on my website blog. I usually write about
           <span
             class="underline-magical"
-          >People</span>,
-          <span class="underline-magical">Psychology</span>,
-          <span class="underline-magical">UX</span> and
-          <span class="underline-magical">Development.</span>
+          >Code</span>,
+          <span class="underline-magical">Design</span> and
+          <span class="underline-magical">my Life.</span>
         </p>
       </div>
     </div>

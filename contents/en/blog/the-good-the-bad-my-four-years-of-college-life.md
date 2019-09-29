@@ -45,6 +45,8 @@ What I wanna convey is find your love and love with all your heart, be there for
 
 You already be knowing this, the people you surround yourself are the people responsible for most of your growth, development, happiness, sadness. If you have people who care for you, consider yourself blessed. When coming to this, I consider myself very lucky. During those 4 years, I came to know many people, some from the heart, who were the people who always looked over me, guided me, scolded me, accepted me as I am and helped me, pushed me to come out of my comfort zone and to look beyond. If you are reading this, know this I am very thankful to you. A ton of thanks to TBT family and my classmates and to whoever I felt a connection.
 
+<image-responsive imageURL="blog/the-good-the-bad-my-four-years-of-college-life/bbd-times-team.jpeg" width="100%" alt="the bbd times team pic"/>
+
 ### Have people whom you care
 
 I never knew that in these 4 years there will be people in my life that will mean so much to me. People for whom I will be willing to cross an ocean. People for whom I will be pushing my limits. People for whom I will be crying and have so many feelings. People for whom I can do what I can without expectations.
