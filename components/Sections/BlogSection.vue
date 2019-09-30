@@ -37,8 +37,6 @@
   </section>
 </template>
 <script>
-// import LangSwitcher from '~/components/LangSwitcher'
-
 export default {
   props: {
     blogs: {

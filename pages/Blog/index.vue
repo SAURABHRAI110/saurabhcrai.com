@@ -45,9 +45,8 @@
 <script>
 import BlogSection from '~/components/Sections/BlogSection'
 import blogsEn from '~/contents/en/blogsEn.js'
-import blogsEs from '~/contents/es/blogsEs.js'
+// import blogsEs from '~/contents/es/blogsEs.js'
 
-// import ArticleList from '~/components/ArticleList'
 export default {
   layout: 'blog',
   components: {

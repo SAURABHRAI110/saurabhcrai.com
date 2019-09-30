@@ -8,7 +8,7 @@ year: 6 September 2019
 color: '#edece7'
 isTextColorDark: true
 
-owner: Photo from unsplash ❤ 
+heroimagedes: Photo from unsplash ❤ 
 id: 'the-so-called-design-process'
 tags: Design Process, UX UI Design, UX Design Process, What are the process in design, Steps in design process, website design process, The so called design process, Blog by saurabh rai
 github_doclink: the-so-called-design-process.md
@@ -23,6 +23,8 @@ If you are a designer then you know the value a design process holds. Nothing be
 The thing its a rational term. Highly depends on Time : Product: Money: People involved: Deliverables: Scope
 
 The process is unique to an individual. What you may think the obvious is, may not obvious to some others or users, or client, or you, or me. Still, there are steps/process following which a design creative is done. Sometimes the process will eventually become like the final result. The very first step is the principle of whatever method we may use in the process, understanding the problems and the objectives before working on it.
+
+<image-responsive imageURL="blog/the-so-called-design-process/steps.png" width="100%" alt="Design Process"/>
 
 However, the design process is somewhat unrealistic. Any 'step-by-step' process, even this one, fits perfectly when the variables are ideal. And, in many cases, things aren't: tight deadlines, no resources for research, stubborn client, stubborn managers etc. And, in some cases, the process may not be the best fit for the task (designing a login screen).
 
@@ -55,6 +57,8 @@ Develope,
 Documentation,
 Design System,
 Deliver.
+
+<image-responsive imageURL="blog/the-so-called-design-process/process.png" width="100%" alt="Design Process"/>
 
 These are some of the steps and process that can lead to a final product. In most cases, the final product may not be the final product. A designer needs to collaborate closely with the developer, content strategist, Client now and then to bring the product into a meaningful product. When times pass, with thoughtful thinking, certain things become more clear and clear, and when things get clear, iteration requires even though designer have done their part of things. So its an ongoing process. Actually, it's all of these and so much more!
 

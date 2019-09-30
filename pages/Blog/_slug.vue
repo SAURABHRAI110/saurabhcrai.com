@@ -69,14 +69,16 @@
         <ImageResponsive
           :imageURL="'blog/' + id + '/_main.jpg'"
           width="100%"
+          height="100%"
           class="blog-hero-image"
           :alt="'Blog picture'"
         />
+    
       </div>
       <p class="ps black50">{{heroimagedes}}</p>
-      <div class="section-divider">
-        <hr class="section-divider" />
-      </div>
+    </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
 
     <div class="contain_blog blog_post_style dynamic-markdown">

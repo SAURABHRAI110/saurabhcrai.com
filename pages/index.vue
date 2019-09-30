@@ -336,7 +336,7 @@
       <p>Few of my latest blogs</p>
     </div>
 
-    <!-- Blog Article -->
+    <BlogSection :blogs="blogs" />
 
     <!-- <ArticleList :isPaginated="false" :postsPerPage="4" /> -->
 
@@ -355,14 +355,32 @@
 import Thumbnail from '~/components/thumbnail'
 import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
-// import ArticleList from '~/components/ArticleList'
+import BlogSection from '~/components/Sections/BlogSection'
+import blogsEn from '~/contents/en/blogsEn.js'
 
 export default {
   components: {
     Thumbnail,
     Discovermore,
-    Homepeople
-    // ArticleList
+    Homepeople,
+    BlogSection
+  },
+
+  async asyncData({ app }) {
+    const blogs = app.i18n.locale === 'en' ? blogsEn : blogsEs
+
+    async function asyncImport(blogName) {
+      const wholeMD = await import(
+        `~/contents/${app.i18n.locale}/blog/${blogName}.md`
+      )
+      return wholeMD.attributes
+    }
+
+    return Promise.all(blogs.map(blog => asyncImport(blog))).then(res => {
+      return {
+        blogs: res
+      }
+    })
   }
 
   // data() {

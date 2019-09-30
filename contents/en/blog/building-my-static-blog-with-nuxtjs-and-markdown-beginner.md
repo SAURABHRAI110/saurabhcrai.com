@@ -8,7 +8,7 @@ year: 10 August 2019
 color: '#edece7'
 isTextColorDark: true
 
-owner: Code ONN
+heroimagedes: Code ONN
 id: 'building-my-static-blog-with-nuxtjs-and-markdown-beginner'
 
 github_doclink: building-my-static-blog-with-nuxtjs-and-markdown-beginner.md

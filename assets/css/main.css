@@ -1039,7 +1039,7 @@ view more work*/
   padding: 100px 0px 40px 0px;
 }
 
-.blog-hero-image{
+/* .blog-hero-image{
   width: calc(100vw - 100px);
 }
 .blog-hero-image img{
@@ -1050,7 +1050,7 @@ view more work*/
   .blog-hero-image{
     width: calc(100vw - 0px);
   }
-}
+} */
 
 
 /* about me page */
@@ -3450,7 +3450,7 @@ Akcent Colour
 }
 
 .b-p-hero_image {
-  width: calc(100vw - 100px);
+  width: 100%;
   position: relative;
 }
 

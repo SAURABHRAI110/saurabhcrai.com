@@ -8,7 +8,7 @@ year: 17 August 2019
 color: '#edece7'
 isTextColorDark: true
 
-owner: person on hilltop during daytime" by Jon Flobrant on Unsplash
+heroimagedes: person on hilltop during daytime" by Jon Flobrant on Unsplash
 id: 'often-the-best-transformation-happens-after-your-worst-encounter-with-life'
 
 github_doclink: often-the-best-transformation-happens-after-your-worst-encounter-with-life.md
