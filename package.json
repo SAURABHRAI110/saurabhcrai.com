@@ -18,7 +18,6 @@
     "@nuxtjs/moment": "^1.2.0",
     "@nuxtjs/pwa": "^2.6.0",
     "@nuxtjs/sitemap": "^1.2.0",
-    "@nuxtjs/style-resources": "^1.0.0",
     "aos": "^3.0.0-beta.6",
     "cross-env": "^5.2.0",
     "highlight.js": "^9.15.9",

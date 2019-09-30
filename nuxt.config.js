@@ -21,7 +21,7 @@ export default {
 
   head: {
 
-    title: 'Saurabh Rai | UX Designer &  Developer',
+    title: 'Saurabh Rai - UX Designer and Front-End Developer',
 
     meta: [
       { charset: 'utf-8' },
@@ -145,14 +145,7 @@ export default {
 
   ],
 
-  styleResources: {
-    scss: [
-      '@/assets/css/utilities/_variables.scss',
-      '@/assets/css/utilities/_helpers.scss',
-      '@/assets/css/base/_grid.scss',
-      '@/assets/css/base/_buttons.scss'
-    ],
-  },
+
 
   /*
    ** Nuxt.js modules
@@ -171,7 +164,7 @@ export default {
     ['nuxt-i18n', I18N],
     'nuxt-webfontloader',
 
-    '@nuxtjs/style-resources',
+
   ],
   optimizedImages: {
     inlineImageLimit: -1,
@@ -254,9 +247,9 @@ export default {
   },
   generate: {
     routes: [
-      '/es', '404'
+      '404'
     ]
-    .concat(blogsEn.map(w => `/blog/${w}`))
-    .concat(blogsEs.map(w => `es/blog/${w}`))
+      .concat(blogsEn.map(w => `/blog/${w}`))
+      .concat(blogsEs.map(w => `es/blog/${w}`))
   }
 }
