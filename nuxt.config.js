@@ -3,12 +3,12 @@ const builtAt = new Date().toISOString()
 const path = require('path')
 const { I18N } = require('./locales/i18n-nuxt-config')
 import blogsEn from './contents/en/blogsEn.js'
-import blogsEs from './contents/es/blogsEs.js'
+
 
 
 const productionUrl = {
   en: "/en",
-  es: "/es"
+
 };
 const baseUrl = 'https://saurabhcrai.com';
 
@@ -142,7 +142,6 @@ export default {
 
     '~/plugins/lazyload',
     '~/plugins/globalComponents'
-
   ],
 
 
@@ -250,6 +249,6 @@ export default {
       '404'
     ]
       .concat(blogsEn.map(w => `/blog/${w}`))
-      .concat(blogsEs.map(w => `es/blog/${w}`))
+
   }
 }

@@ -8,12 +8,7 @@ const I18N = {
       name: 'English',
       file: 'en/index.js'
     },
-    {
-      code: 'es',
-      iso: 'es-ES',
-      name: 'Español',
-      file: 'es/index.js'
-    }
+
   ],
   lazy: true,
   seo: false,
