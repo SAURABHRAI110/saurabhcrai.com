@@ -40,10 +40,10 @@
             <br 3 Week"
       tools=" Adobe Creative Suite
             <br>Pen and Pencil"
-      role=" Graphic Designer
+      role=" Graphic Design
             <br>Creative Direction"
       team=" Yash Srivastava
-            <br>Md.Fahad and Me"
+            <br>Md. Fahad and Me"
     />
     <!-- Preface -->
     <pcase
@@ -268,7 +268,7 @@
     <!-- First Iteration -->
     <pcase
       heading="Outcome"
-      para="The loved the Brochure and when it came out in Print form It was really Incredible. Hard work pays off. I loved
+      para="They loved the Brochure and when it came out in Print form It was really Incredible. Hard work pays off. I loved
       the brochure so much I asked for a copy and I have it in my book shelf."
       theme="theme_dz right"
     />

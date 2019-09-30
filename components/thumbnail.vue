@@ -35,6 +35,7 @@ export default {
   height: 100%;
   perspective: 1000px;
   background-color: white;
+  cursor: url('/cnblack.svg'), auto;
 }
 
 .projects-image > img {
@@ -48,7 +49,6 @@ export default {
 
   border-radius: 0.1rem;
   overflow: hidden;
-  cursor: url('/cnblack.svg'), auto;
 }
 
 .projects-image {

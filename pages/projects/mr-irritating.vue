@@ -81,27 +81,6 @@
       a blink of an eye and in doing so also connects the deeper part of young age (specially college students), the lovers.
     </p>
 
-    
-
-
-      <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/mr-irritating/mi-sketch-2-mobile.jpg"
-          />
-          <img src="~assets/projects/mr-irritating/mi-sketch-2.jpg"
-          alt="book cover design sketch, cover sketch" />
-        </picture>
-         <p class="ps black90"> Initial ketches.</p>
-      </div>
-    </div>
-
-
-   
-
     <!-- Problem -->
     <pcase
       heading="This is what I was briefed"
@@ -125,15 +104,60 @@ Mr. Irritating shall not irritate you!"
       theme="theme_mi"
     />
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/mr-irritating/mi-sketch-2-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/mr-irritating/mi-sketch-2.jpg"
+            alt="book cover design sketch, cover sketch"
+          />
+        </picture>
+        <p class="ps black90">Initial ketches.</p>
+      </div>
+    </div>
+
+    <pcase
+      heading="The idea behind"
+      para="  So after some sketching and basic idea, I bagan working on creating characters
+      otline, The idea was to have character of Anant, Aashi and Kavya on book cover with
+         triangle scenario between them and placing heart somewhere."
+      theme="theme_mi"
+    />
+
+    <div class="p-quote contain red">
+      <blockquote>
+        The idea was to have character of Anant, Aashi and Kavya on book cover with
+        triangle scenario between them and placing heart somewhere 😍.
+      </blockquote>
+    </div>
+
+    <pcase
+      heading="Putting things together"
+      para=" After sorting things out, getting a scenario and sketch I began to draw the outline
+      of the sketch in Adobe Illustrator. In a way I also crrted a backgroubnd depicting the
+      stages of a love cycle and a heart to put it all together. Coming to typography, initially played around with
+      different font grouping two font together and here and ther. Turned out the these fonts tuned up the scenario
+      Moon font and heading font."
+      theme="theme_mi"
+    />
+
     <!-- Section 1 -->
+
     <section class="section1">
       <img src="~assets/projects/mr-irritating/mr-irritating.svg" alt="logo" />
       <img src="~assets/projects/mr-irritating/heart.svg" alt="heart" />
       <img src="~assets/projects/mr-irritating/heart-bg.svg" alt="heart-bg" />
+      <p class="ps b-caption black">Typography and Font Pairing</p>
     </section>
 
     <section class="section2">
       <img src="~assets/projects/mr-irritating/hindiquote.svg" alt="logo" />
+      <p class="ps b-caption black">Just to get you into mood</p>
     </section>
 
     <section class="section3">
@@ -147,6 +171,7 @@ Mr. Irritating shall not irritate you!"
           src="~assets/projects/mr-irritating/MrIrritating5.jpg"
           alt="theme explained"
         />
+        <p class="ps b-caption black">Cover Background Theme</p>
       </picture>
     </section>
 
@@ -185,6 +210,7 @@ Mr. Irritating shall not irritate you!"
           support. However, the feelings come to notice off to late.
         </p>
       </div>
+      <p class="ps b-caption black">Main character: Kavya</p>
     </section>
 
     <section class="anant-section">
@@ -219,6 +245,7 @@ Mr. Irritating shall not irritate you!"
           her. He finds love and friendship, then looses both, embracing disillusionment!
         </p>
       </div>
+      <p class="ps b-caption black">Main character: Anant</p>
     </section>
 
     <section class="aashi-section">
@@ -276,6 +303,7 @@ Mr. Irritating shall not irritate you!"
           misunderstandings develop and she leaves him without a word.
         </p>
       </div>
+      <p class="ps b-caption black">Main character: Aashi</p>
     </section>
 
     <section class="section7">

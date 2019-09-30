@@ -3628,16 +3628,11 @@ blockquote {
 
 .blog_post_style div>p:first-child::first-letter {
 
-  /* padding: 0 -0.1rem;
-  margin: 0px 0rem 0 0;
-  font-size: 46.7px;
- */
-
   float: left;
   font-size: 3.1em;
   font-weight: normal;
   padding: 21px 2px 0px 0px;
-  color: var(--primary-color);
+  color: #000000;
   /* background-color: #ffc3c3; */
   font-family: circular-bold;
 }
@@ -3667,15 +3662,18 @@ blockquote {
   max-width: 100%;
   margin: 50px 0;
   /* font-size: 36px; */
-  color: var(--primary-color);
+  color: #000;
   line-height: 150%;
   font-family: circular-medium;
 }
 
 .blog_post_style blockquote p {
-  font-size: 31px;
-  line-height: 142%;
+
+  font-size: 37px;
+  line-height: 113%;
   font-family: circular-medium;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0)80%, #3ae8ff 65%);
+  display: inline;
 }
 
 

@@ -332,6 +332,10 @@
       </p>
       <hr class="section-divider" />
     </div>
+
+    <!-- See my Photography -->
+    <div class="w-photography-container"></div>
+    <div class="w-arts-container"></div>
   </div>
 </template>
 
