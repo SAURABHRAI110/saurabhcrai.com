@@ -89,6 +89,10 @@
         </div>
       </div>
     </transition>
+
+    <button class="h-fullscreen" onclick="openFullscreen();">
+      <span class="h-fullscreen full-screen"></span>
+    </button>
   </div>
 </template>
 
@@ -379,4 +383,45 @@ svg {
 .slide-in-enter-active .nav__list-item:nth-child(4) {
   transition-delay: 0.9s;
 } */
+
+.h-fullscreen {
+  position: absolute;
+  bottom: 20px;
+}
+
+@media screen and (max-width: 999px) {
+  .h-fullscreen {
+    bottom: 20px;
+    left: 40%;
+  }
+}
+
+.full-screen {
+  vertical-align: middle;
+  box-sizing: border-box;
+  display: inline-block;
+  border: 0.1em solid currentColor;
+  width: 1em;
+  height: 1em;
+  position: relative;
+  font-size: 5rem;
+}
+.full-screen:before,
+.full-screen:after {
+  content: '';
+  background: #04233d;
+  position: absolute;
+}
+.full-screen:before {
+  width: 0.333em;
+  height: 1em;
+  left: 0.233em;
+  top: -0.1em;
+}
+.full-screen:after {
+  width: 1em;
+  height: 0.333em;
+  top: 0.233em;
+  left: -0.1em;
+}
 </style>
