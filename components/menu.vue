@@ -387,6 +387,7 @@ svg {
 .h-fullscreen {
   position: absolute;
   bottom: 20px;
+  width: 30px;
 }
 
 @media screen and (max-width: 999px) {
