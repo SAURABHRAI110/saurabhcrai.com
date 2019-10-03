@@ -73,14 +73,60 @@
       3.  App for <br>
       4.  Bharatrohan Admin Portal<br>
       5.  Bharatrohan B2B Portal <br>
-      6.  UAV Web portal <br>
-
+      6.  UAV Web portal <abhayabhayabhabr>
+abhayabhayabha
   
       "
+      abhayabhayabha
+      tabhayabhayabhaheme="theme_br"
+    />
+    <pcase
+      heading="Use Cases"
+      para="With the goal to provide a more personalized back office user experience,
+      the Customer was looking to introduce a new back office system – an admin panel –
+      to its hotel booking application that would support instant and hassle-free
+      changing of the website style (colors and fonts) for different regions. The
+      challenge was to create a reusable module not tied to any particular
+      technology for the Customer to implement it in other projects as well."
       theme="theme_br"
     />
     <pcase
       heading="Research and Ideation"
+      para="With the goal to provide a more personalized back office user experience,
+      the Customer was looking to introduce a new back office system – an admin panel –
+      to its hotel booking application that would support instant and hassle-free
+      changing of the website style (colors and fonts) for different regions. The
+      challenge was to create a reusable module not tied to any particular
+      technology for the Customer to implement it in other projects as well."
+      theme="theme_br"
+    />
+
+    <pcase
+      heading="User Stories"
+      para="With the goal to provide a more personalized back office user experience,
+      the Customer was looking to introduce a new back office system – an admin panel –
+      to its hotel booking application that would support instant and hassle-free
+      changing of the website style (colors and fonts) for different regions. The
+      challenge was to create a reusable module not tied to any particular
+      technology for the Customer to implement it in other projects as well."
+      theme="theme_br"
+    />
+
+    <div class="p-image-100-duo bls-display-none">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/bharatrohan/bharatrohan-user-stories.jpg"
+          />
+          <img src="~assets/projects/bharatrohan/bharatrohan-user-stories.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <pcase
+      heading="Wireframing"
       para="With the goal to provide a more personalized back office user experience,
       the Customer was looking to introduce a new back office system – an admin panel –
       to its hotel booking application that would support instant and hassle-free
