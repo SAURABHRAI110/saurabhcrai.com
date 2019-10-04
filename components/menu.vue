@@ -392,7 +392,6 @@ svg {
 .h-fullscreen-container {
   position: absolute;
   bottom: 20px;
-  width: 30px;
   left: 33%;
 }
 
@@ -411,10 +410,10 @@ button.full-screen {
   box-sizing: border-box;
   display: inline-block;
   border: 0.1em solid #383838;
-  width: 30px;
-  height: 30px;
+  width: 27px;
+  height: 27px;
   position: relative;
-  font-size: 30px;
+  font-size: 27px;
   cursor: pointer;
 }
 .full-screen:before,
