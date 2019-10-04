@@ -90,9 +90,9 @@
       </div>
     </transition>
 
-    <button class="h-fullscreen" onclick="openFullscreen();">
-      <span class="h-fullscreen full-screen"></span>
-    </button>
+    <span class="h-fullscreen-container">
+      <button class="full-screen" onclick="openFullscreen();"></button>
+    </span>
   </div>
 </template>
 
@@ -124,6 +124,11 @@ export default {
     width: 100%;
     height: 9.5vh;
   }
+}
+
+.nav-container input,
+button {
+  border: none;
 }
 
 .logo {
@@ -384,16 +389,20 @@ svg {
   transition-delay: 0.9s;
 } */
 
-.h-fullscreen {
+.h-fullscreen-container {
   position: absolute;
   bottom: 20px;
   width: 30px;
+  left: 33%;
 }
 
+button.full-screen {
+  background: white;
+}
 @media screen and (max-width: 999px) {
-  .h-fullscreen {
+  .h-fullscreen-container {
     bottom: 20px;
-    left: 40%;
+    left: 50%;
   }
 }
 
@@ -401,16 +410,17 @@ svg {
   vertical-align: middle;
   box-sizing: border-box;
   display: inline-block;
-  border: 0.1em solid currentColor;
-  width: 1em;
-  height: 1em;
+  border: 0.1em solid #383838;
+  width: 30px;
+  height: 30px;
   position: relative;
-  font-size: 5rem;
+  font-size: 30px;
+  cursor: pointer;
 }
 .full-screen:before,
 .full-screen:after {
   content: '';
-  background: #04233d;
+  background: white;
   position: absolute;
 }
 .full-screen:before {

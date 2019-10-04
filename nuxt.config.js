@@ -165,25 +165,25 @@ export default {
 
 
   ],
-  optimizedImages: {
-    inlineImageLimit: -1,
-    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
-    optimizeImages: false,
-    optimizeImagesInDev: false,
-    defaultImageLoader: 'img-loader',
-    mozjpeg: {
-      quality: 80
-    },
-    optipng: true,
-    pngquant: {
-      speed: 7,
-      quality: [0.65, 0.8]
-    },
-    webp: {
-      preset: 'default',
-      quality: 85
-    }
-  },
+  // optimizedImages: {
+  //   inlineImageLimit: -1,
+  //   handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
+  //   optimizeImages: false,
+  //   optimizeImagesInDev: false,
+  //   defaultImageLoader: 'img-loader',
+  //   mozjpeg: {
+  //     quality: 100
+  //   },
+  //   optipng: true,
+  //   pngquant: {
+  //     speed: 7,
+  //     quality: [0.65, 0.8]
+  //   },
+  //   webp: {
+  //     preset: 'default',
+  //     quality: 85
+  //   }
+  // },
 
   /*
    ** Axios module configuration
@@ -225,8 +225,8 @@ export default {
         loader: 'responsive-loader',
         options: {
           placeholder: true,
-          quality: 60,
-          size: 1400,
+          quality: 90,
+          // size: 1400,
           adapter: require('responsive-loader/sharp')
         }
       },

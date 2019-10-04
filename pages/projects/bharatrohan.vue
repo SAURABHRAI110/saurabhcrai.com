@@ -188,7 +188,61 @@ abhayabhayabha
       </div>
     </div>
 
-    <!-- onboiarding Experience -->
+    <div class="p-image-100-duo bls-display-none">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/bharatrohan/br-app-screens-mockup.jpg" />
+      </div>
+    </div>
+
+    <!-- Field Executive App -->
+
+    <pcase
+      heading="Field Executive App"
+      para="I started working on App ui design after developing a  basic wireframing for all
+      the product to be developed i.e. Android App, Web portal and admin panel and how things 
+      are connected. The wireframe stuff was all done by Yash Srivastava(Project Manager)  in discussion with 
+      all team including me. So after basic wireframe I started designing basic ui elements for the app
+      with researching every stuff from starting from users to business to people who will manage all this.
+      "
+      theme="theme_br"
+    />
+
+    <div class="p-image-100-duo bls-display-none">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true ">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/bharatrohan/br-fe-app-screens.jpg" />
+      </div>
+    </div>
+    <div class="p-image-100-duo bls-display-none">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true ">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/bharatrohan/br-fe-app-screens-mockup.jpg" />
+      </div>
+    </div>
+
+    <!-- marketing materials -->
+
+    <pcase heading="Marketing materials" para="Bharatrohan brochure.
+      " theme="theme_br" />
+    <div class="p-image-100-duo bls-display-none">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/bharatrohan/br-brochure.jpg" />
+      </div>
+    </div>
+
+    <div class="p-image-100-duo bls-display-none">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/bharatrohan/br-brochure-iconography.jpg" />
+      </div>
+    </div>
 
     <!-- key Focus Area -->
 
