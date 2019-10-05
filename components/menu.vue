@@ -91,7 +91,9 @@
     </transition>
 
     <span class="h-fullscreen-container">
-      <button class="full-screen" onclick="openFullscreen();"></button>
+      <button class="full-screen" onclick="openFullscreen();">
+        <p>Go fullscreen</p>
+      </button>
     </span>
   </div>
 </template>
@@ -391,8 +393,19 @@ svg {
 
 .h-fullscreen-container {
   position: absolute;
-  bottom: 20px;
-  left: 33%;
+  bottom: 44px;
+  left: 39%;
+  z-index: 8;
+}
+
+.h-fullscreen-container p {
+  font-size: 12px;
+  position: absolute;
+  white-space: nowrap;
+  color: black;
+  opacity: 0.5;
+  padding: 0px 1px 0px 0px;
+  margin: 20px 1px 0px -31px;
 }
 
 button.full-screen {
@@ -400,8 +413,12 @@ button.full-screen {
 }
 @media screen and (max-width: 999px) {
   .h-fullscreen-container {
-    bottom: 20px;
+    bottom: 26px;
     left: 50%;
+  }
+
+  .h-fullscreen-container p {
+    margin: 15px 1px 0px -31px;
   }
 }
 
@@ -410,10 +427,10 @@ button.full-screen {
   box-sizing: border-box;
   display: inline-block;
   border: 0.1em solid #383838;
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
   position: relative;
-  font-size: 27px;
+  font-size: 23px;
   cursor: pointer;
 }
 .full-screen:before,
