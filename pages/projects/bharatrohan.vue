@@ -112,7 +112,7 @@ abhayabhayabha
       theme="theme_br"
     />
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
@@ -172,7 +172,7 @@ abhayabhayabha
       theme="theme_br"
     />
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
@@ -180,7 +180,7 @@ abhayabhayabha
       </div>
     </div>
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
@@ -188,7 +188,7 @@ abhayabhayabha
       </div>
     </div>
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
@@ -209,14 +209,14 @@ abhayabhayabha
       theme="theme_br"
     />
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true ">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
         <img src="~assets/projects/bharatrohan/br-fe-app-screens.jpg" />
       </div>
     </div>
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true ">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
@@ -237,7 +237,7 @@ abhayabhayabha
       theme="theme_br"
     />
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true ">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
@@ -249,7 +249,7 @@ abhayabhayabha
 
     <pcase heading="Marketing materials" para="Bharatrohan brochure.
       " theme="theme_br" />
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
@@ -257,7 +257,7 @@ abhayabhayabha
       </div>
     </div>
 
-    <div class="p-image-100-duo bls-display-none">
+    <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
