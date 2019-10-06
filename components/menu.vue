@@ -426,7 +426,7 @@ button.full-screen {
   vertical-align: middle;
   box-sizing: border-box;
   display: inline-block;
-  border: 0.1em solid #383838;
+  border: 0.1em solid var(--primary-color);
   width: 23px;
   height: 23px;
   position: relative;
