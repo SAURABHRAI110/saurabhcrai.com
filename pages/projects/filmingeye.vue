@@ -169,7 +169,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         <div class="reveal-holder big" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <div>
-            <img src="~assets/projects/fe/branding6.png" alt="filming eye branding" />
+            <img src="~assets/projects/fe/branding6.jpg" alt="filming eye branding" />
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     />
     <div class="contain">
       <div class="p-fe_photogrid">
-        <img src="~assets/projects/fe/gallery1.jpg" alt />
+        <img src="~assets/projects/fe/gallery-1.jpg" alt />
         <img src="~assets/projects/fe/gallery-2.jpg" alt />
         <img src="~assets/projects/fe/gallery-3.jpg" alt />
         <img src="~assets/projects/fe/gallery-4.jpg" alt />
@@ -216,7 +216,21 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
       theme="theme_fe"
     />
 
-    <img class="p-image-100" src="~assets/projects/fe/feweb1.jpg" />
+    <!-- fe initial web layout -->
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <img class="p-image-100" src="~assets/projects/fe/filmingeye-initial-web-1.jpg" />
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <img class="p-image-100" src="~assets/projects/fe/filmingeye-initial-web-2.jpg" />
+      </div>
+    </div>
 
     <!-- Final Design -->
     <img class="p-image-100" src="~assets/projects/fe/fe-mockup.jpg" />
@@ -240,28 +254,27 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
         <img src="~assets/projects/fe/filmingeye-web-1.jpg" />
       </div>
     </div>
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
         <img src="~assets/projects/fe/filmingeye-web-2.jpg" />
       </div>
     </div>
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
         <img src="~assets/projects/fe/filmingeye-web-3.jpg" />
       </div>
     </div>
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
         <img src="~assets/projects/fe/filmingeye-web-4.jpg" />
       </div>
     </div>
