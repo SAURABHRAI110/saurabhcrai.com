@@ -286,6 +286,17 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
       The idea of the
     </p>
 
+    <div class="contain">
+      <iframe
+        src="https://player.vimeo.com/video/364763264"
+        width="1000"
+        height="500"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+    </div>
+
     <!-- Technology -->
 
     <pcase
