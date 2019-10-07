@@ -252,31 +252,19 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     <!-- fe web images -->
 
     <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/fe/filmingeye-web-1.jpg" />
-      </div>
+      <img src="~assets/projects/fe/filmingeye-web-1.jpg" />
     </div>
 
     <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/fe/filmingeye-web-2.jpg" />
-      </div>
+      <img src="~assets/projects/fe/filmingeye-web-2.jpg" />
     </div>
 
     <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/fe/filmingeye-web-3.jpg" />
-      </div>
+      <img src="~assets/projects/fe/filmingeye-web-3.jpg" />
     </div>
 
     <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <img src="~assets/projects/fe/filmingeye-web-4.jpg" />
-      </div>
+      <img src="~assets/projects/fe/filmingeye-web-4.jpg" />
     </div>
 
     <p class="contain just-para black90">
