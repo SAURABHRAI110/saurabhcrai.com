@@ -296,14 +296,15 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         I was actively  collaborated in the development process, didn't code any line of code.
         Though I was able to know how and what language and plugins were used to create such a awesome single page website.
         <br><br>
-        The technologies we used to make this little magic happen-
-        1.CSS3
-        2. HTML 5
-        3. jQuery
-        4. Larawel
-        5. AOS.js
-        6. Parallax.js
-        7. 
+        The technologies used to make this little magic happen- <br><br>
+        1. CSS3 <br>
+        2. HTML 5<br>
+        3. jQuery<br>
+        4. Larawel (backend)<br>
+        5. AOS.js (For scroll transitions)<br>
+        6. Parallax.js (Image parallax effect)<br>
+        7. easescroll.js (Smooth mouse wheel scrolling) <br>
+        8. Actual Humans
         "
       theme="theme_fe"
     />

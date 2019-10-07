@@ -1,5 +1,5 @@
 <template>
-  <!-- Elevito work -->
+  <!-- ft-event work -->
   <div id="scroll-area">
     <smooth-scrollbar>
       <div class="ppnp-container">
@@ -25,17 +25,16 @@
 
       <ScrollDown />
 
-      <!-- hero image -->
       <div class="p-fe-hero_image">
         <div class="reveal-holder" data-aos="fade-up">
           <div class="reveal-block right theme_ft-event" data-aos="reveal-right"></div>
-
-          <img src="~assets/projects/ft-event/ft-event-hero.jpg" alt />
-          <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-          <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero.jpg" />
+            <img src="~assets/projects/ft-event/ft-event-hero.jpg" alt />
+          </picture>
         </div>
       </div>
+
       <Preface
         timeframe=" Feb 2019- March 2019
     <br />1 month"
@@ -112,8 +111,8 @@
 
       <!-- <img
         class="p-image-100"
-        src="~assets/projects/elevito/elevito-mockup-web1.jpg"
-        alt="Elevito web mockup"
+        src="~assets/projects/ft-event/ft-event-mockup-web1.jpg"
+        alt="ft-event web mockup"
       />-->
       <!-- Ideation and Research -->
 
@@ -131,8 +130,8 @@
       />
       <!-- <div class="p-image-100-container">
       <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
-        <img src="~assets/projects/elevito/elevito-ideation-1.jpg" alt="elevito ideation" />
+        <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-ideation-1.jpg" />
+        <img src="~assets/projects/ft-event/ft-event-ideation-1.jpg" alt="ft-event ideation" />
         <p class="ps">I know my writing is all messed up.</p>
       </picture>
       </div>-->
@@ -157,8 +156,8 @@
 
       <!-- <img
       class="p-image-100"
-      src="~assets/projects/elevito/elevito-ideation.jpg"
-      alt="Elevito web mockup"
+      src="~assets/projects/ft-event/ft-event-ideation.jpg"
+      alt="ft-event web mockup"
       />-->
 
       <div class="p-quote contain red">
@@ -216,11 +215,11 @@ Discover, Share with friends, Book ticket for them, Go to event, Repeat.
       <pcase
         heading="CONSTANTLY LEARNING"
         para="
-CONSTANTLY LEARNING
-Being such a small team, we were able to work incredibly agile.
-We were always getting feedback from our customers and making changes
-to better suit their needs (and our business goals of course). I did multiple sessions
-of interviews for both conceptual ideas and usability testing. 
+          CONSTANTLY LEARNING
+          Being such a small team, we were able to work incredibly agile.
+          We were always getting feedback from our customers and making changes
+          to better suit their needs (and our business goals of course). I did multiple sessions
+          of interviews for both conceptual ideas and usability testing. 
       "
         theme="theme_ft-event"
       />
@@ -228,44 +227,43 @@ of interviews for both conceptual ideas and usability testing.
       <pcase
         heading="DESIGN SPRINTS"
         para="
-After my first month or so of joining the team, I decided to coordinate a Google Design Sprint to get the team alligned on how we could get our members to share content daily. I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days. 
-<br><br>
-Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
+        After my first month or so of joining the team, I decided to coordinate a Google Design Sprint to get the team alligned on how we could get our members to share content daily. I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days. 
+        <br><br>
+        Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
       "
         theme="theme_ft-event"
       />
-      <!-- theme one  -->
-      <!-- <div class="p-image-100-container">
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/elevito/elevito-ideation-1.jpg"
-          />
-          <img src="~assets/projects/elevito/elevito-wireframe-cyan.jpg" alt="elevito wireframe" />
-          <p class="ps black90">Later on it happened I changed the theme.</p>
-        </picture>
-      </div>-->
 
-      <!-- think deeper -->
-      <!-- <div class="p-text-100 bg_two">
-      <span class="center-h-v">
-        <h3 class="white">Think Deeper</h3>
-        <img src="~assets/projects/elevito/heart.svg" alt="heart icon" />
-      </span>
-      </div>-->
+      <pcase
+        heading="The Smile says It all"
+        para="
+        The Project was long, challenging, pressure was immense. Each day there was something that put things on the edge.
+        For me designing was not straight ride but a rollercoaster ride. We kept our head down and hope high.  Any mistake from my side means, its gonna come in development
+        phase. At the time I was also learning Basic HTML CSS. And leaning itb helps my to move forward fast as I communicated better with
+        developer. Anyway The time we spend to build up the this project was a great leaning for everyone. 
+            
+            "
+        theme="theme_ft-event"
+      />
 
-      <!-- reimagine -->
-      <!-- <div class="p-text-100 bg_three">
-      <span class="center-h-v">
-        <h3 class="white">Reimagine</h3>
-        <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
-      </span>
-      </div>-->
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-team.jpg" />
+            <img
+              src="~assets/projects/ft-event/ft-event-team.jpg"
+              alt="website wireframing, wireframing"
+            />
+            <p class="ps black90">Initial layout and Primary Colours.</p>
+          </picture>
+        </div>
+      </div>
 
       <div class="live-link_container" style="background-color:var(--secondary-color);">
         <LiveLink
-          link="https://stackoverflow.com/questions/4515124/see-hover-state-in-chrome-developer-tools"
-          text="Launch Site"
+          link="https://events.feedingtrends.com"
+          text="Launch Site | events.feedingtrends.com"
         />
       </div>
 

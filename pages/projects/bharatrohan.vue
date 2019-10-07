@@ -57,47 +57,77 @@
     />
     <pcase
       heading="Challenge"
-      para="It was really a Big project for us. Keeping a tight deadline. Keeping the Project direction on the right path was in itself a challnege.
-      Their were times when we thought things will sort out in 2 3days but that took us months and It was just one thing.
-      Meeting become tensful, people get demotivated. Keeping the Enthuasism alive was the biggest challenge. We did it anywhow. This project was the one of its own kind.
-    Greatest learning curve for all the team.
+      para="It was really a big project for us. A tight deadline.  Keeping the Project direction on the right path was in itself a challenge.
+      <br>
+      <br>
+      1. Creating An Ecosystem for Bharatrohan where Farmers, middleman, business people and admin can do their 
+      task with ease and effective.
+      <br>
+      2. Ideation of project <br>
+      3. Tight Deadline <br>
+      4. Using New Technology for development
+  
 
       <br>
       <br>
-      Deliverables
+      Deliverables:
       <br
       <br>
-      Design and Development for<br><br>
+      Design and Development for-<br><br>
       1.  App for former (Hindi and English Language)<br>
       2.  App for Field Executive <br>
       3.  App for <br>
-      4.  Bharatrohan Admin Portal<br>
-      5.  Bharatrohan B2B Portal <br>
-      6.  UAV Web portal <abhayabhayabhabr>
-abhayabhayabha
+      4.  High Feudality Mockups for all these products
+      5.  Bharatrohan Admin Portal<br>
+      6.  Bharatrohan B2B Portal <br>
+      7.  UAV Web portal <br>
+
   
       "
-      abhayabhayabha
-      tabhayabhayabhaheme="theme_br"
-    />
-    <pcase
-      heading="Use Cases"
-      para="With the goal to provide a more personalized back office user experience,
-      the Customer was looking to introduce a new back office system – an admin panel –
-      to its hotel booking application that would support instant and hassle-free
-      changing of the website style (colors and fonts) for different regions. The
-      challenge was to create a reusable module not tied to any particular
-      technology for the Customer to implement it in other projects as well."
       theme="theme_br"
     />
+
+    <div class="p-quote contain red">
+      <blockquote>It was really a big project for us. A tight deadline. Keeping the project direction on the right path was in itself a challenge.</blockquote>
+    </div>
+
     <pcase
       heading="Research and Ideation"
-      para="With the goal to provide a more personalized back office user experience,
-      the Customer was looking to introduce a new back office system – an admin panel –
-      to its hotel booking application that would support instant and hassle-free
-      changing of the website style (colors and fonts) for different regions. The
-      challenge was to create a reusable module not tied to any particular
-      technology for the Customer to implement it in other projects as well."
+      para="
+      Building products is a creative and sometimes messy process. It requires entrepreneurs and product managers
+      to balance coming up with moonshot and ambitious ideas, while prioritizing them to make sure they are
+      aligned with the mission of their company and solving real scalable problems. 
+
+      <br><br>
+      After many meetings with between Amandeep sir (Entrepreneurs) and Project Manager(Yash Srivastava). Initial requirement that the team needed to do over a long
+      period of 6 months were laid out. The basic wireframing of the App and Web portal was done by Yash sir. 
+      <br><br>
+      Because I was not involved in initial conversation It became very tough for me to get a sense of what is really all this and what is required of me. What is the problem we are 
+      actually trying to solve here. It took me a lot of time to get a gist of all the things that needed be done. After lots of discord and lots of disagreement. Eventually we (Me and Yash sir) get to a point
+      what is what and how to move forward. Just I didn't knew challenges were awaiting for me on personal level.
+      "
+      theme="theme_br"
+    />
+
+    <div class="p-quote contain red">
+      <blockquote>
+        Building products is a creative and sometimes messy process. It requires entrepreneurs and product managers
+        to balance coming up with moonshot and ambitious ideas, while prioritizing them to make sure they are
+        aligned with the mission of their company and solving real scalable problems.
+      </blockquote>
+    </div>
+
+    <pcase
+      heading="Use Cases"
+      para="To identify problems and design solutions and product to solve them, I started understanding
+      the project by carefully defining a Use Case Design. 
+
+      Use case offers  a simple framework to make sure that we cover the core aspects we need to start iterate on
+      our use cases. It also give us some focus on a really important question that sometimes slips out in
+      this process among the technological innovations, the deadlines and other priorities.
+
+      I created a story about each type of user. What
+      interact with the app and what steps they will take to achieve their goal. Let it be farmers, agents, admin and scientist (agronomist) who will be provide farms solution."
       theme="theme_br"
     />
 
