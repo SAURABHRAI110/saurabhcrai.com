@@ -79,7 +79,7 @@
           data-aos-delay="1200"
           data-aos-anchor-placement="top-bottom"
         >
-          <img id="zoom-default" src="~assets/img/home/gif-1.gif" type="image/webp" />
+          <img id="zoom-default" src="~assets/img/home/2.gif" type="image/webp" />
         </div>
         <div
           class="bottom-fit"
@@ -98,7 +98,7 @@
           data-aos-delay="1400"
           data-aos-anchor-placement="top-bottom"
         >
-          <img id="zoom-default" src="~assets/img/home/4b.gif" type="image/webp" />
+          <img id="zoom-default" src="~assets/img/home/4.gif" type="image/webp" />
         </div>
         <div class="middle-fit" data-aos="fade-up" data-aos-duration="600">
           <img id="zoom-default" src="~assets/img/home/5.jpg?webp" type="image/webp" />

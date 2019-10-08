@@ -41,7 +41,7 @@
       <div class="me-images">
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
           <img
-            src="~/assets/img/about/about-me-1.jpg?webp"
+            src="~/assets/img/about/about-me-1c.jpg?webp"
             alt="saurabh rai, saurabhcrai.com, photo indian boy"
           />
         </div>
