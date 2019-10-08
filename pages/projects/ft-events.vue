@@ -37,13 +37,13 @@
 
       <Preface
         timeframe=" Feb 2019- March 2019
-    <br />1 month"
+              <br />1 month"
         tools=" Adobe XD, Adobe Illustrator
-    <br /> Dropbox Paper, Flinto, markers"
+              <br /> Dropbox Paper, Flinto, markers"
         role=" UI/UX
-    <br />Research, Content Strategy"
+              <br />Research, Content Strategy"
         team=" Me-UX, Shekhar-Dev
-    <br />Yash/Zainab-Managing"
+              <br />Yash/Zainab-Managing"
       />
 
       <!-- Refrence
@@ -60,7 +60,7 @@
         design to create new  design system, create new features to fit our
         customers needs, and most importantly,
         design new features to create a better experience for every project I worked on. FT Event was one of the company Internal Project.
-<br><br>
+        <br><br>
         FT Event is about event website where user can book tickets and create event. 
         Using FT Events to the Beat website, users can register for the events, Book tickets,
         Create Event and manage the event or ticket
