@@ -100,28 +100,74 @@
         >
           <img id="zoom-default" src="~assets/img/home/4.gif" type="image/webp" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600">
+        <div
+          class="middle-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/5.jpg?webp" type="image/webp" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+        <div
+          class="middle-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/6.jpg?webp" type="image/webp" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+        <div
+          class="middle-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/7.jpg?webp" type="image/webp" />
         </div>
-        <div class="middle-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+        <div
+          class="middle-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-delay="300"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/8.jpg?webp" type="image/webp" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="600">
+        <div
+          class="up-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/9.jpg?webp" type="image/webp" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+        <div
+          class="up-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/10.jpg?webp" type="image/webp" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+        <div
+          class="up-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/11.jpg?webp" type="image/webp" />
         </div>
-        <div class="up-fit" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">
+        <div
+          class="up-fit"
+          data-aos="zoom-out-up"
+          data-aos-duration="600"
+          data-aos-delay="300"
+          data-aos-anchor-placement="top-bottom"
+        >
           <img id="zoom-default" src="~assets/img/home/12b.jpg?webp" type="image/webp" />
         </div>
       </div>

@@ -73,7 +73,6 @@
           class="blog-hero-image"
           :alt="'Blog picture'"
         />
-    
       </div>
       <p class="ps black50">{{heroimagedes}}</p>
     </div>
@@ -182,7 +181,7 @@ import axios from 'axios'
         id: attr.id,
         owner: attr.owner,
         colors: attr.colors,
-        heroimagedes:attr.heroimagedes,
+        heroimagedes: attr.heroimagedes,
         role: attr.role,
         cardAlt: attr.cardAlt,
         noMainImage: attr.noMainImage,
@@ -212,7 +211,7 @@ import axios from 'axios'
           lang: this.$i18n.locale,
         },
         meta: [
-          { name: "author", content: "Marina Aisa" },
+          { name: "author", content: "Saurabh Rai" },
           { name: "description", property: "og:description", content: this.description, hid: "description" },
           { property: "og:title", content: this.pageTitle },
           { property: "og:image", content: this.ogImage },
