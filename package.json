@@ -10,7 +10,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -36,7 +38,8 @@
     "vue-lazyload": "^1.3.3",
     "vue-loader": "^15.7.1",
     "vue-parallaxy": "^1.1.1",
-    "vue-rellax": "^0.1.0"
+    "vue-rellax": "^0.1.0",
+    "snyk": "^1.234.0"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",
@@ -67,5 +70,6 @@
     "vue-particles": "^1.0.9",
     "webp-loader": "^0.5.0",
     "webpack": "^4.40.2"
-  }
+  },
+  "snyk": true
 }
