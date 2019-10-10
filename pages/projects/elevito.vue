@@ -280,6 +280,9 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
       />
     </div>
+    <div class="p-image-100-duo">
+      <img src="~assets/projects/elevito/elevito-contact.jpg" alt="coffee mug mockup" />
+    </div>
 
     <liveLink link="http://elevito.com/" text="Launch Site" />
 
