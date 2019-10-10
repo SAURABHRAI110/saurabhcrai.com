@@ -202,7 +202,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <!-- Go beyond -->
     <div class="p-text-100 bg_one">
       <span class="center-h-v">
-        <h3 class="white">Go Beyond and</h3>
+        <h3 class="white">Go Beyond</h3>
         <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
       </span>
     </div>
