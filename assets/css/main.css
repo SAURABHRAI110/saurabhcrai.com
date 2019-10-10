@@ -3067,6 +3067,11 @@ primary #8e55ff
   position: relative;
 }
 
+.p-video-container img{
+  height: 111px;
+  padding-left: 52px;
+}
+
 
 /* feeding Trends
   akcent colour  blue #1D98B6

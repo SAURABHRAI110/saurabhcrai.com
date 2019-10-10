@@ -251,9 +251,12 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     </div>
 
     <div class="p-video-container">
-      <video class="center-h-v" loop width="300" height="200" autoplay="autoplay ">
-        <source src="~assets/projects/elevito/elevito-logo-motion.mp4" type="video/mp4" />
-      </video>
+      <div class="center-h-v">
+        <video loop width="300" height="auto" autoplay="autoplay ">
+          <source src="~assets/projects/elevito/elevito-logo-motion.mp4" type="video/mp4" />
+        </video>
+        <img src="~assets/projects/elevito/elevito-logo-motion-2.gif" alt="website design" />
+      </div>
     </div>
 
     <!-- elevito web  -->
