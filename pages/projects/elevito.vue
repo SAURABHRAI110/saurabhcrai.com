@@ -200,12 +200,13 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     />
 
     <!-- Go beyond -->
-    <!-- <div class="p-text-100 bg_one">
+    <div class="p-text-100 bg_one">
       <span class="center-h-v">
         <h3 class="white">Go Beyond</h3>
         <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
       </span>
-    </div>-->
+    </div>
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -234,21 +235,27 @@ So here I was, crawling Pintrest, going through design agencies website, looking
       </div>
     </div>
 
+    <div class="p-video-container">
+      <video class="center-h-v" loop width="300" height="200" autoplay="autoplay ">
+        <source src="~assets/projects/elevito/elevito-logo-motion.mp4" type="video/mp4" />
+      </video>
+    </div>
+
     <!-- think deeper -->
-    <!-- <div class="p-text-100 bg_two">
+    <div class="p-text-100 bg_two">
       <span class="center-h-v">
         <h3 class="white">Think Deeper</h3>
         <img src="~assets/projects/elevito/heart.svg" alt="heart icon" />
       </span>
-    </div>-->
+    </div>
 
     <!-- reimagine -->
-    <!-- <div class="p-text-100 bg_three">
+    <div class="p-text-100 bg_three">
       <span class="center-h-v">
         <h3 class="white">Reimagine</h3>
         <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
       </span>
-    </div>-->
+    </div>
 
     <liveLink link="http://elevito.com/" text="Launch Site" />
 

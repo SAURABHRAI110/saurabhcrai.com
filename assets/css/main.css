@@ -3060,6 +3060,13 @@ primary #8e55ff
   color: white;
 }
 
+.p-video-container{
+  height: 70vh;
+  width: 100%;
+  background-color: white;
+  position: relative;
+}
+
 
 /* feeding Trends
   akcent colour  blue #1D98B6
