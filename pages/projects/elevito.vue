@@ -172,6 +172,13 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         </picture>
       </div>
     </div>
+    <!-- Go beyond -->
+    <div class="p-text-100 bg_one">
+      <span class="center-h-v">
+        <h3 class="white">Go Beyond</h3>
+        <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
+      </span>
+    </div>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -187,6 +194,14 @@ So here I was, crawling Pintrest, going through design agencies website, looking
       </div>
     </div>
 
+    <!-- think deeper -->
+    <div class="p-text-100 bg_three">
+      <span class="center-h-v">
+        <h3 class="white">Think Deeper</h3>
+        <img src="~assets/projects/elevito/heart.svg" alt="heart icon" />
+      </span>
+    </div>
+
     <!-- Fonts, Colors & Patterns -->
     <pcase
       heading="Fonts, Colors & Patterns"
@@ -199,11 +214,11 @@ So here I was, crawling Pintrest, going through design agencies website, looking
       theme="theme_elevito"
     />
 
-    <!-- Go beyond -->
-    <div class="p-text-100 bg_one">
+    <!-- reimagine -->
+    <div class="p-text-100 bg_three">
       <span class="center-h-v">
-        <h3 class="white">Go Beyond</h3>
-        <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
+        <h3 class="white">Reimagine</h3>
+        <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
       </span>
     </div>
 
@@ -241,20 +256,29 @@ So here I was, crawling Pintrest, going through design agencies website, looking
       </video>
     </div>
 
-    <!-- think deeper -->
-    <div class="p-text-100 bg_two">
-      <span class="center-h-v">
-        <h3 class="white">Think Deeper</h3>
-        <img src="~assets/projects/elevito/heart.svg" alt="heart icon" />
-      </span>
+    <!-- elevito web  -->
+
+    <div class="p-image-100-duo">
+      <img src="~assets/projects/elevito/elevito-web-1.jpg" alt="website design" />
     </div>
 
-    <!-- reimagine -->
-    <div class="p-text-100 bg_three">
-      <span class="center-h-v">
-        <h3 class="white">Reimagine</h3>
-        <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
-      </span>
+    <div class="p-image-100-duo">
+      <img src="~assets/projects/elevito/elevito-web-2.jpg" alt="elevito website design" />
+    </div>
+
+    <div class="p-image-100-duo">
+      <img src="~assets/projects/elevito/elevito-web-3.jpg" alt="website design uxui" />
+    </div>
+
+    <div class="p-image-100-duo">
+      <img src="~assets/projects/elevito/elevito-design-system.jpg" alt="website design system" />
+    </div>
+
+    <div class="p-image-100-duo">
+      <img
+        src="~assets/projects/elevito/elevito-team-pic.jpg"
+        alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+      />
     </div>
 
     <liveLink link="http://elevito.com/" text="Launch Site" />
