@@ -24,8 +24,11 @@
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_fe" data-aos="reveal-right"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/fe/fehero3-mobile.jpg" />
+          <img src="~assets/projects/fe/fehero3.jpg" alt="website laptop mockup" />
+        </picture>
 
-        <img src="~assets/projects/fe/fehero3.jpg" alt />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -265,6 +268,10 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
 
     <div class="p-image-100-duo">
       <img src="~assets/projects/fe/filmingeye-web-4.jpg" />
+    </div>
+
+    <div class="p-image-100-duo">
+      <img src="~assets/projects/fe/filmingeye-web-5.jpg" />
     </div>
 
     <p class="contain just-para black90">
