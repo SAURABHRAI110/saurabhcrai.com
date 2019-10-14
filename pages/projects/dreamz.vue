@@ -52,19 +52,12 @@ http://stephencalvillodesign.com/project/prestoq
 
     <pcase
       heading="Preface"
-      para=" Feeding Trends is an online media company organising literary styles for interactive journalism. They publish
-    global trends, which are important, relevant and interesting. Their prime focus lies in the curation of highly engrossing content.
-    Working diligently to convince people into spending time with content, through effective imagination, creation and presentation.
-    And in a way wishing for is to uplift the notion that ‘media is dead’. Wanting to do wonders with their content, with people talking about them, anywhere and everywhere
-    - night outs, road trips, birthdays parties, conferences, and even family functions! All through
-    <a  href='https://feedingtrends.com/'
-            target='_blank'
-            rel='noopener'
-            title='feedingtrends.com'><span class='underline-magical'>feedingtrends.com</span></a>
+      para="Creating the interface of the time.
+      "
 "
       theme="theme_dreamz"
     />
-    <!-- Problem -->
+    <!-- Problem --> 
     <pcase
       heading="From humble Beginnings"
       para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
