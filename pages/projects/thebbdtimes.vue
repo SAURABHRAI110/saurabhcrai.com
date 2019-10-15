@@ -38,7 +38,7 @@
     <Preface
       timeframe=" August 2015-April 2018 <br>
                   3 Years"
-      tools="   Photoshop, Illustrtor, After Effects <br>
+      tools="   Photoshop, Illustrator, After Effects <br>
                 Corel Draw, Adobe XD"
       role="  Graphic Designer, Social Media <br>
               Manager, Photographer"
@@ -48,28 +48,21 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" BBD Times is my proudest work so far and It will be forever. It is one that got me where I am today. BBD Times story will make an awesome case study where I learn everything
-      that"
-      theme="theme_tbt"
-    />
-
-    <!-- Problem -->
-    <pcase
-      heading="Problem"
-      para="  1. The first thing that I came around was they don't have an existing branding.
-        <br>2. They did have and existing logo but that cant be used on the web. It was raster, big. Their
-        existing
-        was cool for the moment but that can not be used to used on web.
-        <br>3. No copywrite, no information architecture."
+      para=" BBD Times is my proudest work so far and It will be forever. It is one that got me where I am today. On 17 October 2015, I joined TBT Team,  from theb I wore many hats. 
+      Earlier I was responsible from creating Social Media posts, posters, flexes. The beginning I work on the UI Design of 
+      The BBD TIMES Android App. See its showcase here. I managed its facebook Page. Instagram Page. Had to collaborate with content writers, developers and other designers.
+      During my time Here (3 years) I learned The basics of design, principals and all and I applied them in my creatives.
+      I have to say it was a wonderful journey. It was the beginning, the beginning of something awesome. We were 26 talented people
+      working as family, as a team, It was the best time. I made friends for life."
       theme="theme_tbt"
     />
 
     <!-- Reasearch -->
     <pcase
-      heading="Research"
-      para="   After branding a lot become clear about colour font and imagery that will be used for website. We have
-        used images that filming eye have clicked through their camera and some free stock photos that have
-        meaning and value to infinity, beyond, and that fit to our red and dark black theme."
+      heading="2015-2018"
+      para=" 2015, my second year of college, The team worked on its app. The BBD Times app was an initiative by the students of BBD which ensures
+      the connectivity of all campus of BBD and all communities by reaching to the base level. I designed the app logo and its structure and
+      icons, graphics, layout."
       theme="theme_tbt"
     />
 
@@ -102,6 +95,14 @@
       </div>
     </div>
 
+    <pcase
+      heading="Proposals "
+      para="We organized many events in college and to land some sponsors I designed
+      proposals and marketing materials. The undermentioned proposals was for a Patriotic event.
+      "
+      theme="theme_tbt"
+    />
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -131,6 +132,16 @@
         </picture>
       </div>
     </div>
+
+    <pcase
+      heading="BBD Times Brand Identity"
+      para="At the times I was doing all this I doesnt even knew that these all comes under Brand Identity. Building a brand identity is a multi-disciplinary
+      strategic effort, and every element needs to support the overall message and  goals and purpose. 
+      Now so that i know, I have say. We were successful in creating a positive brand image through out college. The work we were doing
+      were appceated by facuilty, administrators and students look upon us. We were no doubt created a positive impact. 
+      "
+      theme="theme_tbt"
+    />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -162,13 +173,16 @@
       </div>
     </div>
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-10.jpg" />
-          <img src="~assets/projects/tbt/tbt-10.jpg" />
-        </picture>
+    <!-- tshirt -->
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-10.jpg" />
+            <img src="~assets/projects/tbt/tbt-10.jpg" />
+          </picture>
+        </div>
       </div>
     </div>
 
@@ -188,6 +202,25 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-12.jpg" />
           <img src="~assets/projects/tbt/tbt-12.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <pcase
+      heading="Online Creatives"
+      para="These are the some of the posters that i created suri g my time in BBD Times. 
+      There was a whole list of iportant days, birthday posts, latest happenings related post, posters, flexed anything that revovle around
+      design come to me. 
+      "
+      theme="theme_tbt"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08.jpg" />
+          <img src="~assets/projects/tbt/tbt-09.jpg" />
         </picture>
       </div>
     </div>
