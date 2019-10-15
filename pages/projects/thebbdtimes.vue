@@ -147,6 +147,16 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08.jpg" />
+          <img src="~assets/projects/tbt/tbt-08.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-06.jpg" />
           <img src="~assets/projects/tbt/tbt-06.jpg" />
         </picture>
@@ -167,8 +177,8 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08.jpg" />
-          <img src="~assets/projects/tbt/tbt-08.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-07.jpg" />
+          <img src="~assets/projects/tbt/tbt-07-2.jpg" />
         </picture>
       </div>
     </div>
@@ -206,6 +216,16 @@
       </div>
     </div>
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-12.jpg" />
+          <img src="~assets/projects/tbt/tbt-12-2.jpg" />
+        </picture>
+      </div>
+    </div>
+
     <pcase
       heading="Online Creatives"
       para="These are the some of the posters that i created suri g my time in BBD Times. 
@@ -219,7 +239,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-09.jpg" />
           <img src="~assets/projects/tbt/tbt-09.jpg" />
         </picture>
       </div>
@@ -245,7 +265,29 @@
       </div>
     </div>
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-15.jpg" />
+          <img src="~assets/projects/tbt/tbt-15.jpg" />
+        </picture>
+      </div>
+    </div>
+    <pcase heading="TBT Gallery" para="A team with thousand of memories." theme="theme_tbt" />
     <!-- key Focus Area -->
+    <agile>
+      <div class="slide">
+        <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-1.jpg" alt="slider1" />
+      </div>
+
+      <div class="slide">
+        <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-2.jpg" alt="slider2" />
+      </div>
+      <div class="slide">
+        <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-3.jpg" alt="slider2" />
+      </div>
+    </agile>
 
     <div class="keyfocus">
       <div class="content">
@@ -265,7 +307,7 @@
               <span>✔ Online Promotion</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ Identity Design</span>
               <span>✔ Photography</span>
               <span>✔ Video Editing</span>
               <span>✔ Content Writing</span>

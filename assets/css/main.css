@@ -3110,7 +3110,11 @@ primary #8e55ff
 Akcent colours
 
 background: linear-gradient(180deg, rgba(106, 223, 255, 1) 0%, rgba(9, 9, 121, 1) 100%, rgba(0, 80, 148, 1) 100%);
+
+
+background: linear-gradient(#6adfff 0%, #005094 100%);
 */
+
 
 .reveal-block.theme_tbt::before {
   background: #0088ff;
