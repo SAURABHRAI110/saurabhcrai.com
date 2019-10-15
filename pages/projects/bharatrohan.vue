@@ -1,5 +1,4 @@
 <template>
-  <!-- Bhratrohan -->
   <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/dear-zindagi">
@@ -243,7 +242,7 @@
       heading="Field Executive App"
       para="I started working on App ui design after developing a  basic wireframing for all
       the product to be developed i.e. Android App, Web portal and admin panel and how things 
-      are connected. The wireframe stuff was all done by Yash Srivastava(Project Manager)  in discussion with 
+      are connected. The wireframe stuff was all done by Yash Srivastava (Project Manager)  in discussion with 
       all team including me. So after basic wireframe I started designing basic ui elements for the app
       with researching every stuff from starting from users to business to people who will manage all this.
       "
@@ -354,7 +353,7 @@
     <div class="p-quote contain red">
       <blockquote>
         The greatest challenge was not the project, but keeping the enthusiasm alive during all those times.
-        I pretty much saw myself and people losing it and the again coming every time with new energy to make all
+        I pretty much saw myself and people losing it but again rising with new energy to make all
         this possible. Thanks💚
       </blockquote>
     </div>

@@ -56,6 +56,9 @@
       working as family, as a team, It was the best time. I made friends for life."
       theme="theme_tbt"
     />
+    <div class="p-quote contain red">
+      <blockquote>Life is a journey with problems to solve and lessons to learn but most of all. Experiences to enjoy.</blockquote>
+    </div>
 
     <!-- Reasearch -->
     <pcase
