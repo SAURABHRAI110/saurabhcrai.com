@@ -254,20 +254,22 @@
 
           <div class="pm black70">
             <div class="kf-layout">
-              <span>✔ Research</span>
-              <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
+              <span>✔ Identity Design</span>
+              <span>✔ Social Media Management</span>
+              <span>✔ Lead Creative Team</span>
               <span>✔ Collaborating with developer</span>
               <span>✔ Making Post for social Media</span>
               <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
-              <span>✔ Testing with users</span>
+              <span>✔ App Design</span>
+              <span>✔ Posters, flexes</span>
+              <span>✔ Online Promotion</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
               <span>✔ Identy Design</span>
-              <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+              <span>✔ Photography</span>
+              <span>✔ Video Editing</span>
+              <span>✔ Content Writing</span>
+              <span>✔ Made Friends</span>
             </div>
           </div>
         </div>
