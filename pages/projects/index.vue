@@ -324,15 +324,19 @@
     <!-- some more projects links  -->
 
     <!-- my quote -->
+    <hr class="section-divider p-section-divider" />
 
-    <div class="my-project-quote">
-      <p class="contain p-quote">
-        "The greatest Project is the one you work on yourself".
-        <br />This is no way the end, this is just a start.
-      </p>
-      <hr class="section-divider" />
+    <div class="p-footer-container">
+      <div class="p-quote-container p-h-quote-contain p-quote red">
+        <blockquote>
+          The greatest Project is the one you work on yourself".
+          This is no way the end, this is just a start.💚
+        </blockquote>
+      </div>
+      <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
     </div>
 
+    <div class="p-h-footer-links"></div>
     <!-- See my Photography -->
     <div class="w-photography-container"></div>
     <div class="w-arts-container"></div>
@@ -352,17 +356,74 @@ export default {
 </script>
 
 <style>
-.my-project-quote {
+.p-footer-container {
   width: 100%;
   height: 60vh;
-  background-color: var(--primary-color);
+  background-color: white;
   padding: 0px 0px 0px 0px;
   position: relative;
 }
 
-.my-project-quote p {
-  color: white;
+.p-section-divider {
+  padding: 60px 0px 30px 0px;
+}
+
+.p-footer-container img {
+  height: 83%;
+  position: absolute;
+  right: 150px;
+  bottom: 0px;
+}
+
+.p-h-quote-contain {
   position: relative;
-  top: 50%;
+  margin: 63px 32.4% 0px calc(20% - 83px);
+  top: 21%;
+  padding: 28px 0px 0px 0px;
+}
+
+@media screen and (max-width: 800px) {
+  .p-h-quote-contain {
+    /* margin-left: 20%; */
+    margin-right: 18.4%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .p-h-quote-contain {
+    /* margin-left: 20%; */
+    /* margin-right: 9%; */
+    margin-right: 4%;
+    margin-left: 7%;
+  }
+}
+
+.p-quote-container p {
+  color: black;
+  font-size: 30px;
+}
+
+/* p footer links */
+
+.p-h-footer-links {
+  width: 100%;
+  height: 30vh;
+  background-color: black;
+  position: relative;
+}
+
+.p-h-footer-links::before {
+  content: '';
+  height: 1px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  background-color: var(--primary-color);
+  transition: height 0.65s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.p-h-footer-links:hover::before {
+  height: 100%;
 }
 </style>
