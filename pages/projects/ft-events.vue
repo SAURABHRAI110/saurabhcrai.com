@@ -135,24 +135,25 @@
         <p class="ps">I know my writing is all messed up.</p>
       </picture>
       </div>-->
+      <no-ssr>
+        <agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/ft-event/ft-events-ideation-1.jpg"
+              alt="feeding trends ideation"
+            />
+          </div>
 
-      <agile>
-        <div class="slide">
-          <img
-            class="slide-img"
-            src="~assets/projects/ft-event/ft-events-ideation-1.jpg"
-            alt="feeding trends ideation"
-          />
-        </div>
-
-        <div class="slide">
-          <img
-            class="slide-img"
-            src="~assets/projects/ft-event/ft-events-ideation-2.jpg"
-            alt="feeding trends ideation"
-          />
-        </div>
-      </agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/ft-event/ft-events-ideation-2.jpg"
+              alt="feeding trends ideation"
+            />
+          </div>
+        </agile>
+      </no-ssr>
 
       <!-- <img
       class="p-image-100"

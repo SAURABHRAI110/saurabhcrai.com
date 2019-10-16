@@ -279,18 +279,20 @@
     </div>
     <pcase heading="TBT Gallery" para="A team with thousand of memories." theme="theme_tbt" />
     <!-- key Focus Area -->
-    <agile>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-1.jpg" alt="slider1" />
-      </div>
+    <no-ssr>
+      <agile>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-1.jpg" alt="slider1" />
+        </div>
 
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-2.jpg" alt="slider2" />
-      </div>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-3.jpg" alt="slider2" />
-      </div>
-    </agile>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-2.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-3.jpg" alt="slider2" />
+        </div>
+      </agile>
+    </no-ssr>
 
     <div class="keyfocus">
       <div class="content">

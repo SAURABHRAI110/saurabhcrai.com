@@ -101,23 +101,25 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     />
 
     <div class="contain">
-      <agile>
-        <div class="slide">
-          <img
-            class="slide-img"
-            src="~assets/projects/elevito/elevito-ideation-1.jpg"
-            alt="slider1"
-          />
-        </div>
+      <no-ssr>
+        <agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/elevito/elevito-ideation-1.jpg"
+              alt="slider1"
+            />
+          </div>
 
-        <div class="slide">
-          <img
-            class="slide-img"
-            src="~assets/projects/elevito/elevito-ideation-2.jpg"
-            alt="slider2"
-          />
-        </div>
-      </agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/elevito/elevito-ideation-2.jpg"
+              alt="slider2"
+            />
+          </div>
+        </agile>
+      </no-ssr>
     </div>
 
     <!-- Branding -->

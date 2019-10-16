@@ -79,25 +79,26 @@
     </div>
 
     <!-- slides -->
+    <no-ssr>
+      <agile>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-1.jpg" alt="slider1" />
+        </div>
 
-    <agile>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-1.jpg" alt="slider1" />
-      </div>
-
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-2.jpg" alt="slider2" />
-      </div>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-3.jpg" alt="slider2" />
-      </div>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-4.jpg" alt="slider2" />
-      </div>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-5.jpg" alt="slider2" />
-      </div>
-    </agile>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-2.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-3.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-4.jpg" alt="slider2" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt-app/tbt-team-pic-5.jpg" alt="slider2" />
+        </div>
+      </agile>
+    </no-ssr>
 
     <pcase
       heading="Coming to App"

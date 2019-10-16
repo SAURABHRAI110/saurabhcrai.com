@@ -79,23 +79,25 @@
 
     <!-- slides -->
     <div class="contain">
-      <agile>
-        <div class="slide">
-          <img
-            class="slide-img"
-            src="~assets/projects/hc/hello-color-screenshot-1.jpg"
-            alt="slider1"
-          />
-        </div>
+      <no-ssr>
+        <agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/hc/hello-color-screenshot-1.jpg"
+              alt="slider1"
+            />
+          </div>
 
-        <div class="slide">
-          <img
-            class="slide-img"
-            src="~assets/projects/hc/hello-color-screenshot-2.jpg"
-            alt="slider2"
-          />
-        </div>
-      </agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/hc/hello-color-screenshot-2.jpg"
+              alt="slider2"
+            />
+          </div>
+        </agile>
+      </no-ssr>
     </div>
 
     <p class="contain just-para black90">
@@ -297,7 +299,6 @@
         </div>
       </div>
     </div>
-    
   </div>
 </template>
 

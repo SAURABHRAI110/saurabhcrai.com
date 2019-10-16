@@ -119,16 +119,25 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <p class="ps">I know my writing is all messed up.</p>
       </picture>
     </div>-->
+    <no-ssr>
+      <agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/elevito/elevito-ideation-1.jpg"
+            alt="slider1"
+          />
+        </div>
 
-    <agile>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/elevito/elevito-ideation-1.jpg" alt="slider1" />
-      </div>
-
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/elevito/elevito-ideation-2.jpg" alt="slider2" />
-      </div>
-    </agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/elevito/elevito-ideation-2.jpg"
+            alt="slider2"
+          />
+        </div>
+      </agile>
+    </no-ssr>
 
     <!-- <img
       class="p-image-100"
