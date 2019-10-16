@@ -336,7 +336,46 @@
       <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
     </div>
 
-    <div class="p-h-footer-links"></div>
+    <!-- <div class="p-h-footer-container">
+      <div class="p-h-footer-links">
+        <span>
+          <nuxt-link to="/blog">
+            <span class="underline-magical">Blog</span>
+          </nuxt-link>
+        </span>
+        <span>
+          <nuxt-link to="/about">
+            <span class="underline-magical">About</span>
+          </nuxt-link>
+        </span>
+      </div>
+    </div>-->
+
+    <div class="project-footer">
+      <div class="p-h-footer-container">
+        <div class="p-f-p-container">
+          <nuxt-link to="/blog">
+            <div class="p-h-previous">
+              <div class="overlay"></div>
+              <span class="p-h-text">
+                <h3>Go to Blog</h3>
+              </span>
+            </div>
+          </nuxt-link>
+        </div>
+
+        <div class="p-f-n-container">
+          <nuxt-link to="/about">
+            <div class="p-h-next">
+              <div class="overlay"></div>
+              <span class="p-h-text">
+                <h3>About Me</h3>
+              </span>
+            </div>
+          </nuxt-link>
+        </div>
+      </div>
+    </div>
     <!-- See my Photography -->
     <div class="w-photography-container"></div>
     <div class="w-arts-container"></div>
@@ -346,11 +385,15 @@
 <script>
 import Thumbnail from '~/components/thumbnail'
 import Projecttimeline from '~/components/projects/projecttimeline'
+import Pfootern from '~/components/projects/pfootern'
+import Pfooterp from '~/components/projects/pfooterp'
 export default {
   layout: 'projects',
   components: {
     Thumbnail,
-    Projecttimeline
+    Projecttimeline,
+    Pfooterp,
+    Pfootern
   }
 }
 </script>
@@ -423,7 +466,115 @@ export default {
   transition: height 0.65s;
   transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
 }
-.p-h-footer-links:hover::before {
+.p-h-footer-container:hover .p-h-footer-links:before {
   height: 100%;
+}
+
+.p-h-footer-links span {
+  z-index: 10;
+  position: relative;
+  font-size: 1.4em;
+  color: white;
+}
+
+.p-h-footer-container:hover .p-h-footer-links span {
+  color: black;
+}
+
+/*  */
+
+.p-h-footer-container {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: relative;
+  height: 30vh;
+  display: grid;
+  grid-template-areas:
+    'a b'
+    'a b';
+  background-color: var(--primary-color);
+  transition: height 0.95s cubic-bezier(0.475, 0.425, 0, 0.995);
+  position: relative;
+}
+
+.p-h-footer-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  z-index: 2;
+  background-color: var(--primary-color);
+  display: block;
+  will-change: transform;
+  -webkit-transition: -webkit-transform 0.65s;
+  transition: -webkit-transform 0.65s;
+  transition: transform 0.65s;
+  transition: transform 0.65s, -webkit-transform 0.65s;
+  -webkit-transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.p-h-footer-container:hover:before {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+}
+
+.p-h-previous {
+  /* cursor: url('/cursor-previous.png'), auto; */
+  cursor: url('/cp.svg'), auto;
+  position: relative;
+}
+
+.p-h-next {
+  cursor: url('/cn.svg'), auto;
+  position: relative;
+}
+
+.p-text > h3 {
+  color: white;
+}
+
+.p-h-previous > img {
+  width: 100%;
+  object-fit: cover;
+  height: 80vh;
+}
+
+.p-h-next > img {
+  width: 100%;
+  object-fit: cover;
+  height: 80vh;
+}
+
+.overlay {
+  background-color: black;
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.p-h-text {
+  position: absolute;
+  width: 100%;
+  align-items: center;
+  top: 15%;
+  color: white;
+  text-align: center;
+  transition: all 0.85s cubic-bezier(0.19, 1, 0.22, 1);
+  padding: 30px 0px 0px 0px;
+}
+
+.p-h-previous:hover .p-h-text {
+  letter-spacing: 3px;
+}
+
+.p-h-next:hover .p-h-text {
+  letter-spacing: 3px;
 }
 </style>
