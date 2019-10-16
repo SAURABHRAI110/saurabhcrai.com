@@ -307,7 +307,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         1. CSS3 <br>
         2. HTML 5<br>
         3. jQuery<br>
-        4. Larawel (backend)<br>
+        4. Laravel (backend)<br>
         5. AOS.js (For scroll transitions)<br>
         6. Parallax.js (Image parallax effect)<br>
         7. easescroll.js (Smooth mouse wheel scrolling) <br>
