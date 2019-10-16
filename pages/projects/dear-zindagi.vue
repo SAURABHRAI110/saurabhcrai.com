@@ -1,6 +1,5 @@
 <template>
-  <!-- Dear zindagi work -->
-  <div>
+  <section>
     <div class="ppnp-container">
       <nuxt-link to="/projects/mr-irritating">
         <next />
@@ -9,6 +8,7 @@
         <previous />
       </nuxt-link>
     </div>
+
     <projecthero
       pDate="Oct 2018 "
       pWebsite="ART"
@@ -48,7 +48,7 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" ART (Aware and Responsible Teen) is an organisation which works in
+      para=" ART (Aware and Responsible Teen) is an organization which works in
     the direction of making students emotionally sound. Their main work is to spread awareness amongst
     the teen, in this era of fast development. The teenagers face lots of expectational pressure, study
     and peer pressure, bullying, and hormonal changes. These indirectly affects their education.
@@ -59,9 +59,9 @@
     <!-- Problem -->
     <pcase
       heading="Challenges"
-      para=" The ART brochure was to represent the ART organisation. It had to put forward their work,
+      para=" The ART brochure was to represent the ART organization. It had to put forward their work,
       aim, objective and goals, before the schools and colleges. It had to convince the schools/colleges
-      to work with ART organisation. It had to speak volumes with great sensitivity. Design had to become its language. "
+      to work with ART organization. It had to speak volumes with great sensitivity. Design had to become its language. "
       theme="theme_dz right"
     />
     <!-- Ideation and Discovery -->
@@ -95,17 +95,17 @@
       "
       theme="theme_dz right"
     />
+    <no-ssr>
+      <agile>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/dearzindagi/dz-sketch-1.jpg" alt="slider1" />
+        </div>
 
-    <agile>
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/dearzindagi/dz-sketch-1.jpg" alt="slider1" />
-      </div>
-
-      <div class="slide">
-        <img class="slide-img" src="~assets/projects/dearzindagi/dz-sketch-2.jpg" alt="slider2" />
-      </div>
-    </agile>
-
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/dearzindagi/dz-sketch-2.jpg" alt="slider2" />
+        </div>
+      </agile>
+    </no-ssr>
     <!-- Final Design -->
 
     <pcase
@@ -128,6 +128,8 @@
         <p class="ps">Brochure front Cover | A4</p>
       </div>
     </div>
+
+    <!-- /test passed -->
     <!-- DZ A4 mockup full size image -->
 
     <div class="p-image-100-duo">
@@ -139,8 +141,8 @@
             srcset="~assets/projects/dearzindagi/DearZindagi1-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/DearZindagi1.jpg" />
-          <p class="ps">Logo For ART</p>
         </picture>
+        <p class="ps">Logo For ART</p>
       </div>
     </div>
 
@@ -153,8 +155,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4page1-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page1.jpg" />
-          <p class="ps">Brochure Front Cover</p>
         </picture>
+        <p class="ps">Brochure Front Cover</p>
       </div>
     </div>
 
@@ -167,8 +169,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4page2n3-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page2n3.jpg" />
-          <p class="ps">Inside Pages 2 & 3</p>
         </picture>
+        <p class="ps">Inside Pages 2 & 3</p>
       </div>
     </div>
 
@@ -181,8 +183,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4page4n5-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page4n5.jpg" />
-          <p class="ps">Inside Pages 4 & 5</p>
         </picture>
+        <p class="ps">Inside Pages 4 & 5</p>
       </div>
     </div>
 
@@ -195,8 +197,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4page6n7-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page6n7.jpg" />
-          <p class="ps">Inside Pages 6 & 7</p>
         </picture>
+        <p class="ps">Inside Pages 6 & 7</p>
       </div>
     </div>
 
@@ -209,8 +211,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4page8n9-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page8n9.jpg" />
-          <p class="ps">Inside Page 8 & 9</p>
         </picture>
+        <p class="ps">Inside Page 8 & 9</p>
       </div>
     </div>
 
@@ -223,8 +225,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4page10n11-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4page10n11.jpg" />
-          <p class="ps">Inside Page 10 & 11</p>
         </picture>
+        <p class="ps">Inside Page 10 & 11</p>
       </div>
     </div>
 
@@ -237,8 +239,8 @@
             srcset="~assets/projects/dearzindagi/dz-a4-allpage-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-a4-allpage.jpg" />
-          <p class="ps">All Brochure Pages</p>
         </picture>
+        <p class="ps">All Brochure Pages</p>
       </div>
     </div>
 
@@ -247,7 +249,7 @@
       heading="Identity Design"
       para=" During the process of researching brochure I have to design a logo for them
               that just align with them and their motivation to bring to needing children and therefore
-              protect and safegaurd the psychlogy of childrens"
+              protect and safeguard the psychology of children's"
       theme="theme_dz right"
     />
 
@@ -260,8 +262,8 @@
             srcset="~assets/projects/dearzindagi/dz-visitingcard-mobile.jpg"
           />
           <img src="~assets/projects/dearzindagi/dz-visitingcard.jpg" alt="visiting card design" />
-          <p class="ps">All Brochure Pages</p>
         </picture>
+        <p class="ps">All Brochure Pages</p>
       </div>
     </div>
 
@@ -329,11 +331,10 @@
     </div>
 
     <!-- appreciate button -->
-    <!-- appreciate button -->
 
     <Appreciate heading="Loved  Dear Zindagi" subHeading="Don't forgot to appreciate" />
 
-    <!-- Project Footer Navigatrion -->
+    <!-- Project Footer Navigation -->
 
     <div class="project-footer">
       <div class="projects-footer-container">
@@ -359,11 +360,10 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
-import mediumZoom from 'medium-zoom'
 import Projecthero from '~/components/projects/projecthero'
 import Preface from '~/components/projects/preface'
 import Projectfooter from '~/components/projects/projectfooter'
@@ -374,6 +374,7 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
+
 export default {
   layout: 'projects',
   components: {

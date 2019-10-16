@@ -342,8 +342,10 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        “While all those time I began to realize how important it was to be an enthusiast in life.
+        Time has taught me that if you are interested in something, no matter what it is,
+        go at it at full speed ahead. Embrace it with both arms, hug it,
+        love it and above all become passionate about it.
       </blockquote>
     </div>
 

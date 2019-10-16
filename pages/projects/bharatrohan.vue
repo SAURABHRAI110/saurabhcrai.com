@@ -16,10 +16,6 @@
       pHeadingcolor="color:#11A78E;"
       pSubheading="App for farmers and admin panel"
     />
-    <!-- <div class="p-fe-hero_image">
-      <img src="~assets/projects/fe/fe2.png" alt>
-      <img src="~assets/projects/fe/fe1.png" alt>
-    </div>-->
 
     <!-- hero image -->
     <div class="p-fe-hero_image">
@@ -27,16 +23,13 @@
         <div class="reveal-block right theme_br" data-aos="reveal-right"></div>
 
         <img src="~assets/projects/bharatrohan/BharatRohan3.jpg" alt />
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
 
     <Preface
       timeframe=" August 2015-April 2018 <br>
                   3 Years"
-      tools="   Photoshop, Illustrtor, After Effects <br>
+      tools="   Photoshop, Illustrator, After Effects <br>
                 Corel Draw, Adobe XD"
       role="  UI Design, Creative Direction"
       team="  Yash Srivastava: Project Manager<br>
@@ -98,7 +91,7 @@
       aligned with the mission of their company and solving real scalable problems. 
 
       <br><br>
-      After many meetings with between Amandeep sir (Entrepreneurs) and Project Manager(Yash Srivastava). Initial requirement that the team needed to do over a long
+      After many meetings with between Amandeep sir (Entrepreneurs) and Project Manager (Yash Srivastava). Initial requirement that the team needed to do over a long
       period of 6 months were laid out. The basic wireframing of the App and Web portal was done by Yash sir. 
       <br><br>
       Because I was not involved in initial conversation It became very tough for me to get a sense of what is really all this and what is required of me. What is the problem we are 
@@ -175,31 +168,32 @@
       technology for the Customer to implement it in other projects as well."
       theme="theme_br"
     />
+    <no-ssr>
+      <agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bharatrohan/bharatrohan-wireframing-1.jpg"
+            alt="slider1"
+          />
+        </div>
 
-    <agile>
-      <div class="slide">
-        <img
-          class="slide-img"
-          src="~assets/projects/bharatrohan/bharatrohan-wireframing-1.jpg"
-          alt="slider1"
-        />
-      </div>
-
-      <div class="slide">
-        <img
-          class="slide-img"
-          src="~assets/projects/bharatrohan/bharatrohan-wireframing-2.jpg"
-          alt="slider2"
-        />
-      </div>
-      <div class="slide">
-        <img
-          class="slide-img"
-          src="~assets/projects/bharatrohan/bharatrohan-wireframing-3.jpg"
-          alt="slider2"
-        />
-      </div>
-    </agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bharatrohan/bharatrohan-wireframing-2.jpg"
+            alt="slider2"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bharatrohan/bharatrohan-wireframing-3.jpg"
+            alt="slider2"
+          />
+        </div>
+      </agile>
+    </no-ssr>
 
     <pcase
       heading="Farmers App"
@@ -343,7 +337,7 @@
           <p>
             It was really a Big project for us. Keeping a tight deadline. Keeping the Project direction on the right path was in itself a challnege.
             Their were times when we thought things will sort out in 2 3days but that took us months and It was just one thing.
-            Meeting become tensful, people get demotivated. Keeping the Enthusiasm alive was the biggest challenge. We did it anywhow. This project was the one of its own kind.
+            Meeting become stressful, people get demotivated. Keeping the Enthusiasm alive was the biggest challenge. We did it anywhow. This project was the one of its own kind.
             Greatest learning curve for all the team. For developers for designers for Project managers.
           </p>
         </div>
@@ -360,12 +354,9 @@
 
     <!-- End Line  -->
 
-    <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
-
     <!-- appreciate button -->
 
     <Appreciate
