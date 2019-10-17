@@ -83,6 +83,65 @@
       </blockquote>
     </div>
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/prepowl/prepowl-docs.jpg" />
+          <img src="~assets/projects/prepowl/prepowl-docs.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/prepowl/prepowl-moodboard.jpg"
+          />
+          <img src="~assets/projects/prepowl/prepowl-moodboard.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/prepowl/prepowl-design-system.jpg"
+          />
+          <img src="~assets/projects/prepowl/prepowl-design-system.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/prepowl/prepowl-web-hero.jpg" />
+          <img src="~assets/projects/prepowl/prepowl-web-hero.jpg" />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/prepowl/prepowl-web-pages.jpg"
+          />
+          <img src="~assets/projects/prepowl/prepowl-web-pages.jpg" />
+        </picture>
+      </div>
+    </div>
+
     <!-- key Focus Area -->
 
     <div class="keyfocus">
@@ -139,11 +198,10 @@
     </div>
 
     <!-- End Line  -->
+    <!-- End Line  -->
 
-    <div class="p-zig-zag-line">
-      <div>
-        <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-      </div>
+    <div class="section-divider">
+      <hr class="section-divider" />
     </div>
     <!-- appreciate button -->
     <Appreciate
