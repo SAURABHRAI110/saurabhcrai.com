@@ -336,21 +336,6 @@
       <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
     </div>
 
-    <!-- <div class="p-h-footer-container">
-      <div class="p-h-footer-links">
-        <span>
-          <nuxt-link to="/blog">
-            <span class="underline-magical">Blog</span>
-          </nuxt-link>
-        </span>
-        <span>
-          <nuxt-link to="/about">
-            <span class="underline-magical">About</span>
-          </nuxt-link>
-        </span>
-      </div>
-    </div>-->
-
     <div class="project-footer">
       <div class="p-h-footer-container">
         <div class="p-f-p-container">
