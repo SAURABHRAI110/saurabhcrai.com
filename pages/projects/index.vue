@@ -219,7 +219,7 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumbnail-ad">
+        <!-- <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/news-app">
             <thumbnail
               thumbnailName="News App"
@@ -231,7 +231,7 @@
               data-aos-once="true"
             />
           </nuxt-link>
-        </div>
+        </div>-->
 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/bls">
@@ -242,7 +242,7 @@
               color="var(--primary-color)"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
+              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -256,7 +256,7 @@
               thumbnail="/hindigiri-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="200"
+              data-aos-delay="0"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -270,7 +270,7 @@
               thumbnail="/hello-colors-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
+              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -284,7 +284,7 @@
               thumbnail="/logofolio-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="200"
+              data-aos-delay="0"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -298,7 +298,7 @@
               thumbnail="/utkarsh-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
+              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
