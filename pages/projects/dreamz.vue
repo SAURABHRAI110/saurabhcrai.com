@@ -13,9 +13,9 @@
       pDate="December 2017"
       pWebsite="Dreamz"
       pCategory="App Design"
-      pHeading="Fullfilling those little dreams"
+      pHeading="Fulfilling those little dreams you got"
       pHeadingcolor="color:#4FCEC4;"
-      pSubheading=" App that hepls you earn money and in a way fulfill your dreams "
+      pSubheading=" App that helps to fulfill your dreams and other dreams by crowdfunding. "
     />
 
     <!-- hero image -->
@@ -27,9 +27,6 @@
           src="~assets/projects/dreamz/dreamz-hero-cyan-2.jpg"
           alt="floating mockup, web mockup, pad, mobile, mockup"
         />
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
       </div>
     </div>
 
@@ -37,9 +34,9 @@
       timeframe="January
             <br>10 Days"
       tools="  Every F thing I know
-            <br>Sketch, From A to Z"
-      role="  UI/UX Desiner
-            <br>Researcher"
+            <br>Adobe XD, From A to Z"
+      role="  UI/UX Design
+            <br>UX Strategist"
       team="  Lone Wolf
             <br>Me"
     />
@@ -49,38 +46,227 @@
 http://stephencalvillodesign.com/project/prestoq
 
     -->
-
     <pcase
       heading="Preface"
-      para="Creating the interface of the time.
-      "
-"
-      theme="theme_dreamz"
-    />
-    <!-- Problem --> 
-    <pcase
-      heading="From humble Beginnings"
-      para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
-    my seniors, co-founded feeding trends. I was in 6th semester, enjoying some home time during summer vacation, got a call from
-    Yash sir and I was asked to do a logo design for FeedingTrends. I remember it was a long call. Well moving forward, logo designing
-    is tough, I took my time and did textual logo, used a  Sans font, outlined it, played around arrow, to make it feel like 
-    trendy stuff and yeah Finished. We moved forward and setup  implemented logo on Facebook, Instagram and on stuff.
-    FT got recognized and people started sharing our stuff and yeah it was great start.
-    <br><br>
-    Later on after 2 month I joined FeedingTrends. While still managing my time around
-    college and working at feeding Trends Office. Bunking Classes just to work on outgoing projects at FT Office or from my flat.
-  
-        
-     "
+      para="All about Dreamz is a startup from Lucknow IIM Facualty and students.
+    Their idea was simple to invest money in a way that everyone get something out of it and target audience were teens.
+    They approched Feeding Trends for the app design. The brief was simple. Make a high fidality prototype in just 10 days.
+    "
       theme="theme_dreamz"
     />
 
+    <!-- Problem -->
+
     <div class="p-quote contain red">
-      <blockquote>
-        Bunking clsses to work on outgoing projects while still managing college assignments and all. It was Beginnings
-        of something great.
-      </blockquote>
+      <blockquote>A crowdfunding App to design and build for Android Ecosystem.</blockquote>
     </div>
+
+    <pcase
+      heading="Before Going into research"
+      para="I preapred a list of questions to be asked and discussed with dev teams and clients.
+      <br>
+      1. Define Idea in 5 sentence. <br>
+      2. Vision of the product <br>
+      3. What will success will look like after product design. <br>
+      4. Technical constraint <br> <br>
+
+      Question related to user as in App <br>
+      1. Who can view user profile <br>
+      5. Who can view user profile <br>
+      3. Money Earned <br>
+      4. Who can view money earned<br>
+      and many more cross questioning in meetings, slack chat...
+       <br> <br>
+
+      Feels <br>
+      1. Whenever a user donates amount he should feel some sense of accomplishment
+      and make him feel good about a dream he just fulfills. So,
+      how it can be done. One way is to make it personal. <br>
+      2. Why should I feel some sense of accomplishment? What drives a person? So how can we make it personal?
+      <br>
+      3.  What is Really Happening in this app? Why someone even uses this app? There is just
+      so much app already? People are getting so particular about what they want on their phone,
+      and what they don't want in their phone. So, It comes to just one thing that is a need.
+
+      4. 
+    "
+      theme="theme_dreamz"
+    />
+
+    <pcase
+      heading="The Idea"
+      para="
+Ok, so how I say it. I am creating a dream Say it. I wanna buy a Gaming Mouse: For which I need 1000rs. So how I am getting it. <br>
+I am investing 500rs and getting back 1000rs so in a sense I am earning 500rs. Really ? is this really happening?  <br>
+<br>
+There are 100 users: <br> 
+Each creates their dream <br>
+I donate 5rs <br>
+Each donates me 5rs. SO 5x99=495. <br>
+But there is limitation set. You need to step up your level. Nice move. So you got to invest to get more so to get more earning.
+
+
+    "
+      theme="theme_dreamz"
+    />
+
+    <pcase
+      heading="Challenge"
+      para="
+        Fist of all inspite of all meetings understanding the idea was in itself a challenge. It was totally something
+        brilliant and implementing the design it deserves was a great challenge for me. I got into app design by starting from
+        base level of app design and going through the why and how again and again. Watching hours of video on youtube to reading articles on medium about
+        process, principles and anything related. 
+        <br> <br>
+        Deadline was just 10 days.
+    "
+      theme="theme_dreamz"
+    />
+
+    <pcase
+      heading="Problem Definition"
+      para="
+        Fist of all inspite of all meetings understanding the idea was in itself a challenge. It was totally something
+        brilliant and implementing the design it deserves was a great challenge for me. I got into app design by starting from
+        base level of app design and going through the why and how again and again. Watching hours of video on youtube to reading articles on medium about
+        process, principles and anything related. 
+        <br> <br>
+        Deadline was just 10 days.
+        Not just high fedality 
+    "
+      theme="theme_dreamz"
+    />
+
+    <pcase
+      heading="Target Audience"
+      para="
+        <ul>
+        
+        <li>  School Children:</li>
+        <li>College Student</li>
+        <li>Who has access to a smartphone </li>
+        <li>Age Group: 15–23 </li>
+        <li>Android User</li>
+        <li>Who want to buy things for which they can't get their need fulfilled by their parents</li>
+        
+          </ul>
+
+
+    "
+      theme="theme_dreamz"
+    />
+
+    <pcase
+      heading="What will be possible dreams"
+      para="
+        <ul>
+        
+     <li>   buy a smartphone</li>
+       <li> buy a book</li>
+        <li>Buy something that they wanna give it to their loved ones</li>
+      <li>  Buy Laptop</li>
+        <li>Just wanna have fun</li>
+       <li> Earn money, and party</li>
+        <li>Buy cake for a friend birthday party</li>
+        <li>Travel somewhere</li>
+    <li>    Buy accessories</li>
+
+          </ul>
+
+    "
+      theme="theme_dreamz"
+    />
+
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+          <img src="~assets/projects/dreamz/dreamz-userflow.png" />
+          <p class="ps white">Dreamz User Flow</p>
+        </div>
+      </div>
+    </div>
+
+    <pcase
+      heading="UX Design Priciples"
+      para=" Before going into UI Design researched about the design priciples that should be considered and implemented
+      'into design. Going through google and websites I found a video by Johnny vivi. And it was awesome.
+      I foolowed him, his direction towared naturally designing app and many more video, articles that I come across three days of beginning.
+      And noted them down for future reference on  medium draft. Yahh I document on medium.
+       
+    "
+      theme="theme_dreamz"
+    />
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/dreamz/dreamz-laws-of-ux.jpg" alt="laws of ux explained" />
+        <p class="ps black">Dreamz User Flow</p>
+      </div>
+    </div>
+
+    <pcase
+      heading="UI Design"
+      para=" Choosing colors for designs in general is not easy. So why can’t we just choose
+      colors for our projects based on how we feel about them or based on the trends? I’ve become
+      more aware that knowing color theory, preferences and background of the client,
+      culture of users and comprehension of your audience and competitors is the best way
+      to choose right color for your project.
+      <br><br>
+
+        Researching the competition is the best way to avoid unintentional plagiarism. It will give you an idea of common color
+        threads that run through the other companies (whether they’re using correct colors or not) and it will show you what kind of
+        direction to avoid to ensure that you don’t create something identical.
+       
+    "
+      theme="theme_dreamz"
+    />
+
+    <div class="contain">
+      <p>
+        Then I did analysis of colors, their perception and influence.
+        Blue is one of the most commonly used colors when coming to product design.
+        People use blue things so much they get a sence of familiarity already when its blue.
+        The blue color is considered to give emotions such as trust, safe and relaxation.
+        As their is money involved in app user should trust the app to do so. The light blue color
+        creates the emotions such as calm and makes
+        the user feels refreshed. The blue color is also associated with happiness. I added some green tone
+        the blue to also standout among all those so many blue products.
+        This is how I came up with the mood board.
+      </p>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/dreamz/dreamz-moodboard.jpg" alt="app design moodboard in ux" />
+        <p class="ps black">Inspiration & moodboard</p>
+      </div>
+    </div>
+
+    <div class="contain">
+      <p>
+        Finally, after all researches and analysis were done I focused on designing all the
+        screens through which a user will move, and created the visual elements — and their
+        interactive properties — that facilitate this movement. I used things like patterns,
+        spacing and color to guide the user and designed visual, interactive elements that respond
+        in a way that feels natural to the user.
+      </p>
+    </div>
+
+    <pcase
+      heading="Prototype"
+      para=" During all my Design process. I kept my focus to make highly interactive
+      prototype. Just few days ago Adobe XD had already released upgrade to it. And the new feature include
+      Automate in prototype. It became my playground and using all the features of Adobe XD I created a Interactive prototype.
+      and It turned to be awesome. Shared with all my teammates and client. 
+       
+    "
+      theme="theme_dreamz"
+    />
 
     <div class="live-link_container" style="background-color:var(--secondary-color);">
       <LiveLink
@@ -121,16 +307,21 @@ http://stephencalvillodesign.com/project/prestoq
 
     <div class="Takeaway">
       <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
+        <h2 class="p-para black50">Reflection</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            Working on this project helped me learn that user research is crucial for the whole process
+            of design application. Responsiveness is another important point in the UI/UX design.
+            When the app shows the user immediate consequences of their action, there is a more personal connection.
+            <br />
+            <br />There are many people who support the idea that digital products of today should be minimalist
+            and purely functional. However, my experience and practice shows that people want to both solve
+            the problems and feel aesthetic satisfaction using apps. The balance of these things was my
+            responsibility as UI/UX designer on this project.
+            <br />
+            <br />After i finished and look back again after someday felt proud of myself. Loved everything I did with it
+            and the pressure in completing all these in just 10 days was immense. When I am given a challenge in
+            situation similar I discovered myself I perform well.
           </p>
         </div>
       </div>
@@ -138,13 +329,10 @@ http://stephencalvillodesign.com/project/prestoq
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        “To be
+        a great designer, you need to look a little deeper into how people
+        think and act.”
       </blockquote>
-    </div>
-
-    <div class="p-quote contain red">
-      <blockquote>Dreams.</blockquote>
     </div>
 
     <!-- End Line  -->
