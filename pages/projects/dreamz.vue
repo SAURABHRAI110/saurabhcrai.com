@@ -258,6 +258,40 @@ But there is limitation set. You need to step up your level. Nice move. So you g
     </div>
 
     <pcase
+      heading="App Onboarding Experience"
+      para="Considering all the information I got from the research I step into Adobe XD and started
+      my layout.The user that comes for the first time. Just a gist into what they are getting into.
+      A three-screen using Adobe xd auto animate feature. Also this laid a basic foundation
+      of the my design structure and design system like Font, font size, it colour,
+      Primary color, secondary color, animation style, design elements etc. It was very important to make
+      the onboarding experience as good as possible.  
+       
+    "
+      theme="theme_dreamz"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img
+          src="~assets/projects/dreamz/dreamz-onboarding-experience.jpg"
+          alt="app design moodboard in ux"
+        />
+        <p class="ps black">onboarding experience screens</p>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/dreamz/dreamz-sign.jpg" alt="app design moodboard in ux" />
+        <p class="ps black">sign in/sign up</p>
+      </div>
+    </div>
+
+    <pcase
       heading="Prototype"
       para=" During all my Design process. I kept my focus to make highly interactive
       prototype. Just few days ago Adobe XD had already released upgrade to it. And the new feature include
