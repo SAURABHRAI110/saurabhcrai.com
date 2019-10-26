@@ -34,7 +34,8 @@
       role="  UI Design, Creative Direction"
       team="  Yash Srivastava: Project Manager<br>
               Zainan Siddique: Project manager and <br> Content Strategist
-              Me: UX/UI"
+              Me: UX/UI
+              shekhar and Govind: Development"
     />
     <!-- Preface -->
     <pcase
