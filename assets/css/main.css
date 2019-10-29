@@ -3143,6 +3143,13 @@ background: linear-gradient(#6adfff 0%, #005094 100%);
   background: #e98635;
 }
 
+/* Salesfactory */
+
+.reveal-block.theme_salesfactory::before {
+  background: linear-gradient( 90deg, #00689b 0%, #00adef 100%);
+}
+
+
 /* FT Events
 Akcent Colour
 #00ACFF

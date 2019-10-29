@@ -219,6 +219,20 @@
           </nuxt-link>
         </div>
 
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/salesfactory">
+            <thumbnail
+              thumbnailName="Salesfactory"
+              thumbnailDescription="Web Design + Development"
+              thumbnail="/salesfactory-thumbnail.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
         <!-- <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/news-app">
             <thumbnail
