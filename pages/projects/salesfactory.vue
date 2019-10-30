@@ -137,15 +137,18 @@
     <pcase
       heading="Design and Code"
       para="
-      I started with going through similar product websites and some of competitors websites and noting all the
-      good and bad things they did with their existing product. At the point of developing this salesfactory
-      website. the main product was in continuous development and still had to go through series of deployment and testing. So
-      I don't have lots of actual product to show on its website. So we agreed to show a screenshot or two and keeping thing as simple as its gets.
-      <br>
-      <br>
-      Still being a Designer I cant just agree to make something that i am not gonna be proud later. Everyone was celebrating Diwali but we Aman and me were busy grinding in 
-      a room with screens and drinking coffee and moving forward as fast as possible. It was fun. We both loved how things are moving forward with making one section of website, designing it and coding it.
-      to see how it looks on different devices. What worked we kept and what not we deleted.
+      I started with the hero section of the website. Designed it then coded it in Angular with 
+      pure CSS. I didn't see any point adding UI framework like Which my friend Insisted but I knew We don't need it.
+      Moving forward we pretty much liked the hero section then. Moved to design a basic layout of product section.
+      I used Icons from thenounproject.com and then editing its width, height, border in Adobe XD to make all Icons
+      consistent through out the website. Every Icons assets used in Website is SVG. 
+      <br><br>
+      In all section I used Flex for implementing all those layouts, I initially thought using grid but the layout was simple. Flex was
+      all that required and also there no problem making it all responsive. Wherever required I added media queries in images, font sizes and padding and margin.
+      
+
+      <br><br>
+      Enough getting into using tech terms. Lets just see the final website.
 
       "
       theme="theme_salesfactory"
@@ -167,6 +170,8 @@
       "
       theme="theme_salesfactory"
     />
+
+    <liveLink link="http://salesfactory.in/" text="Launch Site" />
 
     <!-- key Focus Area -->
 
@@ -273,6 +278,7 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
+import LiveLink from '~/components/projects/live-link'
 export default {
   layout: 'projects',
   components: {
@@ -285,7 +291,8 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav
+    Allprojectsnav,
+    LiveLink
   }
 }
 </script>

@@ -325,10 +325,8 @@ Discover, Share with friends, Book ticket for them, Go to event, Repeat.
 
       <!-- End Line  -->
 
-      <div class="p-zig-zag-line">
-        <div>
-          <img src="~assets/svg/zig-zag-2.svg" alt="zig zag line svg" />
-        </div>
+      <div class="section-divider">
+        <hr class="section-divider" />
       </div>
 
       <!-- appreciate button -->
