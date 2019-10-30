@@ -350,7 +350,7 @@
       <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
     </div>
 
-    <div class="project-footer">
+    <div class="p-project-footer">
       <div class="p-h-footer-container">
         <div class="p-f-p-container">
           <nuxt-link to="/blog">
@@ -360,6 +360,11 @@
                 <h3>Go to Blog</h3>
               </span>
             </div>
+          </nuxt-link>
+        </div>
+        <div class="p-home-icon">
+          <nuxt-link to="/">
+            <img src="~assets/projects/home-icon.svg" alt="home button svg icon" title="To home" />
           </nuxt-link>
         </div>
 
@@ -481,6 +486,27 @@ export default {
 }
 
 /*  */
+
+.p-project-footer {
+  width: 100%;
+  position: relative;
+}
+.p-home-icon img {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  width: 76px;
+  top: 39%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  padding: 18px;
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.p-home-icon img:hover {
+  width: 85px;
+  border: solid 1px white;
+}
 
 .p-h-footer-container {
   width: 100%;
