@@ -157,15 +157,11 @@
     <pcase
       heading="Technology"
       para="
-      I started with going through similar product websites and some of competitors websites and noting all the
-      good and bad things they did with their existing product. At the point of developing this salesfactory
-      website. the main product was in continuous development and still had to go through series of deployment and testing. So
-      I don't have lots of actual product to show on its website. So we agreed to show a screenshot or two and keeping thing as simple as its gets.
-      <br>
-      <br>
-      Still being a Designer I cant just agree to make something that i am not gonna be proud later. Everyone was celebrating Diwali but we Aman and me were busy grinding in 
-      a room with screens and drinking coffee and moving forward as fast as possible. It was fun. We both loved how things are moving forward with making one section of website, designing it and coding it.
-      to see how it looks on different devices. What worked we kept and what not we deleted.
+      --Html<br>
+      --CSS<br>
+      --Angular Framework<br>
+
+
 
       "
       theme="theme_salesfactory"
@@ -183,19 +179,19 @@
           <div class="pm black70">
             <div class="kf-layout">
               <span>✔ Research</span>
-              <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
-              <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
+              <span>✔ Creative Direction</span>
+              <span>✔ UI Design</span>
+              <span>✔ Front-end Development</span>
+              <span>✔ Testing on devices</span>
+              <span>✔ Live collaboration</span>
+              <span>✔ Learned Angular Framework</span>
+              <span>✔ Logo Design</span>
               <span>✔ Wireframe</span>
-              <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
-              <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ Celebrated Diwali</span>
+              <span>✔ Assets Optimisation</span>
+              <span>✔ Animating Preloader</span>
               <span>✔ Defending UX Decisions</span>
-              <span>✔ Pop and un-pop things</span>
+              <span>✔ Fun</span>
             </div>
           </div>
         </div>
@@ -209,10 +205,10 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            It was really a Big project for us. Keeping a tight deadline. Keeping the Project direction on the right path was in itself a challnege.
-            Their were times when we thought things will sort out in 2 3days but that took us months and It was just one thing.
-            Meeting become stressful, people get demotivated. Keeping the Enthusiasm alive was the biggest challenge. We did it anywhow. This project was the one of its own kind.
-            Greatest learning curve for all the team. For developers for designers for Project managers.
+            It was a very small project. It was challenging designing and then coding and having a deadline of just some days.
+            I also got my hopes high. I guess how small or big a projects is enjoying and having fun during those hours is crucial to
+            a successful projects. Doing work for a friend is never a bad Idea. Its fun and stressbuster from all those heavy projects thats has to be done in meantime.
+            Everyone need a break from a long projects. This for me was a kind of break i needed to bring my focus.
           </p>
         </div>
       </div>
