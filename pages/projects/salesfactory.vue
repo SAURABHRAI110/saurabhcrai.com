@@ -160,7 +160,7 @@
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
           <img src="~assets/projects/salesfactory/salesfactory-code-screen.jpg" />
-          <p class="ps black70">--Moodboards--</p>
+          <p class="ps black70">--Angular VS Code Screen--</p>
         </div>
       </div>
     </div>
@@ -251,11 +251,7 @@
     </div>
 
     <div class="p-quote contain red">
-      <blockquote>
-        The greatest challenge was not the project, but keeping the enthusiasm alive during all those times.
-        I pretty much saw myself and people losing it but again rising with new energy to make all
-        this possible. Thanks💚
-      </blockquote>
+      <blockquote>I guess it doesn't matter if the project you are doing is small or big but enjoying and having fun during those hours matters and is crucial to a successful projects. Thanks💙</blockquote>
     </div>
 
     <!-- End Line  -->
