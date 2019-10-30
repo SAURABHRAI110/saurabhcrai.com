@@ -15,7 +15,7 @@
       pHeading="Powerful solutions for
                 your business"
       pHeadingcolor="color:#00689b;"
-      pSubheading="Design and Front-end for one of my buddy"
+      pSubheading="Design and Front-end for one of my buddy startup company"
     />
 
     <!-- hero image -->
@@ -153,6 +153,42 @@
       "
       theme="theme_salesfactory"
     />
+
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+          <img src="~assets/projects/salesfactory/salesfactory-code-screen.jpg" />
+          <p class="ps black70">--Moodboards--</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/salesfactory/salesfactory-web-hero.jpg" />
+        <p class="ps black70">-Hero Section-</p>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/salesfactory/salesfactoryl-web-fullpage.jpg" />
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+
+        <img src="~assets/projects/salesfactory/salesfactoryl-colors-typo.jpg" />
+      </div>
+    </div>
 
     <pcase
       heading="Technology"
