@@ -1,15 +1,22 @@
 <template>
   <div class="h-people-container">
-    <div class="h-p-text">
-      <h1>PEOPLE</h1>
+    <div class="center-h-v h-p-content">
+      <h1>PE😍PLE</h1>
       <p>who makes it all worth</p>
-    </div>
-    <div class="c-d">
       <img src="~assets/svg/c-development.svg" alt />
     </div>
+
     <div class="h-p-overlay"></div>
     <div class="h-p-wrapper">
-      <div class="h-people-grid">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/img/home/home-people-mobile.jpg" />
+          <img src="~assets/img/home/home-people.jpg" alt="elevito wireframe" />
+        </picture>
+      </div>
+
+      <!-- <div class="h-people-grid">
         <div class="h-p-column h-p-column1" v-rellax="{ speed: 9, center: 0.6 }">
           <div class="h-p-c-images">
             <img src="~assets/img/people/home-people.jpg" />
@@ -79,8 +86,8 @@
           <div class="h-p-c-images">
             <img src="~assets/img/people/home-people-2.jpg" />
           </div>
-        </div>
-      </div>
+        </div> 
+      </div>-->
     </div>
   </div>
 </template>
@@ -98,9 +105,19 @@ export default {}
   overflow: hidden;
 }
 
+.h-p-content {
+  z-index: 3;
+}
+
 .h-p-wrapper {
-  top: -355px;
+  /* top: -355px; */
   position: relative;
+  width: 100%;
+}
+.h-p-wrapper img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
 
 .h-people-grid {
@@ -151,40 +168,32 @@ export default {}
   width: 100%;
   height: 100%;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.85;
   position: absolute;
   z-index: 2;
 }
 
-.c-d {
-  position: absolute;
-  z-index: 4;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.h-p-text {
-  z-index: 4;
-  top: 33%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-}
-
-.h-p-text > h1 {
+.h-p-content > h1 {
   font-size: 100px;
-  color: white;
+  color: var(--primary-color);
   letter-spacing: 4px;
   margin: 4px;
+
+  text-align: center;
+  white-space: nowrap;
 }
 
-.h-p-text > p {
+.h-p-content > p {
   font-size: 20px;
   color: white;
-  letter-spacing: 8px;
-  margin-top: 0px;
+  opacity: 0.8;
+  /* letter-spacing: 8px; */
+  padding: 10px;
   text-align: center;
+}
+.h-p-content > img {
+  width: 100%;
+  justify-content: center;
 }
 
 .h-bm-animation {
@@ -224,12 +233,12 @@ export default {}
     margin-top: 200px;
   }
 
-  .h-p-text > h1 {
-    font-size: 40px;
+  .h-p-content > h1 {
+    font-size: 70px;
   }
 
-  .h-p-text > p {
-    font-size: 20px;
+  .h-p-content > p {
+    font-size: 24px;
     letter-spacing: 1px;
   }
 }

@@ -259,8 +259,9 @@
         I Enjoy.
       </h1>
       <p>
-        Some of my selceted work or I say case study so that you
-        <br />can understand my process and how I work.
+        Case study of my works I have done in the
+        past till date. See
+        <nuxt-link to="/projects" class="underline-magical">all my works.</nuxt-link>
       </p>
     </div>
 
@@ -269,6 +270,51 @@
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/elevito">
+            <thumbnail
+              thumbnailName="Elevito"
+              thumbnailDescription="Web, Branding, Print"
+              thumbnail="/showcase6d.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/feeding-trends">
+            <thumbnail
+              thumbnailName="Feeding Trends"
+              thumbnailDescription="Web, Branding, Print"
+              thumbnail="/ft-thumbnail.jpg"
+              color="var(--primary-color)"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="1000"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/bharatrohan">
+            <thumbnail
+              thumbnailName="BharatRohan"
+              thumbnailDescription="Admin, App, Web"
+              thumbnail="/bharatrohangif2.gif"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/filmingeye">
             <thumbnail
               thumbnailName="Filming Eye"
@@ -276,12 +322,12 @@
               thumbnail="/showcase1.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
+              data-aos-delay="200"
               data-aos-once="true"
-              data-aos-anchor-placement="top-bottom"
             />
           </nuxt-link>
         </div>
+
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/dear-zindagi">
             <thumbnail
@@ -290,12 +336,12 @@
               thumbnail="/showcase2.webp"
               data-aos="fade-up"
               data-aos-duration="400"
-              data-aos-delay="200"
+              data-aos-delay="0"
               data-aos-once="true"
-              data-aos-anchor-placement="top-bottom"
             />
           </nuxt-link>
         </div>
+
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/mr-irritating">
             <thumbnail
@@ -304,30 +350,18 @@
               thumbnail="/showcase3.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/r3">
-            <thumbnail
-              thumbnailName="R3"
-              thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4a.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
               data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
         </div>
+
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/ft-events">
             <thumbnail
-              thumbnailName="Awesome Inc."
-              thumbnailDescription="Identity, Print"
-              thumbnail="/showcase5b.webp"
+              thumbnailName="FT Events"
+              thumbnailDescription="Web, Admin"
+              thumbnail="/ft-event-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -335,12 +369,13 @@
             />
           </nuxt-link>
         </div>
+
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/thebbdtimes">
             <thumbnail
-              thumbnailName="Elevito"
-              thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6d.webp"
+              thumbnailName="The BBD Times"
+              thumbnailDescription="Branding"
+              thumbnail="/tbt-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -606,6 +641,11 @@ export default {
 
 .h-work_heading {
   padding: 40px 0px 40px 0px;
+  /* white-space: nowrap; */
+}
+
+.h-work_heading p {
+  padding: 0px 32% 0px 0px;
   /* white-space: nowrap; */
 }
 
