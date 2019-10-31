@@ -2,12 +2,17 @@
   <!-- r3 work -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/awesome-inc">
-        <next />
-      </nuxt-link>
-      <nuxt-link to="/projects/mr-irritating">
+      <nuxt-link to="bls">
         <previous />
       </nuxt-link>
+
+      <nuxt-link to="hello-color">
+        <next />
+      </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">16</p>
+      </div>
     </div>
     <projecthero
       pDate="October 2017"

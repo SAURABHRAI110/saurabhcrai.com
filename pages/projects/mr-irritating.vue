@@ -1,13 +1,19 @@
 <template>
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/r3">
-        <next />
-      </nuxt-link>
-      <nuxt-link to="/projects/dear-zindagi">
+      <nuxt-link to="thebbdtimes">
         <previous />
       </nuxt-link>
+
+      <nuxt-link to="dear-zindagi">
+        <next />
+      </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">08</p>
+      </div>
     </div>
+>
     <projecthero
       pDate="March 2017 "
       pWebsite="Mr. Irritating"

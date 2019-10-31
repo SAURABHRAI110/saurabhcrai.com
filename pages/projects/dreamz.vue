@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="filming-eye">
+      <nuxt-link to="filmingeye">
         <previous />
       </nuxt-link>
 

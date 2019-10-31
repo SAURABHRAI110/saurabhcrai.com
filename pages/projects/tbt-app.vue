@@ -1,13 +1,17 @@
 <template>
   <div>
-    <ScrollDown bgcolor=" background-color:#000000 " />
     <div class="ppnp-container">
-      <nuxt-link to="/projects/feeding-trends">
-        <next />
-      </nuxt-link>
-      <nuxt-link to="/projects/bharatrohan">
+      <nuxt-link to="awesome-inc">
         <previous />
       </nuxt-link>
+
+      <nuxt-link to="prepowl">
+        <next />
+      </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">11</p>
+      </div>
     </div>
     <projecthero
       pDate="September 2015"

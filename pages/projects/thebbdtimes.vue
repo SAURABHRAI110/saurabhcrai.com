@@ -2,13 +2,19 @@
   <!-- The BBD Times -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/bharatrohan">
-        <next />
-      </nuxt-link>
-      <nuxt-link to="/projects/feeding-trends">
+      <nuxt-link to="ft-events">
         <previous />
       </nuxt-link>
+
+      <nuxt-link to="mr-irritating">
+        <next />
+      </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">07</p>
+      </div>
     </div>
+
     <projecthero
       pDate="2015-217 "
       pWebsite="TheBBDTimes"

@@ -1,12 +1,17 @@
 <template>
   <section>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/mr-irritating">
-        <next />
-      </nuxt-link>
-      <nuxt-link to="/projects/filmingeye">
+      <nuxt-link to="mr-irritating">
         <previous />
       </nuxt-link>
+
+      <nuxt-link to="awesome-inc">
+        <next />
+      </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">09</p>
+      </div>
     </div>
 
     <projecthero
