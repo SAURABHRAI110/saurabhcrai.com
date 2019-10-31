@@ -303,7 +303,7 @@
             />
           </nuxt-link>
         </div>
-
+        <!-- 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/utkarsh">
             <thumbnail
@@ -316,7 +316,7 @@
               data-aos-once="true"
             />
           </nuxt-link>
-        </div>
+        </div>-->
 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/my-portfolio-website">

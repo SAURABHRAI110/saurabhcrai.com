@@ -302,12 +302,6 @@ But there is limitation set. You need to step up your level. Nice move. So you g
       theme="theme_dreamz"
     />
 
-    <div class="live-link_container" style="background-color:var(--secondary-color);">
-      <LiveLink
-        link="https://events.feedingtrends.com"
-        text="Launch Site | events.feedingtrends.com"
-      />
-    </div>
     <!-- key Focus Area -->
 
     <div class="keyfocus">
