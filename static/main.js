@@ -108,3 +108,8 @@ function openFullscreen() {
     elem.msRequestFullscreen();
   }
 }
+
+
+// journey
+
+

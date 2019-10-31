@@ -33,7 +33,7 @@
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="600"
-        >and I am always learning. Like past few months I have been learnig how to code. Now I can bring design into a pixel perfect reality.</p>
+        >I believe in things I do, I do all things with all my heart, even if it means losing my sleep for weeks.</p>
       </div>
     </div>
 
@@ -320,6 +320,24 @@
               </div>
             </nuxt-link>
 
+            <nuxt-link to="/projects/salesfactory">
+              <div class="a-p_layout_row black70">
+                <span>2019</span>
+                <span>Salesfactory</span>
+                <span>Web Design and Front-end Development</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/bls">
+              <div class="a-p_layout_row black70">
+                <span>2019</span>
+                <span>Banaras Literature Society</span>
+                <span>Brand Identity</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
             <nuxt-link to="/projects/elevito">
               <div class="a-p_layout_row black70">
                 <span>2018</span>
@@ -388,6 +406,42 @@
                 <span>2017</span>
                 <span>Mr. Irritating</span>
                 <span>Print Design</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/hello-color">
+              <div class="a-p_layout_row black70">
+                <span>2017</span>
+                <span>Hello Colors</span>
+                <span>Book Design</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/hindigiri">
+              <div class="a-p_layout_row black70">
+                <span>2017</span>
+                <span>hindigiri</span>
+                <span>Branding, Indentity</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/logofolio">
+              <div class="a-p_layout_row black70">
+                <span>2015-2019</span>
+                <span>Logofolio</span>
+                <span>Logo Design</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/utkarsh">
+              <div class="a-p_layout_row black70">
+                <span>2016</span>
+                <span>Utkarsh</span>
+                <span>Online Creatives</span>
                 <span>↗</span>
               </div>
             </nuxt-link>
@@ -499,6 +553,16 @@
           <span>journey</span>
         </div>
         <p>Adding my journey soon</p>
+
+        <div class="journey-navigation">
+          <span onclick="myFunction(this);">1995</span>
+        </div>
+
+        <div class="journey-view-container">
+          <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+          <img id="expandedImg" style="width:100%" />
+          <div id="imgtext"></div>
+        </div>
       </div>
     </section>
 
@@ -782,4 +846,7 @@ export default {
 </script>
 
 <style scoped>
+.journey-navigation {
+  overflow: hidden;
+}
 </style>
