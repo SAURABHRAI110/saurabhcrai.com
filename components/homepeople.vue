@@ -9,10 +9,10 @@
     <div class="h-p-overlay"></div>
     <div class="h-p-wrapper">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div class="reveal-block right" data-aos="reveal-right"></div>
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/img/home/home-people-mobile.jpg" />
-          <img src="~assets/img/home/home-people.jpg" alt="elevito wireframe" />
+          <img src="~assets/img/home/home-people.jpg" alt="lots of people photos in circle" />
         </picture>
       </div>
 
@@ -242,4 +242,6 @@ export default {}
     letter-spacing: 1px;
   }
 }
+
+/* button */
 </style>

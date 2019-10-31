@@ -1,6 +1,6 @@
 <template>
   <!-- Elevito work -->
-  <div id="scroll-area">
+  <div>
     <div class="ppnp-container">
       <nuxt-link to="/projects/feeding-trends">
         <next />
@@ -9,6 +9,7 @@
         <previous />
       </nuxt-link>
     </div>
+
     <projecthero
       pDate="October 2017 "
       pWebsite="elevito.com"

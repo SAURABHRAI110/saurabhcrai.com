@@ -39,7 +39,7 @@
             <thumbnail
               thumbnailName="Elevito"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6d.webp"
+              thumbnail="/elevito-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="800"
@@ -54,8 +54,7 @@
             <thumbnail
               thumbnailName="Feeding Trends"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/ft-thumbnail.jpg"
-              color="var(--primary-color)"
+              thumbnail="/ft-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="1000"
@@ -84,7 +83,7 @@
             <thumbnail
               thumbnailName="Filming Eye"
               thumbnailDescription="Web, Identity"
-              thumbnail="/showcase1.webp"
+              thumbnail="/filming-eye-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -94,28 +93,14 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/dreamz">
             <thumbnail
-              thumbnailName="Dear Zindagi"
-              thumbnailDescription="Brochure, Identity"
-              thumbnail="/showcase2.webp"
-              data-aos="fade-up"
+              thumbnailName="Dreamz"
+              thumbnailDescription="App Design, HF Prototype"
+              thumbnail="/dreamz-thumbnail-cyan.jpg"
+              data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/mr-irritating">
-            <thumbnail
-              thumbnailName="Mr. Irritating"
-              thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="200"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -150,12 +135,26 @@
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dreamz">
+          <nuxt-link to="/projects/mr-irritating">
             <thumbnail
-              thumbnailName="Dreamz"
-              thumbnailDescription="App Design, HF Prototype"
-              thumbnail="/dreamz-thumbnail-cyan.jpg"
+              thumbnailName="Mr. Irritating"
+              thumbnailDescription="Print, Social Media"
+              thumbnail="/showcase3.webp"
               data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="200"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/dear-zindagi">
+            <thumbnail
+              thumbnailName="Dear Zindagi"
+              thumbnailDescription="Brochure, Identity"
+              thumbnail="/showcase2.webp"
+              data-aos="fade-up"
               data-aos-duration="400"
               data-aos-delay="0"
               data-aos-once="true"
@@ -172,20 +171,6 @@
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/r3">
-            <thumbnail
-              thumbnailName="R3"
-              thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4a.webp"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="0"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -225,6 +210,20 @@
               thumbnailName="Salesfactory"
               thumbnailDescription="Web Design + Development"
               thumbnail="/salesfactory-thumbnail.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="0"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/r3">
+            <thumbnail
+              thumbnailName="R3"
+              thumbnailDescription="Social Media, logo"
+              thumbnail="/showcase4a.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"
@@ -344,10 +343,12 @@
       <div class="p-quote-container p-h-quote-contain p-quote red">
         <blockquote>
           The greatest Project is the one you work on yourself".
-          This is no way the end, this is just a start.💚
+          This is no way the end, this is just a start.❤️
         </blockquote>
       </div>
-      <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
+      <div>
+        <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
+      </div>
     </div>
 
     <div class="p-project-footer">
@@ -418,8 +419,9 @@ export default {
 .p-footer-container img {
   height: 83%;
   position: absolute;
-  right: 150px;
+  right: 7%;
   bottom: 0px;
+  z-index: 1;
 }
 
 .p-h-quote-contain {
@@ -427,8 +429,14 @@ export default {
   margin: 63px 32.4% 0px calc(20% - 83px);
   top: 21%;
   padding: 28px 0px 0px 0px;
+  z-index: 3;
 }
 
+@media screen and (max-width: 1200px) {
+  .p-h-quote-contain {
+    padding: 27px 92px 0px 0px;
+  }
+}
 @media screen and (max-width: 800px) {
   .p-h-quote-contain {
     /* margin-left: 20%; */
