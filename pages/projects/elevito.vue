@@ -1,14 +1,17 @@
 <template>
-  <!-- Elevito work -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/awesome-inc">
+      <nuxt-link to="my-portfolio-website">
         <previous />
       </nuxt-link>
 
       <nuxt-link to="/projects/feeding-trends">
         <next />
       </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">01</p>
+      </div>
     </div>
 
     <projecthero

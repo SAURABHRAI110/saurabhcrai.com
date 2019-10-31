@@ -2,13 +2,19 @@
   <!-- Feeding Trends -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/thebbdtimes">
-        <next />
-      </nuxt-link>
-      <nuxt-link to="/projects/feeding-trends">
+      <nuxt-link to="elevito">
         <previous />
       </nuxt-link>
+
+      <nuxt-link to="bharatrohan">
+        <next />
+      </nuxt-link>
+
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">02</p>
+      </div>
     </div>
+
     <projecthero
       pDate="December 2017 "
       pWebsite="feedingtrends.com"

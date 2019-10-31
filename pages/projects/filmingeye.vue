@@ -1,12 +1,19 @@
 <template>
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/dear-zindagi">
+      <nuxt-link to="bharatrohan">
+        <previous />
+      </nuxt-link>
+
+      <nuxt-link to="dreamz">
         <next />
       </nuxt-link>
 
-      <previous />
+      <div class="ppnp-number-container">
+        <p class="black ppnp-p-number">04</p>
+      </div>
     </div>
+
     <projecthero
       pDate="Dec 2018 "
       pWebsite="filmingeye.com"

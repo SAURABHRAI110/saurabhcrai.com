@@ -5,13 +5,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  props: {
+    previousproject: String
+  }
+}
 </script>
 
 <style scoped>
 .p-previous {
   padding: 10px 17px 10px 17px;
   transition: border 0.2s cubic-bezier(0.6, 0.7, 0, 1);
+  opacity: 0.77;
 }
 
 .p-previous img {
@@ -20,5 +25,6 @@ export default {}
 
 .p-previous:hover {
   border: solid 1px black;
+  opacity: 1;
 }
 </style>

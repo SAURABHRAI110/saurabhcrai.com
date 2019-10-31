@@ -927,6 +927,22 @@ view more work*/
   z-index: 2;
   display: flex;
   flex-direction: row;
+
+  
+}
+
+.ppnp-number-container{
+  align-content: center;
+}
+
+.ppnp-number-container p{
+  font-size: 14px;
+  writing-mode: vertical-rl;
+text-orientation: mixed;
+padding: 17px 4px 17px 2px;
+  border: solid 1px rgb(201, 201, 201) ;
+ 
+ 
 }
 
 
