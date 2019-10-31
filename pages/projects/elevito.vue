@@ -2,11 +2,12 @@
   <!-- Elevito work -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="/projects/feeding-trends">
-        <next />
-      </nuxt-link>
       <nuxt-link to="/projects/awesome-inc">
         <previous />
+      </nuxt-link>
+
+      <nuxt-link to="/projects/feeding-trends">
+        <next />
       </nuxt-link>
     </div>
 

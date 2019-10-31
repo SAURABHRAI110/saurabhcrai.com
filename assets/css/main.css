@@ -924,8 +924,9 @@ view more work*/
   position: absolute;
   right: 46px;
   top: 168px;
-  width: 80px;
   z-index: 2;
+  display: flex;
+  flex-direction: row;
 }
 
 
