@@ -186,7 +186,6 @@
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
           <img
-            id="zoom-default"
             src="~assets/projects/ft/ft-responsive-p.gif"
             alt="responsive layout, responsive web, prototype"
           />
@@ -210,7 +209,6 @@
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <img
-            id="zoom-default"
             src="~assets/projects/ft/ft-responsive-mockup.jpg"
             alt="web mockup, feeding trends web mockup, responsive web"
           />
@@ -219,8 +217,10 @@
     </div>
     <!-- Problems -->
     <pcase
-      heading="Lets see some pretty pictures: Final Stuff"
-      para=" People love pretty picture, the final thing that is out there in real world.
+      heading="High Fedality Design"
+      para=" Putting all the reasearch and i started making high fedality design for the website starting with its
+      content page then moving farword from there to Home page and every other page. I did a simple prototype connecting
+      all the pages navigation. 
                
      "
       theme="theme_ft"
@@ -230,14 +230,128 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft7.jpg" />
           <img
-            id="zoom-default"
+            src="~assets/projects/ft/ft7.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft9.jpg" />
+          <img
+            src="~assets/projects/ft/ft9.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft10.jpg" />
+          <img
+            src="~assets/projects/ft/ft10.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <img
+            src="~assets/projects/ft/ft11.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <img
+            src="~assets/projects/ft/ft12.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <img
+            src="~assets/projects/ft/ft13.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <!-- Problems -->
+    <pcase
+      heading="Brand Identity"
+      para=" When web design was done and I handover everything to developer from design assets to documetation of it.
+      I started working on its brand identity to be used for business proposes of the company. Designed Letterhead, Visiting card, Id card, made mockups and everything in between.
+                     
+     "
+      theme="theme_ft"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <img
+            src="~assets/projects/ft/ft-brand-identity.jpg"
+            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
             src="~assets/projects/ft/ft-design-system.jpg"
             alt="mockup, tab, mobile, floating mockup"
           />
         </picture>
       </div>
     </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft/ft-happy-people.jpg"
+            alt="mockup, tab, mobile, floating mockup"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <liveLink link="https://feedingtrends.com/" text="Launch Site" />
 
     <!-- key Focus Area -->
 
@@ -275,13 +389,10 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            This project was very long, there was so many changes done one after one. So many iteration.
+            Well after the development the website traffic increased. People started taking there seriousaly.
+            The problem that was there before redesign was solved. The development team did a great job and
+            took my design even further and better with all the tweaking done from time to time.
           </p>
         </div>
       </div>
@@ -289,8 +400,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        It is the people that makes everything worthwhile. I happen to work with some great people during
+        design phase and later on during development phase as an audience. It was awesome.
       </blockquote>
     </div>
 
@@ -346,6 +457,7 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
+import LiveLink from '~/components/projects/live-link'
 
 export default {
   layout: 'projects',
@@ -359,7 +471,8 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav
+    Allprojectsnav,
+    LiveLink
   }
 }
 </script>
