@@ -230,9 +230,12 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft7.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-web-pages-wireframe-mobile.jpg"
+          />
           <img
-            src="~assets/projects/ft/ft7.jpg"
+            src="~assets/projects/ft/ft-web-pages-wireframe.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
           />
         </picture>
@@ -243,9 +246,9 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft9.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-1.jpg" />
           <img
-            src="~assets/projects/ft/ft9.jpg"
+            src="~assets/projects/ft/ft-web-mokup-1.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
           />
         </picture>
@@ -256,9 +259,9 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft10.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-2.jpg" />
           <img
-            src="~assets/projects/ft/ft10.jpg"
+            src="~assets/projects/ft/ft-web-mokup-2.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
           />
         </picture>
@@ -269,9 +272,12 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-mobile-screen-1-mobile.jpg"
+          />
           <img
-            src="~assets/projects/ft/ft11.jpg"
+            src="~assets/projects/ft/ft-mobile-screen-1.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
           />
         </picture>
@@ -282,9 +288,12 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-mobile-screen-2-mobile.jpg"
+          />
           <img
-            src="~assets/projects/ft/ft12.jpg"
+            src="~assets/projects/ft/ft-mobile-screen-2.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
           />
         </picture>
@@ -295,7 +304,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-screen.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-screen-mobile.jpg" />
           <img
             src="~assets/projects/ft/ft-web-screen.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
@@ -304,13 +313,15 @@
       </div>
     </div>
 
+    <!-- cup -->
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-cup-mobile.jpg" />
           <img
-            src="~assets/projects/ft/ft13.jpg"
+            src="~assets/projects/ft/ft-cup.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
           />
         </picture>
@@ -331,7 +342,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft11.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-brand-identity-mobile.jpg"
+          />
           <img
             src="~assets/projects/ft/ft-brand-identity.jpg"
             alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
