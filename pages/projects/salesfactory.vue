@@ -277,21 +277,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/prepowl">
             <pfooterp
-              projectName="R3"
-              projectCategories="Social Media, Logo"
-              thumbnail="/showcase4.webp"
+              projectName="Prepowl"
+              projectCategories="Web Design and Development"
+              thumbnail="/prepowl-thumbnail-blue.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/bharatrohan">
+          <nuxt-link to="/projects/r3">
             <pfootern
-              projectName="bharatrohan"
-              projectCategories="Web, Branding, Print"
-              thumbnail="/showcase6.webp"
+              projectName="Read Recite Repeat"
+              projectCategories="Social Media, logo"
+              thumbnail="/r3-thumbnail.webp"
             />
           </nuxt-link>
         </div>

@@ -194,7 +194,7 @@
           <nuxt-link to="/projects/prepowl">
             <thumbnail
               thumbnailName="Prepowl"
-              thumbnailDescription="Web, Logo"
+              thumbnailDescription="Web Design and Development"
               thumbnail="/prepowl-thumbnail-blue.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
@@ -223,7 +223,7 @@
             <thumbnail
               thumbnailName="R3"
               thumbnailDescription="Social Media, logo"
-              thumbnail="/showcase4a.webp"
+              thumbnail="/r3-thumbnail.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="0"

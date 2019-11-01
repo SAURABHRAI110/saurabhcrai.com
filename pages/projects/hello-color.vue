@@ -283,21 +283,21 @@
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/hindigiri">
             <pfooterp
-              projectName="Dear Zindagi"
-              projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              projectName="Hindigiri"
+              projectCategories="Branding, Marketing"
+              thumbnail="/hindigiri-thumbnail.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/logofolio">
             <pfootern
-              projectName="R3"
-              projectCategories="Social Media, logo"
-              thumbnail="/showcase4.jpg"
+              projectName="Logofolio"
+              projectCategories="logos design so far"
+              thumbnail="/logofolio-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

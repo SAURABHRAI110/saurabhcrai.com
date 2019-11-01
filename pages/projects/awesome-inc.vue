@@ -257,7 +257,7 @@
         <div class="p-f-n-container">
           <nuxt-link to="/projects/tbt-app">
             <pfootern
-              projectName="TBT Ap"
+              projectName="TBT App"
               projectCategories="App, Branding"
               thumbnail="/tbt-app-thumbnail.jpg"
             />

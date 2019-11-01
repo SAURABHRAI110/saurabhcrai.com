@@ -387,7 +387,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/my-portfolio-website">
             <pfooterp
               projectName="My Portfolio Website"
               projectCategories="Web design and Development"

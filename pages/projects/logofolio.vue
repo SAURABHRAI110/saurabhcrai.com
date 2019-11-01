@@ -342,21 +342,21 @@ http://stephencalvillodesign.com/project/prestoq
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/mr-irritating">
+          <nuxt-link to="/projects/hello-color">
             <pfooterp
-              projectName="Mr. Irritating"
-              projectCategories="Print, Social Media"
-              thumbnail="/showcase3.webp"
+              projectName="Hello Color"
+              projectCategories="Book Design"
+              thumbnail="/hello-colors-thumbnail.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/my-portfolio-website">
             <pfootern
-              projectName="Awesome Inc"
-              projectCategories="Identity, Print"
-              thumbnail="/showcase5b.webp"
+              projectName="My Portfolio Website"
+              projectCategories="Web design and Development"
+              thumbnail="/my-website-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

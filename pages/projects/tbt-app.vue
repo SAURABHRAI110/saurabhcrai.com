@@ -337,21 +337,21 @@
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/awesome-inc">
             <pfooterp
-              projectName="Dear Zindagi"
-              projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              projectName="Awesome Inc."
+              projectCategories="Identity, Print"
+              thumbnail="/awesome-inc-thumnail-3.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/prepowl">
             <pfootern
-              projectName="R3"
-              projectCategories="Social Media, logo"
-              thumbnail="/showcase4.jpg"
+              projectName="Prepowl"
+              projectCategories="Web Design and Development"
+              thumbnail="/prepowl-thumbnail-blue.jpg"
             />
           </nuxt-link>
         </div>
