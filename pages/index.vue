@@ -274,10 +274,10 @@
             <thumbnail
               thumbnailName="Elevito"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/showcase6d.webp"
+              thumbnail="/elevito-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="800"
+              data-aos-delay="100"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -289,11 +289,10 @@
             <thumbnail
               thumbnailName="Feeding Trends"
               thumbnailDescription="Web, Branding, Print"
-              thumbnail="/ft-thumbnail.jpg"
-              color="var(--primary-color)"
+              thumbnail="/ft-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="1000"
+              data-aos-delay="300"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -308,7 +307,7 @@
               thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -319,38 +318,24 @@
             <thumbnail
               thumbnailName="Filming Eye"
               thumbnailDescription="Web, Identity"
-              thumbnail="/showcase1.webp"
+              thumbnail="/filming-eye-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="200"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
         </div>
 
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/dreamz">
             <thumbnail
-              thumbnailName="Dear Zindagi"
-              thumbnailDescription="Brochure, Identity"
-              thumbnail="/showcase2.webp"
-              data-aos="fade-up"
-              data-aos-duration="400"
-              data-aos-delay="0"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/mr-irritating">
-            <thumbnail
-              thumbnailName="Mr. Irritating"
-              thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.webp"
+              thumbnailName="Dreamz"
+              thumbnailDescription="App Design, HF Prototype"
+              thumbnail="/dreamz-thumbnail-cyan.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="200"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -364,7 +349,7 @@
               thumbnail="/ft-event-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="0"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -378,7 +363,21 @@
               thumbnail="/tbt-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="200"
+              data-aos-delay="100"
+              data-aos-once="true"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/mr-irritating">
+            <thumbnail
+              thumbnailName="Mr. Irritating"
+              thumbnailDescription="Print, Social Media"
+              thumbnail="/mr-irritating-thumbnail.webp"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>

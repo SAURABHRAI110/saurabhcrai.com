@@ -1,7 +1,7 @@
 <template>
   <nuxt-link to="/projects">
-    <div class="p-all-nav">
-      <div class="p-nav-icon" title="All projects">
+    <div class="p-all-nav" title="to all projects">
+      <div class="p-nav-icon">
         <div></div>
         <div></div>
         <div></div>
@@ -27,6 +27,7 @@ export default {}
   position: absolute;
   transform: translate(-50%, -50%);
   z-index: 2;
+  transition: border 1s cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .p-nav-icon {
@@ -51,6 +52,9 @@ export default {}
   grid-gap: 7px;
 }
 
+.p-all-nav:hover {
+  border: solid 1px white;
+}
 .p-all-nav:hover > .p-nav-icon > div {
   background-color: rgb(255, 255, 255);
 }
