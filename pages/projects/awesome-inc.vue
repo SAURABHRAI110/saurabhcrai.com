@@ -245,21 +245,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/dear-zindagi">
             <pfooterp
-              projectName="R3"
-              projectCategories="Social Media, Logo"
-              thumbnail="/showcase4.webp"
+              projectName="Dear Zindagi"
+              projectCategories="Brochure, Identity"
+              thumbnail="/dear-zindagi-thumbnail.webp"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/tbt-app">
             <pfootern
-              projectName="Elevito"
-              projectCategories="Web, Branding, Print"
-              thumbnail="/showcase6.webp"
+              projectName="TBT Ap"
+              projectCategories="App, Branding"
+              thumbnail="/tbt-app-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

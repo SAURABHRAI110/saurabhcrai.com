@@ -345,21 +345,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/filmingeye">
+          <nuxt-link to="/projects/mr-irritating">
             <pfooterp
-              projectName="Filming Eye"
-              projectCategories="Web, Identity"
-              thumbnail="/showcase1.webp"
+              projectName="Mr. Irritating"
+              projectCategories="Print, Social Media"
+              thumbnail="/mr-irritating-thumbnail.webp"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/mr-irritating">
+          <nuxt-link to="/projects/awesome-inc">
             <pfootern
-              projectName="Mr. Irritating"
-              projectCategories="Print, Social Media"
-              thumbnail="/showcase3.webp"
+              projectName="Awesome Inc."
+              projectCategories="Identity, Print"
+              thumbnail="/awesome-inc-thumnail-3.jpg"
             />
           </nuxt-link>
         </div>

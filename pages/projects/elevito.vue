@@ -389,9 +389,9 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <div class="p-f-p-container">
           <nuxt-link to="/projects/awesome-inc">
             <pfooterp
-              projectName="Awesome Inc"
-              projectCategories="Identity, Print"
-              thumbnail="/showcase5b.webp"
+              projectName="My Portfolio Website"
+              projectCategories="Web design and Development"
+              thumbnail="/my-website-thumbnail.jpg"
             />
           </nuxt-link>
         </div>
@@ -401,7 +401,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             <pfootern
               projectName="Feeding Trends"
               projectCategories="Web, Branding, Print"
-              thumbnail="/showcase7a.webp"
+              thumbnail="/ft-thumbnail-2.jpg"
             />
           </nuxt-link>
         </div>

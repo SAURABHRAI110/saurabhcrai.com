@@ -344,21 +344,21 @@ Discover, Share with friends, Book ticket for them, Go to event, Repeat.
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/dreamz">
             <pfooterp
-              projectName="Dear Zindagi"
-              projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.jpg"
+              projectName="Dreamz"
+              projectCategories="App Design, Prototype"
+              thumbnail="/dreamz-thumbnail-cyan.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/thebbdtimes">
             <pfootern
-              projectName="R3"
-              projectCategories="Social Media, logo"
-              thumbnail="/showcase4.jpg"
+              projectName="The BBD Times"
+              projectCategories="Branding"
+              thumbnail="/tbt-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

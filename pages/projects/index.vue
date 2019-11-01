@@ -139,7 +139,7 @@
             <thumbnail
               thumbnailName="Mr. Irritating"
               thumbnailDescription="Print, Social Media"
-              thumbnail="/showcase3.webp"
+              thumbnail="/mr-irritating-thumbnail.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="200"
@@ -151,7 +151,7 @@
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/dear-zindagi">
             <thumbnail
-              thumbnailName="Dear Zindagi"
+              thumbnailName="dear-zindagi-thumbnail.webp"
               thumbnailDescription="Brochure, Identity"
               thumbnail="/showcase2.webp"
               data-aos="fade-up"

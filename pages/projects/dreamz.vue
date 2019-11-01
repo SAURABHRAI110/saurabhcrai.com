@@ -386,21 +386,21 @@ But there is limitation set. You need to step up your level. Nice move. So you g
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/mr-irritating">
+          <nuxt-link to="/projects/filmingeye">
             <pfooterp
-              projectName="Mr. Irritating"
-              projectCategories="Print, Social Media"
-              thumbnail="/showcase3.webp"
+              projectName="Filming Eye"
+              projectCategories="Web, Identity"
+              thumbnail="/filming-eye-thumbnail.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/awesome-inc">
+          <nuxt-link to="/projects/ft-events">
             <pfootern
-              projectName="Awesome Inc"
-              projectCategories="Identity, Print"
-              thumbnail="/showcase5b.webp"
+              projectName="FT Events"
+              projectCategories="Web Design, Admin Panel"
+              thumbnail="/ft-event-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

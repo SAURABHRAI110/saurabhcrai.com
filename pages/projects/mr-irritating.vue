@@ -12,8 +12,7 @@
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">08</p>
       </div>
-    </div>
->
+    </div>>
     <projecthero
       pDate="March 2017 "
       pWebsite="Mr. Irritating"
@@ -699,21 +698,21 @@ Mr. Irritating shall not irritate you!"
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/thebbdtimes">
             <pfooterp
-              projectName="Dear Zindagi"
-              projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.webp"
+              projectName="The BBD Times"
+              projectCategories="Branding"
+              thumbnail="/tbt-thumbnail.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/dear-zindagi">
             <pfootern
-              projectName="R3"
-              projectCategories="Social Media, logo"
-              thumbnail="/showcase4.webp"
+              projectName="Dear Zindagi"
+              projectCategories="Brochure, Identity"
+              thumbnail="/dear-zindagi-thumbnail.webp"
             />
           </nuxt-link>
         </div>

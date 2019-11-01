@@ -386,21 +386,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/r3">
+          <nuxt-link to="/projects/feeding-trends">
             <pfooterp
-              projectName="R3"
-              projectCategories="Social Media, Logo"
-              thumbnail="/showcase4.webp"
+              projectName="Feeding Trends"
+              projectCategories="Web, Branding, Print"
+              thumbnail="/ft-thumbnail-2.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/bharatrohan">
+          <nuxt-link to="/projects/filmingeye">
             <pfootern
-              projectName="bharatrohan"
-              projectCategories="Web, Branding, Print"
-              thumbnail="/showcase6.webp"
+              projectName="Filming Eye"
+              projectCategories="Web, Identity"
+              thumbnail="/filming-eye-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

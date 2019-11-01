@@ -388,21 +388,21 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to>
+          <nuxt-link to="bharatrohan">
             <pfooterp
-              projectName="This is Begining"
-              projectCategories="No previous projects"
-              thumbnail="/no.jpg"
+              projectName="Bharatrohan"
+              projectCategories="App, Admin, Web"
+              thumbnail="/bharatrohangif2.gif"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/dreamz">
             <pfootern
-              projectName="Dear Zindagi"
-              projectCategories="Brochure, Identity"
-              thumbnail="/showcase2.webp"
+              projectName="Dreamz"
+              projectCategories="App Design, Prototype"
+              thumbnail="/dreamz-thumbnail-cyan.jpg"
             />
           </nuxt-link>
         </div>
