@@ -157,11 +157,12 @@
           <img src="~assets/projects/ft/ft-mindmap.jpg" alt="mockup, tab, mobile, floating mockup" />
         </picture>
       </div>
-    </div>5
+      <p class="ps black90">-- Mind map--</p>
+    </div>
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Making mind map helped the team materialize the concepts and make their characteristics more explicit: it revealed hidden clusters,
+        patterns and entities, it made them more clear and more understandable.
       </blockquote>
     </div>
 
@@ -208,6 +209,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-responsive-mockup-mobile.jpg"
+          />
           <img
             src="~assets/projects/ft/ft-responsive-mockup.jpg"
             alt="web mockup, feeding trends web mockup, responsive web"
@@ -215,6 +220,7 @@
         </picture>
       </div>
     </div>
+
     <!-- Problems -->
     <pcase
       heading="High Fedality Design"
@@ -378,7 +384,7 @@
       </div>
     </div>
 
-    <liveLink link="https://feedingtrends.com/" text="Launch Site" />
+    <liveLink link="https://feedingtrends.com/" text="Launch Site | feedingtrends.com" />
 
     <!-- key Focus Area -->
 
