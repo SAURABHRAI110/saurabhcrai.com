@@ -28,6 +28,7 @@
     "nuxt": "^2.4.0",
     "nuxt-i18n": "^6.2.1",
     "nuxt-webfontloader": "^1.1.0",
+    "please-wait": "0.0.5",
     "responsive-loader": "^1.2.0",
     "sharp": "^0.23.0",
     "vue-agile": "^1.0.11",
@@ -36,7 +37,8 @@
     "vue-lazyload": "^1.3.3",
     "vue-loader": "^15.7.1",
     "vue-parallaxy": "^1.1.1",
-    "vue-rellax": "^0.1.0"
+    "vue-rellax": "^0.1.0",
+    "vue-resource": "^1.5.1"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",

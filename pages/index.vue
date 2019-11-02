@@ -1,6 +1,5 @@
 <template>
-  <div class="preload">
-    <preloader />
+  <div>
     <div class="a-hero_container">
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
         <img src="~assets/svg/circle.svg" alt="circle" />
@@ -438,15 +437,13 @@ import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
 import BlogSection from '~/components/Sections/BlogSection'
 import blogsEn from '~/contents/en/blogsEn.js'
-import Preloader from '~/components/preloader'
 
 export default {
   components: {
     Thumbnail,
     Discovermore,
     Homepeople,
-    BlogSection,
-    Preloader
+    BlogSection
   },
 
   async asyncData({ app }) {
