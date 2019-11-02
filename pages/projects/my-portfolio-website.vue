@@ -54,31 +54,18 @@ http://stephencalvillodesign.com/project/prestoq
 
     -->
 
-    <pcase heading="Preface" para="The making of this website.
-" theme="theme_my_website" />
+    <pcase
+      heading="Preface"
+      para="The making of this website. Cureently I am working on this project showcase.
+"
+      theme="theme_my_website"
+    />
     <!-- Problem -->
 
     <pcase
       heading="Purpose"
       para=" To design and develop my personal portfolio website where I can show all my works that I have done in the past
       and to learn  front-end development.
-     "
-      theme="theme_my_website"
-    />
-
-    <pcase
-      heading="From humble Beginnings"
-      para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
-    my seniors, co-founded feeding trends. I was in 6th semester, enjoying some home time during summer vacation, got a call from
-    Yash sir and I was asked to do a logo design for FeedingTrends. I remember it was a long call. Well moving forward, logo designing
-    is tough, I took my time and did textual logo, used a  Sans font, outlined it, played around arrow, to make it feel like 
-    trendy stuff and yeah Finished. We moved forward and setup  implemented logo on Facebook, Instagram and on stuff.
-    FT got recognized and people started sharing our stuff and yeah it was great start.
-    <br><br>
-    Later on after 2 month I joined FeedingTrends. While still managing my time around
-    college and working at feeding Trends Office. Bunking Classes just to work on outgoing projects at FT Office or from my flat.
-  
-        
      "
       theme="theme_my_website"
     />
@@ -93,149 +80,6 @@ http://stephencalvillodesign.com/project/prestoq
       </blockquote>
     </div>-->
     <!-- team pic -->
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft/ft-team-blue-3.jpg"
-            alt="creative team pic, team pic, team, designers, developers"
-          />
-          <p class="ps">Feeding Trends Team: 2017</p>
-        </picture>
-      </div>
-    </div>
-
-    <pcase
-      heading="Back to design: Project Brief"
-      para=" The Feeding Trends Website was already up and running, when people around the team felt a need
-      of Redesigning everything from scartch. The website previously was just content.
-      
-      <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
-    
-  
-        
-     "
-      theme="theme_my_website"
-    />
-    <!-- Problems -->
-    <pcase
-      heading="Problems To be solved and Considerations"
-      para=" 
-      1. Clear structure and navigation flows; <br>
-      2. Compelling and clear visual design; <br>
-      3. Great copy and tone of voice; <br>
-      4. Thoughtful transitions and animations; <br>
-      5. The website's performance and speed; <br>
-      6. The user's mobile phone performance and speed; <br>
-      7. Content readability; <br>
-      8. Mobile first; <br>
-      9. Article suggestion, ro read more; <br>
-      9. Proper design colors and aesthetics. <br>
-     "
-      theme="theme_my_website"
-    />
-    <!-- Desighn -->
-    <pcase
-      heading="Research and Ideation"
-      para=" Many meeding were held to discuss the same with all the team, designers and developers, 
-      we decided to go with Making a mvp. Ideated mind maps and wireframes.
-      
-        
-     "
-      theme="theme_my_website"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img src="~assets/projects/ft/ft-mindmap.jpg" alt="mockup, tab, mobile, floating mockup" />
-        </picture>
-      </div>
-    </div>5
-    <div class="p-quote contain red">
-      <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
-      </blockquote>
-    </div>
-
-    <!-- Desighn -->
-    <pcase
-      heading="Design"
-      para="Open> XD> Design. The first thing I designed was the content page. It was the first thing any user will visit
-      whenever he/she follow a journey of coming to website thorough  whatsapp, facebook link shared to them.
-      So, It got my first priority. After going through some websites, Behance and sharing things with team, I designed
-      layout focused to enrich user reading experience, experimenting with font size, colour, contrast till getting it 
-      just right to move forward. The below is the design I did for the content Page.
-      
-      <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
-            
-     "
-      theme="theme_my_website"
-    />
-    <div class="ft-responsive-gif">
-      <div class="contain">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
-          <img
-            id="zoom-default"
-            src="~assets/projects/ft/ft-responsive-p.gif"
-            alt="responsive layout, responsive web, prototype"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- Desighn -->
-    <pcase
-      heading="Layout Options"
-      para=" I experimented with diffrent layouts to put everything together, got feedbck from team and designed
-      som high fedality mockup and test it through Adobe XD prototyping, Made protype, tested it and finally
-      we got to the points where me and team agreed to stick to one layout and moved farword to design further pages and adding
-      required details.
-            
-     "
-      theme="theme_my_website"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            id="zoom-default"
-            src="~assets/projects/ft/ft-responsive-mockup.jpg"
-            alt="web mockup, feeding trends web mockup, responsive web"
-          />
-        </picture>
-      </div>
-    </div>
-    <!-- Problems -->
-    <pcase
-      heading="Lets see some pretty pictures: Final Stuff"
-      para=" People love pretty picture, the final thing that is out there in real world.
-               
-     "
-      theme="theme_my_website"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            id="zoom-default"
-            src="~assets/projects/ft/ft-design-system.jpg"
-            alt="mockup, tab, mobile, floating mockup"
-          />
-        </picture>
-      </div>
-    </div>
 
     <!-- key Focus Area -->
 
@@ -272,15 +116,7 @@ http://stephencalvillodesign.com/project/prestoq
       <div class="contain">
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
-          <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
-          </p>
+          <p>test content</p>
         </div>
       </div>
     </div>

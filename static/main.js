@@ -1,5 +1,8 @@
 // Easescroll
 
+$(window).load(function () {
+  $("body").removeClass("preload");
+});
 
 
 $("html").easeScroll({
