@@ -45,7 +45,7 @@
     <pcase
       heading="Preface"
       para="Salesfactory is software solution startup company based in Varanasi started by my School friend.
-      They provide custom made software for business for their day to day work. More detailes on its website
+      They provide custom made software for business for their day to day work. More details on its website
        <a  href='https://salesfactory.in'
             target='_blank'
             rel='noopener'

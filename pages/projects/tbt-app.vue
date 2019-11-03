@@ -68,7 +68,7 @@
         working with a team of talented people, all I did was my first time. 
         <br> 
         <br>
-        Pretty much it was people that were involved in creating a ecosystem that connects thousands of people. Creating a brands that people recognise and appreciate that can helps 
+        Pretty much it was people that were involved in creating a ecosystem that connects thousands of people. Creating a brands that people recognize and appreciate that can helps 
         students to share their talents and get involved. Creating an app might seem just a work of few people, but
         making it possible so that ot helps students is combined effort of a whole team. Well we ere 23 people having skills to make it possible.
         and we did. 
@@ -108,7 +108,7 @@
       heading="Coming to App"
       para=" The Idea was to make an app for students where we can share all the happenings
       from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      available and easily accessible. It was our seniors Initiative and we with combined effort made it possible. People that made it possible.
       @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
      
                 
@@ -118,10 +118,12 @@
 
     <pcase
       heading="Making The App Logo"
-      para=" The Idea was to make an app for students where we can share all the happenings
-      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
-      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+      para=" Back to 2015, this was my first app logo i was going to design, The idea behind the logo was 
+      To Stand Out. I figured i better use Illustrator for this better learn that scary pen tool. For the first few days 
+      i began to to learn some tools to will be used to logo design and some why and why not, red articles, researched on google with similar
+      logo. After I got inspiration from winner where the first winner is at the top and likewise and 
+      I began working on that with pen tool. After some iterations like 30 40 iteration. I got there where I can say
+      This is it. Wow. Just made my First app logo.
      
                 
       "
@@ -153,10 +155,8 @@
 
     <pcase
       heading="Final Screens"
-      para=" The Idea was to make an app for students where we can share all the happenings
-      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
-      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+      para="Most of the design requirement ws already sent by the developer.  I was just putting everything
+      together, making best layout possible where everyone could agree. This is it. Santanu helped a lot. 
      
                 
       "
@@ -195,10 +195,10 @@
 
     <pcase
       heading="Deploying On Play Store"
-      para=" The Idea was to make an app for students where we can share all the happenings
-      from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
-      @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
+      para=" While the app was being deployed on Play store. I was asked to make some shots the upload on playstore.
+      So visited play store, looked fere and there. Asked myself how this should be done, talked to content writers about possible
+      tagline for each screen. 
+      Made it, saved it in jpg. Hooyah. Done my first screen for any App.
      
                 
       "
@@ -222,7 +222,7 @@
       heading="Publicity"
       para=" The Idea was to make an app for students where we can share all the happenings
       from the college. Where students can share their story and we can publish them in App and in our blog. Also to have some interesting stuff and information
-      available and easily accessible. It was our seniors Inicciative and we with combined effort made it possible. People that made it possible.
+      available and easily accessible. It was our seniors Initiative and we with combined effort made it possible. People that made it possible.
       @Parvej Khan @Dhairy Mohan Shukla @Avaneesh @krishna Mohan @Sakshi @Zainab Siddique @Yash Srivastava @Jayati @Ambika +more
      
                 
