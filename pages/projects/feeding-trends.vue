@@ -52,7 +52,7 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Feeding Trends is an online media company organising literary styles for interactive journalism. They publish
+      para=" Feeding Trends is an online media company organizing literary styles for interactive journalism. They publish
     global trends, which are important, relevant and interesting. Their prime focus lies in the curation of highly engrossing content.
     Working diligently to convince people into spending time with content, through effective imagination, creation and presentation.
     And in a way wishing for is to uplift the notion that ‘media is dead’. Wanting to do wonders with their content, with people talking about them, anywhere and everywhere
@@ -112,7 +112,7 @@
     <pcase
       heading="Back to design: Project Brief"
       para=" The Feeding Trends Website was already up and running, when people around the team felt a need
-      of Redesigning everything from scartch. The website previously was just content.
+      of Redesigning everything from scratch. The website previously was just content.
       
       <br><br>
       To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
@@ -142,7 +142,7 @@
     <!-- Desighn -->
     <pcase
       heading="Research and Ideation"
-      para=" Many meeding were held to discuss the same with all the team, designers and developers, 
+      para=" Many meeting were held to discuss the same with all the team, designers and developers, 
       we decided to go with Making a mvp. Ideated mind maps and wireframes.
       
         
@@ -196,8 +196,8 @@
     <!-- Desighn -->
     <pcase
       heading="Layout Options"
-      para=" I experimented with diffrent layouts to put everything together, got feedbck from team and designed
-      som high fedality mockup and test it through Adobe XD prototyping, Made protype, tested it and finally
+      para=" I experimented with different layouts to put everything together, got feedback from team and designed
+      som high feudality mockup and test it through Adobe XD prototyping, Made prototype, tested it and finally
       we got to the points where me and team agreed to stick to one layout and moved farword to design further pages and adding
       required details.
             
@@ -223,9 +223,9 @@
 
     <!-- Problems -->
     <pcase
-      heading="High Fedality Design"
-      para=" Putting all the reasearch and i started making high fedality design for the website starting with its
-      content page then moving farword from there to Home page and every other page. I did a simple prototype connecting
+      heading="High Feudality Design"
+      para=" Putting all the research and i started making high feudality design for the website starting with its
+      content page then moving forward from there to Home page and every other page. I did a simple prototype connecting
       all the pages navigation. 
                
      "
@@ -242,7 +242,7 @@
           />
           <img
             src="~assets/projects/ft/ft-web-pages-wireframe.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, saurabh rai, shekhar Gupta, Yash Srivastava"
           />
         </picture>
       </div>
@@ -337,7 +337,7 @@
     <!-- Problems -->
     <pcase
       heading="Brand Identity"
-      para=" When web design was done and I handover everything to developer from design assets to documetation of it.
+      para=" When web design was done and I handover everything to developer from design assets to documentation of it.
       I started working on its brand identity to be used for business proposes of the company. Designed Letterhead, Visiting card, Id card, made mockups and everything in between.
                      
      "
@@ -406,7 +406,7 @@
               <span>✔ Testing with users</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ Identity Design</span>
               <span>✔ Defending UX Decisions</span>
               <span>✔ Pop and un-pop things</span>
             </div>
@@ -423,7 +423,7 @@
         <div class="pm black70">
           <p>
             This project was very long, there was so many changes done one after one. So many iteration.
-            Well after the development the website traffic increased. People started taking there seriousaly.
+            Well after the development the website traffic increased. People started taking there seriously.
             The problem that was there before redesign was solved. The development team did a great job and
             took my design even further and better with all the tweaking done from time to time.
           </p>
