@@ -53,9 +53,9 @@ http://stephencalvillodesign.com/project/prestoq
     -->
     <pcase
       heading="Preface"
-      para="All about Dreamz is a startup from Lucknow IIM Facualty and students.
+      para="All about Dreamz is a startup from Lucknow IIM Faculty and students.
     Their idea was simple to invest money in a way that everyone get something out of it and target audience were teens.
-    They approched Feeding Trends for the app design. The brief was simple. Make a high fidality prototype in just 10 days.
+    They approached Feeding Trends for the app design. The brief was simple. Make a high feudality prototype in just 10 days.
     "
       theme="theme_dreamz"
     />
@@ -68,7 +68,7 @@ http://stephencalvillodesign.com/project/prestoq
 
     <pcase
       heading="Before Going into research"
-      para="I preapred a list of questions to be asked and discussed with dev teams and clients.
+      para="I prepared a list of questions to be asked and discussed with dev teams and clients.
       <br>
       1. Define Idea in 5 sentence. <br>
       2. Vision of the product <br>
@@ -137,7 +137,7 @@ But there is limitation set. You need to step up your level. Nice move. So you g
         process, principles and anything related. 
         <br> <br>
         Deadline was just 10 days.
-        Not just high fedality 
+        Not just high feudality 
     "
       theme="theme_dreamz"
     />
@@ -194,11 +194,11 @@ But there is limitation set. You need to step up your level. Nice move. So you g
     </div>
 
     <pcase
-      heading="UX Design Priciples"
-      para=" Before going into UI Design researched about the design priciples that should be considered and implemented
-      'into design. Going through google and websites I found a video by Johnny vivi. And it was awesome.
-      I foolowed him, his direction towared naturally designing app and many more video, articles that I come across three days of beginning.
-      And noted them down for future reference on  medium draft. Yahh I document on medium.
+      heading="UX Design Principles"
+      para=" Before going into UI Design researched about the design principles that should be considered and implemented
+      'into design. Going through google and websites I found a video by Johnny vivo. And it was awesome.
+      I followed him, his direction toward naturally designing app and many more video, articles that I come across three days of beginning.
+      And noted them down for future reference on  medium draft. Yah I document on medium.
        
     "
       theme="theme_dreamz"
@@ -233,7 +233,7 @@ But there is limitation set. You need to step up your level. Nice move. So you g
       <p>
         Then I did analysis of colors, their perception and influence.
         Blue is one of the most commonly used colors when coming to product design.
-        People use blue things so much they get a sence of familiarity already when its blue.
+        People use blue things so much they get a sense of familiarity already when its blue.
         The blue color is considered to give emotions such as trust, safe and relaxation.
         As their is money involved in app user should trust the app to do so. The light blue color
         creates the emotions such as calm and makes
