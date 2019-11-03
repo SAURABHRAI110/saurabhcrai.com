@@ -354,7 +354,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             theme and colour palette It was time to design a simple,
             clean and elegant showcase website. The accent colour I
             choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
+            in design phase I changed the theme from Cyan to Gradient feel,
             to make it more contrast and modern feel.
             I decided to use red as theme colour
           </p>
@@ -366,7 +366,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
       <blockquote>
         Good design requires good communication, especially from machine to person,
         indicating what actions are possible, what is happening, and what is about to happen.
-        Iterate and Iterate and do 100 times untill you get it right. This was the project of iteration. No other way
+        Iterate and Iterate and do 100 times until you get it right. This was the project of iteration. No other way
       </blockquote>
     </div>
 

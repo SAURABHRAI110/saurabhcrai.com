@@ -49,8 +49,8 @@
             <br> Pen-Paper and lots of Ice-Tea  "
       role="  Art direction,
             <br>Visual Design, UX"
-      team="  Dev: Shekhar, Boss: Yash,  Content <br>
-      Writer: Zainab, designer- of course me"
+      team="  Dev: Shekhar, Boss: Yash Srivastava,  Content <br>
+      Writer: Zainab Siddique, designer- of course me"
     />
     <!-- Preface -->
     <pcase
@@ -306,7 +306,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
     <pcase
       heading=" Technology"
       para=" There was this one evening, When shekhar send me test link for the website.
-        When I visited the website i could'nt believe myself. I just felt so proud and amzing. The parallax effect, smooth transition
+        When I visited the website i couldn't believe myself. I just felt so proud and amazing. The parallax effect, smooth transition
         Smooth mouse wheel scroll. and Fade effect. It was just amazing. To see your design into reality is so satisfying. 
         
         I was actively  collaborated in the development process, didn't code any line of code.
@@ -361,7 +361,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            During My work on filmingeye, It hppens many time when I asked for certain things, assets, photographs, on which my further
+            During My work on filmingeye, It happens many time when I asked for certain things, assets, photographs, on which my further
             design depends. I really really got feedback very late at time of meltdown. When these things happen, Patience is key. Stay Patient and trust the process.
           </p>
         </div>
