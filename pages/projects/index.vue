@@ -1,6 +1,6 @@
 <template>
   <div>
-    <loading-screen :is-loading="isLoading"></loading-screen>
+    
     <div class="w-hero_container">
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
         <img src="~assets/svg/circle.svg" alt="circle" />

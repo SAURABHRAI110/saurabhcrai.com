@@ -3,8 +3,8 @@
 // $(window).load(function () {
 //   $("body").removeClass("preload");
 // });
-import vueResource from 'vue-resource'
-Vue.use(vueResource)
+
+
 
 $("html").easeScroll({
   frameRate: 60,
