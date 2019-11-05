@@ -3,7 +3,7 @@
     <div id="totalCounter" class="total-counter"></div>
 
     <div id="clap" class="clap-container">
-      <i class="clap-icon fa fa-hand-paper-o"></i>
+      <img class="clap-icon" src="~assets/clap.svg" alt="clap icon" />
     </div>
 
     <div id="clicker" class="click-counter">
@@ -73,7 +73,7 @@ export default {}
 </script>
 
 <style lang="scss">
-$default-clap-color: #03a87c;
+$default-clap-color: var(--primary-color);
 .canvas {
   display: flex;
   justify-content: center;
@@ -81,6 +81,7 @@ $default-clap-color: #03a87c;
   width: 300px;
   height: 300px;
   position: relative;
+  padding: 0px 0px 0px 0px;
   .total-counter {
     display: flex;
     justify-content: center;
@@ -100,18 +101,17 @@ $default-clap-color: #03a87c;
     justify-content: center;
     align-items: center;
     position: absolute;
-    width: 60px;
-    height: 60px;
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    width: 70px;
+    height: 70px;
+    border: 1px solid #fc3a52;
     border-radius: 50%;
     z-index: 2;
-    background: #fff;
+    background: #f6ecdd;
     cursor: pointer;
     .clap-icon {
       font-size: 30px;
       color: $default-clap-color;
-      width: 30px;
-      height: 30px;
+      height: 40px;
     }
   }
   .clap-container:hover {

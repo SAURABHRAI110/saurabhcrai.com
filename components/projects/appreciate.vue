@@ -5,7 +5,7 @@
     <p>{{subHeading}}</p>
 
     <div class="applause">
-      <applause-button style="width: 70px; height: 70px;" color="#fc3a52" multiclap="true" />
+      <applause />
     </div>
 
     <img src="~assets/footer/appreciate-gesture.png" alt />
@@ -13,7 +13,11 @@
 </template>
 
 <script>
+import Applause from '~/components/projects/applause'
 export default {
+  components: {
+    Applause
+  },
   props: {
     heading: String,
     subHeading: String
