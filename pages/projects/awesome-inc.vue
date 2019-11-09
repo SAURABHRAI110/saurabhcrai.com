@@ -1,5 +1,7 @@
 <template>
+
   <!--awesome inc work -->
+
   <div>
     <div class="ppnp-container">
       <nuxt-link to="dear-zindagi">

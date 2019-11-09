@@ -932,21 +932,21 @@ view more work*/
   display: flex;
   flex-direction: row;
 
-  
+
 }
 
-.ppnp-number-container{
+.ppnp-number-container {
   align-content: center;
 }
 
-.ppnp-number-container p{
+.ppnp-number-container p {
   font-size: 14px;
   writing-mode: vertical-rl;
-text-orientation: mixed;
-padding: 17px 4px 17px 2px;
-  border: solid 1px rgb(201, 201, 201) ;
- 
- 
+  text-orientation: mixed;
+  padding: 17px 4px 17px 2px;
+  border: solid 1px rgb(201, 201, 201);
+
+
 }
 
 
@@ -2911,7 +2911,11 @@ primary #8e55ff
   background: #8e55ff;
 }
 
+/* cricbuzz */
 
+.reveal-block.theme_cricbuzz::before {
+  background: #0088FF;
+}
 
 
 
@@ -3079,14 +3083,14 @@ primary #8e55ff
   color: white;
 }
 
-.p-video-container{
+.p-video-container {
   height: 70vh;
   width: 100%;
   background-color: white;
   position: relative;
 }
 
-.p-video-container img{
+.p-video-container img {
   height: 111px;
   padding-left: 52px;
 }
@@ -3167,7 +3171,7 @@ background: linear-gradient(#6adfff 0%, #005094 100%);
 /* Salesfactory */
 
 .reveal-block.theme_salesfactory::before {
-  background: linear-gradient( 90deg, #00689b 0%, #00adef 100%);
+  background: linear-gradient(90deg, #00689b 0%, #00adef 100%);
 }
 
 
