@@ -25,17 +25,21 @@
     />
 
     <!-- hero image -->
-    <div class="p-ft-hero_image">
+    <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_ft" data-aos="reveal-right"></div>
+        <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
 
-        <img
-          src="~assets/projects/ft/ft-hero-mockup-3.jpg"
-          alt="floating mockup, web mockup, pad, mobile, mockup"
-        />
-        <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
-
-        <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/cricbuzz/cricbuzz-hero-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-hero.jpg"
+            alt="woman tshirt, woman tshirt mockup"
+            align
+          />
+        </picture>
       </div>
     </div>
 
