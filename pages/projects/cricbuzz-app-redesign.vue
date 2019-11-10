@@ -168,28 +168,45 @@
       theme="theme_cricbuzz"
     />
 
-    <div class="p-image-100-duo">
+    <div class="p-image-100-duo cricbuzz-ux-image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/ft/ft-responsive-mockup-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/ft/ft-responsive-mockup.jpg"
-            alt="web mockup, feeding trends web mockup, responsive web"
-          />
-        </picture>
+
+        <img src="~assets/projects/dreamz/dreamz-laws-of-ux.jpg" alt="ux principles and laws" />
+        <p class="ps black">Applied UX Principles</p>
       </div>
     </div>
 
     <!-- Problems -->
     <pcase
-      heading="High Feudality Design"
-      para=" Putting all the research and i started making high feudality design for the website starting with its
-      content page then moving forward from there to Home page and every other page. I did a simple prototype connecting
-      all the pages navigation. 
+      heading="Wireframing"
+      para=" To get started I did a very rapid wireframing . With just important
+      screen and feature I thought of adding. Don't mind my handwriting.
+      Its way better originally. 
+               
+     "
+      theme="theme_cricbuzz"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-wireframing.jpg"
+            alt="cricbuzz app wireframing"
+          />
+        </picture>
+      </div>
+    </div>
+
+    <!-- User Interface -->
+    <pcase
+      heading="User Interface"
+      para="I started designing app design with splash screen. Made a new logo very quickly.
+      Well existing logo is much good though. Anyway then choose a font i.e. Montserrat.
+      There is something me and my friends say, when in doubt use Montserrat. Its a beautiful
+      font. As I have not much time so I didn't experimented with different fonts.  
                
      "
       theme="theme_cricbuzz"
@@ -201,12 +218,47 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/ft/ft-web-pages-wireframe-mobile.jpg"
+            srcset="~assets/projects/cricbuzz/cricbuzz-ui-onboarding-mobile.jpg"
           />
           <img
-            src="~assets/projects/ft/ft-web-pages-wireframe.jpg"
-            alt="elevito team, saurabh rai, shekhar Gupta, Yash Srivastava"
+            src="~assets/projects/cricbuzz/cricbuzz-ui-onboarding.jpg"
+            alt="cricbuzz app redesign onboarding experience screen"
           />
+          <p class="ps black70">App Onboarding experience</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/cricbuzz/cricbuzz-ui-home-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-ui-home.jpg"
+            alt="cricbuzz app redesign home screen"
+          />
+          <p class="ps black70">App Home Screen Instances</p>
+        </picture>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/cricbuzz/cricbuzz-ui-other-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-ui-other.jpg"
+            alt="cricbuzz app redesign ui screen"
+          />
+          <p class="ps black70">App other screen UI</p>
         </picture>
       </div>
     </div>
@@ -340,5 +392,12 @@ export default {
 <style>
 .project-footer {
   bottom: 0%;
+}
+
+.cricbuzz-ux-image {
+  filter: hue-rotate(45deg);
+}
+.cricbuzz-ux-image img {
+  filter: saturate(1.4);
 }
 </style>
