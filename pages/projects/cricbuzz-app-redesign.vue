@@ -27,7 +27,7 @@
     <!-- hero image -->
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
+        <div class="reveal-block right theme_cricbuzz" data-aos="reveal-right"></div>
 
         <picture>
           <source
@@ -36,7 +36,7 @@
           />
           <img
             src="~assets/projects/cricbuzz/cricbuzz-hero.jpg"
-            alt="woman tshirt, woman tshirt mockup"
+            alt="woman t-shirt, woman t-shirt mockup"
             align
           />
         </picture>
@@ -44,169 +44,128 @@
     </div>
 
     <Preface
-      timeframe=" April 2018- May 2018
-            <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
-            <br>Marketing"
+      timeframe=" November 2019
+            <br>2 Days"
+      tools="Adobe XD
+            <br>Adobe Photoshop"
+      role="  UX/UI Design
+            <br>Content Strategist"
+      team=" Lone wolf
+            <br>Me only"
     />
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Feeding Trends is an online media company organizing literary styles for interactive journalism. They publish
-    global trends, which are important, relevant and interesting. Their prime focus lies in the curation of highly engrossing content.
-    Working diligently to convince people into spending time with content, through effective imagination, creation and presentation.
-    And in a way wishing for is to uplift the notion that ‘media is dead’. Wanting to do wonders with their content, with people talking about them, anywhere and everywhere
-    - night outs, road trips, birthdays parties, conferences, and even family functions! All through
-    <a  href='https://feedingtrends.com/'
-            target='_blank'
-            rel='noopener'
-            title='feedingtrends.com'><span class='underline-magical'>feedingtrends.com</span></a>
-"
-      theme="theme_ft"
-    />
-    <!-- Problem -->
-    <pcase
-      heading="From humble Beginnings"
-      para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
-    my seniors, co-founded feeding trends. I was in 6th semester, enjoying some home time during summer vacation, got a call from
-    Yash sir and I was asked to do a logo design for FeedingTrends. I remember it was a long call. Well moving forward, logo designing
-    is tough, I took my time and did textual logo, used a  Sans font, outlined it, played around arrow, to make it feel like 
-    trendy stuff and yeah Finished. We moved forward and setup  implemented logo on Facebook, Instagram and on stuff.
-    FT got recognized and people started sharing our stuff and yeah it was great start.
-    <br><br>
-    Later on after 2 month I joined FeedingTrends. While still managing my time around
-    college and working at feeding Trends Office. Bunking Classes just to work on outgoing projects at FT Office or from my flat.
-  
-        
-     "
-      theme="theme_ft"
+      para=" Cricbuzz app is used by millions of user. To redesign something that that
+      is already have a existing user base is itself is a challenge. I started with
+      installing the app from play store and then carefully following each navigation. 
+      I personally used this app previously some years ago not now.
+      So much has already been changed and improved from then.
+      "
+      theme="theme_cricbuzz"
     />
 
-    <div class="p-quote contain red">
-      <blockquote>
-        Bunking clsses to work on outgoing projects while still managing college assignments and all. It was Beginnings
-        of something great.
-      </blockquote>
-    </div>
-    <!-- <div class="p-quote contain red">
-      <blockquote>
-        Research is the most important thing a designer need to make before jumping to actually
-        designing. I spend almost 70 80 percent of time just doing that.
-      </blockquote>
-    </div>-->
-    <!-- team pic -->
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft/ft-team-blue-3.jpg"
-            alt="creative team pic, team pic, team, designers, developers"
-          />
-          <p class="ps">Feeding Trends Team: 2017</p>
-        </picture>
-      </div>
-    </div>
-
-    <pcase
-      heading="Back to design: Project Brief"
-      para=" The Feeding Trends Website was already up and running, when people around the team felt a need
-      of Redesigning everything from scratch. The website previously was just content.
-      
-      <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
-    
-  
-        
-     "
-      theme="theme_ft"
-    />
-    <!-- Problems -->
-    <pcase
-      heading="Problems To be solved and Considerations"
-      para=" 
-      1. Clear structure and navigation flows; <br>
-      2. Compelling and clear visual design; <br>
-      3. Great copy and tone of voice; <br>
-      4. Thoughtful transitions and animations; <br>
-      5. The website's performance and speed; <br>
-      6. The user's mobile phone performance and speed; <br>
-      7. Content readability; <br>
-      8. Mobile first; <br>
-      9. Article suggestion, ro read more; <br>
-      9. Proper design colors and aesthetics. <br>
-     "
-      theme="theme_ft"
-    />
-    <!-- Desighn -->
-    <pcase
-      heading="Research and Ideation"
-      para=" Many meeting were held to discuss the same with all the team, designers and developers, 
-      we decided to go with Making a mvp. Ideated mind maps and wireframes.
-      
-        
-     "
-      theme="theme_ft"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img src="~assets/projects/ft/ft-mindmap.jpg" alt="mockup, tab, mobile, floating mockup" />
-        </picture>
-      </div>
-      <p class="ps black90">-- Mind map--</p>
-    </div>
-    <div class="p-quote contain red">
-      <blockquote>
-        Making mind map helped the team materialize the concepts and make their characteristics more explicit: it revealed hidden clusters,
-        patterns and entities, it made them more clear and more understandable.
-      </blockquote>
-    </div>
-
-    <!-- Desighn -->
-    <pcase
-      heading="Design"
-      para="Open> XD> Design. The first thing I designed was the content page. It was the first thing any user will visit
-      whenever he/she follow a journey of coming to website thorough  whatsapp, facebook link shared to them.
-      So, It got my first priority. After going through some websites, Behance and sharing things with team, I designed
-      layout focused to enrich user reading experience, experimenting with font size, colour, contrast till getting it 
-      just right to move forward. The below is the design I did for the content Page.
-      
-      <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
-            
-     "
-      theme="theme_ft"
-    />
-    <div class="ft-responsive-gif">
-      <div class="contain">
+    <div class="contain">
+      <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
-          <img
-            src="~assets/projects/ft/ft-responsive-p.gif"
-            alt="responsive layout, responsive web, prototype"
-          />
+          <picture>
+            <img src="~assets/projects/cricbuzz/cricbuzz-logo.jpg" alt="Crick buzz app redesign" />
+          </picture>
         </div>
       </div>
     </div>
+
+    <pcase
+      heading="Challenge"
+      para=" 1. Strict Deadline <br>
+      2. Did it for an Interview <br>
+      3. Only Two days to showcase UI/UX Process <br>
+      4. No time for research
+  
+        
+     "
+      theme="Research"
+    />
+
+    <div class="p-quote contain red">
+      <blockquote>
+        Cricbuzz app is used by millions of user. To redesign something that that
+        is already have a existing user base is itself is a challenge.
+      </blockquote>
+    </div>
+
+    <!-- Desighn -->
+
+    <pcase
+      heading="Research"
+      para="Since time was less and so couldn't follow design process and totally skipped
+      user research. But I did talk to some friends and asked their existing experience of
+      using Cricbuzz app and their pain-points.
+
+      <br>
+      <br>
+
+      So instead I carefully observed each screen, realized what's missing and what can be
+      done to make user experience more intuitive.
+
+      <br>
+      <br>
+
+      One thing that really needed to be redesign was app navigation. If I have to go
+      from one screen to another, it was really difficult to manage them with one handed
+      with thumb only. I love Samsung one UI and based on that I decided to restructure
+      every screen of cricbuzz app also.
+
+      
+        
+     "
+      theme="theme_cricbuzz"
+    />
+
+    <!-- Desighn -->
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-responsive-mockup-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-existing-screens.jpg"
+            alt="cricbuzz app screenshots"
+          />
+          <p class="ps">Some cricbuzz app screenshots</p>
+        </picture>
+      </div>
+    </div>
+
+    <!-- Problems and initial Findings -->
+    <pcase
+      heading="Problems and Initial Findings"
+      para=" 
+      1. No Clear structure and navigation flows <br>
+      2. Cluttered UI <br>
+      3. Very less white space <br>
+      4. Navigation problems on bigger screen <br>
+      5. Not one handed friendly <br>
+      6. Bad Content Architecture and Readability <br>
+      7. Very little transition between app screen in so user get distracted from going to one screen to another.<br>
+      "
+      theme="theme_cricbuzz"
+    />
+
     <!-- Desighn -->
     <pcase
-      heading="Layout Options"
-      para=" I experimented with different layouts to put everything together, got feedback from team and designed
-      som high feudality mockup and test it through Adobe XD prototyping, Made prototype, tested it and finally
-      we got to the points where me and team agreed to stick to one layout and moved farword to design further pages and adding
-      required details.
+      heading="UX Principles"
+      para=" Through out designing the app I followed these UX Principles specially
+      user touch behavior and Fitts's Law.
+
             
      "
-      theme="theme_ft"
+      theme="theme_cricbuzz"
     />
 
     <div class="p-image-100-duo">
@@ -233,7 +192,7 @@
       all the pages navigation. 
                
      "
-      theme="theme_ft"
+      theme="theme_cricbuzz"
     />
 
     <div class="p-image-100-duo">
@@ -247,142 +206,6 @@
           <img
             src="~assets/projects/ft/ft-web-pages-wireframe.jpg"
             alt="elevito team, saurabh rai, shekhar Gupta, Yash Srivastava"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-1.jpg" />
-          <img
-            src="~assets/projects/ft/ft-web-mokup-1.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-2.jpg" />
-          <img
-            src="~assets/projects/ft/ft-web-mokup-2.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/ft/ft-mobile-screen-1-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/ft/ft-mobile-screen-1.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/ft/ft-mobile-screen-2-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/ft/ft-mobile-screen-2.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-screen-mobile.jpg" />
-          <img
-            src="~assets/projects/ft/ft-web-screen.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <!-- cup -->
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-cup-mobile.jpg" />
-          <img
-            src="~assets/projects/ft/ft-cup.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <!-- Problems -->
-    <pcase
-      heading="Brand Identity"
-      para=" When web design was done and I handover everything to developer from design assets to documentation of it.
-      I started working on its brand identity to be used for business proposes of the company. Designed Letterhead, Visiting card, Id card, made mockups and everything in between.
-                     
-     "
-      theme="theme_ft"
-    />
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source
-            media="(max-width: 600px)"
-            srcset="~assets/projects/ft/ft-brand-identity-mobile.jpg"
-          />
-          <img
-            src="~assets/projects/ft/ft-brand-identity.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft/ft-design-system.jpg"
-            alt="mockup, tab, mobile, floating mockup"
-          />
-        </picture>
-      </div>
-    </div>
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft/ft-happy-people.jpg"
-            alt="mockup, tab, mobile, floating mockup"
           />
         </picture>
       </div>

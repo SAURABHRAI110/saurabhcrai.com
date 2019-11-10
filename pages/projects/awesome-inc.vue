@@ -1,5 +1,4 @@
 <template>
-
   <!--awesome inc work -->
 
   <div>
@@ -36,11 +35,11 @@
           <img
             src="~assets/projects/awesome-inc/awesome-inc-hero.jpg"
             alt="woman tshirt, woman tshirt mockup"
-            align
           />
         </picture>
       </div>
     </div>
+
     <Preface
       timeframe=" Mid March 2018- April 2018
             <br>1 Month"
