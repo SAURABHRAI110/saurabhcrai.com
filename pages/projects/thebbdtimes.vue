@@ -11,7 +11,11 @@
       </nuxt-link>
 
       <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">07</p>
+        <p class="black ppnp-p-number">
+          <span style="color:#0088ff;">08</span>
+          <span>/</span>
+          <span>20</span>
+        </p>
       </div>
     </div>
 

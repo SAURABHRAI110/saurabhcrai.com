@@ -968,6 +968,13 @@ view more work*/
   }
 }
 
+@media screen and (max-width:800px) {
+  .ppnp-container {
+    right: 2px;
+    top: 119px;
+  }
+}
+
 
 /* blog css to be put in blog page later  */
 

@@ -12,7 +12,11 @@
       </nuxt-link>
 
       <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">10</p>
+        <p class="black ppnp-p-number">
+          <span style="color:#A05EE5;">11</span>
+          <span>/</span>
+          <span>20</span>
+        </p>
       </div>
     </div>
     <projecthero
