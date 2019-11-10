@@ -1,6 +1,5 @@
 <template>
   <div>
-    
     <div class="w-hero_container">
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
         <img src="~assets/svg/circle.svg" alt="circle" />
@@ -35,6 +34,21 @@
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/cricbuzz-app-redesign">
+            <thumbnail
+              thumbnailName="CricBuzz"
+              thumbnailDescription="App  Redesign Concept"
+              thumbnail="/cricbuzz-thumbnail.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="100"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/elevito">
             <thumbnail
