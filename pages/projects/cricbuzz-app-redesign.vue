@@ -21,7 +21,7 @@
       pCategory="App Design"
       pHeading="CricBuzz app redesign concept"
       pHeadingcolor="color:#0088FF;"
-      pSubheading="Redesigning an existing app already used by millions."
+      pSubheading="An app redesign already used by millions."
     />
 
     <!-- hero image -->
