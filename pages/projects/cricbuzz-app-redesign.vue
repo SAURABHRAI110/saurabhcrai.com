@@ -216,6 +216,30 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-xd-all-screen.jpg"
+            alt="cricbuzz app redesign ui screen"
+          />
+          <p class="ps black70">Adobe XD- App screens</p>
+        </picture>
+      </div>
+    </div>
+
+    <pcase
+      heading="Onboarding Experience"
+      para="In the existing app there was no onboarding experience and very little
+          personalisation. Personalisation can be used for collecting data in terms
+          of business and better user experience. Can be used for Push notification
+          and also so that user can never miss matches from his/her favourite
+          team and also to not miss stories from his/her favourite player.
+     "
+      theme="theme_cricbuzz"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/cricbuzz/cricbuzz-ui-onboarding-mobile.jpg"
@@ -228,6 +252,17 @@
         </picture>
       </div>
     </div>
+
+    <pcase
+      heading="Home"
+      para="Home is now less cluttered with more white space and better readability.
+      Often times we just wanted to see just the latest scores and so the first thing on
+      home he will focus will be on bigger typos i.e. the score following player current
+      run and likewise 
+
+     "
+      theme="theme_cricbuzz"
+    />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -246,6 +281,19 @@
       </div>
     </div>
 
+    <pcase
+      heading="Other App Screen"
+      para="Every Interactive elements is placed in the Active area of the mobile wherever possible
+      so even a person who is holding phone in one hand can navigate with thumb easily just like in samung new one UI. With new search feature
+      user can easily go through topics, related videos, player profile etc. 
+
+      All menu CTA is placed in in Active area so user can navigate very easily
+      even on bigger screen.
+
+     "
+      theme="theme_cricbuzz"
+    />
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -259,6 +307,30 @@
             alt="cricbuzz app redesign ui screen"
           />
           <p class="ps black70">App other screen UI</p>
+        </picture>
+      </div>
+    </div>
+
+    <!-- User Interface -->
+    <pcase
+      heading="Prototype"
+      para="Made an App rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. A lot can 
+      be improved though.In two days This is all did.
+.  
+               
+     "
+      theme="theme_cricbuzz"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-xd-prototype-screen.jpg"
+            alt="cricbuzz app redesign prototype"
+          />
+          <p class="ps black70">Adobe XD-Prototype</p>
         </picture>
       </div>
     </div>
