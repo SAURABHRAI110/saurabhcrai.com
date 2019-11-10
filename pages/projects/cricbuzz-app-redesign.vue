@@ -2,16 +2,20 @@
   <!-- Feeding Trends -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="elevito">
+      <nuxt-link to="my-portfolio-website">
         <previous />
       </nuxt-link>
 
-      <nuxt-link to="bharatrohan">
+      <nuxt-link to="elevito">
         <next />
       </nuxt-link>
 
       <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">02</p>
+        <p class="black ppnp-p-number">
+          <span style="color:#0088FF;">01</span>
+          <span>/</span>
+          <span>20</span>
+        </p>
       </div>
     </div>
 
@@ -442,21 +446,21 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/my-portfolio-website">
             <pfooterp
-              projectName="Elevito"
-              projectCategories="Web design, Branding, Print"
-              thumbnail="/elevito-thumbnail.jpg"
+              projectName="My Portfolio Website"
+              projectCategories="Web design and Development"
+              thumbnail="/my-website-thumbnail.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/bharatrohan">
+          <nuxt-link to="/projects/elevito">
             <pfootern
-              projectName="Bharatrohan"
-              projectCategories="App, Admin, Web"
-              thumbnail="/bharatrohangif2.gif"
+              projectName="Elevito"
+              projectCategories="Web design, Branding, Print"
+              thumbnail="/elevito-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

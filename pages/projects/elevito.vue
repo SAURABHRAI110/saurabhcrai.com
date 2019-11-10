@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="my-portfolio-website">
+      <nuxt-link to="/projects/cricbuzz-app-redesign">
         <previous />
       </nuxt-link>
 
@@ -387,11 +387,11 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/my-portfolio-website">
+          <nuxt-link to="/projects/cricbuzz-app-redesign">
             <pfooterp
-              projectName="My Portfolio Website"
-              projectCategories="Web design and Development"
-              thumbnail="/my-website-thumbnail.jpg"
+              projectName="CricBuzz"
+              projectCategories="App Redesign Concept"
+              thumbnail="/cricbuzz-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

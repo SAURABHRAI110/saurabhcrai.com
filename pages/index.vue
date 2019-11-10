@@ -270,14 +270,14 @@
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
         <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/cricbuzz-app-redesign">
             <thumbnail
-              thumbnailName="Elevito"
-              thumbnailDescription="Web, Branding, Print"
+              thumbnailName="CricBuzz"
+              thumbnailDescription="App  Redesign Concept"
               thumbnail="/cricbuzz-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="800"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -292,7 +292,7 @@
               thumbnail="/elevito-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="1000"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -307,7 +307,7 @@
               thumbnail="/ft-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -322,7 +322,7 @@
               thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -336,7 +336,7 @@
               thumbnail="/filming-eye-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -350,7 +350,7 @@
               thumbnail="/dreamz-thumbnail-cyan.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -364,7 +364,7 @@
               thumbnail="/ft-event-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -376,20 +376,6 @@
               thumbnailName="The BBD Times"
               thumbnailDescription="Branding"
               thumbnail="/tbt-thumbnail.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="100"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/mr-irritating">
-            <thumbnail
-              thumbnailName="Mr. Irritating"
-              thumbnailDescription="Print, Social Media"
-              thumbnail="/mr-irritating-thumbnail.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
               data-aos-delay="300"

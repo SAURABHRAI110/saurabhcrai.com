@@ -10,7 +10,7 @@
       </nuxt-link>
 
       <div class="ppnp-number-container">
-        <p class="black ppnp-p-number">19</p>
+        <p class="black ppnp-p-number">20</p>
       </div>
     </div>
     <projecthero
@@ -157,11 +157,11 @@ http://stephencalvillodesign.com/project/prestoq
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/elevito">
+          <nuxt-link to="/projects/cricbuzz-app-redesign">
             <pfootern
-              projectName="Elevito"
-              projectCategories="Web design, Branding, Print"
-              thumbnail="/elevito-thumbnail.jpg"
+              projectName="CricBuzz"
+              projectCategories="App Redesign Concept"
+              thumbnail="/cricbuzz-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

@@ -42,7 +42,7 @@
               thumbnail="/cricbuzz-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="800"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -57,7 +57,7 @@
               thumbnail="/elevito-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="800"
+              data-aos-delay="1000"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -72,7 +72,7 @@
               thumbnail="/ft-thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="1000"
+              data-aos-delay="100"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -87,7 +87,7 @@
               thumbnail="/bharatrohangif2.gif"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -101,7 +101,7 @@
               thumbnail="/filming-eye-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -115,7 +115,7 @@
               thumbnail="/dreamz-thumbnail-cyan.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -129,7 +129,7 @@
               thumbnail="/ft-event-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -143,7 +143,7 @@
               thumbnail="/tbt-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -157,7 +157,7 @@
               thumbnail="/mr-irritating-thumbnail.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -171,7 +171,7 @@
               thumbnail="/dear-zindagi-thumbnail.webp"
               data-aos="fade-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -185,7 +185,7 @@
               thumbnail="/awesome-inc-thumnail-3.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -199,7 +199,7 @@
               thumbnail="/tbt-app-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -213,7 +213,7 @@
               thumbnail="/prepowl-thumbnail-blue.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -227,7 +227,7 @@
               thumbnail="/salesfactory-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -241,7 +241,7 @@
               thumbnail="/r3-thumbnail.webp"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -270,7 +270,7 @@
               color="var(--primary-color)"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -284,7 +284,7 @@
               thumbnail="/hindigiri-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -298,7 +298,7 @@
               thumbnail="/hello-colors-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -312,7 +312,7 @@
               thumbnail="/logofolio-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="300"
+              data-aos-delay="100"
               data-aos-once="true"
             />
           </nuxt-link>
@@ -340,7 +340,7 @@
               thumbnail="/my-website-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="100"
+              data-aos-delay="300"
               data-aos-once="true"
             />
           </nuxt-link>

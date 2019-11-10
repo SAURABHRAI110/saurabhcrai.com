@@ -926,13 +926,11 @@ view more work*/
 
 .ppnp-container {
   position: absolute;
-  right: 46px;
-  top: 168px;
+  right: 32px;
+  top: 146px;
   z-index: 2;
   display: flex;
   flex-direction: row;
-
-
 }
 
 .ppnp-number-container {
@@ -940,13 +938,34 @@ view more work*/
 }
 
 .ppnp-number-container p {
-  font-size: 14px;
   writing-mode: vertical-rl;
   text-orientation: mixed;
   padding: 17px 4px 17px 2px;
+  margin: 0px 11px;
   border: solid 1px rgb(201, 201, 201);
 
+}
 
+.ppnp-p-number span:nth-child(1) {
+  font-size: 20px;
+  font-family: circular-bold;
+  opacity: .8;
+}
+
+
+.ppnp-p-number span:nth-child(2) {
+  font-size: 14px;
+}
+
+.ppnp-p-number span:nth-child(3) {
+  font-size: 12px;
+}
+
+@media screen and (max-width:999px) {
+  .ppnp-container {
+    right: 2px;
+    top: 211px;
+  }
 }
 
 
