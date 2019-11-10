@@ -335,7 +335,42 @@
       </div>
     </div>
 
-    <liveLink link="https://feedingtrends.com/" text="Launch Site | feedingtrends.com" />
+    <div class="contain" style="padding: 100px 100px 0px 20px;">
+      <iframe
+        src="https://player.vimeo.com/video/372189216"
+        width="auto"
+        height="600"
+        frameborder="0"
+        allow="autoplay; fullscreen"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <pcase
+      heading="Conclusion"
+      para="There a lot of things and conditions that these design doesn't justify. With two sleepless
+      night this is all I can design. There may be one and more typos error and not pixel perfect and
+      please don't mind my English and English Grammar. I try hard though to not  mistake. There's a
+      lot of area where with good research and planning app can be made even more awesome for all
+      cricket lover.  Thanks SuperGaming.
+.  
+               
+     "
+      theme="theme_cricbuzz"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/cricbuzz/cricbuzz-mockup.jpg"
+            alt="cricbuzz app redesign mockup"
+          />
+          <p class="ps black70">Adobe XD-Prototype</p>
+        </picture>
+      </div>
+    </div>
 
     <!-- key Focus Area -->
 
@@ -441,7 +476,6 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
-import LiveLink from '~/components/projects/live-link'
 
 export default {
   layout: 'projects',
@@ -455,8 +489,7 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav,
-    LiveLink
+    Allprojectsnav
   }
 }
 </script>
