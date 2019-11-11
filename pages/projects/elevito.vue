@@ -332,10 +332,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
               <span>✔ Ideation</span>
               <span>✔ Taking Design Meetings</span>
               <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
+              <span>✔ Creative Direction</span>
               <span>✔ Lots of IceTea</span>
               <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
+              <span>✔ Wireframing</span>
               <span>✔ Testing with users</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
@@ -354,13 +354,12 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I changed the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            Elevito happen during my college time. Its my greatest learning curve. I did everything that I can do all with love.
+            It was time when We did not have even lots of projects to showcase on website, still we managed to show 15 Projects, out of which
+            2 projects was fictional, I did them to learn more, and to be creative with them. I took really a lot of time like 2 months just
+            showcasing 15 projects, there were times when It became very boring, couldn't give my best, but with everyone support and love
+            I never lost enthusiasm and maintained our excitement. Whenever I couldn't do something, there were people whom i could lean on. This
+            was all possible because each and everyone came together even in their busiest of time, even when exams were near.
           </p>
         </div>
       </div>
@@ -368,9 +367,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
-        Iterate and Iterate and do 100 times until you get it right. This was the project of iteration. No other way
+        1 option is better than many.
+        When you're communicating your process and solutions to a people who isn't always the key decision-maker,
+        it's important to keep your points clear and concise enough for easy re-communication. Even though that person
+        may appreciate the extra displayed effort, it can muddy the waters when feedback comes back out.
       </blockquote>
     </div>
 
