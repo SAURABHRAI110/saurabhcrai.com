@@ -184,7 +184,7 @@
     <!-- Problems -->
     <pcase
       heading="Wireframing"
-      para=" To get started I did a very rapid wireframing . With just important
+      para=" To get started I did a very rapid wireframing. With just important
       screen and feature I thought of adding. Don't mind my handwriting.
       Its way better originally. 
                
@@ -232,10 +232,10 @@
     <pcase
       heading="Onboarding Experience"
       para="In the existing app there was no onboarding experience and very little
-          personalisation. Personalisation can be used for collecting data in terms
+          personalization. Personalization can be used for collecting data in terms
           of business and better user experience. Can be used for Push notification
-          and also so that user can never miss matches from his/her favourite
-          team and also to not miss stories from his/her favourite player.
+          and also so that user can never miss matches from his/her favorite
+          team and also to not miss stories from his/her favorite player.
      "
       theme="theme_cricbuzz"
     />
@@ -288,7 +288,7 @@
     <pcase
       heading="Other App Screen"
       para="Every Interactive elements is placed in the Active area of the mobile wherever possible
-      so even a person who is holding phone in one hand can navigate with thumb easily just like in samung new one UI. With new search feature
+      so even a person who is holding phone in one hand can navigate with thumb easily just like in Samsung new one UI. With new search feature
       user can easily go through topics, related videos, player profile etc. 
 
       All menu CTA is placed in in Active area so user can navigate very easily
@@ -371,7 +371,6 @@
             src="~assets/projects/cricbuzz/cricbuzz-mockup.jpg"
             alt="cricbuzz app redesign mockup"
           />
-          <p class="ps black70">Adobe XD-Prototype</p>
         </picture>
       </div>
     </div>
@@ -387,17 +386,15 @@
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
-              <span>✔ Making Post for social Media</span>
-              <span>✔ Lots of IceTea</span>
-              <span>✔ Exporting Assets</span>
-              <span>✔ Wireframe</span>
-              <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
-              <span>✔ Branding</span>
-              <span>✔ Identity Design</span>
-              <span>✔ Defending UX Decisions</span>
+              <span>✔ Downloaded Apps</span>
+              <span>✔ Taken screenshots</span>
+              <span>✔ User Interface</span>
+              <span>✔ User Experience</span>
+              <span>✔ Basic Wireframe</span>
+              <span>✔ Interactive Prototype</span>
+              <span>✔ Made a simple logo</span>
+              <span>✔ Rapid Prototyping</span>
+              <span>✔ Made Mockups</span>
               <span>✔ Pop and un-pop things</span>
             </div>
           </div>
@@ -409,13 +406,15 @@
 
     <div class="Takeaway">
       <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
+        <h2 class="p-para black50">Learnings</h2>``
         <div class="pm black70">
           <p>
-            This project was very long, there was so many changes done one after one. So many iteration.
-            Well after the development the website traffic increased. People started taking there seriously.
-            The problem that was there before redesign was solved. The development team did a great job and
-            took my design even further and better with all the tweaking done from time to time.
+            The most challenging part of any project which I have observed is even starting it.
+            Once I start it the next big thing is Deciding which problem to solve. As a UX designer, we are
+            driven by curiosity and a burning desire to solve problems. The more insights we uncover,
+            the more problems we will identify — and the harder it becomes to settle on just one. During research and design phase
+            i got into loop of deciding what to give more time and which to not. If i have focused on all parts of Cricbuzz app, it would not have
+            been possible to finish it all in 2 days at all. So focusing only on Important stuff is very crucial.
           </p>
         </div>
       </div>
@@ -423,8 +422,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        It is the people that makes everything worthwhile. I happen to work with some great people during
-        design phase and later on during development phase as an audience. It was awesome.
+        It’s inevitable that we uncover new pain-points along the way, but we can’t
+        change tack every time this occurs. The challenge lies in staying focused.
       </blockquote>
     </div>
 
