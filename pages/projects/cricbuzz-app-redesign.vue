@@ -135,7 +135,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/ft/ft-responsive-mockup-mobile.jpg"
+            srcset="~assets/projects/cricbuzz/cricbuzz-existing-screens-mobile.jpg"
           />
           <img
             src="~assets/projects/cricbuzz/cricbuzz-existing-screens.jpg"
@@ -367,6 +367,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/cricbuzz/cricbuzz-mockup-mobile.jpg"
+          />
           <img
             src="~assets/projects/cricbuzz/cricbuzz-mockup.jpg"
             alt="cricbuzz app redesign mockup"
