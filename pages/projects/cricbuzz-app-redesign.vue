@@ -109,7 +109,7 @@
 
       <br>
       <br>
-
+      
       So instead I carefully observed each screen, realized what's missing and what can be
       done to make user experience more intuitive.
 
@@ -339,15 +339,28 @@
       </div>
     </div>
 
-    <div class="contain" style="padding: 100px 100px 0px 20px;">
-      <iframe
+    <div class="contain">
+      <no-ssr>
+        <vimeo-player
+          class="vimeo"
+          ref="player"
+          :options="{ responsive: true }"
+          :video-id="372189216"
+          @ready="onReady"
+          :autoplay="true"
+          :player-height="320"
+          :player-width="640"
+          loop="1"
+        />
+      </no-ssr>
+      <!-- <iframe
         src="https://player.vimeo.com/video/372189216"
         width="auto"
         height="600"
         frameborder="0"
         allow="autoplay; fullscreen"
         allowfullscreen
-      ></iframe>
+      ></iframe>-->
     </div>
 
     <pcase
@@ -511,5 +524,11 @@ export default {
 }
 .cricbuzz-ux-image img {
   filter: saturate(1.4);
+}
+
+.vimeo {
+  /* height: 100%; */
+  width: 300px;
+  margin: 20px;
 }
 </style>
