@@ -19,23 +19,28 @@
       </div>
     </div>
     <projecthero
-      pDate="December 2017 "
-      pWebsite="feedingtrends.com"
+      pDate="November 2018"
+      pWebsite="Prepowl"
       pCategory="Product Design"
-      pHeading="Stories that make you think and rethink."
+      pHeading=" Institutes portal for conducting exams and mock tests"
       pHeadingcolor="color:#8e55ff;"
-      pSubheading="A platform for budding writers and readers"
+      pSubheading="Prepwold Software showcase website design for clients."
     />
 
     <!-- hero image -->
     <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_prepowl" data-aos="reveal-right"></div>
-
-        <img
-          src="~assets/projects/prepowl/prepowl-hero-blue.jpg"
-          alt="floating mockup, web mockup, pad, mobile, mockup"
-        />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/prepowl/prepowl-hero-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/prepowl/prepowl-hero-blue.jpg"
+            alt="prepowl floating laptop mockup"
+          />
+        </picture>
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -55,7 +60,7 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Feeding Trends is an online media company organising literary styles for interactive journalism. They publish
+      para=" Feeding Trends is an online media company organizing literary styles for interactive journalism. They publish
     global trends, which are important, relevant and interesting. Their prime focus lies in the curation of highly engrossing content.
     Working diligently to convince people into spending time with content, through effective imagination, creation and presentation.
     And in a way wishing for is to uplift the notion that ‘media is dead’. Wanting to do wonders with their content, with people talking about them, anywhere and everywhere
@@ -96,7 +101,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/prepowl/prepowl-docs.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/prepowl/prepowl-docs-mobile.jpg"
+          />
           <img src="~assets/projects/prepowl/prepowl-docs.jpg" />
         </picture>
       </div>
@@ -108,7 +116,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/prepowl/prepowl-moodboard.jpg"
+            srcset="~assets/projects/prepowl/prepowl-moodboard-mobile.jpg"
           />
           <img src="~assets/projects/prepowl/prepowl-moodboard.jpg" />
         </picture>
@@ -121,7 +129,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/prepowl/prepowl-colors-typo.jpg"
+            srcset="~assets/projects/prepowl/prepowl-colors-typo-mobile.jpg"
           />
           <img src="~assets/projects/prepowl/prepowl-colors-typo.jpg" />
         </picture>
@@ -132,7 +140,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/prepowl/prepowl-web-hero.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/prepowl/prepowl-web-hero-mobile.jpg"
+          />
           <img src="~assets/projects/prepowl/prepowl-web-hero.jpg" />
         </picture>
       </div>
@@ -144,7 +155,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/prepowl/prepowl-web-pages.jpg"
+            srcset="~assets/projects/prepowl/prepowl-web-pages-mobile.jpg"
           />
           <img src="~assets/projects/prepowl/prepowl-web-pages.jpg" />
         </picture>
@@ -157,7 +168,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/prepowl/prepowl-design-system.jpg"
+            srcset="~assets/projects/prepowl/prepowl-design-system-mobile.jpg"
           />
           <img src="~assets/projects/prepowl/prepowl-design-system.jpg" />
         </picture>
