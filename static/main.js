@@ -8,8 +8,7 @@ let accCounter = 0;
 let totalCount = 127;
 const minDeg = 1;
 const maxDeg = 72;
-const particlesClasses = [
-  {
+const particlesClasses = [{
     class: "pop-top"
   },
   {
@@ -208,21 +207,21 @@ $(window).scroll(function () {
 // full screen
 
 var elem = document.documentElement;
+
 function openFullscreen() {
   if (elem.requestFullscreen) {
     elem.requestFullscreen();
-  } else if (elem.mozRequestFullScreen) { /* Firefox */
+  } else if (elem.mozRequestFullScreen) {
+    /* Firefox */
     elem.mozRequestFullScreen();
-  } else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+  } else if (elem.webkitRequestFullscreen) {
+    /* Chrome, Safari & Opera */
     elem.webkitRequestFullscreen();
-  } else if (elem.msRequestFullscreen) { /* IE/Edge */
+  } else if (elem.msRequestFullscreen) {
+    /* IE/Edge */
     elem.msRequestFullscreen();
   }
 }
 
 
 // journey
-
-
-
-

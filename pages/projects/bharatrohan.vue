@@ -28,11 +28,20 @@
     />
 
     <!-- hero image -->
-    <div class="p-fe-hero_image">
+
+    <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_br" data-aos="reveal-right"></div>
-
-        <img src="~assets/projects/bharatrohan/BharatRohan3.jpg" alt />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/bharatrohan/bharatrohan-hero-mobile.jpg"
+          />
+          <img
+            src="~assets/projects/bharatrohan/bharatrohan-hero.jpg"
+            alt="flying drone in agriculture land"
+          />
+        </picture>
       </div>
     </div>
 
