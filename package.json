@@ -39,6 +39,7 @@
     "vue-parallaxy": "^1.1.1",
     "vue-rellax": "^0.1.0",
     "vue-resource": "^1.5.1",
+    "vue-video": "^0.1.7",
     "vue-vimeo-player": "0.0.10"
   },
   "devDependencies": {

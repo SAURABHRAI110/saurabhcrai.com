@@ -340,6 +340,10 @@
     </div>
 
     <div class="contain">
+      <my-video :sources="video.sources" :options="video.options"></my-video>
+    </div>
+
+    <div class="contain">
       <no-ssr>
         <vimeo-player
           class="vimeo"
@@ -347,7 +351,7 @@
           :options="{ responsive: true }"
           :video-id="372189216"
           @ready="onReady"
-          :autoplay="true"
+          :autoplay="false"
           :player-height="320"
           :player-width="640"
           loop="1"
@@ -496,6 +500,7 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
+import myVideo from 'vue-video'
 
 export default {
   layout: 'projects',
@@ -509,7 +514,27 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav
+    Allprojectsnav,
+    myVideo
+  },
+
+  data() {
+    return {
+      video: {
+        sources: [
+          {
+            src:
+              '~assets/projects/cricbuzz/cricbuzz-app-redesign-concept-prototype.mp4',
+            type: 'video/mp4'
+          }
+        ],
+        options: {
+          autoplay: false,
+          volume: 0.6,
+          poster: 'http://vjs.zencdn.net/v/poster.png'
+        }
+      }
+    }
   }
 }
 </script>
