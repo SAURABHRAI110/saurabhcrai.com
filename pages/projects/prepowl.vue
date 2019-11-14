@@ -48,10 +48,10 @@
     </div>
 
     <Preface
-      timeframe=" April 2018- May 2018
-            <br>2 Month"
+      timeframe="November 2018
+            <br>1 Month"
       tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
+            <br>"
       role="  UI/UX Desiner
             <br>Marketing"
       team="  UI/UX Desiner

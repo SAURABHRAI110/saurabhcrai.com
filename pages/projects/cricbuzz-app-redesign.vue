@@ -340,10 +340,6 @@
     </div>
 
     <div class="contain">
-      <my-video :sources="video.sources" :options="video.options"></my-video>
-    </div>
-
-    <div class="contain">
       <no-ssr>
         <vimeo-player
           class="vimeo"
@@ -500,7 +496,6 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
-import myVideo from 'vue-video'
 
 export default {
   layout: 'projects',
@@ -514,27 +509,7 @@ export default {
     Previous,
     Pfooterp,
     Pfootern,
-    Allprojectsnav,
-    myVideo
-  },
-
-  data() {
-    return {
-      video: {
-        sources: [
-          {
-            src:
-              '~assets/projects/cricbuzz/cricbuzz-app-redesign-concept-prototype.mp4',
-            type: 'video/mp4'
-          }
-        ],
-        options: {
-          autoplay: false,
-          volume: 0.6,
-          poster: 'http://vjs.zencdn.net/v/poster.png'
-        }
-      }
-    }
+    Allprojectsnav
   }
 }
 </script>
