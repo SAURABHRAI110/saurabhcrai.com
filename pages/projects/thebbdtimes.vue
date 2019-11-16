@@ -34,7 +34,7 @@
     </div>-->
 
     <!-- hero image -->
-    <div class="p-fe-hero_image">
+    <div class="p-tbt-hero-image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_tbt" data-aos="reveal-right"></div>
 
@@ -92,7 +92,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-01.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-01-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-01.jpg" />
         </picture>
       </div>
@@ -102,7 +102,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-02.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-02-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-02.jpg" />
         </picture>
       </div>
@@ -120,7 +120,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-03.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-03-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-03.jpg" />
         </picture>
       </div>
@@ -130,7 +130,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-04.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-04-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-04.jpg" />
         </picture>
       </div>
@@ -140,7 +140,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-05.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-05-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-05.jpg" />
         </picture>
       </div>
@@ -160,7 +160,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-08.jpg" />
         </picture>
       </div>
@@ -170,7 +170,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-06.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-06-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-06.jpg" />
         </picture>
       </div>
@@ -180,7 +180,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-07.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-07-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-07.jpg" />
         </picture>
       </div>
@@ -190,7 +190,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-07.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-07-2-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-07-2.jpg" />
         </picture>
       </div>
@@ -202,7 +202,7 @@
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <picture>
-            <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-10.jpg" />
+            <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-10-mobile.jpg" />
             <img src="~assets/projects/tbt/tbt-10.jpg" />
           </picture>
         </div>
@@ -213,7 +213,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-11.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-11-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-11.jpg" />
         </picture>
       </div>
@@ -223,7 +223,7 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-12.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-12-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-12.jpg" />
         </picture>
       </div>
