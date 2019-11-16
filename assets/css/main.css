@@ -2565,16 +2565,27 @@ color: #0088ff !important;
 
 .p-tbt-hero-image {
   width: 100%;
-  /* background-color: rgb(207, 207, 207); */
   position: relative;
-  height: 59vh;
+
 }
 
 .p-tbt-hero-image img {
   object-fit: cover;
   width: 100%;
   object-position: 50% 100%;
-  height: 59vh;
+
+}
+
+@media screen and (max-width:600px) {
+  .p-tbt-hero-image {
+    height: 59vh;
+  }
+
+  .p-tbt-hero-image img {
+
+    object-position: 50% 100%;
+    height: 59vh;
+  }
 }
 
 /* dreamz */
