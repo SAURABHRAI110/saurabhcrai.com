@@ -33,7 +33,7 @@
     <ScrollDown />
 
     <!-- hero image -->
-    <div class="p-fe-hero_image">
+    <div class="p-helo-color-hero-image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_hc" data-aos="reveal-right"></div>
 

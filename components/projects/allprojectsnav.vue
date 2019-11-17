@@ -58,4 +58,15 @@ export default {}
 .p-all-nav:hover > .p-nav-icon > div {
   background-color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 600px) {
+  .p-all-nav {
+    top: 51%;
+  }
+
+  .np_heading {
+    font-size: 22px;
+    margin-bottom: 6px;
+  }
+}
 </style>

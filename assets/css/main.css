@@ -877,7 +877,7 @@ view more work*/
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .projects-footer-container {
 
 
@@ -905,6 +905,14 @@ view more work*/
     object-fit: cover;
     height: 40vh;
 
+  }
+
+  .p-text {
+    top: 24%;
+  }
+
+  .np_details {
+    top: 40%;
   }
 
 }
@@ -3216,6 +3224,24 @@ background: linear-gradient(#6adfff 0%, #005094 100%);
 
 .reveal-block.theme_hc::before {
   background: #e98635;
+}
+
+.p-helo-color-hero-image img {
+  object-fit: cover;
+  width: 100%;
+  object-position: 50% 100%;
+}
+
+
+@media screen and (max-width:600px) {
+  .p-helo-color-hero-image {
+    height: 94vh;
+  }
+
+  .p-helo-color-hero-image img {
+    height: 94vh;
+  }
+
 }
 
 /* Salesfactory */

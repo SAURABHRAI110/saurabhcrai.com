@@ -1,5 +1,5 @@
 <template>
-  <div class="canvas" @click="onClick">
+  <div class="canvas">
     <div id="totalCounter" class="total-counter"></div>
 
     <div id="clap" class="clap-container">
@@ -70,11 +70,11 @@
 
 <script>
 export default {
-  methods: {
-    onClick: function() {
-      alert('ok')
-    }
-  }
+  // methods: {
+  //   onClick: function() {
+  //     alert('ok')
+  //   }
+  // }
 }
 </script>
 
