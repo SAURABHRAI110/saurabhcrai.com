@@ -138,7 +138,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt-app/tbt-app-icons.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-icons-mobile.jpg"
+          />
           <img src="~assets/projects/tbt-app/tbt-app-icons.jpg" />
         </picture>
       </div>
@@ -171,7 +174,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt-app/tbt-app-screen-1.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-screen-1-mobile.jpg"
+          />
           <img src="~assets/projects/tbt-app/tbt-app-screen-1.jpg" />
         </picture>
       </div>
@@ -181,7 +187,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt-app/tbt-app-screen-2.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-screen-2-mobile.jpg"
+          />
           <img src="~assets/projects/tbt-app/tbt-app-screen-2.jpg" />
         </picture>
       </div>
@@ -191,7 +200,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt-app/tbt-app-screen-3.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-screen-3-mobile.jpg"
+          />
           <img src="~assets/projects/tbt-app/tbt-app-screen-3.jpg" />
         </picture>
       </div>
@@ -215,7 +227,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/tbt-app/tbt-app-playstore.jpg"
+            srcset="~assets/projects/tbt-app/tbt-app-playstore-mobile.jpg"
           />
           <img src="~assets/projects/tbt-app/tbt-app-playstore.jpg" />
         </picture>
@@ -251,7 +263,10 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/tbt-app/tbt-app-poster-2.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/tbt-app/tbt-app-poster-2-mobile.jpg"
+          />
           <img src="~assets/projects/tbt-app/tbt-app-poster-2.jpg" />
         </picture>
       </div>
