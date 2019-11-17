@@ -32,7 +32,13 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_salesfactory" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/salesfactory/salesfactory-hero.jpg" alt />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/salesfactory/salesfactory-hero-mobile.jpg"
+          />
+          <img src="~assets/projects/salesfactory/salesfactory-hero.jpg" alt />
+        </picture>
       </div>
     </div>
 
@@ -126,20 +132,29 @@
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
-          <img src="~assets/projects/salesfactory/salesfactory-wireframe.jpg" />
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactory-wireframe.jpg"
+            />
+            <img src="~assets/projects/salesfactory/salesfactory-wireframe.jpg" />
+          </picture>
           <p class="ps black">-- Requirement and Basic Wireframe --</p>
         </div>
       </div>
     </div>
 
-    <div class="contain">
-      <div class="p-image-100-duo">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/salesfactory/salesfactory-moodboards-mobile.jpg"
+          />
           <img src="~assets/projects/salesfactory/salesfactory-moodboards.jpg" />
-          <p class="ps black70">--Moodboards--</p>
-        </div>
+        </picture>
+        <p class="ps black70">--Moodboards--</p>
       </div>
     </div>
 
@@ -178,7 +193,13 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
-        <img src="~assets/projects/salesfactory/salesfactory-web-hero.jpg" />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/salesfactory/salesfactory-web-hero-mobile.jpg"
+          />
+          <img src="~assets/projects/salesfactory/salesfactory-web-hero.jpg" />
+        </picture>
         <p class="ps black70">-Hero Section-</p>
       </div>
     </div>
@@ -187,7 +208,13 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
-        <img src="~assets/projects/salesfactory/salesfactoryl-web-fullpage.jpg" />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/salesfactory/salesfactoryl-web-fullpage-mobile.jpg"
+          />
+          <img src="~assets/projects/salesfactory/salesfactoryl-web-fullpage.jpg" />
+        </picture>
       </div>
     </div>
 
@@ -195,7 +222,13 @@
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
 
-        <img src="~assets/projects/salesfactory/salesfactoryl-colors-typo.jpg" />
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+          />
+          <img src="~assets/projects/salesfactory/salesfactoryl-colors-typo.jpg" />
+        </picture>
       </div>
     </div>
 
