@@ -137,7 +137,7 @@
 export default {}
 </script>
 
-<style scoped>
+<style >
 .footer-wrapper {
   height: 90vh;
   width: 100%;

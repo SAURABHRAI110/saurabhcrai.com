@@ -86,6 +86,101 @@
               <nuxt-link to="/photography">Photography</nuxt-link>
             </span>-->
           </span>
+
+          <div class="nav-social-icon">
+            <div class="menu-social-icon_container">
+              <div class="social-one">
+                <div class="social-two">
+                  <a
+                    class="button"
+                    href="https://www.facebook.com/saurabhchandrarai"
+                    target="_blank"
+                    rel="noopener"
+                    title="Facebook (new tab)"
+                  >
+                    <div class="social-three">
+                      <img class="social-four" src="~assets/footer/facebook-lightgrey.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="social-one">
+                <div class="social-two">
+                  <a
+                    class="button"
+                    href="https://www.instagram.com/saurabh.c.rai/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Instagram (new tab)"
+                  >
+                    <div class="social-three">
+                      <img class="social-four" src="~assets/footer/instagram-lightgrey.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="social-one">
+                <div class="social-two">
+                  <a
+                    class="button"
+                    href="https://www.linkedin.com/in/saurabhchandrarai/"
+                    target="_blank"
+                    rel="noopener"
+                    title="Linkdin (new tab)"
+                  >
+                    <div class="social-three">
+                      <img class="social-four" src="~assets/footer/linkdin-lightgrey.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="social-one">
+                <div class="social-two">
+                  <a
+                    class="button"
+                    href="https://medium.com/@saurabhcrai"
+                    target="_blank"
+                    rel="noopener"
+                    title="Medium (new tab)"
+                  >
+                    <div class="social-three">
+                      <img class="social-four" src="~assets/footer/medium-lightgrey.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="social-one">
+                <div class="social-two">
+                  <a
+                    class="button"
+                    href="https://www.behance.net/saurabhcrai"
+                    target="_blank"
+                    rel="noopener"
+                    title="Behance (new tab)"
+                  >
+                    <div class="social-three">
+                      <img class="social-four" src="~assets/footer/behance-lightgrey.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="social-one">
+                <div class="social-two">
+                  <a
+                    class="button"
+                    href="https://github.com/SAURABHRAI110"
+                    target="_blank"
+                    rel="noopener"
+                    title="Github(new tab)"
+                  >
+                    <div class="social-three">
+                      <img class="social-four" src="~assets/footer/github-social.png" />
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </transition>
@@ -201,19 +296,32 @@ svg {
 .menu-icon {
   position: fixed;
   z-index: 10;
-  left: 32px;
+  /* height: 60px;
+  width: 60px; */
+  left: 21px;
+  /* border-radius: 50%; */
+  /* background-color: #edeaea; */
   top: 50%;
   cursor: pointer;
   z-index: 10;
+  padding: 23px 14px 0px 14px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0, 1),
+    -webkit-transform 0.3s cubic-bezier(0.4, 0, 0, 1);
+}
+
+.menu-icon:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 999px) {
   .menu-icon {
-    height: 30px;
-    width: 30px;
+    height: 49px;
+    width: 54px;
     left: auto;
-    right: 22px;
-    top: 25px;
+    right: 28px;
+    top: 9px;
+    padding: 15px 0px 0px 11px;
+    margin: 0px 0px -5px 0px;
   }
 }
 
@@ -450,5 +558,22 @@ button.full-screen {
   height: 0.333em;
   top: 0.233em;
   left: -0.1em;
+}
+
+.menu-social-icon_container {
+  position: absolute;
+  top: 82%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 800px) {
+  .menu-social-icon_container {
+    top: 82%;
+  }
 }
 </style>
