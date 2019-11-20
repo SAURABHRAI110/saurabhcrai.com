@@ -10,7 +10,7 @@
           <p class="np_heading">Feeding Trends</p>
           <p class="np_sub-heading">Branding, Web Design</p>
         </span>
-        <img src="/showcase1.jpg" alt>
+        <img src="/showcase1.jpg" alt />
       </div>
     </nuxt-link>
     <nuxt-link to>
@@ -24,7 +24,7 @@
           <p class="np_heading">Feeding Trends</p>
           <p class="np_sub-heading">Branding, Web Design</p>
         </span>
-        <img src="/showcase8.jpg" alt>
+        <img src="/showcase8.jpg" alt />
       </div>
     </nuxt-link>
   </div>
