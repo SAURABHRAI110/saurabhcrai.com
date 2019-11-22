@@ -74,13 +74,13 @@
         Create Event and manage the event or ticket
         from its dash board. In addition to finding information on past and future events,
         event results, image gallery, charity event organizers,
-        participating musicians, register for the Feeding Trends exclusive advetisement, and more.
+        participating musicians, register for the Feeding Trends exclusive advertisement, and more.
 
         <br>
         <br>
         
         Feeding Trends- Events is in Development stage right now, I delivered the design already,
-      This casestudy is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
+      This case study is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
       So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
       "
       theme="theme_ft-event"
@@ -98,7 +98,7 @@
     <pcase
       heading="Challenge 🥴 "
       para="Well, the most challenging part was the make the event portal feel like the part of feeding Trends,
-        and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidlines.
+        and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidelines.
         It was really challenging. The existing website and the event portal have different purpose and target user. 
         "
       theme="theme_ft-event"
@@ -131,8 +131,21 @@
         possible scenario how a user will interact with the website. We came up with website architecture and site map.
         
         <br><br>
-        We decided to follow google material guidelines and so that development and design can go long way.
+        On our past experience, the problem and challenges faced during making feedingtrends content website, 
+        We decided to follow google material guidelines and so that development and design can go long way and we can easily
+        implement a functional even website.
         
+        "
+      theme="theme_ft-event"
+    />
+
+    <pcase
+          heading="Design Sprint"
+      <!-- para="After the initial findings and research, I decided to coordinate a Google Design Sprint to get the team aligned
+      on how we could get our users to share event on other existing platform and make the whole experience as intuitive as possible.
+      I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days.  -->
+        <br><br>
+        Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
         "
       theme="theme_ft-event"
     />
@@ -185,25 +198,32 @@
 
     <pcase
       heading="THREE USER TYPES"
-      para="FT Events consisted of 3 user types or roles. , Curator, and then Admin.
+      para="On our research and findings we concluded that the portal will have 3 user types i.e. Normal visitor, event creator, admin. Normal Users (Who is going ti visit the website and buy
+      tickets for events), Creator (Who will publish event thorough our platform), and then Admin(who will
+      manage the event listing, tickets sale authorize users and curators). <br><br>
         Each role has different objectives and even slightly different experiences.
+        <br>
+        <br>
+
+         We came up with a simple habit loop. Discover, Share with friends, Book ticket for them, Go to event, Repeat.
       "
       theme="theme_ft-event"
     />
     <pcase
-      heading="User who Books Ticket"
-      para="We came up with a simple habit loop: <br>
-Discover, Share with friends, Book ticket for them, Go to event, Repeat.
+      heading="Normal Visitor or user"
+      para="Normal user who will visit the website where he/she will browse through listed event. Select a event, will 
+      create an account and buy tickets using payment portal. His tickets details will be added to his user profile dashboard.
+     
 
 
       "
       theme="theme_ft-event"
     />
     <pcase
-      heading="The Creater Experience"
-      para="The event creator is the Entertainment Provider in a sence. They Choose what type of
-        event are they organising, what are their possible audience,  and push the event to audience.
-        They can see the performance of thier event, Sales record etc.
+      heading="The Creator Experience"
+      para="The event creator is the Entertainment Provider in a sense. They Choose what type of
+        event are they organizing, what are their possible audience,  and push the event to audience.
+        They can see the performance of their event, Sales record etc. on the ft event website.
       "
       theme="theme_ft-event"
     />
@@ -222,23 +242,12 @@ Discover, Share with friends, Book ticket for them, Go to event, Repeat.
     />
 
     <pcase
-      heading="CONSTANTLY LEARNING"
+      heading="Constantly learning"
       para="
-          CONSTANTLY LEARNING
           Being such a small team, we were able to work incredibly agile.
           We were always getting feedback from our customers and making changes
           to better suit their needs (and our business goals of course). I did multiple sessions
           of interviews for both conceptual ideas and usability testing. 
-      "
-      theme="theme_ft-event"
-    />
-
-    <pcase
-      heading="DESIGN SPRINTS"
-      para="
-        After my first month or so of joining the team, I decided to coordinate a Google Design Sprint to get the team alligned on how we could get our members to share content daily. I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days. 
-        <br><br>
-        Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
       "
       theme="theme_ft-event"
     />
