@@ -209,6 +209,22 @@
       "
       theme="theme_ft-event"
     />
+
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+                  <img
+            src="~assets/projects/ft-event/ft-site-architecture.jpg"
+            alt="website architecture, website user journey"
+          />
+          <p class="ps black90">Site architecture</p>
+        </picture>
+      </div>
+    </div>
+
+    
     <pcase
       heading="Normal Visitor or user"
       para="Normal user who will visit the website where he/she will browse through listed event. Select a event, will 
