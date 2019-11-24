@@ -296,7 +296,7 @@ svg {
 .menu-icon {
   position: fixed;
   z-index: 10;
-  left: 21px;
+  left: 34px;
   /* border-radius: 50%; */
   /* background-color: #edeaea; */
   top: 50%;
@@ -313,8 +313,8 @@ svg {
 @media screen and (max-width: 999px) {
   .menu-icon {
     left: auto;
-    right: 28px;
-    top: 9px;
+    right: 40px;
+    top: 24px;
   }
 }
 
