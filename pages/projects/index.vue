@@ -22,9 +22,8 @@
           data-aos-duration="900"
           data-aos-delay="600"
         >
-          Here are some of my work from past years. Some were awesome some just good.
-          But with time I learned more and more and got a hang of making good works.
-          Currently I also code my design.
+          I pour my ❤️️ into every design. I do what i do because I love it and
+          I am dedicated to creating meaningful work.
         </p>
       </div>
     </div>
@@ -355,12 +354,6 @@
     <hr class="section-divider p-section-divider" />
 
     <div class="p-footer-container">
-      <div class="p-quote-container p-h-quote-contain p-quote red">
-        <blockquote>
-          The greatest Project is the one you work on yourself".
-          This is no way the end, this is just a start.❤️
-        </blockquote>
-      </div>
       <div>
         <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
       </div>

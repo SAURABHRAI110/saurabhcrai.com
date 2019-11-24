@@ -29,7 +29,7 @@
         data-aos-delay="400"
       >
         <h1>
-          <span>Experience</span>
+          <span>User Experience</span>
           <br />
           <span class="outlined">Designer</span> At
           <br />Feeding Trends
@@ -37,8 +37,7 @@
       </div>
       <div class="contain">
         <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
-          This website is my personal space where I'm trying to express my
-          creativity through
+          Hi! My friends call me Saurabh, I am a multidisciplinary UX/UI Designer and Front-end Developer. I
           <span>
             <nuxt-link to="/projects">
               <span class="underline-magical">design</span>
@@ -52,7 +51,7 @@
               <span class="underline-magical">code</span>
             </a> and
             <nuxt-link to="/blog">
-              <span class="underline-magical">writing.</span>
+              <span class="underline-magical">write.</span>
             </nuxt-link>
           </span>
         </p>
@@ -185,7 +184,7 @@
     <!-- Showcase video and parallax -->
     <div class="h-showreel">
       <div class="showreel-bg">
-        <img src="~/assets/img/showreel-bg.jpg" alt="elevito wireframe" />
+        <img v-parallax="0.2" src="~/assets/img/showreel-bg.jpg" alt="elevito wireframe" />
       </div>
       <div class="showreel-overlay"></div>
       <div class="center-h-v">
@@ -252,16 +251,15 @@
     <!-- Work Heading -->
     <div class="h-work_heading contain">
       <h1>
-        A Small
-        <br />Selection of my
+        I pour
+        my ❤️️ into
         <br />
-        <span class="outlined">Work</span>
-        I Enjoy.
+        <span class="outlined">Every</span>
+        Design.
       </h1>
       <p>
-        Case study of my works I have done in the
-        past till date. See
-        <nuxt-link to="/projects" class="underline-magical">all my works.</nuxt-link>
+        Here is a small selection of my Work's case study I Enjoy.
+        <nuxt-link to="/projects" class="underline-magical">See all my works.</nuxt-link>
       </p>
     </div>
 
@@ -434,6 +432,7 @@
 
 <script>
 import Thumbnail from '~/components/thumbnail'
+import Parallax from 'vue-parallaxy'
 import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
 import BlogSection from '~/components/Sections/BlogSection'
@@ -444,7 +443,8 @@ export default {
     Thumbnail,
     Discovermore,
     Homepeople,
-    BlogSection
+    BlogSection,
+    Parallax
   },
 
   async asyncData({ app }) {
@@ -640,7 +640,7 @@ export default {
 }
 
 .h-work_heading {
-  padding: 40px 0px 40px 0px;
+  padding: 120px 0px 40px 0px;
   /* white-space: nowrap; */
 }
 
@@ -665,6 +665,8 @@ export default {
   position: relative;
   width: 100%;
   height: 90vh;
+  z-index: 2;
+  overflow: hidden;
 }
 
 .showreel-overlay {

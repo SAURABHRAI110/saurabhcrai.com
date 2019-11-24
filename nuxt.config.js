@@ -239,7 +239,11 @@ export default {
     {
       src: `~plugins/vimeo-player`,
       ssr: false
-    }
+    },
+    {
+      src: '~/plugins/vue-parallax-js',
+      ssr: false
+    },
 
   ],
 
