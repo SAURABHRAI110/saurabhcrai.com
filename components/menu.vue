@@ -245,7 +245,7 @@ button {
     padding-top: 0px;
   }
 
-  svg {
+  .logo > svg {
     width: 60px;
   }
 }
@@ -296,15 +296,12 @@ svg {
 .menu-icon {
   position: fixed;
   z-index: 10;
-  /* height: 60px;
-  width: 60px; */
   left: 21px;
   /* border-radius: 50%; */
   /* background-color: #edeaea; */
   top: 50%;
   cursor: pointer;
   z-index: 10;
-  padding: 23px 14px 0px 14px;
   transition: transform 0.3s cubic-bezier(0.4, 0, 0, 1),
     -webkit-transform 0.3s cubic-bezier(0.4, 0, 0, 1);
 }
@@ -315,13 +312,9 @@ svg {
 
 @media screen and (max-width: 999px) {
   .menu-icon {
-    height: 49px;
-    width: 54px;
     left: auto;
     right: 28px;
     top: 9px;
-    padding: 15px 0px 0px 11px;
-    margin: 0px 0px -5px 0px;
   }
 }
 
