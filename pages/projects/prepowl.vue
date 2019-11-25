@@ -195,7 +195,7 @@
               <span>✔ Testing with users</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ Identity Design</span>
               <span>✔ Defending UX Decisions</span>
               <span>✔ Pop and un-pop things</span>
             </div>
@@ -215,7 +215,7 @@
             theme and colour palette It was time to design a simple,
             clean and elegant showcase website. The accent colour I
             choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
+            in design phase I changed the theme from Cyan to Gradient feel,
             to make it more contrast and modern feel.
             I decided to use red as theme colour
           </p>

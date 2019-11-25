@@ -61,7 +61,7 @@
     />
     <div class="p-quote contain red">
       <blockquote>
-        Human mind percieves about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
+        Human mind perceives about 60k to 80k thoughts per day. All we wanted was one or two thoughts per day.
         expressions that will connect with everyone, rhythms that will resonate with every heart.
       </blockquote>
     </div>
