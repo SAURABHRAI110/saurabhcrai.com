@@ -132,8 +132,8 @@ Mr. Irritating shall not irritate you!"
 
     <pcase
       heading="The idea behind"
-      para="  So after some sketching and basic idea, I bagan working on creating characters
-      otline, The idea was to have character of Anant, Aashi and Kavya on book cover with
+      para="  So after some sketching and basic idea, I began working on creating characters
+      outline, The idea was to have character of Anant, Aashi and Kavya on book cover with
          triangle scenario between them and placing heart somewhere."
       theme="theme_mi"
     />
@@ -148,9 +148,9 @@ Mr. Irritating shall not irritate you!"
     <pcase
       heading="Putting things together"
       para=" After sorting things out, getting a scenario and sketch I began to draw the outline
-      of the sketch in Adobe Illustrator. In a way I also crrted a backgroubnd depicting the
+      of the sketch in Adobe Illustrator. In a way I also created a background depicting the
       stages of a love cycle and a heart to put it all together. Coming to typography, initially played around with
-      different font grouping two font together and here and ther. Turned out the these fonts tuned up the scenario
+      different font grouping two font together and here and there. Turned out the these fonts tuned up the scenario
       Moon font and heading font."
       theme="theme_mi"
     />
