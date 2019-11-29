@@ -23,7 +23,7 @@
       pDate="November 2019 "
       pWebsite="Homey"
       pCategory="Web, Branding"
-      pHeading="Homey: Home to thousands of rentals"
+      pHeading="Find your home, on homely"
       pHeadingcolor="color:#0088FF;"
       pSubheading="Web Design for Homey."
     />
@@ -60,11 +60,9 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Cricbuzz app is used by millions of user. To redesign something that that
-      is already have a existing user base is itself is a challenge. I started with
-      installing the app from play store and then carefully following each navigation. 
-      I personally used this app previously some years ago not now.
-      So much has already been changed and improved from then.
+      para=" Homely is one of the leading real estate sites in Australia.
+      Their mission is to make the process of buying a house joyful and easy.
+      They asked Unfold to help them in creating a brand that reflects this mission..
       "
       theme="theme_cricbuzz"
     />
@@ -102,24 +100,17 @@
     <!-- Desighn -->
 
     <pcase
-      heading="Research"
-      para="Since time was less and so couldn't follow design process and totally skipped
-      user research. But I did talk to some friends and asked their existing experience of
-      using Cricbuzz app and their pain-points.
+      heading="Mark construction"
+      para="The mark is built using the golden ratio design system by applying
+      a 42º slant. All corners and curves are rounded using the same radius.
 
       <br>
       <br>
       
-      So instead I carefully observed each screen, realized what's missing and what can be
-      done to make user experience more intuitive.
+      The smile is constructed based on a circle with the same amount of width
+      as the house.
 
-      <br>
-      <br>
-
-      One thing that really needed to be redesign was app navigation. If I have to go
-      from one screen to another, it was really difficult to manage them with one handed
-      with thumb only. I love Samsung one UI and based on that I decided to restructure
-      every screen of cricbuzz app also.
+   
 
       
         
@@ -148,26 +139,24 @@
 
     <!-- Problems and initial Findings -->
     <pcase
-      heading="Problems and Initial Findings"
-      para=" 
-      1. No Clear structure and navigation flows <br>
-      2. Cluttered UI <br>
-      3. Very less white space <br>
-      4. Navigation problems on bigger screen <br>
-      5. Not one handed friendly <br>
-      6. Bad Content Architecture and Readability <br>
-      7. Very little transition between app screen in so user get distracted from going to one screen to another.<br>
+      heading="
+Exploration"
+      para=" During the logo exploration process, the team built a lot of concepts.
+     <br>
+     <br>
+     We ran these concepts by Homely, and with their valuable feedback,
+     we started refining one of the logo concepts. Finally, after a
+     few iterations of the logo mark, we arrived at the completed product.
       "
       theme="theme_cricbuzz"
     />
 
     <!-- Desighn -->
     <pcase
-      heading="UX Principles"
-      para=" Through out designing the app I followed these UX Principles specially
-      user touch behavior and Fitts's Law.
-
-            
+      heading="Mark strategy"
+      para=" We combined the familiar shape of a home with a warm smile.
+      This mark serves to remind users that when you search with Homely,
+      you aren’t looking for a house – you’re finding a home.
      "
       theme="theme_cricbuzz"
     />
@@ -183,10 +172,9 @@
 
     <!-- Problems -->
     <pcase
-      heading="Wireframing"
-      para=" To get started I did a very rapid wireframing. With just important
-      screen and feature I thought of adding. Don't mind my handwriting.
-      Its way better originally. 
+      heading="Brand mission"
+      para="Homely believes in simplicity. Their mission is to help
+      people find the perfect place to buy or rent.
                
      "
       theme="theme_cricbuzz"
@@ -206,11 +194,10 @@
 
     <!-- User Interface -->
     <pcase
-      heading="User Interface"
-      para="I started designing app design with splash screen. Made a new logo very quickly.
-      Well existing logo is much good though. Anyway then choose a font i.e. Montserrat.
-      There is something me and my friends say, when in doubt use Montserrat. Its a beautiful
-      font. As I have not much time so I didn't experimented with different fonts.  
+      heading="Website concept"
+      para="The website concept was built with a basic component style
+      guide of buttons, typography, colors, and layout. We did our best
+      to stay true to Homely’s desire for simplicity.
                
      "
       theme="theme_cricbuzz"
@@ -230,12 +217,9 @@
     </div>
 
     <pcase
-      heading="Onboarding Experience"
-      para="In the existing app there was no onboarding experience and very little
-          personalization. Personalization can be used for collecting data in terms
-          of business and better user experience. Can be used for Push notification
-          and also so that user can never miss matches from his/her favorite
-          team and also to not miss stories from his/her favorite player.
+      heading="Marketing"
+      para="Not only did we develop the branding for Homely,
+      but we also built marketing material for print and online use.
      "
       theme="theme_cricbuzz"
     />
