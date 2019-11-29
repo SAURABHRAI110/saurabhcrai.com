@@ -242,11 +242,10 @@ Exploration"
     </div>
 
     <pcase
-      heading="Home"
-      para="Home is now less cluttered with more white space and better readability.
-      Often times we just wanted to see just the latest scores and so the first thing on
-      home he will focus will be on bigger typos i.e. the score following player current
-      run and likewise 
+      heading="Mono color logo"
+      para="It’s important that a logo looks good using only one
+      color. Unfold made several variations showing how the logo
+      can be presented using a monotone color.
 
      "
       theme="theme_cricbuzz"
@@ -321,30 +320,6 @@ Exploration"
           <p class="ps black70">Adobe XD-Prototype</p>
         </picture>
       </div>
-    </div>
-
-    <div class="contain">
-      <no-ssr>
-        <vimeo-player
-          class="vimeo"
-          ref="player"
-          :options="{ responsive: true }"
-          :video-id="372189216"
-          @ready="onReady"
-          :autoplay="false"
-          :player-height="320"
-          :player-width="640"
-          loop="1"
-        />
-      </no-ssr>
-      <!-- <iframe
-        src="https://player.vimeo.com/video/372189216"
-        width="auto"
-        height="600"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-      ></iframe>-->
     </div>
 
     <pcase
