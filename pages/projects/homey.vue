@@ -81,7 +81,7 @@
     <pcase
       heading="Challenge"
       para=" 1. Strict Deadline <br>
-      2. Did it for an Interview <br>
+      2. Sloppy previous content <br>
       3. Only Two days to showcase UI/UX Process <br>
       4. No time for research
   
