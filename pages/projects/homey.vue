@@ -50,7 +50,7 @@
     <Preface
       timeframe=" November 2019
             <br>2 Days"
-      tools="Adobe XD
+      tools="Adobe Creative Suite
             <br>Adobe Photoshop"
       role="  UX/UI Design
             <br>Content Strategist"
