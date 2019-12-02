@@ -29,11 +29,7 @@
 
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div
-          class="reveal-block right theme_hindigiri"
-          data-aos="reveal-right"
-          data-aos-once="true"
-        ></div>
+        <div class="reveal-block right theme_dz" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -125,7 +121,7 @@
     />
     <pcase
       heading="Final Design"
-      para="10 dys Fast farword. It was high time to step into Illustrator and begin. I choose Illustrator over Indesign as I knew
+      para="10 dys Fast forward. It was high time to step into Illustrator and begin. I choose Illustrator over Indesign as I knew
       I have to make some custom Illustration and deal with shapes and graph and demographic stuff."
       theme="theme_dz right"
     />
@@ -250,6 +246,22 @@
           <img src="~assets/projects/dearzindagi/dz-a4-allpage.jpg" />
         </picture>
         <p class="ps">All Brochure Pages</p>
+      </div>
+    </div>
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/dearzindagi/dz-a-page-mockup.jpg"
+          />
+          <img
+            src="~assets/projects/dearzindagi/dz-a-page-mockup.jpg"
+            alt="brochure slanted mockup design"
+          />
+        </picture>
       </div>
     </div>
 
