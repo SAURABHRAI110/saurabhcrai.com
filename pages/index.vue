@@ -209,8 +209,9 @@
           data-aos-delay="500"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
-        >
+        > 
           <span class="showreel-button">
+            <button type="button" @click="openMainDialog">Open main dialog</button>
             <svg
               id="play"
               version="1.1"
