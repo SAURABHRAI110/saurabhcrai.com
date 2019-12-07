@@ -209,11 +209,14 @@
           data-aos-delay="500"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
-        > 
+        >
           <span class="showreel-button">
-            <button type="button" @click="openMainDialog">Open main dialog</button>
+            <div>
+              <!-- <button class="btn" @click="openModal">Open Modal</button> -->
+            </div>
             <svg
               id="play"
+              @click="openModal"
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -249,6 +252,10 @@
         </div>
       </div>
     </div>
+
+    <!-- Showreell Modal -->
+    <videoShowcase class="video-showreel-modal" v-model="modalOpen"></videoShowcase>
+
     <!-- Work Heading -->
     <div class="h-work_heading contain">
       <h1>
@@ -438,6 +445,7 @@ import Discovermore from '~/components/discovermore'
 import Homepeople from '~/components/homepeople'
 import BlogSection from '~/components/Sections/BlogSection'
 import blogsEn from '~/contents/en/blogsEn.js'
+import VideoShowcase from '~/components/Modal'
 
 export default {
   components: {
@@ -445,7 +453,8 @@ export default {
     Discovermore,
     Homepeople,
     BlogSection,
-    Parallax
+    Parallax,
+    VideoShowcase
   },
 
   async asyncData({ app }) {
@@ -463,8 +472,18 @@ export default {
         blogs: res
       }
     })
-  }
+  },
 
+  data() {
+    return {
+      modalOpen: false
+    }
+  },
+  methods: {
+    openModal() {
+      this.modalOpen = !this.modalOpen
+    }
+  }
   // data() {
   //   return {
   //     card: [
@@ -651,6 +670,11 @@ export default {
 }
 
 /* showreel */
+
+.video-showreel-modal {
+  position: fixed;
+  z-index: 1000;
+}
 
 .h-showreel_container {
   width: 100%;
