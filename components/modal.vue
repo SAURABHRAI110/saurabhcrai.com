@@ -4,6 +4,16 @@
     <div class="modal" v-show="value">
       <div class="container">
         <div class="close" @click.prevent="close"></div>
+
+        <iframe
+          src="https://player.vimeo.com/video/315448246?title=0&byline=0&portrait=0"
+          style="position:absolute;top:0;left:0;width:100%;height:100%;"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+
+        <script src="https://player.vimeo.com/api/player.js"></script>
       </div>
     </div>
   </transition>
@@ -32,23 +42,32 @@ export default {
 }
 
 .container {
-  height: calc(100vh - 40px);
-  width: calc(100% - 40px);
+  height: 100vh;
+  width: 100%;
   position: fixed;
   z-index: 10000;
-  top: 0px;
-  left: 0px;
-  margin: 20px;
-  background-color: blueviolet;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    padding: 40px;
+  }
 }
 
 .close {
   position: absolute;
-  right: 32px;
+  right: 49%;
   top: 32px;
   width: 32px;
   height: 32px;
   opacity: 0.3;
+  z-index: 2;
+  background-color: black;
 }
 .close:hover {
   opacity: 1;
