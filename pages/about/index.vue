@@ -492,10 +492,16 @@
           </div>
         </div>
         <div class="a-s-bg-container">
+          <div @click="openModal">
+            <playbutton class="a-playbutton" />
+          </div>
           <img src="~assets/img/about/showreel-bg.jpg?webp" alt="showreel" />
         </div>
       </div>
     </section>
+
+    <!-- showreel modal -->
+    <videoShowcase class="video-showreel-modal" v-model="modalOpen"></videoShowcase>
 
     <!-- crazy me -->
 
@@ -821,8 +827,26 @@
 </template>
 
 <script>
+import VideoShowcase from '~/components/Modal'
+import Playbutton from '~/components/playbutton'
 export default {
+  components: {
+    VideoShowcase,
+    Playbutton
+  },
+
   layout: 'projects',
+  data() {
+    return {
+      modalOpen: false
+    }
+  },
+  methods: {
+    openModal() {
+      this.modalOpen = !this.modalOpen
+    }
+  },
+
   head() {
     return {
       title: 'About Me',
@@ -848,5 +872,12 @@ export default {
 <style scoped>
 .journey-navigation {
   overflow: hidden;
+}
+
+.a-playbutton {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
 }
 </style>
