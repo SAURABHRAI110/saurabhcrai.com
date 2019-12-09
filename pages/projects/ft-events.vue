@@ -12,7 +12,7 @@
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:#00ACFF;">07</span>
+          <span style="color:rgb(0, 143, 214);">07</span>
           <span>/</span>
           <span>20</span>
         </p>
@@ -22,9 +22,9 @@
       pDate="March 2019 "
       pWebsite="feedingtrends.com"
       pCategory="Product Design"
-      pHeading="A portal for Event lover"
-      pHeadingcolor="color:#00ACFF;"
-      pSubheading="enriching the portal with best user experience."
+      pHeading="Plateform to create, share, find and attend events in India"
+      pHeadingcolor="color:rgb(0, 143, 214);"
+      pSubheading="My job: Enriching the portal with best user experience."
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -61,9 +61,18 @@
     -->
     <!-- Preface -->
     <pcase
+      heading="events.feedingtrends.com"
+      para=" 
+       Founded in 2017, Feeding Trends is a young company that provides digital content and web-based industry solutions.
+
+Feeding Trends website supports organisers via its cost effective event ticketing solutions, and engages people via articles & stories published on it.
+      "
+      theme="theme_ft-event"
+    />
+    <pcase
       heading="Preface"
       para=" 
-        I was on the team for almost two years as the sole/lead designer. During that time I
+        I was on the team for almost two years as the lead designer. During that time I
         worked with company co-founders, developers, content-writers, designers to completely overhaul the
         design to create new  design system, create new features to fit our
         customers needs, and most importantly,
@@ -140,23 +149,18 @@
     />
 
     <pcase
-          heading="Design Sprint"
-      <!-- para="After the initial findings and research, I decided to coordinate a Google Design Sprint to get the team aligned
+      heading="Design Sprint"
+      para="After the initial findings and research, I decided to coordinate a Google Design Sprint to get the team aligned
       on how we could get our users to share event on other existing platform and make the whole experience as intuitive as possible.
-      I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days.  -->
+      I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days.
         <br><br>
         Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
+        
         "
       theme="theme_ft-event"
     />
-    <!-- <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-ideation-1.jpg" />
-        <img src="~assets/projects/ft-event/ft-event-ideation-1.jpg" alt="ft-event ideation" />
-        <p class="ps">I know my writing is all messed up.</p>
-      </picture>
-    </div>-->
-    <no-ssr>
+
+    <client-side>
       <agile>
         <div class="slide">
           <img
@@ -174,13 +178,7 @@
           />
         </div>
       </agile>
-    </no-ssr>
-
-    <!-- <img
-      class="p-image-100"
-      src="~assets/projects/ft-event/ft-event-ideation.jpg"
-      alt="ft-event web mockup"
-    />-->
+    </client-side>
 
     <div class="p-quote contain red">
       <blockquote>
@@ -193,7 +191,6 @@
       I asked these questions again and again, discussed it, researched existing solutions, came up with different possibilities. Started
       designing UI in XD which I was sure of and as I got further, things got easier and easier.
     </p>
-
     <!-- Art direction Design-->
 
     <pcase
@@ -210,12 +207,11 @@
       theme="theme_ft-event"
     />
 
-
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-                  <img
+          <img
             src="~assets/projects/ft-event/ft-site-architecture.jpg"
             alt="website architecture, website user journey"
           />
@@ -224,7 +220,6 @@
       </div>
     </div>
 
-    
     <pcase
       heading="Normal Visitor or user"
       para="Normal user who will visit the website where he/she will browse through listed event. Select a event, will 
@@ -280,17 +275,19 @@
       theme="theme_ft-event"
     />
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-team.jpg" />
-          <img
-            src="~assets/projects/ft-event/ft-event-team.jpg"
-            alt="website wireframing, wireframing"
-          />
-          <p class="ps black90">Initial layout and Primary Colours.</p>
-        </picture>
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-team.jpg" />
+            <img
+              src="~assets/projects/ft-event/ft-event-team.jpg"
+              alt="website wireframing, wireframing"
+            />
+            <p class="ps black90">Initial layout and Primary Colours.</p>
+          </picture>
+        </div>
       </div>
     </div>
 

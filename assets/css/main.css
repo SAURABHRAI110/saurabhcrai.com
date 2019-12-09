@@ -3258,7 +3258,7 @@ Akcent Colour
 */
 
 .reveal-block.theme_ft-event::before {
-  background: #00ACFF;
+  background: rgb(0, 131, 197);
 }
 
 .ft-event-research-sec {
@@ -3266,7 +3266,7 @@ Akcent Colour
 }
 
 
-+.p-image-100-text {}
+
 
 
 
