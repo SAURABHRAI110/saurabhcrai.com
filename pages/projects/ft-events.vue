@@ -193,6 +193,21 @@ Feeding Trends website supports organisers via its cost effective event ticketin
     </p>
     <!-- Art direction Design-->
 
+
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft-event/ft-event-user-personas.jpg"
+            alt="user personas for event"
+          />
+          <p class="ps black90">Site architecture</p>
+        </picture>
+      </div>
+    </div>
+
     <pcase
       heading="THREE USER TYPES"
       para="On our research and findings we concluded that the portal will have 3 user types i.e. Normal visitor, event creator, admin. Normal Users (Who is going ti visit the website and buy
