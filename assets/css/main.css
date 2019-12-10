@@ -2603,6 +2603,10 @@ color: #0088ff !important;
   background: #4FCEC4;
 }
 
+.dreamz-prototype {
+  background-color: #4FCEC4;
+}
+
 /* bls */
 .reveal-block.theme_bls::before {
   background: rgb(140, 0, 255);
@@ -3258,7 +3262,7 @@ Akcent Colour
 */
 
 .reveal-block.theme_ft-event::before {
-  background: rgb(0, 131, 197);
+  background: rgb(0, 143, 214);
 }
 
 .ft-event-research-sec {

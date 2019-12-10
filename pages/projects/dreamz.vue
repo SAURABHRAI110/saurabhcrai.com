@@ -301,7 +301,7 @@ But there is limitation set. You need to step up your level. Nice move. So you g
     </div>
 
     <pcase
-      heading="Prototype"
+      heading="Interactive Prototype"
       para=" During all my Design process. I kept my focus to make highly interactive
       prototype. Just few days ago Adobe XD had already released upgrade to it. And the new feature include
       Automate in prototype. It became my playground and using all the features of Adobe XD I created a Interactive prototype.
@@ -310,6 +310,19 @@ But there is limitation set. You need to step up your level. Nice move. So you g
     "
       theme="theme_dreamz"
     />
+
+    <div class="dreamz-prototype">
+      <div style="padding:70% 0 0 0;position:relative;">
+        <iframe
+          src="https://player.vimeo.com/video/378439622?title=0&byline=0&portrait=0"
+          style="position:absolute;top:50%;left:50%;max-width:500px;height:100%; transform:translate(-50%, -50%)"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    </div>
 
     <!-- key Focus Area -->
 
