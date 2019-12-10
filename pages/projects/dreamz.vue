@@ -312,7 +312,7 @@ But there is limitation set. You need to step up your level. Nice move. So you g
     />
 
     <div class="dreamz-prototype">
-      <div style="padding:70% 0 0 0;position:relative;">
+      <div style="padding:700px 0 0 0;position:relative;">
         <iframe
           src="https://player.vimeo.com/video/378439622?title=0&byline=0&portrait=0"
           style="position:absolute;top:50%;left:50%;max-width:500px;height:100%; transform:translate(-50%, -50%)"

@@ -294,7 +294,7 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
       The idea of the
     </p>
 
-    <div class="contain">
+    <!-- <div class="contain">
       <iframe
         src="https://player.vimeo.com/video/364763264"
         width="1000"
@@ -303,6 +303,26 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         allow="autoplay; fullscreen"
         allowfullscreen
       ></iframe>
+    </div>-->
+
+    <pcase
+      heading="Final output"
+      para=" The website is no more online. Here is the video of the website after final deployment.
+      "
+      theme="theme_fe"
+    />
+
+    <div class="fe-prototype">
+      <div style="padding:56.6% 0 0px 0px;position:relative;">
+        <iframe
+          src="https://player.vimeo.com/video/364763264?title=0&byline=0&portrait=0"
+          style="position:absolute;top:50%;left:50%;width:80%;height:100%; transform:translate(-50%, -50%)"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
     <!-- Technology -->

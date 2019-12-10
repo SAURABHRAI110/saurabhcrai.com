@@ -83,9 +83,9 @@
     <pcase
       heading="Challenge"
       para=" 1. Strict Deadline <br>
-      2. Did it for an Interview <br>
+      2. Did it to learn <br>
       3. Only Two days to showcase UI/UX Process <br>
-      4. No time for research
+      4. Time constraint to do heuristic research
   
         
      "
@@ -317,7 +317,7 @@
 
     <!-- User Interface -->
     <pcase
-      heading="Prototype"
+      heading="Interactive Prototype"
       para="Made an App rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. A lot can 
       be improved though.In two days This is all did.
 .  
@@ -339,7 +339,7 @@
       </div>
     </div>
 
-    <div class="contain">
+    <!-- <div class="contain">
       <no-ssr>
         <vimeo-player
           class="vimeo"
@@ -352,15 +352,19 @@
           :player-width="640"
           loop="1"
         />
-      </no-ssr>
-      <!-- <iframe
-        src="https://player.vimeo.com/video/372189216"
-        width="auto"
-        height="600"
-        frameborder="0"
-        allow="autoplay; fullscreen"
-        allowfullscreen
-      ></iframe>-->
+    </no-ssr>-->
+
+    <div class="cricbuzz-prototype">
+      <div style="padding:800px 0 0 0;position:relative;">
+        <iframe
+          src="https://player.vimeo.com/video/372189216?title=0&byline=0&portrait=0"
+          style="position:absolute;top:50%;left:50%;max-width:500px;height:100%; transform:translate(-50%, -50%)"
+          frameborder="0"
+          allow="autoplay; fullscreen"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <script src="https://player.vimeo.com/api/player.js"></script>
     </div>
 
     <pcase
@@ -369,7 +373,7 @@
       night this is all I can design. There may be one and more typos error and not pixel perfect and
       please don't mind my English and English Grammar. I try hard though to not  mistake. There's a
       lot of area where with good research and planning app can be made even more awesome for all
-      cricket lover.  Thanks SuperGaming.
+      cricket lover.
 .  
                
      "

@@ -2548,6 +2548,11 @@ body {
   margin-top: -56px;
 }
 
+
+.fe-prototype {
+  background-color: #252525;
+}
+
 /* 
 .abcd {
   display: flex;
@@ -2977,6 +2982,10 @@ primary #8e55ff
 
 .reveal-block.theme_cricbuzz::before {
   background: #0088FF;
+}
+
+.cricbuzz-prototype {
+  background-color: #0088FF;
 }
 
 
