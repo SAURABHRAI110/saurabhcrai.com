@@ -193,8 +193,6 @@ Feeding Trends website supports organisers via its cost effective event ticketin
     </p>
     <!-- Art direction Design-->
 
-
-
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -203,7 +201,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
             src="~assets/projects/ft-event/ft-event-user-personas.jpg"
             alt="user personas for event"
           />
-          <p class="ps black90">Site architecture</p>
+          <p class="ps black90">User Personas</p>
         </picture>
       </div>
     </div>
@@ -245,6 +243,17 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       "
       theme="theme_ft-event"
     />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img src="~assets/projects/ft-event/ft-event-habit-loop.svg" alt="user habit lopp" />
+          <p class="ps black90">Normal user habit loop</p>
+        </picture>
+      </div>
+    </div>
+
     <pcase
       heading="The Creator Experience"
       para="The event creator is the Entertainment Provider in a sense. They Choose what type of
@@ -257,12 +266,12 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       heading="The Admin Experience"
       para="Admins at the company are then able to dig into demographic insights
         on the types of professionals that are engaging with their content the most and
-        how they could leverage their employees to reach a particular audience.
+        how they could leverage their event creator to reach a particular audience.
 
         <br><br>
         The first tab of the Analytics page for admins let them see how their curators
-        are performing. Is there enough broadcasted content for their employees to share? Which topics
-        are broadcasted to the most, and what's getting the most engagements?
+        are performing. Is there enough broadcasted event for their users to share? Which categories
+        are listed to the most, and what's getting the most engagements?
       "
       theme="theme_ft-event"
     />
@@ -300,17 +309,10 @@ Feeding Trends website supports organisers via its cost effective event ticketin
               src="~assets/projects/ft-event/ft-event-team.jpg"
               alt="website wireframing, wireframing"
             />
-            <p class="ps black90">Initial layout and Primary Colours.</p>
+            <p class="ps white">FT Event Team</p>
           </picture>
         </div>
       </div>
-    </div>
-
-    <div class="live-link_container" style="background-color:var(--secondary-color);">
-      <LiveLink
-        link="https://events.feedingtrends.com"
-        text="Launch Site | events.feedingtrends.com"
-      />
     </div>
 
     <!-- key Focus Area -->
@@ -340,6 +342,13 @@ Feeding Trends website supports organisers via its cost effective event ticketin
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="live-link_container" style="background-color:var(--secondary-color);">
+      <LiveLink
+        link="https://events.feedingtrends.com"
+        text="Launch Site | events.feedingtrends.com"
+      />
     </div>
 
     <!-- conclusion -->
