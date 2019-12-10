@@ -277,6 +277,33 @@ Feeding Trends website supports organisers via its cost effective event ticketin
     />
 
     <pcase
+      heading="User Interface Design"
+      para="Putting everything together from the research, user personas, wireframes. I moved the begin
+      to design UI Elements like tabs, search, links, contents. 
+
+
+        <br><br>
+        I was very clear to me to always provide next steps so that users can deduce naturally, whatever their context.
+        Because the best interface is no interface, to offer users the most direct,
+        accessible, comfortable control (and best experience).
+      "
+      theme="theme_ft-event"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft-event/ft-event-all-web-pages.jpg"
+            alt="website web pages design"
+          />
+          <p class="ps black90">All pages</p>
+        </picture>
+      </div>
+    </div>
+
+    <pcase
       heading="Constantly learning"
       para="
           Being such a small team, we were able to work incredibly agile.
@@ -305,10 +332,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <picture>
             <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-team.jpg" />
-            <img
-              src="~assets/projects/ft-event/ft-event-team.jpg"
-              alt="website wireframing, wireframing"
-            />
+            <img src="~assets/projects/ft-event/ft-event-team.jpg" alt="feeding trends team" />
             <p class="ps white">FT Event Team</p>
           </picture>
         </div>
@@ -328,14 +352,14 @@ Feeding Trends website supports organisers via its cost effective event ticketin
               <span>✔ Ideation</span>
               <span>✔ Taking Design Meetings</span>
               <span>✔ Collaborating with Content writers</span>
-              <span>✔ Making Post for social Media</span>
+              <span>✔ User personas</span>
               <span>✔ Drank Lots of Coffee</span>
               <span>✔ Taken Stress</span>
               <span>✔ Made Wireframe</span>
-              <span>✔ Discussed potential User Journey</span>
+              <span>✔ Structured User Journey</span>
               <span>✔ Worked in nights</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ UI Design</span>
               <span>✔ Defending UX Decisions</span>
               <span>✔ Pop and un-pop things</span>
             </div>
