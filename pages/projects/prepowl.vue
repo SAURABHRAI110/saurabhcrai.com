@@ -24,7 +24,7 @@
       pCategory="Product Design"
       pHeading=" Institutes portal for conducting exams and mock tests"
       pHeadingcolor="color:#8e55ff;"
-      pSubheading="Prepwold Software showcase website design for clients."
+      pSubheading="Prepwol Software showcase website design for clients."
     />
 
     <!-- hero image -->
@@ -60,30 +60,14 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Feeding Trends is an online media company organizing literary styles for interactive journalism. They publish
-    global trends, which are important, relevant and interesting. Their prime focus lies in the curation of highly engrossing content.
-    Working diligently to convince people into spending time with content, through effective imagination, creation and presentation.
-    And in a way wishing for is to uplift the notion that ‘media is dead’. Wanting to do wonders with their content, with people talking about them, anywhere and everywhere
-    - night outs, road trips, birthdays parties, conferences, and even family functions! All through
-    <a  href='https://feedingtrends.com/'
-            target='_blank'
-            rel='noopener'
-            title='feedingtrends.com'><span class='underline-magical'>feedingtrends.com</span></a>
-"
-      theme="theme_prepowl"
+      para="Prepowl is web product intended for students who are preparing for certain exams in India.
+      Prepowl says and I quote 'We are on a mission to reshape the process of how students prepare online for competitive exams', and I totally agree.
+      "
     />
     <!-- Problem -->
     <pcase
-      heading="From humble Beginnings"
-      para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
-    my seniors, co-founded feeding trends. I was in 6th semester, enjoying some home time during summer vacation, got a call from
-    Yash sir and I was asked to do a logo design for FeedingTrends. I remember it was a long call. Well moving forward, logo designing
-    is tough, I took my time and did textual logo, used a  Sans font, outlined it, played around arrow, to make it feel like 
-    trendy stuff and yeah Finished. We moved forward and setup  implemented logo on Facebook, Instagram and on stuff.
-    FT got recognized and people started sharing our stuff and yeah it was great start.
-    <br><br>
-    Later on after 2 month I joined FeedingTrends. While still managing my time around
-    college and working at feeding Trends Office. Bunking Classes just to work on outgoing projects at FT Office or from my flat.
+      heading="Research"
+      para=" After layout and content strategy, It was time to set a theme and colour palette It was time to design a simple, clean and elegant showcase website. The accent colour I choose was Dark moderate cyan.. Later on while project was in design phase I changed the theme from Cyan to Gradient feel, to make it more contrast and modern feel. I decided to use red as theme colour
   
         
      "
@@ -91,10 +75,7 @@
     />
 
     <div class="p-quote contain red">
-      <blockquote>
-        Bunking clsses to work on outgoing projects while still managing college assignments and all. It was Beginnings
-        of something great.
-      </blockquote>
+      <blockquote>Things got better and easy after applying a Content first strategy for the website.</blockquote>
     </div>
 
     <div class="p-image-100-duo">
@@ -211,13 +192,8 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I changed the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
+            This project is still in Development phase. Applying Content First strategy and collaborating with Content Writer and Strategist gave a very satisfying result and I totally
+            had very good in overall design process.
           </p>
         </div>
       </div>
