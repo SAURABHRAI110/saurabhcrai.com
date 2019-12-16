@@ -201,8 +201,7 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+       Maaking hypothesis is awesome but at the end of the day that hypothesis better turn for the better of the project.
       </blockquote>
     </div>
 
