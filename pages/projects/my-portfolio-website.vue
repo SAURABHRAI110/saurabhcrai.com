@@ -60,7 +60,7 @@ http://stephencalvillodesign.com/project/prestoq
 
     <pcase
       heading="Preface"
-      para="The making of this website. Cureently I am working on this project showcase.
+      para="The making of this website. Currently I am working on this project showcase.
 "
       theme="theme_my_website"
     />

@@ -211,8 +211,8 @@
 
     <pcase
       heading="Deploying On Play Store"
-      para=" While the app was being deployed on Play store. I was asked to make some shots the upload on playstore.
-      So visited play store, looked fere and there. Asked myself how this should be done, talked to content writers about possible
+      para=" While the app was being deployed on Play store. I was asked to make some shots the upload on play-store.
+      So visited play store, looked here and there. Asked myself how this should be done, talked to content writers about possible
       tagline for each screen. 
       Made it, saved it in jpg. Hooyah. Done my first screen for any App.
      
