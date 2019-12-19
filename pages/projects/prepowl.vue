@@ -201,7 +201,7 @@
 
     <div class="p-quote contain red">
       <blockquote>
-      Let the work shine, and have some fun.
+       Maaking hypothesis is awesome but at the end of the day that hypothesis better turn for the better of the project.
       </blockquote>
     </div>
 
