@@ -52,46 +52,42 @@
     </div>
 
     <Preface
-      timeframe=" Feb 2019- March 2019
-              <br />1 month"
-      tools=" Adobe XD, Adobe Illustrator
-              <br /> Dropbox Paper, Flinto, markers"
-      role=" UI/UX
-              <br />Research, Content Strategy"
-      team=" Me-UX, Shekhar-Dev
-              <br />Yash/Zainab-Managing"
+      timeframe=" December 2019
+              <br />2 sleepless Night"
+      tools=" Adobe XD, Adobe Illustrator, Dropbox paper
+              <br /> Adobe Photoshop, Pen & paper"
+      role=" Creative Direction, Research
+              <br />User Interface & User Experience"
+      team=" Myself 
+              <br />only"
     />
 
     <!-- Refrence
       http://stephencalvillodesign.com/project/linkedin-elevate
-      http://stephencalvillodesign.com/project/fullscreen
+      http://stephencalvillodesign.com/project/fullscreen`
       
     -->
     <!-- Preface -->
     <pcase
-      heading="events.feedingtrends.com"
+      heading="Preface"
       para=" 
-       Founded in 2017, Feeding Trends is a young company that provides digital content and web-based industry solutions.
-
-Feeding Trends website supports organisers via its cost effective event ticketing solutions, and engages people via articles & stories published on it.
+      Communication in large offices is a challenge, and booking some space to run
+      a meeting or have a private call shouldn’t be difficult. This project was a challenge to myself. I had to understood the porblem come up with
+      a solution within 2 Days. It was to design a user interface
+      for web platform to let someone know whether a meeting room is free, how long for,
+      and allow the person to book on the spot if necessary. This application is intended
+      for use by anybody who might need a meeting room in a large office. One should consider
+      that the people requiring the room might need it urgently, there may already be people
+      in the room, they might only need it for 10-15 minutes, and that there might be more
+      than one meeting room in the building...
+      
       "
       theme="theme_meeting-rooms"
     />
     <pcase
-      heading="Preface"
+      heading="Discovery and Ideation"
       para=" 
-        I was on the team for almost two years as the lead designer. During that time I
-        worked with company co-founders, developers, content-writers, designers to completely overhaul the
-        design to create new  design system, create new features to fit our
-        customers needs, and most importantly,
-        design new features to create a better experience for every project I worked on. FT Event was one of the company Internal Project.
-        <br><br>
-        FT Event is about event website where user can book tickets and create event. 
-        Using FT Events to the Beat website, users can register for the events, Book tickets,
-        Create Event and manage the event or ticket
-        from its dash board. In addition to finding information on past and future events,
-        event results, image gallery, charity event organizers,
-        participating musicians, register for the Feeding Trends exclusive advertisement, and more.
+        This was exciting project and been
 
         <br>
         <br>
@@ -120,14 +116,6 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         "
       theme="theme_meeting-rooms"
     />
-
-    <!--       When we work on something that we have to decide on our own about every aspects of a product. It gets more challenging than ever.
-      Then we are in constant dilemma of this or that. Iteration seems to never stop. Its get frustrating.
-      Though we are not restricted by anything, its also fun and our mind happen to work round the clock to make decisions.
-
-        <br> <br>Making something stand out and gives a feel of creativity and wowness. 
-        was cool for the moment but that can not be used to used on web.
-    <br>3. No copywrite, no information architecture."-->
 
     <p class="contain just-para black90">
       Also, there is many competitor in the same niche, and i was not easy to have something that is similar yet
@@ -173,16 +161,16 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/ft-event/ft-events-ideation-1.jpg"
-            alt="feeding trends ideation"
+            src="~assets/projects/meeting-rooms/meeting-rooms-sketches-1.jpg"
+            alt="meeting rooms design and sketches in diary"
           />
         </div>
 
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/ft-event/ft-events-ideation-2.jpg"
-            alt="feeding trends ideation"
+            src="~assets/projects/meeting-rooms/meeting-rooms-sketches-2.jpg"
+            alt="meeting rooms design and sketches in diary"
           />
         </div>
       </agile>

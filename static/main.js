@@ -95,6 +95,7 @@ function openFullscreen() {
     /* IE/Edge */
     elem.msRequestFullscreen();
   }
+
 }
 
 
