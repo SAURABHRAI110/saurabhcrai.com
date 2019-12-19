@@ -2625,6 +2625,16 @@ color: #0088ff !important;
 }
 
 
+/* meeting rooms */
+
+
+
+
+
+.reveal-block.theme_meeting-rooms::before {
+
+  background: linear-gradient(90deg, #2108c2 0%, #b97bff 100%);
+}
 
 
 /* tbt-app */

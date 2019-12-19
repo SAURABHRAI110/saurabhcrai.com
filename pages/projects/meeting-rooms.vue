@@ -13,7 +13,7 @@
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:rgb(0, 143, 214);">07</span>
+          <span style="color:#7800FE;">07</span>
           <span>/</span>
           <span>20</span>
         </p>
@@ -25,7 +25,7 @@
       pWebsite="Meeting Room"
       pCategory="Product Design"
       pHeading="Effortlessly manage meetings from wherever you are"
-      pHeadingcolor="color:rgb(0, 143, 214);"
+      pHeadingcolor="color:#7800FE;"
       pSubheading="One solutions for scheduling meeting and booking meeting room in big office building."
     />
     <!-- <div class="p-fe-hero_image">
@@ -37,7 +37,7 @@
 
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_ft-event" data-aos="reveal-right"></div>
+        <div class="reveal-block right theme_meeting-rooms" data-aos="reveal-right"></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -75,7 +75,7 @@
 
 Feeding Trends website supports organisers via its cost effective event ticketing solutions, and engages people via articles & stories published on it.
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
     <pcase
       heading="Preface"
@@ -100,7 +100,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       This case study is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
       So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <div class="p-quote contain red">
@@ -118,7 +118,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidelines.
         It was really challenging. The existing website and the event portal have different purpose and target user. 
         "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <!--       When we work on something that we have to decide on our own about every aspects of a product. It gets more challenging than ever.
@@ -153,7 +153,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         implement a functional even website.
         
         "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <pcase
@@ -165,7 +165,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
         
         "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <client-side>
@@ -225,7 +225,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
 
          We came up with a simple habit loop. Discover, Share with friends, Book ticket for them, Go to event, Repeat.
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <div class="p-image-100-duo">
@@ -249,7 +249,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
 
 
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <div class="p-image-100-duo">
@@ -268,7 +268,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         event are they organizing, what are their possible audience,  and push the event to audience.
         They can see the performance of their event, Sales record etc. on the ft event website.
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
     <pcase
       heading="The Admin Experience"
@@ -281,7 +281,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         are performing. Is there enough broadcasted event for their users to share? Which categories
         are listed to the most, and what's getting the most engagements?
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <pcase
@@ -295,7 +295,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         Because the best interface is no interface, to offer users the most direct,
         accessible, comfortable control (and best experience).
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <div class="p-image-100-duo">
@@ -319,7 +319,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
           to better suit their needs (and our business goals of course). I did multiple sessions
           of interviews for both conceptual ideas and usability testing. 
       "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <pcase
@@ -331,7 +331,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         developer. Anyway The time we spend to build up the this project was a great leaning for everyone. 
             
             "
-      theme="theme_ft-event"
+      theme="theme_meeting-rooms"
     />
 
     <div class="contain">
