@@ -87,22 +87,21 @@
     <pcase
       heading="Discovery and Ideation"
       para=" 
-        This was exciting project and been
-
-        <br>
-        <br>
-        
-        Feeding Trends- Events is in Development stage right now, I delivered the design already,
-      This case study is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
-      So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
+        This was exciting project personally. At my past company I whenever required took team
+        meeting with developers, fellow designers, project managers, clients and whosoever needed to discuss the project
+        give input on the design, Give ideas etc. Meetings are the very important part of the process, still
+        designers, developers avoid it of possible, they hate to see their time wasted like. Meeting are considered a hindrance in the workflow.
+        So, that people take meetings seriously and attend it on time and give their value to the subject.
+        My thought process for this project move around this thing mostly.
       "
       theme="theme_meeting-rooms"
     />
 
     <div class="p-quote contain red">
       <blockquote>
-        The idea was to make Feeding Trends to the Beat website as a one-stop-destination
-        for all-inclusive information and updates on everything associated with the event.
+        I came up with that meeting rooms should not be just about booking rooms, but more than this.
+        It should be taken as an important part of the process and company culture where everyone feels
+        valued and attent meeting time the best of it.
       </blockquote>
     </div>
 
