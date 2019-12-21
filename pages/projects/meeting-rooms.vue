@@ -33,8 +33,6 @@
       <img src="~assets/projects/fe/fe1.png" alt>
     </div>-->
 
-    <ScrollDown />
-
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_meeting-rooms" data-aos="reveal-right"></div>
@@ -85,7 +83,7 @@
       theme="theme_meeting-rooms"
     />
     <pcase
-      heading="Discovery and Ideation"
+      heading="Discovery"
       para=" 
         This was exciting project personally. At my past company I whenever required took team
         meeting with developers, fellow designers, project managers, clients and whosoever needed to discuss the project
@@ -105,53 +103,68 @@
       </blockquote>
     </div>
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft-event/ft-event-user-personas.jpg"
+            alt="user personas for event"
+          />
+          <p class="ps black90">User Personas</p>
+        </picture>
+      </div>
+    </div>
     <!-- Backstory -->
-
     <pcase
-      heading="Challenge 🥴 "
-      para="Well, the most challenging part was the make the event portal feel like the part of feeding Trends,
-        and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidelines.
-        It was really challenging. The existing website and the event portal have different purpose and target user. 
-        "
-      theme="theme_meeting-rooms"
-    />
+      heading="Problems"
+      para="I talked with some of the friends who are working on corporate and attending meeting, discussing with team
+    are their part of the job. I came up with some some conclusion and made me wonder. The conclusion's are as follows.
+    <br />
+    <br />
+    <ul style='color:#7800FE;'>
+      <li>Most of them hate attending meeting. They consider it as unnecessary.</li>
+      <li>70 percent of them considered it as wastes of time period.</li>
+      <li>Most developers said it make them to lose focus from their task specially if the meeting is in mid hours of working time.</li>
+      <li>Most of them doesn't event get to know what their contribution to the meeting will be.</li>
+      <li>Even if they know, they lack clarity and what they have to contribute to meeting.</li>
+      <li>Most meeting turned out to get delayed and even they get cancelled and they get to know after their time have been already wasted.</li>
+      <li>The meeting room they get into doesn't have what they required like wifi password.</li>
+    </ul>
 
-    <p class="contain just-para black90">
-      Also, there is many competitor in the same niche, and i was not easy to have something that is similar yet
-      simple and intuitive and make user come to website and let them discover events and book tickets.
-    </p>
-
-    <!-- <img
-        class="p-image-100"
-        src="~assets/projects/ft-event/ft-event-mockup-web1.jpg"
-        alt="ft-event web mockup"
-    />-->
-    <!-- Ideation and Research -->
-
-    <pcase
-      class="ft-event-research-sec"
-      heading="Ideation and Research"
-      para="After some deep research and coming with a strategy of monetizing the same and the discussing all the
-        possible scenario how a user will interact with the website. We came up with website architecture and site map.
-        
-        <br><br>
-        On our past experience, the problem and challenges faced during making feedingtrends content website, 
-        We decided to follow google material guidelines and so that development and design can go long way and we can easily
-        implement a functional even website.
-        
-        "
+    <br>
+    Considering all these I came up with a solution that can solve all these with just one product i.e. MeetingRooms
+    Not only book your rooms for meeting but also provide details related to meeting, who will going to attend the meeting and what they are expected 
+    to come up in meeting.
+"
       theme="theme_meeting-rooms"
     />
 
     <pcase
-      heading="Design Sprint"
-      para="After the initial findings and research, I decided to coordinate a Google Design Sprint to get the team aligned
-      on how we could get our users to share event on other existing platform and make the whole experience as intuitive as possible.
-      I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days.
-        <br><br>
-        Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
-        
+      heading="Solution"
+      para="For me it was always the priority to understand the actual problem the user are facing anf what solution I can make
+      to solve those problems.
+
+         <ul style='color:#7800FE;'>
+      <li>Live update about the meeting. Important notification only.</li>
+      <li>Provide details about attendee meeting expectations and prerequisites from them</li>
+      <li>SSync meeting to their calenders.</li>
+      <li>Book rooms on the go, request rooms if not free, swap meeting rooms.</li>
+      <li>Clear clarity about meeting details.</li>
+      <li>All meeting rooms infrastructure details, capacity, services available in that room</li>
+    </ul>
+
         "
+      theme="theme_meeting-rooms"
+    />
+
+    <pcase
+      heading="Ideation"
+      para="I began the ideation process with the questions in mind
+     and started to develop how this new product might look like
+     and how it would solve these challenges. After several rounds of developments and lots of feedback
+     from fiends and colleagues, I created the final product sketches and I wen to work in adobe XD, starting with logo
+     design.  "
       theme="theme_meeting-rooms"
     />
 
@@ -175,34 +188,14 @@
       </agile>
     </client-side>
 
-    <div class="p-quote contain red">
-      <blockquote>
-        Is it the right page? Does the page have the content which I am looking for?
-        Do they have anything better, if this is not what I’m looking for? What is expected of me now?
-      </blockquote>
-    </div>
-
     <p class="contain just-para black90">
       I asked these questions again and again, discussed it, researched existing solutions, came up with different possibilities. Started
       designing UI in XD which I was sure of and as I got further, things got easier and easier.
     </p>
     <!-- Art direction Design-->
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft-event/ft-event-user-personas.jpg"
-            alt="user personas for event"
-          />
-          <p class="ps black90">User Personas</p>
-        </picture>
-      </div>
-    </div>
-
     <pcase
-      heading="THREE USER TYPES"
+      heading="Information Architecture"
       para="On our research and findings we concluded that the portal will have 3 user types i.e. Normal visitor, event creator, admin. Normal Users (Who is going ti visit the website and buy
       tickets for events), Creator (Who will publish event thorough our platform), and then Admin(who will
       manage the event listing, tickets sale authorize users and curators). <br><br>
@@ -212,7 +205,7 @@
 
          We came up with a simple habit loop. Discover, Share with friends, Book ticket for them, Go to event, Repeat.
       "
-      theme="theme_meeting-rooms"
+      theme="User Jounery"
     />
 
     <div class="p-image-100-duo">
@@ -250,29 +243,7 @@
     </div>
 
     <pcase
-      heading="The Creator Experience"
-      para="The event creator is the Entertainment Provider in a sense. They Choose what type of
-        event are they organizing, what are their possible audience,  and push the event to audience.
-        They can see the performance of their event, Sales record etc. on the ft event website.
-      "
-      theme="theme_meeting-rooms"
-    />
-    <pcase
-      heading="The Admin Experience"
-      para="Admins at the company are then able to dig into demographic insights
-        on the types of professionals that are engaging with their content the most and
-        how they could leverage their event creator to reach a particular audience.
-
-        <br><br>
-        The first tab of the Analytics page for admins let them see how their curators
-        are performing. Is there enough broadcasted event for their users to share? Which categories
-        are listed to the most, and what's getting the most engagements?
-      "
-      theme="theme_meeting-rooms"
-    />
-
-    <pcase
-      heading="User Interface Design"
+      heading="Visual Design"
       para="Putting everything together from the research, user personas, wireframes. I moved the begin
       to design UI Elements like tabs, search, links, contents. 
 
@@ -297,6 +268,17 @@
         </picture>
       </div>
     </div>
+
+    <pcase
+      heading="Setting up the Style Guide"
+      para="After finishing the project I began working to make this project scalable. I developed a style guide that fit the asthetic of the branding
+      and worked well with web platform.
+     
+
+
+      "
+      theme="theme_meeting-rooms"
+    />
 
     <pcase
       heading="Constantly learning"
@@ -447,7 +429,6 @@ import Previous from '~/components/projects/previous'
 import Pfootern from '~/components/projects/pfootern'
 import Pfooterp from '~/components/projects/pfooterp'
 import Allprojectsnav from '~/components/projects/allprojectsnav'
-import ScrollDown from '~/components/projects/scroll-down'
 import LiveLink from '~/components/projects/live-link'
 
 export default {
@@ -463,7 +444,6 @@ export default {
     Pfooterp,
     Pfootern,
     Allprojectsnav,
-    ScrollDown,
     LiveLink
   }
 }
