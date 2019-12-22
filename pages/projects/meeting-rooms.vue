@@ -161,10 +161,10 @@
     <pcase
       heading="Ideation"
       para="I began the ideation process with the questions in mind
-     and started to develop how this new product might look like
-     and how it would solve these challenges. After several rounds of developments and lots of feedback
-     from fiends and colleagues, I created the final product sketches and I wen to work in adobe XD, starting with logo
-     design.  "
+     and started to develop how this  product might look like
+     and how it would solve these challenges. After several rounds of initial ideation and defining the layout and
+     passible Information architecture and lots of feedback from friends and colleagues, I created some product  sketches and I went to work in adobe XD, starting with logo
+     design."
       theme="theme_meeting-rooms"
     />
 
