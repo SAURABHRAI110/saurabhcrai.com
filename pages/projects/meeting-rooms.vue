@@ -85,7 +85,7 @@
     <pcase
       heading="Discovery"
       para=" 
-        This was exciting project personally. At my past company I whenever required took team
+        This was exciting project personally. In my past experience I whenever required took team
         meeting with developers, fellow designers, project managers, clients and whosoever needed to discuss the project
         give input on the design, Give ideas etc. Meetings are the very important part of the process, still
         designers, developers avoid it of possible, they hate to see their time wasted like. Meeting are considered a hindrance in the workflow.
