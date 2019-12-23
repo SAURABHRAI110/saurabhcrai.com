@@ -43,7 +43,7 @@
           />
           <img
             src="~assets/projects/meeting-rooms/meeting-rooms-hero.jpg"
-            alt="meeting rooms mockup, ipad mockup,booking meeting rooms "
+            alt="meeting rooms mockup, ipad mockup,booking meeting rooms"
           />
         </picture>
       </div>
