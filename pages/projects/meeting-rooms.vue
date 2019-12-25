@@ -291,17 +291,7 @@
       theme="theme_meeting-rooms"
     />
 
-    <pcase
-      heading="The Smile says It all"
-      para="
-        The Project was long, challenging, pressure was immense. Each day there was something that put things on the edge.
-        For me designing was not straight ride but a rollercoaster ride. We kept our head down and hope high.  Any mistake from my side means, its gonna come in development
-        phase. At the time I was also learning Basic HTML CSS. And leaning itb helps my to move forward fast as I communicated better with
-        developer. Anyway The time we spend to build up the this project was a great leaning for everyone. 
-            
-            "
-      theme="theme_meeting-rooms"
-    />
+    
 
     <div class="contain">
       <div class="p-image-100-duo">
