@@ -1,6 +1,6 @@
 
 
-# Kind of Finished this project still updating stuff as see good. Will be always in  Active development
+#Website is in continuous Deveolpment.
 
 ## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
