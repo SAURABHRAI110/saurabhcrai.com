@@ -1,6 +1,6 @@
 
 
-#Website is in continuous Deveolpment.
+# Website is in continuous Deveolpment.
 
 ## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
