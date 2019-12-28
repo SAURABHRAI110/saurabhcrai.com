@@ -1,6 +1,6 @@
 
 # My personal portfolio website
-## currently in continuous Deveolpment.
+## Currently in continuous Deveolpment.
 
 ## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
