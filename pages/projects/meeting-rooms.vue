@@ -85,7 +85,7 @@
     <pcase
       heading="Discovery"
       para=" 
-        This was exciting project personally. In my past experience I whenever required took team
+        This was an exciting project personally. In my past experience I whenever required took team
         meeting with developers, fellow designers, project managers, clients and whosoever needed to discuss the project
         give input on the design, Give ideas etc. Meetings are the very important part of the process, still
         designers, developers avoid it of possible, they hate to see their time wasted like. Meeting are considered a hindrance in the workflow.
@@ -129,7 +129,7 @@
       <li>Most of them doesn't event get to know what their contribution to the meeting will be.</li>
       <li>Even if they know, they lack clarity and what they have to contribute to meeting.</li>
       <li>Most meeting turned out to get delayed and even they get cancelled and they get to know after their time have been already wasted.</li>
-      <li>The meeting room they get into doesn't have what they required like wifi password.</li>
+      <li>The meeting room they get into doesn't have what they required like wi-fi password.</li>
     </ul>
 
     <br>
