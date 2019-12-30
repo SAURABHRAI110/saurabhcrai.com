@@ -1,6 +1,6 @@
 
-
-# Kind of Finished this project still updating stuff as see good. Will be always in  Active development
+# My personal portfolio website
+## Currently in continuous Deveolpment.
 
 ## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
@@ -11,7 +11,7 @@
 
 
 
-> I am ux Graphic designer turned UX DESIGNER turned web developer. This Website is shows the transition of my journey of the later two. I didn't know how to code. So I challenged myself #100DayOfCode and learned it. This Website and repository is my journey to learn how to code and along the way make an awesome personal portfolio website for showcasing all my Design Works.
+> I am Graphic designer turned UX DESIGNER turned web developer. This Website is shows the transition of my journey of the later two. I didn't know how to code. So I challenged myself #100DayOfCode and learned it. This Website and repository is my journey to learn how to code and along the way make an awesome personal portfolio website for showcasing all my Design Works.
 
 >Feel free to Go through my code and let me know if you like this project.
 >Made with [vue.js](https://vuejs.org) framework and [nuxtjs](https://nuxtjs.org).
