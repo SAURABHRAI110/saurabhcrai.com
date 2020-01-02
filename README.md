@@ -1,6 +1,7 @@
 
 # My personal portfolio website
 ## Currently in continuous Deveolpment.
+## Vue.js Nuxt.js Framework
 
 ## See it in action [click here](https://saurabhcrai.com)
 # saurabhcrai.com
