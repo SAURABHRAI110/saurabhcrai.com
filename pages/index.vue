@@ -32,7 +32,7 @@
           <span>User Experience</span>
           <br />
           <span class="outlined">Designer</span> At
-          <br />Feeding Trends
+          <br />Ranosys Technologies
         </h1>
       </div>
       <div class="contain">
