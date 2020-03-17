@@ -493,7 +493,7 @@ export default {
 
 <style scoped>
 .h-hero-title {
-  white-space: nowrap;
+  white-space: wrap;
   margin-top: 12%;
 }
 

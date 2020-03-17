@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <projecthero
+    <projectherox
       pDate="December 2019 "
       pWebsite="Meeting Room"
       pCategory="Product Design"
@@ -290,8 +290,6 @@
       "
       theme="theme_meeting-rooms"
     />
-
-    
 
     <div class="contain">
       <div class="p-image-100-duo">
