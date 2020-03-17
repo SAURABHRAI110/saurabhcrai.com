@@ -66,8 +66,8 @@
     <div class="b-p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_blog_post" data-aos="reveal-right"></div>
-        <ImageResponsive
-          :imageURL="'blog/' + id + '/_main.jpg'"
+        <img
+          :src="require(`~/assets/images/blog/${id}/_main.jpg`)"
           width="100%"
           height="100%"
           class="blog-hero-image"
@@ -76,6 +76,7 @@
       </div>
       <p class="ps black50">{{heroimagedes}}</p>
     </div>
+
     <div class="section-divider">
       <hr class="section-divider" />
     </div>

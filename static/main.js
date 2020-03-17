@@ -99,6 +99,19 @@ function openFullscreen() {
 }
 
 
+$("html").easeScroll({
+  frameRate: 60,
+  animationTime: 1200,
+  stepSize: 120,
+  pulseAlgorithm: !0,
+  pulseScale: 8,
+  pulseNormalize: 1,
+  accelerationDelta: 20,
+  accelerationMax: 1,
+  keyboardSupport: !0,
+  arrowScroll: 50
+});
+
 // $(window).load(function () {
 //   $("body").removeClass("preload");
 // });
@@ -122,7 +135,7 @@ const particlesClasses = [{
   {
     class: "pop-bottom-left"
   },
-];
+]; //
 
 document.getElementById('totalCounter').innerText = totalCount;
 
@@ -211,18 +224,7 @@ function addRandomParticlesRotation(particlesName, minDeg, maxDeg) {
   particles.style.transform = `rotate(${randomRotationAngle})`;
 }
 
-$("html").easeScroll({
-  frameRate: 60,
-  animationTime: 1200,
-  stepSize: 120,
-  pulseAlgorithm: !0,
-  pulseScale: 8,
-  pulseNormalize: 1,
-  accelerationDelta: 20,
-  accelerationMax: 1,
-  keyboardSupport: !0,
-  arrowScroll: 50
-});
+
 
 
 // journey
