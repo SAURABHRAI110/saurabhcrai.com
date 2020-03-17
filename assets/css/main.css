@@ -100,6 +100,20 @@ a {
 }
 
 
+.underline-magical-hero {
+  background-image: linear-gradient(113.1deg, rgba(254, 140, 48, .5) 14%, rgba(253, 75, 101, .5) 80.5%, rgba(255, 53, 109, .5) 100.6%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.07em;
+  background-position: 0 84%;
+  padding: 7px 0px;
+  transition: background-size 0.25s cubic-bezier(0.475, 0.425, 0, 0.995);
+}
+
+.underline-magical-hero:hover {
+  background-size: 100% 88%;
+}
+
+
 
 
 

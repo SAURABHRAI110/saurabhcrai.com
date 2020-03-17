@@ -32,7 +32,10 @@
           <span>User Experience</span>
           <br />
           <span class="outlined">Designer</span> At
-          <br />Ranosys Technologies
+          <br />
+          <a href="https://www.ranosys.com/" target="_blank" rel="noopener" title="ranosys.com">
+            <span class="underline-magical-hero">Ranosys Technologies</span>
+          </a>
         </h1>
       </div>
       <div class="contain">
@@ -503,6 +506,7 @@ export default {
   white-space: nowrap;
   padding-top: 30px;
   overflow: hidden;
+  padding-bottom: 2px;
 }
 
 .h-sec2-container {

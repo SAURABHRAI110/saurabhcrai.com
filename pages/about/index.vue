@@ -33,7 +33,7 @@
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="600"
-        >I believe in things I do, I do all things with all my heart, even if it means losing my sleep for weeks.</p>
+        >Also Frontend Developer, I believe in things I do, I do all things with all my heart, even if it means losing my sleep for weeks.</p>
       </div>
     </div>
 
@@ -65,7 +65,15 @@
           <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
-          Hi! I'm Saurabh Rai, and I am currently a User experience designer at
+          Hi! I'm Saurabh Rai, and I am currently a User Experience Designer at
+          <a
+            href="https://ranosys.com/"
+            target="_blank"
+            rel="noopener"
+            title="ranosys.com"
+          >
+            <span class="underline-magical">Ranosys Technologies</span>
+          </a> in Pune, India. Previously at
           <a
             href="https://feedingtrends.com/"
             target="_blank"
@@ -73,7 +81,7 @@
             title="feedingtrends.com"
           >
             <span class="underline-magical">Feeding Trends</span>
-          </a>in Lucknow, India. I consider myself a
+          </a> in Lucknow, India. I consider myself a
           multi-disciplinary designer as I love making anything, but have
           recently found a passion in creating thoughtful and enjoyable user
           experiences through product design, and code them too if time allows.
@@ -81,7 +89,14 @@
           back-end-developers and some ninja people whom I work with and learn from them.
         </p>
         <p class="para hero-para black70">
-          Coming to college, I moved on to study Engineering at Babu Banarasi Das Universiy,
+          Coming to college, I moved on to study Engineering at
+          <a
+            href="https://bbdu.ac.in/"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="underline-magical">Babu Banarasi Das Universiy</span>
+          </a>,
           Lucknow, and began to grow my skills. Making flyers for college
           community and friends. Doing logos and branding work for friends and
           word of mouth clients. Going to college during the day and cranking
@@ -106,7 +121,7 @@
         </p>
 
         <p class="para hero-para black70">
-          I am Crazzy about Ice-tea. You can make me do anything over Ice-Tea. My friends
+          I am Crazy about Ice-tea. You can make me do anything over Ice-Tea. My friends
           do this all the time. When I'm not in front of a computer screen, I'm probably amidst nature,
           trying to get some decent shot on my Nikon D5200 or just chilling out with friends or with myself.
         </p>
