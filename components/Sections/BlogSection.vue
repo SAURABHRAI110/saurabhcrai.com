@@ -10,8 +10,8 @@
               <div class="projects-card-wrapper">
                 <div class="projects-card"></div>
                 <div class="image-placeholder projects-image">
-                  <ImageResponsive
-                    :imageURL="`blog/${blog.id}/_thumbnail.jpg`"
+                  <img
+                    :src="require(`~/assets/images/blog/${blog.id}/_thumbnail.jpg`)"
                     :classes="'article-thumbnail'"
                     width="100%"
                     :alt="blog.cardAlt"

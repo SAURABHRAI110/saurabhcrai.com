@@ -8,7 +8,7 @@
               <div class="projects-card-wrapper">
                 <div class="projects-card"></div>
                 <div class="image-placeholder projects-image" v-if="post.cover_image">
-                  <ImageResponsive
+                  <img
                     :src="require(`~/assets/blog/${post.thumbnail_image}`)"
                     :alt="post.cover_image_cp"
                     width="952"
