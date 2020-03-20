@@ -219,7 +219,7 @@ export default {
 @media screen and (max-width: 999px) {
   .nav-container {
     width: 100%;
-    height: 9.5vh;
+    height: 80px;
   }
 }
 
@@ -242,7 +242,7 @@ button {
 @media screen and (max-width: 999px) {
   .logo {
     left: 8%;
-    padding-top: 0px;
+    padding-top: 6px;
   }
 
   .logo > svg {
@@ -314,7 +314,7 @@ svg {
   .menu-icon {
     left: auto;
     right: 40px;
-    top: 24px;
+    top: 33px;
   }
 }
 
@@ -514,7 +514,7 @@ button.full-screen {
 }
 @media screen and (max-width: 999px) {
   .h-fullscreen-container {
-    bottom: 26px;
+    bottom: 33px;
     left: 50%;
   }
 
