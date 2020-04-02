@@ -246,7 +246,7 @@
           />
           <img
             src="~assets/projects/ft/ft-web-pages-wireframe.jpg"
-            alt="elevito team, saurabh rai, shekhar Gupta, Yash Srivastava"
+            alt="elevito team, Saurabh Chandra Rai, shekhar Gupta, Yash Srivastava"
           />
         </picture>
       </div>
@@ -259,7 +259,7 @@
           <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-1.jpg" />
           <img
             src="~assets/projects/ft/ft-web-mokup-1.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>
@@ -272,7 +272,7 @@
           <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-2.jpg" />
           <img
             src="~assets/projects/ft/ft-web-mokup-2.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>
@@ -288,7 +288,7 @@
           />
           <img
             src="~assets/projects/ft/ft-mobile-screen-1.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>
@@ -304,7 +304,7 @@
           />
           <img
             src="~assets/projects/ft/ft-mobile-screen-2.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>
@@ -317,7 +317,7 @@
           <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-screen-mobile.jpg" />
           <img
             src="~assets/projects/ft/ft-web-screen.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>
@@ -332,7 +332,7 @@
           <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-cup-mobile.jpg" />
           <img
             src="~assets/projects/ft/ft-cup.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>
@@ -358,7 +358,7 @@
           />
           <img
             src="~assets/projects/ft/ft-brand-identity.jpg"
-            alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+            alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
           />
         </picture>
       </div>

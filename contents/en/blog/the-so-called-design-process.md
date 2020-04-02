@@ -10,7 +10,7 @@ isTextColorDark: true
 
 heroimagedes: Photo from unsplash ❤ 
 id: 'the-so-called-design-process'
-tags: Design Process, UX UI Design, UX Design Process, What are the process in design, Steps in design process, website design process, The so called design process, Blog by saurabh rai
+tags: Design Process, UX UI Design, UX Design Process, What are the process in design, Steps in design process, website design process, The so called design process, Blog by Saurabh Chandra Rai
 github_doclink: the-so-called-design-process.md
 
 ---

@@ -127,7 +127,7 @@
       <div class="footer-bottom-right">
         <p
           class="footer-dev-text"
-        >©2019 — Web app designed and coded by Saurabh Rai using Vue.js + Nuxt.</p>
+        >©2019 — Web app designed and coded by Saurabh Chandra Rai using Vue.js + Nuxt.</p>
       </div>
     </div>
   </footer>

@@ -40,7 +40,7 @@
               data-aos-delay="400"
             >
               <span>
-                <nuxt-link to="/about">Saurabh Rai</nuxt-link>
+                <nuxt-link to="/about">Saurabh Chandra Rai</nuxt-link>
               </span>
               <span>
                 <a
@@ -212,7 +212,7 @@ import axios from 'axios'
           lang: this.$i18n.locale,
         },
         meta: [
-          { name: "author", content: "Saurabh Rai" },
+          { name: "author", content: "Saurabh Chandra Rai" },
           { name: "description", property: "og:description", content: this.description, hid: "description" },
           { property: "og:title", content: this.pageTitle },
           { property: "og:image", content: this.ogImage },
@@ -277,7 +277,7 @@ import axios from 'axios'
         return `${process.env.baseUrl}/images/blog/${this.id}/_thumbnail.jpg`;
       },
       pageTitle () {
-        return this.title + ' – Saurabh Rai';
+        return this.title + ' – Saurabh Chandra Rai';
       },
       showLocales () {
         return this.$i18n.locales.filter(locale => locale.code !== this.$i18n.locale)

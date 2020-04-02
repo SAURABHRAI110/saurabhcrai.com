@@ -42,17 +42,17 @@
         <div v-rellax="{ speed: -1.2, center: 0.4 }" class="me-image1">
           <img
             src="~/assets/img/about/about-me-1c.jpg?webp"
-            alt="saurabh rai, saurabhcrai.com, photo indian boy"
+            alt="Saurabh Chandra Rai, saurabhcrai.com, photo indian boy"
           />
         </div>
         <div v-rellax="{ speed: 1, center: 0.3 }" class="me-image2">
-          <img src="~/assets/img/about/about-me-2.jpg?webp" alt="saurabh rai, indian boy" />
+          <img src="~/assets/img/about/about-me-2.jpg?webp" alt="Saurabh Chandra Rai, indian boy" />
         </div>
         <div v-rellax="{ speed: -2, center: 0.7 }" class="me-image4">
-          <img src="~/assets/img/about/about-me-4.jpg?webp" alt="saurabh rai, indian boy" />
+          <img src="~/assets/img/about/about-me-4.jpg?webp" alt="Saurabh Chandra Rai, indian boy" />
         </div>
         <div v-rellax="{ speed: 3, center: 0.5 }" class="me-image3">
-          <img src="~/assets/img/about/about-me-3.jpg?webp" alt="saurabh rai, indian boy" />
+          <img src="~/assets/img/about/about-me-3.jpg?webp" alt="Saurabh Chandra Rai, indian boy" />
         </div>
       </div>
     </div>
@@ -65,7 +65,7 @@
           <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
-          Hi! I'm Saurabh Rai, and I am currently a User Experience Designer at
+          Hi! I'm Saurabh Chandra Rai, and I am currently a User Experience Designer at
           <a
             href="https://ranosys.com/"
             target="_blank"
@@ -696,7 +696,7 @@
                 href="https://open.spotify.com/user/8y43fu36ily4ztnpchb4516li/playlist/6oztnK25WQvEh4fKZ4QPsE?si=B6ptA4LAQTibXGNtYhiXXQ"
                 target="_blank"
                 rel="noopener"
-                title="saurabh rai playlist"
+                title="saurabh chandra rai playlist"
               >
                 <img src="~assets/img/about/spotify.png" alt="resume icon" />
                 <span class="underline-magical">music I listen when I code</span>
@@ -865,7 +865,7 @@ export default {
   head() {
     return {
       title: 'About Me',
-      titleTemplate: '%s - Saurabh Rai',
+      titleTemplate: '%s - Saurabh Chandra Rai',
       meta: [
         {
           hid: 'description',
@@ -876,7 +876,7 @@ export default {
           hid: 'keywords',
           name: 'keywords',
           content:
-            'UX Designer, saurabhcrai.com, about me, saurabh rai, saurabhrai, about me, UX designer portfolio, user experience designer, best designer portfolio'
+            'UX Designer, saurabhcrai.com, saurabh chandra rai, about me, Saurabh Chandra Rai, saurabhrai, about me, UX designer portfolio, user experience designer, best designer portfolio'
         }
       ]
     }

@@ -355,7 +355,10 @@
 
     <div class="p-footer-container">
       <div>
-        <img src="~assets/projects/projects-footer-img.png" alt="saurabh rai black and white png" />
+        <img
+          src="~assets/projects/projects-footer-img.png"
+          alt="Saurabh Chandra Rai black and white png"
+        />
       </div>
     </div>
 

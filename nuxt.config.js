@@ -22,7 +22,7 @@ export default {
 
   head: {
 
-    title: 'Saurabh Rai - UX Designer and Front-End Developer',
+    title: 'Saurabh Chandra Rai - UX Designer and Front-End Developer',
 
     meta: [{
         charset: 'utf-8'

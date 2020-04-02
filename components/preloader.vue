@@ -2,7 +2,7 @@
   <animation name="fade">
     <div v-if="show" class="preloader">
       <div class="logo"></div>
-      <p>Saurabh Rai</p>
+      <p>Saurabh Chandra Rai</p>
     </div>
   </animation>
 </template>

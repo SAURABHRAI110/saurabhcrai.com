@@ -3436,7 +3436,7 @@ Akcent Colour
 
 .kf-layout {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   width: 100%;
 }
 
@@ -3475,7 +3475,6 @@ Akcent Colour
 }
 
 .kf-layout span:hover::after {
-
   height: 100%;
 
 }
@@ -3485,6 +3484,27 @@ Akcent Colour
     padding-left: 0px;
   }
 }
+
+
+@media screen and (max-width:1600px) {
+
+  .kf-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+
+  .kf-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    width: 100%;
+  }
+}
+
+
 
 /* projects zig zag line */
 

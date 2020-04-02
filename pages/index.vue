@@ -11,7 +11,7 @@
       <div class="nametag-container contain">
         <div class="h-name" data-aos="fade-up" data-aos-duration="900">
           <nuxt-link to="/about" style="text-decoration: none;">
-            <span class="underline-magical">Saurabh Rai</span>
+            <span class="underline-magical">Saurabh Chandra Rai</span>
           </nuxt-link>
         </div>
         <div

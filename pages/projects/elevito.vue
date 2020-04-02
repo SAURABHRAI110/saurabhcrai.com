@@ -22,7 +22,7 @@
       pDate="October 2017 "
       pWebsite="elevito.com"
       pCategory="Product Design"
-      pHeading="Elevito: My own endeaver"
+      pHeading="Elevito: My own endeavor"
       pHeadingcolor="color:#FD3E5B;"
       pSubheading="Designing for a design company."
     />
@@ -303,7 +303,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         />
         <img
           src="~assets/projects/elevito/elevito-team-pic.jpg"
-          alt="elevito team, saurabh rai, shekhar guota, yash srivastav"
+          alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
         />
       </picture>
     </div>
