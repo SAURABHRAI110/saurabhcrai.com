@@ -244,6 +244,10 @@ export default {
       src: '~/plugins/vue-parallax-js',
       ssr: false
     },
+    // {
+    //   src: '~/plugins/accordion',
+    //   ssr: false
+    // },
 
   ],
 

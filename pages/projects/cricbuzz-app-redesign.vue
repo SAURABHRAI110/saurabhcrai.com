@@ -54,8 +54,8 @@
             <br>Adobe Photoshop"
       role="  UX/UI Design
             <br>Content Strategist"
-      team=" Lone wolf
-            <br>Me only"
+      team=" Me and few of my friends
+            <br> who helped me understand some silly q."
     />
     <!-- Preface -->
     <pcase
@@ -427,15 +427,15 @@
 
     <div class="Takeaway">
       <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>``
+        <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
             The most challenging part of any project which I have observed is even starting it.
-            Once I start it the next big thing is Deciding which problem to solve. As a UX designer, we are
+            Once I start it the next big thing is deciding which problem to solve. As a UX designer, we are
             driven by curiosity and a burning desire to solve problems. The more insights we uncover,
             the more problems we will identify — and the harder it becomes to settle on just one. During research and design phase
-            i got into loop of deciding what to give more time and which to not. If i have focused on all parts of Cricbuzz app, it would not have
-            been possible to finish it all in 2 days at all. So focusing only on Important stuff is very crucial.
+            I got into loop of deciding what to give more time and what not to. If I have focused on all parts of Cricbuzz app, it would not have
+            been possible to finish it all in 2 days at all. Focus is key.
           </p>
         </div>
       </div>
@@ -444,7 +444,7 @@
     <div class="p-quote contain red">
       <blockquote>
         It’s inevitable that we uncover new pain-points along the way, but we can’t
-        change tack every time this occurs. The challenge lies in staying focused.
+        change track every time this occurs. The challenge lies in staying focused, staying on the track.
       </blockquote>
     </div>
 
