@@ -31,7 +31,10 @@
     <!-- hero image -->
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_cricbuzz" data-aos="reveal-right"></div>
+        <div
+          class="reveal-block right theme_cricbuzz"
+          data-aos="reveal-right"
+        ></div>
 
         <picture>
           <source
@@ -72,9 +75,16 @@
     <div class="contain">
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div
+            class="reveal-block right"
+            data-aos="reveal-right"
+            data-aos-once="true"
+          ></div>
           <picture>
-            <img src="~assets/projects/cricbuzz/cricbuzz-logo.jpg" alt="Crick buzz app redesign" />
+            <img
+              src="~assets/projects/cricbuzz/cricbuzz-logo.jpg"
+              alt="Crick buzz app redesign"
+            />
           </picture>
         </div>
       </div>
@@ -94,8 +104,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Cricbuzz app is used by millions of user. To redesign something that that
-        is already have a existing user base is itself is a challenge.
+        Cricbuzz app is used by millions of user. To redesign something that
+        that is already have a existing user base is itself is a challenge.
       </blockquote>
     </div>
 
@@ -103,23 +113,25 @@
 
     <pcase
       heading="Research"
-      para="Since time was less and so couldn't follow design process and totally skipped
-      user research. But I did talk to some friends and asked their existing experience of
+      para="With limited time following a typical design process was challenge. When it came to user research I could not do more.
+      But I did talk to some friends and asked their existing experience of
       using Cricbuzz app and their pain-points.
 
       <br>
       <br>
       
-      So instead I carefully observed each screen, realized what's missing and what can be
+      I then began with careful observation of each screen, completing the desired task, going back and forward,
+      taking notes on my initial thoughts like what's missing and what can be
       done to make user experience more intuitive.
 
       <br>
       <br>
 
-      One thing that really needed to be redesign was app navigation. If I have to go
-      from one screen to another, it was really difficult to manage them with one handed
-      with thumb only. I love Samsung one UI and based on that I decided to restructure
-      every screen of cricbuzz app also.
+      One thing that really needed to be redesign was app navigation. Most of the action element was outside
+      active area of the phone. This made it very difficult to perform even simple task with one hand held phone.
+      I really admire Samsung about what they did with their One UI making everything accessible from your thumb 🖐️.
+      Taking cues from it I began to restructure and redesign
+      cricbuzz app.
 
       
         
@@ -131,7 +143,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -174,9 +190,16 @@
 
     <div class="p-image-100-duo cricbuzz-ux-image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
 
-        <img src="~assets/projects/dreamz/dreamz-laws-of-ux.jpg" alt="ux principles and laws" />
+        <img
+          src="~assets/projects/dreamz/dreamz-laws-of-ux.jpg"
+          alt="ux principles and laws"
+        />
         <p class="ps black">Applied UX Principles</p>
       </div>
     </div>
@@ -194,7 +217,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/cricbuzz/cricbuzz-wireframing.jpg"
@@ -218,7 +245,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/cricbuzz/cricbuzz-xd-all-screen.jpg"
@@ -242,7 +273,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -270,7 +305,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -300,7 +339,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -328,7 +371,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/cricbuzz/cricbuzz-xd-prototype-screen.jpg"
@@ -382,7 +429,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -430,12 +481,15 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            The most challenging part of any project which I have observed is even starting it.
-            Once I start it the next big thing is deciding which problem to solve. As a UX designer, we are
-            driven by curiosity and a burning desire to solve problems. The more insights we uncover,
-            the more problems we will identify — and the harder it becomes to settle on just one. During research and design phase
-            I got into loop of deciding what to give more time and what not to. If I have focused on all parts of Cricbuzz app, it would not have
-            been possible to finish it all in 2 days at all. Focus is key.
+            The most challenging part of any project which I have observed is
+            even starting it. Once I start it the next big thing is deciding
+            which problem to solve. As a UX designer, we are driven by curiosity
+            and a burning desire to solve problems. The more insights we
+            uncover, the more problems we will identify — and the harder it
+            becomes to settle on just one. During research and design phase I
+            got into loop of deciding what to give more time and what not to. If
+            I have focused on all parts of Cricbuzz app, it would not have been
+            possible to finish it all in 2 days at all. Focus is key.
           </p>
         </div>
       </div>
@@ -443,8 +497,9 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        It’s inevitable that we uncover new pain-points along the way, but we can’t
-        change track every time this occurs. The challenge lies in staying focused, staying on the track.
+        It’s inevitable that we uncover new pain-points along the way, but we
+        can’t change track every time this occurs. The challenge lies in staying
+        focused, staying on the track.
       </blockquote>
     </div>
 
