@@ -128,7 +128,7 @@
       <br>
 
       One thing that really needed to be redesign was app navigation. Most of the action element was outside
-      active area of the phone. This made it very difficult to perform even simple task with one hand held phone.
+      natural area of the phone. This made it very difficult to perform even simple task with one hand held phone.
       I really admire Samsung about what they did with their One UI making everything accessible from your thumb 🖐️.
       Taking cues from it I began to restructure and redesign
       cricbuzz app.
@@ -166,13 +166,12 @@
     <pcase
       heading="Problems and Initial Findings"
       para=" 
-      1. No Clear structure and navigation flows <br>
-      2. Cluttered UI <br>
-      3. Very less white space <br>
-      4. Navigation problems on bigger screen <br>
-      5. Not one handed friendly <br>
-      6. Bad Content Architecture and Readability <br>
-      7. Very little transition between app screen in so user get distracted from going to one screen to another.<br>
+      1. No clear structure and navigation flows <br>
+      2. Cluttered UI with very less white space <br>
+      3. Navigation problems <br>
+      4. Not one handed friendly <br>
+      5. Bad content architecture and readability issue can be seen here and there. <br>
+      6. Very little visual feedback while going from one screen to another.<br>
       "
       theme="theme_cricbuzz"
     />
@@ -207,8 +206,9 @@
     <!-- Problems -->
     <pcase
       heading="Wireframing"
-      para=" To get started I did a very rapid wireframing. With just important
-      screen and feature I thought of adding. Don't mind my handwriting.
+      para="Focusing on findings and insights, I did some rough wireframe with
+      just enough information to get started for few important
+      screen including those features which I thought should be there. The feasibility of these features are debatable. Don't mind my handwriting.
       Its way better originally. 
                
      "
@@ -234,11 +234,12 @@
     <!-- User Interface -->
     <pcase
       heading="User Interface"
-      para="I started designing app design with splash screen. Made a new logo very quickly.
-      Well existing logo is much good though. Anyway then choose a font i.e. Montserrat.
-      There is something me and my friends say, when in doubt use Montserrat. Its a beautiful
-      font. As I have not much time so I didn't experimented with different fonts.  
-               
+      para="I began designing screens first for onboarding experience, highlighting some basic features.
+      Worked on a minimalistic logo to give it a clean, bold, and simple compositions with only one or two colors.
+     Existing logo works well though. Not spending much time on typography. Most times Montserrat is my default choice,
+     it's pretty nice font with a nice large x-height and a lot more character than Arial or Helvetica. 
+     It has beautiful curves and well rounded corners which works well on most design.
+      Also there is something me and my friends say, when in doubt use Montserrat.               
      "
       theme="theme_cricbuzz"
     />
@@ -264,9 +265,9 @@
       heading="Onboarding Experience"
       para="In the existing app there was no onboarding experience and very little
           personalization. Personalization can be used for collecting data in terms
-          of business and better user experience. Can be used for Push notification
-          and also so that user can never miss matches from his/her favorite
-          team and also to not miss stories from his/her favorite player.
+          of business and better user experience. It Can be used for push notification. Its application
+          can include user to be notified of favorite matches,
+          teams and stories from his/her favorite player etc. 
      "
       theme="theme_cricbuzz"
     />
@@ -297,7 +298,7 @@
       para="Home is now less cluttered with more white space and better readability.
       Often times we just wanted to see just the latest scores and so the first thing on
       home he will focus will be on bigger typos i.e. the score following player current
-      run and likewise 
+      run and related information.
 
      "
       theme="theme_cricbuzz"
@@ -327,10 +328,10 @@
     <pcase
       heading="Other App Screen"
       para="Every Interactive elements is placed in the Active area of the mobile wherever possible
-      so even a person who is holding phone in one hand can navigate with thumb easily just like in Samsung new one UI. With new search feature
-      user can easily go through topics, related videos, player profile etc. 
+      so even a person who is holding phone in one hand can navigate with thumb easily just like in Samsung new one UI.
+      With new search feature user can easily go through topics, related videos, player profile etc. 
 
-      All menu CTA is placed in in Active area so user can navigate very easily
+      All menu CTA is placed in active area so user can navigate very easily
       even on bigger screen.
 
      "
@@ -361,8 +362,9 @@
     <!-- User Interface -->
     <pcase
       heading="Interactive Prototype"
-      para="Made an App rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. A lot can 
-      be improved though.In two days This is all did.
+      para="Made a rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. Here I have to say I totally love XD auto-animate feature.
+      It does a lot with very little effort. Specially showing those micro-interactions. The app have a lot of areas where the user experience can be enriched more.
+      These all took me two days.
 .  
                
      "
@@ -416,12 +418,9 @@
 
     <pcase
       heading="Conclusion"
-      para="There a lot of things and conditions that these design doesn't justify. With two sleepless
-      night this is all I can design. There may be one and more typos error and not pixel perfect and
-      please don't mind my English and English Grammar. I try hard though to not  mistake. There's a
-      lot of area where with good research and planning app can be made even more awesome for all
-      cricket lover.
-.  
+      para=" When it come to cricket app, theres a lot of data that goes into UI. Many edge case scenario which are of-course not covered.
+      There a lot of things and conditions that these design doesn't justify and have area where with good research and planning app
+      can be made even more awesome for all cricket lover.
                
      "
       theme="theme_cricbuzz"
@@ -481,15 +480,15 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            The most challenging part of any project which I have observed is
-            even starting it. Once I start it the next big thing is deciding
-            which problem to solve. As a UX designer, we are driven by curiosity
-            and a burning desire to solve problems. The more insights we
-            uncover, the more problems we will identify — and the harder it
-            becomes to settle on just one. During research and design phase I
-            got into loop of deciding what to give more time and what not to. If
-            I have focused on all parts of Cricbuzz app, it would not have been
-            possible to finish it all in 2 days at all. Focus is key.
+            The most challenging part of any project which I have experienced
+            myself is even starting it. Once It get started, the next challenge
+            is deciding which problem to solve. As a UX designer, we are driven
+            by curiosity and a burning desire to solve problems. The more
+            insights we uncover, the more problems we will identify — and the
+            harder it becomes to settle on just one. During research and design
+            phase I got into loop of deciding what to give more time and what
+            not to. If I have focused on all parts of Cricbuzz app, it would not
+            have been possible to finish it all in 2 days at all. Focus is key.
           </p>
         </div>
       </div>
