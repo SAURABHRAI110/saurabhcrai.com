@@ -108,8 +108,8 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <p class="contain just-para black90">
       The purpose of the website was to showcase our works we have done so far
-      particularly me and my fellow designers and through that, to clients and
-      to convince them that we are the people they are looking far.
+      to clients and to demonstrate them that we are the people they are looking
+      far.
     </p>
 
     <!-- <img
@@ -122,9 +122,9 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <pcase
       class="elevito-research-sec"
       heading="Ideation and Research"
-      para=" After wireframing the site and running it past some UX friends and juniors
+      para=" After initial wireframing and running it past some UX friends and juniors
       for feedback and tweaks, we kicked around some ideas for a theme. Coming up with layout
-      and working on it.I iterated and tweaked until we had something that was fun and as fluid
+      and working on it. We iterated and tweaked until we had something that was fun and as fluid
       as possible."
       theme="theme_elevito"
     />
@@ -172,9 +172,9 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <pcase
       heading="Art Direction + Design"
-      para="After layout and content strategy, It was  time to set a theme and colour palette
+      para="After layout and content strategy, it was  time to set a theme and colour palette.
       It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
+      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I changed
       the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
       use red as theme colour
       "
@@ -197,7 +197,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             src="~assets/projects/elevito/elevito-wireframe-cyan.jpg"
             alt="website wireframing, wireframing"
           />
-          <p class="ps black90">Initial layout and Primary Colours.</p>
+          <p class="ps black90">Initial layout and website theme.</p>
         </picture>
       </div>
     </div>
@@ -229,7 +229,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             alt="elevito wireframe"
           />
           <p class="ps black90">
-            Final Layout: Changed hero image and thumbnail later on.
+            Final Layout: Updated hero image and thumbnail later on.
           </p>
         </picture>
       </div>
@@ -245,12 +245,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <!-- Fonts, Colors & Patterns -->
     <pcase
-      heading="Fonts, Colors & Patterns"
-      para="After layout and content strategy, It was  time to set a theme and colour palette
-      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
-      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
-      use red as theme colour
+      heading="Visual Design"
+      para="After many iteration and changes we finally fixed on a layout for pages and little by little I started adding details to it.
+      With constant collaboration with developers and content writer a story and theme got build up and the resulting design was loved by all.
+    
       "
       theme="theme_elevito"
     />
@@ -282,7 +280,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             src="~assets/projects/elevito/elevito-web-mobile-1.jpg"
             alt="elevito ideation"
           />
-          <p class="ps black90">Elevito: Mobile Hero Screen.</p>
+          <p class="ps black90">Elevito: Mobile Hero Screen Set 1.</p>
         </picture>
       </div>
     </div>
@@ -303,7 +301,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             src="~assets/projects/elevito/elevito-web-mobile-2.jpg"
             alt="elevito ideation"
           />
-          <p class="ps black90">Elevito: Mobile Hero Screen.</p>
+          <p class="ps black90">Elevito: Mobile Hero Screen Set 2.</p>
         </picture>
       </div>
     </div>
@@ -361,7 +359,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         />
         <img
           src="~assets/projects/elevito/elevito-team-pic.jpg"
-          alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
+          alt="elevito team, Saurabh Chandra Rai, Shekhar Gupta, Yash Srivastav"
         />
       </picture>
     </div>
@@ -400,7 +398,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
               <span>✔ Testing with users</span>
               <span>✔ Creating A design System</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
+              <span>✔ Identity Design</span>
               <span>✔ Defending UX Decisions</span>
             </div>
           </div>
@@ -416,17 +414,17 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <div class="pm black70">
           <p>
             Elevito happen during my college time. Its my greatest learning
-            curve. I did everything that I can do all with love. It was time
+            curve. I did everything that I can do all with love. It was the time
             when We did not have even lots of projects to showcase on website,
             still we managed to show 15 Projects, out of which 2 projects was
-            fictional, I did them to learn more, and to be creative with them. I
-            took really a lot of time like 2 months just showcasing 15 projects,
-            there were times when It became very boring, couldn't give my best,
-            but with everyone support and love I never lost enthusiasm and
-            maintained our excitement. Whenever I couldn't do something, there
-            were people whom i could lean on. This was all possible because each
-            and everyone came together even in their busiest of time, even when
-            exams were near.
+            fictional, I did them to learn more, and to be creative with them.
+            It took really a lot of time like 2 months just showcasing 15
+            projects, there were times when It became very boring, couldn't give
+            my best, but with everyone support and love I never lost enthusiasm
+            and maintained the excitement. Whenever I couldn't do something,
+            there were people whom I could lean on. This was all possible
+            because each and everyone came together even in their busiest of
+            time, even when exams were near.
           </p>
         </div>
       </div>
@@ -434,8 +432,8 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
-        1 option is better than many. When you're communicating your process and
-        solutions to a people who isn't always the key decision-maker, it's
+        One option is better than many. When you're communicating your process
+        and solutions to a people who isn't always the key decision-maker, it's
         important to keep your points clear and concise enough for easy
         re-communication. Even though that person may appreciate the extra
         displayed effort, it can muddy the waters when feedback comes back out.

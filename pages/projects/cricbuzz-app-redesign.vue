@@ -418,9 +418,9 @@
 
     <pcase
       heading="Conclusion"
-      para=" When it come to cricket app, theres a lot of data that goes into UI. Many edge case scenario which are of-course not covered.
-      There a lot of things and conditions that these design doesn't justify and have area where with good research and planning app
-      can be made even more awesome for all cricket lover.
+      para=" When it come to cricket app, theres a lot of data that goes into UI. There's just so many edge case scenario.
+      There a lot of things and conditions that these design doesn't justify and have area where with good research and planning, app
+      can be made even more awesome for all cricket lover. 
                
      "
       theme="theme_cricbuzz"
@@ -481,7 +481,7 @@
         <div class="pm black70">
           <p>
             The most challenging part of any project which I have experienced
-            myself is even starting it. Once It get started, the next challenge
+            myself is even starting it. Once it get started, the next challenge
             is deciding which problem to solve. As a UX designer, we are driven
             by curiosity and a burning desire to solve problems. The more
             insights we uncover, the more problems we will identify — and the
