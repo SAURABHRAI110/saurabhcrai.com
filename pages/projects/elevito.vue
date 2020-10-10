@@ -389,16 +389,15 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
+              <span>✔ Taking design meetings</span>
+              <span>✔ Collaborating with developers</span>
               <span>✔ Creative Direction</span>
-              <span>✔ Lots of IceTea</span>
+              <span>✔ Drank lots of IceTea</span>
               <span>✔ Exporting Assets</span>
               <span>✔ Wireframing</span>
               <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
+              <span>✔ Creating a design system</span>
               <span>✔ Branding</span>
-              <span>✔ Identity Design</span>
               <span>✔ Defending UX Decisions</span>
             </div>
           </div>
@@ -413,18 +412,16 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            Elevito happen during my college time. Its my greatest learning
-            curve. I did everything that I can do all with love. It was the time
-            when We did not have even lots of projects to showcase on website,
-            still we managed to show 15 Projects, out of which 2 projects was
-            fictional, I did them to learn more, and to be creative with them.
-            It took really a lot of time like 2 months just showcasing 15
-            projects, there were times when It became very boring, couldn't give
-            my best, but with everyone support and love I never lost enthusiasm
-            and maintained the excitement. Whenever I couldn't do something,
-            there were people whom I could lean on. This was all possible
-            because each and everyone came together even in their busiest of
-            time, even when exams were near.
+            Elevito happen during my college time. It was my greatest learning
+            curve. I tried everything that I can do. In the beginning we did not
+            have many projects to showcase on the website, still somehow managed
+            to show 15 Projects, out of which 2 projects was fictional. It took
+            a lot of time like 2 months just on showcasing 15 projects, there
+            were times when tt became very boring, couldn't give the best, but
+            with all support and love, I never lost enthusiasm and maintained
+            the excitement. Whenever challenge arrived, there were people whom I
+            could lean on. This was all possible because each and everyone came
+            together even in their busiest of time, even when exams were near.
           </p>
         </div>
       </div>

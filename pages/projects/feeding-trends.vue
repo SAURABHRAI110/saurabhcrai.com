@@ -25,7 +25,7 @@
       pCategory="Product Design"
       pHeading="Stories that make you think and rethink."
       pHeadingcolor="color:#1D98B6;"
-      pSubheading="A platform for budding writers and readers "
+      pSubheading="Creating a digital experience for budding writers and readers. "
     />
 
     <!-- hero image -->
@@ -46,11 +46,11 @@
     <Preface
       timeframe=" April 2018- May 2018
             <br>2 Month"
-      tools="   Adobe Creative Suite
-            <br>Sketch, Flinto, Zeplin sdwdswdw wdwd"
-      role="  UI/UX Desiner
-            <br>Marketing"
-      team="  UI/UX Desiner
+      tools="Adobe Creative Suite
+            <br>Sketch, Flinto"
+      role="  UI/UX Designer
+            <br>Graphic Designer"
+      team="  UI/UX Designer
             <br>Marketing"
     />
     <!-- Preface -->
@@ -71,16 +71,16 @@
     <!-- Problem -->
     <pcase
       heading="From humble Beginnings"
-      para=" It all started in 2017, Yash Srivastava and Zainab Siddique,
+      para=" Back in 2017, Yash Srivastava and Zainab Siddique,
     my seniors, co-founded feeding trends. I was in 6th semester, enjoying some home time during summer vacation, got a call from
-    Yash sir and I was asked to do a logo design for FeedingTrends. I remember it was a long call. Well moving forward, logo designing
+    Yash sir and I was asked to do a logo design for Feeding Trends. I remember it was a long call. Moving forward, logo designing
     is tough, I took my time and did textual logo, used a  Sans font, outlined it, played around arrow, to make it feel like 
-    trendy stuff and yeah Finished. We moved forward and setup  implemented logo on Facebook, Instagram and on stuff.
+    trendy stuff and yeah Finished. We moved forward with the logo design and updated the logo on Facebook, Instagram etc.
     FT got recognized and people started sharing our stuff and yeah it was great start.
     <br><br>
-    Later on after 2 month I joined FeedingTrends. While still managing my time around
-    college and working at feeding Trends Office. Bunking Classes just to work on outgoing projects at FT Office or from my flat.
-  
+    Later on after 2 month I joined FeedingTrends while still managing my time around
+    college and working at feeding Trends Office. Bunking classes just to work on outgoing
+    projects at FT office or from my flat. It was Beginnings of something great.
         
      "
       theme="theme_ft"
@@ -88,8 +88,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Bunking clsses to work on outgoing projects while still managing college assignments and all. It was Beginnings
-        of something great.
+        Bunking clsses to work on outgoing projects while still managing college
+        assignments and all. It was beginning of something great.
       </blockquote>
     </div>
     <!-- <div class="p-quote contain red">
@@ -102,24 +102,33 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/ft/ft-team-blue-3.jpg"
             alt="creative team pic, team pic, team, designers, developers"
           />
-          <p class="ps">Feeding Trends Team: 2017</p>
+          <p class="ps white">Feeding Trends Team: 2017</p>
         </picture>
       </div>
     </div>
 
     <pcase
       heading="Back to design: Project Brief"
-      para=" The Feeding Trends Website was already up and running, when people around the team felt a need
-      of Redesigning everything from scratch. The website previously was just content.
+      para="Feeding Trends initial website was already up and running, when people around the team felt a need
+      of redesigning everything from scratch. The website previously was just content.
       
       <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
+      To design to gather user, enrich user reading experience. provide better navigation. Make Website pop. <br>
+      Goal:
+      Improve its UI abd UX. <br>
+      Increase traffic to the website. <br>
+      Core Market: Young Generation, College Students <br>
+
     
   
         
@@ -128,25 +137,30 @@
     />
     <!-- Problems -->
     <pcase
-      heading="Problems To be solved and Considerations"
+      heading="Problems to be Solved and Considerations"
       para=" 
-      1. Clear structure and navigation flows; <br>
-      2. Compelling and clear visual design; <br>
-      3. Great copy and tone of voice; <br>
-      4. Thoughtful transitions and animations; <br>
-      5. The website's performance and speed; <br>
-      6. The user's mobile phone performance and speed; <br>
-      7. Content readability; <br>
-      8. Mobile first; <br>
-      9. Article suggestion, ro read more; <br>
-      9. Proper design colors and aesthetics. <br>
+      1. Clear structure and navigation flows <br>
+      2. Compelling visual design <br>
+      3. Great copy and tone of voice <br>
+      4. Thoughtful transitions and animations <br>
+      5. The website's performance and speed <br>
+      6. Responsive website performance<br>
+      7. Content readability <br>
+      8. Mobile first approach<br>
+      9. Article suggestion<br>
+      9. Good design aesthetics <br>
      "
       theme="theme_ft"
     />
     <!-- Desighn -->
     <pcase
       heading="Research and Ideation"
-      para=" Many meeting were held to discuss the same with all the team, designers and developers, 
+      para="After gaining some user insights from  our initial observation and research. We all came together,
+    to discuss the website priorities, whats to focus most, how to implement best practices, technical constraints.
+     We focused on asking the right question 
+      and we with our diverse background, traits and characteristics able to produce results
+      that helped us with our initial strategy. It's challenging to gain the perspective to find design solutions.
+      Many meeting were held to discuss the same with all the team, designers and developers, 
       we decided to go with Making a mvp. Ideated mind maps and wireframes.
       
         
@@ -156,17 +170,25 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
-          <img src="~assets/projects/ft/ft-mindmap.jpg" alt="mockup, tab, mobile, floating mockup" />
+          <img
+            src="~assets/projects/ft/ft-mindmap.jpg"
+            alt="mockup, tab, mobile, floating mockup"
+          />
         </picture>
       </div>
       <p class="ps black90">-- Mind map--</p>
     </div>
     <div class="p-quote contain red">
       <blockquote>
-        Making mind map helped the team materialize the concepts and make their characteristics more explicit: it revealed hidden clusters,
-        patterns and entities, it made them more clear and more understandable.
+        Making mind map helped the team materialize the concepts and make their
+        characteristics more explicit: it revealed hidden clusters, patterns and
+        entities, it made them more clear and more understandable.
       </blockquote>
     </div>
 
@@ -188,7 +210,11 @@
     <div class="ft-responsive-gif">
       <div class="contain">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div
+            class="reveal-block right"
+            data-aos="reveal-right"
+            data-aos-once="true"
+          ></div>
 
           <img
             src="~assets/projects/ft/ft-responsive-p.gif"
@@ -211,7 +237,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -238,7 +268,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -254,9 +288,16 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-1.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-web-mokup-1.jpg"
+          />
           <img
             src="~assets/projects/ft/ft-web-mokup-1.jpg"
             alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
@@ -267,9 +308,16 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-mokup-2.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-web-mokup-2.jpg"
+          />
           <img
             src="~assets/projects/ft/ft-web-mokup-2.jpg"
             alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
@@ -280,7 +328,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -296,7 +348,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -312,9 +368,16 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-web-screen-mobile.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-web-screen-mobile.jpg"
+          />
           <img
             src="~assets/projects/ft/ft-web-screen.jpg"
             alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
@@ -327,9 +390,16 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft/ft-cup-mobile.jpg" />
+          <source
+            media="(max-width: 600px)"
+            srcset="~assets/projects/ft/ft-cup-mobile.jpg"
+          />
           <img
             src="~assets/projects/ft/ft-cup.jpg"
             alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
@@ -350,7 +420,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -366,7 +440,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/ft/ft-design-system.jpg"
@@ -378,7 +456,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/ft/ft-happy-people.jpg"
@@ -388,7 +470,10 @@
       </div>
     </div>
 
-    <liveLink link="https://feedingtrends.com/" text="Launch Site | feedingtrends.com" />
+    <liveLink
+      link="https://feedingtrends.com/"
+      text="Launch Site | feedingtrends.com"
+    />
 
     <!-- key Focus Area -->
 
@@ -426,10 +511,12 @@
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            This project was very long, there was so many changes done one after one. So many iteration.
-            Well after the development the website traffic increased. People started taking there seriously.
-            The problem that was there before redesign was solved. The development team did a great job and
-            took my design even further and better with all the tweaking done from time to time.
+            This project was very long, there was so many changes done one after
+            one. So many iteration. Well after the development the website
+            traffic increased. People started taking there seriously. The
+            problem that was there before redesign was solved. The development
+            team did a great job and took my design even further and better with
+            all the tweaking done from time to time.
           </p>
         </div>
       </div>
@@ -437,8 +524,9 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        It is the people that makes everything worthwhile. I happen to work with some great people during
-        design phase and later on during development phase as an audience. It was awesome.
+        It is the people that makes everything worthwhile. I happen to work with
+        some great people during design phase and later on during development
+        phase as an audience. It was awesome.
       </blockquote>
     </div>
 
