@@ -119,15 +119,11 @@
 
     <pcase
       heading="Back to design: Project Brief"
-      para="Feeding Trends initial website was already up and running, when people around the team felt a need
-      of redesigning everything from scratch. The website previously was just content.
-      
-      <br><br>
-      To design to gather user, enrich user reading experience. provide better navigation. Make Website pop. <br>
-      Goal:
-      Improve its UI abd UX. <br>
-      Increase traffic to the website. <br>
-      Core Market: Young Generation, College Students <br>
+      para="Feeding Trends initial website was already up and running, After our initial success with the website, acquiring some user base
+      we started getting feedback from users about technical problems, readability issue, and many more problems. 
+      Then, people around the team felt a need
+      of redesigning the website from scratch. This is were I came. We began pinpointing the areas where we need to start, discussing technical constraints,
+      and possible approach to design. The objective was set to improving the overall UX, Create a positive user journey that aligns also with marketing strategy.
 
     
   
@@ -145,7 +141,7 @@
       4. Thoughtful transitions and animations <br>
       5. The website's performance and speed <br>
       6. Responsive website performance<br>
-      7. Content readability <br>
+      7. Enrich User reading experience<br>
       8. Mobile first approach<br>
       9. Article suggestion<br>
       9. Good design aesthetics <br>
@@ -161,7 +157,7 @@
       and we with our diverse background, traits and characteristics able to produce results
       that helped us with our initial strategy. It's challenging to gain the perspective to find design solutions.
       Many meeting were held to discuss the same with all the team, designers and developers, 
-      we decided to go with Making a mvp. Ideated mind maps and wireframes.
+      we decided to go with making a mvp. Ideated mind maps and wireframes.
       
         
      "
@@ -182,7 +178,7 @@
           />
         </picture>
       </div>
-      <p class="ps black90">-- Mind map--</p>
+      <p class="ps black90">-- Feeding Trends Mind map--</p>
     </div>
     <div class="p-quote contain red">
       <blockquote>
@@ -195,14 +191,13 @@
     <!-- Desighn -->
     <pcase
       heading="Design"
-      para="Open> XD> Design. The first thing I designed was the content page. It was the first thing any user will visit
-      whenever he/she follow a journey of coming to website thorough  whatsapp, facebook link shared to them.
-      So, It got my first priority. After going through some websites, Behance and sharing things with team, I designed
+      para="Open> XD> Design. The first thing I designed was the content page. This page laid the foundation for the overall page.
+      So it was very important for me to get it right. This page is first thing any user visits
+      whenever he/she follow a journey of coming to website thorough the link shared to them on WhatsApp, Facebook etc.
+      So, It got my first priority. After going through some similar websites, Behance and doing a heuristic analysis of them, I developed my initial
+      insights and findings. I shared those with the team to discuss and set priorities, I began with some initial
       layout focused to enrich user reading experience, experimenting with font size, colour, contrast till getting it 
-      just right to move forward. The below is the design I did for the content Page.
-      
-      <br><br>
-      To design to gather user, enrich User reading experience. Provide better Navigation. Make Website pop. Haha.
+      right.
             
      "
       theme="theme_ft"
@@ -228,7 +223,7 @@
       heading="Layout Options"
       para=" I experimented with different layouts to put everything together, got feedback from team and designed
       som high feudality mockup and test it through Adobe XD prototyping, Made prototype, tested it and finally
-      we got to the points where me and team agreed to stick to one layout and moved farword to design further pages and adding
+      we got to the points where me and team agreed to stick to one layout and moved forward to design further pages and adding
       required details.
             
      "
@@ -257,8 +252,8 @@
 
     <!-- Problems -->
     <pcase
-      heading="High Feudality Design"
-      para=" Putting all the research and i started making high feudality design for the website starting with its
+      heading="Visual Design"
+      para=" Putting all the research and I started making high feudality design for the website starting with its
       content page then moving forward from there to Home page and every other page. I did a simple prototype connecting
       all the pages navigation. 
                
@@ -386,6 +381,16 @@
       </div>
     </div>
 
+    <!-- Problems -->
+    <pcase
+      heading="Brand Identity"
+      para=" When web design was done and I handover everything to developer from design assets to documentation of it.
+      I started working on its brand identity to be used for business proposes of the company. Designed Letterhead, Visiting card, Id card, made mockups and everything in between.
+                     
+     "
+      theme="theme_ft"
+    />
+
     <!-- cup -->
 
     <div class="p-image-100-duo">
@@ -407,16 +412,6 @@
         </picture>
       </div>
     </div>
-
-    <!-- Problems -->
-    <pcase
-      heading="Brand Identity"
-      para=" When web design was done and I handover everything to developer from design assets to documentation of it.
-      I started working on its brand identity to be used for business proposes of the company. Designed Letterhead, Visiting card, Id card, made mockups and everything in between.
-                     
-     "
-      theme="theme_ft"
-    />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -513,9 +508,9 @@
           <p>
             This project was very long, there was so many changes done one after
             one. So many iteration. Well after the development the website
-            traffic increased. People started taking there seriously. The
+            traffic increased. We reached to more and more people with time. The
             problem that was there before redesign was solved. The development
-            team did a great job and took my design even further and better with
+            team did a great job and took design even further and better with
             all the tweaking done from time to time.
           </p>
         </div>
