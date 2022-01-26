@@ -30,7 +30,7 @@
     "nuxt-webfontloader": "^1.1.0",
     "please-wait": "0.0.5",
     "responsive-loader": "^1.2.0",
-    "sharp": "^0.23.0",
+    "sharp": "^0.29.3",
     "vue-agile": "^1.0.11",
     "vue-dplayer": "0.0.10",
     "vue-fullscreen": "^2.1.5",
