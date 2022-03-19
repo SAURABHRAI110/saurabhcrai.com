@@ -31,7 +31,10 @@
     <!-- hero image -->
     <div class="p-dz-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_cricbuzz" data-aos="reveal-right"></div>
+        <div
+          class="reveal-block right theme_cricbuzz"
+          data-aos="reveal-right"
+        ></div>
 
         <picture>
           <source
@@ -54,8 +57,8 @@
             <br>Adobe Photoshop"
       role="  UX/UI Design
             <br>Content Strategist"
-      team=" Lone wolf
-            <br>Me only"
+      team=" Me and few of my friends
+            <br> who helped me understand some silly q."
     />
     <!-- Preface -->
     <pcase
@@ -72,9 +75,16 @@
     <div class="contain">
       <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <div
+            class="reveal-block right"
+            data-aos="reveal-right"
+            data-aos-once="true"
+          ></div>
           <picture>
-            <img src="~assets/projects/cricbuzz/cricbuzz-logo.jpg" alt="Crick buzz app redesign" />
+            <img
+              src="~assets/projects/cricbuzz/cricbuzz-logo.jpg"
+              alt="Crick buzz app redesign"
+            />
           </picture>
         </div>
       </div>
@@ -94,8 +104,8 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        Cricbuzz app is used by millions of user. To redesign something that that
-        is already have a existing user base is itself is a challenge.
+        Cricbuzz app is used by millions of user. To redesign something that
+        that is already have a existing user base is itself is a challenge.
       </blockquote>
     </div>
 
@@ -103,23 +113,25 @@
 
     <pcase
       heading="Research"
-      para="Since time was less and so couldn't follow design process and totally skipped
-      user research. But I did talk to some friends and asked their existing experience of
+      para="With limited time following a typical design process was challenge. When it came to user research I could not do more.
+      But I did talk to some friends and asked their existing experience of
       using Cricbuzz app and their pain-points.
 
       <br>
       <br>
       
-      So instead I carefully observed each screen, realized what's missing and what can be
+      I then began with careful observation of each screen, completing the desired task, going back and forward,
+      taking notes on my initial thoughts like what's missing and what can be
       done to make user experience more intuitive.
 
       <br>
       <br>
 
-      One thing that really needed to be redesign was app navigation. If I have to go
-      from one screen to another, it was really difficult to manage them with one handed
-      with thumb only. I love Samsung one UI and based on that I decided to restructure
-      every screen of cricbuzz app also.
+      One thing that really needed to be redesign was app navigation. Most of the action element was outside
+      natural area of the phone. This made it very difficult to perform even simple task with one hand held phone.
+      I really admire Samsung about what they did with their One UI making everything accessible from your thumb 🖐️.
+      Taking cues from it I began to restructure and redesign
+      cricbuzz app.
 
       
         
@@ -131,7 +143,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -150,13 +166,12 @@
     <pcase
       heading="Problems and Initial Findings"
       para=" 
-      1. No Clear structure and navigation flows <br>
-      2. Cluttered UI <br>
-      3. Very less white space <br>
-      4. Navigation problems on bigger screen <br>
-      5. Not one handed friendly <br>
-      6. Bad Content Architecture and Readability <br>
-      7. Very little transition between app screen in so user get distracted from going to one screen to another.<br>
+      1. No clear structure and navigation flows <br>
+      2. Cluttered UI with very less white space <br>
+      3. Navigation problems <br>
+      4. Not one handed friendly <br>
+      5. Bad content architecture and readability issue can be seen here and there. <br>
+      6. Very little visual feedback while going from one screen to another.<br>
       "
       theme="theme_cricbuzz"
     />
@@ -174,9 +189,16 @@
 
     <div class="p-image-100-duo cricbuzz-ux-image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
 
-        <img src="~assets/projects/dreamz/dreamz-laws-of-ux.jpg" alt="ux principles and laws" />
+        <img
+          src="~assets/projects/dreamz/dreamz-laws-of-ux.jpg"
+          alt="ux principles and laws"
+        />
         <p class="ps black">Applied UX Principles</p>
       </div>
     </div>
@@ -184,8 +206,9 @@
     <!-- Problems -->
     <pcase
       heading="Wireframing"
-      para=" To get started I did a very rapid wireframing. With just important
-      screen and feature I thought of adding. Don't mind my handwriting.
+      para="Focusing on findings and insights, I did some rough wireframe with
+      just enough information to get started for few important
+      screen including those features which I thought should be there. The feasibility of these features are debatable. Don't mind my handwriting.
       Its way better originally. 
                
      "
@@ -194,7 +217,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/cricbuzz/cricbuzz-wireframing.jpg"
@@ -207,18 +234,23 @@
     <!-- User Interface -->
     <pcase
       heading="User Interface"
-      para="I started designing app design with splash screen. Made a new logo very quickly.
-      Well existing logo is much good though. Anyway then choose a font i.e. Montserrat.
-      There is something me and my friends say, when in doubt use Montserrat. Its a beautiful
-      font. As I have not much time so I didn't experimented with different fonts.  
-               
+      para="I began designing screens first for onboarding experience, highlighting some basic features.
+      Worked on a minimalistic logo to give it a clean, bold, and simple compositions with only one or two colors.
+     Existing logo works well though. Not spending much time on typography. Most times Montserrat is my default choice,
+     it's pretty nice font with a nice large x-height and a lot more character than Arial or Helvetica. 
+     It has beautiful curves and well rounded corners which works well on most design.
+      Also there is something me and my friends say, when in doubt use Montserrat.               
      "
       theme="theme_cricbuzz"
     />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/cricbuzz/cricbuzz-xd-all-screen.jpg"
@@ -233,16 +265,20 @@
       heading="Onboarding Experience"
       para="In the existing app there was no onboarding experience and very little
           personalization. Personalization can be used for collecting data in terms
-          of business and better user experience. Can be used for Push notification
-          and also so that user can never miss matches from his/her favorite
-          team and also to not miss stories from his/her favorite player.
+          of business and better user experience. It Can be used for push notification. Its application
+          can include user to be notified of favorite matches,
+          teams and stories from his/her favorite player etc. 
      "
       theme="theme_cricbuzz"
     />
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -262,7 +298,7 @@
       para="Home is now less cluttered with more white space and better readability.
       Often times we just wanted to see just the latest scores and so the first thing on
       home he will focus will be on bigger typos i.e. the score following player current
-      run and likewise 
+      run and related information.
 
      "
       theme="theme_cricbuzz"
@@ -270,7 +306,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -288,10 +328,10 @@
     <pcase
       heading="Other App Screen"
       para="Every Interactive elements is placed in the Active area of the mobile wherever possible
-      so even a person who is holding phone in one hand can navigate with thumb easily just like in Samsung new one UI. With new search feature
-      user can easily go through topics, related videos, player profile etc. 
+      so even a person who is holding phone in one hand can navigate with thumb easily just like in Samsung new one UI.
+      With new search feature user can easily go through topics, related videos, player profile etc. 
 
-      All menu CTA is placed in in Active area so user can navigate very easily
+      All menu CTA is placed in active area so user can navigate very easily
       even on bigger screen.
 
      "
@@ -300,7 +340,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -318,8 +362,9 @@
     <!-- User Interface -->
     <pcase
       heading="Interactive Prototype"
-      para="Made an App rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. A lot can 
-      be improved though.In two days This is all did.
+      para="Made a rapid prototype showing interactions with elements, sleek animations using Adobe XD auto-animate feature. Here I have to say I totally love XD auto-animate feature.
+      It does a lot with very little effort. Specially showing those micro-interactions. The app have a lot of areas where the user experience can be enriched more.
+      These all took me two days.
 .  
                
      "
@@ -328,7 +373,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <img
             src="~assets/projects/cricbuzz/cricbuzz-xd-prototype-screen.jpg"
@@ -369,12 +418,9 @@
 
     <pcase
       heading="Conclusion"
-      para="There a lot of things and conditions that these design doesn't justify. With two sleepless
-      night this is all I can design. There may be one and more typos error and not pixel perfect and
-      please don't mind my English and English Grammar. I try hard though to not  mistake. There's a
-      lot of area where with good research and planning app can be made even more awesome for all
-      cricket lover.
-.  
+      para=" When it come to cricket app, theres a lot of data that goes into UI. There's just so many edge case scenario.
+      There a lot of things and conditions that these design doesn't justify and have area where with good research and planning, app
+      can be made even more awesome for all cricket lover. 
                
      "
       theme="theme_cricbuzz"
@@ -382,7 +428,11 @@
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -427,15 +477,18 @@
 
     <div class="Takeaway">
       <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>``
+        <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            The most challenging part of any project which I have observed is even starting it.
-            Once I start it the next big thing is Deciding which problem to solve. As a UX designer, we are
-            driven by curiosity and a burning desire to solve problems. The more insights we uncover,
-            the more problems we will identify — and the harder it becomes to settle on just one. During research and design phase
-            i got into loop of deciding what to give more time and which to not. If i have focused on all parts of Cricbuzz app, it would not have
-            been possible to finish it all in 2 days at all. So focusing only on Important stuff is very crucial.
+            The most challenging part of any project which I have experienced
+            myself is even starting it. Once it get started, the next challenge
+            is deciding which problem to solve. As a UX designer, we are driven
+            by curiosity and a burning desire to solve problems. The more
+            insights we uncover, the more problems we will identify — and the
+            harder it becomes to settle on just one. During research and design
+            phase I got into loop of deciding what to give more time and what
+            not to. If I have focused on all parts of Cricbuzz app, it would not
+            have been possible to finish it all in 2 days at all. Focus is key.
           </p>
         </div>
       </div>
@@ -443,8 +496,9 @@
 
     <div class="p-quote contain red">
       <blockquote>
-        It’s inevitable that we uncover new pain-points along the way, but we can’t
-        change tack every time this occurs. The challenge lies in staying focused.
+        It’s inevitable that we uncover new pain-points along the way, but we
+        can’t change track every time this occurs. The challenge lies in staying
+        focused, staying on the track.
       </blockquote>
     </div>
 

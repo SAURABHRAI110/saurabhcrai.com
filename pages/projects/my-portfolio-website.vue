@@ -29,7 +29,10 @@
     <!-- hero image -->
     <div class="p-ft-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_my_website" data-aos="reveal-right"></div>
+        <div
+          class="reveal-block right theme_my_website"
+          data-aos="reveal-right"
+        ></div>
 
         <img
           src="~assets/projects/my-website/my-website-hero.jpg"
@@ -74,8 +77,19 @@ http://stephencalvillodesign.com/project/prestoq
       theme="theme_my_website"
     />
 
+    <pcase
+      heading="Purpose"
+      para=" Its the minor details that makes all difference. Those liitle page transition effects.
+      Those hover state, those interaction.
+     "
+      theme="theme_my_website"
+    />
+
     <div class="p-quote contain red">
-      <blockquote>I took a challenge to code design and code daily for the next 100days and call it #100daysOfCode</blockquote>
+      <blockquote>
+        I took a challenge to code design and code daily for the next 100days
+        and call it #100daysOfCode
+      </blockquote>
     </div>
     <!-- <div class="p-quote contain red">
       <blockquote>
@@ -127,8 +141,9 @@ http://stephencalvillodesign.com/project/prestoq
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Good design requires good communication, especially from machine to
+        person, indicating what actions are possible, what is happening, and
+        what is about to happen.
       </blockquote>
     </div>
 

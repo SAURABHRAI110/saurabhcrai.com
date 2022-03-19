@@ -3203,7 +3203,7 @@ primary #8e55ff
 }
 
 .p-video-container img {
-  height: 111px;
+  height: 190px;
   padding-left: 52px;
 }
 
@@ -3594,6 +3594,9 @@ Akcent Colour
   background: linear-gradient(180deg, rgba(255, 255, 255, 0)80%, #3ae8ff 65%);
 
 }
+
+
+
 
 .b-p-heading {
   position: relative;

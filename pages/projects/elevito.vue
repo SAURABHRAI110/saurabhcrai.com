@@ -31,18 +31,24 @@
       <img src="~assets/projects/fe/fe1.png" alt>
     </div>-->
 
-    <ScrollDown />
+    <!-- <ScrollDown /> -->
 
     <!-- hero image -->
     <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
-        <div class="reveal-block right theme_elevito" data-aos="reveal-right"></div>
+        <div
+          class="reveal-block right theme_elevito"
+          data-aos="reveal-right"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/elevito/elevito-hero-mobile.jpg"
           />
-          <img src="~assets/projects/elevito/elevito-hero.jpg" alt="cool background" />
+          <img
+            src="~assets/projects/elevito/elevito-hero.jpg"
+            alt="cool background"
+          />
         </picture>
       </div>
     </div>
@@ -95,14 +101,15 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
-        It was an opportunity for me to challenge our creativity,
-        without fixing any constraint or barrier.
+        It was an opportunity for me to challenge our creativity, without fixing
+        any constraint or barrier.
       </blockquote>
     </div>
 
     <p class="contain just-para black90">
-      The purpose of the website was to showcase our works we have done so far particularly me and my fellow designers and through
-      that, to clients and to convince them that we are the people they are looking far.
+      The purpose of the website was to showcase our works we have done so far
+      to clients and to demonstrate them that we are the people they are looking
+      far.
     </p>
 
     <!-- <img
@@ -115,9 +122,9 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <pcase
       class="elevito-research-sec"
       heading="Ideation and Research"
-      para=" After wireframing the site and running it past some UX friends and juniors
+      para=" After initial wireframing and running it past some UX friends and juniors
       for feedback and tweaks, we kicked around some ideas for a theme. Coming up with layout
-      and working on it.I iterated and tweaked until we had something that was fun and as fluid
+      and working on it. We iterated and tweaked until we had something that was fun and as fluid
       as possible."
       theme="theme_elevito"
     />
@@ -156,8 +163,8 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
-        Ideas don't come out fully formed. They only become clear as you work on them.
-        You just have to get started.
+        Ideas don't come out fully formed. They only become clear as you work on
+        them. You just have to get started.
       </blockquote>
     </div>
 
@@ -165,9 +172,9 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <pcase
       heading="Art Direction + Design"
-      para="After layout and content strategy, It was  time to set a theme and colour palette
+      para="After layout and content strategy, it was  time to set a theme and colour palette.
       It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
+      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I changed
       the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
       use red as theme colour
       "
@@ -176,7 +183,11 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
@@ -186,7 +197,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             src="~assets/projects/elevito/elevito-wireframe-cyan.jpg"
             alt="website wireframing, wireframing"
           />
-          <p class="ps black90">Initial layout and Primary Colours.</p>
+          <p class="ps black90">Initial layout and website theme.</p>
         </picture>
       </div>
     </div>
@@ -194,20 +205,32 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <div class="p-text-100 bg_one">
       <span class="center-h-v">
         <h3 class="white">Go Beyond</h3>
-        <img src="~assets/projects/elevito/go-beyond.svg" alt="go beyond icon" />
+        <img
+          src="~assets/projects/elevito/go-beyond.svg"
+          alt="go beyond icon"
+        />
       </span>
     </div>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/elevito/elevito-wireframe-final-mobile.jpg"
           />
-          <img src="~assets/projects/elevito/elevito-wireframe-final.jpg" alt="elevito wireframe" />
-          <p class="ps black90">Final Layout: Changed hero image and thumbnail later on.</p>
+          <img
+            src="~assets/projects/elevito/elevito-wireframe-final.jpg"
+            alt="elevito wireframe"
+          />
+          <p class="ps black90">
+            Final Layout: Updated hero image and thumbnail later on.
+          </p>
         </picture>
       </div>
     </div>
@@ -222,12 +245,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <!-- Fonts, Colors & Patterns -->
     <pcase
-      heading="Fonts, Colors & Patterns"
-      para="After layout and content strategy, It was  time to set a theme and colour palette
-      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I chamged
-      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
-      use red as theme colour
+      heading="Visual Design"
+      para="After many iteration and changes we finally fixed on a layout for pages and little by little I started adding details to it.
+      With constant collaboration with developers and content writer a story and theme got build up and the resulting design was loved by all.
+    
       "
       theme="theme_elevito"
     />
@@ -236,34 +257,51 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <div class="p-text-100 bg_three">
       <span class="center-h-v">
         <h3 class="white">Reimagine</h3>
-        <img src="~assets/projects/elevito/reimagine.svg" alt="reimagine icon" />
+        <img
+          src="~assets/projects/elevito/reimagine.svg"
+          alt="reimagine icon"
+        />
       </span>
     </div>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/elevito/elevito-web-mobile-1-mobile.jpg"
           />
-          <img src="~assets/projects/elevito/elevito-web-mobile-1.jpg" alt="elevito ideation" />
-          <p class="ps black90">Elevito: Mobile Hero Screen.</p>
+          <img
+            src="~assets/projects/elevito/elevito-web-mobile-1.jpg"
+            alt="elevito ideation"
+          />
+          <p class="ps black90">Elevito: Mobile Hero Screen Set 1.</p>
         </picture>
       </div>
     </div>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <div
+          class="reveal-block right"
+          data-aos="reveal-right"
+          data-aos-once="true"
+        ></div>
         <picture>
           <source
             media="(max-width: 600px)"
             srcset="~assets/projects/elevito/elevito-web-mobile-2-mobile.jpg"
           />
-          <img src="~assets/projects/elevito/elevito-web-mobile-2.jpg" alt="elevito ideation" />
-          <p class="ps black90">Elevito: Mobile Hero Screen.</p>
+          <img
+            src="~assets/projects/elevito/elevito-web-mobile-2.jpg"
+            alt="elevito ideation"
+          />
+          <p class="ps black90">Elevito: Mobile Hero Screen Set 2.</p>
         </picture>
       </div>
     </div>
@@ -271,28 +309,46 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <div class="p-video-container">
       <div class="center-h-v">
         <video loop width="300" height="auto" autoplay="autoplay ">
-          <source src="~assets/projects/elevito/elevito-logo-motion.mp4" type="video/mp4" />
+          <source
+            src="~assets/projects/elevito/elevito-logo-motion.mp4"
+            type="video/mp4"
+          />
         </video>
-        <img src="~assets/projects/elevito/elevito-logo-motion-2.gif" alt="website design" />
+        <img
+          src="~assets/projects/elevito/elevito-logo-motion-2.gif"
+          alt="website design"
+        />
       </div>
     </div>
 
     <!-- elevito web  -->
 
     <div class="p-image-100-duo">
-      <img src="~assets/projects/elevito/elevito-web-1.jpg" alt="website design" />
+      <img
+        src="~assets/projects/elevito/elevito-web-1.jpg"
+        alt="website design"
+      />
     </div>
 
     <div class="p-image-100-duo">
-      <img src="~assets/projects/elevito/elevito-web-2.jpg" alt="elevito website design" />
+      <img
+        src="~assets/projects/elevito/elevito-web-2.jpg"
+        alt="elevito website design"
+      />
     </div>
 
     <div class="p-image-100-duo">
-      <img src="~assets/projects/elevito/elevito-web-3.jpg" alt="website design uxui" />
+      <img
+        src="~assets/projects/elevito/elevito-web-3.jpg"
+        alt="website design uxui"
+      />
     </div>
 
     <div class="p-image-100-duo">
-      <img src="~assets/projects/elevito/elevito-design-system.jpg" alt="website design system" />
+      <img
+        src="~assets/projects/elevito/elevito-design-system.jpg"
+        alt="website design system"
+      />
     </div>
 
     <div class="p-image-100-duo">
@@ -303,7 +359,7 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         />
         <img
           src="~assets/projects/elevito/elevito-team-pic.jpg"
-          alt="elevito team, Saurabh Chandra Rai, shekhar guota, yash srivastav"
+          alt="elevito team, Saurabh Chandra Rai, Shekhar Gupta, Yash Srivastav"
         />
       </picture>
     </div>
@@ -313,7 +369,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
           media="(max-width: 600px)"
           srcset="~assets/projects/elevito/elevito-contact-mobile.jpg"
         />
-        <img src="~assets/projects/elevito/elevito-contact.jpg" alt="coffee mug mockup" />
+        <img
+          src="~assets/projects/elevito/elevito-contact.jpg"
+          alt="coffee mug mockup"
+        />
       </picture>
     </div>
 
@@ -330,16 +389,15 @@ So here I was, crawling Pintrest, going through design agencies website, looking
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with developer</span>
+              <span>✔ Taking design meetings</span>
+              <span>✔ Collaborating with developers</span>
               <span>✔ Creative Direction</span>
-              <span>✔ Lots of IceTea</span>
+              <span>✔ Drank lots of IceTea</span>
               <span>✔ Exporting Assets</span>
               <span>✔ Wireframing</span>
               <span>✔ Testing with users</span>
-              <span>✔ Creating A design System</span>
+              <span>✔ Creating a design system</span>
               <span>✔ Branding</span>
-              <span>✔ Identy Design</span>
               <span>✔ Defending UX Decisions</span>
             </div>
           </div>
@@ -354,12 +412,16 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <h2 class="p-para black50">Learnings</h2>
         <div class="pm black70">
           <p>
-            Elevito happen during my college time. Its my greatest learning curve. I did everything that I can do all with love.
-            It was time when We did not have even lots of projects to showcase on website, still we managed to show 15 Projects, out of which
-            2 projects was fictional, I did them to learn more, and to be creative with them. I took really a lot of time like 2 months just
-            showcasing 15 projects, there were times when It became very boring, couldn't give my best, but with everyone support and love
-            I never lost enthusiasm and maintained our excitement. Whenever I couldn't do something, there were people whom i could lean on. This
-            was all possible because each and everyone came together even in their busiest of time, even when exams were near.
+            Elevito happen during my college time. It was my greatest learning
+            curve. I tried everything that I can do. In the beginning we did not
+            have many projects to showcase on the website, still somehow managed
+            to show 15 Projects, out of which 2 projects was fictional. It took
+            a lot of time like 2 months just on showcasing 15 projects, there
+            were times when tt became very boring, couldn't give the best, but
+            with all support and love, I never lost enthusiasm and maintained
+            the excitement. Whenever challenge arrived, there were people whom I
+            could lean on. This was all possible because each and everyone came
+            together even in their busiest of time, even when exams were near.
           </p>
         </div>
       </div>
@@ -367,10 +429,11 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
-        1 option is better than many.
-        When you're communicating your process and solutions to a people who isn't always the key decision-maker,
-        it's important to keep your points clear and concise enough for easy re-communication. Even though that person
-        may appreciate the extra displayed effort, it can muddy the waters when feedback comes back out.
+        One option is better than many. When you're communicating your process
+        and solutions to a people who isn't always the key decision-maker, it's
+        important to keep your points clear and concise enough for easy
+        re-communication. Even though that person may appreciate the extra
+        displayed effort, it can muddy the waters when feedback comes back out.
       </blockquote>
     </div>
 
@@ -382,7 +445,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
+    <Appreciate
+      heading="Thanks for scrolling 3400 PX"
+      subHeading="Click or tap to appreciate."
+    />
 
     <!-- Project Footer Navigatrion -->
 

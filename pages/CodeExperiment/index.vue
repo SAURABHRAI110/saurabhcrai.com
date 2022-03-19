@@ -17,7 +17,9 @@
     <!-- section 2 -->
     <div class="exp-section-two">
       <div class="exp-cards">
-        <div class="exp-card"></div>
+        <div class="exp-card">
+          <img src alt />
+        </div>
         <div class="exp-card"></div>
         <div class="exp-card"></div>
         <div class="exp-card"></div>
@@ -27,6 +29,8 @@
         <div class="exp-card"></div>
       </div>
     </div>
+
+    <div class="section-three"></div>
   </div>
 </template>
 
@@ -99,7 +103,7 @@ export default {
 
 .exp-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(45vw, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   width: 100%;
   grid-gap: 20px;
 }
@@ -113,5 +117,19 @@ export default {
 }
 .exp-card:nth-child(2n-1) {
   background-color: rgb(241, 92, 92);
+}
+
+.section-three {
+  width: 100%;
+  position: relative;
+  height: 247px;
+  background: linear-gradient(
+    0deg,
+    rgba(83, 78, 78, 0) 0%,
+    rgba(82, 77, 77, 0.01) 21.08%,
+    rgba(27, 25, 25, 0.61) 67.36%,
+    #000 100%
+  );
+  opacity: 0.5;
 }
 </style>
