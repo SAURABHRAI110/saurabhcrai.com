@@ -229,7 +229,7 @@
         I pour
         my ❤️️ into
         <br />
-        <span class="outlined">Every</span>
+        <span class="outlined">every</span>
         Design.
       </h1>
       <p>
