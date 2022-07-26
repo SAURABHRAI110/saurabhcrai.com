@@ -2656,6 +2656,17 @@ color: #0088ff !important;
 }
 
 
+/* Bikeshikes Ecommerce */
+.reveal-block.theme_bikeshikes::before {
+  background: #F53C32;
+}
+
+.dreamz-prototype {
+  background-color: #4FCEC4;
+}
+
+
+
 /* meeting rooms */
 
 
