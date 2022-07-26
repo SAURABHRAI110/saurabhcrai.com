@@ -288,60 +288,14 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
   
 
-    <!-- Backstory -->
+
+
 
     <pcase
-      heading="Challenge 🥴 "
-      para="Well, the most challenging part was the make the event portal feel like the part of feeding Trends,
-        and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidelines.
-        It was really challenging. The existing website and the event portal have different purpose and target user. 
-        "
-      theme="theme_bikeshikes"
-    />
-
-    <!--       When we work on something that we have to decide on our own about every aspects of a product. It gets more challenging than ever.
-      Then we are in constant dilemma of this or that. Iteration seems to never stop. Its get frustrating.
-      Though we are not restricted by anything, its also fun and our mind happen to work round the clock to make decisions.
-
-        <br> <br>Making something stand out and gives a feel of creativity and wowness. 
-        was cool for the moment but that can not be used to used on web.
-    <br>3. No copywrite, no information architecture."-->
-
-    <p class="contain just-para black90">
-      Also, there is many competitor in the same niche, and i was not easy to have something that is similar yet
-      simple and intuitive and make user come to website and let them discover events and book tickets.
-    </p>
-
-    <!-- <img
-        class="p-image-100"
-        src="~assets/projects/ft-event/ft-event-mockup-web1.jpg"
-        alt="ft-event web mockup"
-    />-->
-    <!-- Ideation and Research -->
-
-    <pcase
-      class="ft-event-research-sec"
-      heading="Ideation and Research"
-      para="After some deep research and coming with a strategy of monetizing the same and the discussing all the
-        possible scenario how a user will interact with the website. We came up with website architecture and site map.
-        
-        <br><br>
-        On our past experience, the problem and challenges faced during making feedingtrends content website, 
-        We decided to follow google material guidelines and so that development and design can go long way and we can easily
-        implement a functional even website.
-        
-        "
-      theme="theme_bikeshikes"
-    />
-
-    <pcase
-      heading="Design Sprint"
-      para="After the initial findings and research, I decided to coordinate a Google Design Sprint to get the team aligned
-      on how we could get our users to share event on other existing platform and make the whole experience as intuitive as possible.
-      I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days.
-        <br><br>
-        Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
-        
+      heading="Paper wireframes"
+      para="Next, I sketched out paper wireframes for each screen,
+      keeping the user pain points about navigation, browsing, and
+      checkout flow in mind.
         "
       theme="theme_bikeshikes"
     />
@@ -351,7 +305,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/ft-event/ft-events-ideation-1.jpg"
+            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-1.jpg"
             alt="feeding trends ideation"
           />
         </div>
@@ -359,95 +313,182 @@ to able to focus on his health and fitness and also remain worry free from unwan
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/ft-event/ft-events-ideation-2.jpg"
+            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-2.jpg"
             alt="feeding trends ideation"
           />
         </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-3.jpg"
+            alt="feeding trends ideation"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-4.jpg"
+            alt="feeding trends ideation"
+          />
+        </div>
+        
       </agile>
     </client-side>
 
     <div class="p-quote contain red">
       <blockquote>
-        Is it the right page? Does the page have the content which I am looking for?
-        Do they have anything better, if this is not what I’m looking for? What is expected of me now?
+        Paper wireframes served multiple purpose here, it helped me to connect the
+        site's information architecture to its visual design by showing
+        paths between pages. Clarify consistent ways for displaying particular
+        types of information on the user interface. Determine intended
+        functionality in the interface. 
       </blockquote>
     </div>
 
-    <p class="contain just-para black90">
-      I asked these questions again and again, discussed it, researched existing solutions, came up with different possibilities. Started
-      designing UI in XD which I was sure of and as I got further, things got easier and easier.
+
+    <!-- Digital Wireframe -->
+
+      <pcase
+      heading="Digital wireframes"
+      para="Moving from paper to digital wireframes made it easy
+      to understand how the redesign could help address user pain
+      points and improve the user experience. Prioritizing useful button
+      locations and visual element placement on the home page was a key part
+      of my strategy.
+
+      "
+      theme="theme_bikeshikes"
+    />
+  
+ <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-1.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
+        </div>
+      </div>
+
+<br></br>
+<br></br>
+
+ <p class="contain just-para black90">
+      Here I have shown all the wireframe that was necessary to make for the user journey 
+      to complete and so that later on I can do usability test connecting all these low fidelity
+      digital wireframe.
     </p>
-    <!-- Art direction Design-->
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft-event/ft-event-user-personas.jpg"
-            alt="user personas for event"
-          />
-          <p class="ps black90">User Personas</p>
-        </picture>
+ <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
+        </div>
       </div>
-    </div>
 
-    <pcase
-      heading="THREE USER TYPES"
-      para="On our research and findings we concluded that the portal will have 3 user types i.e. Normal visitor, event creator, admin. Normal Users (Who is going ti visit the website and buy
-      tickets for events), Creator (Who will publish event thorough our platform), and then Admin(who will
-      manage the event listing, tickets sale authorize users and curators). <br><br>
-        Each role has different objectives and even slightly different experiences.
-        <br>
-        <br>
 
-         We came up with a simple habit loop. Discover, Share with friends, Book ticket for them, Go to event, Repeat.
-      "
-      theme="theme_bikeshikes"
-    />
+<!-- Low fi fidelity prototype -->
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft-event/ft-site-architecture.jpg"
-            alt="website architecture, website user journey"
-          />
-          <p class="ps black90">Site architecture</p>
-        </picture>
-      </div>
-    </div>
+      <pcase
+      heading="Low-fidelity prototype"
+      para="To create a low-fidelity prototype, I connected all of the
+      screens involved in the primary user flow of adding an item to the
+      cart and checking out.
+      <br>
 
-    <pcase
-      heading="Normal Visitor or user"
-      para="Normal user who will visit the website where he/she will browse through listed event. Select a event, will 
-      create an account and buy tickets using payment portal. His tickets details will be added to his user profile dashboard.
-     
-
+      At this point, I had received feedback on my designs from my peers
+      and other visual designers about things like placement of buttons
+      and page organization. I made sure to listen to their feedback,
+      and I implemented several suggestions in places that addressed user pain points.
+      
 
       "
       theme="theme_bikeshikes"
     />
+  
 
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img src="~assets/projects/ft-event/ft-event-habit-loop.svg" alt="user habit lopp" />
-          <p class="ps black90">Normal user habit loop</p>
-        </picture>
+   <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-prototype.jpg" />
+          </picture>
+          <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p>
+        </div>
       </div>
-    </div>
 
     <pcase
-      heading="The Creator Experience"
+      heading="Usability study"
+      para="To create a low-fidelity prototype, I connected all of the screens
+      involved in the primary user flow of adding an item to the cart and checking out.
+
+      At this point, I had received feedback on my designs from my peers
+      and other visual designers about things like placement of buttons
+      and page organization. I made sure to listen to their feedback,
+      and I implemented several suggestions in places that addressed
+      user pain points. 
+      "
+      theme="theme_bikeshikes"
+    />
+
+ <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/usability-study-parameters.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+    <pcase
+      heading="Usability study: findings"
       para="The event creator is the Entertainment Provider in a sense. They Choose what type of
         event are they organizing, what are their possible audience,  and push the event to audience.
         They can see the performance of their event, Sales record etc. on the ft event website.
       "
       theme="theme_bikeshikes"
     />
+
+     <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/usability-study-findings.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+
     <pcase
       heading="The Admin Experience"
       para="Admins at the company are then able to dig into demographic insights
