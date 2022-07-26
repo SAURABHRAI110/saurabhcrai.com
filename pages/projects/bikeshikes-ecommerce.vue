@@ -490,18 +490,43 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
 
     <pcase
-      heading="The Admin Experience"
-      para="Admins at the company are then able to dig into demographic insights
-        on the types of professionals that are engaging with their content the most and
-        how they could leverage their event creator to reach a particular audience.
-
-        <br><br>
-        The first tab of the Analytics page for admins let them see how their curators
-        are performing. Is there enough broadcasted event for their users to share? Which categories
-        are listed to the most, and what's getting the most engagements?
+      heading="Mockups"
+      para="Based on the insights from the usability study,
+      I made changes filter options giving more related and specific
+      required filter. I have added more filter like age, categories,
+      number of gears and more. This allowed users more freedom to 345]89ilter out the bicycle  according to their specific need and requirement.
       "
       theme="theme_bikeshikes"
     />
+
+
+<client-side>
+      <agile>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bikeshikes-ecommerce/mockups-before-and-after-usability-study-1.jpg"
+            alt="feeding trends ideation"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bikeshikes-ecommerce/mockups-before-and-after-usability-study-2.jpg"
+            alt="feeding trends ideation"
+          />
+        </div>
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/bikeshikes-ecommerce/mockups-before-and-after-usability-study-3.jpg"
+            alt="feeding trends ideation"
+          />
+        </div>
+        
+        
+      </agile>
+    </client-side>
 
     <pcase
       heading="User Interface Design"
