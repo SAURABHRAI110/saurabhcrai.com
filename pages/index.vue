@@ -233,7 +233,7 @@
         Design.
       </h1>
       <p>
-        Here is a small selection of my Work's case study I Enjoy.
+        Here is a small selection of my work's case study I enjoy.
         <nuxt-link to="/projects" class="underline-magical">See all my works.</nuxt-link>
       </p>
     </div>
