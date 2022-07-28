@@ -529,9 +529,11 @@ to able to focus on his health and fitness and also remain worry free from unwan
     </client-side>
 
     <pcase
-      heading="User Interface Design"
+      heading="High Fidelity Mockups"
       para="Putting everything together from the research, user personas, wireframes. I moved the begin
-      to design UI Elements like tabs, search, links, contents. 
+      to put details on each page starting with home page to form a design theme and once i was satisfied
+      with the look and feel of home page, I continued to other pages keeping consistency, user flow
+      in check. 
 
 
         <br><br>
@@ -543,53 +545,183 @@ to able to focus on his health and fitness and also remain worry free from unwan
     />
 
     <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-          <img
-            src="~assets/projects/ft-event/ft-event-all-web-pages.jpg"
-            alt="website web pages design"
-          />
-          <p class="ps black90">All pages</p>
-        </picture>
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
       </div>
-    </div>
+
+
+
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/all-mockup-showcase.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
 
     <pcase
-      heading="Constantly learning"
+      heading="Mockups: Screen size variations"
       para="
-          Being such a small team, we were able to work incredibly agile.
-          We were always getting feedback from our customers and making changes
-          to better suit their needs (and our business goals of course). I did multiple sessions
-          of interviews for both conceptual ideas and usability testing. 
+          I included considerations for additional screen sizes in my
+          mockups based on my earlier wireframes. Because users shop from a
+          variety of devices, I felt it was important to optimize the browsing
+          experience for a range of device sizes, such as mobile and tablet
+          so users have the smoothest experience possible. 
       "
       theme="theme_bikeshikes"
     />
 
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
     <pcase
-      heading="The Smile says It all"
+      heading="High-fidelity prototype"
       para="
-        The Project was long, challenging, pressure was immense. Each day there was something that put things on the edge.
-        For me designing was not straight ride but a rollercoaster ride. We kept our head down and hope high.  Any mistake from my side means, its gonna come in development
-        phase. At the time I was also learning Basic HTML CSS. And leaning itb helps my to move forward fast as I communicated better with
-        developer. Anyway The time we spend to build up the this project was a great leaning for everyone. 
+        My hi-fi prototype followed the same user flow as the lo-fi
+        prototype, and included the design changes made after the
+        usability study, as well as several changes suggested by members of my team. 
+      <br>
+      <br>
+      View the Bikeshikes high-fidelity prototype
             
             "
       theme="theme_bikeshikes"
     />
 
-    <div class="contain">
-      <div class="p-image-100-duo">
+
+    <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
           <picture>
-            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-team.jpg" />
-            <img src="~assets/projects/ft-event/ft-event-team.jpg" alt="feeding trends team" />
-            <p class="ps white">FT Event Team</p>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/high-fidelity prototype-link-xd.jpg" />
           </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
       </div>
-    </div>
+
+    <pcase
+      heading="Accessibility Considerations"
+      para="
+        While designing I have kept an eye on the accessibility
+        consideration like color contrast, Hierarchy and Layout,
+        typography and all those design principles.  It's always
+        easier to fix things that you uncover in the design process,
+        so it's best to consider accessibility upfront in the design process.
+            "
+      theme="theme_bikeshikes"
+    />
+
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/Accessibility considerations.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+
+    <pcase
+      heading="Going forward"
+      para="
+        Moving from paper to digital wireframes made it
+        easy to understand how the redesign could help address
+        user pain points and improve the user experience. 
+      <br>
+      <br>
+      Prioritizing useful button locations and visual element placement on the
+      home page was a key part of my strategy.
+   "
+      theme="theme_bikeshikes"
+    />
+
+    <pcase
+      heading="Takeaways"
+      para="
+       Impact: <br>
+The website makes users feel engaged with lots of product to explore with modern, simple and intuitive design.
+
+Our target users shared that the design was intuitive to navigate through, more engaging with the images, and demonstrated a clear visual hierarchy and users were able to easily sort products according to their need.
+ 
+      <br>
+      <br>
+      What I learned:<br>
+I learned that even a small design change can have a huge impact on the user experience. The most important takeaway for me is to always focus on the real needs of the user when coming up with design ideas and solutions. 
+
+   "
+      theme="theme_bikeshikes"
+    />
+
+
+    <pcase
+      heading="Next Step"
+      para="
+        Moving from paper to digital wireframes made it
+        easy to understand how the redesign could help address
+        user pain points and improve the user experience. 
+   "
+      theme="theme_bikeshikes"
+    />
+
+    
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/next-step.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
 
     <!-- key Focus Area -->
 
