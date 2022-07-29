@@ -128,7 +128,7 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            srcset="~assets/projects/bikeshikes-ecommerce/ux-research-study-mobile.jpg"
           />
           <img src="~assets/projects/bikeshikes-ecommerce/UX Research Study Plan.jpg" />
         </picture>
@@ -154,10 +154,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/Persona [Abhishek].jpg" />
           </picture>
           <p class="ps black70">Persona [Abhishek]</p>
@@ -174,10 +174,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/Persona [Saharsh].jpg" />
           </picture>
           <p class="ps black70">Persona [Saharsh]</p>
@@ -213,10 +213,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/User Journey Map [Bicycle eCommerce].jpg" />
           </picture>
           <p class="ps black70">User Journey Map</p>
@@ -235,7 +235,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
             />
             <img src="~assets/projects/bikeshikes-ecommerce/User PainPoints.jpg" />
           </picture>
@@ -276,10 +276,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+              srcset="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg"
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg" />
           </picture>
           <p class="ps black70">Sitemap</p>
@@ -365,10 +365,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+              srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-1.jpg" />
           </picture>
           <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
@@ -391,7 +391,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
             />
             <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all.jpg" />
           </picture>
@@ -425,10 +425,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-prototype.jpg" />
           </picture>
           <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p>
@@ -456,7 +456,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/usability-study-parameters-mobile.jpg"
             />
             <img src="~assets/projects/bikeshikes-ecommerce/usability-study-parameters.jpg" />
           </picture>
@@ -480,7 +480,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/usability-study-findings-mobile.jpg"
             />
             <img src="~assets/projects/bikeshikes-ecommerce/usability-study-findings.jpg" />
           </picture>
@@ -551,7 +551,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3-mobile.jpg"
             />
             <img src="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3.jpg" />
           </picture>
@@ -567,10 +567,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/all-mockup-showcase.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -597,7 +597,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages-mobile.jpg"
             />
             <img src="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages.jpg" />
           </picture>
@@ -625,10 +625,10 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
+            /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/high-fidelity prototype-link-xd.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -722,6 +722,32 @@ I learned that even a small design change can have a huge impact on the user exp
         </div>
       </div>
 
+
+  <pcase
+      heading="Aftermath of this Project"
+      para="
+        I got into Cycling.
+        <br>365 Days by 29th July and counting
+        <br> Journey in photos 
+   "
+      theme="theme_bikeshikes"
+    />
+
+
+  <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/bikeshikes-ecommerce/cycling-collage-mobile.jpg"
+            />
+            <img src="~assets/projects/bikeshikes-ecommerce/cycling-collage.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
 
     <!-- key Focus Area -->
 
