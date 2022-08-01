@@ -2661,8 +2661,19 @@ color: #0088ff !important;
   background: #F53C32;
 }
 
+.p-bikeshikes-100-duo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+}
+
 .dreamz-prototype {
   background-color: #4FCEC4;
+}
+
+/* Artiso */
+.reveal-block.theme_artiso::before {
+  background: #FF4F00;
 }
 
 
