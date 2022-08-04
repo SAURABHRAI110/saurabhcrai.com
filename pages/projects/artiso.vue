@@ -45,24 +45,21 @@
     </div>
 
     <Preface
-      timeframe="June 2021- <br> July 2021"
+      timeframe="May 2021- <br> July 2021"
       tools="  Adobe Creative Suite, Marvel, Invision 
             <br>Pen, paper"
       role="UX Researcher, UI/UX Designer
 
-            <br>Designing an art app from concept to delivery"
+            <br>Designing the Art Gallery app from concept to delivery"
       team=" Me
             <br>and the fun me"
     />
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para="BikeShikes is a bicycle online store that offers many brands
-      bicycle from categories like MTB, Road, Hybrid, eBike etc. It also
-      offers accessories and clothing. The typical user is between 12-45
-      years old, and most users are students or early career professionals.
-      BikeShikes goal is to make shopping fun, fast, and easy for
-      all types of users."
+      para="We have created a new app to let people explore and learn different
+      kinds of arts and their details and also contact sellers if they are interested
+      to buy."
 
       
       theme="theme_artiso"
@@ -71,18 +68,18 @@
     <!-- Challenge -->
     <pcase
       heading="The problem"
-      para="Available online shopping websites have cluttered designs, Lots
-      of technical terms, inefficient systems for browsing through products,
-      and confusing filtering out for products and checkout processes. We wanted
-      to tackle these problems ealry in the design stage."
+      para="Govind is an busy professional and art enthusiast who need
+      a better way of exploring different kind of arts and stories because
+      he don't have enough time to visit museums and art galleries."
       theme="theme_artiso"
     />
   <!-- Goal -->
     <pcase
       heading="The Goal"
-      para="BikeShikes website overaall experience to be user friendly with easy navigation,
-      clear context for technical terms with no or less jotgan words. Provide all the required filter
-      options that the user will need while browsing for the prodcuts and offering a fast checkout process."
+      para="Our App will let users browse arts, learn about them and contact seller which
+      will affect user have to explore arts, know the details, stories and also buy arts
+      by giving the options to connect with seller while experiencing the app. We will
+      measure effectiveness by Reading user review and number of downloads"
       theme="theme_artiso"
     />
 
@@ -100,22 +97,15 @@
     <pcase
       heading="Understanding the user"
       para="
-      I conducted user interviews, which I then turned into empathy
-      maps to better understand the target user and their needs.
-      I discovered that many target users treat online shopping as a
-      fun and relaxing activity when they need a break from school, college
-      or work. However, many shopping websites are overwhelming and confusing
-      to navigate, Lots of technical words without much context which frustrated
-      many target users. This caused a normally enjoyable experience to become
-      challenging for them, defeating the purpose of relaxation.
+      I conducted interviews with 5 participants and created empathy maps to understand the users I’m 
+      designing for and their needs.The primary user group identified through research 
+      was people aged between 18 to 65, people who are rts lovers and people who want to learn and explore arts.
 
-      <br>
-      <br>
+      This user group confirmed initial assumptions about art galley app customers, but research 
+      also revealed that users wanted an interactive experience through storytelling and ability to search and sort thought different kind of artworks. 
+      Other user problems included obligations, busy schedule, that make it 
+      ifficult to use app and explore their interest. "
 
-      User research <br>
-      Personas <br>
-      Problem statements <br>
-      User journey maps"
       theme="theme_artiso"
     />
 
