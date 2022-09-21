@@ -22,7 +22,7 @@
     "cross-env": "^5.2.0",
     "highlight.js": "^9.15.9",
     "js-yaml": "^3.13.1",
-    "markdown-it-highlightjs": "^3.0.0",
+    "markdown-it-highlightjs": "^3.3.1",
     "medium-zoom": "^1.0.4",
     "normalize.css": "^8.0.1",
     "nuxt": "^2.4.0",
