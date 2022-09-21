@@ -53,7 +53,7 @@
       <!-- <button @click="changed = !changed">Change</button> -->
 
       <svg
-        @click="changed = !changed"
+        @click="show = !show"
         :class="{ active: changed }"
         xmlns="http://www.w3.org/2000/svg"
         width="32"
