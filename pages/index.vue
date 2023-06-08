@@ -29,7 +29,7 @@
         data-aos-delay="400"
       >
         <h1>
-          <span>User Experience</span>
+          <span>Sr. User Experience</span>
           <br />
           <span class="outlined">Designer</span> At
           <br />
@@ -40,10 +40,11 @@
       </div>
       <div class="contain">
         <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="600">
-          Hi! My friends call me Saurabh, I am a multidisciplinary UX/UI Designer and Front-end Developer. I
+          Hi, I'm Saurabh, a multidisciplinary UI/UX Designer & Front-end Developer.
+          I 
           <span>
             <nuxt-link to="/projects">
-              <span class="underline-magical">design</span>
+              <span class="underline-magical">Design</span>
             </nuxt-link>,
             <a
               href="https://github.com/SAURABHRAI110"
@@ -51,10 +52,10 @@
               rel="noopener"
               title="Github(new tab)"
             >
-              <span class="underline-magical">code</span>
+              <span class="underline-magical">Code</span>
             </a> and
             <nuxt-link to="/blog">
-              <span class="underline-magical">write.</span>
+              <span class="underline-magical">Write.</span>
             </nuxt-link>
           </span>
         </p>
@@ -233,8 +234,8 @@
         Design.
       </h1>
       <p>
-        Here is a small selection of my work's case study I enjoy.
-        <nuxt-link to="/projects" class="underline-magical">See all my works.</nuxt-link>
+        Here is a small selection of the case studies showcasing my work that I take great pleasure in.
+        <nuxt-link to="/projects" class="underline-magical">Explore more projects👉</nuxt-link>
       </p>
     </div>
 
@@ -387,7 +388,7 @@
         Problems.
         <br />Be Curious.
       </h1>
-      <p>Few of my latest blogs</p>
+      <p>I write on things I love. Here are some of my articles.</p>
     </div>
 
     <BlogSection :blogs="blogs" />
