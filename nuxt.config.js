@@ -182,7 +182,11 @@ export default {
         ssr: false
 
       },
-
+      {
+        src: 'https://otpless.com/auth.js',
+        body: true,
+        async: true
+      },
 
       {
         src: '/main.js',
@@ -190,6 +194,7 @@ export default {
         body: true,
         async: true
       }
+     
 
     ],
   },

@@ -1,4 +1,10 @@
 // code experiment
+
+function otpless(otplessUser) {
+alert(JSON.stringify(otplessUser));
+
+
+
 var colors = new Array(
   [62, 35, 255],
   [60, 255, 60],
