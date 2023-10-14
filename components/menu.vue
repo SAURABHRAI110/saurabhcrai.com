@@ -49,11 +49,11 @@
     </div>-->
 
     <div class="menu-slide1" :class="{ active: changed }"></div>
-    <div class="menu-icon" @click="show = !show">
+    <div class="menu-icon" @click="toggleButton">
       <!-- <button @click="changed = !changed">Change</button> -->
 
       <svg
-        @click="show = !show"
+      @click="changed = !changed"
         :class="{ active: changed }"
         xmlns="http://www.w3.org/2000/svg"
         width="32"
@@ -71,16 +71,16 @@
         <div class="nav">
           <span class="nav__content">
             <span class="nav__list-item">
-              <nuxt-link to="/">Home</nuxt-link>
+              <nuxt-link to="/"  @click="clickedMenu">Home</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="/projects">Projects</nuxt-link>
+              <nuxt-link to="/projects" @click="clickedMenu">Projects</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="/blog">Blog</nuxt-link>
+              <nuxt-link to="/blog" @click="clickedMenu">Blog</nuxt-link>
             </span>
             <span class="nav__list-item">
-              <nuxt-link to="/about">About</nuxt-link>
+              <nuxt-link to="/about" @click="clickedMenu">About</nuxt-link>
             </span>
             <!-- <span class="nav__list-item">
               <nuxt-link to="/photography">Photography</nuxt-link>
@@ -200,9 +200,28 @@ export default {
       show: false,
       changed: false
     }
+  },
+  methods:{
+    clickedMenu(){
+      // working
+      this.show = false;
+      this.changed = false;
+    },
+    toggleButton(){
+      if(this.show == true){
+        this.show = false;
+        this.changed = false;
+      } else {
+        this.show = true;
+        this.changed = true;   
+      }
+      // this.show = !this.show
+    }
   }
 }
+
 </script>
+
 <style scoped>
 .nav-container {
   width: 100px;
