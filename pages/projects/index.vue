@@ -49,6 +49,21 @@
             />
           </nuxt-link>
         </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/artiso">
+            <thumbnail
+              thumbnailName="Artiso"
+              thumbnailDescription="Casestudy | Explore, Shop"
+              thumbnail="/Artiso App Thumbnail-2.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
         
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/cricbuzz-app-redesign">
