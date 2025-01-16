@@ -33,11 +33,28 @@
     <!-- project grid -->
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/bikeshikes-ecommerce">
+            <thumbnail
+              thumbnailName="BikeShikes"
+              thumbnailDescription="Casestudy | eCommerce"
+              thumbnail="/bikeshikes-web-mockup-thumbnail-3.jpg"
+              color="var(--primary-color)"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+        
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/cricbuzz-app-redesign">
             <thumbnail
               thumbnailName="CricBuzz"
-              thumbnailDescription="App  Redesign Concept"
+              thumbnailDescription="App Redesign Concept"
               thumbnail="/cricbuzz-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"

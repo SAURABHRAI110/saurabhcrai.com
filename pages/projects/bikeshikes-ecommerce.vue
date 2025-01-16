@@ -23,7 +23,7 @@
       pDate="June 2021 "
       pWebsite="BikeShikes"
       pCategory="eCommerce"
-      pHeading="Making shopping fun, fast, and easy for bicycle users."
+      pHeading="Making shopping fun, fast, and easy for cycling enthusiast and beginner."
       pHeadingcolor="color:#ff0000;"
       pSubheading=" eCommerce Website Design Case Study"
     />
@@ -34,10 +34,10 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-ecommerce-hero-mobile.jpg"
+            srcset="~assets/projects/bikeshikes-ecommerce/hero-mobile.jpg"
           />
           <img
-            src="~assets/projects/bikeshikes-ecommerce/cyclist-sunny-day-bike-adventure-travel-photo-hero.jpg"
+            src="~assets/projects/bikeshikes-ecommerce/Cyclist mountain ui ux web design.jpg"
             alt="cyclist, adventure, cycle ecommerce"
           />
         </picture>
@@ -51,8 +51,8 @@
       role="UX Researcher, UI/UX Designer
 
             <br>Designing Bicycle eCommerce from concept to delivery"
-      team=" Only me
-            <br>It was lonely time"
+      team=" Me, Friends
+            <br>and lot of fun."
     />
     <!-- Preface -->
     <pcase

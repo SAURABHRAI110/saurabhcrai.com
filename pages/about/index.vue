@@ -65,7 +65,7 @@
           <h2 class="a-hello primary-color maegin_reveal">Hello there!</h2>
         </div>
         <p class="para hero-para black70">
-          Hi! I'm Saurabh Chandra Rai, and I am currently a User Experience Designer at
+          Hi, I'm Saurabh Chandra Rai, and I currently work as a Senior User Experience Designer at
           <a
             href="https://ranosys.com/"
             target="_blank"
@@ -73,7 +73,7 @@
             title="ranosys.com"
           >
             <span class="underline-magical">Ranosys Technologies</span>
-          </a> in Pune, India. Previously at
+          </a> in Pune, India. Previously, I was with
           <a
             href="https://feedingtrends.com/"
             target="_blank"
@@ -81,15 +81,14 @@
             title="feedingtrends.com"
           >
             <span class="underline-magical">Feeding Trends</span>
-          </a> in Lucknow, India. I consider myself a
-          multi-disciplinary designer as I love making anything, but have
-          recently found a passion in creating thoughtful and enjoyable user
-          experiences through product design, and code them too if time allows.
-          I work with passionate team of front-end developers,
-          back-end-developers and some ninja people whom I work with and learn from them.
+          </a> in Lucknow, India. I like to think of myself as a multi-disciplinary designer.
+          I have a passion for creating thoughtful and enjoyable user experiences through product
+          design and even dabbling in code when time allows. I collaborate with a passionate
+          team of front-end developers, back-end developers, and some ninja-like individuals
+          from whom I continually learn and draw inspiration.
         </p>
         <p class="para hero-para black70">
-          Coming to college, I moved on to study Engineering at
+          During my college days, I embarked on a journey in engineering at
           <a
             href="https://bbdu.ac.in/"
             target="_blank"
@@ -97,33 +96,34 @@
           >
             <span class="underline-magical">Babu Banarasi Das Universiy</span>
           </a>,
-          Lucknow, and began to grow my skills. Making flyers for college
-          community and friends. Doing logos and branding work for friends and
-          word of mouth clients. Going to college during the day and cranking
-          on design work at night. Engineering led me to my passion for design.
-          I Self taught myself all these years
-          to do things that my mind can comprehend.
+          Lucknow, and that's where I started honing my skills. I began by creating flyers for my
+          college community and friends, designing logos and branding for acquaintances and word-of-mouth
+          clients. My days consisted of attending college, and my nights were dedicated to design work.
+          It was during my engineering studies that I discovered my true passion for design.
+          I am mostly self-taught and have been exploring various creative avenues to manifest the
+          ideas that my mind conceives.
         </p>
 
         <p class="para hero-para black70">
-          As a software engineer, I enjoy bridging the gap between
-          engineering and design — combining my technical knowledge
-          with my keen eye for design to create a beautiful product.
-          My goal is to always build applications that are scalable and efficient
-          under the hood while providing engaging, pixel-perfect user experiences.
+          As a software engineer, I relish bridging the gap between technology and design,
+          blending my technical knowledge with a keen eye for aesthetics to craft beautiful products.
+          My ultimate aim is to build applications that are not only efficient and scalable under
+          the hood but also deliver pixel-perfect user experiences that engage and delight.
         </p>
         <p class="para hero-para black70">
-          I love what I do. The combination of business goals, mixed with
-          human necessity, mixed with solid design nad challenges that put me on edge is what gets me going every
-          day. This might sound cliche, I wake up each day to do something new and learn form them.
-          Don't hesitate to reach out if you'd like to chat about design,
-          life, or just have a good ol' fashioned conversation.
+          I genuinely love what I do. The fusion of business objectives, human needs,
+          sound design principles, and challenging projects keeps me motivated every day.
+          I may sound a bit cliché, but I wake up each day eager to tackle new challenges
+          and continue learning. Please don't hesitate to get in touch if you'd like to discuss
+          design, life, or simply have a good old-fashioned conversation.
         </p>
 
         <p class="para hero-para black70">
-          I am Crazy about Ice-tea. You can make me do anything over Ice-Tea. My friends
-          do this all the time. When I'm not in front of a computer screen, I'm probably amidst nature,
-          trying to get some decent shot on my Nikon D5200 or just chilling out with friends or with myself.
+          A fun fact about me: I'm absolutely crazy about iced tea. If you want to convince me
+          to do anything, just offer me a glass of iced tea; my friends use this trick all the
+          time! When I'm not in front of a computer screen, you can usually find me immersing
+          myself in nature, attempting to capture the perfect shot with my Nikon D5200, or simply
+          enjoying quality time with friends or by myself."
         </p>
       </div>
     </div>
@@ -228,6 +228,9 @@
         <div class="pm black70">
           <div class="a-t_layout">
             <span>
+              <span>
+              <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />Figma
+            </span>
               <img src="~assets/img/about/a-tools-1.svg" alt="adobe xd svg icon" /> Adobe XD
             </span>
             <span>
@@ -265,9 +268,6 @@
             </span>
             <span>
               <img src="~assets/img/about/a-tools-16.png" alt="UXPin svg icon" />UXPin
-            </span>
-            <span>
-              <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />Figma
             </span>
             <span>
               <img src="~assets/img/about/a-tools-17.png" alt="Balsamiq svg icon" />Balsamiq
