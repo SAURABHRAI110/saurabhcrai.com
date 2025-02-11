@@ -2386,7 +2386,7 @@ body {
 
 .p-hero_image img {
   object-fit: cover;
-  width: 100%;
+  width: 100vw;
   object-position: 50% 50%;
 }
 

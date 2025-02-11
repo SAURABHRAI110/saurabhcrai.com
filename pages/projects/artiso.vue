@@ -20,12 +20,12 @@
       </div>
     </div>
     <projecthero
-      pDate="June 2021 "
-      pWebsite="BikeShikes"
-      pCategory="Virtual Art App"
+      pDate="May 2021"
+      pWebsite="Artiso"
+      pCategory="App Design"
       pHeading="App for Art gallery in Jaipur and for art enthusiast"
       pHeadingcolor="color:#FF4F00;"
-      pSubheading=" Art App Design Case Study"
+      pSubheading=" Arts App Design Case Study"
     />
     <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
@@ -38,7 +38,7 @@
           />
           <img
             src="~assets/projects/artiso/art-gallery-app-home-mockup.jpg"
-            alt="a person in car holding a phone and browsing an art app"
+            alt="a person in art museum holding a phone and browsing an art app"
           />
         </picture>
       </div>
@@ -85,9 +85,8 @@
 
   <div class="p-quote contain red">
       <blockquote>
-        Design BikeShikes website to be user friendly by providing
-      clear navigation, clear context for technical terms, required filter
-      options and offering a fast checkout process.
+        Design an App to be user friendly by providing
+      clear navigation, good user experience in content exploaration.
       </blockquote>
     </div>
 
@@ -97,19 +96,54 @@
     <pcase
       heading="Understanding the user"
       para="
-      I conducted interviews with 5 participants and created empathy maps to understand the users I’m 
-      designing for and their needs.The primary user group identified through research 
-      was people aged between 18 to 65, people who are rts lovers and people who want to learn and explore arts.
+      I conducted user interviews, which I then turned into empathy maps to better understand the target user and their needs.
+      I discovered that many target users treat online shopping as a fun and relaxing activity when they need a break from school,
+      college or work. However, many shopping websites are overwhelming and confusing to navigate, Lots of technical words
+      without much context which frustrated many target users. This caused a normally enjoyable experience to become
+      challenging for them, defeating the purpose of relaxation.
+      <ul>
+        <li>User Research </li>
+        <li>Personas</li>
+        <li>Problem Statements</li>
+        <li>User Journey Maps</li>
+        <li>User Flow</li>
+      </ul>
+      "
 
+      theme="theme_artiso"
+    />
+    <pcase
+      heading="User research: Summary"
+      para="
+      I conducted interviews with 5 participants and created empathy maps to understand the users I’m 
+      designing for and their needs. The primary user group identified through research 
+      was people aged between 18 to 65, people who are rts lovers and people who want to learn and explore arts.
+      <br> <br>
       This user group confirmed initial assumptions about art galley app customers, but research 
       also revealed that users wanted an interactive experience through storytelling and ability to search and sort thought different kind of artworks. 
       Other user problems included obligations, busy schedule, that make it 
-      ifficult to use app and explore their interest. "
+      difficult to use app and explore their interest.
+      "
 
       theme="theme_artiso"
     />
 
-
+    <div class="contain">
+      <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/ux-interview-plan-phase-1-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/ux-interview-plan-phase-1.jpg" />
+          </picture>
+          <p class="ps black70">Usability Study Painpoints</p>
+        </div>
+      </div>
+    </div>
 
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -118,20 +152,19 @@
         <picture>
           <source
             media="(max-width: 600px)"
-            srcset="~assets/projects/bikeshikes-ecommerce/ux-research-study-mobile.jpg"
+            srcset="~assets/projects/artiso/usability-study-painpoints-mobile.jpg"
           />
-          <img src="~assets/projects/bikeshikes-ecommerce/UX Research Study Plan.jpg" />
+          <img src="~assets/projects/artiso/usability-study-painpoints.jpg" />
         </picture>
-        <p class="ps black70">UX Research Study Plan</p>
+        <p class="ps black70">Usability Study Painpoints</p>
       </div>
     </div>
 
 <pcase
       heading="Personas"
       para="Problem statement: <br>
-Abhishek is a busy professional, Science teacher and early riser who needs a new bicycle
-that can perfectly fits his specific needs related the safety and security because he wants
-to able to focus on his health and fitness and also remain worry free from unwanted incidents.
+            Mudita is a busy working adult who needs easy and interactive app to explore arts so that she can
+              explore arts and fulfills her creative curiosity and apply her ideas, inspiration from these to her daily works.
 
         "
       theme="theme_artiso"
@@ -148,15 +181,20 @@ to able to focus on his health and fitness and also remain worry free from unwan
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/Persona [Abhishek].jpg" />
+            <img src="~assets/projects/artiso/art-gallery-persona-mudita.jpg" />
           </picture>
-          <p class="ps black70">Persona [Abhishek]</p>
+          <p class="ps black70 b-t-space">Persona [Mudita]</p>
         </div>
       </div>
   </div>
 
-
-<br>
+  <pcase
+      para="Problem statement: <br>
+            Govind is an art enthusiast who needs a platform where he can learn and explore all kind of arts because he
+            can't find much information about arts in art galleries he visits or any other source.
+        "
+      theme="theme_artiso"
+    />
 
  <div class="contain">
     <div class="p-image-100-duo">
@@ -168,31 +206,29 @@ to able to focus on his health and fitness and also remain worry free from unwan
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/Persona [Saharsh].jpg" />
+            <img src="~assets/projects/artiso/art-gallery-persona-govind.jpg" />
           </picture>
-          <p class="ps black70">Persona [Saharsh]</p>
+          <p class="ps black70 b-t-space">Persona [Govind]</p>
         </div>
       </div>
   </div>
     
-      <p class="contain just-para black90">
+      <!-- <p class="contain just-para black90">
       Saharsh is a busy sales student manager who needs Jargon free website, and
       required search filters because he want online shopping to be fast and stress-free.
-    </p>
+    </p> -->
 
     <div class="p-quote contain red">
       <blockquote>
-       I have bought a new bicycle recently, when I was exploring bicycle
-       online, my biggest frustration was difficult word on bicycle details
-       that I had to google to understand.
+       I want to have unique experience that surprises me on every turn.
       </blockquote>
     </div>
      <!-- Preface -->
     <pcase
       heading="User journey map"
       para=" 
-       I created a user journey map of Abhishek experience using the site to
-       help identify possible pain points and improvement opportunities. 
+       Mapping Mudita User journey revealed how helpful it would be for users
+       to have access to a interactive art gallery app. 
       "
       theme="theme_artiso"
     />
@@ -207,7 +243,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/User Journey Map [Bicycle eCommerce].jpg" />
+            <img src="~assets/projects/artiso/art-gallery-user-journey-map.jpg" />
           </picture>
           <p class="ps black70">User Journey Map</p>
         </div>
@@ -217,49 +253,68 @@ to able to focus on his health and fitness and also remain worry free from unwan
   <br></br>
    <br></br>
 
-<div class="contain">
+   <pcase
+      heading="User Flow"
+      para=" 
+       User flow helped me to decide to flow of possible screens. 
+       From entry point through a set of steps towards a successful outcome and final action.
+       <br>
+       User Task: Users open the app, complete onboarding, Browse his favorite arts,
+       Learn about them and contact seller to know more details, stories behind and also can
+       buy by connecting with a seller.
+      "
+      theme="theme_artiso"
+    />
+
+ <div class="contain">
     <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
-            />
-            <img src="~assets/projects/bikeshikes-ecommerce/User PainPoints.jpg" />
+              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+            /> -->
+            <img src="~assets/projects/artiso/art-gallery-user-flow.jpg" />
           </picture>
-          <p class="ps black70">User Painpoints</p>
+          <p class="ps black70">User Journey Map</p>
         </div>
       </div>
   </div>
 
    <pcase
-      heading="Starting the design
-"
+      heading="Starting the design"
       para="
       Difficulty with website navigation was a primary pain point
-      for users, so I used that knowledge to create a sitemap. 
+      for users, so I used that knowledge to create a sitemap.
       <br>
       <br>
 
       My goal here was to make strategic information architecture decisions
       that would improve overall website navigation. The structure I chose was
-      designed to make things simple and easy. 
-.
+      designed to make things simple and easy. <br>
 
-      <br>
-      <br>
-
-      Sitemap <br>
-      Paper wireframes 
-      Digital wireframes
-      Low-fidelity prototype
-      Usability studies
+      <ul>
+        <li>Paper Wireframes</li>
+        <li>Digital Wireframes</li>
+        <li>Low-fidelity Prototype</li>
+        <li>Usability Studies</li>
+      </ul>"
 
       theme="theme_artiso"
     />
 
+
+    <pcase
+      heading="Paper wireframes"
+      para="I used the Crazy Eight technique to quickly generate multiple wireframe ideas for the app.
+      This method involves an intense 8-minute brainstorming session where I sketched out as many screen variations
+      as possible. The goal was to explore a wide range of design possibilities,
+      ensuring a creative and diverse approach to the app.
+        "
+      theme="theme_artiso"
+    />
 
     <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -268,24 +323,20 @@ to able to focus on his health and fitness and also remain worry free from unwan
           <picture>
             <!-- <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg"
+              srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg" />
+            <img src="~assets/projects/artiso/crazy-8-activity-sketch.jpg" />
           </picture>
-          <p class="ps black70">Sitemap</p>
+          <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
         </div>
       </div>
 
-  
-
-
-
-
-    <pcase
-      heading="Paper wireframes"
-      para="Next, I sketched out paper wireframes for each screen,
-      keeping the user pain points about navigation, browsing, and
-      checkout flow in mind.
+      
+      <pcase
+      para="Taking the time to draft iterations of each screen of the app on paper ensured
+      that the elements that made it to digital wireframes would be well-suited to address
+      user pain points. For the home screen, I prioritized a quick and easy exploring of arts
+      with easy bottom navigation.
         "
       theme="theme_artiso"
     />
@@ -295,30 +346,30 @@ to able to focus on his health and fitness and also remain worry free from unwan
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-1.jpg"
-            alt="feeding trends ideation"
+            src="~assets/projects/artiso/paper-wireframe-all-pages.jpg"
+            alt="Paper Wireframes for app"
           />
         </div>
 
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-2.jpg"
-            alt="feeding trends ideation"
+            src="~assets/projects/artiso/paper-wireframe-sketch-1.jpg"
+            alt="Paper Wireframes for app"
           />
         </div>
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-3.jpg"
-            alt="feeding trends ideation"
+            src="~assets/projects/artiso/paper-wireframe-sketch-2.jpg"
+            alt="Paper Wireframes for app"
           />
         </div>
         <div class="slide">
           <img
             class="slide-img"
-            src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-4.jpg"
-            alt="feeding trends ideation"
+            src="~assets/projects/artiso/paper-wireframe-sketch-3.jpg"
+            alt="Paper Wireframes for app"
           />
         </div>
         
@@ -327,14 +378,13 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
     <div class="p-quote contain red">
       <blockquote>
-        Paper wireframes served multiple purpose here, it helped me to connect the
-        site's information architecture to its visual design by showing
-        paths between pages. Clarify consistent ways for displaying particular
-        types of information on the user interface. Determine intended
-        functionality in the interface. 
+        Paper wireframes and Crazy 8 activities served multiple purpose here, it helped me to connect the
+        app's information architecture to its visual design by showing
+        paths between screens. Genrate many Layout and go with the one that serves the purpose or combine from one to another. 
       </blockquote>
     </div>
-
+ 
+    <br>
 
     <!-- Digital Wireframe -->
 
@@ -345,6 +395,11 @@ to able to focus on his health and fitness and also remain worry free from unwan
       points and improve the user experience. Prioritizing useful button
       locations and visual element placement on the home page was a key part
       of my strategy.
+
+    <br>
+    <br>
+    Easy navigation was a key user need to address in the designs
+    in addition to equipping the app to work with assistive technologies.
 
       "
       theme="theme_artiso"
@@ -359,7 +414,7 @@ to able to focus on his health and fitness and also remain worry free from unwan
               media="(max-width: 600px)"
               srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-1.jpg" />
+            <img src="~assets/projects/artiso/crazy-8-activity-sketch.jpg" />
           </picture>
           <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
         </div>
@@ -876,5 +931,8 @@ export default {
 <style>
 .project-footer {
   bottom: 0%;
+}
+.b-t-space{
+  bottom: 3% !important;
 }
 </style>
