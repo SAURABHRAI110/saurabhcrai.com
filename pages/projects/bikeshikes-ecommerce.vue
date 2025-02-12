@@ -778,36 +778,14 @@ I learned that even a small design change can have a huge impact on the user exp
       </div>
     </div>
 
-    <div class="live-link_container" style="background-color:var(--secondary-color);">
-      <LiveLink
-        link="https://events.feedingtrends.com"
-        text="Launch Site | events.feedingtrends.com"
-      />
-    </div>
 
     <!-- conclusion -->
 
-    <div class="Takeaway">
-      <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
-        <div class="pm black70">
-          <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
-          </p>
-        </div>
-      </div>
-    </div>
-
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Even a small design change can have a huge impact on the user experience.
+        The most important learning for me is to always focus on the real needs of
+        the user when coming up with design ideas and solutions.
       </blockquote>
     </div>
 

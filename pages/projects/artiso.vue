@@ -746,7 +746,7 @@ low-fidelity prototype.
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/high-fidelity prototype-link-xd.jpg" />
+            <img src="~assets/projects/artiso/High-fidelity-prototype-xd-screenshot.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
@@ -821,9 +821,9 @@ low-fidelity prototype.
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/artiso/accessibility-considerations.jpg"
             />
-            <img src="~assets/projects/bikeshikes-ecommerce/Accessibility considerations.jpg" />
+            <img src="~assets/projects/artiso/accessibility-considerations.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
@@ -831,11 +831,32 @@ low-fidelity prototype.
 
 
     <pcase
+      heading="Takeaways"
+      para="
+       Impact: <br>
+The app makes users feel engaged with lots of content to explore with modern and simple design.
+
+One quote from peer feedback:
+“The app made it so easy and fun to explore arts. I love how interactive the app is.
+I would definitely use this app as go-to for keeping with my desire to explore all kinds of arts”
+ 
+      <br>
+      <br>
+      What I learned:<br>
+While designing the Art Gallery app, I learned that the first ideas for the app are only the
+beginning of the process. How much it is important to follow the design process. Usability studies
+and peer feedback influenced each iteration of the app’s designs. 
+
+   "
+      theme="theme_artiso"
+    />
+
+    
+
+    <pcase
       heading="Going forward"
       para="
-        Moving from paper to digital wireframes made it
-        easy to understand how the redesign could help address
-        user pain points and improve the user experience. 
+        Usability Stry in Different part of the process helped me to really understand the user and design for intended user taking their feedbacks and improving on it on each step. 
       <br>
       <br>
       Prioritizing useful button locations and visual element placement on the
@@ -845,29 +866,10 @@ low-fidelity prototype.
     />
 
     <pcase
-      heading="Takeaways"
-      para="
-       Impact: <br>
-The website makes users feel engaged with lots of product to explore with modern, simple and intuitive design.
-
-Our target users shared that the design was intuitive to navigate through, more engaging with the images, and demonstrated a clear visual hierarchy and users were able to easily sort products according to their need.
- 
-      <br>
-      <br>
-      What I learned:<br>
-I learned that even a small design change can have a huge impact on the user experience. The most important takeaway for me is to always focus on the real needs of the user when coming up with design ideas and solutions. 
-
-   "
-      theme="theme_artiso"
-    />
-
-
-    <pcase
       heading="Next Step"
       para="
-        Moving from paper to digital wireframes made it
-        easy to understand how the redesign could help address
-        user pain points and improve the user experience. 
+        Usability Study in Different part of the process helped me to really understand the user
+        and design for intended user taking their feedbacks and improving on it on each step. 
    "
       theme="theme_artiso"
     />
@@ -878,42 +880,16 @@ I learned that even a small design change can have a huge impact on the user exp
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-            />
-            <img src="~assets/projects/bikeshikes-ecommerce/next-step.jpg" />
+            /> -->
+            <img src="~assets/projects/artiso/next-step.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
       </div>
 
-
-  <pcase
-      heading="Aftermath of this Project"
-      para="
-        I got into Cycling.
-        <br>365 Days by 29th July and counting
-        <br> Journey in photos 
-   "
-      theme="theme_artiso"
-    />
-
-
-  <div class="p-image-100-duo">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-  
-          <picture>
-            <source
-              media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/cycling-collage-mobile.jpg"
-            />
-            <img src="~assets/projects/bikeshikes-ecommerce/cycling-collage.jpg" />
-          </picture>
-          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
-        </div>
-      </div>
 
     <!-- key Focus Area -->
 
@@ -926,17 +902,17 @@ I learned that even a small design change can have a huge impact on the user exp
             <div class="kf-layout">
               <span>✔ Research</span>
               <span>✔ Ideation</span>
-              <span>✔ Taking Design Meetings</span>
-              <span>✔ Collaborating with Content writers</span>
+              <span>✔ Planning indepth for UX Research</span>
+              <span>✔ Conducting User Interviews</span>
               <span>✔ User personas</span>
               <span>✔ Drank Lots of Coffee</span>
-              <span>✔ Taken Stress</span>
+              <span>✔ Explored Different Kind of Arts</span>
               <span>✔ Made Wireframe</span>
               <span>✔ Structured User Journey</span>
               <span>✔ Worked in nights</span>
               <span>✔ Branding</span>
               <span>✔ UI Design</span>
-              <span>✔ Defending UX Decisions</span>
+              <span>✔ Leanrned New Tools</span>
               <span>✔ Pop and un-pop things</span>
             </div>
           </div>
@@ -944,36 +920,10 @@ I learned that even a small design change can have a huge impact on the user exp
       </div>
     </div>
 
-    <div class="live-link_container" style="background-color:var(--secondary-color);">
-      <LiveLink
-        link="https://events.feedingtrends.com"
-        text="Launch Site | events.feedingtrends.com"
-      />
-    </div>
-
-    <!-- conclusion -->
-
-    <div class="Takeaway">
-      <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
-        <div class="pm black70">
-          <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
-          </p>
-        </div>
-      </div>
-    </div>
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Its tough to not enter yourself in the design process but staying true to user is itslef a challenge. 
       </blockquote>
     </div>
 
@@ -988,7 +938,7 @@ I learned that even a small design change can have a huge impact on the user exp
     <!-- Appreciate section -->
 
     <Appreciate
-      heading="Lets do something awesome together."
+      heading="Lets make art together."
       subHeading="Don't forget to appreciate."
     />
 
