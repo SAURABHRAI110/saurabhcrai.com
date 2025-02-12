@@ -405,60 +405,59 @@
       theme="theme_artiso"
     />
   
- <div class="p-image-100-duo">
-        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-  
-          <picture>
-            <!-- <source
-              media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
-            /> -->
-            <img src="~assets/projects/artiso/crazy-8-activity-sketch.jpg" />
-          </picture>
-          <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
-        </div>
-      </div>
-
-<br></br>
-<br></br>
-
- <p class="contain just-para black90">
-      Here I have shown all the wireframe that was necessary to make for the user journey 
-      to complete and so that later on I can do usability test connecting all these low fidelity
-      digital wireframe.
-    </p>
-
- <div class="p-image-100-duo">
+    <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
+              srcset="~assets/projects/artiso/digital-wireframe-mobile-app-features-1.jpg"
             />
-            <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all.jpg" />
+            <img src="~assets/projects/artiso/digital-wireframe-mobile-app-features.jpg" />
           </picture>
           <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
         </div>
       </div>
 
+<br></br>
+  
+<div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/digital-wireframe-all-pages-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/digital-wireframe-all-pages.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
+        </div>
+      </div>
+
+<br></br>
+<br></br>
+
+
+<!-- 
+ <p class="contain just-para black90">
+      Here I have shown all the wireframe that was necessary to make for the user journey 
+      to complete and so that later on I can do usability test connecting all these low fidelity
+      digital wireframe.
+    </p> -->
 
 <!-- Low fi fidelity prototype -->
 
       <pcase
       heading="Low-fidelity prototype"
-      para="To create a low-fidelity prototype, I connected all of the
-      screens involved in the primary user flow of adding an item to the
-      cart and checking out.
-      <br>
+      para="Using the completed set of digital wireframes, I created a low-fidelity prototype. The primary user flow I
+      connected was Exploring Arts, Details and Contacting Seller.
 
-      At this point, I had received feedback on my designs from my peers
-      and other visual designers about things like placement of buttons
-      and page organization. I made sure to listen to their feedback,
-      and I implemented several suggestions in places that addressed user pain points.
-      
+View the Art Gallery App 
+low-fidelity prototype.
+ https://xd.adobe.com/view/0ddc5f3d-f89c-49fa-8ec5-d435564d5083-588f/?fullscreen     
 
       "
       theme="theme_artiso"
@@ -474,7 +473,7 @@
               media="(max-width: 600px)"
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-prototype.jpg" />
+            <img src="~assets/projects/artiso/Low-fidelity-prototype.jpg" />
           </picture>
           <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p>
         </div>
