@@ -2,7 +2,7 @@
   <!-- Feeding Trends -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="my-portfolio-website">
+      <nuxt-link to="artiso">
         <previous />
       </nuxt-link>
 
@@ -12,9 +12,9 @@
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:#0088FF;">01</span>
+          <span style="color:#0088FF;">03</span>
           <span>/</span>
-          <span>20</span>
+          <span>22</span>
         </p>
       </div>
     </div>
@@ -520,11 +520,11 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/my-portfolio-website">
+          <nuxt-link to="/projects/artiso">
             <pfooterp
-              projectName="My Portfolio Website"
-              projectCategories="Web design and Development"
-              thumbnail="/my-website-thumbnail.jpg"
+            projectName="Artiso"
+              projectCategories="Casestudy, Explore, Shop"
+              thumbnail="/Artiso App Thumbnail-2.jpg"
             />
           </nuxt-link>
         </div>

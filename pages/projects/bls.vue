@@ -11,9 +11,9 @@
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:rgb(140, 0, 255);">16</span>
+          <span style="color:rgb(140, 0, 255);">18</span>
           <span>/</span>
-          <span>20</span>
+          <span>22</span>
         </p>
       </div>
     </div>

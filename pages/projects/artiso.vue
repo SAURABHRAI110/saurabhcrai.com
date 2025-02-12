@@ -3,19 +3,19 @@
 
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="dear-zindagi">
+      <nuxt-link to="bikeshikes-ecommerce">
         <previous />
       </nuxt-link>
 
-      <nuxt-link to="tbt-app">
+      <nuxt-link to="cricbuzz-app-redesign">
         <next />
       </nuxt-link>
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:#FF4F00;">11</span>
+          <span style="color:#FF4F00;">02</span>
           <span>/</span>
-          <span>20</span>
+          <span>22</span>
         </p>
       </div>
     </div>
@@ -948,21 +948,21 @@ and peer feedback influenced each iteration of the app’s designs.
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dear-zindagi">
+          <nuxt-link to="/projects/bikeshikes-ecommerce">
             <pfooterp
-              projectName="Dear Zindagi"
-              projectCategories="Brochure, Identity"
-              thumbnail="/dear-zindagi-thumbnail.webp"
+              projectName="BikeShikes"
+              projectCategories="Casestudy, eCommerce"
+              thumbnail="/bikeshikes-web-mockup-thumbnail-3.jpg"
             />
           </nuxt-link>
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/tbt-app">
+          <nuxt-link to="/projects/cricbuzz-app-redesign">
             <pfootern
-              projectName="TBT App"
-              projectCategories="App, Branding"
-              thumbnail="/tbt-app-thumbnail.jpg"
+              projectName="CricBuzz"
+              projectCategories="App Redesign Concept"
+              thumbnail="/cricbuzz-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

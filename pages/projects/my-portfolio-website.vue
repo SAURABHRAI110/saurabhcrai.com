@@ -5,15 +5,15 @@
         <previous />
       </nuxt-link>
 
-      <nuxt-link to="elevito">
+      <nuxt-link to="bikeshikes-ecommerce">
         <next />
       </nuxt-link>
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:var(--primary-color);">20</span>
+          <span style="color:var(--primary-color);">22</span>
           <span>/</span>
-          <span>20</span>
+          <span>22</span>
         </p>
       </div>
     </div>
@@ -176,11 +176,11 @@ http://stephencalvillodesign.com/project/prestoq
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/cricbuzz-app-redesign">
+          <nuxt-link to="/projects/bikeshikes-ecommerce">
             <pfootern
-              projectName="CricBuzz"
-              projectCategories="App Redesign Concept"
-              thumbnail="/cricbuzz-thumbnail.jpg"
+              projectName="BikeShikes"
+              projectCategories="Casestudy, eCommerce"
+              thumbnail="/bikeshikes-web-mockup-thumbnail-3.jpg"
             />
           </nuxt-link>
         </div>

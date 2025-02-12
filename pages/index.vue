@@ -241,8 +241,41 @@
 
     <!-- Work Thumbnails -->
 
+    
     <div class="showcase-container-home">
       <div class="showcase-container-grid">
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/bikeshikes-ecommerce">
+            <thumbnail
+              thumbnailName="BikeShikes"
+              thumbnailDescription="Casestudy | eCommerce"
+              thumbnail="/bikeshikes-web-mockup-thumbnail-3.jpg"
+              color="var(--primary-color)"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/artiso">
+            <thumbnail
+              thumbnailName="Artiso"
+              thumbnailDescription="Casestudy | Explore, Shop"
+              thumbnail="/Artiso App Thumbnail-2.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="800"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/cricbuzz-app-redesign">
             <thumbnail
@@ -302,33 +335,6 @@
           </nuxt-link>
         </div>
 
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/filmingeye">
-            <thumbnail
-              thumbnailName="Filming Eye"
-              thumbnailDescription="Web, Identity"
-              thumbnail="/filming-eye-thumbnail.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="100"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
-
-        <div class="p-thumbnail-ad">
-          <nuxt-link to="/projects/dreamz">
-            <thumbnail
-              thumbnailName="Dreamz"
-              thumbnailDescription="App Design, HF Prototype"
-              thumbnail="/dreamz-thumbnail-cyan.jpg"
-              data-aos="zoom-out-up"
-              data-aos-duration="400"
-              data-aos-delay="300"
-              data-aos-once="true"
-            />
-          </nuxt-link>
-        </div>
 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/ft-events">
