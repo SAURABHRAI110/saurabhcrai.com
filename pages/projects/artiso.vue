@@ -441,14 +441,7 @@
 <br></br>
 
 
-<!-- 
- <p class="contain just-para black90">
-      Here I have shown all the wireframe that was necessary to make for the user journey 
-      to complete and so that later on I can do usability test connecting all these low fidelity
-      digital wireframe.
-    </p> -->
 
-<!-- Low fi fidelity prototype -->
 
       <pcase
       heading="Low-fidelity prototype"
@@ -475,20 +468,14 @@ low-fidelity prototype.
             /> -->
             <img src="~assets/projects/artiso/Low-fidelity-prototype.jpg" />
           </picture>
-          <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p>
+          <p class="ps black70">Low-fidelity prototype (Adobe XD)</p>
         </div>
       </div>
 
     <pcase
       heading="Usability study"
-      para="To create a low-fidelity prototype, I connected all of the screens
-      involved in the primary user flow of adding an item to the cart and checking out.
-
-      At this point, I had received feedback on my designs from my peers
-      and other visual designers about things like placement of buttons
-      and page organization. I made sure to listen to their feedback,
-      and I implemented several suggestions in places that addressed
-      user pain points. 
+      para="Using the completed set of digital wireframes, I created a low-fidelity prototype.
+      The primary user flow I connected was Exploring Arts, Details and Contacting Seller.. 
       "
       theme="theme_artiso"
     />
@@ -500,9 +487,24 @@ low-fidelity prototype.
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/usability-study-parameters-mobile.jpg"
+              srcset="~assets/projects/artiso/usability-study-parameters-mobile.jpg"
             />
-            <img src="~assets/projects/bikeshikes-ecommerce/usability-study-parameters.jpg" />
+            <img src="~assets/projects/artiso/usability-study-parameters.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+ <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/ux-research-study-plan-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/ux-research-study-plan.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
@@ -510,9 +512,9 @@ low-fidelity prototype.
 
     <pcase
       heading="Usability study: findings"
-      para="The event creator is the Entertainment Provider in a sense. They Choose what type of
-        event are they organizing, what are their possible audience,  and push the event to audience.
-        They can see the performance of their event, Sales record etc. on the ft event website.
+      para="I conducted two rounds of usability studies. Findings from the first study
+      helped guide the designs from wireframes to mockups. The second study used a high-fidelity
+      prototype and revealed what aspects of the mockups needed refining. 
       "
       theme="theme_artiso"
     />
@@ -524,9 +526,9 @@ low-fidelity prototype.
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/usability-study-findings-mobile.jpg"
+              srcset="~assets/projects/artiso/usability-study-findings-1-mobile.jpg"
             />
-            <img src="~assets/projects/bikeshikes-ecommerce/usability-study-findings.jpg" />
+            <img src="~assets/projects/artiso/usability-study-findings-1.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
@@ -534,16 +536,54 @@ low-fidelity prototype.
 
 
     <pcase
-      heading="Mockups"
-      para="Based on the insights from the usability study,
-      I made changes filter options giving more related and specific
-      required filter. I have added more filter like age, categories,
-      number of gears and more. This allowed users more freedom to 345]89ilter out the bicycle  according to their specific need and requirement.
-      "
+      heading="Refining the Design"
+      para="Early designs allowed for some customization, 
+      but after the usability studies, I added additional options to choose pizza crust and sauce.
+      I also revised the design so users see all the customization options when they first land on the screen."
       theme="theme_artiso"
     />
 
+    
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/mokups-usability-studt-before-and-after-1-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/mokups-usability-studt-before-and-after-1.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
 
+
+ <p class="contain just-para black90">
+  The second usability study revealed confusion with some user as Microcopy was inconsistent across screen
+  like same login and sign in were used for same purpose.
+  To Make it more consistent I used login Microscopy across all screen and for other such inconsistencies.
+    </p> 
+
+        
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/mokups-usability-studt-before-and-after-1-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/mokups-usability-studt-before-and-after-2.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+<!-- Low fi fidelity prototype -->
+<!-- 
 <client-side>
       <agile>
         <div class="slide">
@@ -570,20 +610,18 @@ low-fidelity prototype.
         
         
       </agile>
-    </client-side>
+    </client-side> -->
 
     <pcase
       heading="High Fidelity Mockups"
-      para="Putting everything together from the research, user personas, wireframes. I moved the begin
-      to put details on each page starting with home page to form a design theme and once i was satisfied
-      with the look and feel of home page, I continued to other pages keeping consistency, user flow
-      in check. 
+      para="I started by combining research, user personas, and wireframes. Then, I focused on
+      designing the home screen, establishing a visual theme for the art app. Once I was satisfied with
+      its look and feel, I applied the same approach to other screens, ensuring a consistent and intuitive user experience. 
 
 
         <br><br>
-        I was very clear to me to always provide next steps so that users can deduce naturally, whatever their context.
-        Because the best interface is no interface, to offer users the most direct,
-        accessible, comfortable control (and best experience).
+        My goal was to provide clear navigation so users could explore the app naturally.
+        The best design feels effortless, allowing artists to focus on their creativity without distractions..
       "
       theme="theme_artiso"
     />
@@ -593,17 +631,15 @@ low-fidelity prototype.
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
   
           <picture>
-            <source
+            <!-- <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3-mobile.jpg"
-            />
-            <img src="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3.jpg" />
+              srcset="~assets/projects/artiso/Multidevice-mockup-3-mobile.jpg"
+            /> -->
+            <img src="~assets/projects/artiso/initial-hifi-mockups-all-page.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
       </div>
-
-
 
 
     <div class="p-image-100-duo">
@@ -613,26 +649,61 @@ low-fidelity prototype.
           <picture>
             <!-- <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              srcset="~assets/projects/artiso/Multidevice-mockup-3-mobile.jpg"
             /> -->
-            <img src="~assets/projects/bikeshikes-ecommerce/all-mockup-showcase.jpg" />
+            <img src="~assets/projects/artiso/hifi-mockup-screen-1.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
       </div>
 
-    <pcase
-      heading="Mockups: Screen size variations"
-      para="
-          I included considerations for additional screen sizes in my
-          mockups based on my earlier wireframes. Because users shop from a
-          variety of devices, I felt it was important to optimize the browsing
-          experience for a range of device sizes, such as mobile and tablet
-          so users have the smoothest experience possible. 
-      "
-      theme="theme_artiso"
-    />
 
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <!-- <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/Multidevice-mockup-3-mobile.jpg"
+            /> -->
+            <img src="~assets/projects/artiso/hifi-mockup-screen-2.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <!-- <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/Multidevice-mockup-3-mobile.jpg"
+            /> -->
+            <img src="~assets/projects/artiso/hifi-mockup-screen-3.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <!-- <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/Multidevice-mockup-3-mobile.jpg"
+            /> -->
+            <img src="~assets/projects/artiso/hifi-mockup-screen-4.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
 
     <div class="p-image-100-duo">
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -641,23 +712,25 @@ low-fidelity prototype.
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages-mobile.jpg"
+              srcset="~assets/projects/artiso/hifi-mockup-screen-5-mobile.jpg"
             />
-            <img src="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages.jpg" />
+            <img src="~assets/projects/artiso/hifi-mockup-screen-5.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
       </div>
 
+
     <pcase
       heading="High-fidelity prototype"
       para="
-        My hi-fi prototype followed the same user flow as the lo-fi
-        prototype, and included the design changes made after the
-        usability study, as well as several changes suggested by members of my team. 
+        I used Mrvel and Adobe XD to create prototype to used for further user testing final high-fidelity prototype presented cleaner user flows for exploring
+        artworks with cool interactions, animations and transition. It also met user
+        needs for exploring different kinds of arts and simple layout form for contacting seller.  
       <br>
       <br>
-      View the Bikeshikes high-fidelity prototype
+     View the Art Gallery App high-fidelity prototype
+
             
             "
       theme="theme_artiso"
@@ -674,6 +747,55 @@ low-fidelity prototype.
               srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
             /> -->
             <img src="~assets/projects/bikeshikes-ecommerce/high-fidelity prototype-link-xd.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+    <pcase
+      heading="Usability Testing"
+      para="
+        There were few scenarios which i prepared for user testing on the mockups. Below are what users responded. My Focus we mainly on:  
+
+    <ul>
+        <li>If User able to complete the flow and perform required task in the prototype</li>
+        <li>Readability</li>
+        <li>Bottom Navigation of App (tested with Three different scenarios)</li>
+        <li>App Overall Experience</li>
+        <li>Feedback and Further Improvements</li>
+      </ul>
+
+            
+            "
+      theme="theme_artiso"
+    />
+
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/usability-study-bts-1-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/usability-study-bts-1.jpg" />
+          </picture>
+          <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+        </div>
+      </div>
+
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+  
+          <picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/artiso/usability-study-bts-2-mobile.jpg"
+            />
+            <img src="~assets/projects/artiso/usability-study-bts-2.jpg" />
           </picture>
           <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
         </div>
