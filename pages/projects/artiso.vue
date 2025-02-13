@@ -23,9 +23,9 @@
       pDate="May 2021"
       pWebsite="Artiso"
       pCategory="App Design"
-      pHeading="App for Art gallery in Jaipur and for art enthusiast"
+      pHeading="Bringing Art Closer: Designing an Immersive Art Gallery App Experience"
       pHeadingcolor="color:#FF4F00;"
-      pSubheading=" Arts App Design Case Study"
+      pSubheading="Artiso App Case Study: A Digital Space for Artists and Art Lovers"
     />
     <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
@@ -50,16 +50,20 @@
             <br>Pen, paper"
       role="UX Researcher, UI/UX Designer
 
-            <br>Designing the Art Gallery app from concept to delivery"
-      team=" Me
-            <br>and the fun me"
+            <br>Designed the art gallery app from concept to delivery"
+      team=" Me, Friends, and
+            <br>a lot of shared creativity"
     />
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para="We have created a new app to let people explore and learn different
-      kinds of arts and their details and also contact sellers if they are interested
-      to buy."
+      para="Art is more than just visuals; it’s an experience. The idea behind this app was to create a digital space
+      where artists could showcase their work, and art lovers could explore, appreciate, and even purchase artwork without barriers.
+  <br>
+  <br>
+Traditional art galleries have limitations—physical space, accessibility,
+and engagement. This app aimed to break those barriers by offering an immersive,
+user-friendly experience that brings the gallery to everyone, anywhere, anytime."
 
       
       theme="theme_artiso"
@@ -68,25 +72,32 @@
     <!-- Challenge -->
     <pcase
       heading="The problem"
-      para="Govind is an busy professional and art enthusiast who need
-      a better way of exploring different kind of arts and stories because
-      he don't have enough time to visit museums and art galleries."
+      para="Visiting art galleries isn’t always convenient. Limited exhibitions, geographical constraints,
+      and a lack of accessibility to diverse art collections make it challenging for both artists and audiences.
+      Many online platforms that do exist feel cluttered, transactional, and lack the emotional engagement that a physical gallery provides.
+<br>
+<br>
+We wanted to design an app that provides an immersive digital gallery
+experience while keeping it simple and intuitive."
       theme="theme_artiso"
     />
   <!-- Goal -->
     <pcase
       heading="The Goal"
-      para="Our App will let users browse arts, learn about them and contact seller which
-      will affect user have to explore arts, know the details, stories and also buy arts
-      by giving the options to connect with seller while experiencing the app. We will
-      measure effectiveness by Reading user review and number of downloads"
+      para="The aim was to design an app that seamlessly bridges the gap between artists and art enthusiasts. It needed to feel like a real gallery—organized,
+      aesthetic, and easy to navigate. Key priorities included:
+      <ul>
+        <li>A clean and elegant UI that complements, not overshadows, the artwork. </li>
+        <li>An intuitive browsing experience with categorized collections and artist profiles.</li>
+        <li>PFeatures that allow users to interact with art, learn about pieces, and make purchases without feeling overwhelmed.</li>
+      </ul>"
       theme="theme_artiso"
     />
 
   <div class="p-quote contain red">
       <blockquote>
-        Design an App to be user friendly by providing
-      clear navigation, good user experience in content exploaration.
+        The aim was to design an app that seamlessly bridges
+        the gap between artists and art enthusiasts.
       </blockquote>
     </div>
 
@@ -96,11 +107,8 @@
     <pcase
       heading="Understanding the user"
       para="
-      I conducted user interviews, which I then turned into empathy maps to better understand the target user and their needs.
-      I discovered that many target users treat online shopping as a fun and relaxing activity when they need a break from school,
-      college or work. However, many shopping websites are overwhelming and confusing to navigate, Lots of technical words
-      without much context which frustrated many target users. This caused a normally enjoyable experience to become
-      challenging for them, defeating the purpose of relaxation.
+      To create an experience that feels natural, I conducted user research through interviews
+      with artists and casual art lovers. My goal was to deeply understand their needs and behaviors before shaping the design. To achieve this, I followed a structured design process that involved:.
       <ul>
         <li>User Research </li>
         <li>Personas</li>
@@ -140,7 +148,7 @@
             />
             <img src="~assets/projects/artiso/ux-interview-plan-phase-1.jpg" />
           </picture>
-          <p class="ps black70">Usability Study Painpoints</p>
+          <p class="ps black70">UX Interview Plan Document</p>
         </div>
       </div>
     </div>
@@ -227,8 +235,8 @@
     <pcase
       heading="User journey map"
       para=" 
-       Mapping Mudita User journey revealed how helpful it would be for users
-       to have access to a interactive art gallery app. 
+       Mapping Mudita’s journey revealed that an interactive art gallery
+       app would greatly enhance her experience.. 
       "
       theme="theme_artiso"
     />
@@ -256,12 +264,17 @@
    <pcase
       heading="User Flow"
       para=" 
-       User flow helped me to decide to flow of possible screens. 
-       From entry point through a set of steps towards a successful outcome and final action.
+       User flow helped me to decide to flow of possible screens, 
+       from entry point to the final step that is required for a successful outcome.
        <br>
-       User Task: Users open the app, complete onboarding, Browse his favorite arts,
-       Learn about them and contact seller to know more details, stories behind and also can
-       buy by connecting with a seller.
+       User Task Flow:
+       <ol>
+        <li>Open the app </li>
+        <li>Complete onboarding</li>
+        <li>Browse favorite artworks</li>
+        <li>Learn about their details and backstories</li>
+        <li>Contact sellers and make a purchase</li>
+      </ol>
       "
       theme="theme_artiso"
     />
@@ -284,7 +297,7 @@
   </div>
 
    <pcase
-      heading="Starting the design"
+      heading="Starting the Design Process"
       para="
       Difficulty with website navigation was a primary pain point
       for users, so I used that knowledge to create a sitemap.
@@ -308,7 +321,7 @@
 
     <pcase
       heading="Paper wireframes"
-      para="I used the Crazy Eight technique to quickly generate multiple wireframe ideas for the app.
+      para="I used Crazy Eight technique to quickly generate multiple wireframe ideas for the app.
       This method involves an intense 8-minute brainstorming session where I sketched out as many screen variations
       as possible. The goal was to explore a wide range of design possibilities,
       ensuring a creative and diverse approach to the app.

@@ -100,14 +100,12 @@
     <pcase
       heading="Understanding the user"
       para="
-      I conducted user interviews, which I then turned into empathy
-      maps to better understand the target user and their needs.
-      I discovered that many target users treat online shopping as a
-      fun and relaxing activity when they need a break from school, college
-      or work. However, many shopping websites are overwhelming and confusing
-      to navigate, Lots of technical words without much context which frustrated
-      many target users. This caused a normally enjoyable experience to become
-      challenging for them, defeating the purpose of relaxation.
+      I conducted user interviews and created empathy maps to better understand the target users
+      and their needs. I discovered that many users see online shopping as a fun and relaxing
+      activity when they need a break from school, college, or work. However, many shopping websites
+      are overwhelming and difficult to navigate, with excessive technical jargon and little context,
+      which frustrates users. This turns an otherwise enjoyable experience into a challenging one,
+      defeating the purpose of relaxation.
 
       <br>
       <br>
@@ -248,14 +246,15 @@ to able to focus on his health and fitness and also remain worry free from unwan
       heading="Starting the design
 "
       para="
-      Difficulty with website navigation was a primary pain point
-      for users, so I used that knowledge to create a sitemap. 
+      Navigation difficulties were a major pain point for users,
+      so I used that insight to create a sitemap.
       <br>
       <br>
 
-      My goal here was to make strategic information architecture decisions
-      that would improve overall website navigation. The structure I chose was
-      designed to make things simple and easy. 
+      My goal was to make strategic information architecture decisions that would enhance website navigation.
+      I designed the structure to be simple and intuitive.
+
+
 .
 
       <br>
@@ -337,11 +336,9 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
     <div class="p-quote contain red">
       <blockquote>
-        Paper wireframes served multiple purpose here, it helped me to connect the
-        site's information architecture to its visual design by showing
-        paths between pages. Clarify consistent ways for displaying particular
-        types of information on the user interface. Determine intended
-        functionality in the interface. 
+        Paper wireframes served multiple purposes. They helped me connect the site's information architecture
+        to its visual design by mapping out paths between pages. They also established consistent ways to display specific types of
+        information on the user interface and defined the intended functionality of the interface.
       </blockquote>
     </div>
 
@@ -466,9 +463,12 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
     <pcase
       heading="Usability study: findings"
-      para="The event creator is the Entertainment Provider in a sense. They Choose what type of
-        event are they organizing, what are their possible audience,  and push the event to audience.
-        They can see the performance of their event, Sales record etc. on the ft event website.
+      para="The usability study revealed key pain points in the shopping experience, particularly in product discovery,
+      cart interaction, checkout, and account access. Users had trouble finding relevant filters on the product listing page,
+      lacked clear feedback when adding items to the cart, and faced difficulties selecting payment methods and copying address
+      details during checkout. Additionally, the absence of a seamless login option prevented users from pre-filling their billing
+      and shipping information. Addressing these issues will enhance navigation, improve user confidence, and create a more intuitive
+      shopping experience.
       "
       theme="theme_bikeshikes"
     />
@@ -491,10 +491,11 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
     <pcase
       heading="Mockups"
-      para="Based on the insights from the usability study,
-      I made changes filter options giving more related and specific
-      required filter. I have added more filter like age, categories,
-      number of gears and more. This allowed users more freedom to 345]89ilter out the bicycle  according to their specific need and requirement.
+      para="Based on insights from the usability study, I refined the filter options to
+       be more relevant and specific. I added filters such as age, categories, number of gears,
+       and more. This gave users greater flexibility to filter bicycles according to their specific needs and preferences.
+
+
       "
       theme="theme_bikeshikes"
     />
@@ -530,16 +531,16 @@ to able to focus on his health and fitness and also remain worry free from unwan
 
     <pcase
       heading="High Fidelity Mockups"
-      para="Putting everything together from the research, user personas, wireframes. I moved the begin
-      to put details on each page starting with home page to form a design theme and once i was satisfied
-      with the look and feel of home page, I continued to other pages keeping consistency, user flow
-      in check. 
+      para="Bringing together research, user personas, and wireframes, I began adding details to each page, starting with the homepage to
+      establish a cohesive design theme. Once I was satisfied with its look and feel, I applied the same approach to other pages,
+      ensuring consistency and a smooth user flow. 
 
 
         <br><br>
-        I was very clear to me to always provide next steps so that users can deduce naturally, whatever their context.
-        Because the best interface is no interface, to offer users the most direct,
-        accessible, comfortable control (and best experience).
+        I focused on providing clear next steps so users could navigate naturally in any context.
+        The best interface is one that feels invisible, offering a direct, accessible, and seamless experience.
+
+
       "
       theme="theme_bikeshikes"
     />
