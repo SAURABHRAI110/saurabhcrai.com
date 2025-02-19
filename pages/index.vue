@@ -235,7 +235,7 @@
       </h1>
       <p>
         Here is a small selection of the case studies showcasing my work that I take great pleasure in.
-        <nuxt-link to="/projects" class="underline-magical">Explore more projects👉</nuxt-link>
+        <nuxt-link to="/projects" class="underline-magical">Explore all projects</nuxt-link>
       </p>
     </div>
 

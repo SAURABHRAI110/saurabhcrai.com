@@ -1,11 +1,35 @@
 <template>
   <section>
-    <div class="p-hero-container">
-      <img src="~assets/photography/p-1.jpg" alt="silhoutte, sunset, sunrise" />
+    <div class="w-hero_container">
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+        <img src="~assets/svg/circle.svg" alt="circle" />
+      </div>
+
+      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+        <img class="hero-svg" src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
+      </div>
+
+      <div class="contain w-h-container">
+        <p class="pm w-h-subheading" data-aos="fade-up" data-aos-duration="1000">Photography</p>
+        <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          Sometime <br> I take my <span class="outlined">Camera</span> out
+          <br />
+           and yahh click 
+        </h1>
+        <p
+          class="pm w-subheading_2"
+          data-aos="fade-up"
+          data-aos-duration="900"
+          data-aos-delay="600"
+        >
+          I pour my ❤️️ into every design. I do what i do because I love it and
+          I am dedicated to creating meaningful work.
+        </p>
+      </div>
     </div>
     <div class="gallery-container">
       <div class="photo-grid">
-        <!-- <img class="item" src="~assets/photography/p-2.jpg" />
+        <img class="item" src="~assets/photography/p-2.jpg" />
         <img class="item" src="~assets/photography/p-3.jpg" />
         <img class="item" src="~assets/photography/p-4.jpg" />
         <img class="item" src="~assets/photography/p-5.jpg" />
@@ -55,7 +79,7 @@
         <img class="item" src="~assets/photography/p-50.jpg" />
         <img class="item" src="~assets/photography/p-51.jpg" />
         <img class="item" src="~assets/photography/p-52.jpg" />
-        <img class="item" src="~assets/photography/p-53.jpg" />-->
+        <img class="item" src="~assets/photography/p-53.jpg" />
       </div>
     </div>
   </section>
@@ -66,7 +90,7 @@ export default {}
 </script>
 
 <style scoped>
-.p-hero-container {
+.w-hero-container {
   width: 100%;
   position: relative;
   height: 85vh;
@@ -86,23 +110,27 @@ section {
   position: relative;
 }
 .gallery-container {
-  background-color: black;
+  /* background-color:white; */
 }
 
 .photo-grid {
-  column-count: 2;
-  column-gap: 0px;
+  column-count: 3;
   line-height: 0;
+  padding: 10%;
+  column-gap: 20px;
+
 }
 
 .item {
   width: 100% !important;
   height: auto !important;
+  padding-top: 20px;
+  
 }
 
 @media screen and (max-width: 600px) {
   .photo-grid {
-    column-count: 1;
+    column-count: 2;
   }
 }
 </style>
