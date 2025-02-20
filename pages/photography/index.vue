@@ -1,20 +1,20 @@
 <template>
   <section>
-    <div class="w-hero_container">
+    <div class="p-hero_container">
       <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-        <img src="~assets/svg/circle.svg" alt="circle" />
+        <img class="circle" src="~assets/svg/circle.svg" alt="circle" />
       </div>
 
-      <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+      <!-- <div data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
         <img class="hero-svg" src="~assets/svg/w.svg" alt="w" v-rellax="{ speed: -2, center: 0.5 }" />
-      </div>
+      </div> -->
 
-      <div class="contain w-h-container">
-        <p class="pm w-h-subheading" data-aos="fade-up" data-aos-duration="1000">Photography</p>
+      <div class="contain p-h-container">
+        <p class="pm w-h-subheading" data-aos="fade-up" data-aos-duration="1000">Photography & Arts</p>
         <h1 data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-          Sometime <br> I take my <span class="outlined">Camera</span> out
-          <br />
-           and yahh click 
+          Sometime <br> I just pick up my <span class="outlined">Camera or Brush</span>
+          and Let It Flow
+          
         </h1>
         <p
           class="pm w-subheading_2"
@@ -22,9 +22,13 @@
           data-aos-duration="900"
           data-aos-delay="600"
         >
-          I pour my ❤️️ into every design. I do what i do because I love it and
-          I am dedicated to creating meaningful work.
+        Designing with a mouse, capturing with a lens.
+        A UI/UX designer by day, an artist and photographer when inspiration strikes.
         </p>
+      </div>
+      <div class="p-hero-grid-container">
+        <div class="p-hero-grid">
+          <img src="~assets/photography/p-hero-images.png" alt=""></div>
       </div>
     </div>
     <div class="gallery-container">
