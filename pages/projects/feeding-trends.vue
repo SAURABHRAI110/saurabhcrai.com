@@ -23,7 +23,7 @@
       pDate="December 2017 "
       pWebsite="feedingtrends.com"
       pCategory="Product Design"
-      pHeading="Stories that make you think and rethink."
+      pHeading="Feeding Trends: Stories that make you think and rethink."
       pHeadingcolor="color:#1D98B6;"
       pSubheading="Creating a digital experience for budding writers and readers. "
     />

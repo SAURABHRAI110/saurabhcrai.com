@@ -23,9 +23,9 @@
       pDate="2015-217 "
       pWebsite="TheBBDTimes"
       pCategory="Branding"
-      pHeading="Connect . Express . Grow"
+      pHeading="The BBD Times: Connect - Express - Grow "
       pHeadingcolor="color:#0088ff;"
-      pSubheading="Connecting 25k students Across 4 colleges"
+      pSubheading="Connecting 25k students across 4 colleges through blog, magazine and app"
     />
 
     <!-- <div class="p-fe-hero_image">

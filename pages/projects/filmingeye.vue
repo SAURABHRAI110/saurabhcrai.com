@@ -22,9 +22,9 @@
       pDate="Dec 2018 "
       pWebsite="filmingeye.com"
       pCategory="Product Design"
-      pHeading="Improve visual  perception"
+      pHeading="Designing Web Experience for a film production studio"
       pHeadingcolor="color:#da2c4d;"
-      pSubheading="Filming Eye Web Experience"
+      pSubheading="Creating web identity from scratch"
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>

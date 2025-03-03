@@ -228,9 +228,12 @@
         <div class="pm black70">
           <div class="a-t_layout">
             <span>
-              <span>
               <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />Figma
             </span>
+            <span>
+              <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />FigJam
+            </span>
+            <span>
               <img src="~assets/img/about/a-tools-1.svg" alt="adobe xd svg icon" /> Adobe XD
             </span>
             <span>
@@ -273,6 +276,12 @@
               <img src="~assets/img/about/a-tools-17.png" alt="Balsamiq svg icon" />Balsamiq
             </span>
             <span>
+              <img src="~assets/img/about/tool-miro.svg" alt="Miro png icon" />Miro
+            </span>
+            <span>
+              <img src="~assets/img/about/tool-drawio.png" alt="Draw Io png icon" />Draw.io
+            </span>
+            <span>
               <img src="~assets/img/about/a-tools-6.svg" alt="Visual Studio Code svg icon" />Visual Studio Code
             </span>
             <span>
@@ -308,6 +317,25 @@
 
         <div class="pm black70">
           <div class="a-p_layout_column">
+            
+            <nuxt-link to="/projects/bikeshikes-ecommerce">
+              <div class="a-p_layout_row black70">
+                <span>2021</span>
+                <span>BikeShikes</span>
+                <span>Web, eCommerce</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
+            <nuxt-link to="/projects/artiso">
+              <div class="a-p_layout_row black70">
+                <span>2021</span>
+                <span>Artiso</span>
+                <span>App Design</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+
             <nuxt-link to="/projects/filmingeye">
               <div class="a-p_layout_row black70">
                 <span>2019</span>
@@ -559,7 +587,7 @@
         </div>
       </div>
     </section>
-    <!-- Journey section -->
+    <!-- Journey section
 
     <section class="journey-container">
       <div class="contain">
@@ -585,7 +613,7 @@
           <div id="imgtext"></div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- get connected -->
     <section class="connect-container">

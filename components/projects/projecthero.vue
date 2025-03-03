@@ -120,7 +120,6 @@ export default {
   .p-heading {
     margin-bottom: 0;
     margin-top: 46px;
-    line-height: 40px;
   }
 
   .p-min-info {
@@ -165,7 +164,6 @@ export default {
   .p-heading {
     margin-bottom: 0;
     margin-top: 46px;
-    line-height: 40px;
   }
 
   .p-min-info {

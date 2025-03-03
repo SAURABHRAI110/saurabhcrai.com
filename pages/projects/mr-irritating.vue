@@ -21,9 +21,9 @@
       pDate="March 2017 "
       pWebsite="Mr. Irritating"
       pCategory="Print Design"
-      pHeading="Every past keeps a story."
+      pHeading="Every Past Keeps a Story."
       pHeadingcolor="color:#EE605C;"
-      pSubheading="Designing a romantic (love triangle) novel cover."
+      pSubheading="This project involved designing a captivating novel cover that explores the complexities of a love triangle."
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>

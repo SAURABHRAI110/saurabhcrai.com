@@ -22,9 +22,9 @@
       pDate="August 2018 "
       pWebsite="BharatRohan"
       pCategory="App, Admin, Web"
-      pHeading="Empowering Communication between farms and farmers"
+      pHeading="Bharat Rohan - Empowering Communication between farms and farmers"
       pHeadingcolor="color:#11A78E;"
-      pSubheading="App for farmers and admin panel"
+      pSubheading="Designing app for farmers, Field Executives and Dashboard for Business Owner "
     />
 
     <!-- hero image -->

@@ -207,13 +207,13 @@ a {
 h1 {
   font-family: circular-bold;
   font-size: 72px;
-  line-height: 72px;
+  line-height: 110%;
 }
 
 h2 {
   font-size: 60px;
   font-family: circular-book;
-  line-height: 60px;
+  line-height: 120%;
 }
 
 h3 {
@@ -259,7 +259,6 @@ p {
 
   h2 {
     font-size: 53px;
-    line-height: 50px;
   }
 
   h3 {
@@ -276,7 +275,6 @@ p {
 
   h2 {
     font-size: 48px;
-    line-height: 48px;
 
   }
 }
@@ -2677,6 +2675,11 @@ color: #0088ff !important;
 }
 
 
+/* wonder wares */
+
+.reveal-block.theme_wonderwares::before {
+  background: linear-gradient(45deg, #7F5BC7 0%, #C35BC7 100%);
+}
 
 /* meeting rooms */
 
