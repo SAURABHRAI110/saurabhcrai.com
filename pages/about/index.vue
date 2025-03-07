@@ -230,9 +230,7 @@
             <span>
               <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />Figma
             </span>
-            <span>
-              <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />FigJam
-            </span>
+          
             <span>
               <img src="~assets/img/about/a-tools-1.svg" alt="adobe xd svg icon" /> Adobe XD
             </span>
@@ -269,8 +267,14 @@
             <span>
               <img src="~assets/img/about/a-tools-5.svg" alt="Zeplin svg icon" />Zeplin
             </span>
-            <span>
+            <!-- <span>
               <img src="~assets/img/about/a-tools-16.png" alt="UXPin svg icon" />UXPin
+            </span> -->
+            <span>
+              <img src="~assets/img/about/tool-maze.png" alt="Maze png icon" />Maze
+            </span>
+            <span>
+              <img src="~assets/img/about/a-tools-14.svg" alt="UXPin svg icon" />FigJam
             </span>
             <span>
               <img src="~assets/img/about/a-tools-17.png" alt="Balsamiq svg icon" />Balsamiq

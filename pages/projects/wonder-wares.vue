@@ -126,14 +126,35 @@
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/ux-research-study-mobile.jpg"
+              srcset="~assets/projects/wonder-wares/user-interveiw-plan-wonderware-mobile.jpg"
             />
-            <img src="~assets/projects/bikeshikes-ecommerce/UX Research Study Plan.jpg" />
+            <img src="~assets/projects/wonder-wares/user-interveiw-plan-wonderware.jpg" />
           </picture>
           <p class="ps black70">UX Research Study Plan</p>
         </div>
       </div>
   
+      <client-side>
+        <agile>
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/wonder-wares/Empathy Map Wonder Wares App 1.jpg"
+              alt="feeding trends ideation"
+            />
+          </div>
+  
+          <div class="slide">
+            <img
+              class="slide-img"
+              src="~assets/projects/wonder-wares/Empathy Map Wonder Wares App 2.jpg"
+              alt="feeding trends ideation"
+            />
+          </div>
+          
+        </agile>
+      </client-side>
+
   <pcase
         heading="Personas"
         para="Problem statement: <br>
@@ -156,9 +177,9 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/Persona [Abhishek].jpg" />
+              <img src="~assets/projects/wonder-wares/Persona Wonder Ware App 1.jpg" />
             </picture>
-            <p class="ps black70">Persona [Abhishek]</p>
+            <p class="ps black70">Persona [Emily]</p>
           </div>
         </div>
     </div>
@@ -176,9 +197,9 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/Persona [Saharsh].jpg" />
+              <img src="~assets/projects/wonder-wares/Persona Wonder Ware App 2.jpg" />
             </picture>
-            <p class="ps black70">Persona [Saharsh]</p>
+            <p class="ps black70">Persona [Michael]</p>
           </div>
         </div>
     </div>
@@ -197,7 +218,7 @@
       </div>
        <!-- Preface -->
       <pcase
-        heading="User journey map"
+        heading="User Story"
         para=" 
          I created a user journey map of Abhishek experience using the site to
          help identify possible pain points and improvement opportunities. 
@@ -211,11 +232,11 @@
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/User Journey Map [Bicycle eCommerce].jpg" />
+                srcset="~assets/projects/wonder-wares/user-stories-wonder-wares-app-mobile.jpg"
+              />
+              <img src="~assets/projects/wonder-wares/user-stories-wonder-wares-app.jpg" />
             </picture>
             <p class="ps black70">User Journey Map</p>
           </div>
