@@ -2381,6 +2381,9 @@ body {
   background-color: var(--image-bg-colour);
   position: relative;
 }
+.p-hero_image > div {
+  width: 100%;
+}
 
 .p-hero_image img {
   object-fit: cover;
@@ -3106,6 +3109,11 @@ primary #8e55ff
 }
 
 .p-image-100-duo img {
+  width: 100%;
+
+
+}
+.p-image-100-duo > div {
   width: 100%;
 
 

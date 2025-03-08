@@ -134,26 +134,28 @@
         </div>
       </div>
   
-      <client-side>
-        <agile>
-          <div class="slide">
-            <img
-              class="slide-img"
-              src="~assets/projects/wonder-wares/Empathy Map Wonder Wares App 1.jpg"
-              alt="feeding trends ideation"
-            />
-          </div>
-  
-          <div class="slide">
-            <img
-              class="slide-img"
-              src="~assets/projects/wonder-wares/Empathy Map Wonder Wares App 2.jpg"
-              alt="feeding trends ideation"
-            />
-          </div>
-          
-        </agile>
-      </client-side>
+  <div class="contain">
+        <client-side>
+          <agile>
+            <div class="slide">
+              <img
+                class="slide-img"
+                src="~assets/projects/wonder-wares/Empathy Map Wonder Wares App 1.jpg"
+                alt="feeding trends ideation"
+              />
+            </div>
+    
+            <div class="slide">
+              <img
+                class="slide-img"
+                src="~assets/projects/wonder-wares/Empathy Map Wonder Wares App 2.jpg"
+                alt="feeding trends ideation"
+              />
+            </div>
+            
+          </agile>
+        </client-side>
+  </div>
 
   <pcase
         heading="Personas"
@@ -226,7 +228,7 @@
         theme="theme_wonderwares"
       />
   
-   <div class="contain">
+
       <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -241,7 +243,6 @@
             <p class="ps black70">User Journey Map</p>
           </div>
         </div>
-    </div>
   
     <br></br>
      <br></br>
@@ -290,8 +291,53 @@
         theme="theme_wonderwares"
       />
   
+
+    
+   
+        <div class="p-quote contain red">
+        <blockquote>
+          Problem Statement: Parents and gift buyers struggle to find the right toys
+          quickly due to overwhelming choices and unclear product information. This
+          results in frustration and abandoned purchases.
+        </blockquote>
+      </div>
   
+
       <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/Competitive Analysis WonderWare Shopping App.jpg" />
+            </picture>
+            <p class="ps black70">Competitive Audit</p>
+          </div>
+        </div>
+
+
+
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/wonder-wares/competitive-analysis-spider-chart-shopping-app-mobile.jpg"
+              />
+              <img src="~assets/projects/wonder-wares/competitive-analysis-spider-chart-shopping-app.jpg" />
+            </picture>
+            <p class="ps black70">User Painpoints</p>
+          </div>
+        </div>
+
+  
+    
+    <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
@@ -300,17 +346,13 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg" />
+              <img src="~assets/projects/wonder-wares/Mindmap-WonderWare Shopping App.jpg" />
             </picture>
-            <p class="ps black70">Sitemap</p>
+            <p class="ps black70">Mindmap</p>
           </div>
         </div>
   
-    
-  
-  
-  
-  
+
       <pcase
         heading="Paper wireframes"
         para="Next, I sketched out paper wireframes for each screen,
@@ -325,7 +367,7 @@
           <div class="slide">
             <img
               class="slide-img"
-              src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-1.jpg"
+              src="~assets/projects/wonder-wares/Paper-Wireframes-Wonderware-app-1.jpg"
               alt="feeding trends ideation"
             />
           </div>
@@ -333,21 +375,21 @@
           <div class="slide">
             <img
               class="slide-img"
-              src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-2.jpg"
+              src="~assets/projects/wonder-wares/Paper-Wireframes-Wonderware-app-2.jpg"
               alt="feeding trends ideation"
             />
           </div>
           <div class="slide">
             <img
               class="slide-img"
-              src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-3.jpg"
+              src="~assets/projects/wonder-wares/Paper-Wireframes-Wonderware-app-3.jpg"
               alt="feeding trends ideation"
             />
           </div>
           <div class="slide">
             <img
               class="slide-img"
-              src="~assets/projects/bikeshikes-ecommerce/bikeshikes-paper-wireframe-4.jpg"
+              src="~assets/projects/wonder-wares/Paper-Wireframes-Wonderware-app-4.jpg"
               alt="feeding trends ideation"
             />
           </div>
