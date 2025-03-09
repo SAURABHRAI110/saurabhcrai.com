@@ -337,21 +337,6 @@
 
   
     
-    <div class="p-image-100-duo">
-          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-    
-            <picture>
-              <!-- <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg"
-              /> -->
-              <img src="~assets/projects/wonder-wares/Mindmap-WonderWare Shopping App.jpg" />
-            </picture>
-            <p class="ps black70">Mindmap</p>
-          </div>
-        </div>
-  
 
       <pcase
         heading="Paper wireframes"
@@ -397,6 +382,7 @@
         </agile>
       </client-side>
   
+
       <div class="p-quote contain red">
         <blockquote>
           Paper wireframes served multiple purposes. They helped me connect the site's information architecture
@@ -405,6 +391,54 @@
         </blockquote>
       </div>
   
+      
+    <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/bikeshikes-ecommerce/Bicycle eCommerce Sitemap.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/Mindmap-WonderWare Shopping App.jpg" />
+            </picture>
+            <p class="ps black70">Mindmap</p>
+          </div>
+        </div>
+  
+  
+      <!-- Prioritisation Matrix -->
+  
+        <pcase
+        heading="Prioritisation Matrix"
+        para="Moving from paper to digital wireframes made it easy
+        to understand how the redesign could help address user pain
+        points and improve the user experience. Prioritizing useful button
+        locations and visual element placement on the home page was a key part
+        of my strategy.
+  
+        "
+        theme="theme_wonderwares"
+      />
+    
+   <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/wonder-wares/Prioritisation-matrix-wonderwares-shopping-app-mobile.jpg"
+              />
+              <img src="~assets/projects/wonder-wares/Prioritisation-matrix-wonderwares-shopping-app.jpg" />
+            </picture>
+            <p class="ps black70">Prioritisation Matrix</p>
+          </div>
+        </div>
+  
+  <br></br>
+  <br></br>
   
       <!-- Digital Wireframe -->
   
@@ -429,11 +463,12 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-1.jpg" />
+              <img src="~assets/projects/wonder-wares/lofi-digital-wireframes-wonderware-app-1.jpg" />
             </picture>
             <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
           </div>
         </div>
+
   
   <br></br>
   <br></br>
@@ -449,11 +484,11 @@
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all-mobile.jpg"
-              />
-              <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-all.jpg" />
+              /> -->
+              <img src="~assets/projects/wonder-wares/lofi-digital-wireframes-wonderware-app-2.jpg" />
             </picture>
             <!-- <p class="ps black70">Homepage Digital Wireframe</p> -->
           </div>
