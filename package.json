@@ -10,7 +10,9 @@
     "start": "nuxt start",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
+    "precommit": "npm run lint",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
@@ -42,7 +44,8 @@
     "vue-rellax": "^0.1.0",
     "vue-resource": "^1.5.1",
     "vue-video": "^0.1.7",
-    "vue-vimeo-player": "0.0.10"
+    "vue-vimeo-player": "0.0.10",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "@bazzite/nuxt-optimized-images": "^0.2.1",
@@ -73,5 +76,6 @@
     "vue-particles": "^1.0.9",
     "webp-loader": "^0.5.0",
     "webpack": "^4.40.2"
-  }
+  },
+  "snyk": true
 }
