@@ -45,7 +45,7 @@ export default {
 
 <style scoped>
 .p-hero_top {
-  min-height: 40vh;
+  min-height: 21vh;
   background-color: white;
 }
 

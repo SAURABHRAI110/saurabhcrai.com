@@ -16,7 +16,7 @@
           <span>22</span>
         </p>
       </div>
-    </div>>
+    </div>
     <projecthero
       pDate="March 2017 "
       pWebsite="Mr. Irritating"
@@ -32,7 +32,7 @@
 
     <!-- hero image -->
 
-    <div class="p-dz-hero_image">
+    <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right theme_mi" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>

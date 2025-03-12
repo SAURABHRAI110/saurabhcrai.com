@@ -27,7 +27,7 @@
       pHeadingcolor="color:#A05EE5;"
       pSubheading=" Branding work for a digital design company."
     />
-    <div class="p-dz-hero_image">
+    <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ai" data-aos="reveal-right"></div>
 

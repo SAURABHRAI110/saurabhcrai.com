@@ -26,7 +26,7 @@
       pHeadingcolor="color:#EE605C;"
       pSubheading="to thousands of people  through Campaign Design."
     />
-    <div class="p-dz-hero_image">
+    <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right theme_r3" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>

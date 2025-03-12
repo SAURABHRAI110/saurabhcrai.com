@@ -37,7 +37,7 @@
               srcset="~assets/projects/bikeshikes-ecommerce/hero-mobile.jpg"
             />
             <img
-              src="~assets/projects/bikeshikes-ecommerce/Cyclist mountain ui ux web design.jpg"
+              src="~assets/projects/wonder-wares/wonder-wares-hero-image-1.jpg"
               alt="cyclist, adventure, cycle ecommerce"
             />
           </picture>

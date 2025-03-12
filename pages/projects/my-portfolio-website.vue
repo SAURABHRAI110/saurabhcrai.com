@@ -27,7 +27,7 @@
     />
 
     <!-- hero image -->
-    <div class="p-ft-hero_image">
+    <div class="p-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div
           class="reveal-block right theme_my_website"
