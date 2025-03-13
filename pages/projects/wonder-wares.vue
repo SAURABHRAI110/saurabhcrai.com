@@ -34,10 +34,10 @@
           <picture>
             <source
               media="(max-width: 600px)"
-              srcset="~assets/projects/bikeshikes-ecommerce/hero-mobile.jpg"
+              srcset="~assets/projects/wonder-wares/wonder-wares-hero-image-3-mobile.jpg"
             />
             <img
-              src="~assets/projects/wonder-wares/wonder-wares-hero-image-1.jpg"
+              src="~assets/projects/wonder-wares/wonder-wares-hero-image-3.jpg"
               alt="cyclist, adventure, cycle ecommerce"
             />
           </picture>
@@ -648,11 +648,11 @@
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
                 srcset="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3-mobile.jpg"
-              />
-              <img src="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3.jpg" />
+              /> -->
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-1.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
@@ -670,23 +670,12 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/all-mockup-showcase.jpg" />
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-2.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
         </div>
   
-      <pcase
-        heading="Mockups: Screen size variations"
-        para="
-            I included considerations for additional screen sizes in my
-            mockups based on my earlier wireframes. Because users shop from a
-            variety of devices, I felt it was important to optimize the browsing
-            experience for a range of device sizes, such as mobile and tablet
-            so users have the smoothest experience possible. 
-        "
-        theme="theme_wonderwares"
-      />
   
   
       <div class="p-image-100-duo">
@@ -694,15 +683,83 @@
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <source
+              <!-- <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages-mobile.jpg"
-              />
-              <img src="~assets/projects/bikeshikes-ecommerce/Hifi-mockup-all-pages.jpg" />
+                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-3.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
         </div>
+  
+  
+  
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-4.jpg" />
+            </picture>
+            <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+          </div>
+        </div>
+  
+  
+  
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-5.jpg" />
+            </picture>
+            <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+          </div>
+        </div>
+  
+  
+  
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-6.jpg" />
+            </picture>
+            <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+          </div>
+        </div>
+  
+  
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-7.jpg" />
+            </picture>
+            <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
+          </div>
+        </div>
+
   
       <pcase
         heading="High-fidelity prototype"
@@ -728,7 +785,7 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/high-fidelity prototype-link-xd.jpg" />
+              <img src="~assets/projects/wonder-wares/hifi-prototype-wonderwares-app-2.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
