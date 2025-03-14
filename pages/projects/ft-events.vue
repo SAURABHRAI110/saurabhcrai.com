@@ -2,7 +2,7 @@
   <!-- ft-event work -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="dreamz">
+      <nuxt-link to="filmingeye">
         <previous />
       </nuxt-link>
 
@@ -418,11 +418,11 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         <allprojectsnav />
 
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/dreamz">
+          <nuxt-link to="/projects/filmingeye">
             <pfooterp
-              projectName="Dreamz"
-              projectCategories="App Design, Prototype"
-              thumbnail="/dreamz-thumbnail-cyan.jpg"
+              projectName="Filming Eye"
+              projectCategories="Web, Identity"
+              thumbnail="/filming-eye-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

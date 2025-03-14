@@ -5,13 +5,13 @@
         <previous />
       </nuxt-link>
 
-      <nuxt-link to="dreamz">
+      <nuxt-link to="ft-events">
         <next />
       </nuxt-link>
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:#da2c4d;">07</span>
+          <span style="color:#da2c4d;">08</span>
           <span>/</span>
           <span>22</span>
         </p>
@@ -422,11 +422,11 @@ and branded ‘Easy Tiger’ website with key values like boldness and modernity
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/dreamz">
+          <nuxt-link to="/projects/ft-events">
             <pfootern
-              projectName="Dreamz"
-              projectCategories="App Design, Prototype"
-              thumbnail="/dreamz-thumbnail-cyan.jpg"
+              projectName="FT Events"
+              projectCategories="Web Design, Admin Panel"
+              thumbnail="/ft-event-thumbnail.jpg"
             />
           </nuxt-link>
         </div>

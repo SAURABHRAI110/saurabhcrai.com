@@ -2,7 +2,7 @@
   <!-- Feeding Trends -->
   <div>
     <div class="ppnp-container">
-      <nuxt-link to="artiso">
+      <nuxt-link to="wonder-wares">
         <previous />
       </nuxt-link>
 
@@ -12,7 +12,7 @@
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:#0088FF;">03</span>
+          <span style="color:#0088FF;">04</span>
           <span>/</span>
           <span>22</span>
         </p>
@@ -520,11 +520,11 @@
       <div class="projects-footer-container">
         <allprojectsnav />
         <div class="p-f-p-container">
-          <nuxt-link to="/projects/artiso">
+          <nuxt-link to="/projects/wonder-wares">
             <pfooterp
-            projectName="Artiso"
-              projectCategories="Casestudy, Explore, Shop"
-              thumbnail="/Artiso App Thumbnail-2.jpg"
+            projectName="WonderWares"
+              projectCategories="App | eCommerce"
+              thumbnail="/wonder-wares-app-thumbnail-2.jpg"
             />
           </nuxt-link>
         </div>

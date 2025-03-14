@@ -3,26 +3,26 @@
   
     <div>
       <div class="ppnp-container">
-        <nuxt-link to="my-portfolio-website">
+        <nuxt-link to="artiso">
           <previous />
         </nuxt-link>
   
-        <nuxt-link to="artiso">
+        <nuxt-link to="cricbuzz-app-redesign">
           <next />
         </nuxt-link>
   
         <div class="ppnp-number-container">
           <p class="black ppnp-p-number">
-            <span style="color:#A15BC7;">01</span>
+            <span style="color:#A15BC7;">03</span>
             <span>/</span>
             <span>22</span>
           </p>
         </div>
       </div>
       <projecthero
-        pDate="June 2021"
-        pWebsite="BikeShikes"
-        pCategory="eCommerce"
+        pDate="April 2022"
+        pWebsite="WonderWares"
+        pCategory="App | eCommerce"
         pHeading="Redefining Toy Shopping: For Every Kid’s Joy and the Parents"
         pHeadingcolor="color:#A15BC7;"
         pSubheading=" From Empathy to Execution – How Research, Ideation, and Iteration Shaped a Seamless Shopping Experience"
@@ -45,14 +45,14 @@
       </div>
   
       <Preface
-        timeframe="June 2021- <br> July 2021"
-        tools="  Adobe Creative Suite, Marvel, Invision 
-              <br>Pen, paper"
+        timeframe="April 2022- <br> June 2022"
+        tools="  Figma, Adobe Creative Suite, Marvel,
+              <br>Lots of Notes"
         role="UX Researcher, UI/UX Designer
   
-              <br>Designing Bicycle eCommerce from concept to delivery"
-        team=" Me, Friends
-              <br>and lot of fun."
+              <br>Designing toy shopping app from concept to delivery"
+        team=" Anu, Sushant
+              <br>Saurabh."
       />
       <!-- Preface -->
       <pcase
@@ -524,9 +524,9 @@
                 media="(max-width: 600px)"
                 srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
               /> -->
-              <img src="~assets/projects/bikeshikes-ecommerce/bikeshikes-digital-wireframe-prototype.jpg" />
+              <img src="~assets/projects/wonder-wares/lofi-prototype-wonderware-app.jpg" />
             </picture>
-            <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p>
+            <p class="ps black70">Low-fidelity Prototype for UT</p>
           </div>
         </div>
   
@@ -880,11 +880,25 @@
   
   
     <pcase
-        heading="Aftermath of this Project"
+        heading="Reflection"
         para="
-          I got into Cycling.
-          <br>365 Days by 29th July and counting
-          <br> Journey in photos 
+          Working on this project helped me realize how crucial user research is in shaping the entire design process.
+          Understanding user needs and behaviors played a huge role in creating an app that doesn’t just function well but
+          actually resonates with users.
+          When the app shows the user immediate consequences of their action, there is a more personal connection.
+          <br>
+          <br>
+         There’s a common belief that digital products should be strictly minimalist and functional,
+         but my experience tells me otherwise. Users don’t just want to solve problems—they also want
+         to enjoy the experience while doing it. Striking that balance between functionality and aesthetics
+         was my responsibility as a UI/UX designer on this project.
+          <br>
+          <br>
+          After finishing and looking back, I felt proud of what I had accomplished. The pressure of completing
+          everything in limited time was immense, but it pushed me to deliver my best. I’ve learned that when
+          faced with challenges like this, I perform well under pressure and find ways to make things work.
+          Seeing the final product function as intended, making toy shopping easier and more delightful, was a truly rewarding moment.
+          I happen to find myslef to go through the process and happen to find something to improve in the app.
      "
         theme="theme_wonderwares"
       />
@@ -919,13 +933,13 @@
                 <span>✔ Taking Design Meetings</span>
                 <span>✔ Collaborating with Content writers</span>
                 <span>✔ User personas</span>
-                <span>✔ Drank Lots of Coffee</span>
+                <span>✔ Lots of IceTea</span>
                 <span>✔ Taken Stress</span>
                 <span>✔ Made Wireframe</span>
                 <span>✔ Structured User Journey</span>
                 <span>✔ Worked in nights</span>
                 <span>✔ Branding</span>
-                <span>✔ UI Design</span>
+                <span>✔ Testing with Users</span>
                 <span>✔ Defending UX Decisions</span>
                 <span>✔ Pop and un-pop things</span>
               </div>
@@ -939,9 +953,8 @@
   
       <div class="p-quote contain red">
         <blockquote>
-          Even a small design change can have a huge impact on the user experience.
-          The most important learning for me is to always focus on the real needs of
-          the user when coming up with design ideas and solutions.
+          When the app shows users immediate feedback on their actions, it not only creates a personal
+          connection but also exemplifies the essence of great design, delving deeper into how people think and act.
         </blockquote>
       </div>
   
@@ -966,23 +979,24 @@
         <div class="projects-footer-container">
           <allprojectsnav />
           <div class="p-f-p-container">
-            <nuxt-link to="/projects/my-portfolio-website">
-              <pfooterp
-                projectName="My Portfolio Website"
-                projectCategories="Web design and Development"
-                thumbnail="/my-website-thumbnail.jpg"
-              />
-            </nuxt-link> </div>
+          <nuxt-link to="/projects/artiso">
+            <pfooterp
+            projectName="Artiso"
+              projectCategories="Casestudy, Explore, Shop"
+              thumbnail="/Artiso App Thumbnail-2.jpg"
+            />
+          </nuxt-link>
+        </div>
   
-          <div class="p-f-n-container">
-            <nuxt-link to="/projects/artiso">
-              <pfootern
-                projectName="Artiso"
-                projectCategories="Casestudy, Explore, Shop"
-                thumbnail="/Artiso App Thumbnail-2.jpg"
-              />
-            </nuxt-link>
-          </div>
+            <div class="p-f-n-container">
+          <nuxt-link to="/projects/cricbuzz-app-redesign">
+            <pfootern
+              projectName="CricBuzz"
+              projectCategories="App Redesign Concept"
+              thumbnail="/cricbuzz-thumbnail.jpg"
+            />
+          </nuxt-link>
+        </div>
         </div>
       </div>
     </div>

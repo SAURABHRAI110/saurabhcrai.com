@@ -2164,29 +2164,36 @@ view more work*/
 
 .a-web-details>p>span:first-child {
   font-size: 40px;
+  font-family: 'circular-medium';
 }
 
 .a-web-details span:nth-child(3) img {
+  padding: 0px 7px 0px 27px;
+  position: relative;
+  top: 19px;
+  width: 90px;
+}
+.a-web-details span:nth-child(5) img {
   padding: 0px 7px 0px 27px;
   position: relative;
   top: 33px;
   width: 150px;
 }
 
-.a-web-details span:nth-child(5) img {
+.a-web-details span:nth-child(7) img {
   padding: 0px 7px 0px 27px;
   position: relative;
   top: 23px;
   width: 90px;
 }
 
-.a-web-details span:nth-child(7) img {
+.a-web-details span:nth-child(9) img {
   padding: 8px 8px 0px 0px;
   position: relative;
   top: 20px;
 }
 
-.a-web-details span:nth-child(7) span {
+.a-web-details span:nth-child(9) span {
   padding: 16px 0px;
 }
 

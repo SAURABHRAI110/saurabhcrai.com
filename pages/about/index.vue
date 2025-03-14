@@ -824,6 +824,16 @@
           <p>
             <span>This website</span>
             <br />
+<span>
+  is designed & coded with love by:
+              <img
+                src="~assets/img/about/me-avatar.png"
+                alt="Saurabh Chandra Rai Avatar"
+                title="Yay Me"
+              />
+            </span>
+            <br />
+
             <span>
               is powered by:
               <img
@@ -833,6 +843,7 @@
               />
             </span>
             <br />
+            
             <span>
               is hosted on:
               <img

@@ -277,6 +277,21 @@
         </div>
 
         <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/wonder-wares">
+            <thumbnail
+              thumbnailName="WonderWares"
+              thumbnailDescription="Casestudy | Toy eCommerce"
+              thumbnail="/wonder-wares-app-thumbnail-2.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="1000"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/cricbuzz-app-redesign">
             <thumbnail
               thumbnailName="CricBuzz"
@@ -335,7 +350,7 @@
           </nuxt-link>
         </div>
 
-
+<!-- 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/ft-events">
             <thumbnail
@@ -348,7 +363,7 @@
               data-aos-once="true"
             />
           </nuxt-link>
-        </div>
+        </div> -->
 
         <div class="p-thumbnail-ad">
           <nuxt-link to="/projects/thebbdtimes">

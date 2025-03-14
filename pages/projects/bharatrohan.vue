@@ -11,7 +11,7 @@
 
       <div class="ppnp-number-container">
         <p class="black ppnp-p-number">
-          <span style="color:#11A78E;">06</span>
+          <span style="color:#11A78E;">07</span>
           <span>/</span>
           <span>22</span>
         </p>

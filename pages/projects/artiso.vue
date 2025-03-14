@@ -7,7 +7,7 @@
         <previous />
       </nuxt-link>
 
-      <nuxt-link to="cricbuzz-app-redesign">
+      <nuxt-link to="wonder-wares">
         <next />
       </nuxt-link>
 
@@ -971,11 +971,11 @@ and peer feedback influenced each iteration of the app’s designs.
         </div>
 
         <div class="p-f-n-container">
-          <nuxt-link to="/projects/cricbuzz-app-redesign">
+          <nuxt-link to="/projects/wonder-wares">
             <pfootern
-              projectName="CricBuzz"
-              projectCategories="App Redesign Concept"
-              thumbnail="/cricbuzz-thumbnail.jpg"
+              projectName="WonderWares"
+              projectCategories="App | eCommerce"
+              thumbnail="/wonder-wares-app-thumbnail-2.jpg"
             />
           </nuxt-link>
         </div>

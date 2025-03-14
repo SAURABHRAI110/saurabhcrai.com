@@ -58,7 +58,22 @@
               thumbnail="/Artiso App Thumbnail-2.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="800"
+              data-aos-delay="1000"
+              data-aos-once="true"
+              data-aos-anchor-placement="top-bottom"
+            />
+          </nuxt-link>
+        </div>
+
+        <div class="p-thumbnail-ad">
+          <nuxt-link to="/projects/wonder-wares">
+            <thumbnail
+              thumbnailName="WonderWares"
+              thumbnailDescription="Casestudy | Toy eCommerce"
+              thumbnail="/wonder-wares-app-thumbnail-2.jpg"
+              data-aos="zoom-out-up"
+              data-aos-duration="400"
+              data-aos-delay="300"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -73,7 +88,7 @@
               thumbnail="/cricbuzz-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="800"
+              data-aos-delay="100"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
@@ -88,7 +103,7 @@
               thumbnail="/elevito-thumbnail.jpg"
               data-aos="zoom-out-up"
               data-aos-duration="400"
-              data-aos-delay="1000"
+              data-aos-delay="300"
               data-aos-once="true"
               data-aos-anchor-placement="top-bottom"
             />
