@@ -201,7 +201,7 @@
 
     <div class="p-quote contain red">
       <blockquote>
-       Maaking hypothesis is awesome but at the end of the day that hypothesis better turn for the better of the project.
+       Making hypothesis is awesome but at the end of the day that hypothesis better turn for the better of the project.
       </blockquote>
     </div>
 

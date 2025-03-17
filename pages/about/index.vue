@@ -322,6 +322,15 @@
         <div class="pm black70">
           <div class="a-p_layout_column">
             
+            <nuxt-link to="/projects/wonder-wares">
+              <div class="a-p_layout_row black70">
+                <span>2022</span>
+                <span>WonderWares</span>
+                <span>App, eCommerce</span>
+                <span>↗</span>
+              </div>
+            </nuxt-link>
+            
             <nuxt-link to="/projects/bikeshikes-ecommerce">
               <div class="a-p_layout_row black70">
                 <span>2021</span>

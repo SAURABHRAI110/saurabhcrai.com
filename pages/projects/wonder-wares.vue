@@ -38,7 +38,7 @@
             />
             <img
               src="~assets/projects/wonder-wares/wonder-wares-hero-image-3.jpg"
-              alt="cyclist, adventure, cycle ecommerce"
+              alt="shopping app, toy app, sapp mockcup"
             />
           </picture>
         </div>
@@ -57,12 +57,12 @@
       <!-- Preface -->
       <pcase
         heading="Preface"
-        para="BikeShikes is a bicycle online store that offers many brands
-        bicycle from categories like MTB, Road, Hybrid, eBike etc. It also
-        offers accessories and clothing. The typical user is between 12-45
-        years old, and most users are students or early career professionals.
-        BikeShikes goal is to make shopping fun, fast, and easy for
-        all types of users."
+        para="Toy shopping, especially online, can be overwhelming due to endless choices,
+        uncertainty about age-appropriateness, and slow delivery times. Parents and gift-givers often
+        struggle to find the perfect toy quickly and confidently. WonderWares is designed to bridge this
+        gap by offering a good, AI-powered shopping experience that personalizes recommendations
+        and provides fast delivery options. This case study outlines the design thinking process used
+        to create an intuitive and efficient toy shopping app."
   
         
         theme="theme_wonderwares"
@@ -71,26 +71,31 @@
       <!-- Challenge -->
       <pcase
         heading="The problem"
-        para="Available online shopping websites have cluttered designs, Lots
-        of technical terms, inefficient systems for browsing through products,
-        and confusing filtering out for products and checkout processes. We wanted
-        to tackle these problems ealry in the design stage."
+        para="Many users find online toy shopping frustrating because:
+        <ul>
+        <li>Too many options make it hard to decide.</li>
+        <li>Age-appropriateness is unclear, leading to uncertainty.</li>
+        <li>Last-minute shopping is stressful due to long delivery times.</li>
+        <li>Navigation on existing platforms is cluttered and inefficient.</li>
+      </ul>"
         theme="theme_wonderwares"
       />
     <!-- Goal -->
       <pcase
         heading="The Goal"
-        para="BikeShikes website overaall experience to be user friendly with easy navigation,
-        clear context for technical terms with no or less jotgan words. Provide all the required filter
-        options that the user will need while browsing for the prodcuts and offering a fast checkout process."
-        theme="theme_wonderwares"
+        para="WonderWares app goal is to simplify toy shopping by:
+         <ul>
+        <li>Offering an AI-powered Smart Finder Quiz for quick and accurate recommendations.</li>
+        <li>Providing multiple delivery options, including same-day and curbside pickup.</li>
+        <li>Designing a clean, intuitive UI that enhances user experience.</li>
+        <li>Ensuring a fast, hassle-free checkout process for busy users.</li>
+      </ul>"
       />
   
     <div class="p-quote contain red">
         <blockquote>
-          Design BikeShikes website to be user friendly by providing
-        clear navigation, clear context for technical terms, required filter
-        options and offering a fast checkout process.
+          This case study explores how user research, ideation, prototyping, and usability
+          testing shaped WonderWares into an innovative and user-friendly toy shopping solution.
         </blockquote>
       </div>
   
@@ -98,25 +103,31 @@
       
       <!-- Challenge -->
       <pcase
-        heading="Understanding the user"
+        heading="Empathise: Understanding the user"
         para="
-        I conducted user interviews and created empathy maps to better understand the target users
-        and their needs. I discovered that many users see online shopping as a fun and relaxing
-        activity when they need a break from school, college, or work. However, many shopping websites
-        are overwhelming and difficult to navigate, with excessive technical jargon and little context,
-        which frustrates users. This turns an otherwise enjoyable experience into a challenging one,
-        defeating the purpose of relaxation.
+      I conducted user interviews with users who can be categarised as parents, gift-givers, who frequently shop for toys.
+        The goal was to uncover pain points, shopping behaviors, and expectations when searching for the
+        perfect toy. Through these conversations, several recurring challenges emerged: overwhelming
+        choices, difficulty finding age-appropriate toys, and long delivery times. Users also expressed a
+        need for personalized recommendations rather than manually filtering through endless options.
   
         <br>
         <br>
   
-        User research <br>
-        Personas <br>
-        Problem statements <br>
-        User journey maps"
+        <ul>
+        <li>User Interveiws </li>
+        <li>Competitive Analysis</li>
+        <li>Desk Research</li>
+      </ul>"
         theme="theme_wonderwares"
       />
-  
+      <p class="contain just-para black90">
+        From the interviews, it became clear that users value speed, convenience, and guidance in their shopping experience. Many preferred a
+        smart recommendation system that could quickly suggest the best toys based on the child’s age,
+        interests, and occasion. These insights directly influenced the app’s features, such as the AI-powered
+        Smart Finder Quiz, which simplifies decision-making. Additionally, the demand for same-day and express
+        delivery reinforced the importance of fast fulfillment options, a key differentiator for Wonderwares.
+      </p>
   
   
       <div class="p-image-100-duo">
@@ -134,6 +145,82 @@
         </div>
       </div>
   
+
+
+
+      <pcase
+        heading="Competitive Audit & Analysis"
+        para="To better understand the landscape of toy shopping apps, I conducted a competitive audit by
+        analyzing both direct and indirect competitors in the market. The goal was to identify strengths,
+        weaknesses, and opportunities to differentiate our app. This analysis focused on key aspects such
+        as website performance, usability, user experience, typography, imagery, efficiency in
+        task completion, responsiveness, and unique features.
+        <br>
+        <br>
+To visualize the findings effectively, I created a Spider Chart, mapping out how each competitor performed
+across various parameters. This helped pinpoint areas where competitors excel and where they fall short.
+For instance, while some apps had an extensive toy catalog, they lacked personalized recommendations
+and struggled with delivery speed, a gap WonderWares aimed to bridge with AI-powered smart recommendations
+and same-day delivery options. This audit provided valuable insights into how we could position WonderWares as a
+superior solution in the market.
+        
+  
+        "
+        theme="theme_wonderwares"
+      />
+    
+
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <!-- <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
+              /> -->
+              <img src="~assets/projects/wonder-wares/Competitive Analysis WonderWare Shopping App.jpg" />
+            </picture>
+            <p class="ps black70">Competitive Audit</p>
+          </div>
+        </div>
+
+
+
+      <div class="p-image-100-duo">
+          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+    
+            <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/wonder-wares/competitive-analysis-spider-chart-shopping-app-mobile.jpg"
+              />
+              <img src="~assets/projects/wonder-wares/competitive-analysis-spider-chart-shopping-app.jpg" />
+            </picture>
+            <p class="ps black70">Competitive Analysis - Spider Chart</p>
+          </div>
+        </div>
+
+        <pcase
+        heading="Empathy Map"
+        para=" 
+         To gain deeper insights into how users think, feel, and behave during the toy shopping experience,
+         I created an Empathy Map based on research findings. This helped visualize user pain points,
+         motivations, and decision-making patterns. By categorizing what users say, think, do, and feel,
+         I was able to uncover key frustrations—such as feeling overwhelmed by choices, struggling to
+         find age-appropriate toys, or worrying about delivery delays.
+
+         <br>
+         <br>
+         The empathy map also highlighted positive experiences users seek, like personalized recommendations,
+         fast and hassle-free purchasing, and trust in product quality. These insights played a crucial role
+         in shaping the app’s design direction, ensuring that it not only meets functional needs but also
+         resonates with users emotionally.
+        "
+        theme="theme_wonderwares"
+      />
+    
   <div class="contain">
         <client-side>
           <agile>
@@ -156,19 +243,32 @@
           </agile>
         </client-side>
   </div>
-
+<br>
+<br>
   <pcase
-        heading="Personas"
-        para="Problem statement: <br>
-  Abhishek is a busy professional, Science teacher and early riser who needs a new bicycle
-  that can perfectly fits his specific needs related the safety and security because he wants
-  to able to focus on his health and fitness and also remain worry free from unwanted incidents.
+        heading="Define – Framing the Problem Statement"
+        para="After gathering insights from user research, the next step was to clearly define the core problems and user needs.
+        This phase helped frame the design challenges and set a strong foundation for the ideation and solution-building process.
+        By creating personas, user stories, and a well-defined problem statement, I ensured that every design
+        decision was driven by real user behaviors, frustrations, and goals.
+          "
+        theme="theme_wonderwares"
+      />
   
+      <pcase
+        heading="Persona"
+        para="To humanize the target users and their shopping journey, I created detailed personas
+        representing different types of toy shoppers. These included a busy parent looking for quick
+        and reliable toy recommendations and a thoughtful gift-giver unsure about the best toy choice.
+        The personas helped in defining pain points, motivations, and expectations, ensuring that the
+        app’s design caters to real-world shopping behaviors.
+
           "
         theme="theme_wonderwares"
       />
   
   
+
     <div class="contain">
       <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -206,24 +306,16 @@
         </div>
     </div>
       
-        <p class="contain just-para black90">
-        Saharsh is a busy sales student manager who needs Jargon free website, and
-        required search filters because he want online shopping to be fast and stress-free.
-      </p>
   
-      <div class="p-quote contain red">
-        <blockquote>
-         I have bought a new bicycle recently, when I was exploring bicycle
-         online, my biggest frustration was difficult word on bicycle details
-         that I had to google to understand.
-        </blockquote>
-      </div>
-       <!-- Preface -->
+
+       <!-- User Stories -->
       <pcase
-        heading="User Story"
+        heading="User Stories"
         para=" 
-         I created a user journey map of Abhishek experience using the site to
-         help identify possible pain points and improvement opportunities. 
+         To translate user needs into actionable design goals, I wrote user stories that reflect common toy shopping scenarios.
+         For example, “As a parent, I want to quickly find age-appropriate toys so that I can make a
+         purchase without spending hours researching.” These stories provided clarity on how different
+         users would interact with the app, what features they would rely on, and the value they expect. 
         "
         theme="theme_wonderwares"
       />
@@ -240,12 +332,12 @@
               />
               <img src="~assets/projects/wonder-wares/user-stories-wonder-wares-app.jpg" />
             </picture>
-            <p class="ps black70">User Journey Map</p>
+            <p class="ps black70">User Stories</p>
           </div>
         </div>
   
-    <br></br>
-     <br></br>
+    <br>
+     <br>
   
   <div class="contain">
       <div class="p-image-100-duo">
@@ -264,89 +356,69 @@
         </div>
     </div>
   
-     <pcase
-        heading="Starting the design
-  "
-        para="
-        Navigation difficulties were a major pain point for users,
-        so I used that insight to create a sitemap.
-        <br>
-        <br>
-  
-        My goal was to make strategic information architecture decisions that would enhance website navigation.
-        I designed the structure to be simple and intuitive.
-  
-  
-  .
-  
-        <br>
-        <br>
-  
-        Sitemap <br>
-        Paper wireframes 
-        Digital wireframes
-        Low-fidelity prototype
-        Usability studies
-  
+    <pcase
+        heading="Problem Statement"
+        para=" 
+         Toy shopping often becomes overwhelming, time-consuming, and confusing, especially when choosing
+         age-appropriate toys or finding the perfect gift. Users need a simplified, guided, and efficient
+         way to discover and purchase toys that suit their needs. How might we create a seamless toy-shopping
+         experience that offers smart recommendations, fast delivery options, and an intuitive user
+         interface to help users find the perfect toy effortlessly? 
+
+         <br>
+         <br>
+         By framing the problem clearly, I was able to align the design process with user needs,
+         ensuring that every feature solves a real challenge.
+        "
         theme="theme_wonderwares"
       />
   
-
-    
    
-        <div class="p-quote contain red">
+    <div class="p-quote contain red">
         <blockquote>
           Problem Statement: Parents and gift buyers struggle to find the right toys
           quickly due to overwhelming choices and unclear product information. This
           results in frustration and abandoned purchases.
         </blockquote>
       </div>
-  
 
-      <div class="p-image-100-duo">
-          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-    
-            <picture>
-              <!-- <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
-              /> -->
-              <img src="~assets/projects/wonder-wares/Competitive Analysis WonderWare Shopping App.jpg" />
-            </picture>
-            <p class="ps black70">Competitive Audit</p>
-          </div>
-        </div>
+<br>
+<br>
 
+     <pcase
+        heading="Ideation: Turning Insights into Concepts"
+        para="
+With a clear understanding of user needs and challenges, I started on
+brainstorming creative solutions to address the problem areas identified during research.
+Here I focused on generating multiple design concepts, refining ideas, and prioritizing
+features that would have the greatest impact on user experience. Through methods like:
+      <ul>
+        <li>Sketching Initial Concepts</li>
+        <li>Crazy 8s</li>
+        <li>Mind Mapping</li>
+        <li>Prioritisation Matrix</li>
+      </ul>
+ 
+  This structured yet flexible approach allowed me to explore a wide range of ideas before narrowing
+  them down into a refined direction, whcih will set the foundation for wireframing and prototyping.
+        <br>
 
-
-      <div class="p-image-100-duo">
-          <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-            <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-    
-            <picture>
-              <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/wonder-wares/competitive-analysis-spider-chart-shopping-app-mobile.jpg"
-              />
-              <img src="~assets/projects/wonder-wares/competitive-analysis-spider-chart-shopping-app.jpg" />
-            </picture>
-            <p class="ps black70">User Painpoints</p>
-          </div>
-        </div>
-
-  
+  "
+        theme="theme_wonderwares"
+      />
     
 
       <pcase
-        heading="Paper wireframes"
-        para="Next, I sketched out paper wireframes for each screen,
-        keeping the user pain points about navigation, browsing, and
-        checkout flow in mind.
+        heading="Initial Concepts & Crazy 8s"
+        para="To quickly generate a variety of possible solutions, I used the Crazy 8s technique, where I sketched eight different layout ideas in just eight minutes.
+        This fast-paced exercise pushed me to think beyond the obvious and explore innovative ways to design
+        the Smart Toy Finder quiz, product listing pages, and checkout flow. From different UI structures to
+        interactive elements, these sketches helped visualize how the app could guide users seamlessly through
+        the shopping journey..
           "
         theme="theme_wonderwares"
       />
-  
+
       <client-side>
         <agile>
           <div class="slide">
@@ -381,17 +453,30 @@
           
         </agile>
       </client-side>
-  
 
+  
+<!-- 
       <div class="p-quote contain red">
         <blockquote>
           Paper wireframes served multiple purposes. They helped me connect the site's information architecture
           to its visual design by mapping out paths between pages. They also established consistent ways to display specific types of
           information on the user interface and defined the intended functionality of the interface.
         </blockquote>
-      </div>
+      </div> -->
+
+
+      <pcase
+        heading="Mind Mapping"
+        para="To organize and refine ideas, I created a Mind Map, visually breaking down the app’s key features,
+        user interactions, and design priorities. This technique helped in structuring the app’s flow,
+        ensuring that all touchpoints—from searching for toys to receiving recommendations and
+        checking out—were intuitive and efficient. It also allowed me to connect user pain
+        points with potential solutions, ensuring a user-centered approach in every decision.
+          "
+        theme="theme_wonderwares"
+      />
   
-      
+
     <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -407,21 +492,22 @@
           </div>
         </div>
   
-  
-      <!-- Prioritisation Matrix -->
+    
   
         <pcase
         heading="Prioritisation Matrix"
-        para="Moving from paper to digital wireframes made it easy
-        to understand how the redesign could help address user pain
-        points and improve the user experience. Prioritizing useful button
-        locations and visual element placement on the home page was a key part
-        of my strategy.
-  
+        para="Finally,
+the With many ideas on the table, I needed to determine which features should be implemented first. Using a Prioritization Matrix,
+I evaluated each idea based on impact and feasibility, ensuring that high-value features like personalized
+toy recommendations, age-based filtering, and fast delivery options were given priority. Features
+that added value but were less critical, like social sharing or wishlist functionalities, were
+noted for future iterations.
         "
         theme="theme_wonderwares"
       />
     
+
+
    <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -437,18 +523,22 @@
           </div>
         </div>
   
-  <br></br>
-  <br></br>
+        <p class="contain just-para black90">
+
+      </p>
+
+  <br>
+  <br>
   
       <!-- Digital Wireframe -->
   
         <pcase
-        heading="Digital wireframes"
-        para="Moving from paper to digital wireframes made it easy
-        to understand how the redesign could help address user pain
-        points and improve the user experience. Prioritizing useful button
-        locations and visual element placement on the home page was a key part
-        of my strategy.
+        heading=" Prototype: Designing Wireframes & Interactive Mockups"
+        para="With all the research, findings, and pain points identified in the previous phase,
+        I began working on digital wireframes while focusing on the layout structure and key features
+        essential for a seamless experience. My goal was to create an interactive prototype to test
+        with users, gather insights from usability testing, and refine the design iteratively based
+        on their feedback.
   
         "
         theme="theme_wonderwares"
@@ -472,12 +562,24 @@
   
   <br></br>
   <br></br>
-  
+
+
    <p class="contain just-para black90">
         Here I have shown all the wireframe that was necessary to make for the user journey 
         to complete and so that later on I can do usability test connecting all these low fidelity
         digital wireframe.
       </p>
+      <pcase
+        heading="Digital Wireframe"
+        para="I started creating digital wireframes, where I sketched out the primary user
+        flows focusing on task completion and the Smart Toy Finder quiz. These wireframes mapped
+        out the core navigation, product browsing, toy recommendation quiz, and checkout process.
+        The goal was to ensure that users could seamlessly find, select, and purchase toys without
+        friction. At this stage, I concentrated on layout, hierarchy, and interaction flow, keeping the
+        design simple and functional.
+        "
+        theme="theme_wonderwares"
+      />
   
    <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
@@ -499,15 +601,15 @@
   
         <pcase
         heading="Low-fidelity prototype"
-        para="To create a low-fidelity prototype, I connected all of the
-        screens involved in the primary user flow of adding an item to the
-        cart and checking out.
+        para="Based on the digital wireframes, I built a low-fidelity prototype to test the
+        core functionalities. This interactive prototype allowed users to navigate through
+        the main shopping journey, interact with the Smart Finder quiz, and proceed through checkout.
+        <br>
         <br>
   
-        At this point, I had received feedback on my designs from my peers
-        and other visual designers about things like placement of buttons
-        and page organization. I made sure to listen to their feedback,
-        and I implemented several suggestions in places that addressed user pain points.
+        It was a crucial step before adding visual details, as it helped identify any early
+        usability issues and areas for improvement. I conducted initial user testing to gather quick
+        feedback on how intuitive the flow was.
         
   
         "
@@ -532,8 +634,11 @@
   
       <pcase
         heading="Usability study"
-        para="To create a low-fidelity prototype, I connected all of the screens
-        involved in the primary user flow of adding an item to the cart and checking out.
+        para="To ensure the design met user expectations, I conducted a usability study on the
+        low-fidelity prototype. The goal was to observe how users interacted with the interface
+        and identify any pain points or confusion they encountered.
+        The study helped in validating the navigation, ease of completing tasks,
+        and overall shopping experience.
   
         At this point, I had received feedback on my designs from my peers
         and other visual designers about things like placement of buttons
@@ -561,13 +666,16 @@
   
       <pcase
         heading="Usability study: findings"
-        para="The usability study revealed key pain points in the shopping experience, particularly in product discovery,
-        cart interaction, checkout, and account access. Users had trouble finding relevant filters on the product listing page,
-        lacked clear feedback when adding items to the cart, and faced difficulties selecting payment methods and copying address
-        details during checkout. Additionally, the absence of a seamless login option prevented users from pre-filling their billing
-        and shipping information. Addressing these issues will enhance navigation, improve user confidence, and create a more intuitive
-        shopping experience.
-        "
+        para="Key insights gathered from the usability study:
+              <ul>
+        <li>Users found the Smart Finder Quiz engaging, but some preferred more specific toy recommendations.</li>
+        <li>Navigation to categories needed improvements, as some users struggled to find the right filters.</li>
+        <li>Checkout flow needed clarity, especially around payment and delivery options.</li>
+        <li>Users appreciated the quick delivery feature, reinforcing the need for a
+          clear express delivery section.</li>
+      </ul>
+      These findings helped refine the design before moving to high-fidelity mockups."
+        These findings helped refine the design before moving to high-fidelity mockups.
         theme="theme_wonderwares"
       />
   
@@ -586,7 +694,7 @@
           </div>
         </div>
   
-  
+<!--   
       <pcase
         heading="Mockups"
         para="Based on insights from the usability study, I refined the filter options to
@@ -625,13 +733,15 @@
           
           
         </agile>
-      </client-side>
+      </client-side> -->
   
       <pcase
         heading="High Fidelity Mockups"
-        para="Bringing together research, user personas, and wireframes, I began adding details to each page, starting with the homepage to
-        establish a cohesive design theme. Once I was satisfied with its look and feel, I applied the same approach to other pages,
-        ensuring consistency and a smooth user flow. 
+        para="After implementing usability study feedback, I designed high-fidelity mockups, focusing on
+        visual appeal, accessibility, and branding. Colors, typography, and imagery were applied to
+        ensure the interface was both engaging and intuitive. The Smart Finder quiz was refined to be
+        more interactive and visually appealing, while the product browsing and checkout flow were
+        optimized for efficiency.
   
   
           <br><br>
@@ -764,13 +874,10 @@
       <pcase
         heading="High-fidelity prototype"
         para="
-          My hi-fi prototype followed the same user flow as the lo-fi
-          prototype, and included the design changes made after the
-          usability study, as well as several changes suggested by members of my team. 
-        <br>
-        <br>
-        View the Bikeshikes high-fidelity prototype
-              
+          With all refinements in place, I built the high-fidelity prototype, showcasing the final design
+          with interactions, animations, and UI enhancements. This prototype closely resembled the final
+          product and was tested with users to ensure a smooth and delightful experience. The final design
+          successfully streamlined the toy shopping process, making it fast, personalized, and user-friendly.
               "
         theme="theme_wonderwares"
       />
@@ -794,11 +901,13 @@
       <pcase
         heading="Accessibility Considerations"
         para="
-          While designing I have kept an eye on the accessibility
-          consideration like color contrast, Hierarchy and Layout,
-          typography and all those design principles.  It's always
-          easier to fix things that you uncover in the design process,
-          so it's best to consider accessibility upfront in the design process.
+          Accessibility was a key consideration throughout the design process to ensure that WonderWares
+          could be used by a diverse range of users, including those with disabilities. I focused on
+          elements like color contrast for readability, clear typography, and intuitive navigation to
+          enhance usability for individuals with visual impairments or cognitive differences. Additionally,
+          I incorporated voice search and screen reader-friendly labels to assist users who rely on assistive
+          technologies. Simplified interactions, large touch targets, and an inclusive design approach
+          ensured that the experience remained seamless for everyone, regardless of their abilities.
               "
         theme="theme_wonderwares"
       />
@@ -823,13 +932,11 @@
       <pcase
         heading="Going forward"
         para="
-          Moving from paper to digital wireframes made it
-          easy to understand how the redesign could help address
-          user pain points and improve the user experience. 
-        <br>
-        <br>
-        Prioritizing useful button locations and visual element placement on the
-        home page was a key part of my strategy.
+          As the project evolves, the focus will be on continuously improving the user experience
+          based on feedback and real-world usage. Monitoring user interactions, analyzing behavioral
+          patterns, and addressing any friction points will help refine the app further. Additionally,
+          exploring AI-driven recommendations and personalized toy suggestions will enhance engagement
+          and usability.
      "
         theme="theme_wonderwares"
       />
@@ -837,14 +944,12 @@
       <pcase
         heading="Takeaways"
         para="
-         Impact: <br>
-  The website makes users feel engaged with lots of product to explore with modern, simple and intuitive design.
-  
-  Our target users shared that the design was intuitive to navigate through, more engaging with the images, and demonstrated a clear visual hierarchy and users were able to easily sort products according to their need.
+         Understanding user needs through research helped shape an experience that is not only functional
+         but also intuitive and enjoyable. Testing and refining based on usability studies highlighted the
+         significance of small design choices in improving overall accessibility and efficiency.
    
         <br>
         <br>
-        What I learned:<br>
   I learned that even a small design change can have a huge impact on the user experience. The most important takeaway for me is to always focus on the real needs of the user when coming up with design ideas and solutions. 
   
      "
@@ -855,12 +960,15 @@
       <pcase
         heading="Next Step"
         para="
-          Moving from paper to digital wireframes made it
-          easy to understand how the redesign could help address
-          user pain points and improve the user experience. 
+          The next phase will involve further iterations based on additional usability testing,
+          optimizing the high-fidelity prototype, and preparing for development.
+          Expanding features like a voice-assisted smart finder and refining delivery options
+          based on user preferences will be key priorities to enhance the overall shopping experience.
      "
         theme="theme_wonderwares"
       />
+
+      <!-- add more features like  check matrix -->
   
       
       <div class="p-image-100-duo">
@@ -909,12 +1017,15 @@
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/cycling-collage-mobile.jpg"
-              />
-              <img src="~assets/projects/bikeshikes-ecommerce/cycling-collage.jpg" />
-            </picture>
+            <source
+              media="(max-width: 600px)"
+              srcset="~assets/projects/wonder-wares/wonder-wares-hero-image-3-mobile.jpg"
+            />
+            <img
+              src="~assets/projects/wonder-wares/wonder-wares-hero-image-3.jpg"
+              alt="shopping app, toy app, sapp mockcup"
+            />
+          </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
         </div>
