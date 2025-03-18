@@ -19,7 +19,7 @@
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="200"
-        >UX/UI Designer & Developer</div>
+        >UI/UX Designer & Developer</div>
       </div>
 
       <div
