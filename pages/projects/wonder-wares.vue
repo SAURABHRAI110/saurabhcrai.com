@@ -103,7 +103,7 @@
       
       <!-- Challenge -->
       <pcase
-        heading="Empathise: Understanding the user"
+        mainheading="Empathise: Understanding the user"
         para="
       I conducted user interviews with users who can be categarised as parents, gift-givers, who frequently shop for toys.
         The goal was to uncover pain points, shopping behaviors, and expectations when searching for the
@@ -175,10 +175,10 @@ superior solution in the market.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/competitive-analysis-wonderware-app-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/Competitive Analysis WonderWare Shopping App.jpg" />
             </picture>
             <p class="ps black70">Competitive Audit</p>
@@ -246,7 +246,7 @@ superior solution in the market.
 <br>
 <br>
   <pcase
-        heading="Define – Framing the Problem Statement"
+        mainheading="Define – Framing the Problem Statement"
         para="After gathering insights from user research, the next step was to clearly define the core problems and user needs.
         This phase helped frame the design challenges and set a strong foundation for the ideation and solution-building process.
         By creating personas, user stories, and a well-defined problem statement, I ensured that every design
@@ -339,7 +339,7 @@ superior solution in the market.
     <br>
      <br>
   
-  <div class="contain">
+
       <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -347,14 +347,13 @@ superior solution in the market.
             <picture>
               <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/user-painpoints-mobile.jpg"
+                srcset="~assets/projects/wonder-wares/pain-points-wonder-ware-app-mobile.jpg"
               />
-              <img src="~assets/projects/bikeshikes-ecommerce/User PainPoints.jpg" />
+              <img src="~assets/projects/wonder-wares/pain-points-wonder-ware-app.jpg" />
             </picture>
             <p class="ps black70">User Painpoints</p>
           </div>
         </div>
-    </div>
   
     <pcase
         heading="Problem Statement"
@@ -386,7 +385,7 @@ superior solution in the market.
 <br>
 
      <pcase
-        heading="Ideation: Turning Insights into Concepts"
+        mainheading="Ideation: Turning Insights into Concepts"
         para="
 With a clear understanding of user needs and challenges, I started on
 brainstorming creative solutions to address the problem areas identified during research.
@@ -533,7 +532,7 @@ noted for future iterations.
       <!-- Digital Wireframe -->
   
         <pcase
-        heading=" Prototype: Designing Wireframes & Interactive Mockups"
+        mainheading=" Prototype: Designing Wireframes & Interactive Mockups"
         para="With all the research, findings, and pain points identified in the previous phase,
         I began working on digital wireframes while focusing on the layout structure and key features
         essential for a seamless experience. My goal was to create an interactive prototype to test
@@ -543,7 +542,20 @@ noted for future iterations.
         "
         theme="theme_wonderwares"
       />
-    
+  
+
+      <pcase
+        heading="Digital Wireframe"
+        para="I started creating digital wireframes, where I sketched out the primary user
+        flows focusing on task completion and the Smart Toy Finder quiz. These wireframes mapped
+        out the core navigation, product browsing, toy recommendation quiz, and checkout process.
+        The goal was to ensure that users could seamlessly find, select, and purchase toys without
+        friction. At this stage, I concentrated on layout, hierarchy, and interaction flow, keeping the
+        design simple and functional.
+        "
+        theme="theme_wonderwares"
+      />
+
    <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -564,23 +576,14 @@ noted for future iterations.
   <br></br>
 
 
-   <p class="contain just-para black90">
+  
+
+      <p class="contain just-para black90">
         Here I have shown all the wireframe that was necessary to make for the user journey 
         to complete and so that later on I can do usability test connecting all these low fidelity
         digital wireframe.
       </p>
-      <pcase
-        heading="Digital Wireframe"
-        para="I started creating digital wireframes, where I sketched out the primary user
-        flows focusing on task completion and the Smart Toy Finder quiz. These wireframes mapped
-        out the core navigation, product browsing, toy recommendation quiz, and checkout process.
-        The goal was to ensure that users could seamlessly find, select, and purchase toys without
-        friction. At this stage, I concentrated on layout, hierarchy, and interaction flow, keeping the
-        design simple and functional.
-        "
-        theme="theme_wonderwares"
-      />
-  
+
    <div class="p-image-100-duo">
           <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
@@ -600,7 +603,7 @@ noted for future iterations.
   <!-- Low fi fidelity prototype -->
   
         <pcase
-        heading="Low-fidelity prototype"
+        heading="Low-fidelity Prototype"
         para="Based on the digital wireframes, I built a low-fidelity prototype to test the
         core functionalities. This interactive prototype allowed users to navigate through
         the main shopping journey, interact with the Smart Finder quiz, and proceed through checkout.
@@ -633,7 +636,7 @@ noted for future iterations.
         </div>
   
       <pcase
-        heading="Usability study"
+        heading="Usability Study"
         para="To ensure the design met user expectations, I conducted a usability study on the
         low-fidelity prototype. The goal was to observe how users interacted with the interface
         and identify any pain points or confusion they encountered.
@@ -656,24 +659,18 @@ noted for future iterations.
             <picture>
               <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/usability-study-parameters-mobile.jpg"
+                srcset="~assets/projects/wonder-wares/usability-study-parameters-mobile.jpg"
               />
-              <img src="~assets/projects/bikeshikes-ecommerce/usability-study-parameters.jpg" />
+              <img src="~assets/projects/wonder-wares/usability-study-parameters.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
         </div>
   
       <pcase
-        heading="Usability study: findings"
-        para="Key insights gathered from the usability study:
-              <ul>
-        <li>Users found the Smart Finder Quiz engaging, but some preferred more specific toy recommendations.</li>
-        <li>Navigation to categories needed improvements, as some users struggled to find the right filters.</li>
-        <li>Checkout flow needed clarity, especially around payment and delivery options.</li>
-        <li>Users appreciated the quick delivery feature, reinforcing the need for a
-          clear express delivery section.</li>
-      </ul>
+        heading="Usability Study: Findings"
+        para="Key insights gathered from the usability study are listed below.
+
       These findings helped refine the design before moving to high-fidelity mockups."
         These findings helped refine the design before moving to high-fidelity mockups.
         theme="theme_wonderwares"
@@ -686,9 +683,9 @@ noted for future iterations.
             <picture>
               <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/usability-study-findings-mobile.jpg"
+                srcset="~assets/projects/wonder-wares/usability-study-findings-mobile.jpg"
               />
-              <img src="~assets/projects/bikeshikes-ecommerce/usability-study-findings.jpg" />
+              <img src="~assets/projects/wonder-wares/usability-study-findings.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
@@ -758,10 +755,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/bikeshikes-ecommerce/Multidevice-mockup-3-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-1-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-1.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -776,10 +773,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-2-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-2.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -793,10 +790,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-3-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-3.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -810,10 +807,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-4-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-4.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -827,10 +824,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-5-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-5.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -844,10 +841,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-6-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-6.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -860,10 +857,10 @@ noted for future iterations.
             <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
     
             <picture>
-              <!-- <source
+              <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
-              /> -->
+                srcset="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-7-mobile.jpg"
+              />
               <img src="~assets/projects/wonder-wares/hifi-mockup-wonderwares-app-7.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
@@ -920,9 +917,9 @@ noted for future iterations.
             <picture>
               <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+                srcset="~assets/projects/wonder-wares/accessibility-considerations-wonder-wares-app-mobile.jpg"
               />
-              <img src="~assets/projects/bikeshikes-ecommerce/Accessibility considerations.jpg" />
+              <img src="~assets/projects/wonder-wares/accessibility-considerations-wonder-wares-app.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
@@ -978,9 +975,9 @@ noted for future iterations.
             <picture>
               <source
                 media="(max-width: 600px)"
-                srcset="~assets/projects/salesfactory/salesfactoryl-colors-typo-mobile.jpg"
+                srcset="~assets/projects/wonder-wares/next-step-wonder-wares-app-mobile.jpg"
               />
-              <img src="~assets/projects/bikeshikes-ecommerce/next-step.jpg" />
+              <img src="~assets/projects/wonder-wares/next-step-wonder-wares-app.jpg" />
             </picture>
             <!-- <p class="ps black70">Low-fidelity prototype Page connection in Adobe XD</p> -->
           </div>
@@ -997,7 +994,7 @@ noted for future iterations.
           <br>
           <br>
          There’s a common belief that digital products should be strictly minimalist and functional,
-         but my experience tells me otherwise. Users don’t just want to solve problems—they also want
+         but my experience tells me otherwise. Users don’t just want to solve problems, they also want
          to enjoy the experience while doing it. Striking that balance between functionality and aesthetics
          was my responsibility as a UI/UX designer on this project.
           <br>
@@ -1039,20 +1036,22 @@ noted for future iterations.
   
             <div class="pm black70">
               <div class="kf-layout">
-                <span>✔ Research</span>
-                <span>✔ Ideation</span>
-                <span>✔ Taking Design Meetings</span>
-                <span>✔ Collaborating with Content writers</span>
-                <span>✔ User personas</span>
-                <span>✔ Lots of IceTea</span>
-                <span>✔ Taken Stress</span>
-                <span>✔ Made Wireframe</span>
-                <span>✔ Structured User Journey</span>
-                <span>✔ Worked in nights</span>
-                <span>✔ Branding</span>
-                <span>✔ Testing with Users</span>
+                <span>✔ User Research</span>
+                <span>✔ Competitive Analysis</span>
+                <span>✔ Mind Mapping & Crazy 8s</span>
+                <span>✔ Wireframing & Prototyping</span>
+                <span>✔ Smart Quiz Design</span>
+                <span>✔ Usability Testing</span>
+                <span>✔ High-Fidelity Mockups</span>
+                <span>✔ User Journey Mapping</span>
+                <span>✔ Branding & UI Design</span>
+                <span>✔ Accessibility Checks</span>
+                <span>✔ Late Night Work</span>
+                <span>✔ Design Meetings</span>
                 <span>✔ Defending UX Decisions</span>
-                <span>✔ Pop and un-pop things</span>
+                <span>✔ Collaboration</span>
+                <span>✔ Iteration & Testing</span>
+                <span>✔ Lots of Fun</span>
               </div>
             </div>
           </div>

@@ -8,6 +8,7 @@
         data-aos-once="true"
       ></div>
       <h2 class="p-para black50">{{heading}}</h2>
+      <h2 class="p-para pthemecolor">{{mainheading}}</h2>
     </div>
     <!-- reveal-block red right" data-aos="reveal-right" data-aos-once="true" -->
     <p
@@ -24,6 +25,7 @@
 <script>
 export default {
   props: {
+    mainheading: String,
     heading: String,
     para: String,
     theme: String

@@ -2691,6 +2691,10 @@ color: #0088ff !important;
   background: linear-gradient(45deg, #7F5BC7 0%, #C35BC7 100%);
 }
 
+.pthemecolor {
+  color: #A15BC7;
+}
+
 /* meeting rooms */
 
 
