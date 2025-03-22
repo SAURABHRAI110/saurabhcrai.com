@@ -3122,11 +3122,14 @@ primary #8e55ff
 .p-image-100-duo img {
   width: 100%;
 
-
 }
+
 .p-image-100-duo > div {
   width: 100%;
 
+}
+.p-image-100-duo video {
+  width: 100%;
 
 }
 
@@ -3223,6 +3226,23 @@ primary #8e55ff
   left: -60px;
   font-size: 70px;
   font-style: normal;
+}
+
+
+
+@media screen and (max-width: 999px) {
+  .p-quote blockquote {
+    width: 100%;
+    max-width: 100%;
+    font-size: 28px;
+    line-height: 140%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .p-quote blockquote {
+    font-size: 28px;
+    line-height: 130%;
+  }
 }
 
 .elevito-research-sec {

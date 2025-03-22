@@ -38,7 +38,7 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ft-event" data-aos="reveal-right"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero-2.jpg" />
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero-2-mobile.jpg" />
           <img src="~assets/projects/ft-event/ft-event-hero-2.jpg" alt />
         </picture>
       </div>
@@ -137,7 +137,6 @@
     <!-- Ideation and Research -->
 
     <pcase
-      class="ft-event-research-sec"
       heading="Research and Ideation"
       para="After thorough research, we planned how users would interact with the platform and
       identified ways to monetize it. This helped us create a clear website structure and site map
@@ -472,9 +471,8 @@ We also developed a simple habit loop considering each user type.
         <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
           <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
           <picture>
-            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero-2.jpg" />
+            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero-2-mobile.jpg" />
             <img src="~assets/projects/ft-event/ft-event-hero-2.jpg" alt="Event Web Mockup" />
-            <p class="ps black60">FT Event Team</p>
           </picture>
         </div>
       </div>

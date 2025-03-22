@@ -58,33 +58,52 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" BBD Times is my proudest work so far and It will be forever. It is one that got me where I am today. On 17 October 2015, I joined TBT Team,  from theb I wore many hats. 
-      Earlier I was responsible from creating Social Media posts, posters, flexes. The beginning I work on the UI Design of 
-      The BBD TIMES Android App. See its showcase here. I managed its facebook Page. Instagram Page. Had to collaborate with content writers, developers and other designers.
-      During my time Here (3 years) I learned The basics of design, principals and all and I applied them in my creatives.
-      I have to say it was a wonderful journey. It was the beginning, the beginning of something awesome. We were 26 talented people
-      working as family, as a team, It was the best time. I made friends for life."
+      para="BBD Times is my proudest work so far, and it will always be. It is the project that got me
+      where I am today. On October 17, 2015, I joined the TBT Team, and from there, I wore many hats.
+      <br>
+      <br>
+
+In the beginning, I was responsible for creating social media posts, posters, and flexes. Later,
+I worked on the UI design of The BBD TIMES Android app. See its showcase here. I also managed its
+Facebook and Instagram pages, collaborating with content writers, developers, and other designers.
+ <br>
+      <br>
+During my three years here, I learned the fundamentals of design, principles, and execution, applying
+them in my creative work. We were 26 talented people working as a family, as a team. It was the best time, and I made friends for life.
+It was the beginning, the beginning of something awesome."
       theme="theme_tbt"
     />
-    <div class="p-quote contain red">
-      <blockquote>Life is a journey with problems to solve and lessons to learn but most of all. Experiences to enjoy.</blockquote>
-    </div>
 
-    <!-- Reasearch -->
+    
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/tbt/bbd-times-archive.jpg" />
+          <img src="~assets/projects/tbt/bbd-times-archive.jpg" />
+          <p class="ps black80">The BBD Times- Archives</p>
+        </picture>
+      </div>
+    </div>
+    <!-- <div class="p-quote contain red">
+      <blockquote>Life is a journey filled with challenges to overcome, lessons to learn,
+        and, most importantly, experiences to cherish.</blockquote>
+    </div> -->
+<!-- 
     <pcase
       heading="2015-2018"
       para=" 2015, my second year of college, The team worked on its app. The BBD Times app was an initiative by the students of BBD which ensures
       the connectivity of all campus of BBD and all communities by reaching to the base level. I designed the app logo and its structure and
       icons, graphics, layout."
       theme="theme_tbt"
-    />
+    /> -->
 
     <pcase
       heading="Branding"
-      para=" My first approach to understanding medical residents is through emphasizing with their experiences
-             by conducting user interviews and participating in field studies at Imagine Clinic. This consisted
-             of asking qualitative questions such as their workflow to even the intimate details of their
-             personal life."
+      para=" Branding was key to making BBD Times stand out. I designed the logo, colors,
+      and graphics to create a clean and modern look that students and faculty could connect with.
+      The goal was to keep everything consistent and recognizable across the app, website, and social media.
+      This helped build trust and made BBD Times a familiar and reliable platform for campus news."
       theme="theme_tbt"
     />
 
@@ -93,7 +112,8 @@
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-01-mobile.jpg" />
-          <img src="~assets/projects/tbt/tbt-01.jpg" />
+          <img src="~assets/projects/tbt/tbt-01.jpg" alt="The BBD Times Logo" />
+          <p class="ps white">The BBD Times Logo</p>
         </picture>
       </div>
     </div>
@@ -104,12 +124,24 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-02-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-02.jpg" />
+          <p class="ps black80">The BBD Times- All Domains</p>
         </picture>
       </div>
     </div>
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <video autoplay loop muted>
+          <source src="~assets/projects/tbt/tbt logos animation.mp4" type="video/mp4" />
+          
+        </video>
+        <p class="ps white">Logos Animation Intro</p> 
+      </div>
+    </div>
+
     <pcase
-      heading="Proposals "
+      heading="Event Proposals Design "
       para="We organized many events in college and to land some sponsors I designed
       proposals and marketing materials. The undermentioned proposals was for a Patriotic event.
       "
@@ -122,6 +154,7 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-03-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-03.jpg" />
+          <p class="ps black80">Dastan-e-veer Event Proposal Design</p>
         </picture>
       </div>
     </div>
@@ -148,10 +181,17 @@
 
     <pcase
       heading="BBD Times Brand Identity"
-      para="At the times I was doing all this I doesnt even knew that these all comes under Brand Identity. Building a brand identity is a multi-disciplinary
-      strategic effort, and every element needs to support the overall message and  goals and purpose. 
-      Now so that i know, I have say. We were successful in creating a positive brand image through out college. The work we were doing
-      were appceated by facuilty, administrators and students look upon us. We were no doubt created a positive impact. 
+      para="When I was working on BBD Times, I didn’t even realize that what I was doing fell under brand identity.
+      I was simply focused on creating something meaningful and impactful. Looking back, I now understand that
+      building a brand identity is a strategic process where every design element, message, and interaction
+      contributes to the overall perception of the brand.
+      <br>
+      <br>
+      Our efforts in design, communication, and engagement successfully shaped a strong and positive
+      brand presence within the college. The app, social media presence, and visuals we created were
+      well-received by students, faculty, and administrators. People started recognizing our work,
+      and BBD Times became a familiar and trusted name on campus. It was more than just a platform,
+      it started a connect to entire college community.
       "
       theme="theme_tbt"
     />
@@ -162,6 +202,7 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-08-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-08.jpg" />
+          <p class="ps black80">Brand Identity</p>
         </picture>
       </div>
     </div>
@@ -172,6 +213,7 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-06-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-06.jpg" />
+          <p class="ps white">Members Id Card</p>
         </picture>
       </div>
     </div>
@@ -215,6 +257,7 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-11-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-11.jpg" />
+          <p class="ps black70">T-Shirt Design</p>
         </picture>
       </div>
     </div>
@@ -241,9 +284,10 @@
 
     <pcase
       heading="Online Creatives"
-      para="These are the some of the posters that i created suri g my time in BBD Times. 
-      There was a whole list of iportant days, birthday posts, latest happenings related post, posters, flexed anything that revovle around
-      design come to me. 
+      para="These are some of the creatives I created during my time at BBD Times.
+      There was a long list of important days, birthday posts, updates on the latest happenings, event posters, flex designs—anything
+      related to design came to me. It was a great experience handling all creative aspects and ensuring our visuals effectively
+      communicated with the college community. 
       "
       theme="theme_tbt"
     />
@@ -264,6 +308,7 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-13-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-13.jpg" />
+          <p class="ps black70">Sponsorship Proposal Design</p>
         </picture>
       </div>
     </div>
@@ -274,6 +319,7 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-14-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-14.jpg" />
+          <p class="ps black70">Promotional Posters</p>
         </picture>
       </div>
     </div>
@@ -284,10 +330,16 @@
         <picture>
           <source media="(max-width: 600px)" srcset="~assets/projects/tbt/tbt-15-mobile.jpg" />
           <img src="~assets/projects/tbt/tbt-15.jpg" />
+          <p class="ps black70">Big Promotional Flyer</p>
         </picture>
       </div>
     </div>
-    <pcase heading="TBT Gallery" para="A team with thousand of memories." theme="theme_tbt" />
+    <pcase heading="TBT Gallery"
+    para=" A group of passionate and driven individuals, each bringing unique skills to the table.
+    From designers and writers to developers and strategists, we worked together like a family, pushing each other to create
+    something meaningful. The gallery showcases moments of teamwork, laughter, and the incredible journey we shared—memories
+    that will always hold a special place in my heart."
+    theme="theme_tbt" />
     <!-- key Focus Area -->
     <no-ssr>
       <agile>
@@ -302,7 +354,19 @@
           <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-3.jpg" alt="slider2" />
         </div>
       </agile>
+      
     </no-ssr>
+
+
+    <div class="p-quote contain red">
+      <blockquote>
+        While all those time I began to realize how important it was to be an enthusiast in life.
+        Time has taught me that if you are interested in something, no matter what it is,
+        go at it at full speed ahead. Embrace it with both arms, hug it,
+        love it and above all become passionate about it.
+      </blockquote>
+    </div>
+
 
     <div class="keyfocus">
       <div class="content">
@@ -334,32 +398,6 @@
     </div>
 
     <!-- conclusion -->
-
-    <div class="Takeaway">
-      <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
-        <div class="pm black70">
-          <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div class="p-quote contain red">
-      <blockquote>
-        “While all those time I began to realize how important it was to be an enthusiast in life.
-        Time has taught me that if you are interested in something, no matter what it is,
-        go at it at full speed ahead. Embrace it with both arms, hug it,
-        love it and above all become passionate about it.
-      </blockquote>
-    </div>
 
     <!-- End Line  -->
 
