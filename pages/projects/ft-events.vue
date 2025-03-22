@@ -22,35 +22,36 @@
       pDate="March 2019 "
       pWebsite="feedingtrends.com"
       pCategory="Product Design"
-      pHeading="Plateform to create, share, find and attend events in India"
+      pHeading="Building an Event Platform for Attendees, Creators, and Admins to Discover,
+      Manage, and Engage with Events Seamlessly in India"
       pHeadingcolor="color:rgb(0, 143, 214);"
-      pSubheading="My job: Enriching the portal with best user experience."
+      pSubheading="Simplifying the event journey to discover, create, and manage with ease."
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
       <img src="~assets/projects/fe/fe1.png" alt>
     </div>-->
 
-    <ScrollDown />
+    <!-- <ScrollDown /> -->
 
     <div class="p-fe-hero_image">
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_ft-event" data-aos="reveal-right"></div>
         <picture>
-          <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero.jpg" />
-          <img src="~assets/projects/ft-event/ft-event-hero.jpg" alt />
+          <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero-2.jpg" />
+          <img src="~assets/projects/ft-event/ft-event-hero-2.jpg" alt />
         </picture>
       </div>
     </div>
 
     <Preface
-      timeframe=" Feb 2019- March 2019
-              <br />1 month"
+      timeframe=" Feb 2019- April 2019
+              <br />2 month"
       tools=" Adobe XD, Adobe Illustrator
-              <br /> Dropbox Paper, Flinto, markers"
+              <br /> Dropbox Paper, Flinto, Markers"
       role=" UI/UX
               <br />Research, Content Strategy"
-      team=" Me-UX, Shekhar-Dev
+      team=" Me-UX, Shekhar-Devlopment
               <br />Yash/Zainab-Managing"
     />
 
@@ -60,37 +61,35 @@
       
     -->
     <!-- Preface -->
-    <pcase
-      heading="events.feedingtrends.com"
-      para=" 
-       Founded in 2017, Feeding Trends is a young company that provides digital content and web-based industry solutions.
-
-Feeding Trends website supports organisers via its cost effective event ticketing solutions, and engages people via articles & stories published on it.
-      "
-      theme="theme_ft-event"
-    />
+    
     <pcase
       heading="Preface"
       para=" 
-        I was on the team for almost two years as the lead designer. During that time I
-        worked with company co-founders, developers, content-writers, designers to completely overhaul the
-        design to create new  design system, create new features to fit our
-        customers needs, and most importantly,
-        design new features to create a better experience for every project I worked on. FT Event was one of the company Internal Project.
+      Founded in 2017, Feeding Trends is a young company that provides digital content and web-based
+       industry solutions. The Feeding Trends website supports organizers with cost-effective event
+       ticketing solutions and engages users through published articles and stories.
+
+       <br>
+       <br>
+        I was part of the team for almost two years as the lead designer. During that time,
+        I worked closely with the company’s co-founders, developers, content writers, and designers
+        to completely overhaul the design, establish a new design system, and introduce features that
+        aligned with customer needs. Most importantly, I focused on enhancing user experience across
+        all projects I contributed to. One of the key internal projects I worked on was FT Event.
         <br><br>
-        FT Event is about event website where user can book tickets and create event. 
-        Using FT Events to the Beat website, users can register for the events, Book tickets,
-        Create Event and manage the event or ticket
-        from its dash board. In addition to finding information on past and future events,
-        event results, image gallery, charity event organizers,
-        participating musicians, register for the Feeding Trends exclusive advertisement, and more.
+        FT Event is an event platform where users can book tickets and create events.
+        Through the FT Events website, users can register for events, purchase tickets, create
+        and manage events, and oversee ticketing from a dedicated dashboard. Additionally, the platform
+        provides access to information about past and upcoming events, event results, image galleries,
+        charity event organizers, participating musicians, exclusive Feeding Trends advertisements, and more
 
         <br>
         <br>
         
-        Feeding Trends- Events is in Development stage right now, I delivered the design already,
-      This case study is all about that. Because its in development stage, the final product most probably will be different from what  I designed.
-      So lets hope, FT Events came as awesome as we have thought so. Shekhar and team is working really hard right now.
+        This case study captures the design work I delivered for FT Events five years ago.
+        At that time, the platform was still in development, and the final product might have evolved
+        from my initial designs. Looking back, I hope the project turned out as envisioned, and I
+        appreciate the hard work Shekhar and the team put into bringing it to life.
       "
       theme="theme_ft-event"
     />
@@ -105,10 +104,18 @@ Feeding Trends website supports organisers via its cost effective event ticketin
     <!-- Backstory -->
 
     <pcase
-      heading="Challenge 🥴 "
-      para="Well, the most challenging part was the make the event portal feel like the part of feeding Trends,
-        and yet make it different. Got it! I hope mot. Well me too. Because Feeding Trends have a already existing website and brand guidelines.
-        It was really challenging. The existing website and the event portal have different purpose and target user. 
+      heading="Challenge"
+      para="The biggest challenge was making the event portal feel connected to Feeding
+      Trends while keeping it unique. Since Feeding Trends already had a website and brand
+      identity, the event portal needed to blend in while standing out.
+
+      <br>
+      <br>
+
+      Additionally, the event booking space is highly competitive, with many
+      platforms offering similar services. The goal was to create something intuitive and
+      simple yet engaging enough to attract users, encourage event discovery, and make ticket
+      booking seamless. Balancing familiarity, uniqueness, and usability was the key challenge.
         "
       theme="theme_ft-event"
     />
@@ -121,10 +128,6 @@ Feeding Trends website supports organisers via its cost effective event ticketin
         was cool for the moment but that can not be used to used on web.
     <br>3. No copywrite, no information architecture."-->
 
-    <p class="contain just-para black90">
-      Also, there is many competitor in the same niche, and i was not easy to have something that is similar yet
-      simple and intuitive and make user come to website and let them discover events and book tickets.
-    </p>
 
     <!-- <img
         class="p-image-100"
@@ -135,30 +138,29 @@ Feeding Trends website supports organisers via its cost effective event ticketin
 
     <pcase
       class="ft-event-research-sec"
-      heading="Ideation and Research"
-      para="After some deep research and coming with a strategy of monetizing the same and the discussing all the
-        possible scenario how a user will interact with the website. We came up with website architecture and site map.
+      heading="Research and Ideation"
+      para="After thorough research, we planned how users would interact with the platform and
+      identified ways to monetize it. This helped us create a clear website structure and site map
+      for a smooth experience.
         
         <br><br>
-        On our past experience, the problem and challenges faced during making feedingtrends content website, 
-        We decided to follow google material guidelines and so that development and design can go long way and we can easily
-        implement a functional even website.
+        From our past experience with Feeding Trends, we learned the challenges of building a
+        content platform. To keep the design simple and scalable, we followed Google’s Material
+        Design Guidelines, making development and implementation easier.
         
+        <br>
+        <br>
+        After the initial findings and research, I decided to coordinate a Google Design Sprint to
+        align the team on how we could encourage users to share events on other platforms while
+        keeping the experience intuitive. I gathered people from product, engineering, customer success,
+        and marketing for a 5-day sprint where we ideated, sketched, discussed, designed, and tested our
+        concept with customers to gather real insights.
+
         "
       theme="theme_ft-event"
     />
 
-    <pcase
-      heading="Design Sprint"
-      para="After the initial findings and research, I decided to coordinate a Google Design Sprint to get the team aligned
-      on how we could get our users to share event on other existing platform and make the whole experience as intuitive as possible.
-      I was able to get folks from product, engineering, customer success, and marketing in a room for 5 days.
-        <br><br>
-        Together we ideated, sketched, discussed, designed, and tested our concept with customers to get concrete data.
-        
-        "
-      theme="theme_ft-event"
-    />
+    
 
     <client-side>
       <agile>
@@ -174,6 +176,14 @@ Feeding Trends website supports organisers via its cost effective event ticketin
           <img
             class="slide-img"
             src="~assets/projects/ft-event/ft-events-ideation-2.jpg"
+            alt="feeding trends ideation"
+          />
+        </div>
+
+        <div class="slide">
+          <img
+            class="slide-img"
+            src="~assets/projects/ft-event/ft-events-ideation-3.jpg"
             alt="feeding trends ideation"
           />
         </div>
@@ -206,16 +216,91 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       </div>
     </div>
 
-    <pcase
-      heading="THREE USER TYPES"
-      para="On our research and findings we concluded that the portal will have 3 user types i.e. Normal visitor, event creator, admin. Normal Users (Who is going ti visit the website and buy
-      tickets for events), Creator (Who will publish event thorough our platform), and then Admin(who will
-      manage the event listing, tickets sale authorize users and curators). <br><br>
-        Each role has different objectives and even slightly different experiences.
-        <br>
-        <br>
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+              <source
+                media="(max-width: 1000px)"
+                srcset="~assets/projects/ft-event/ft-event-problem-statement-mobile.svg"
+              />
+              <img src="~assets/projects/ft-event/ft-event-problem-statement.svg" />
+              <!-- <p class="ps black90">Normal user habit loop</p> -->
+            </picture>
+      </div>
+    </div>
 
-         We came up with a simple habit loop. Discover, Share with friends, Book ticket for them, Go to event, Repeat.
+
+    <pcase
+      heading="Competitive Analysis"
+      para="I analyzed event booking platforms like Townscript, 10Times, Insider, Eventbrite,
+      and Paytm Events to understand their strengths and weaknesses. Eventbrite had a smooth
+      event creation process, while Insider offered great personalized recommendations. Paytm
+      Events was strong in payments but lacked an intuitive user experience. 10Times focused on
+      business events but felt cluttered, and Townscript had a good ticketing system but needed
+      better event discovery. These insights helped us create a simple, user-friendly platform with
+      improved event browsing, booking, and management."
+      theme="theme_ft-event"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/ft-event/competitor-websites-mobile.jpg"
+              />
+              <img src="~assets/projects/ft-event/competitor-websites.jpg" />
+              <!-- <p class="ps black90">Normal user habit loop</p> -->
+            </picture>
+      </div>
+    </div>
+
+    <pcase
+      heading="User Types"
+      para="Through our research, we identified three main user types for the event booking platform:
+      <ul>
+        <li>Normal Visitors (Attendees) – Users who visit the platform to explore and buy tickets for events. </li>
+        <li>Event Creators (Organizers) – Individuals or businesses who publish and manage events.</li>
+        <li>Admins – Moderators who oversee event listings, ticket sales, and user authentication.</li>
+      </ul>
+
+
+Each user type has different objectives and slightly different experiences on the platform.
+
+We also developed a simple habit loop considering each user type.
+      "
+      theme="theme_ft-event"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+              <source
+                media="(max-width: 800px)"
+                srcset="~assets/projects/ft-event/ft-event-habit-loop-mobile.svg"
+              />
+              <img src="~assets/projects/ft-event/ft-event-habit-loop.svg" />
+              <p class="ps black90">Habit Loops</p>
+            </picture>
+      </div>
+    </div>
+
+
+
+    <pcase
+      heading="Site Architecture"
+      para="The platform was designed with a clear and intuitive structure to ensure a smooth experience for
+      all user types, Attendees, Event Organizers, and Admins.
+            <ul>
+        <li>Attendees can browse, book, and manage their tickets seamlessly.</li>
+        <li>Organizers have a dedicated dashboard to create, promote, and track event performance.</li>
+        <li>Admins get a powerful control panel to approve events, monitor transactions, and manage platform policies.</li>
+      </ul>
+    With this way each user type can navigate effortlessly while keeping the platform scalable and efficient.
+     
       "
       theme="theme_ft-event"
     />
@@ -233,65 +318,16 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       </div>
     </div>
 
-    <pcase
-      heading="Normal Visitor or user"
-      para="Normal user who will visit the website where he/she will browse through listed event. Select a event, will 
-      create an account and buy tickets using payment portal. His tickets details will be added to his user profile dashboard.
-     
-
-
-      "
-      theme="theme_ft-event"
-    />
-
-
-
-    <div class="p-image-100-duo">
-      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
-        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
-        <picture>
-              <source
-                media="(max-width: 600px)"
-                srcset="~assets/projects/ft-event/ft-event-habit-loop-mobile.svg"
-              />
-              <img src="~assets/projects/ft-event/ft-event-habit-loop.svg" />
-              <p class="ps black90">Normal user habit loop</p>
-            </picture>
-      </div>
-    </div>
-
-    <pcase
-      heading="The Creator Experience"
-      para="The event creator is the Entertainment Provider in a sense. They Choose what type of
-        event are they organizing, what are their possible audience,  and push the event to audience.
-        They can see the performance of their event, Sales record etc. on the ft event website.
-      "
-      theme="theme_ft-event"
-    />
-    <pcase
-      heading="The Admin Experience"
-      para="Admins at the company are then able to dig into demographic insights
-        on the types of professionals that are engaging with their content the most and
-        how they could leverage their event creator to reach a particular audience.
-
-        <br><br>
-        The first tab of the Analytics page for admins let them see how their curators
-        are performing. Is there enough broadcasted event for their users to share? Which categories
-        are listed to the most, and what's getting the most engagements?
-      "
-      theme="theme_ft-event"
-    />
 
     <pcase
       heading="User Interface Design"
-      para="Putting everything together from the research, user personas, wireframes. I moved the begin
-      to design UI Elements like tabs, search, links, contents. 
+      para="After finalizing research, user personas, and wireframes, I started designing key UI elements
+      like tabs, search, and content layouts.
 
 
         <br><br>
-        I was very clear to me to always provide next steps so that users can deduce naturally, whatever their context.
-        Because the best interface is no interface, to offer users the most direct,
-        accessible, comfortable control (and best experience).
+        My goal was to make the experience smooth and intuitive, guiding users naturally without confusion.
+        The best design is the one users don’t have to think about—it just works.
       "
       theme="theme_ft-event"
     />
@@ -304,30 +340,87 @@ Feeding Trends website supports organisers via its cost effective event ticketin
             src="~assets/projects/ft-event/ft-event-all-web-pages.jpg"
             alt="website web pages design"
           />
-          <p class="ps black90">All pages</p>
+          <p class="ps black90">All Screens</p>
+        </picture>
+      </div>
+    </div>
+
+
+    <pcase
+      heading="Attendee Experience"
+      para="Attendees come to the platform to find and book events. The process is simple, browse events,
+      buy tickets, and get updates.
+      "
+      theme="theme_ft-event"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft-event/ft-event-attendees-hifi-mockups.jpg"
+            alt="event attendees website web page design"
+          />
+          <!-- <p class="ps black90">All pages</p> -->
         </picture>
       </div>
     </div>
 
     <pcase
-      heading="Constantly learning"
-      para="
-          Being such a small team, we were able to work incredibly agile.
-          We were always getting feedback from our customers and making changes
-          to better suit their needs (and our business goals of course). I did multiple sessions
-          of interviews for both conceptual ideas and usability testing. 
+      heading="Event Creator Experience"
+      para="Event creators plan and host events. They can list events, reach their audience,
+      and track performance and ticket sales, all in one place.
       "
       theme="theme_ft-event"
     />
 
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft-event/ft-event-organiser-hifi-mockups.jpg"
+            alt="event organiser website web page design"
+          />
+          <!-- <p class="ps black90">All pages</p> -->
+        </picture>
+      </div>
+    </div>
     <pcase
-      heading="The Smile says It all"
+      heading="The Admin Experience"
+      para="Admins keep everything running smoothly. They approve events, manage ticket
+      sales, and track which types of events are performing well.
+
+        <br><br>
+        The Analytics Dashboard helps them see trends, audience engagement,
+        and what’s working best on the platform.
+      "
+      theme="theme_ft-event"
+    />
+
+    <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <img
+            src="~assets/projects/ft-event/ft-event-admin-hifi-mockups.jpg"
+            alt="admin panel web page design"
+          />
+          <!-- <p class="ps black90">All pages</p> -->
+        </picture>
+      </div>
+    </div>
+    
+
+    <pcase
+      heading="Constantly Learning and Evolving"
       para="
-        The Project was long, challenging, pressure was immense. Each day there was something that put things on the edge.
-        For me designing was not straight ride but a rollercoaster ride. We kept our head down and hope high.  Any mistake from my side means, its gonna come in development
-        phase. At the time I was also learning Basic HTML CSS. And leaning itb helps my to move forward fast as I communicated better with
-        developer. Anyway The time we spend to build up the this project was a great leaning for everyone. 
-            
+        Working in a small, agile team meant we could quickly adapt to feedback. We consistently gathered
+        insights from users through interviews, usability tests, and real-world observations. Every iteration
+        was an opportunity to refine the platform—making event discovery, creation, and management smoother
+        for all user types. The learning never stopped, and neither did our commitment to building a seamless
+        experience.
             "
       theme="theme_ft-event"
     />
@@ -339,11 +432,12 @@ Feeding Trends website supports organisers via its cost effective event ticketin
           <picture>
             <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-team.jpg" />
             <img src="~assets/projects/ft-event/ft-event-team.jpg" alt="feeding trends team" />
-            <p class="ps white">FT Event Team</p>
+            <p class="ps black60">FT Event Team</p>
           </picture>
         </div>
       </div>
     </div>
+
 
     <!-- key Focus Area -->
 
@@ -374,36 +468,49 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       </div>
     </div>
 
+    <div class="p-image-100-duo">
+        <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+          <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+          <picture>
+            <source media="(max-width: 600px)" srcset="~assets/projects/ft-event/ft-event-hero-2.jpg" />
+            <img src="~assets/projects/ft-event/ft-event-hero-2.jpg" alt="Event Web Mockup" />
+            <p class="ps black60">FT Event Team</p>
+          </picture>
+        </div>
+      </div>
+<!-- 
     <div class="live-link_container" style="background-color:var(--secondary-color);">
       <LiveLink
         link="https://events.feedingtrends.com"
         text="Launch Site | events.feedingtrends.com"
       />
-    </div>
+    </div> -->
 
     <!-- conclusion -->
 
-    <div class="Takeaway">
-      <div class="contain">
-        <h2 class="p-para black50">Learnings</h2>
-        <div class="pm black70">
-          <p>
-            After layout and content strategy, It was time to set a
-            theme and colour palette It was time to design a simple,
-            clean and elegant showcase website. The accent colour I
-            choose was Dark moderate cyan.. Later on while project was
-            in design phase I chamged the theme from Cyan to Gradient feel,
-            to make it more contrast and modern feel.
-            I decided to use red as theme colour
-          </p>
-        </div>
-      </div>
-    </div>
+    <pcase
+      heading="A Journey of Challenges and Growth"
+      para="
+        This project was a long and challenging ride filled with high-pressure moments,
+        unexpected roadblocks, and countless refinements. Designing wasn’t just about creating interfaces;
+        it was about solving real problems and anticipating user needs. Every decision had a ripple effect
+        on development, making clear communication with developers crucial. Learning basic HTML and CSS
+        helped me bridge the gap between design and implementation, allowing for a smoother workflow.
+        <br>
+        <br>
+        Despite the challenges, we stayed focused, adapted, and pushed forward. Seeing the final product
+        come to life, knowing it would make event planning and discovery effortless, was the most rewarding
+        part of the journey. The experience reinforced a key lesson: every challenge is an opportunity to
+        learn, grow, and create something meaningful.
+            
+            "
+      theme="theme_ft-event"
+    />
 
     <div class="p-quote contain red">
       <blockquote>
-        Good design requires good communication, especially from machine to person,
-        indicating what actions are possible, what is happening, and what is about to happen.
+        Every decision has a ripple effect on development, making clear communication
+        with developers is crucial. 
       </blockquote>
     </div>
 
@@ -415,7 +522,7 @@ Feeding Trends website supports organisers via its cost effective event ticketin
 
     <!-- appreciate button -->
 
-    <Appreciate heading="Thanks for scrolling 3400 PX" subHeading="Click or tap to appreciate." />
+    <Appreciate heading="Thanks for scrolling 26,000 PX" subHeading="Click or tap to appreciate." />
 
     <!-- Project Footer Navigatrion -->
 
