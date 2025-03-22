@@ -244,13 +244,19 @@ Feeding Trends website supports organisers via its cost effective event ticketin
       theme="theme_ft-event"
     />
 
+
+
     <div class="p-image-100-duo">
       <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
         <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
         <picture>
-          <img src="~assets/projects/ft-event/ft-event-habit-loop.svg" alt="user habit lopp" />
-          <p class="ps black90">Normal user habit loop</p>
-        </picture>
+              <source
+                media="(max-width: 600px)"
+                srcset="~assets/projects/ft-event/ft-event-habit-loop-mobile.svg"
+              />
+              <img src="~assets/projects/ft-event/ft-event-habit-loop.svg" />
+              <p class="ps black90">Normal user habit loop</p>
+            </picture>
       </div>
     </div>
 
