@@ -20,7 +20,7 @@
     </div>
 
     <projecthero
-      pDate="2015-217 "
+      pDate="2015-2017 "
       pWebsite="TheBBDTimes"
       pCategory="Branding"
       pHeading="The BBD Times: Connect - Express - Grow "
@@ -38,7 +38,7 @@
       <div class="reveal-holder" data-aos="fade-up">
         <div class="reveal-block right theme_tbt" data-aos="reveal-right"></div>
 
-        <img src="~assets/projects/tbt/tbt-hero.jpeg" alt />
+        <img src="~assets/projects/tbt/tbt-hero.jpg" alt />
         <!-- <img class="fe-hero2" src="~assets/projects/fe/fe1.png" alt> -->
 
         <!-- <img src="~assets/projects/fe/fe1.png" alt> -->
@@ -46,13 +46,13 @@
     </div>
 
     <Preface
-      timeframe=" August 2015-April 2018 <br>
+      timeframe=" October 2015-April 2018 <br>
                   3 Years"
       tools="   Photoshop, Illustrator, After Effects <br>
                 Corel Draw, Adobe XD"
       role="  Graphic Designer, Social Media <br>
               Manager, Photographer"
-      team="  Team of 26 talented people
+      team="  Team of 26 talented people.
               Content Writers, <br> Web and App Developers, Marketer and Designer"
     />
     <!-- Preface -->
@@ -344,14 +344,17 @@ It was the beginning, the beginning of something awesome."
     <no-ssr>
       <agile>
         <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-1.jpg" alt="slider1" />
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-0.jpg" alt="slider1" />
+        </div>
+        <div class="slide">
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-1.jpg" alt="slider2" />
         </div>
 
         <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-2.jpg" alt="slider2" />
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-2.jpg" alt="slider3" />
         </div>
         <div class="slide">
-          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-3.jpg" alt="slider2" />
+          <img class="slide-img" src="~assets/projects/tbt/tbt-gallery-3.jpg" alt="slider4" />
         </div>
       </agile>
       

@@ -22,9 +22,10 @@
       pDate="October 2017 "
       pWebsite="elevito.com"
       pCategory="Product Design"
-      pHeading="Elevito: My own endeavor"
+      pHeading="Elevito: The Making of a Design Company, from college dreams to a real-world creative agency."
       pHeadingcolor="color:#FD3E5B;"
-      pSubheading="Designing for a design company."
+      pSubheading="Building a design-driven brand from scratch while learning,
+      experimenting, and pushing creative boundaries."
     />
     <!-- <div class="p-fe-hero_image">
       <img src="~assets/projects/fe/fe2.png" alt>
@@ -58,7 +59,7 @@
     <br />5 Month"
       tools=" Adobe Creative Suite, Zeplin,
             <br> Pen-Paper and lots of Ice-Tea"
-      role=" Art direction,Research,
+      role=" Art direction, Research,
     <br /> Content Strategy, UX, Order Pizza"
       team="  Shekhar, Govind, Fahad, Abhishek
             <br>Saurabh, Yash, Zainab and Me"
@@ -66,11 +67,13 @@
     <!-- Preface -->
     <pcase
       heading="Preface"
-      para=" Elevito- Coming up with this name was challenging in itself. Elevito was supposed to be a Designing company based in India.
-            We have been working from days when I got into my 7th semester of Engineering. Elevito- A team dedicated to producing only the best quality conteant
-            any brand would deserves.
+      para="Elevito is a digital design agency based in India, founded by some of my close friends,
+      including Yash Srivastava and me. Digital design was the primary motivation behind its creation.
+      So we hapen to have some skills and passion for digital products design and developement.
+      With little knowledge but a lot of enthusiasm for learning, we aimed to create a small agency where
+      we could work together on digital products for the clients we onboarded.
 
-
+     
     "
       theme="theme_elevito"
     />
@@ -78,16 +81,30 @@
     <!-- Backstory -->
 
     <pcase
-      heading="From Lucknow with love ❤"
-      para=" I started thinking of Elevito back at end of September 2017 while I was still In Lucknow, pursuing
-    Computer Science Engineering with some of my crazy friends who were so good in web development. Me and friend wanted
-    to do something of our own, one night I got a chance to do it under the hat of one of my Senior. It was really mind bending
-    for me and very challenging.
+      heading="The Making of Elevito"
+      para="The idea of Elevito started in around 2017 while I was still pursuing Computer Science
+      Engineering in Lucknow. Some of my friends were highly skilled in web development, and we all
+      wanted to work on something meaningful together. One night, an opportunity came my way under
+      the guidance of a senior, and we grabbed it.
     <br />
     <br />
-So here I was, crawling Pintrest, going through design agencies website, looking thirstily for some
-    inspiration that could move me. After few days of this or that, I found a specific visual split in half and
-    that's basically where the whole concept came from."
+
+    Coming up with the name Elevito was a challenge in itself. It was envisioned as a design
+    company based in India, dedicated to delivering high-quality content that brands truly deserve.
+    The journey began in my 7th semester of engineering when my friends and I decided to build something
+    of our own.
+
+    <br>
+    <br>
+So we started to envision how the Elevito brand would look. The first step as a designer was to create
+its brand identity and start working on the website design. I spent days exploring Pinterest, Awwwards,
+analyzing design agency websites, and searching for inspiration. After multiple iterations and creative
+explorations, a split-layout visual caught my attention, forming the foundation of Elevito’s design concept.
+<br>
+<br>
+
+It was an opportunity for us to challenge our creativity, without fixing
+any constraint or barrier. "
       theme="theme_elevito"
     />
 
@@ -101,16 +118,12 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
-        It was an opportunity for me to challenge our creativity, without fixing
-        any constraint or barrier.
+        The goal was to create a showcase website where we could present our work to potential
+      clients, demonstrating that we were the right team for their needs.
       </blockquote>
     </div>
 
-    <p class="contain just-para black90">
-      The purpose of the website was to showcase our works we have done so far
-      to clients and to demonstrate them that we are the people they are looking
-      far.
-    </p>
+
 
     <!-- <img
         class="p-image-100"
@@ -121,20 +134,16 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <pcase
       class="elevito-research-sec"
-      heading="Ideation and Research"
-      para=" After initial wireframing and running it past some UX friends and juniors
+      heading="Website Ideation and Research"
+      para=" After initial paper wireframe sketches, running it past some UX friends and juniors
       for feedback and tweaks, we kicked around some ideas for a theme. Coming up with layout
-      and working on it. We iterated and tweaked until we had something that was fun and as fluid
+      and working on it. We discussed from development perspective if the layout we have ideated will be feasible or not. After getting go ahead and
+      technical feedback,
+       we iterated and tweaked until we had something that was fun and as fluid
       as possible."
       theme="theme_elevito"
     />
-    <!-- <div class="p-image-100-container">
-      <picture>
-        <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-ideation-1.jpg" />
-        <img src="~assets/projects/elevito/elevito-ideation-1.jpg" alt="elevito ideation" />
-        <p class="ps">I know my writing is all messed up.</p>
-      </picture>
-    </div>-->
+
     <no-ssr>
       <agile>
         <div class="slide">
@@ -161,22 +170,14 @@ So here I was, crawling Pintrest, going through design agencies website, looking
       alt="Elevito web mockup"
     />-->
 
-    <div class="p-quote contain red">
-      <blockquote>
-        Ideas don't come out fully formed. They only become clear as you work on
-        them. You just have to get started.
-      </blockquote>
-    </div>
-
     <!-- Art direction Design-->
 
     <pcase
       heading="Art Direction + Design"
-      para="After layout and content strategy, it was  time to set a theme and colour palette.
-      It was time to design a simple, clean and elegant showcase website. The accent colour I choose
-      was <span class='elevito-text-bg1'>Dark moderate cyan.</span>. Later on while project was in design phase I changed
-      the theme from Cyan to <span class='elevito-text-bg2'>Gradient</span> feel, to make it more contrast and modern feel. I decided to
-      use red as theme colour
+      para="Once the layout and content strategy were in place, it was time to define a theme and color
+      palette. Initially, I chose a dark moderate cyan as the accent color. However, as the project evolved,
+      I switched to a gradient theme to add contrast and a modern touch. A shade of Red was finalized as the primary
+      theme color.
       "
       theme="theme_elevito"
     />
@@ -246,8 +247,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     <!-- Fonts, Colors & Patterns -->
     <pcase
       heading="Visual Design"
-      para="After many iteration and changes we finally fixed on a layout for pages and little by little I started adding details to it.
-      With constant collaboration with developers and content writer a story and theme got build up and the resulting design was loved by all.
+      para="After multiple iterations and refinements, we finalized a structured layout for the pages.
+      Step by step, I incorporated details to enhance the design. Collaborating closely with developers
+      and content writers, we crafted a compelling narrative that shaped the overall experience.
+      The final design was well-received by everyone involved.
     
       "
       theme="theme_elevito"
@@ -352,6 +355,18 @@ So here I was, crawling Pintrest, going through design agencies website, looking
     </div>
 
     <div class="p-image-100-duo">
+      <div class="reveal-holder" data-aos="fade-up" data-aos-once="true">
+        <div class="reveal-block right" data-aos="reveal-right" data-aos-once="true"></div>
+        <picture>
+          <source media="(max-width: 600px)" srcset="~assets/projects/elevito/elevito-usage-guide-mobile.jpg" />
+          <img src="~assets/projects/elevito/elevito-usage-guide.jpg" />
+          <p class="ps black80">Elevito Branding Guide</p>
+        </picture>
+      </div>
+    </div>
+
+
+    <div class="p-image-100-duo">
       <picture>
         <source
           media="(max-width: 600px)"
@@ -375,8 +390,8 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         />
       </picture>
     </div>
-
-    <liveLink link="http://elevito.com/" text="Launch Site" />
+<!-- 
+    <liveLink link="http://elevito.com/" text="Launch Site" /> -->
 
     <!-- key Focus Area -->
 
@@ -413,11 +428,10 @@ So here I was, crawling Pintrest, going through design agencies website, looking
         <div class="pm black70">
           <p>
             Elevito happen during my college time. It was my greatest learning
-            curve. I tried everything that I can do. In the beginning we did not
-            have many projects to showcase on the website, still somehow managed
-            to show 15 Projects, out of which 2 projects was fictional. It took
-            a lot of time like 2 months just on showcasing 15 projects, there
-            were times when tt became very boring, couldn't give the best, but
+            curve. At the start, we didn’t have many projects to showcase, still somehow we managed
+            to show 15 Projects, out of which 2 projects was fictional. It took two months just to
+            curate and present them properly. There were times when the process felt monotonous,
+            there were times when it became very boring, couldn't give the best, but
             with all support and love, I never lost enthusiasm and maintained
             the excitement. Whenever challenge arrived, there were people whom I
             could lean on. This was all possible because each and everyone came
@@ -429,13 +443,20 @@ So here I was, crawling Pintrest, going through design agencies website, looking
 
     <div class="p-quote contain red">
       <blockquote>
+        Ideas don't come out fully formed. They only become clear as you work on them.
+        You just have to get started.
+      </blockquote>
+    </div>
+<!--     
+    <div class="p-quote contain red">
+      <blockquote>
         One option is better than many. When you're communicating your process
         and solutions to a people who isn't always the key decision-maker, it's
         important to keep your points clear and concise enough for easy
         re-communication. Even though that person may appreciate the extra
         displayed effort, it can muddy the waters when feedback comes back out.
       </blockquote>
-    </div>
+    </div> -->
 
     <!-- End Line  -->
 
