@@ -884,22 +884,15 @@ view more work*/
 
 }
 
-@media screen and (max-width: px) {
-  .projects-footer-container::before {
-    content: none;
-  }
-}
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .projects-footer-container {
-
-
     height: 80vh;
     display: grid;
     grid-template-areas: 'b b'
       'a a';
-    background-color: aqua;
+    background-color: white;
 
   }
 
@@ -911,14 +904,12 @@ view more work*/
     width: 100%;
     object-fit: cover;
     height: 40vh;
-
   }
 
   .project-next>img {
     width: 100%;
     object-fit: cover;
     height: 40vh;
-
   }
 
   .p-text {
@@ -1134,7 +1125,6 @@ view more work*/
 
 .a-h-container {
   padding-top: 250px;
-  padding-bottom: 9%;
   width: 50%;
 }
 
@@ -1149,7 +1139,6 @@ view more work*/
 @media screen and (max-width: 1200px) {
   .a-h-container {
     padding-top: 250px;
-    padding-bottom: 9%;
     width: 70%;
   }
 }
@@ -1202,10 +1191,6 @@ view more work*/
     margin-bottom: 0px;
     margin-top: 0px;
   }
-
-  .a-h-container {
-    padding-top: 100px;
-  }
 }
 
 /*  be crazy */
@@ -1214,8 +1199,9 @@ view more work*/
 /* about mu photos hero */
 
 .about-section2 {
-  height: 85vh;
-  padding-top: 40px;
+  height: auto;
+  position: relative;
+  width: 100%;
 }
 
 .relative {
@@ -1223,45 +1209,49 @@ view more work*/
 }
 
 .me-images {
-  width: 65%;
-  left: 19%;
-  background-color: white;
+  width: 70%;
+    left: 14%;
   height: auto;
-  position: absolute;
+  position: relative;
 }
 
 .me-image1 {
   width: 80%;
-  position: absolute;
-  padding-top: 50px;
+  position: relative;
   left: 0%;
 }
 
 .me-image2 {
   width: 25%;
-  padding-top: 33%;
-  left: 51%;
-  position: absolute;
+    bottom: 0px;
+    left: 51%;
+    position: absolute;
 }
 
 .me-image3 {
   width: 22%;
   position: absolute;
-  padding-top: 43%;
+  bottom: -15%;
   right: 0%;
 }
 
 .me-image4 {
   width: 18%;
-  position: absolute;
-  padding-top: 23.5%;
-  left: 82%;
+    position: absolute;
+    bottom: 32%;
+    left: 82%;
 }
 
 .me-images>div>img {
   width: 100%;
 }
 
+
+@media screen and (max-width:1500px) {
+  .me-image3 {
+    bottom: -8%;
+  }
+}
 
 @media screen and (max-width:1200px) {
   .me-images {
@@ -1311,7 +1301,6 @@ view more work*/
 @media screen and (max-width:600px) {
 
   .about-section2 {
-    height: 85vh;
     padding-top: 100px;
   }
 
@@ -1348,20 +1337,12 @@ view more work*/
 
 @media screen and (max-width:500px) {
 
-  .about-section2 {
-    height: 80vh;
-    padding-top: 100px;
-  }
 
   .me-images {
     width: 100%;
     left: 0%;
   }
 
-  .about-section2 {
-    height: 90vh;
-    padding-top: 100px;
-  }
 
   .me-image1 {
     width: 138%;
@@ -1384,6 +1365,12 @@ view more work*/
 
 }
 
+/* Section 3 copy */
+
+.about-section3 {
+  position: relative;
+}
+
 .a-hello {
   /* 
   margin: 100px 0px 30px 0px; */
@@ -1394,7 +1381,7 @@ view more work*/
 }
 
 .a-hello_container {
-  padding: 100px 0px 20px 0px;
+  padding: 120px 0px 20px 0px;
 }
 
 /* Capability */
@@ -1583,7 +1570,7 @@ view more work*/
 .a-t-section {
   width: 100%;
   position: relative;
-  min-height: 100vh;
+  min-height: auto;
 }
 
 .a-t_bg_text {
@@ -2118,7 +2105,7 @@ view more work*/
   position: relative;
   width: 100%;
   bottom: 0px;
-  min-height: 70vh;
+  min-height: 550px;
   background-color: #F0F0F0;
   margin-top: -27px;
 }
@@ -2138,14 +2125,14 @@ view more work*/
 
 .a-footer_bg_text span {
   position: absolute;
-  top: 50%;
+  top: 36%;
   white-space: nowrap;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .a-footer-hand {
-  width: 130px;
+  width: 200px;
   position: absolute;
   bottom: 0px;
   left: 50%;
@@ -2212,7 +2199,7 @@ view more work*/
 
 @media screen and (max-width:800px) {
   .a-footer_bg_text {
-    font-size: 109px;
+    font-size: 150px;
   }
 
   .a-footer_bg_text span {
@@ -2223,6 +2210,10 @@ view more work*/
 @media screen and (max-width:600px) {
   .a-social-links {
     padding: 0px 90px 0px 12px;
+  }
+
+  .a-footer_bg_text {
+    font-size: 120px;
   }
 }
 
@@ -3238,7 +3229,7 @@ primary #8e55ff
     line-height: 140%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {  
   .p-quote blockquote {
     font-size: 28px;
     line-height: 130%;

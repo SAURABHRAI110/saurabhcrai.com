@@ -59,10 +59,12 @@ export default {}
   background-color: rgb(255, 255, 255);
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .p-all-nav {
     top: 51%;
   }
+}
+@media screen and (max-width: 600px) {
 
   .np_heading {
     font-size: 22px;

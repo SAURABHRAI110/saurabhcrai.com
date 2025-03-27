@@ -15,7 +15,7 @@
         <img src="~assets/svg/a.svg" alt="A" v-rellax="{ speed: -2, center: 0.5 }" />
       </div>
 
-      <div class="contain a-h-container">
+      <div class="contain w-h-container">
         <p
           class="pm a-h-subheading"
           data-aos="fade-up"
@@ -33,7 +33,7 @@
           data-aos="fade-up"
           data-aos-duration="900"
           data-aos-delay="600"
-        >Also Frontend Developer, I believe in things I do, I do all things with all my heart, even if it means losing my sleep for weeks.</p>
+        >and Frontend Developer, I believe in things I do, I do all things with all my heart, even if it means losing my sleep for weeks.</p>
       </div>
     </div>
 
@@ -56,7 +56,7 @@
         </div>
       </div>
     </div>
-    <a href></a>
+   
 
     <div class="about-section3">
       <div class="about-me-text a-hello_container contain">
@@ -873,7 +873,7 @@
               </a>
             </span>
           </p>
-        </div>
+        </div> 
       </div>
     </section>
 

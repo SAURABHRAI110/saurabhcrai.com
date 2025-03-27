@@ -231,7 +231,7 @@ export default {
   top: 0%;
   z-index: 900;
   background: white;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 29%);
   transition: all 0.3s;
 }
 
@@ -588,4 +588,8 @@ button.full-screen {
     top: 82%;
   }
 }
+
+
+
 </style>
+
