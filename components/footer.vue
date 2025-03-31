@@ -277,17 +277,17 @@ export default {}
   display: block;
   font-size: 12px;
   /* float: right; */
-  width: 50px;
-  height: 50px;
-  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  margin-left: 8px;
   margin-bottom: 10px;
 }
 
 .social-two {
   pointer-events: all;
   position: absolute;
-  width: 50px;
-  height: 50px;
+  width: 64px;
+  height: 64px;
   cursor: pointer;
 }
 
@@ -308,7 +308,7 @@ export default {}
 .social-four {
   position: absolute;
   pointer-events: none;
-  transform: matrix(1, 0, 0, 1, -48, 0);
+  transform: matrix(1, 0, 0, 1, -64, 0);
   height: 100%;
   transition: 0.3s cubic-bezier(0.4, 0, 0, 1);
 }

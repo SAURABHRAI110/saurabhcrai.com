@@ -207,7 +207,7 @@
           data-aos-delay="300"
           data-aos-anchor-placement="top-bottom"
           data-aos-offset="-200"
-        >Get Inspired</p>
+        >The Alphabet</p>
         <div
           @click="openModal"
           data-aos="fade-up"
