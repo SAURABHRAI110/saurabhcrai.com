@@ -20,7 +20,7 @@
     "@nuxtjs/sitemap": "^1.2.0",
     "aos": "^3.0.0-beta.6",
     "cross-env": "^5.2.0",
-    "highlight.js": "^9.15.9",
+    "highlight.js": "^9.18.2",
     "js-yaml": "^3.13.1",
     "markdown-it-highlightjs": "^3.0.0",
     "medium-zoom": "^1.0.4",
